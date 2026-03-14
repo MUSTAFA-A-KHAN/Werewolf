@@ -58,12 +58,34 @@ namespace Werewolf_Website
             //app.UseFacebookAuthentication(
             //   appId: "",
             //   appSecret: "");
-            var reg = RegistryKey.OpenBaseKey(RegistryHive.LocalMachine, RegistryView.Registry64).OpenSubKey("SOFTWARE\\Werewolf\\Web");
+
+            Func<string, string> GetWebRegValue = (key) =>
+            {
+                var env = Environment.GetEnvironmentVariable(key);
+                if (!string.IsNullOrEmpty(env))
+                {
+                    return env;
+                }
+                if (Environment.OSVersion.Platform == PlatformID.Win32NT)
+                {
+                    try
+                    {
+                        var reg = Microsoft.Win32.RegistryKey.OpenBaseKey(Microsoft.Win32.RegistryHive.LocalMachine, Microsoft.Win32.RegistryView.Registry64).OpenSubKey("SOFTWARE\\Werewolf\\Web");
+                        if (reg != null)
+                        {
+                            var val = reg.GetValue(key);
+                            if (val != null) return val.ToString();
+                        }
+                    }
+                    catch { }
+                }
+                return "";
+            };
 
             app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
             {
-                ClientId = reg.GetValue("GoogleClientId").ToString(),
-                ClientSecret = reg.GetValue("GoogleClientSecret").ToString()
+                ClientId = GetWebRegValue("GoogleClientId"),
+                ClientSecret = GetWebRegValue("GoogleClientSecret")
             });
         }
     }

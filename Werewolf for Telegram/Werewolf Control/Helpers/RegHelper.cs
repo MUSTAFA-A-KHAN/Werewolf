@@ -9,10 +9,28 @@ namespace Werewolf_Control.Helpers
 {
     public static class RegHelper
     {
-        private static RegistryKey _key = RegistryKey.OpenBaseKey(RegistryHive.LocalMachine, RegistryView.Registry64).OpenSubKey("SOFTWARE\\Werewolf");
+        private static RegistryKey _key = null;
+        static RegHelper()
+        {
+            if (Environment.OSVersion.Platform == PlatformID.Win32NT)
+            {
+                _key = RegistryKey.OpenBaseKey(RegistryHive.LocalMachine, RegistryView.Registry64).OpenSubKey("SOFTWARE\\Werewolf");
+            }
+        }
         public static string GetRegValue(string key)
         {
-            return _key.GetValue(key, "").ToString();
+            var env = Environment.GetEnvironmentVariable(key);
+            if (!string.IsNullOrEmpty(env))
+            {
+                return env;
+            }
+            if (_key != null)
+            {
+                var val = _key.GetValue(key, "");
+                if (val != null)
+                    return val.ToString();
+            }
+            return "";
         }
     }
 }

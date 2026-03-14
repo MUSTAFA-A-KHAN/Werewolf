@@ -56,7 +56,7 @@ using System.Linq;
 <#=Accessibility.ForType(container)#> partial class <#=code.Escape(container)#> : DbContext
 {
     public <#=code.Escape(container)#>()
-        : base(RegistryKey.OpenBaseKey(RegistryHive.LocalMachine, RegistryView.Registry64).OpenSubKey("SOFTWARE\\Werewolf").GetValue("BotConnectionString").ToString())
+        : base(RegHelper.GetRegValue("BotConnectionString"))
     {
 <#
 if (!loader.IsLazyLoadingEnabled(container))
