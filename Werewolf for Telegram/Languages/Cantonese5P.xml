@@ -7,7 +7,7 @@
 	19/04/18	- Added String: TannerEnd, SorcererEnd
 	10/07/17  	- Added String: "RandomModeQ", "RandomModeA"
 	10/07/17 	- Fixed String: "MinuteLeftToJoin", "SecondsLeftToJoin"
-	10/07/17	- Finetune up to "CupidChosen"
+	10/07/17	- Finetune up to "RecruiterChosen"
 	08/07/17	- Created Draft
     
 -->
@@ -343,25 +343,25 @@
 	<string key="ZombieVotedConvert">
 		<value>【{0}】話想感召【{1}】．.*]]</value>
 	</string>
-	<string key="CultConvertZombieHunter">
+	<string key="zoombiesConvertZombieHunter">
 		<value>【{0}】走撚左去傳教,,但原來【］］孤獨＊{1}●'】系驅魔人,,傳教失敗仲斷送埋性命．.*]]</value>
 	</string>
-	<string key="ZombieHunterKilledCultVisit">
+	<string key="ZombieHunterKilledzoombiesVisit">
 		<value>＊【{0}／一直都在_●'[[】諗住離傳尒教,,點知被尒一刀捅歹匕左．.*]]仲有 {1} 個牙⻖教魔徒.</value>
 	</string>
-	<string key="CultConvertYou">
+	<string key="zoombiesConvertYou">
 		<value>恭喜尒成為牙⻖教魔徒,,依家每晚尒刀可以拉一个人入教,,到最後所有人刀系教友就巧kai針^_^．.*]]</value>
 	</string>
-	<string key="CultTeam">
+	<string key="zoombiesTeam">
 		<value>e班系尒既教友︰【{0}】</value>
 	</string>
-	<string key="CultJoin">
+	<string key="zoombiesJoin">
 		<value>【{0}】入左教．.*]]</value>
 	</string>
-	<string key="CultVisitEmpty">
+	<string key="zoombiesVisitEmpty">
 		<value>【{0}】走撚左去傳教,,但系【{1} · 弒】吾响屋企．.*]]</value>
 	</string>
-	<string key="CultWins" isgif="true">
+	<string key="zoombiesWins" isgif="true">
 		<value>全部犭良歹匕晒,,所有活人信晒牙⻖教.343434【牙⻖教魔徒】winwin^_^．.*]]</value>
 	</string>
 	<string key="HunterVisitDead">
@@ -458,21 +458,21 @@
 		<value>尒既共囝之友︰【{0}】</value>
 	</string>
 	<!-- new strings May 6 2016-->
-	<string key="CultTargetDead">
+	<string key="zoombiesTargetDead">
 		<value>【{0}】已經歹匕左．.*]]</value>
 	</string>
 	<string key="GuardBlockedWolf">
 		<value>尒地諗住去食左【{0}】,,點知守護天使吾俾尒地入去,,仲趕返尒地返屋企.</value>
 	</string>
 	<!-- new strings May 9 2016-->
-	<string key="CultUnableToConvert">
+	<string key="zoombiesUnableToConvert">
 		<value>【{0}bbg】走撚左去傳教,,但【唯嬡sIu{1}】竟然吾肯入教.</value>
 	</string>
 	<!-- new string May 12 2016-->
 	<string key="NameExists">
 		<value>@{1},,尒個名同 {0} 撞左.言青尒改左名先入村.</value>
 	</string>
-	<string key="HarlotDiscoverCult">
+	<string key="HarlotDiscoverzoombies">
 		<value>尒見到【{0}】屋企有個黑闇祭壇,,原來佢系【牙⻖教魔徒 👤】．.*]]</value>
 	</string>
 	<!-- new string May 13 2016-->
@@ -560,7 +560,7 @@
 		<value>咁撚小事刀決定吾到,,點做大事啊．.*]]（夠鐘．.*]]）</value>
 	</string>
 	<!-- new strings june 10 2016 -->
-	<string key="RoleInfoCupid">
+	<string key="RoleInfoRecruiter">
 		<value>尔系邱比特,,着住條底褲由天堂離到凡間,,拎住一把弓同兩支箭.揀兩個人等佢地墮入愛河,,其中一个歹匕左,,另一个刀會自盡.</value>
 	</string>
 	<string key="RoleInfoDoppelganger">
@@ -572,7 +572,7 @@
 	<string key="RoleInfoSerialKiller">
 		<value>尔系剎仁空手👏🏻👏🏻,,岩岩越獄離到e條村,,尒生存既意義就系將全世界既腎攞晒返屋企擺.每晚,,尒刀可以去人地屋企偷兩粒腎.如果犭良離杀殳尒既話,,尒有20%機會俾佢地食左,,另外80%機會反杀殳翻佢地其中一隻.</value>
 	</string>
-	<string key="CupidChosen">
+	<string key="RecruiterChosen">
 		<value>邱比特見尒單身左咁耐,,揀左【-寂絕白勺*,,{0}]]^~_】做尒既戀人.佢歹匕左尒刀矛辦法生存落去,,如果尒地一齊捱到最後就會贏.</value>
 		<value>從今日開始,,【{0}】就系尒愛人,,無論系順境或是逆境,,富有或貧窮,,健康或疾病,,尒刀會同佢一齊同甘共苦.</value>
 	</string>
@@ -600,7 +600,7 @@
 	<string key="HunterKilledFinalShot">
 		<value>子彈貫穿了【{0}】既身體,,但倒地既獵人仍然吾放棄,,拎出佢把槍,,射向【{1}】,,直接系佢雙眼之間開左個窿::-/\- *..,\n【{2}】</value>
 	</string>
-	<string key="CultConvertSerialKiller">
+	<string key="zoombiesConvertSerialKiller">
 		<value>【{0}】走撚左去傳教,,點知俾【{1}】斬撚歹匕左．.*]]</value>
 	</string>
 	<string key="HunterShotWolfMulti">
@@ -618,7 +618,7 @@
 	<string key="GuardBlockedKiller">
 		<value>琴晚,,尒諗住去偷【{0}】果兩粒腎,,點知守護天使响度阻撚住晒,,尒唯有返屋企抖下拉.</value>
 	</string>
-	<string key="CultConvertHunter">
+	<string key="zoombiesConvertHunter">
 		<value>【{0}】走撚左去傳教,,點知俾【{1}】一槍打撚歹匕左．.*]]</value>
 	</string>
 	<string key="GuardKiller">
@@ -636,10 +636,10 @@
 	<string key="DGTransformToMason">
 		<value>【{0}】歹匕左,,尒成為了共囝會員,,尒既共囝之友︰【{1}】</value>
 	</string>
-	<string key="DGToCult">
+	<string key="DGTozoombies">
 		<value>【{0}】加入左偉大既牙⻖教．.*]]</value>
 	</string>
-	<string key="DGTransformToCult">
+	<string key="DGTransformTozoombies">
 		<value>【{0}】歹匕左,,尒成為了牙⻖教魔徒,,尒既教友︰【{1}】</value>
 	</string>
 	<string key="DGToWolf">
@@ -654,22 +654,22 @@
 	<string key="AskKill">
 		<value>尒想偷冰個粒腎腎?**'';;;;;')))</value>
 	</string>
-	<string key="LoverDied">
+	<string key="crewmateDied">
 		<value>明知愛這禾重男孩子,,也許只能如此,,隨着 【{0}】吞下最後一啖氣,, 【{1}】 趴左系佢另一半身上面喊,,佢無法承受如此巨大既哀傷,,於是佢吾系去冰度搵左把槍返離..對住自己太陽穴,,毫不猶豫咁扣下了板機...\n【{2}】</value>
 	</string>
 	<string key="AskDoppelganger">
 		<value>尒想變身做冰個?**'';;;;;')))（系佢歹匕左之後）</value>
 	</string>
-	<string key="AskCupid1">
+	<string key="AskRecruiter1">
 		<value>尒想冰個墮入愛河?**'';;;;;')))</value>
 	</string>
-	<string key="AskCupid2">
+	<string key="AskRecruiter2">
 		<value>佢既另一半系?**'';;;;;')))</value>
 	</string>
 	<string key="Hunter">
 		<value>獵人 🎯</value>
 	</string>
-	<string key="Cupid">
+	<string key="Recruiter">
 		<value>邱比特 🏹</value>
 	</string>
 	<string key="SerialKiller">
@@ -681,14 +681,14 @@
 	<string key="NewWCRoleModel">
 		<value>尒變左做里予囝,,尒既短命禾重系【{0}】.</value>
 	</string>
-	<string key="LoversWin">
+	<string key="crewmatesWin">
 		<value>愛是最大權利．.*]]【戀人】自私贏．.*]]</value>
 		<value>完了吧,,如無意外,,從今開始該好好戀愛．.*]]【戀人】自私贏．.*]]</value>
 	</string>
 	<string key="HunterKilledVisiter">
 		<value>响村中央既廣場,,【{0}】條屍攤撚左系度,,仲成身刀系子彈窿添.睇離佢琴晚偷襲獵人失敗::-/\- *..,\n【{1}】</value>
 	</string>
-	<string key="CultAttempt">
+	<string key="zoombiesAttempt">
 		<value>琴晚牙⻖教魔徒離上門推銷,,但系尒拒絕左佢地．.*]]</value>
 	</string>
 	<string key="AlreadyOnWaitList">
@@ -763,7 +763,7 @@
 	<string key="AboutFool">
 		<value>白痴囝,,尒以為自己系先G,,同樣尒每晚刀可以查一个人既身亻分,,不過多數刀系錯.</value>
 	</string>
-	<string key="AboutCult">
+	<string key="Aboutzoombies">
 		<value>牙⻖教魔徒每晚刀可以拉人入教（除左犭良）,,但系dd人吾系屋企就入吾到教.被入會既人會失去原來既身亻分.分身吾會入教；牙⻖教杀殳手／剎仁空手,,會杀殳尒.共囝、酒鬼、旁觀、槍手、叛徒、學徒先G、里予囝、白痴囝、邱比特、sIu皮必入教.其他人入教機率︰先G 40%,,獵人 50%,,被詛 60%,,守天 60%,,偵探 70%,,妓女 70%.如果獵人拒絕左尒,,佢有 50% 會杀殳尒.如果最後無晒犭良同連杀殳,,而且全村人刀信晒教,,咁就巧kai針^_^.</value>
 	</string>
 	<string key="AboutCH">
@@ -786,7 +786,7 @@
 			分身响第一晚可以揀一个目標,,若然佢歹匕左,,尒就會變身做佢.如果目標系入左教既共囝,,尒會變做廢共而吾系牙⻖教魔徒.分身入吾到牙⻖教,,要變左身先得.如果分身响遊戲結束時仲未變到身,,就會輸（除非佢既戀人winwin^_^）.
 		</value>
 	</string>
-	<string key="AboutCupid">
+	<string key="AboutRecruiter">
 		<value>
 			邱比特响第一晚可以揀兩個人等佢地墮入愛河,,其中一个歹匕左,,另一个刀會自盡.戀人會知道對方系重要既人,,但吾會知道對方既身亻分.如果戀人系唯二生存者,,佢地就巧kai針^_^,,不論佢地系咩身亻分.另外,,如果佢地其中一个贏左,,另一个刀會贏.（假設一个犭良一个系廢村,,無論最後村man贏定犭良贏,,戀人刀會贏.）邱比特自己跟村man贏.
 		</value>
@@ -967,10 +967,10 @@
 	<string key="AllowTannerA">
 		<value>已{0}挽家抽中sIu皮</value>
 	</string>
-	<string key="AllowCultQ">
+	<string key="AllowzoombiesQ">
 		<value>允許挽家抽中牙⻖教魔徒?**'';;;;;')))\n當前設定︰{0}</value>
 	</string>
-	<string key="AllowCultA">
+	<string key="AllowzoombiesA">
 		<value>已{0}挽家抽中牙⻖教魔徒</value>
 	</string>
 	<string key="ThankYou">
@@ -1127,7 +1127,7 @@
 	<string key="SerialKillerTeam">
 		<value>連杀殳陣營</value>
 	</string>
-	<string key="CultTeam">
+	<string key="zoombiesTeam">
 		<value>牙⻖教陣營</value>
 	</string>
 	<string key="TannerTeam">
@@ -1145,13 +1145,13 @@
 	<string key="SerialKillerTeamEnd">
 		<value>連杀殳陣營</value>
 	</string>
-	<string key="CultTeamEnd">
+	<string key="zoombiesTeamEnd">
 		<value>牙⻖教陣營</value>
 	</string>
 	<string key="TannerTeamEnd">
 		<value>sIu皮陣營</value>
 	</string>
-	<string key="CultConvertWolf">
+	<string key="zoombiesConvertWolf">
 		<value>【{0}】走撚左去傳教,,但原來【{1}】系犭良,,傳教失敗仲俾人咬甩左個頭．.*]]</value>
 	</string>
 	<string key="HarlotFuckedKilledPublic">
@@ -1168,7 +1168,7 @@
 	<string key="ZombieKilled">
 		<value>【{0}】歹匕撚左响個黑闇祭壇度,,身上佈滿幾百個窿,,心臟位置仲插住一支蠟蠋臺,,應該系俾人用蠟蠋臺無限穿插至歹匕.又一个被剎仁空手杀殳既受害人,,無分語言、膚色同宗教,,全部刀系剎仁空手既獵物.【牙⻖教魔徒 👤】歹匕左 T_T.</value>
 	</string>
-	<string key="CupidKilled">
+	<string key="RecruiterKilled">
 		<value>第二朝,,村man見到愛神既象徵－－【{0}】既屍體散落响村中央,,決定全村默哀三秒鐘,,葬返佢條臭屍.不過佢地搵左好耐刀搵吾撚到佢對腎. . . . 【邱比特 🏹】歹匕左 T_T.</value>
 	</string>
 	<string key="DrunkKilled">
@@ -1198,10 +1198,10 @@
 	<string key="SerialKillerKilledCH"> <!--used when CH visits SK-->
 		<value>天一光,,村man就發現左【{0}】條屍散修修咁,,浸左系村個水池入面.睇真dd,,乜原來條頸掛住辟牙⻖用既十字架同大蒜,,隔尼仲有把用離斬妖除魔既黑刀.真系陰鳩公囉,,牙⻖教魔徒又杀殳吾撚到,,仲要輸埋兩粒腎.【驅魔人 💂】歹匕左 T_T.</value>
 	</string>
-	<string key="CultConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
+	<string key="zoombiesConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
 		<value>吾知系咪拜神拜到腦裝屎,,琴晚【{0}】拎住果牙⻖神像鳩鳩下咁衝左入間犭良屋度,,仲指住其中一隻犭良講「比利卡比利那那,,撲撲利那比比路多」.本來班犭良刀未夠鐘嗌肚餓既,,見有筍里予送上門,,轉個頭就將e條ON9囝咬到血肉模糊.【牙⻖教魔徒 👤】歹匕左 T_T.</value>
 	</string>
-	<string key="CultConvertKillerPublic"> <!--used when Zombies convert the SK-->
+	<string key="zoombiesConvertKillerPublic"> <!--used when Zombies convert the SK-->
 		<value>琴晚【{0}】仲諗住捉人返總部,,舉行神聖既性交洗禮,,點撚知捉着個癲亻老,,傳吾撚到教之餘連閪刀屌吾到,,最慘系連條命刀矛撚埋,,剩返條無左兩粒腎既鹹魚趴左响座黑暗祭壇前面.【牙⻖教魔徒 👤】歹匕左 T_T.</value>
 	</string>
 	<string key="GAGuardedKiller"> <!-- used when GA guards SK -->
@@ -1345,7 +1345,7 @@
 	</string>
 
 	<!-- Config added 2017 MAY 25 -->
-	<string key="AllowCult">
+	<string key="Allowzoombies">
 		<value>角色／牙⻖教魔徒</value>
 	</string>
 	<string key="AllowTanner">
@@ -1583,7 +1583,7 @@
 		<!-- 0 - mason collegues's name -->
 		<value>你成為了共濟會員，你ge共濟之友︰【{0}】</value>
 	</string>
-	<string key="ThiefToCult">
+	<string key="ThiefTozoombies">
 		<!-- 0 - old Zombie's name -->
 		<!-- 1 - new Zombie's name -->
 		<value>【{0}】唔再系你geｆｄ子，而【{1}】就系你新ge教友。</value>

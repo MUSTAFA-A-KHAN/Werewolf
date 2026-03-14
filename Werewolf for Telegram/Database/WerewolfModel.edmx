@@ -190,7 +190,7 @@
           <Property Name="LynchTime" Type="int" />
           <Property Name="AllowTanner" Type="bit" />
           <Property Name="AllowFool" Type="bit" />
-          <Property Name="AllowCult" Type="bit" />
+          <Property Name="Allowzoombies" Type="bit" />
           <Property Name="ShowRolesEnd" Type="nvarchar" MaxLength="50" />
           <Property Name="MaxPlayers" Type="int" />
           <Property Name="DisableFlee" Type="bit" />
@@ -356,7 +356,7 @@ warning 6002: The table/view 'werewolf.db_owner.v_NonDefaultGroups' does not hav
           <Property Name="LynchTime" Type="int" />
           <Property Name="AllowFool" Type="bit" />
           <Property Name="AllowTanner" Type="bit" />
-          <Property Name="AllowCult" Type="bit" />
+          <Property Name="Allowzoombies" Type="bit" />
           <Property Name="UserName" Type="nvarchar(max)" />
           <Property Name="BotInGroup" Type="bit" />
           <Property Name="DisableNotification" Type="bit" />
@@ -713,7 +713,7 @@ warning 6002: The table/view 'werewolf.dbo.v_IdleKill24HoursMain' does not have 
     [v_NonDefaultGroups].[LynchTime] AS [LynchTime], 
     [v_NonDefaultGroups].[AllowFool] AS [AllowFool], 
     [v_NonDefaultGroups].[AllowTanner] AS [AllowTanner], 
-    [v_NonDefaultGroups].[AllowCult] AS [AllowCult], 
+    [v_NonDefaultGroups].[Allowzoombies] AS [Allowzoombies], 
     [v_NonDefaultGroups].[UserName] AS [UserName], 
     [v_NonDefaultGroups].[BotInGroup] AS [BotInGroup], 
     [v_NonDefaultGroups].[DisableNotification] AS [DisableNotification], 
@@ -896,7 +896,7 @@ warning 6002: The table/view 'werewolf.dbo.v_IdleKill24HoursMain' does not have 
           <Property Name="LynchTime" Type="Int32" />
           <Property Name="AllowTanner" Type="Boolean" />
           <Property Name="AllowFool" Type="Boolean" />
-          <Property Name="AllowCult" Type="Boolean" />
+          <Property Name="Allowzoombies" Type="Boolean" />
           <Property Name="ShowRolesEnd" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
           <Property Name="MaxPlayers" Type="Int32" />
           <Property Name="DisableFlee" Type="Boolean" />
@@ -975,7 +975,7 @@ warning 6002: The table/view 'werewolf.dbo.v_IdleKill24HoursMain' does not have 
           <Property Name="LynchTime" Type="Int32" />
           <Property Name="AllowFool" Type="Boolean" />
           <Property Name="AllowTanner" Type="Boolean" />
-          <Property Name="AllowCult" Type="Boolean" />
+          <Property Name="Allowzoombies" Type="Boolean" />
           <Property Name="UserName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
           <Property Name="BotInGroup" Type="Boolean" />
           <Property Name="DisableNotification" Type="Boolean" />
@@ -1676,7 +1676,7 @@ warning 6002: The table/view 'werewolf.dbo.v_IdleKill24HoursMain' does not have 
                 <ScalarProperty Name="LynchTime" ColumnName="LynchTime" />
                 <ScalarProperty Name="AllowTanner" ColumnName="AllowTanner" />
                 <ScalarProperty Name="AllowFool" ColumnName="AllowFool" />
-                <ScalarProperty Name="AllowCult" ColumnName="AllowCult" />
+                <ScalarProperty Name="Allowzoombies" ColumnName="Allowzoombies" />
                 <ScalarProperty Name="ShowRolesEnd" ColumnName="ShowRolesEnd" />
                 <ScalarProperty Name="MaxPlayers" ColumnName="MaxPlayers" />
                 <ScalarProperty Name="DisableFlee" ColumnName="DisableFlee" />
@@ -1739,7 +1739,7 @@ warning 6002: The table/view 'werewolf.dbo.v_IdleKill24HoursMain' does not have 
                 <ScalarProperty Name="LynchTime" ColumnName="LynchTime" />
                 <ScalarProperty Name="AllowFool" ColumnName="AllowFool" />
                 <ScalarProperty Name="AllowTanner" ColumnName="AllowTanner" />
-                <ScalarProperty Name="AllowCult" ColumnName="AllowCult" />
+                <ScalarProperty Name="Allowzoombies" ColumnName="Allowzoombies" />
                 <ScalarProperty Name="UserName" ColumnName="UserName" />
                 <ScalarProperty Name="BotInGroup" ColumnName="BotInGroup" />
                 <ScalarProperty Name="DisableNotification" ColumnName="DisableNotification" />

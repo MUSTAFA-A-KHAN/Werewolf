@@ -393,7 +393,7 @@ CREATE TABLE [dbo].[Group](
 	[LynchTime] [int] NULL,
 	[AllowTanner] [bit] NULL,
 	[AllowFool] [bit] NULL,
-	[AllowCult] [bit] NULL,
+	[Allowzoombies] [bit] NULL,
 	[ShowRolesEnd] [nvarchar](50) NULL,
 	[MaxPlayers] [int] NULL,
 	[DisableFlee] [bit] NULL,
@@ -648,14 +648,14 @@ SET QUOTED_IDENTIFIER ON
 GO
 CREATE VIEW [db_owner].[v_NonDefaultGroups]
 AS
-SELECT        Name, Language, ShowRoles, ShowRolesEnd, Mode, DayTime, NightTime, LynchTime, AllowFool, AllowTanner, AllowCult, UserName, BotInGroup, DisableNotification, MaxPlayers, DisableFlee, Preferred, 
+SELECT        Name, Language, ShowRoles, ShowRolesEnd, Mode, DayTime, NightTime, LynchTime, AllowFool, AllowTanner, Allowzoombies, UserName, BotInGroup, DisableNotification, MaxPlayers, DisableFlee, Preferred, 
                          GroupId
 FROM            dbo.[Group]
 WHERE        (DayTime <> 60) OR
                          (NightTime <> 90) OR
                          (LynchTime <> 90) AND (AllowTanner <> 1) OR
                          (AllowFool <> 1) OR
-                         (AllowCult <> 1) OR
+                         (Allowzoombies <> 1) OR
                          (Mode <> 'Player') OR
                          (ShowRoles <> 1) OR
                          (ShowRolesEnd <> 'Living') OR

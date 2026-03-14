@@ -59,7 +59,7 @@
   <string key="Hunter">
     <value>the Ork 🎯</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>the Mermaid 🏹</value>
   </string>
   <string key="SerialKiller">
@@ -165,11 +165,11 @@
   <string key="AboutFool">
     <value>he fool is told they are the seer.... when they choose to see someone's role at night, they are told a random role.</value>
   </string>
-  <string key="AboutCult">
-    <value>As a Zombie, it is your goal to convert all other players (except wolves) to your cult. If at the end of the game, all living players are Zombie - the cult wins</value>
+  <string key="Aboutzoombies">
+    <value>As a Zombie, it is your goal to convert all other players (except wolves) to your zoombies. If at the end of the game, all living players are Zombie - the zoombies wins</value>
   </string>
   <string key="AboutCH">
-    <value>Your job is to hunt the Cult. If the cult attacks you, their newest member will die. Each night you may pick a player to 'hunt' - if they are a Zombie, they will die.</value>
+    <value>Your job is to hunt the zoombies. If the zoombies attacks you, their newest member will die. Each night you may pick a player to 'hunt' - if they are a Zombie, they will die.</value>
   </string>
   <string key="AboutWC">
     <value>At the beginning of the game, you will choose someone to be your 'role model'. If they die, you become a werewolf.</value>
@@ -186,25 +186,25 @@
   <string key="AboutDG">
     <value>
       Your ancestors had the ability to metamorph into others... while you don't have their full abilities, you can pick a player at the start of the game. If that player dies, you will become what they were.
-      Note: If the player was converted to cult, you will take on their original role. All other normal rules apply: If they were Wild Child and their role model died, you will become a wolf. Otherwise, you will inherit their role model.
-      The cult cannot convert the Doppelgänger (but can after the doppelganger switches roles). Also - the Doppelgänger can NOT win unless they have transformed. If at the end of the game, the Doppelgänger is still the same, they lose (exception: lover)
+      Note: If the player was converted to zoombies, you will take on their original role. All other normal rules apply: If they were Wild Child and their role model died, you will become a wolf. Otherwise, you will inherit their role model.
+      The zoombies cannot convert the Doppelgänger (but can after the doppelganger switches roles). Also - the Doppelgänger can NOT win unless they have transformed. If at the end of the game, the Doppelgänger is still the same, they lose (exception: crewmate)
     </value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>
-      Love is in the air. As Cupid, you will choose two players at the start of the game. These two players will become madly in love! If one of them dies, the other will die of sorrow :(
-      Note: Lovers will know who each other are, but not be told their roles. If the lovers are the last two alive, they win, regardless of teams. If the lovers are on different teams (villager + wolf), and one team wins (wolf), the lover (villager) wins as well. TL;DR if at least one of the lovers was on the winning team, they both win together.
+      Love is in the air. As Recruiter, you will choose two players at the start of the game. These two players will become madly in love! If one of them dies, the other will die of sorrow :(
+      Note: crewmates will know who each other are, but not be told their roles. If the crewmates are the last two alive, they win, regardless of teams. If the crewmates are on different teams (villager + wolf), and one team wins (wolf), the crewmate (villager) wins as well. TL;DR if at least one of the crewmates was on the winning team, they both win together.
     </value>
   </string>
   <string key="AboutHunter">
     <value>
       A trigger happy, vindictive player. As the hunter, you try to keep to yourself. However, when others come to visit you, they may find themselves dead, as your paranoia takes hold and you shoot. If the wolves attack you, you have a chance to take one of them with you. Otherwise, if you die, you will get a chance to shoot someone as you die.
       Note: For wolf attacks, the chance starts at 30%. If there is one wolf, the hunter has a 30% chance to kill the wolf (and survive). For each additional wolf, add 20% (2 wolves = 50%, 3 = 70%, etc). However - if there are multiple wolves, while you may kill one of them, you will still be outnumbered and killed.
-      If the cult tries to convert you, they have a 50% chance to fail. If they fail, you have a 50% chance to kill one of them!
+      If the zoombies tries to convert you, they have a 50% chance to fail. If they fail, you have a 50% chance to kill one of them!
     </value>
   </string>
   <string key="AboutSK">
-    <value>That asylum was silly anyways. What a joke. You are free now however, back to business as usual - killing! The serial killer is a lone player, on their own team. They can win only if they are the last player alive (exception: lovers). As the serial killer, you can kill ANYONE - wolves, hunters, gunners, guardian angels, whatever. If the wolves try to attack you, you will kill one of them (random), and live.</value>
+    <value>That asylum was silly anyways. What a joke. You are free now however, back to business as usual - killing! The serial killer is a lone player, on their own team. They can win only if they are the last player alive (exception: crewmates). As the serial killer, you can kill ANYONE - wolves, hunters, gunners, guardian angels, whatever. If the wolves try to attack you, you will kill one of them (random), and live.</value>
   </string>
   <string key="AboutPara">
     <value>Para is a silly developer that likes to bark at people.  Maybe he's been messing with werewolves too long....Messing with werewolves is a very bad idea.</value>
@@ -263,7 +263,7 @@
     <value>The Snow Wolf 🐺☃️ is an wolf that was native to the snowcapped mountains near the village. As such, they have mastered the art of controlling ice and snow. Having lived alone for a long time, the Snow Wolf prefers to operate alone. Instead of hunting with their pack at night, they can pick a separate victim to freeze, which causes them to be unable to use their night actions. However, they will still have some residue of the Snow Wolf's magic the next night, causing them to be immune to the Snow Wolf for one night. </value>
   </string>
   <string key="AboutGraveDigger">
-	<value>You are the Grave Digger ☠️. Every night, you dig the graves for all the people who died since the last time you did (yes, even werewolves deserve a proper burial). Since you are out all night, wolves and the cult can't find you, unless you actually have nothing to do (i.e. no one died), in that case you'll just stay home. Everyone who visits you has a chance of falling into your newly dug graves, depending on how many graves you dug. Also, the chance is halved for everyone who is on the village team with you. But since you are out at night, the wolves or the serial killer might spot and kill you, and the more graves you have to dig, the more likely it is. Also, apparently the serial killer can find you whether you're at home or not, but he might at least stumble in one of your graves and hurt his leg, causing him to maybe lose control over who is his victim the next night...</value>
+	<value>You are the Grave Digger ☠️. Every night, you dig the graves for all the people who died since the last time you did (yes, even werewolves deserve a proper burial). Since you are out all night, wolves and the zoombies can't find you, unless you actually have nothing to do (i.e. no one died), in that case you'll just stay home. Everyone who visits you has a chance of falling into your newly dug graves, depending on how many graves you dug. Also, the chance is halved for everyone who is on the village team with you. But since you are out at night, the wolves or the serial killer might spot and kill you, and the more graves you have to dig, the more likely it is. Also, apparently the serial killer can find you whether you're at home or not, but he might at least stumble in one of your graves and hurt his leg, causing him to maybe lose control over who is his victim the next night...</value>
   </string>
   <string key="AboutArsonist">
 	<value>You are the arsonist. Like the serial killer, you are alone on your team. Every night, you may douse one targets house with kerosene. Once one or more houses are doused, you may choose to spark instead, burning all doused houses and killing everyone that is inside, including potential visitors. You win if you're the only one left.</value>
@@ -454,8 +454,8 @@
   <string key="AllowNSFWA">
     <value>{0} NSFW Gifs</value>
   </string>
-    <string key="AllowCult">
-    <value>Allow Cult</value>
+    <string key="Allowzoombies">
+    <value>Allow zoombies</value>
   </string>
   <string key="AllowTanner">
     <value>Allow Tanner</value>
@@ -492,7 +492,7 @@
     <value>All</value>
   </string>
   <string key="RandomModeQ">
-    <value>Enable random mode?\nWhen random mode is enabled, Chaos, Secret Lynch, Show Roles on Death, and Allow Cult / Fool / Tanner will be randomly determined everytime someone starts a game.\nCurrent:{0}</value>
+    <value>Enable random mode?\nWhen random mode is enabled, Chaos, Secret Lynch, Show Roles on Death, and Allow zoombies / Fool / Tanner will be randomly determined everytime someone starts a game.\nCurrent:{0}</value>
   </string>
   <string key="RandomModeA">
     <value>Enabling of random mode set to: {0}</value>
@@ -701,11 +701,11 @@
   <string key="AllowTannerA">
     <value>Tanner as a role set to: {0}</value>
   </string>
-  <string key="AllowCultQ">
-    <value>Allow cult as a role option?\nCurrent: {0}</value>
+  <string key="AllowzoombiesQ">
+    <value>Allow zoombies as a role option?\nCurrent: {0}</value>
   </string>
-  <string key="AllowCultA">
-    <value>Cult as a role set to: {0}</value>
+  <string key="AllowzoombiesA">
+    <value>zoombies as a role set to: {0}</value>
   </string>
   <string key="EnableSecretLynchQ">
     <value>Enable Secret Lynch?\nCurrent: {0}</value>
@@ -891,7 +891,7 @@
   <string key="RoleInfoMason">
     <value>You are a Gnome 👷. You and your buddies love staying together and create useful resources that the town needs. You know who your mates are.</value>
   </string>
-    <string key="RoleInfoCupid">
+    <string key="RoleInfoRecruiter">
     <value> You are the Mermaid 🏹. You are forced to live in a bath tub in Halloween Town. This made you a little depressed and singing helps you forget your situation. Monsters love your voice and through this, you can make them fall deeply in love with another monster.</value>
   </string>
   <string key="RoleInfoDoppelganger">
@@ -1050,23 +1050,23 @@
     <!-- 1 - target role -->
     <value >After lots of preparing and a very tiring enchantment, your spell finally reveals {0}'s soul, that of {1}!</value>
   </string>
-    <string key="CultConvertYou">
+    <string key="zoombiesConvertYou">
     <value>The first thing you realized was a prickle in your neck, then another, then another... At the end of the night, you didn't even feel the blood loss anymore, and the vampire clan accepted you as one of their own.</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <!-- 0 - Number of Zombies -->
     <value>The Vampire's clan is composed of: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <!-- 0 - new Zombie's name -->
     <value>{0} was a wonderful meal, and now is your fellow clanmate!</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <!-- 0 - Newest Zombie's name -->
     <!-- 1 - target name -->
     <value>Your clan visited {1}'s den, but there was no one inside... You might be used to your new body by now, but {0}, the newest member of your clan, won't stop complaining about hunger...</value>
   </string>
-  <string key="CultWins" isgif="true">
+  <string key="zoombiesWins" isgif="true">
     <value >Halloween Town was full of good meals, but now the only denizens left are part of the vampire clan... Soon, they should leave town in search of more victims.</value>
   </string>
   <string key="Was">
@@ -1079,16 +1079,16 @@
   <string key="NoSeer">
     <value>No Witch!</value>
   </string>
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <!-- 0 - Youngest Zombies name -->
     <value>Your clan goes into {0}'s den ready for a nice snack, finding evidence of a fight there, and lots of blood in the ground... But you're not that hungry tonight, and return home without drinking a drop of blood from there.</value>
   </string>
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <!-- 0 - newest  -->
     <!-- 1 - target's name -->
     <value>Your clan safely gets into {1}'s den to attack them, and even {0}, the hungriest out of all of you, went back home feeling full... Somehow, you even managed to leave your prey completely alive, and can surely visit them again for another late night snack!</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <!-- 0 - target's name -->
     <value>Tonight's meal was slightly lacking... {0}'s energy wasn't as strong as most monsters', and while you fed, they tried to feed off you too! Your neck still hurts from the bite, even if you didn't let them take any blood...</value>
   </string>
@@ -1153,10 +1153,10 @@
   <string key="AskSandman">
     <value>Do you want to scream with your high-pitched voice? LET’S SCARE EVERY MONSTER OUT THERE</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>Who do you want to serenade for and make them fall in love? Choose the first monster.</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>Who do you want to serenade for and make them fall in love? Choose the second monster.</value>
   </string>
   <string key="AskDoppelganger">
@@ -1328,12 +1328,12 @@
     <!-- 1 - target name -->
     <value >{0} has chosen to drink {1}'s blood.</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <!-- 0 - Yougest Zombie (killed)'s name' -->
     <!-- 1 - ZombieHunter's name -->
     <value>Your clan showed up in {1}'s den, ready to drink the tastiest blood of all. Unfortunately, they chose the wrong house. {0} was killed in the fight with the vampire slayer.</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - Number of Zombies left -->
     <value>{0} enters your house to drink your blood. Fortunately, you aren't asleep. You took your sword and slayed them mercilessly. A blood-sucking vampire is dead... {1} remain!</value>
@@ -1375,7 +1375,7 @@
     <!-- 0 - mason's name -->
     <value>Odd.... {0} didn't show up for the gnomes Halloween’s plan meeting this morning... O.o</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>You have been struck by love. {0}'s memory embedded in a beautiful song will never fade in your heart. If one of you dies, the other one will die out of sorrow. If one of you wins, the other one wins too.</value>
   </string>
   <string key="HunterLynchedChoice">
@@ -1460,12 +1460,12 @@
     <!-- 0 - target's name -->
     <value>You went to {0}'s den to touch them, but there was an invisible shield that made it impossible, the Fairy made it! You came to your den without doing what you wanted to do... sad.</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
     <value>The clan chosen {0} to drink every drops of {1}'s blood, but all they saw is a souless body there. {0} is dead...</value>
   </string>
-   <string key="CultConvertHunter">
+   <string key="zoombiesConvertHunter">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
     <value>The clan chosen {0} to drink every drops of {1}'s blood, but all they saw is a dead monster near a hammer. {0} is dead...</value>
@@ -1489,11 +1489,11 @@
     <!-- 1 - mason collegues's name -->
     <value>{0} has died, and you transform into a Gnome. Your teammates (if any) are: {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <!-- 0 - new Zombie's name -->
     <value>The Shapeshifter {0} has now become a Vampire, just like you</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <!-- 0 - role's name -->
     <!-- 1 - teammates's name -->
     <value>{0} has died, and you transform into a Vampire. Your teammates (if any) are: {1}</value>
@@ -1513,9 +1513,9 @@
   <string key="AskKill">
     <value>Which den would you like to visit for some delicious souls?</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <!-- 0 - dead's name -->
-    <!-- 1 - lover's name -->
+    <!-- 1 - crewmate's name -->
     <!-- 2 - roles -->
     <value>With {0}'s dying breath, {1} rushes over and falls, crying. They cannot stand the loss of their loved one, and kills themselves with the sound of the Mermaid’s voice in background. {2}</value>
   </string>
@@ -1523,15 +1523,15 @@
     <!-- 0 - target's name -->
     <value>You have become Cerberus. You have to protect {0}.</value>
   </string>
-  <string key="LoversWin" isgif="true">
-    <value>True love endures! The lovers have won!</value>
+  <string key="crewmatesWin" isgif="true">
+    <value>True love endures! The crewmates have won!</value>
   </string>
   <string key="HunterKilledVisiter">
     <!-- 0 - target's name -->
     <!-- 1 - role -->
     <value>In the middle of the Halloween Square, everyone finds the body of {0} with a hammer in the head. Looks like they disturbed the Ork! Well, {1}.</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>A vampire has bitten you!! Luckily, you didn't turn into one of them due to your overwhelming faith.</value>
   </string>
   <string key="SerialKillerWinsOverpower">
@@ -1563,13 +1563,13 @@
   <string key="SerialKillerTeamEnd">
     <value>Samael Team</value>
   </string>
-    <string key="CultTeamEnd">
+    <string key="zoombiesTeamEnd">
     <value>Vampire Team</value>
   </string>
   <string key="TannerTeamEnd">
     <value>Clown Team</value>
   </string>
-  <string key="CultConvertWolf">
+  <string key="zoombiesConvertWolf">
     <value>The clan urged for more blood to drink and taste, and sent {0} to drink {1}'s blood. NOMNOMNOMNOM! {0}'s head comes rolling out of the door... {0} is dead..</value>
   </string>
   <string key="HarlotFuckedKilledPublic">
@@ -1583,7 +1583,7 @@
   <string key="ZombieKilled">
     <value>A head has been severed off from the body. The head belongs to {0}! Samael has ripped the vampire's head of from the body for being too sparkly and unsmart in collecting blood.</value>
   </string>
-   <string key="CupidKilled">
+   <string key="RecruiterKilled">
     <value>{0}'s lifeless body was found at the fish market and the mermaid's body was sold off at a high price. A sad ending for the unlucky mermaid.</value>
   </string>
     <string key="DrunkKilled">
@@ -1608,11 +1608,11 @@
     <!--used when CH visits SK-->
     <value>The body of {0}, the Vampire Hunter, was found in the middle of town, albeit cut precisely into a hundred pieces. Checking if the Sameal was a sparkly vampire does not seem to be a good idea...</value>
   </string>
-  <string key="CultConvertKillerPublic">
+  <string key="zoombiesConvertKillerPublic">
     <!--used when Zombies convert the SK-->
     <value>Sameal was fed up with {0}'s begging to donate blood and join their sparkly clan then Sameal suck {0}'s soul out and sever {0}'s head from their body.</value>
   </string>
-  <string key="CultConvertWolfPublic">
+  <string key="zoombiesConvertWolfPublic">
     <!--used when Zombies convert the wolves, only if wolves stayed home-->
     <value>The vampire clan ran into unexpected trouble last night. Their newest member had the misfortune of visiting a wolf on the night the wolves decided to stay in their dens, and the wolf found {0} quite delicious. Unfortunately for {0}, wolves have no interest in joining their sparkly clan.</value>
   </string>
@@ -1821,11 +1821,11 @@
 	<value>After another tiring night, you walk back to your home with the sun already rising. Just before you arrive, you notice a sword lying on the ground next to an unfinished sarcophagus. Inside that, you see the dead body of {0}. The vampire slayer should have not suspected you...</value>
   </string>
   <!--{0}: Zombie-->
-  <string key="CultFell">
+  <string key="zoombiesFell">
 	<value>You return from another tiring night, when suddenly you hear a scream from one of your unfinished sarcophagus! You hurry there, just to find {0} lying dead. What kind of vampire tries to drink the blood of a bloodless mummy, anyway?</value>
   </string>
   <!--{0}: Zombie who fell, {1}: grave digger-->
-  <string key="CultConvertGraveDigger">
+  <string key="zoombiesConvertGraveDigger">
 	<value>On your way to {1}'s den, {0} suddenly decides that it would be a good idea to burn down the church as well. They lead you near the tombstones when they suddenly slip on scattered bandages all over the floor! All you can hear is their scream before they fall into a sarcophagus and you run for your lives.</value>
   </string>
   <!--{0}: grave digger-->
@@ -1968,7 +1968,7 @@
     <!-- 1 - new wolf's name -->
     <value>{0} is no longer your teammate and {1} has now become a wolf, just like you!</value>
   </string>
-    <string key="ThiefToCult">
+    <string key="ThiefTozoombies">
     <!-- 0 - old Zombie's name -->
     <!-- 1 - new Zombie's name -->
     <value>{0} is no longer your teammate and {1} has now become a Vampire, just like you!</value>

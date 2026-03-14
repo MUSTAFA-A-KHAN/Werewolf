@@ -384,29 +384,29 @@ variant="SAW MODE"/>
   <string key="ZombieVotedConvert" >
     <value >{0} vota per assumere {1}</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
 
     <value>{0} è stato inviato per assumere nell'Associazione {1}... ma era il Punitore di Proibite Slealtà... {0} è morto...</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
 
     <value>{0} ti ha fatto visita questo turno, per assumerti nell'Associazione....  ma hai deciso che era molto meglio applicare le regole. Un membro dell'Associazione per la Sopravvivenza è morto... {1} rimanenti...</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
 
     <value>Sei stato assunto nell'Associazione per la Sopravvivenza. Il vostro obbiettivo è allearvi affinché Jigsaw paghi per quello che ha fatto. Durante ogni Fase della Mala Sorte, potrete assumere qualcun'altro nell'Associazione...</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>Associazione Per la Sopravvivenza: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <value>{0} ha aderito all'Associazione...</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
 
     <value>{0} è stato inviato per assumere {1}, ma la sua cella era vuota...</value>
   </string>
-  <string key="CultWins" >
+  <string key="zoombiesWins" >
 
     <value >Jigsaw stava sorridendo mentre guardava vincere il popolo, ma il sorriso svanì quando l'Associazione per la Sopravvivenza lo uccise... L'Associazione ha vinto...</value>
   </string>
@@ -513,7 +513,7 @@ variant="SAW MODE"/>
     <value>  Gli altri Gemelli sono: {0}</value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
 
     <value>Andate nella cella di {0} per convertirlo, ma trovate solo il suo cadavere maciullato disteso in un lago di sangue...</value>
   </string>
@@ -522,7 +522,7 @@ variant="SAW MODE"/>
     <value>Dopo aver finito con {0}, ti senti soddisfatto, ma dopo una decina di minuti Jigsaw ti chiama e ti informa che il Medico ha curato {0}, rendendo vano il tuo lavoro...</value>
   </string>
   <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
 
     <value>Spedite {0} per assumere {1} nell'Associazione, ma egli rifiuta gentilmente l'offerta, ha troppa paura...</value>
   </string>
@@ -531,7 +531,7 @@ variant="SAW MODE"/>
 
     <value>@{1}, un Giocatore con il nome di {0} e' gia' entrato. Per favore cambia il tuo nome per partecipare. </value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
 
     <value>Ti rechi nella cella di {0} per salutarlo, e lui comincia a parlarti di una certa Associazione per sopravvivere. Cerca addirittura di convincerti ad entrare, ma sul più bello lo lasci per tornare nella tua cella...</value>
   </string>
@@ -624,7 +624,7 @@ variant="SAW MODE"/>
 	<value>Tempo scaduto...</value>
   </string>
   <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
 
     <value>Sei il Prete. In questo Gioco, speri vivamente di uscirne indenne, e confidi nella protezione di Dio. Inoltre, due dei concorrenti durante il gioco ti hanno chiesto di sposarli. Acconsenti alla richiesta e fatteli amici... Ti conviene...</value>
   </string>
@@ -672,7 +672,7 @@ variant="SAW MODE"/>
 
     <value>Il proiettile parte dalla canna della pistola, e colpisce {0} sul braccio. Dopo aver emesso un urlo di dolore, si rialza furibondo, e con un ultimo, debole sforzo punta la pistola alla testa di {1}. Non gli lascia nemmeno tempo di pensare o reagire, spara deciso, furioso, e poi stramazza a terra con un espressiome beffarda sul volto... {2}</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
 
     <value>{0} non sapeva che stava facendo la cosa più sbagliata. Aprendo la porta della cella di {1}, trova un losco figuro di spalle, che, appena {0} comincia a spiegare le qualità dell'Associazione per la Sopravvivenza, lo accoglie subito a suon di coltello. Sono assai sfacciati questi adepti per tentare di convertire Jigsaw...</value>
   </string>
@@ -696,7 +696,7 @@ variant="SAW MODE"/>
 
     <value>Le telecamere ti hanno rivelato che {0} è stato guarito dal Medico quando era ormai in fin di vita... Quel bastardo te la pagherà...</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
 
     <value>L'Associazione manda {0} per assumere {1} nell'Associazione, ma all'improvviso un colpo suona rumoroso e il corpo di {0} stramazza a terra accanto alla porta della cella di Will Hunt... {0} è morto....</value>
   </string>
@@ -716,11 +716,11 @@ variant="SAW MODE"/>
 
     <value>{0} è morto, e tu diventi un Gemello. I tuoi fratelli sono: {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
 
     <value>Il Compatito {0} ha aderito all'Associazione per la Sopravvivenza...</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
 
     <value>{0} è morto, e tu aderisci all'Associazione per la Sopravvivenza... I tuoi compagni sono: {1}</value>
   </string>
@@ -740,7 +740,7 @@ variant="SAW MODE"/>
 
     <value>Da chi vuoi purificare il mondo?</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
 
     <value>La morte di {0} costringe {1} ad onorare la promessa fatta. Si strappa quindi la collana che portava al collo, la apre e ne beve avidamente il contenuto. Dopo pochi minuti, Jigsaw manda un paio di uomini a prelevare il cadavere, scuotendo la testa in segno di disapprovazione... {2}</value>
   </string>
@@ -748,18 +748,18 @@ variant="SAW MODE"/>
 
     <value>Chi vuoi compatire?</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
 
     <value>Chi vuoi che siano i Coniugi? Scegli il primo Giocatore</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
 
     <value>Chi vuoi che siano i Coniugi? Scegli il secondo Giocatore</value>
   </string>
   <string key="Hunter">
     <value>Will Hunt🎯</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>il Prete🏹</value>
   </string>
   <string key="SerialKiller">
@@ -768,7 +768,7 @@ variant="SAW MODE"/>
   <string key="Doppelgänger">
     <value>il Compatito🎭</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
 
     <value>Il prete ha acconsentito alle vostre preghiere... Ora {0} è tuo coniuge... Avete entrambi promesso che se uno dei due morirà, l'altro seguirà la stessa sorte... Cercate di sopravvivere insieme, e scommetto che Jigsaw ne sarà colpito...</value>
   </string>
@@ -779,10 +779,10 @@ variant="SAW MODE"/>
   <string key="HunterKilledVisiter">
     <value>Dalla cella di Will Hunt provengono delle grida... Un proiettile ha trapassato il cranio di {0}, Will ansima per lo scampato pericolo e si stende per prendere una boccata d'aria... {1}</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>Dalla porta della cella, qualcuno ha tentato di assumerti in una certa associazione, ma tu hai negato energicamente. Meglio non rischiare...</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
   <value>I Coniugi sono gli ultimi rimasti. Jigsaw è rimasto colpito dal loro gioco di squadra quasi perfetto e li lascia andare con un ombra di sorriso per il riuscito esperimento. I Coniugi Vincono...</value>
   </string>
   <string key="SerialKillerWinsOverpower">
@@ -852,8 +852,8 @@ variant="SAW MODE"/>
   <string key="AboutFool">
     <value>un povero Folle che crede di essere il Veggente.... Quando sceglie di vedere il ruolo a qualcuno, gli verrà detto un ruolo casuale in partita. Nota: È più utile di quello che sembra, può sapere con esattezza i ruoli che ci sono in partita. Se vedete un ruolo, sarà in partita.</value>
   </string>
-  <string key="AboutCult">
-    <value>Come Satanista, il tuo obiettivo è convertire tutti gli altri giocatori (tranne i lupi) Al tuo culto. Se a fine partita, tutti i giocatori sono Satanisti, Vincono. \n Probabilità di convertire i seguenti ruoli: \n Sosia: 0% Finchè rimane sosia, è impossibile da convertire \n Veggente 40% Il veggente è il più difficile da convertire \n Angelo 60% Nota: Se protegge qualcuno, non lo troverai in casa \n Maledetto 60% \n Investigatore 70% \n Prostituta 70% Come l'angelo, se non è casa, non potrete convertirla \n Cacciatore 50% Avrai il 50% di convertire il cacciatore. Se fallite, C'è il 50% che vi spari.</value>
+  <string key="Aboutzoombies">
+    <value>Come Satanista, il tuo obiettivo è convertire tutti gli altri giocatori (tranne i lupi) Al tuo zoombieso. Se a fine partita, tutti i giocatori sono Satanisti, Vincono. \n Probabilità di convertire i seguenti ruoli: \n Sosia: 0% Finchè rimane sosia, è impossibile da convertire \n Veggente 40% Il veggente è il più difficile da convertire \n Angelo 60% Nota: Se protegge qualcuno, non lo troverai in casa \n Maledetto 60% \n Investigatore 70% \n Prostituta 70% Come l'angelo, se non è casa, non potrete convertirla \n Cacciatore 50% Avrai il 50% di convertire il cacciatore. Se fallite, C'è il 50% che vi spari.</value>
   </string>
   <string key="AboutCH">
     <value>Il tuo lavoro è estirpare i Satanisti. Se ti visitano, ucciderai il loro ultimo membro e saprai quanti satanisti sono rimasti. Ogni notte potrai visitare un giocatore: Se sono satanisti, li ucciderai. Sennò, tornerai a casa, come se nulla fosse successo.</value>
@@ -873,7 +873,7 @@ variant="SAW MODE"/>
   <string key="AboutDG">
     <value>Puoi scegliere un giocatore a inizio partita, erediti il suo ruolo \n Nota: Se il giocatore viene convertito ai satanisti, prenderai il suo ruolo originale. Tutte le altre regole normali si applicano: se erano bimbi ribelli e il loro modello è morto, diventerai un lupo. Sennò, erediterai il loro modello.\nI satanisti non possono convertire il Sosia (ma possono dopo che il sosia cambia ruolo) E - Il sosia NON può vincere a meno che si sono trasformati. Se a fine partita, il Sosia non si è trasformato, perde (eccezione: amante).</value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>A Inizio partita, sceglie due giocatori. Dopo diventa a tutti gli effetti un normale villico. Questi due diventeranno follemente innamorati e se uno dei due muore, l'altro morirà. Nota: gli amanti sanno chi è l'altro, ma non sanno il loro ruolo. Se gli amanti sono gli ultimi due vivi, loro vincono, indipendemente dal loro ruolo. Se gli amanti sono di due team diversi(esempio: lupo + villico), e un team vince (esempio: lupi), anche l'amante (esempio:villico) vince. \n TL;DR Se tutti e due gli amanti sono vivi a fine partita, e almeno uno dei due è nel team vincitore, vincono insieme</value>
   </string>
   <string key="AboutHunter">
@@ -1050,10 +1050,10 @@ variant="SAW MODE"/>
   <string key="AllowTannerA">
     <value>Conciatore come ruolo impostato a {0}</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>Ammettere i Satanisti in partita, come ruolo?\nAttualmente: {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>Satanista come ruolo impostato a {0}</value>
   </string>
   <string key="ThankYou">
@@ -1210,7 +1210,7 @@ variant="SAW MODE"/>
   <string key="SerialKillerTeam">
     <value>Team di Jigsaw</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>Team dell'Associazione per la Sopravvivenza</value>
   </string>
   <string key="TannerTeam">
@@ -1229,14 +1229,14 @@ variant="SAW MODE"/>
   <string key="SerialKillerTeamEnd">
     <value>Team di Jigsaw</value>
   </string>
-  <string key="CultTeamEnd">
+  <string key="zoombiesTeamEnd">
     <value>Team dell'Associazione per la Sopravvivenza</value>
   </string>
   <string key="TannerTeamEnd">
     <value>Team Misericordioso</value>
   </string>
   
-  <string key="CultConvertWolf">
+  <string key="zoombiesConvertWolf">
 	<value>Decidete di assumere {1} nell'Associazione ed inviate {0} a tale scopo. Mentre la Roulette gira i minuti si fanno sempre più lunghi, ma {0} non torna. Capite che ha visitato la cella sbagliata appena la Roulette smette di girare...</value>
 	</string>
     
@@ -1254,7 +1254,7 @@ variant="SAW MODE"/>
   <string key="ZombieKilled">
     <value>L'Associazione stavolta ha fatto un passo falso. {0} ha la testa coperta dalla maschera di Jigsaw, ma nel petto nudo del cadavere sono marchiate e ancora fumanti le parole:"Non potete più scappare". I fogli con i nomi dei probabili membri dell'Associazione sono ancora sparsi a terra, ma è difficile distinguere la calligrafia. Un Membro dell'Associazione per la Sopravvivenza è morto…</value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>Nemmeno la religione stavolta ha fermato la brutale condanna che Jigsaw ha affibbiato a {0}. Egli è appeso ad una croce ben lavorata, i chiodi conficcati nelle mani e nei piedi sono ormai rugginosi di sangue. La gola è aperta e Jigsaw vi ha abilmente infilato una coroncina del rosario, che percorre l'intera trachea fino allo stomaco, dentro il quale si può ancora distinguere la piccola croce di ferro del Gloria. Il breviario a terra è aperto sui Misteri del Dolore di Cristo... Il Prete è morto...</value>
   </string>
   <string key="DrunkKilled">
@@ -1284,10 +1284,10 @@ variant="SAW MODE"/>
   <string key="SerialKillerKilledCH"> <!--used when CH visits SK-->
     <value>Un'ultima speranza è stata concessa ai Giocatori, la misericordia di Jigsaw è forse pari a quella di Dio, e stavolta ha concesso il paradiso a chi era a un passo dall'inferno. {0} forse pensava di trovare un Membro dell'Associazione per la Sopravvivenza in quella cella, e invece ha trovato la morte, e i Giocatori una speranza... Il Punitore di Proibite Slealtà è morto...</value>
   </string>
-  <string key="CultConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
+  <string key="zoombiesConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
     <value>La lungimiranza degli SPEG non è paragonabile a quella di Jigsaw... Quando {0} ha visitato la cella sbagliata per aggiungere un Membro all'Associazione per la Sopravvivenza, la rabbia della regola infranta si è abbattuta su di lui, e se Jigsaw perdona, gli SPEG sono molto più spietati...</value>
   </string>
-  <string key="CultConvertKillerPublic"> <!--used when Zombies convert the SK-->
+  <string key="zoombiesConvertKillerPublic"> <!--used when Zombies convert the SK-->
     <value>Povero {0}. Voleva che l'Associazione per la Sopravvivenza guadagnasse un nuovo, gagliardo membro, e invece ne ha perso uno. Il suo corpo giace inerme nella sua cella, con le pagine dei progetti dell'Associazione ficcate nelle orbite degli occhi, e un rivolo solo di sangue che scivola fuori dalla maschera di Jigsaw, inchiodata al ventre...</value>
   </string>
   <string key="GAGuardedKiller">
@@ -1374,7 +1374,7 @@ variant="SAW MODE"/>
     <!-- {0} = list of people who have joined -->
     <value>{0} sono entrati nella Roulette negli ultimi 30 secondi.</value>
   </string>
-  <string key="AllowCult">
+  <string key="Allowzoombies">
     <value>Ammettere i Membri dell'Associazione</value>
   </string>
   <string key="AllowTanner">

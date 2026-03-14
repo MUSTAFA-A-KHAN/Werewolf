@@ -408,34 +408,34 @@
     <!-- 1 - target name -->
     <value >{0} has voted to renegotiate with and recruit {1}</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <!-- 0 - Yougest Zombie (killed)'s name' -->
     <!-- 1 - ZombieHunter's name -->
     <value>{0} was provided a pig's head, the negotiation forms, and went to recruit {1}, but they were the fake CPIB agent! RUN! Gosh, we lost {0} to the "CPIB"!</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - Number of Zombies left -->
     <value>{0} came to your house last night, ready to recruit you, but you managed to catch the slowest-running MLM and scare {0}'s wits; {1} remain! Clearly that ah long (loanshark) was too new!</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>The Money Lending Members (MLM) (Zombies) have recruited you, because you could not repay their debts! Once per night, you will be sent to hang a pig's head demanding for repayment... or a "job offer" with you! (Just your luck you are now an ah long (loanshark) with a pretty name, that's all!)</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <!-- 0 - Number of Zombies -->
     <value>Zombies: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <!-- 0 - new Zombie's name -->
     <value>{0} has become a Money Lending Member!</value>
     <value>{0} has turned over to being a Money Lending Member!</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <!-- 0 - Newest Zombie's name -->
     <!-- 1 - target name -->
     <value>{0} was sent to do your dirty work, and recruit {1}... but no one was home! All you could do was to hang a "notice".</value>
   </string>
-  <string key="CultWins" isgif="true">
+  <string key="zoombiesWins" isgif="true">
     <value>All the HDB agents have been busted, and the only people left standing are all Money-Lending Members! The MLM has won!</value>
     <value>All that is left in this estate are Money-Lending Members! No more pesky HDB agents or "do-gooder" residents! The MLM has won!</value>
   </string>
@@ -542,7 +542,7 @@
     <value> The other gossip aunties are: {0}</value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <!-- 0 - Youngest Zombies name -->
     <value>Your newest MLM heads over to {0}'s house to recruit them, but instead finds a ghostly house, scaring your wits. Maybe the HDB agents (wolves) beat you to it... eh? Or perhaps the owner was just enjoying a crass joke.</value>
   </string>
@@ -551,7 +551,7 @@
     <value>The HDB agents head to {0}'s house to evict them, but they are met by an auntie who squabbled with you for the entire night! Unable to win the auntie's "rojak" (mix) of English, Malay, Chinese, Tamil, with a pinch of Hokkien vulgarities, the HDB agents gave up, returned to their homes, unable to fulfil their KPI.</value>
   </string>
   <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <!-- 0 - newest  -->
     <!-- 1 - target's name -->
     <value>You send {0} to try to renegotiate with and recruit {1}, however they were unconvinced by your high interest rates. :(</value>
@@ -562,7 +562,7 @@
     <!-- 1 - name -->
     <value>@{1}, a player with the name {0} has already applied for a BTO flat. Please change your name to join.</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <!-- 0 - target's name -->
     <value>You send some freshly made laksa to {0}, but upon leaving, you question why there was a fresh pig’s head in the kitchen sink. You wonder if your neighbour has been paying you with dirty money, and greatly suspect the MLM is roaming around.</value>
     <value>Did you just serve freshly-made laksa to {0}, the money-lending member who really is an ah long (loanshark)? Maybe you should inform the estate...</value>
@@ -659,8 +659,8 @@
     <value>Too slow!</value>
   </string>
   <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
-    <value>You are the Matchmaker (cupid 🏹)! Although a dying trade, parents still approach you to matchmake their kids. Choose 2 unwilling parties to wed and satisfy their parents (and your pockets), so that they can get a BTO and stop pissing their parents off!</value>
+  <string key="RoleInfoRecruiter">
+    <value>You are the Matchmaker (Recruiter 🏹)! Although a dying trade, parents still approach you to matchmake their kids. Choose 2 unwilling parties to wed and satisfy their parents (and your pockets), so that they can get a BTO and stop pissing their parents off!</value>
   </string>
   <string key="RoleInfoDoppelganger">
     <value>You are the imitator (doppelganger 🎭). The MOE has taught you well. You have learnt to memorise the 词语手册 (book of phrases) back and forth and remembered every single organic chemistry reaction. However, you dream of actually living a life. What better than to imitate someone whom you always looked up to, so that you can live that person’s life when that person no longer lives in the estate!</value>
@@ -671,7 +671,7 @@
   <string key="RoleInfoSerialKiller">
     <value>You are the PONTIANAK!!! (serial killer 🔪) Everyone else is human, but humans fear ghosts! Every night, you may scare someone, forcing them to leave immediately (co-existence isn't possible)! The only exception is if you encounter someone who is speaking to the rambly auntie, who will then turn on you and rant so much that you give up!</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>You have been forced by your parents to wed. {0} is worse than Patricia Mok or Mark Lee, but you accept that you need to get a BTO after all. Your goal is for both of you to survive. If one of you disappears (gets evicted, gets scared out of your wits, chased away), the other one will no longer be eligible for a BTO under age 35, and hence elope with you (even if illegal).</value>
  	<value>The curse of the forced marriage! Now you must buy a BTO with {0} or else the parents will eventually nag you to madness! If your other "loved" one disappears, you would rather flee the HDB block 💔, but if both of you make it to the end, you have the entire block to yourself!</value>
   </string>
@@ -708,7 +708,7 @@
     <!-- 2 - target's role -->
     <value>Dying, {0} falls to the ground.... but not without exposing the dirty secrets of {1}, who the residents than chased out as well! {2}</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
   	<!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
     <value>{0} sneaks over to {1}'s house, pops open the door, and is immediately greeted by the Pontianak!!! {1} frightens {0} so badly {0} swore to leave the HDB estate with immediate effect! D:</value>
@@ -734,10 +734,10 @@
     <!-- 0 - target's name -->
     <value>You tried to scare {0}, but the 啰哩啰嗦 (Long-winded) auntie droned on and on... even after you had long drifted away. One-on-one is fine, but two humans to a ghost wasn't quite what you expected.</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
-    <value>The cult sends {0} to try to recruit {1}, but TNP reported of the MLM the next morning and {0} left due to shame.</value>
+    <value>The zoombies sends {0} to try to recruit {1}, but TNP reported of the MLM the next morning and {0} left due to shame.</value>
   </string>
   <string key="GuardKiller">
     <value>You tried to defend the ghost (you really think that was a good idea?), but the Pontianak opened the door! Fearing for your sanity, you fled, packed your belongings and left the haunted HDB block!!</value>
@@ -758,11 +758,11 @@
     <!-- 1 - mason collegues's name -->
     <value>{0} has disappeared from the estate, and you copy all her gossipy behaviour. Your new gossip auntie friend(s) (if any) is/are: {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <!-- 0 - new Zombie's name -->
     <value>The imitator {0} has learnt how to spray O$P$ and pretend to be a proper financial institute, joining the ranks of the MLM, just like you!</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <!-- 0 - role's name -->
     <!-- 1 - teammates's name -->
     <value>{0} has disappeared from the estate. You quickly burgle their flat, arming yourself with a can of red paint and illegal cash. Your fellow MLM (if any) are: {1}</value>
@@ -783,26 +783,26 @@
   <string key="AskKill">
     <value>Who do you want to scare?</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <!-- 0 - dead's name -->
-    <!-- 1 - lover's name -->
+    <!-- 1 - crewmate's name -->
     <!-- 2 - roles -->
     <value>With {0} vacating the flat, {1} "rushes over and falls", crying that they're no longer eligible for a new BTO flat 💔. Having already fallen out with their parents, {1} has also decided to pack their bags and leave the HDB estate (and be homeless). {2}</value>
   </string>
   <string key="AskDoppelganger">
     <value>Who do you want to copy if they ever vacate their flat?</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>Who do you want to force a marriage on? Choose the first player</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>Who do you want to force a marriage on? Choose the second player</value>
   </string>
   <string key="Hunter">
     <value>the Tape-recording Auntie (the Hunter) 🎯</value>
   </string>
-  <string key="Cupid">
-    <value>the Matchmaker (the Cupid) 🏹</value>
+  <string key="Recruiter">
+    <value>the Matchmaker (the Recruiter) 🏹</value>
   </string>
   <string key="SerialKiller">
     <value>the PONTIANAK! (the Serial Killer) 🔪</value>
@@ -814,15 +814,15 @@
     <!-- 0 - target's name -->
     <value>You have become the Intern. You watch {0}, in the hope that he or she does not fall to the HDB agents! However, you will be quick to turn your internship contract permanent if he or she gets evicted!</value>
   </string>
-  <string key="LoversWin">
-    <value>Everyone else is dead except the forced couple! They now have the whole block to themselves to cultivate their love; maybe they'll eventually truly love each other!</value>
+  <string key="crewmatesWin">
+    <value>Everyone else is dead except the forced couple! They now have the whole block to themselves to zoombiesivate their love; maybe they'll eventually truly love each other!</value>
   </string>
   <string key="HunterKilledVisiter">
     <!-- 0 - target's name -->
     <!-- 1 - role -->
     <value>Multiple copies of TNP featuring a scandal on {0} was found at the playground. Looks like the tape-recording auntie did not take to their nonsense kindly! {1}</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>A MLM tried to sell you a pyramid scheme with a pig's head, but you knew better not to believe in such snake oil. After all, trusting in the ah long (loanshark) is tantamount to giving up your life!</value>
   </string>
   <string key="AlreadyOnWaitList">
@@ -907,11 +907,11 @@
   <string key="AboutFool">
     <value>While there are hacktivists, there are also stupid script kiddies...\n \nOverconfidence is always in huge supply, and in the Script Kiddie (Fool)🃏 there is aplenty. Just because he has watched some self-hack videos and read articles by someone who has attended DEFCON, he thinks he can hack, when really, he's just pushing traffic onto 127.0.0.1. WHAT A FOOL!</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>Ah, I know what you are thinking about... those buggers hanging pigs' heads while claiming they come from some financial institution.\n \nThere are people who are Money-Lending Members (MLM) (Zombie) 👤! Well, the residents have illegal enterprises that will never get bank loans, so perhaps it's a great income opportunity to speak to them regarding "easy credit".</value>
   </string>
   <string key="AboutCH">
-    <value>"The rise in sex scams on WeChat hints that your illegal enterprise, perhaps, should be scamming the scammer"\n \nThe fake Corrupt Practices Investigation Bureau (CPIB) Officer (Cult Hunter) 💂 revels in scaring his fellow residents! He does not really have the tools to catch anyone with syndicates, but a pig's head is a dead giveaway. For some fun, visiting them means a MLM gets so frightened he gladly pays up! If the HDB agents ever catch you... you may well be hit by double charges!</value>
+    <value>"The rise in sex scams on WeChat hints that your illegal enterprise, perhaps, should be scamming the scammer"\n \nThe fake Corrupt Practices Investigation Bureau (CPIB) Officer (zoombies Hunter) 💂 revels in scaring his fellow residents! He does not really have the tools to catch anyone with syndicates, but a pig's head is a dead giveaway. For some fun, visiting them means a MLM gets so frightened he gladly pays up! If the HDB agents ever catch you... you may well be hit by double charges!</value>
   </string>
   <string key="AboutWC">
     <value>Where do I come from?\n \nThe orphan (Wild Child) 👶 never had a clue of his origins (maybe the rubbish chute). However, if his foster parents suddenly leave, or get evicted, he'll be all alone, and will have to find a job, especially since his fellow neighbours allowed the travesty of making his foster parents leave...</value>
@@ -929,8 +929,8 @@
     <value>This must be the top student!\n \nI'm talking about the Imitator (Doppelgänger) 🎭. Starting with memorising multiplication tables, he then goes on to memorising the 词语手册 and then onto organic chemistry. Now he's so good; he can essentially live someone's else's life, but that person must first disappear!\nNote: If the original resident was recruited by a MLM, they will take on their original role. All other normal rules apply: If they were the Orphan and their foster parents gone, the Imitator will sign up to be an HDB agent. Otherwise, they will inherit their foster parents.\nThe MLM cannot convince the student to think about money (but can after the Imitator switches roles). Also - the Imitator can NOT win unless they have take over a role. If at the end of the game, the Imitator is still the same, they lose (exception: forced marriage).
     </value>
   </string>
-  <string key="AboutCupid">
-    <value>You mean arranged marriages are still a thing?! *glares at conservative parents*\n \nThe Matchmaker (Cupid) 🏹 is the witness of an arranged marriage (really, just for the BTO). On command of their parents, they will wed just so that they can help improve Singapore's TFR!\n \nNote: The spouses will know who each other are, but not be told their roles. If the spouses are the last two alive, they win, regardless of teams. If the spouses are on different teams (HDB Agent + MLM), and one team wins (HDB Agent), the lover (MLM) wins as well. TL;DR if both lovers are alive at the end, and at least one of them was on the winning team, they both win together.
+  <string key="AboutRecruiter">
+    <value>You mean arranged marriages are still a thing?! *glares at conservative parents*\n \nThe Matchmaker (Recruiter) 🏹 is the witness of an arranged marriage (really, just for the BTO). On command of their parents, they will wed just so that they can help improve Singapore's TFR!\n \nNote: The spouses will know who each other are, but not be told their roles. If the spouses are the last two alive, they win, regardless of teams. If the spouses are on different teams (HDB Agent + MLM), and one team wins (HDB Agent), the crewmate (MLM) wins as well. TL;DR if both crewmates are alive at the end, and at least one of them was on the winning team, they both win together.
     </value>
   </string>
   <string key="AboutHunter">
@@ -1106,11 +1106,11 @@
   <string key="AllowTannerA">
     <value>Attention Seeker (Tanner) 👺 as a role set to: {0}</value>
   </string>
-  <string key="AllowCultQ">
-    <value>Allow Money-Lending Member (Cult) 👤 as a role option?\nCurrent: {0}</value>
+  <string key="AllowzoombiesQ">
+    <value>Allow Money-Lending Member (zoombies) 👤 as a role option?\nCurrent: {0}</value>
   </string>
-  <string key="AllowCultA">
-    <value>Money-Lending Member (Cult) 👤 as a role set to: {0}</value>
+  <string key="AllowzoombiesA">
+    <value>Money-Lending Member (zoombies) 👤 as a role set to: {0}</value>
   </string>
   <string key="ThankYou">
     <value>Thank you, have a good day :)</value>
@@ -1149,7 +1149,7 @@
     <value>You are the self-declared lawyer (Mayor 🎖). Actually, you know nuts, but once you claimed you got a degree from Coursera (which really doesn't mean much), the residents think your words carry double their weight.</value>
   </string>
   <string key="RoleInfoPrince">
-    <value>You are THE OBESE ONE (Prince 👑)!!! Probably enjoying too much of makcik’s super fattening laksa (and always choosing McDonalds for lunch and dinner), if the other residents chooses to chase you with a broomstick, they will find immense difficulty moving you, giving up simply because you are too obese. However, obesity is no excuse for the law.</value>
+    <value>You are THE OBESE ONE (Prince 👑)!!! Probably enjoying too much of makcik’s super fattening laksa (and always choosing McDonalds for lunch and dinner), if the other residents chooses to chase you with a broomstick, they will find immense diffizoombiesy moving you, giving up simply because you are too obese. However, obesity is no excuse for the law.</value>
   </string>
   <string key="RoleInfoClumsyGuy">
     <value>You are the Gambling Addict (Clumsy Guy 🤕). You visit RWS so often you think even the idea of chasing a neighbour from his/her unit is fun (you even asked for odds, remember?)! Half the time you decide… let’s play roulette with your neighbours.</value>
@@ -1167,7 +1167,7 @@
     <value>You are the HDB Scholar (Wolf Cub 🐶). You are high-flying, and so others are both envious and jealous of you. If you leave your job or lose your flat, the rest of the HDB agents will suddenly work doubly hard, knowing they may have hope to be promoted finally!</value>
   </string>
   <string key="PrinceLynched">
-    <value>As the village begins to chase {0} out of his house, they realise the immense difficulty of moving someone with a BMI of nearly 35 out. Instead, the residents kindly give him the namecard to Raffles Hospital, suggesting he needs it dearly.</value>
+    <value>As the village begins to chase {0} out of his house, they realise the immense diffizoombiesy of moving someone with a BMI of nearly 35 out. Instead, the residents kindly give him the namecard to Raffles Hospital, suggesting he needs it dearly.</value>
   </string>
   <string key="SorcererOther">
     <value>You try to speculate on {0}'s identity, but can't quite guess who {0} is. However, that's not the HDB agent or hacktivist.</value>
@@ -1265,7 +1265,7 @@
   <string key="SerialKillerTeam" deprecated="true">
     <value>The PONTIANAK Team!</value>
   </string>
-  <string key="CultTeam" deprecated="true">
+  <string key="zoombiesTeam" deprecated="true">
     <value>The Money-Lending Members</value>
   </string>
   <string key="TannerTeam" deprecated="true">
@@ -1284,14 +1284,14 @@
   <string key="SerialKillerTeamEnd">
     <value>The PONTIANAK Team!</value>
   </string>
-  <string key="CultTeamEnd">
+  <string key="zoombiesTeamEnd">
     <value>The Money-Lending Members</value>
   </string>
   <string key="TannerTeamEnd">
     <value>The Attention Seeking Team</value>
   </string>
   
-  <string key="CultConvertWolf">
+  <string key="zoombiesConvertWolf">
     <value>The money-lending members send {0} to try to convert {1}, but {0} was immediately flashed an eviction notice for such daring illegal money-lending! {0} has been evicted!</value>
   </string>
   <string key="HarlotFuckedKilledPublic"> <!-- used when Harlot visit's SK's victim, and dies -->
@@ -1309,7 +1309,7 @@
   <string key="ZombieKilled">
     <value>The Pontianak has claimed a new victim! {0} tried to go around hanging pigs' heads and spraying O$P$, only to be spooked by the Pontianak!</value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>The Pontianak has robbed the HDB flat of "love", frightening the Matchmaking Auntie, {0}, out of her wits! No more matchmakers in the HDB flat; time for singles to wait till they are 35 before getting their own BTO!</value>
   </string>
   <string key="DrunkKilled">
@@ -1340,10 +1340,10 @@
   <string key="SerialKillerKilledCH"> <!--used when CH visits SK-->
     <value>The fakery of the Fake Corrupt Practices Investigation Bureau Officer, {0}, was exposed. Visiting an apparition last night was so traumatising he had got his just desserts for scaring people with the law. Never visit the Pontianak, especially at night!</value>
   </string>
-  <string key="CultConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
+  <string key="zoombiesConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
     <value>The HDB agents were doing some OT and admin work at home when {0}, the newest Money-Lending Member, foolishly hung a pig's head at the HDB agents' homes. The arrest and eviction that followed was faster than lightning could strike.</value>
   </string>
-  <string key="CultConvertKillerPublic"> <!--used when Zombies convert the SK-->
+  <string key="zoombiesConvertKillerPublic"> <!--used when Zombies convert the SK-->
     <value>A pig's head would have scared a human, but {0} learnt it would not scare the Pontianak. The tables have turned, and {0} cut all ties with the Money-Lending Members and quietly disappeared, in the dark of the night.</value>
   </string>
   <string key="GAGuardedKiller"> <!-- used when GA guards SK -->
@@ -1426,8 +1426,8 @@
     <!-- NOTE: No space between {0} and joined. It will be added in the code if necessary-->
     <value>{0}joined the game in the last 30 seconds.</value>
   </string>
-  <string key="AllowCult">
-    <value>Allow Money-Lending Member (Cult) 👤</value>
+  <string key="Allowzoombies">
+    <value>Allow Money-Lending Member (zoombies) 👤</value>
   </string>
   <string key="AllowTanner">
     <value>Allow Attention Seeker (Tanner) 👺</value>
@@ -1464,7 +1464,7 @@
     <value>All</value>
   </string>
   <string key="RandomModeQ">
-    <value>Enable random mode?\nWhen random mode is enabled, Chaos, Secret Lynch, Show Roles on Death, and Allow Money-Lending Member (Cult) / Script Kiddie (Fool) / Attention Seeker (Tanner) will be randomly determined each time someone starts a game.\nCurrent:{0}</value>
+    <value>Enable random mode?\nWhen random mode is enabled, Chaos, Secret Lynch, Show Roles on Death, and Allow Money-Lending Member (zoombies) / Script Kiddie (Fool) / Attention Seeker (Tanner) will be randomly determined each time someone starts a game.\nCurrent:{0}</value>
   </string>
   <string key="RandomModeA">
     <value>Enabling of random mode set to: {0}</value>

@@ -342,25 +342,25 @@
   <string key="ZombieVotedConvert">
     <value>【{0}】 想將【{1}】 變成【狂信徒】。</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <value>【{0}】 比你叫左去將 【{1}】 變成狂信徒...但原來佢係【逢魔人】! \n你搞到 【{0}】 撕卡喇!</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <value>【{0}】 琴晚去左你屋企想令你變成狂信徒，經過激烈既搏擊，你將佢殺死左...\n仲有 【{1}】 個!</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>多謝相信邪神~你係新既【狂信徒】!!</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>狂信徒： 【{0}】</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <value>【{0}】 變成【狂信徒】了!</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <value>【{0}】 比你叫左去將人變狂信徒，但係 【{1}】 屋企無人!</value>
   </string>
-  <string key="CultWins">
+  <string key="zoombiesWins">
     <value>所有BOSS死晒，全世界都係狂信徒。\n狂信徒 勝出!</value>
   </string>
   <string key="HunterVisitDead">
@@ -457,21 +457,21 @@
     <value>  神子： 【{0}】</value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <value>你地最新加入嘅狂信徒去 【{0}】 屋企傳教時，發現果度好似有打鬥過嘅痕跡，周圍都係血...</value>
   </string>
   <string key="GuardBlockedWolf">
     <value>當BOSS想去 【{0}】 屋企殺人嘅時候，一個黑影出現係BOSS面前，聖騎士舉起巨劍，將BOSS擊退了!</value>
   </string>
   <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <value>你派出 【{0}】去搵 【{1}】 傳教。但，佢信念太強，你無法令佢變成狂信徒sosad!</value>
   </string>
   <!-- new string May 12 2016-->
   <string key="NameExists">
     <value>@{1}，已經有人叫{0}，唔該你改改個名先跑團!</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <value>你今晚諗住去【{0}】間屋強姦佢，再捉佢黃腳雞逼佢成為SP。\n當你爽完之後，你發現佢間屋嘅暗角位有個邪神神像...</value>
   </string>
   <!-- new string May 13 2016-->
@@ -553,7 +553,7 @@
   <value>你知道我憎人遲到嗎?(時間到!)</value>
   </string>
   <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
     <value>你係永遠的後日談既【死靈法師】。\n一開始你會揀兩個人制成人偶。如果佢地入面其中一個被完全解體(修復不能)，另一個會立即被狂氣填滿。\n備註：人偶會互相知道對方係邊個，但唔會知道對方身分。如果人偶係最後兩個存活就贏。</value>
   </string>
   <string key="RoleInfoDoppelganger">
@@ -565,7 +565,7 @@
   <string key="RoleInfoSerialKiller">
     <value>你係Paranoia裡面既【紅色大人】。你每晚都會拎支激光槍殺人，直到嗰D唔受電腦支配既渣渣全滅。\n但係反派BOSS黎殺你既話，你有20%機會俾佢地殺死，另外有80%機會反殺翻佢地其中一個。</value>
 	</string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>你被人...被人製成【人偶】，雖然你既外表性格甚至能力都同以前一模一樣，但你內在已經唔同。\n你知道 【{0}】同你一樣變成人偶，如果佢被完全解體，你都會立即被狂氣填滿而撕卡</value>
 	<value>死靈法師將你同 【{0}】一齊變成【人偶】! 你地兩個不是一齊生存到最後，就是共同迎接悲慘未來。</value>
   </string>
@@ -593,7 +593,7 @@
   <string key="HunterKilledFinalShot">
     <value>【{0}】 嘅身體變成白光開始消失， 【{0}】 拎出佢把生果刀，對住 【{1}】 飛過去，把刀係 【{1}】 兩條眼眉中穿過。\n【{2}】</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
 	<value>狂信徒派出 【{0}】 去 【{1}】 屋企傳教，點知 【{0}】白光一閃，佢就變左一堆灰燼！係咪係咁高科技丫\n【{0}】 撕卡....</value>
     <value>【{0}】 偷偷潛入左 【{1}】屋企，但紅色大人早已知道一切，【{1}】拎住把激光槍係咁ZAP佢， 再用匕首係 【{0}】 身上面寫上「電腦大人萬歲」六個大字。\n【{0}】 傳教失敗，死亡 :D</value>
   </string>
@@ -612,7 +612,7 @@
   <string key="GuardBlockedKiller">
     <value>你諗住ZAP底 【{0}】去將反叛者全部殺死，但係聖騎士嘅出現，令你嘅計劃失敗，你白白浪費左一晚....</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <value>狂信徒派出 【{0}】 去 【{1}】 屋企傳教，行先真係死先，屋企面無啦啦有幾下閃光， 【{0}】條屍係窗口飛左落街。\n【{0}】 撕卡....</value>
   </string>
   <string key="GuardKiller">
@@ -630,10 +630,10 @@
   <string key="DGTransformToMason">
     <value>【{0}】 已撕卡，你變左做神子。你班朋友仔係 (如有) ：【{1}】</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <value>忍者 【{0}】 變左做狂信徒, 就好似你咁!</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <value>【{0}】 已撕卡，你變左做狂信徒，你班朋友仔係 (如有) ： 【{1}】</value>
   </string>
   <string key="DGToWolf">
@@ -648,22 +648,22 @@
   <string key="AskKill">
     <value>你今晚想殺邊個?</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <value>【{1}】見到 【{0}】破碎的身體， 【{1}】就明白到佢根本修復唔到，諗到自己將來永遠要弧單一個，佢趴左係【{0}】身上面不斷喊，佢無法承受如此嘅哀傷。【{1}】狂氣滿值，活動不能\n【{2}】</value>
   </string>
   <string key="AskDoppelganger">
     <value>你希望邊一個村民撕卡之後，自己會得到佢既能力呢?</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>你想將個邊個製成【人偶】? 而家揀第一個</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>你想將個邊個製成【人偶】? 而家揀第二個</value>
   </string>
   <string key="Hunter">
     <value>男主角 🎯</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>死靈法師 🏹</value>
   </string>
   <string key="SerialKiller">
@@ -676,13 +676,13 @@
   <string key="NewWCRoleModel">
     <value>你係新既【書籍卿】! 你知道斷章係 【{0}】身上，佢死左你就會變成BOSS。</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
     <value>不死的人偶們站在村的中央，望著滿地的屍骸，迎來永遠的幸福。</value>
   </string>
   <string key="HunterKilledVisiter">
     <value>係TRPG村嘅中央 ，大家見到【{0}】 嘅屍體插住把生果刀，睇黎佢想偷襲男主角但得到左淒慘嘅下場。\n【{1}】</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>一位【狂信徒】試圖說服你成為佢地一份子，但係你拒絕左佢地。</value>
   <!-- New strings 15 June 2016-->
   </string>
@@ -757,7 +757,7 @@
   <string key="AboutFool">
     <value>【int30】系統你同你講你係超遊者，你每晚都同超遊者一樣可以「查」一個人嘅身份，不過系統多數都係呃你架喎！</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>【狂信徒】成個教會每晚可以揀一個人拉佢入教（除左BOSS同忍者），但係啲人如果唔喺屋企就唔會俾你拉入教。入左教既人會失去原來既身份。逢魔人／紅色大人會殺左你。神子、喵喵、規則控、男主角、超遊者朋友、書籍卿、int30、Fiasco一定會俾你拉入教。其他人入教機率︰超遊者 40%，San值近0 60%，聖騎士 60%，COC調查員 70%，666淫魔 70%。如果你拉唔倒Z入教，佢有 50% 會殺左你。最後最果無晒BOSS同紅色大人，而且全村人都入晒教，咁你就贏喇。</value>
   </string>
   <string key="AboutCH">
@@ -778,7 +778,7 @@
   <string key="AboutDG">
     <value>【忍者】喺第一晚可以揀一個目標，若然佢撕咗，你就會變左做佢個身份。如果目標係入左教嘅神子，你會變做神子而唔係狂信徒。忍者唔會俾人拉入狂信徒，要變左身先得。如果忍者喺團結束時仲未變到身，就會輸（除非你嘅人偶贏咗）。</value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>【死靈法師】你係永遠的後日談既死靈法師。\n喺第一晚可以揀兩個人令佢地變成人偶。如果佢地入面其中一個被完全解體(修復不能)，另一個會立即被狂氣填滿而行動不能。\n人偶會互相知道另一方係邊個，但唔會知道對方身分。如果最後得番人偶生存，不論佢地係咩身份，都淨係佢地獨贏。另外，如果佢地其中一個贏左，另一個都會贏。（假設一個係BOSS一個係村民，無論最後村民贏定BOSS贏，佢兩個都會一齊贏。）而死靈法師自己就跟村民陣營分勝負。
     </value>
   </string>
@@ -956,10 +956,10 @@
   <string key="AllowTannerA">
     <value>已{0}玩家抽中Fiasco</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>准許玩家抽中狂信徒？\n當前設定︰{0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>已{0}玩家抽中【狂信徒】</value>
   </string>
   <string key="ThankYou">
@@ -1113,7 +1113,7 @@
   <string key="SerialKillerTeam">
     <value>Paranoia(紅色大人)陣營</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>邪神(狂信徒)陣營</value>
   </string>
   <string key="TannerTeam">
@@ -1131,13 +1131,13 @@
 	<string key="SerialKillerTeamEnd">
 		<value>Paranoia(紅色大人)陣營</value>
 	</string>
-	<string key="CultTeamEnd">
+	<string key="zoombiesTeamEnd">
 		<value>邪神(狂信徒)陣營</value>
 	</string>
 	<string key="TannerTeamEnd">
 		<value>Fiasco陣營</value>
 	</string>
-	<string key="CultConvertWolf">
+	<string key="zoombiesConvertWolf">
 		<value>邪神派出【{0}】去【{1}】屋企傳教，點知下一秒就見到【{0}】個頭俾人斬甩咗飛咗出黎！\n【{0}】已死……</value>
 	</string>
 	<string key="HarlotFuckedKilledPublic">
@@ -1153,7 +1153,7 @@
 	<string key="ZombieKilled">
 		<value>一朝早村民就係【狂信徒】教會張神枱上面發現【{0}】俾人用個燭台插死咗。狂信徒【{0}】死咗。</value>
 	</string>
-	<string key="CupidKilled">
+	<string key="RecruiterKilled">
 		<value>天光喇……村民好傷心，佢地發現【{0}】條屍攤咗係廣場中間，但係佢個心臟唔知去咗邊……</value>
 		<value>今天……村民好開心，因為佢地發現【{0}】係廣場中間，但係佢個心臟唔知去咗邊……</value>
 	</string>
@@ -1185,11 +1185,11 @@
 		<!--used when CH visits SK-->
 		<value>尋晚狂信徒既殺手【{0}】明明諗住去滅教，點知原來佢去咗搵紅色大人。村民一起身就見到【{0}】條屍攤咗係村口……大家記住唔好再嘗試去搵連殺喇……</value>
 	</string>
-	<string key="CultConvertWolfPublic">
+	<string key="zoombiesConvertWolfPublic">
 		<!--used when Zombies convert the wolves, only if wolves stayed home-->
 		<value>難得今晚D BOSS想留係屋企抖下，偏偏狂信徒就揀咗去其中一隻BOSS間屋度到傳教！ 既然有人送上門BOSS就當然唔客氣啦。狂信徒新丁【{0}】就咁就俾BOSS斬死咗啦。</value>
 	</string>
-	<string key="CultConvertKillerPublic">
+	<string key="zoombiesConvertKillerPublic">
 		<!--used when Zombies convert the SK-->
 		<value>狂信徒尋晚興致勃勃咁去到一間屋度傳教，點知原來去錯咗紅色大人屋企。村民一起身就發現狂信徒新丁【{0}】條屍俾人斬碎撒咗係村口。</value>
 	</string>
@@ -1275,7 +1275,7 @@
 		<!-- {0} = list of people who have joined -->
 		<value>{0} 喺過去 30 秒加入咗遊戲。</value>
 	</string>
-	<string key="AllowCult">
+	<string key="Allowzoombies">
 		<value>准許【狂信徒】？</value>
 	</string>
 	<string key="AllowTanner">
@@ -1515,7 +1515,7 @@
 		<!-- 0 - mason collegues's name -->
 		<value>你成為了神子，你嘅神子同伴︰【{0}】</value>
 	</string>
-	<string key="ThiefToCult">
+	<string key="ThiefTozoombies">
 		<!-- 0 - old Zombie's name -->
 		<!-- 1 - new Zombie's name -->
 		<value>【{0}】唔再係你嘅同伴，而【{1}】就係你新嘅教友。</value>

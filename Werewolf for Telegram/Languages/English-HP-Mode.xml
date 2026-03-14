@@ -355,33 +355,33 @@
     <!-- 1 - target name -->
     <value>{0} has voted to replace {1} with a Dementor.</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <!-- 0 - Youngest Zombie (killed)'s name' -->
     <!-- 1 - ZombieHunter's name -->
     <value>{0} was sent to give the kiss of death and replace {1} with a Dementor ... However, he was Remus Lupin 💂, and had a great way to ward off the Dementors! {0} has returned to Azkaban.</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - Number of Zombies left -->
     <value>{0} went to your office last night, ready to administer the kiss of death and replace you ... But you had a great way to protect yourself. One of the Dementors 👤 returned to Azkaban ... {1} Dementor(s) remaining!</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>You received the kiss of death of a Dementor 👤 and was replaced by one of them. During the night, you can try to kiss them to death with your fellow Dementors and replace other wizards ...</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <!-- 0 - Number of Zombies -->
     <value>Dementors: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <!-- 0 - new Zombie's name -->
     <value>{0} received the kiss of death and was replaced by a Dementor!</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <!-- 0 - Newest Zombie's name -->
     <!-- 1 - target name -->
     <value>{0} was sent to give {1} the kiss of death ... But no one was in the chambers.</value>
   </string>
-  <string key="CultWins" isgif="true">
+  <string key="zoombiesWins" isgif="true">
     <value>All the Wizards have died and the only survivors are the Dementors 👤 ... The Dementors have won!</value>
   </string>
   <string key="HunterVisitDead">
@@ -486,7 +486,7 @@
     <value> Dumbledore's Army is formed by: {0}</value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <!-- 0 - Youngest Zombies name -->
     <value>The most recent member of the Dementors runs to the room of {0} to give the kiss of death and replace them with a Dementor, but it finds instead disorder, blood and pieces ... The objective has been assassinated!</value>
   </string>
@@ -495,7 +495,7 @@
     <value>The Death Eaters go to the quarter of {0} for the attack, but they are found with a high creature, elevated and surrounded by light, armed with a sword and a wand. Lily J. Potter 👼 comes out in defense of the target and, after a fight full of light effects, they return to their bedrooms defeated.</value>
   </string>
   <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <!-- 0 - newest  -->
     <!-- 1 - target's name -->
     <value>{0} has been sent to give the coup de grace and replace {1} with a Dementor, but their Patronus was too strong. :(</value>
@@ -506,7 +506,7 @@
     <!-- 1 - name -->
     <value>{1}, a wizard / witch with the name {0} has already joined the battle. Please change your name to enter Hogwarts.</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <!-- 0 - target's name -->
     <value>You went to the bedroom of {0} to kiss a little, but when you arrived you felt a feeling of emptiness, as if your soul left your body. On the return to the Room of Requirements you decide to eat a chocolate toad ...</value>
   </string>
@@ -549,19 +549,19 @@
     <value>Time's up!</value>
   </string>
   <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
     <value>You are Luna Lovegood 🏹. Sent to Hogwarts with your Spectrespecs and the love potion of Amortentia, on the first night, you can chose two wizards to fall in love with each other for the entire school year. If one of them dies, the other will die of sorrow. After deciding the two lovebirds, you can go back to following your life as a simple Wizard, still watching and fawning over the romance of two wizards.</value>
   </string>
   <string key="RoleInfoDoppelganger">
     <value>You are Nymphadora Tonks 🎭, a Metamorphmagus capable of modifying your own appearance without the use of spells or potions. Choose a wizard and when he dies you assume their role at Hogwarts.</value>
   </string>
   <string key="RoleInfoHunter">
-    <value>You are Harry Potter 🎯! Your wand is your lover and you are with her all the time - you even sleep with her. If you die, you can choose a wizard to kill. And if the Death Eaters visit you at night, you are not someone who would accept to die without a fight, but in the darkness, you can not choose who to kill and there is a chance you will miss.</value>
+    <value>You are Harry Potter 🎯! Your wand is your crewmate and you are with her all the time - you even sleep with her. If you die, you can choose a wizard to kill. And if the Death Eaters visit you at night, you are not someone who would accept to die without a fight, but in the darkness, you can not choose who to kill and there is a chance you will miss.</value>
   </string>
   <string key="RoleInfoSerialKiller">
     <value>You are Gellert Grindelwald 🔪. You are alone and the other wizards are nothing but your toys. With fear instilled in your psychotic mind, you sent yourself out to start a collection of wizards, dead wizards. Prepare your Killing Curse~!</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>Whenever you have the chance, you would glance at {0} and swoon over their abilities. You two would always stick together, alive or dead. If your partner is killed or sent to Azkaban, you will accompany them, to be together, forever.</value>
   </string>
   <string key="HunterLynchedChoice">
@@ -616,12 +616,12 @@
     <!-- 0 - target's name -->
     <value>You went to have a little fun with {0}. But upon getting there, Lily J. Potter 👼 ended your fun! No jokes for the night ...</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
     <value>The Dementors command {0} to kiss {1} till their death and replace them with a Dementor. Arriving there, {0} was greeted with an Expelliarmus followed by a Sectumsempra that was shot right into their chest! {0} is dead...</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
     <value>{0} sneaks over to {1}'s room, pops open the door, and is immediately greeted by a crazed maniac with a knife!!! {1} attempts to plunge the knife deep into {0}'s organs in alphabetical order, cackling the entire time! {0}, being a Dementor 👤, is unscathed, but being frightened by Grindelwald 🔪, they have decided to return to Azkaban.</value>
@@ -645,11 +645,11 @@
     <!-- 1 - mason collegues's name -->
     <value>{0} has died, and you become a member of Dumbledore's Army 👷.  Your teammates (if any) are: {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <!-- 0 - new Zombie's name -->
     <value>{0}, Nymphadora Tonks 🎭, was replaced by a Dementor.</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <!-- 0 - role's name -->
     <!-- 1 - teammates's name -->
     <value>With {0} dead, you accept your fate, and join the Dementors 👤. Your new partners (if any) are: {1}</value>
@@ -669,25 +669,25 @@
   <string key="AskKill">
     <value>Who do you want to kill tonight?</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <!-- 0 - dead's name -->
-    <!-- 1 - lover's name -->
+    <!-- 1 - crewmate's name -->
     <!-- 2 - roles -->
     <value>{0} gives their last breath, looking into their beloved's eyes, {1}, who holds their body on their knees. {1} can not stand the pain, and, with a wand, casts an Avada Kedavra on themselves... They will be together, even in the world of the dead. {2}</value>
   </string>
   <string key="AskDoppelganger">
     <value>Who do you want to become if they get sent to Azkaban?</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>Who do you want the lovebirds to be? Choose the first wizard.</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>Who do you want the lovebirds to be? Choose the second wizard.</value>
   </string>
   <string key="Hunter">
     <value>Harry Potter 🎯</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>Luna Lovegood 🏹</value>
   </string>
   <string key="SerialKiller">
@@ -700,7 +700,7 @@
     <!-- 0 - target's name -->
     <value>You have become the Draco Malfoy. Your awesome life example is: {0}.</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
     <value>True love endures! That's what you wanted, right? Love always wins!</value>
   </string>
   <string key="HunterKilledVisiter">
@@ -708,7 +708,7 @@
     <!-- 1 - role -->
     <value>When everyone wakes up, they find {0} dead in the middle of the Great Hall, totally emaciated due to the Sectumsempra. It seems that someone visited Harry Potter 🎯 and it went wrong! {1}.</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>In the middle of the night you feel a sadness, a void, as if your happiness was unburdening. You use your patronus, and the feeling subsides.</value>
   </string>
   <string key="AlreadyOnWaitList">
@@ -793,7 +793,7 @@ However, if you protect a Death Eater, you may have a fate worse than death.</va
   <string key="AboutFool">
     <value>Argus Filch 🃏 says he is a wizard ... But when he casts a spell, nothing happens. Argus Filch says he's a teacher, but what he does is mop the floors of Hogwarts... He's just a wannabe.</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>You are one of the Dementors 👤. During the night, you can choose someone to kiss, sucking away all their life force for them to become one of you. If all the remaining players at the end of the game are Dementors, they will rule all over Hogwarts!</value>
   </string>
   <string key="AboutCH">
@@ -814,15 +814,15 @@ However, if you protect a Death Eater, you may have a fate worse than death.</va
   <string key="AboutDG">
     <value>You are Nymphadora Tonks 🎭, a metamorphmagus capable of modifying your own appearance without the use of spells or potions. Choose a wizard and when they die, you assume their role at Hogwarts.</value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>
       Oh, how you love romance! You are Luna Lovegood 🏹, you will choose two players at the start of the game. These two players will become madly in love! If one of them dies, the other will die of sorrow :(
-      Note: Lovers will know who each other are, but not be told their roles. If the lovers are the last two alive, they win, regardless of teams. If the lovers are on different teams (Hogwarts + Death Eater), and one team wins (Death Eater), the lover (Hogwarts) wins as well. TL;DR if at least one of the lovers was on the winning team, they both win together.
+      Note: crewmates will know who each other are, but not be told their roles. If the crewmates are the last two alive, they win, regardless of teams. If the crewmates are on different teams (Hogwarts + Death Eater), and one team wins (Death Eater), the crewmate (Hogwarts) wins as well. TL;DR if at least one of the crewmates was on the winning team, they both win together.
       </value>
   </string>
   <string key="AboutHunter">
     <value>
-      YOU'RE A WIZARD, HARRY! You are Harry Potter 🎯, a strong Half-Blood Wizard who, for some odd reason, has an obsession with his wand. In your head, you tend to think that everyone is after your wand, so you would cast a spell  to prevent them from getting your wand. If the Death Eaters come after you, you may or may not be able to reverse their Killing Curse, so you may or may not be dead. If you die though, you are allowed to cast your last spell onto someone. Note: For wolf attacks, the chance starts at 30%. If there is one wolf, the hunter has a 30% chance to kill the wolf (and survive). For each additional wolf, add 20% (2 wolves = 50%, 3 = 70%, etc). However - if there are multiple wolves, while you may kill one of them, you will still be outnumbered and killed. If the cult tries to convert you, they have a 50% chance to fail. If they fail, you have a 50% chance to kill one of them!
+      YOU'RE A WIZARD, HARRY! You are Harry Potter 🎯, a strong Half-Blood Wizard who, for some odd reason, has an obsession with his wand. In your head, you tend to think that everyone is after your wand, so you would cast a spell  to prevent them from getting your wand. If the Death Eaters come after you, you may or may not be able to reverse their Killing Curse, so you may or may not be dead. If you die though, you are allowed to cast your last spell onto someone. Note: For wolf attacks, the chance starts at 30%. If there is one wolf, the hunter has a 30% chance to kill the wolf (and survive). For each additional wolf, add 20% (2 wolves = 50%, 3 = 70%, etc). However - if there are multiple wolves, while you may kill one of them, you will still be outnumbered and killed. If the zoombies tries to convert you, they have a 50% chance to fail. If they fail, you have a 50% chance to kill one of them!
     </value>
   </string>
   <string key="AboutSK">
@@ -985,11 +985,11 @@ However, if you protect a Death Eater, you may have a fate worse than death.</va
   <string key="AllowTannerA">
     <value>Tanner as a role set to: {0}</value>
   </string>
-  <string key="AllowCultQ">
-    <value>Allow cult as a role option?\nCurrent: {0}</value>
+  <string key="AllowzoombiesQ">
+    <value>Allow zoombies as a role option?\nCurrent: {0}</value>
   </string>
-  <string key="AllowCultA">
-    <value>Cult as a role set to: {0}</value>
+  <string key="AllowzoombiesA">
+    <value>zoombies as a role set to: {0}</value>
   </string>
   <string key="EnableSecretLynchQ">
     <value>Enable Secret Lynch?\nCurrent: {0}</value>
@@ -1152,13 +1152,13 @@ However, if you protect a Death Eater, you may have a fate worse than death.</va
   <string key="SerialKillerTeamEnd">
     <value>SK Team</value>
   </string>
-  <string key="CultTeamEnd">
-    <value>Cult Team</value>
+  <string key="zoombiesTeamEnd">
+    <value>zoombies Team</value>
   </string>
   <string key="TannerTeamEnd">
     <value>Tanner Team</value>
   </string>
-  <string key="CultConvertWolf">
+  <string key="zoombiesConvertWolf">
     <value>The Dementors send {0} to administer the Kiss on {1}, but instead, {0} disappears, seemingly sent back to Azkaban by the Death Eaters.</value> </string>
 
   <string key="HarlotFuckedKilledPublic">
@@ -1178,7 +1178,7 @@ However, if you protect a Death Eater, you may have a fate worse than death.</va
   <string key="ZombieKilled">
     <value>Everyone seems to feel a little happier. {0} the Dementor 👤 seems to have ran back to Azkaban. Gellert Grindelwald 🔪 must have scared this poor Dementor out of their (non-existent) mind!</value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>The next morning, Hogwarts was in shock to find {0} dead, her Spectrespecs smashed to smithereens, twinkling on the floor like ominous glitter. Luna Lovegood 🏹 may not have been the most popular person, but she definitely didn't deserve the death Gellert Grindelwald 🔪 gave her...</value>
   </string>
   <string key="DrunkKilled">
@@ -1210,11 +1210,11 @@ However, if you protect a Death Eater, you may have a fate worse than death.</va
     <!--used when CH visits SK-->
     <value>Remus Lupin 💂 may have been a smart man, but even the intelligent can fall prey to Gellert Grindelwald's 🔪 "antics". {0}'s bedroom was broken into and spray-painted with his house colours, using - you guessed it - his own blood.</value>
   </string>
-  <string key="CultConvertWolfPublic">
+  <string key="zoombiesConvertWolfPublic">
     <!--used when Zombies convert the wolves, only if wolves stayed home-->
     <value>Voldemort seems to have trained his followers well! Despite taking a day off from killing people, the Death Eaters 🐺 remained alert. {0}, a poor Dementor 👤, thought that they could catch a Death Eater offguard, but no - they've been sent back to Azkaban.</value>
   </string>
-  <string key="CultConvertKillerPublic">
+  <string key="zoombiesConvertKillerPublic">
     <!--used when Zombies convert the SK-->
     <value>The Dementors 👤 tried to give Gellert Grindelwald 🔪 the Kiss, but {0}, the newest member, was too spooked out by Grindelwald's so-called pranks and decided to return to Azkaban!</value>
   </string>
@@ -1299,8 +1299,8 @@ However, if you protect a Death Eater, you may have a fate worse than death.</va
     <!-- NOTE: No space between {0} and joined. It will be added in the code if necessary-->
     <value>{0}joined the game in the last 30 seconds.</value>
   </string>
-  <string key="AllowCult">
-    <value>Allow Cult</value>
+  <string key="Allowzoombies">
+    <value>Allow zoombies</value>
   </string>
   <string key="AllowTanner">
     <value>Allow Tanner</value>
@@ -1338,7 +1338,7 @@ However, if you protect a Death Eater, you may have a fate worse than death.</va
     <value>All</value>
   </string>
   <string key="RandomModeQ">
-    <value>Enable random mode?\nWhen random mode is enabled, Chaos, Secret Lynch, Show Roles on Death, and Allow Cult / Fool / Tanner will be randomly determined everytime someone starts a game.\nCurrent:{0}</value>
+    <value>Enable random mode?\nWhen random mode is enabled, Chaos, Secret Lynch, Show Roles on Death, and Allow zoombies / Fool / Tanner will be randomly determined everytime someone starts a game.\nCurrent:{0}</value>
   </string>
   <string key="RandomModeA">
     <value>Enabling of random mode set to: {0}</value>
@@ -1535,7 +1535,7 @@ However, if you protect a Death Eater, you may have a fate worse than death.</va
     <!-- 0 - mason collegues's name -->
     <value>Wanting to properly learn Defence Against the Dark Arts, you joined Dumbledore's Army 👷. Your teammates (if any) are: {0}</value>
   </string>
-  <string key="ThiefToCult">
+  <string key="ThiefTozoombies">
     <!-- 0 - old Zombie's name -->
     <!-- 1 - new Zombie's name -->
     <value>Strange, {0} is no longer your teammate and {1} has now become a being without spirit, that nonetheless seek life, just like you!</value>
@@ -1661,7 +1661,7 @@ However, if you protect a Death Eater, you may have a fate worse than death.</va
     <value>the Golden Snitch 💫</value>
   </string>
   <string key="RoleInfoNexus">
-    <value>You are the Golden Snitch 💫, a key item in making Hogwarts succeed in defeating Voldemort! Being a small, fluttery ball, you are difficult to catch. This makes it impossible for anyone to carry out any actions on you, and they will miss and hit someone random instead. However, this isn't the case for actions that will kill you (e.g. getting killed by Death Eaters).</value>
+    <value>You are the Golden Snitch 💫, a key item in making Hogwarts succeed in defeating Voldemort! Being a small, fluttery ball, you are diffizoombies to catch. This makes it impossible for anyone to carry out any actions on you, and they will miss and hit someone random instead. However, this isn't the case for actions that will kill you (e.g. getting killed by Death Eaters).</value>
   </string>
   <string key="AboutNexus">
     <value>The Golden Snitch 💫 was the first Snitch that Harry Potter caught. Currently, it contains something invaluable to Hogwarts. As a Golden Snitch, non-killing actions will miss you and hit a random person instead. However, your little wings can only get you so far... If you are chosen to be killed or sent to Azkaban, your enchantments will break, allowing yourself to be captured.</value>

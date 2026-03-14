@@ -314,25 +314,25 @@
   <string key="ZombieVotedConvert" >
     <value >{0} votou para converter {1}</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <value>{0} foi enviado(a) para fazer o trabalho sujo e converter {1}... Entretanto, ele era o Hal Jordan, e tinha uma câmara de tortura especial para os Lanternas Amarelos! {0} está morto(a)!</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <value>{0} foi à sua casa na noite passada, pronto(a) para te converter....  Mas você tinha uma câmara de tortura só pra esse tipo de gente. Um membro dos Lanternas Amarelos está morto... {1} restante(s)!</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>Você foi convertido(a) e agora é um membro dos Lanternas Amarelos.  Durante a noite, você poderá tentar converter outros cidadãos, heróis ou vilões.</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>Membros dos Lanternas Amarelos: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <value>{0} se juntou aos Lanternas Amarelos!</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <value>{0} foi enviado(a) para fazer o trabalho sujo e converter {1}... Mas ninguém estava em casa!</value>
   </string>
-  <string key="CultWins" isgif="true">
+  <string key="zoombiesWins" isgif="true">
     <value >Toda a Liga da Sombras morreu e as únicas pessoas sobreviventes pertencem aos Lanternas Amarelos...  Eles Venceram!</value>
   </string>
   <string key="HunterVisitDead">
@@ -430,21 +430,21 @@
     <value>  Os Titãs são: {0}</value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <value>O membro mais recente dos Lanternas Amarelos corre para a casa de {0} para fazer o trabalho sujo e convertê-lo(a), mas encontra uma bagunça, muito sangue e pedacinhos... Seu alvo estava morto!</value>
   </string>
   <string key="GuardBlockedWolf">
     <value>A liga se dirige à casa de {0}, para mais uma morte, mas lá dá de cara com uma pessoa alta, e extremamente rápida. O Flash sai em defesa do alvo e, após uma luta onde a liga não teve nenhuma chance, eles fogem para casa.</value>
   </string>
   <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <value>{0} foi enviado(a) para fazer o trabalho sujo, mas a energia de {1} era forte de mais para ser corrompida. :(</value>
   </string>
   <!-- new string May 12 2016-->
   <string key="NameExists">
     <value>@{1}, um(a) jogador(a) com nome {0} já se juntou à partida. Por favor mude seu nome para poder entrar no jogo.</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <value>Você dormiu na casa de {0} para se divertir um pouco, mas enquanto saía você notou através de uma porta semiaberta uma estranha lanterna dentro de um quarto...</value>
   </string>
   <!-- new string May 13 2016-->
@@ -520,7 +520,7 @@
 	<value>Tempo esgotado!</value>
   </string>
   <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
     <value>Você é a Hera. Enviada à Gotham, com todo seu poder para conquistar e unir as pessoas, você pode escolher dois jogadores que irão se amar para toda eternidade. Se um deles morrer, o outro morrerá de tristeza. Depois de unir dois amantes, você pode voltar ao seu papel como Cidadão.</value>
   </string>
   <string key="RoleInfoDoppelganger">
@@ -532,7 +532,7 @@
   <string key="RoleInfoSerialKiller">
     <value>Você é o Deathstroke. Seu time é você mesmo e os outros heróis e vilões não são mais que seus brinquedinhos. Toda noite você pode escolher um jogador para matar e adicionar para sua coleção de corpos.</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>Você foi atingido(a) pela magia do amor. A memória de {0} nunca deixará seu coração. Seu objetivo é que os dois sobrevivam. Se um de vocês morrer o outro irá até o mundo dos mortos para que ambos continuem juntos.</value>
   </string>
   <string key="HunterLynchedChoice">
@@ -575,10 +575,10 @@
   <string key="GuardBlockedKiller">
     <value>Você foi jogar um joguinho com {0}. Mas chegando lá o Flash acabou com sua diversão! Sem brincadeiras essa noite...</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <value>Os Lanternas Amarelos mandam {0} para converter {1}. Chegando lá, {0} foi surpreendido com uma flecha em sua cabeça, pelo jeito, mais uma vitima para o Arqueiro Verde! {0} tá morta...</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <value>Os Lanternas Amarelos mandam {0} para converter {1}. Chegando lá {0} descobre que era melhor ter escolhido outra pessoa. Seu corpo é encontrado aberto na rua, mas com os orgãos revirados. {0} está morta...</value>
   </string>
   <string key="GuardKiller">
@@ -596,10 +596,10 @@
   <string key="DGTransformToMason">
     <value>{0} morreu, e você agora é um Titã.  Seus companheiros (se houver) são: {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <value>O Clayface {0} se transformou em um membro dos Lanternas Amarelos.</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <value>{0} morreu, você entrou para os Lanternas Amarelos. Seus novos companheiros (se houver) são: {1}</value>
   </string>
   <string key="DGToWolf">
@@ -614,22 +614,22 @@
   <string key="AskKill">
     <value>Quem você quer matar essa noite?</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <value>{0} dá seu último suspiro olhando no fundo dos olhos de seu amado(a), {1}, que segura seu corpo de joelhos. {1} não aguenta a dor, e, com uma faca, perfura o próprio coração... Eles ficarão juntos, mesmo no mundo dos mortos. {2}</value>
   </string>
   <string key="AskDoppelganger">
     <value> Quem você escolherá para se transformar?</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>Quem será o casal? Escolha o primeiro amante.</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>Quem será o casal? Escolha o segundo amante.</value>
   </string>
   <string key="Hunter">
     <value>o Arqueiro Verde 🎯</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>a Hera 🏹</value>
   </string>
   <string key="SerialKiller">
@@ -641,14 +641,14 @@
   <string key="NewWCRoleModel">
     <value>Você se tornou a Arlequina. Seu modelo exemplar é {0}</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
     <value>Os amantes venceram! Queriam o que né? O Amor sempre vence!</value>
   </string>
   <string key="HunterKilledVisiter">
     <value>Quando acordam, vocês encontram {0} largado no meio da praça, parecendo uma peneira por causa dos tiros. Parece que alguém visitou o Arqueiro Verde e se deu mal! {1}</value>
   </string>
 
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>Alguém bateu na sua porta a noite, "Olá, você tem um minuto para ouvir a palavra dos Lanternas Amarelos?" Você fecha a porta na cara deles, sua fé é mais forte, mas você se esqueceu de olhar o rosto dele!</value>
   </string>
   <string key="AlreadyOnWaitList">
@@ -722,7 +722,7 @@
   <string key="AboutFool">
     <value>he fool is told they are the seer.... when they choose to see someone's role at night, they are told a random role.</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>Você é um Lanterna Amarelo.  Durante a noite, você poderá escolher alguém para converter ao seu grupo. Se todos os jogadores restantes ao final do jogo forem do seu grupo, vocês vencem!</value>
   </string>
   <string key="AboutCH">
@@ -745,7 +745,7 @@
      Você é o Clayface. Você é feito de barro e pode assumir qualquer forma que quiser! Escolha um jogador, quando ele morrer você assumirá o papel dele no jogo.
     </value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>
       Você é a Hera. Enviado à Gotham, com todo seu poder para atrair e unir pessoas, você pode escolher dois jogadores que irão se amar para toda eternidade. Se um deles morrer, o outro morrerá de tristeza. Depois de unir dois amantes, você pode voltar ao seu papel como Cidadão.
     </value>
@@ -929,10 +929,10 @@
   <string key="AllowTannerA">
     <value>Existência do Suicida (Coringa) definida como: {0}</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>Permitir a Seita como um papel possível?\nAtual: {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>Existência da Seita definida como: {0}</value>
   </string>
   <string key="ThankYou">
@@ -1093,7 +1093,7 @@ Talvez você ainda tenha algumas habilidades com suas armas. Quem sabe? Talvez e
   <string key="SerialKillerTeam">
     <value>Time Deathstroke</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>Time dos Lanternas Amarelos</value>
   </string>
   <string key="TannerTeam">
@@ -1111,13 +1111,13 @@ Talvez você ainda tenha algumas habilidades com suas armas. Quem sabe? Talvez e
 - <string key="SerialKillerTeamEnd">
   <value>Time Deathstroke</value> 
   </string>
-- <string key="CultTeamEnd">
+- <string key="zoombiesTeamEnd">
   <value>Time dos Lanternas Amarelos</value> 
   </string>
 - <string key="TannerTeamEnd">
   <value>Time Coringa</value> 
   </string>
-  - <string key="CultConvertWolf">
+  - <string key="zoombiesConvertWolf">
   <value>Os Lanternas Amarelos enviam {0} para tentar converter {1}, mas em vez disso, a sua cabeça é jogada pela janela. {0} está morto...</value> 
   </string>
  <string key="HarlotFuckedKilledPublic">
@@ -1134,7 +1134,7 @@ Talvez você ainda tenha algumas habilidades com suas armas. Quem sabe? Talvez e
   <string key="ZombieKilled">
     <value>De manhã todos encontram {0} empalado no topo de um prédio. O Deathstroke não se importa com a cor da lanterna, todos são amadores para ele! Os Lanternas Amarelos vão sentir falta de {0}...</value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>Os cidadãos ficam de coração partido ao encontrar {0}, a Hera, morta. Estranho o fato do verde de seu corpo estar faltando, obviamente obra do Deathstroke.</value>
   </string>
   <string key="DrunkKilled">
@@ -1164,10 +1164,10 @@ Talvez você ainda tenha algumas habilidades com suas armas. Quem sabe? Talvez e
   <string key="SerialKillerKilledCH"> <!--used when CH visits SK-->
     <value>Gotham acordou essa manhã só para encontrar um corpo torturado e morto na praça. {0}, o Hal Jordan, visitou a pessoa errada. O Deathstroke utilizou todas as ferramentas de tortura para o Lanterna Verde.</value>
   </string>
-  <string key="CultConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
+  <string key="zoombiesConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
     <value>Péssima escolha dos Lanternas Amarelos ao visitar um membro da Liga das Sombras que decidiu ficar em casa durante a noite. {0} está morto, foi convertido em uma bela decoração para o templo da Liga das Sombras.</value>
   </string>
-  <string key="CultConvertKillerPublic"> <!--used when Zombies convert the SK-->
+  <string key="zoombiesConvertKillerPublic"> <!--used when Zombies convert the SK-->
     <value>Ontem a noite os Lanternas Amarelos decidiram visitar a única pessoa mais estranha do que eles, o Deathstroke, e por causa disso, os órgãos de {0} serviram para a criação de uma nova obra de arte.</value>
   </string>
   <string key="GAGuardedKiller">

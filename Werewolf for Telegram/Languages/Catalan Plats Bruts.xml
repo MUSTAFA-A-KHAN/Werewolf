@@ -351,33 +351,33 @@
     <!-- 1 - target name -->
     <value>{0} ha votat reclutar a {1}.</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <!-- 0 - Yougest Zombie (killed)'s name' -->
     <!-- 1 - ZombieHunter's name -->
     <value>{0} havia de fer la feina bruta, i reclutar a {1}... però era el Pol Requena! {0} ha deixat l'Institut del Teatre!</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - Number of Zombies left -->
     <value>{0} ha vingut al teu pis aquesta nit, amb la intenció de reclutar-te per ser estudiant de l'Institut del Teatre... però has aconseguit que deixi els estudis. Un estudiant ha fugit. Restants: {1}!</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>T'han convertit en estudiant de l'Institut del Teatre! Cada nit, tindràs l'oportunitat de reclutar un altre pixapí, per poder fer una obra de teatre plegats.</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <!-- 0 - Number of Zombies -->
     <value>Sectaris: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <!-- 0 - new Zombie's name -->
     <value>{0} s'ha unit a l'Institut del Teatre!</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <!-- 0 - Newest Zombie's name -->
     <!-- 1 - target name -->
     <value>{0} havia de fer la feina bruta, i reclutar a {1}... però al pis no hi havia ningú!</value>
   </string>
-  <string key="CultWins" isgif="true">
+  <string key="zoombiesWins" isgif="true">
     <value >El Lopes i companyia han estat expulsats, i l'única gent que queda ha estat reclutada a l'Institut del Teatre... Els estudiants ja poden fer una obra de teatre!</value>
   </string>
   <string key="HunterVisitDead">
@@ -482,7 +482,7 @@
     <value>  Els veïns són: {0}</value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <!-- 0 - Youngest Zombies name -->
     <value>L'estudiant més recent mira de reclutar a {0}, però es troba un pis sense mobles, i una carta de desnonament a la porta...</value>
   </string>
@@ -491,7 +491,7 @@
     <value>El Lopes i companyia s'han dirigit al pis de {0} per fer-los fora, però els rep la consciència nacional, així que no poden fer-hi res.</value>
   </string>
   <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <!-- 0 - newest  -->
     <!-- 1 - target's name -->
     <value>Envieu {0} per intentar reclutar a {1}, però aquesta persona és massa intel·ligent i no heu pogut convèncer que s'apunti a classes de teatre.</value>
@@ -502,7 +502,7 @@
     <!-- 1 - name -->
     <value>@{1}, un jugador amb el nom {0} ja s'ha unit a la partida. Canvia de nom per unir-t'hi.</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <!-- 0 - target's name -->
     <value>T'has colat al pis de {0} per divertir-te una mica... però quan ja te n'anaves, t'adones que hi ha un guió de Romeu i Julieta sobre la tauleta de nit...</value>
   </string>
@@ -546,8 +546,8 @@
     <value>S'ha acabat el temps!</value>
   </string>
   <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
-    <value>Ets la Marina 🏹, enamorada del David. Et cega l’amor i vols que algú més s’enamori tan bojament com tu, així que tens dues fletxes per poder enamorar a dos habitants. Si un d’ells mor, l’altre morirà de pena [Cupido].</value>
+  <string key="RoleInfoRecruiter">
+    <value>Ets la Marina 🏹, enamorada del David. Et cega l’amor i vols que algú més s’enamori tan bojament com tu, així que tens dues fletxes per poder enamorar a dos habitants. Si un d’ells mor, l’altre morirà de pena [Recruitero].</value>
   </string>
   <string key="RoleInfoDoppelganger">
     <value>Ets en Daniel i Gomes 🎭, els dobles del David i el Lopes. Tria un habitant i seràs capaç de convertir-te en ell un cop l’hagin expulsat [Doppelgänger].</value>
@@ -558,9 +558,9 @@
   <string key="RoleInfoSerialKiller">
     <value>Ets el fantasma de la filla dels Ducs de Casavella 🔪. Passejant cada nit pels carrers de l’Eixample, busques la teva següent víctima a la que espantar i expulsar [Assassí en sèrie].</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>Has estat tocat per l'amor. Els records de {0} mai no s'esborraran del teu cor. Si un dels dos és expulsat, l'altre fugirà per perseguir-lo. Si un dels dos resisteix, tots dos us mengeu el flam de pastisseria.</value>
-    <value>La fletxa d'en Cupido t'ha tocat! T'has enamorat bojament de {0}! Si un dels dos és expulsat, l'altre fugirà per perseguir-lo. Si un dels dos resisteix, tots dos us menjareu el flam de pastisseria.</value>
+    <value>La fletxa d'en Recruitero t'ha tocat! T'has enamorat bojament de {0}! Si un dels dos és expulsat, l'altre fugirà per perseguir-lo. Si un dels dos resisteix, tots dos us menjareu el flam de pastisseria.</value>
   </string>
   <string key="HunterLynchedChoice">
     <value>Els pixapins han decidit cardar-te fora! És la teva última oportunitat, tria algú per disparar-li abans que sigui massa tard!</value>
@@ -586,7 +586,7 @@
   </string>
   <string key="HunterSkipChoiceShot">
     <!-- 0 - hunter's name -->
-    <value>Mentre {0} jeu a terra, respirant amb dificultat... no pot decidir a qui disparar i accepta el seu destí.</value>
+    <value>Mentre {0} jeu a terra, respirant amb difizoombiesat... no pot decidir a qui disparar i accepta el seu destí.</value>
   </string>
   <string key="HunterKilledFinalShot">
     <!-- 0 - hunter -->
@@ -614,12 +614,12 @@
     <!-- 0 - target's name -->
     <value>Has intentat afegir el cos de {0} a la teva col·lecció, però la consciència nacional del Lopes t'ho ha impedit! Aquesta nit no pots matar ningú...</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
     <value>Els estudiants de l'Institut del Teatre envien a {0} per intentar reclutar a {1}, però se sent un tret d'escopeta al sostre i {0} fuig corrent, morint de por.</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
     <value>Els estudiants de l'Institut del Teatre envien a {0} per intentar reclutar a {1}, però el cos de {0} surt volant per la finestra, ple de ganivets pertot arreu! QUINA NENA MÉS PSICÒPATA! {0} ha mort...i no menjarà flam de pastisseria.</value>
@@ -644,11 +644,11 @@
     <!-- 1 - mason collegues's name -->
     <value>{0} ha sigut expulsat, i tu et transformes en un veí. Els teus companys (si n'hi ha) són: {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <!-- 0 - new Zombie's name -->
     <value>En Daniel i Gomes {0} s'han convertit en estudiants de l'Institut del Teatre, com tu!</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <!-- 0 - role's name -->
     <!-- 1 - teammates's name -->
     <value>{0} ha sigut expulsat, i tu et transformes en estudiant de l'Institut del Teatre. Els teus companys (si n'hi ha) són: {1}</value>
@@ -668,25 +668,25 @@
   <string key="AskKill">
     <value>Qui vols matar aquesta nit?</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <!-- 0 - dead's name -->
-    <!-- 1 - lover's name -->
+    <!-- 1 - crewmate's name -->
     <!-- 2 - roles -->
     <value>Amb l'últim sospir de {0}, és expulsat i {1} corre darrere seu, plorant. No pot suportar que l'abandoni la seva persona estimada. {2}</value>
   </string>
   <string key="AskDoppelganger">
     <value>En qui et vols transformar si és expulsat?</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>Qui vols que siguin els enamorats? Tria el primer pixapí.</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>Qui vols que siguin els enamorats? Tria el segon pixapí.</value>
   </string>
   <string key="Hunter">
     <value>la Carbonell 🎯</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>la Marina 🏹</value>
   </string>
   <string key="SerialKiller">
@@ -699,7 +699,7 @@
     <!-- 0 - target's name -->
     <value>T'has convertit en un dels nens perduts pel Matagalls. El teu monitor és {0}.</value>
   </string>
-  <string key="LoversWin" isgif="true">
+  <string key="crewmatesWin" isgif="true">
     <value>El veritable amor resisteix! Els amants han guanyat, i es menjaran el flam a mitges!</value>
   </string>
   <string key="HunterKilledVisiter">
@@ -707,7 +707,7 @@
     <!-- 1 - role -->
     <value>Trobeu el cos de {0} al pis, amb múltiples ferides de bala. Sembla que ha intentat atacar a la Carbonell! Bé, {1}.</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>Un jove estudiant t'ha intentat matricular a classes de teatre, però ets massa intel·ligent i ho has pogut evitar.</value>
   </string>
   <string key="AlreadyOnWaitList">
@@ -791,7 +791,7 @@
   <string key="AboutFool">
     <value>El Marc Tomeu, becari de Ràdio Bofarull, es creu tan intel·ligent com la Montse… però no! Així que quan tria un habitant durant la nit, se li diu un rol aleatori [Babau].</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>Ets un estudiant de l’Institut del Teatre 👤. Cada nit pots reclutar més joves perquè s’uneixin al mundillo de les arts. Si tots els habitants al final de la partida acabeu sent estudiants, guanyeu [Sectari].</value>
   </string>
   <string key="AboutCH">
@@ -812,8 +812,8 @@
   <string key="AboutDG">
     <value>Ets en Daniel i Gomes 🎭, els dobles del David i el Lopes. Tria un habitant i seràs capaç de convertir-te en ell un cop l’hagin expulsat [Doppelgänger].</value>
   </string>
-  <string key="AboutCupid">
-    <value>Ets la Marina 🏹, enamorada del David. Et cega l’amor i vols que algú més s’enamori tan bojament com tu, així que tens dues fletxes per poder enamorar a dos habitants. Si un d’ells mor, l’altre morirà de pena [Cupido].</value>
+  <string key="AboutRecruiter">
+    <value>Ets la Marina 🏹, enamorada del David. Et cega l’amor i vols que algú més s’enamori tan bojament com tu, així que tens dues fletxes per poder enamorar a dos habitants. Si un d’ells mor, l’altre morirà de pena [Recruitero].</value>
   </string>
   <string key="AboutHunter">
     <value>Ja poden vigilar amb tu, Carbonell 🎯! No et separes de l’escopeta ni per cagar, així que si t’expulsen pots fer un últim dispar. Si els que vénen a molestar són en David, el Lopes i companyia, pots fer-ne fora un, però després no podràs expulsar a ningú més [Caçador].</value>
@@ -978,10 +978,10 @@
   <string key="AllowTannerA">
     <value>Suïcida com a rol definit a: {0}</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>Vols permetre ser sectari com a opció de rol?\nActual: {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>Sectari com a rol definit a: {0}</value>
   </string>
   <string key="EnableSecretLynchQ">
@@ -1143,13 +1143,13 @@
   <string key="SerialKillerTeamEnd">
     <value>Equip del fantasma de la filla dels Ducs de Casavella</value>
   </string>
-  <string key="CultTeamEnd">
+  <string key="zoombiesTeamEnd">
     <value>Equip dels estudiants de l'Institut del Teatre</value>
   </string>
   <string key="TannerTeamEnd">
     <value>Equip de la Diana</value>
   </string>
-  <string key="CultConvertWolf">
+  <string key="zoombiesConvertWolf">
     <value>Els estudiants envien a {0} per intentar matricular a classes de teatre a {1}, però en lloc d'això, {0} surt corrents... no ho ha aconseguit.</value>
   </string>
 
@@ -1169,7 +1169,7 @@
   <string key="ZombieKilled">
     <value>Han trobat el cos de {0} apunyalat fins a la mort amb una calavera falsa, al costat del seu guió de Romeu i Julieta. El fantasma de la filla dels Ducs de Casavella ha tornat a atacar! {0} era un estudiant de l'Institut del Teatre.</value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>L'endemà al matí, als pixapins se'ls va partir el cor en trobar a {0}, la Marina, amb el cos partit per la meitat de dalt a baix. Curiosament, el cor no hi era...</value>
   </string>
   <string key="DrunkKilled">
@@ -1203,12 +1203,12 @@
     <value>Avui, en Pol Requena ha volgut expulsar a un estudiant, però s'ha confós i era el fantasma de la filla dels Ducs de Casavella! {0} ha mort i no podrà menjar flam de pastisseria.</value>
     <value>El cos de {0}, el Pol Requna, ha aparegut destrossat, però tallat en exactament cent trossos. Això d'anar a caçar estudiants i topar-te amb el fantasma de la filla dels Ducs de Casavella sembla perillós...</value>
   </string>
-  <string key="CultConvertWolfPublic">
+  <string key="zoombiesConvertWolfPublic">
     <!--used when Zombies convert the wolves, only if wolves stayed home-->
     <value>Tot i que aquesta nit el Lopes i companyia han decidit quedar-se dormint, els ha visitat {0}, un estudiant que volia reclutar a més membres. Però quan ha vist com roncaven el Lopes i els altres, {0} s'ha espantat i ha fugit corrents de l'Eixample!</value>
     <value>Aquesta nit, els estudiants s'ha trobat problemes inesperats. El seu membre més nou ha tingut la mala sort de visitar al Lopes i companyia per matricular-los a classes de teatre, però roncaven tan fort que {0} s'ha espantat i ha fugit corrents de l'Eixample.</value>
   </string>
-  <string key="CultConvertKillerPublic">
+  <string key="zoombiesConvertKillerPublic">
     <!--used when Zombies convert the SK-->
     <value>Els estudiants de l'Institut del Teatre pensaven que tindrien un nou membre a classe, però s'equivocaven! {0}, un estudiant, ha sigut assassinat pel fantasma de la filla dels Ducs de Casavella.</value>
     <value>La nit passada, els estudiants de l'Institut del Teatre han intentat convertir el fantasma de la filla dels Ducs de Casavella, però no han pogut vèncer i {0} ha mort.</value>
@@ -1295,7 +1295,7 @@
     <!-- NOTE: No space between {0} and joined. It will be added in the code if necessary-->
     <value>S'han unit a menjar flam ens els darrers 30 segons: {0}</value>
   </string>
-  <string key="AllowCult">
+  <string key="Allowzoombies">
     <value>Permet la secta</value>
   </string>
   <string key="AllowTanner">
@@ -1529,7 +1529,7 @@
     <!-- 0 - mason collegues's name -->
     <value>Els teus companys (si n'hi ha) són: {0}</value>
   </string>
-  <string key="ThiefToCult">
+  <string key="ThiefTozoombies">
     <!-- 0 - old Zombie's name -->
     <!-- 1 - new Zombie's name -->
     <value>{0} ja no és el teu company, i {1} ara és un estudiant de l'Institut del Teatre, com tu!</value>
@@ -1701,10 +1701,10 @@
     <value>el camell de coca 🐺☃️</value>
   </string>
   <string key="RoleInfoSnowWolf">
-    <value>Ets el camell de coca 🐺☃. Prefereixes treballar en solitari i coles una mica de cocaïna a un pixapí, fent que perdi les seves facultats i no pugui fer res aquella nit. Això sí, no li pots colar dues nits seguides, que sinó li ve una sobredosi! [Llop de les neus].</value>
+    <value>Ets el camell de coca 🐺☃. Prefereixes treballar en solitari i coles una mica de cocaïna a un pixapí, fent que perdi les seves fazoombiesats i no pugui fer res aquella nit. Això sí, no li pots colar dues nits seguides, que sinó li ve una sobredosi! [Llop de les neus].</value>
   </string>
   <string key="AboutSnowWolf">
-    <value>Ets el camell de coca 🐺☃. Prefereixes treballar en solitari i coles una mica de cocaïna a un pixapí, fent que perdi les seves facultats i no pugui fer res aquella nit. Això sí, no li pots colar dues nits seguides, que sinó li ve una sobredosi! [Llop de les neus].</value>
+    <value>Ets el camell de coca 🐺☃. Prefereixes treballar en solitari i coles una mica de cocaïna a un pixapí, fent que perdi les seves fazoombiesats i no pugui fer res aquella nit. Això sí, no li pots colar dues nits seguides, que sinó li ve una sobredosi! [Llop de les neus].</value>
   </string>
   <string key="AskFreeze">
     <value>A qui vols encocar, aquesta nit?</value>
@@ -1882,16 +1882,16 @@
   <string key="HunterFell">
     <value>Una altra nit sense poder expulsar un d'aquests miserables estudiants! Camines per l'Eixample amb frustració, sense adonar-te que la porta del portal està tancada per {0}. Vaja, t'has autoexpulsat de l'edifici.</value>
   </string>
-  <!--{0}: cult hunter-->
+  <!--{0}: zoombies hunter-->
   <string key="HunterFellDigger">
     <value>Després d'una altra nit cansada, te'n tornes al pis per dormir. Quan et dirigeixes a casa teva, et trobes al Pol Requena, {0}, tancat fora el carrer i sense poder tornar a entrar a l'edifici.</value>
   </string>
   <!--{0}: Zombie-->
-  <string key="CultFell">
+  <string key="zoombiesFell">
     <value>Tornes cap a casa teva a dormir, però quan vas a tancar la porta et trobes a un estudiant de l'Institut del Teatre, {0}, intentant matricular-te a classes de teatre, però l'aconsegueixes expulsar. Aparta, que vaig amb presses!</value>
   </string>
   <!--{0}: Zombie who fell, {1}: grave digger-->
-  <string key="CultConvertGraveDigger">
+  <string key="zoombiesConvertGraveDigger">
     <value>De camí al portal on hi ha {1}, {0} decideix de sobte que seria bona idea cremar l'institut. Et porta per l'Eixample quan, de sobte, un parany li envolta el peu! L'únic que sents és el seu crit mentre cau a una claveguera i corres cames ajudeu-me.</value>
   </string>
   <!--{0}: grave digger-->

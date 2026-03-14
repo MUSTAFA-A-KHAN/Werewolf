@@ -209,7 +209,7 @@
     <value >Eres un Zombiea. Cada noche puedes elegir a otro jugador para convertirlo en Zombiea. Si al final de la partida todos los jugadores vivos sois Zombieas, ganáis.</value>
   </string>
   <string key="RoleInfoZombieHunter" >
-    <value >Eres la cazadora de Zombieas. Cada noche, elige un jugador; si es un Zombiea, ese jugador muere. Si el culto trata de convertirte, el último miembro que se unió al culto muere.</value>
+    <value >Eres la cazadora de Zombieas. Cada noche, elige un jugador; si es un Zombiea, ese jugador muere. Si el zoombieso trata de convertirte, el último miembro que se unió al zoombieso muere.</value>
   </string>
   <string key="LynchTime" >
     <!-- 0 - number of seconds -->
@@ -376,34 +376,34 @@
     <!-- 1 - target name -->
     <value >{0} ha votado convertir a {1}.</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <!-- 0 - Yougest Zombie (killed)'s name' -->
     <!-- 1 - ZombieHunter's name -->
     <value>Enviaron a {0} para hacer el trabajo sucio y convertir a {1}...; sin embargo, ¡era la cazadora de Zombieas! ¡{0} ha muerto!</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - Number of Zombies left -->
     <value>{0} vino a tu casa esta noche para que te unieras a su causa…, pero enterraste tu espada en su pecho. Un Zombiea ha muerto… ¡Queda(n) {1}!</value>
   </string>
-  <string key="CultConvertYou">
-    <value>¡El culto te ha convertido a su secta! Ahora eres un Zombiea. Cada noche tendrás ocasión de convertir a otra persona.</value>
+  <string key="zoombiesConvertYou">
+    <value>¡El zoombieso te ha convertido a su secta! Ahora eres un Zombiea. Cada noche tendrás ocasión de convertir a otra persona.</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <!-- 0 - Number of Zombies -->
     <value>Zombieas: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <!-- 0 - new Zombie's name -->
-    <value>¡{0} se ha unido al culto!</value>
+    <value>¡{0} se ha unido al zoombieso!</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <!-- 0 - Newest Zombie's name -->
     <!-- 1 - target name -->
     <value>{0} fue enviado a hacer tu trabajo sucio y convertir a {1}..., ¡pero no había nadie en casa!</value>
   </string>
-  <string key="CultWins" >
-    <value >Todos las amenazas al culto han sido eliminadas y los únicos aldeanos en pie han sido transformados en Zombieas. ¡El culto ha ganado! ¡AMÉN, HERMANA!</value>
+  <string key="zoombiesWins" >
+    <value >Todos las amenazas al zoombieso han sido eliminadas y los únicos aldeanos en pie han sido transformados en Zombieas. ¡El zoombieso ha ganado! ¡AMÉN, HERMANA!</value>
   </string>
   <string key="HunterVisitDead">
     <!-- 0 - target name -->
@@ -506,16 +506,16 @@
     <value>Los masones son: {0}</value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <!-- 0 - Youngest Zombies name -->
-    <value>El miembro más reciente del culto fue a convertir a {0} a su casa, pero en su lugar encontró la casa destrozada, sangre por todas partes y pelo de hombre lobo en la entrada.</value>
+    <value>El miembro más reciente del zoombieso fue a convertir a {0} a su casa, pero en su lugar encontró la casa destrozada, sangre por todas partes y pelo de hombre lobo en la entrada.</value>
   </string>
   <string key="GuardBlockedWolf">
     <!-- 0 - target's name -->
     <value>La manada se dirige a la casa de {0} para darse un festín con su cuerpo, pero se encuentran con una figura alta y oscura armada hasta los dientes. El ángel de la guarda os impide la entrada y volvéis a vuestro cubil derrotados.</value>
   </string>
   <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <!-- 0 - newest  -->
     <!-- 1 - target's name -->
     <value>Enviasteis a {0} para intentar convertir a {1}; sin embargo, su voluntad era demasiado fuerte y fue imposible unirlo a vuestra causa :(</value>
@@ -526,7 +526,7 @@
     <!-- 1 - name -->
     <value>@{1}, un jugador con el nombre {0} ya se ha unido. Por favor, cambia tu nombre para unirte.</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <!-- 0 - target's name -->
     <value>Te escabulliste anoche a la casa de {0} para pasar un buen rato, pero cuando te fuiste, notaste algo extraño: un extraño altar escondido en un cuarto con un brillo extraño… [{0} es un Zombiea].</value>
   </string>
@@ -620,8 +620,8 @@
 	<value>¡Se acabó el tiempo!</value>
   </string>
   <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
-    <value>Eres Cupido. Enviado a la Tierra con solo tu ropa interior, un arco y dos flechas, debes elegir a dos jugadores que se amarán por la eternidad. Si uno muere, el otro morirá de pena.</value>
+  <string key="RoleInfoRecruiter">
+    <value>Eres Recruitero. Enviado a la Tierra con solo tu ropa interior, un arco y dos flechas, debes elegir a dos jugadores que se amarán por la eternidad. Si uno muere, el otro morirá de pena.</value>
   </string>
   <string key="RoleInfoDoppelganger">
     <value>Eres un doppelgänger (el doble). La leyenda dice que tus ancestros eran metamorfos, y podían escoger cualquier forma que quisieran. Tú has heredado algunas de sus capacidades. Escoge a un jugador; cuando muera, te quedarás con su rol.</value>
@@ -632,9 +632,9 @@
   <string key="RoleInfoSerialKiller">
     <value>Eres la asesina en serie. Hace poco que escapaste del manicomio local, tu objetivo es que todos los demás mueran. Cada noche, puedes añadir un cuerpo a tu colección.</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>Has sido golpeado por el amor. El recuerdo de {0} nunca desaparecerá de tu corazón. Si uno de los dos muere, el otro morirá de pena. Si estando vivos los dos, uno de los dos gana, el otro ganará también.</value>
-	<value>¡Las flechas de Cupido te han alcanzado! ¡Estás locamente enamorado(a) de {0}! Si muere, tú también. Si estáis vivos y uno de los dos gana, ¡los dos ganaréis!</value>
+	<value>¡Las flechas de Recruitero te han alcanzado! ¡Estás locamente enamorado(a) de {0}! Si muere, tú también. Si estáis vivos y uno de los dos gana, ¡los dos ganaréis!</value>
   </string>
   <string key="HunterLynchedChoice">
     <value>¡Los aldeanos han decidido colgarte! Esta es tu última oportunidad, ¡escoge a quién disparar mientras caes!</value>
@@ -688,15 +688,15 @@
     <!-- 0 - target's name -->
     <value>Quisiste incorporar el cuerpo de {0} para tu colección, ¡pero el ángel de la guarda lo protegió! No ha habido muertes esta noche.</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
-    <value>El culto envía a {0} para intentar convertir a {1}, pero en vez de eso, suena un disparo y ¡el cuerpo de {0} sale volando por la ventana! {0} ha muerto.</value>
+    <value>El zoombieso envía a {0} para intentar convertir a {1}, pero en vez de eso, suena un disparo y ¡el cuerpo de {0} sale volando por la ventana! {0} ha muerto.</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
-    <value>El culto envía a {0} para intentar convertir a {1}, pero en vez de eso, el cuerpo de {0} sale volando por la ventana, ¡con cuchillos clavados por todo el cuerpo! ¡QUÉ PSICÓPATA! {0} ha muerto.</value>
+    <value>El zoombieso envía a {0} para intentar convertir a {1}, pero en vez de eso, el cuerpo de {0} sale volando por la ventana, ¡con cuchillos clavados por todo el cuerpo! ¡QUÉ PSICÓPATA! {0} ha muerto.</value>
 	<value>{0} se cuela en casa de {1}, abre la puerta, ¡¡y es recibido por un loco con un cuchillo!! {1} hunde el cuchillo en cada uno de los órganos internos de {0} por orden alfabético, ¡carcajeando todo el tiempo! {0} ha muerto.</value>
   </string>
   <string key="GuardKiller">
@@ -718,11 +718,11 @@
     <!-- 1 - mason collegues's name -->
     <value>{0} ha muerto y tú te conviertes en masón. Tus compañeros de equipo (si los hay) son: {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <!-- 0 - new Zombie's name -->
     <value>El doppelgänger (doble) {0} se ha convertido en Zombiea, ¡igual que tú!</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <!-- 0 - role's name -->
     <!-- 1 - teammates's name -->
     <value>{0} ha muerto y tú te conviertes en Zombiea. Tus compañeros de equipo (si los hay) son: {1}</value>
@@ -742,26 +742,26 @@
   <string key="AskKill">
     <value>¿A quién quieres matar esta noche?</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <!-- 0 - dead's name -->
-    <!-- 1 - lover's name -->
+    <!-- 1 - crewmate's name -->
     <!-- 2 - roles -->
     <value>Con el último aliento de {0}, su amado(a), {1}, se derrumba y se echa a llorar desconsoladamente. En un golpe de locura, no puede soportar su muerte y se dispara con la primera pistola que encuentra. {2}</value>
   </string>
   <string key="AskDoppelganger">
     <value>¿En quién te quieres convertir si muere?</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>¿A quiénes quieres convertir en amantes?\nEscoge al primer jugador:</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>¿A quiénes quieres convertir en amantes?\nEscoge al segundo jugador:</value>
   </string>
   <string key="Hunter">
     <value>el cazador 🎯</value>
   </string>
-  <string key="Cupid">
-    <value>Cupido 🏹</value>
+  <string key="Recruiter">
+    <value>Recruitero 🏹</value>
   </string>
   <string key="SerialKiller">
     <value>la asesina en serie 🔪</value>
@@ -773,7 +773,7 @@
     <!-- 0 - target's name -->
     <value>Eres el niño salvaje. Tu modelo a seguir es {0}</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
     <value>¡Triunfa el amor verdadero! ¡Los amantes han ganado!</value>
   </string>
   <string key="HunterKilledVisiter">
@@ -781,8 +781,8 @@
     <!-- 1 - role -->
     <value>En medio de la plaza de la ciudad, encuentran el cuerpo de {0}, con múltiples disparos en el cuerpo. ¡Parece ser que intentó acercarse sigilosamente al cazador! {1}</value>
   </string>
-  <string key="CultAttempt">
-    <value>Una figura encapuchada trató de convertirte a su culto, pero tu fe es demasiado fuerte y has resistido a sus oraciones y convicciones.</value>
+  <string key="zoombiesAttempt">
+    <value>Una figura encapuchada trató de convertirte a su zoombieso, pero tu fe es demasiado fuerte y has resistido a sus oraciones y convicciones.</value>
   </string>
   <string key="AlreadyOnWaitList">
     <!-- 0 - target's name -->
@@ -861,11 +861,11 @@
   <string key="AboutFool">
     <value>Al necio se le dice que es la vidente. Cuando elija a alguien para adivinar su rol, se le dirá uno al azar.</value>
   </string>
-  <string key="AboutCult">
-    <value>Como Zombiea, tu objetivo es convertir a todos los demás jugadores (excepto a los hombres lobo) a tu culto. Si al final de la partida todos los jugadores vivos son Zombieas, el culto gana.</value>
+  <string key="Aboutzoombies">
+    <value>Como Zombiea, tu objetivo es convertir a todos los demás jugadores (excepto a los hombres lobo) a tu zoombieso. Si al final de la partida todos los jugadores vivos son Zombieas, el zoombieso gana.</value>
   </string>
   <string key="AboutCH">
-    <value>Tu trabajo es acabar con el Culto. Si un Zombiea te ataca, su miembro más reciente morirá. Cada noche escogerás a que jugador vas a «cazar»; si es Zombiea, morirá.</value>
+    <value>Tu trabajo es acabar con el zoombieso. Si un Zombiea te ataca, su miembro más reciente morirá. Cada noche escogerás a que jugador vas a «cazar»; si es Zombiea, morirá.</value>
   </string>
   <string key="AboutWC">
     <value>Al principio del juego, elegirás a alguien para ser tu «modelo a seguir». Si lo matan, te convertirás en hombre lobo.</value>
@@ -882,13 +882,13 @@
   <string key="AboutDG">
     <value>
       Tus ancestros tenían la habilidad de transformarse en otros. Aunque no tengas las mismas habilidades, puedes escoger a alguien al principio de la partida. Si ese jugador muere, tomarás su rol.
-      Nota: Si el jugador se convierte al Culto, obtendrás su rol original. Para los demás se aplicarán las reglas normales: si era el niño salvaje y su modelo a seguir está muerto, te convertirás en hombre lobo. Si no, heredarás su modelo a seguir.
-      El Culto no puede convertir al doppelgänger (el doble [pero sí después de cambiar de rol]). Cuidado: El doppelgänger no podrá ganar si no ha cambiado de rol. Si al finalizar el juego, el doppelgänger sigue siendo el doble, pierde (excepción: amantes).
+      Nota: Si el jugador se convierte al zoombieso, obtendrás su rol original. Para los demás se aplicarán las reglas normales: si era el niño salvaje y su modelo a seguir está muerto, te convertirás en hombre lobo. Si no, heredarás su modelo a seguir.
+      El zoombieso no puede convertir al doppelgänger (el doble [pero sí después de cambiar de rol]). Cuidado: El doppelgänger no podrá ganar si no ha cambiado de rol. Si al finalizar el juego, el doppelgänger sigue siendo el doble, pierde (excepción: amantes).
     </value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>
-      El amor está en el aire. Como Cupido, elegirás dos jugadores al principio de la partida. ¡Esos dos se enamorarán locamente! Si uno muere, el otro morirá de pena :_(
+      El amor está en el aire. Como Recruitero, elegirás dos jugadores al principio de la partida. ¡Esos dos se enamorarán locamente! Si uno muere, el otro morirá de pena :_(
       Nota: Los amantes se conocerán entre sí, pero no sabrán sus roles. Si los amantes son los dos únicos supervivientes, ganarán, independientemente de sus equipos. Si están en distintos equipos (aldeano + hombre lobo), y un equipo gana (hombre lobo), el amante (aldeano) también ganará.
 	  Si, estando vivos los dos, al menos uno de los amantes está en el equipo ganador, ganarán ambos.
     </value>
@@ -983,7 +983,7 @@
     <value>Mostrar</value>
   </string>
   <string key="Hide">
-    <value>Ocultar</value>
+    <value>Ozoombiesar</value>
   </string>
   <!-- Game Mode Choices-->
   <string key="NormalOnly">
@@ -1072,11 +1072,11 @@
   <string key="AllowTannerA">
     <value>El veterano ahora: {0}</value>
   </string>
-  <string key="AllowCultQ">
-    <value>¿Permitir culto?\nActualmente: {0}</value>
+  <string key="AllowzoombiesQ">
+    <value>¿Permitir zoombieso?\nActualmente: {0}</value>
   </string>
-  <string key="AllowCultA">
-    <value>El culto ahora: {0}</value>
+  <string key="AllowzoombiesA">
+    <value>El zoombieso ahora: {0}</value>
   </string>
   <string key="ThankYou">
     <value>Gracias, que tengas un buen día :)</value>
@@ -1229,8 +1229,8 @@
   <string key="SerialKillerTeam">
     <value>Equipo de la asesina</value>
   </string>
-  <string key="CultTeam">
-    <value>Equipo del Culto</value>
+  <string key="zoombiesTeam">
+    <value>Equipo del zoombieso</value>
   </string>
   <string key="TannerTeam">
     <value>Equipo del veterano</value>
@@ -1249,15 +1249,15 @@
   <string key="SerialKillerTeamEnd">
     <value>Equipo de la asesina</value>
   </string>
-  <string key="CultTeamEnd">
-    <value>Equipo del Culto</value>
+  <string key="zoombiesTeamEnd">
+    <value>Equipo del zoombieso</value>
   </string>
   <string key="TannerTeamEnd">
     <value>Equipo del veterano</value>
   </string>
   
-  <string key="CultConvertWolf">
-    <value>El Culto envía a {0} para intentar convertir a {1}, pero en su lugar, la cabeza de {0} sale volando por la ventana. Me pregunto si pensaban que {0} era incomestible porque ahora está muerto.</value>
+  <string key="zoombiesConvertWolf">
+    <value>El zoombieso envía a {0} para intentar convertir a {1}, pero en su lugar, la cabeza de {0} sale volando por la ventana. Me pregunto si pensaban que {0} era incomestible porque ahora está muerto.</value>
   </string>
   <string key="HarlotFuckedKilledPublic"> <!-- used when Harlot visit's SK's victim, and dies -->
     <!--{0} = Harlot name, {1} = SK's victim name-->
@@ -1275,8 +1275,8 @@
   <string key="ZombieKilled">
     <value>{0} fue apuñalado hasta la muerte con un candelabro al lado de su altar. ¡La asesina en serie ha atacado de nuevo, sin importar la raza, el idioma o la religión! {0} era un Zombiea.</value>
   </string>
-  <string key="CupidKilled">
-    <value>A la mañana siguiente, los aldeanos se levantaron destrozados al encontrar a Cupido, {0}, dividido en dos. Curiosamente, le faltaba el corazón.</value>
+  <string key="RecruiterKilled">
+    <value>A la mañana siguiente, los aldeanos se levantaron destrozados al encontrar a Recruitero, {0}, dividido en dos. Curiosamente, le faltaba el corazón.</value>
   </string>
   <string key="DrunkKilled">
     <value>Los aldeanos esperaban irse de copazos con su borracho preferido, {0}, pero lo único que encontraron en su casa fue un cuchillo y su hígado sobre la mesa. Tantos años bebiendo hicieron que el hígado estuviera tan podrido que ni la asesina en serie lo quisiera.</value>
@@ -1308,13 +1308,13 @@
     <value>Los aldeanos se despertaron por la mañana y se encontraron los restos del cuerpo de {0}, el cazador de Zombieas, cortados en pedazos en un carro al lado del ayuntamiento. Lección aprendida: ¡no hay que visitar a la asesina en serie!</value>
     <value>El cuerpo de {0}, el cazador de Zombieas, fue encontrado en el centro de la ciudad cortado en un centenar de piezas. Comprobar si la asesina en serie era un Zombiea no parece ser una buena idea.</value>
   </string>
-  <string key="CultConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
+  <string key="zoombiesConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
     <value>Aunque parecía que los hombres lobo habían decidido quedarse en casa, un Zombiea decidió visitarlos, siendo demasiado difícil de resistir para los hombres lobo. ¡La cabeza de {0} se convirtió en una deliciosa cena!</value>
-    <value>El culto se encontró con problemas inesperados anoche. Su miembro más reciente, {0}, tuvo la desgracia de visitar a un hombre lobo, justo la noche que los hombres lobo habían decidido quedarse en casa. Desafortunadamente para el culto, los hombres lobo no tienen ningún interés en unirse al nuevo movimiento religioso y era una oportunidad que no podían dejar pasar. {0} ha muerto.</value>
+    <value>El zoombieso se encontró con problemas inesperados anoche. Su miembro más reciente, {0}, tuvo la desgracia de visitar a un hombre lobo, justo la noche que los hombres lobo habían decidido quedarse en casa. Desafortunadamente para el zoombieso, los hombres lobo no tienen ningún interés en unirse al nuevo movimiento religioso y era una oportunidad que no podían dejar pasar. {0} ha muerto.</value>
   </string>
-  <string key="CultConvertKillerPublic"> <!--used when Zombies convert the SK-->
-    <value>El culto pensaba que tendría un nuevo miembro en sus filas, pero ¡nada más lejos de la realidad! {0}, un Zombiea, fue descuartizado y sus restos fueron esparcidos por todo el pueblo. El libro «santo» estaba colocado junto a un cuchillo, como muestra clara de que la religión es la que manda.</value>
-    <value>Anoche, el culto trató de convertir al aldeano más loco del pueblo. Su miembro más reciente, {0}, trató de convertir a la asesina en serie, y esta hizo una nueva obra de arte en la plaza del pueblo, exhibiendo todos los órganos internos al pueblo.</value>
+  <string key="zoombiesConvertKillerPublic"> <!--used when Zombies convert the SK-->
+    <value>El zoombieso pensaba que tendría un nuevo miembro en sus filas, pero ¡nada más lejos de la realidad! {0}, un Zombiea, fue descuartizado y sus restos fueron esparcidos por todo el pueblo. El libro «santo» estaba colocado junto a un cuchillo, como muestra clara de que la religión es la que manda.</value>
+    <value>Anoche, el zoombieso trató de convertir al aldeano más loco del pueblo. Su miembro más reciente, {0}, trató de convertir a la asesina en serie, y esta hizo una nueva obra de arte en la plaza del pueblo, exhibiendo todos los órganos internos al pueblo.</value>
   </string>
   <string key="GAGuardedKiller"> <!-- used when GA guards SK -->
     <value>Se suponía que iba a ser una noche donde {0}, el ángel de la guarda, salvaría al pueblo de los asesinos, pero la asesina en serie extinguió su halo y le arrancó las alas! A la izquierda del cuerpo dejó una nota que decía: «Sé protegerme mejor que tú».</value>
@@ -1401,8 +1401,8 @@
     <!-- {0} = list of people who have joined -->
     <value>{0}se ha(n) unido en los últimos 30 segundos.</value>
   </string>
-  <string key="AllowCult">
-    <value>Permitir culto</value>
+  <string key="Allowzoombies">
+    <value>Permitir zoombieso</value>
   </string>
   <string key="AllowTanner">
     <value>Permitir veterano</value>
@@ -1637,7 +1637,7 @@
     <!-- 0 - mason collegues's name -->
     <value>Tus compañeros (si los hay) son: {0}</value>
   </string>
-  <string key="ThiefToCult">
+  <string key="ThiefTozoombies">
     <!-- 0 - old Zombie's name -->
     <!-- 1 - new Zombie's name -->
     <value>{0} ya no forma parte de tu equipo, y {1} se ha convertido en Zombiea, ¡como tú!</value>
@@ -1806,7 +1806,7 @@
 	<value>{0} no estaba en casa, así que regresas a tu laboratorio maldiciendo tu mala suerte.</value>
   </string>
   <string key="ZombiesList">
-	<value>Los miembros del culto son: {0}</value>
+	<value>Los miembros del zoombieso son: {0}</value>
   </string>
   <string key="SnowWolf">
 	<value>El lobo de nieve 🐺☃️</value>
@@ -1857,7 +1857,7 @@
     <value>Mientras abres la puerta para salir de casa, una corriente de viento te rodea, lo que provoca que te quedes inmóvil por el frío 🐺☃️. Tus ojos se quedan fijos en las dos pociones de tu bolsillo. Parece que no podrás apostar esta noche.</value>
   </string>
   <string key="ZombieFrozen">
-    <value>Mientras abres la puerta para salir de casa, una corriente de viento te rodea, lo que provoca que te quedes inmóvil por el frío 🐺☃️. Tus compañeros del culto terminan riéndose al ver la situación en la que has acabado.</value>
+    <value>Mientras abres la puerta para salir de casa, una corriente de viento te rodea, lo que provoca que te quedes inmóvil por el frío 🐺☃️. Tus compañeros del zoombieso terminan riéndose al ver la situación en la que has acabado.</value>
   </string>
   <string key="CHFrozen">
     <value>Mientras abres la puerta para salir de casa, una corriente de viento te rodea, lo que provoca que te quedes inmóvil por el frío 🐺☃️. Tus caderas comienzan a cansarse despues de estar en esa posición durante tantas horas.</value>
@@ -1947,7 +1947,7 @@
     <value>La lista de jugadores será mezclada cada día: {0}</value>
   </string>
   <string key="AboutGraveDigger">
-  <value>Eres el sepulturero ☠️. Cada noche, cavas la tumba para todas las personas que murieron por última vez (sí, incluso los hombres lobo merecen un entierro digno). Como estás fuera en la noche, los lobos y el culto no pueden encontrarte, al no ser que en ese momento no tengas nada que hacer (es decir, que nadie muera), en ese caso te quedarás en casa. Toda persona que te visite tiene una probabilidad de de caer en una de tus recién cavadas tumbas, dependiendo de cuántas tumbas caves. También, que esa probablidad será reducida a la mitad para todo aquel que tenga buenas intenciones contigo. Pero como estás fuera en la noche, los lobos y la asesina podrían encontrarte en el camino y matarte, y mientras más tumbas debas cavar, más probable será que eso pase. Por último, aparentemente la asesina en serie podrá encontrarte así estés o no en tu casa, pero quizás su pierna caiga en una de las tumbas y se lastime, causando que pierda el control de a quién matará la próxima noche...</value>
+  <value>Eres el sepulturero ☠️. Cada noche, cavas la tumba para todas las personas que murieron por última vez (sí, incluso los hombres lobo merecen un entierro digno). Como estás fuera en la noche, los lobos y el zoombieso no pueden encontrarte, al no ser que en ese momento no tengas nada que hacer (es decir, que nadie muera), en ese caso te quedarás en casa. Toda persona que te visite tiene una probabilidad de de caer en una de tus recién cavadas tumbas, dependiendo de cuántas tumbas caves. También, que esa probablidad será reducida a la mitad para todo aquel que tenga buenas intenciones contigo. Pero como estás fuera en la noche, los lobos y la asesina podrían encontrarte en el camino y matarte, y mientras más tumbas debas cavar, más probable será que eso pase. Por último, aparentemente la asesina en serie podrá encontrarte así estés o no en tu casa, pero quizás su pierna caiga en una de las tumbas y se lastime, causando que pierda el control de a quién matará la próxima noche...</value>
   </string>
   <string key="RoleInfoGraveDigger">
   <value>Eres el sepulturero ☠️. Es tu responsabilidad deshacerte de los cuerpos muertos de los aldeanos. Cavas una tumba opara todo el que sea asesinado la última noche. En cualquier caso, usualmente estás muy cansado como para finalizar la tumba, por lo que esta queda sin cubrir. Algunos visitantes podrían caer en ellas y morir. Por último, los lobos no podrán comerte ya que estás fuera en la noche.</value>
@@ -1993,17 +1993,17 @@
   <string key="HunterFell">
   <value>¡Otra noche sin ser capaz de matar a uno de esos sangrientos Zombieas! Frustrado, caminas sobre una tumba, sin notar la trampa de osos hasta que se atora alrededor de tu tobillo. Gritas y forcejeas, pero es muy tarde. Caes de espaldas en una tumba que {0} dejó abierta, y lo último que escuchas es tu cuello rompiéndose antes de que todo se ponga negro.</value>
   </string>
-  <!--{0}: cult hunter-->
+  <!--{0}: zoombies hunter-->
   <string key="HunterFellDigger">
   <value>Después de otra noche cansina, caminas de regreso a tu casa con el sol ya saliendo. Justo antes de llegar, notas una espada descasando en el suelo al lado de una tumba sin finalizar. Dentro de ella, encuentras el cuerpo muerto de {0}. La cazadora de Zombieas no debió sospechar de tí...</value>
   </string>
   <!--{0}: Zombie-->
-  <string key="CultFell">
-  <value>Regresas de una noche cansadora, ¡cuando de repente escúchas un grito proveniete de una de tus tumbas sin terminar! Te apuras para ir allí, solo para encontrar a {0}, descansado muerto sobre ella. De todos modos, ¿qué clase de culto intenta convertir al sepulturero?</value>
+  <string key="zoombiesFell">
+  <value>Regresas de una noche cansadora, ¡cuando de repente escúchas un grito proveniete de una de tus tumbas sin terminar! Te apuras para ir allí, solo para encontrar a {0}, descansado muerto sobre ella. De todos modos, ¿qué clase de zoombieso intenta convertir al sepulturero?</value>
   </string>
   <!--{0}: Zombie who fell, {1}: grave digger-->
-  <string key="CultConvertGraveDigger">
-  <value>En el camino a la casa de {1}, {0} decide que sería una buena idea quemar la iglesia. {0} lidera al culto a través del cementerio, ¡cuando de repente una trampa para osos atrapa su tobillo! Todo lo que pueden escuchar es su grito después de caer en una tumba, y el resto del culto corre por su vida.</value>
+  <string key="zoombiesConvertGraveDigger">
+  <value>En el camino a la casa de {1}, {0} decide que sería una buena idea quemar la iglesia. {0} lidera al zoombieso a través del cementerio, ¡cuando de repente una trampa para osos atrapa su tobillo! Todo lo que pueden escuchar es su grito después de caer en una tumba, y el resto del zoombieso corre por su vida.</value>
   </string>
   <!--{0}: grave digger-->
   <string key="ChemistFell">
@@ -2059,7 +2059,7 @@
   </string>
   <!--{0}: Zombie who died-->
   <string key="ZombieFellPublic">
-  <value>El culto intentó quemar la iglesia, pero como {0} guió al grupo a través del cementerió, ¡una trampa de osos atrápó su tobillo! Se escucharon gritos cuando cayó en una tumba abierta, y los otros Zombieas huyeron despavoridos...</value>
+  <value>El zoombieso intentó quemar la iglesia, pero como {0} guió al grupo a través del cementerió, ¡una trampa de osos atrápó su tobillo! Se escucharon gritos cuando cayó en una tumba abierta, y los otros Zombieas huyeron despavoridos...</value>
   </string>
   <!--{0}: thief-->
   <string key="ThiefFellPublic">

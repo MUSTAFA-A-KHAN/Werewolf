@@ -453,41 +453,41 @@
 <!-- 1 - target name -->
     <value>{0} heeft gestemd om {1} te bekeren.</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
 <!-- 0 - Yougest Zombie (killed)'s name' -->
 <!-- 1 - ZombieHunter's name -->
 <!-- 0 - Yougest Zombie (killed)'s name' -->
 <!-- 1 - ZombieHunter's name -->
     <value>{0} werd gestuurd om de klus te klaren en {1} te bekeren... Helaas voor de Sekte was {1} de Sektejager en is {0} nu dus dood!</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
 <!-- 0 - Youngest Zombie's name -->
 <!-- 1 - Number of Zombies left -->
 <!-- 0 - Youngest Zombie's name -->
 <!-- 1 - Number of Zombies left -->
     <value>{0} kwam vannacht naar je huis. Klaar om je te bekeren... maar jij wist hem te snel af te zijn. Het Sektelid is dood... {1} Sektelid/leden blijven over!</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>De Sekte heeft je bekeerd tot hun geloof! Je bent nu een Sektelid. Iedere nacht heb je de kans om een andere inwoner van Wakkerdam te bekeren.</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
 <!-- 0 - Number of Zombies -->
 <!-- 0 - Number of Zombies -->
     <value>Sektelid/leden: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
 <!-- 0 - new Zombie's name -->
 <!-- 0 - new Zombie's name -->
     <value>{0} is bekeerd tot het heilige geloof van je Sekte!</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
 <!-- 0 - Newest Zombie's name -->
 <!-- 1 - target name -->
 <!-- 0 - Newest Zombie's name -->
 <!-- 1 - target name -->
     <value>{0} werd gestuurd om de klus te klaren en {1} te bekeren... maar {1} was niet thuis! Wat vreemd...</value>
   </string>
-  <string key="CultWins">
+  <string key="zoombiesWins">
     <value>Alle Wolven, de Seriemoordenaar en de Looier zijn dood of bekeerd. De enige overgebleven personen zijn allemaal Sekteleden... De Sekte heeft gewonnen!</value>
   </string>
   <string key="HunterVisitDead">
@@ -605,7 +605,7 @@
 <!-- new strings May 6 2016-->
     <value>Dit zijn de Vrijmetselaars: {0}</value>
   </string>
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
 <!-- 0 - Youngest Zombies name -->
 <!-- 0 - Youngest Zombies name -->
     <value>Je nieuwste Sektelid gaat naar het huis van {0} om deze te bekeren, maar in plaats daarvan is het huis een complete rotzooi, bloed overal en stukjes wolvenvacht waar de Wolf is blijven haken... {0} is duidelijk dood.</value>
@@ -617,7 +617,7 @@
 <!-- new strings May 9 2016-->
     <value>De roedel gaat naar het huis van {0} om deze te eten, maar ze vinden daar een groot donker figuur, bewapend van top tot teen. De Beschermengel bevecht alle Wolven en wint, dus jullie trekken je terug, beteuterd, en verslagen...</value>
   </string>
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
 <!-- 0 - newest  -->
 <!-- 1 - target's name -->
 <!-- new string May 12 2016-->
@@ -633,7 +633,7 @@
 <!-- 1 - name -->
     <value>@{1}, een inwoner met de naam {0} heeft al intrek in Wakkerdam genomen. Verander alsjebieft je naam om ook je intrek in Wakkerdam te kunnen nemen.</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
 <!-- 0 - target's name -->
 <!-- new string May 13 2016-->
 <!-- 0 - target's name -->
@@ -693,8 +693,8 @@
 <!-- new strings june 10 2016 -->
     <value>Je tijd is voorbij!</value>
   </string>
-  <string key="RoleInfoCupid">
-    <value>Jij bent Cupido. Je bent naar de aarde gestuurd; in je onderbroek, met je boog en twee pijlen. Nu mag jij kiezen welke twee inwoners van Wakkerdam van elkaar houden voor de rest van de eeuwigheid. Als één van hun sterft, sterft de andere van het te diepe liefdesverdriet.</value>
+  <string key="RoleInfoRecruiter">
+    <value>Jij bent Recruitero. Je bent naar de aarde gestuurd; in je onderbroek, met je boog en twee pijlen. Nu mag jij kiezen welke twee inwoners van Wakkerdam van elkaar houden voor de rest van de eeuwigheid. Als één van hun sterft, sterft de andere van het te diepe liefdesverdriet.</value>
   </string>
   <string key="RoleInfoDoppelganger">
     <value>Je bent een Doppelgänger. Volgens de legendes waren je voorouders gedaanteverwisselaars, waardoor ze iedere vorm konden aannemen die ze wilden. Jij hebt hier wel wat van mee gekregen, maar helaas niet alles. Dus kies een inwoner van Wakkerdam en als deze sterft, neem jij het beroep en eventuele bijbehorende taken over. Pas op, je kunt pas winnen als je een beroep hebt overgenomen!</value>
@@ -705,8 +705,8 @@
   <string key="RoleInfoSerialKiller">
     <value>Jij bent de Seriemoordenaar. Recentelijk ontsnapt uit het lokale gekkenhuis, is je enige doel iedereen vermoorden met je vlijmscherpe messen en bijlen. Iedere nacht kun je een lichaamsdeel van een inwoner van Wakkerdam aan je collectie toevoegen.</value>
   </string>
-  <string key="CupidChosen">
-    <value>Cupido's pijl heeft je hart geraakt! Je bent ontzettend verliefd op {0}! Als je geliefde sterft, dan sterf jij ook. Als een van jullie wint, dan winnen jullie beiden. Als jullie samen overblijven, dan zegeviert de liefde!</value>
+  <string key="RecruiterChosen">
+    <value>Recruitero's pijl heeft je hart geraakt! Je bent ontzettend verliefd op {0}! Als je geliefde sterft, dan sterf jij ook. Als een van jullie wint, dan winnen jullie beiden. Als jullie samen overblijven, dan zegeviert de liefde!</value>
   </string>
   <string key="HunterLynchedChoice">
     <value>De inwoners van Wakkerdam hebben besloten jou op te hangen! Dit is je laatste kans, schiet iemand nu je nog kan!</value>
@@ -773,14 +773,14 @@
 <!-- 0 - target's name -->
     <value>Je probeerde een orgaan van {0} te bemachtigen voor je collectie, maar je werd bevochten door de Beschermengel en je verloor! Geen orgaan voor jouw collectie vannacht...</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
 <!-- 0 - Youngest Zombie's name -->
 <!-- 1 - target's name -->
 <!-- 0 - Youngest Zombie's name -->
 <!-- 1 - target's name -->
     <value>De Sekte stuurt {0} om {1} te bekeren, maar in plaats daarvan hoort iedereen een schot en vliegt het lichaam van {0} uit het raam van {1}! {0} is dood...</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
 <!-- 0 - Youngest Zombie's name -->
 <!-- 1 - target's name -->
 <!-- 0 - Youngest Zombie's name -->
@@ -815,12 +815,12 @@
 <!-- 1 - mason collegues's name -->
     <value>{0} is gestorven en jij bent daardoor getransformeerd naar een Vrijmetselaar. Je mede-Vrijmetselaars, als ze er zijn, zijn: {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
 <!-- 0 - new Zombie's name -->
 <!-- 0 - new Zombie's name -->
     <value>De Doppelgänger {0} is nu een Sektelid, net als jij!</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
 <!-- 0 - role's name -->
 <!-- 1 - teammates's name -->
 <!-- 0 - role's name -->
@@ -847,12 +847,12 @@
     <value>Wie wil jij vannacht neersteken?</value>
     <value>Wiens organen wil jij vannacht aan je collectie toevoegen?</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
 <!-- 0 - dead's name -->
-<!-- 1 - lover's name -->
+<!-- 1 - crewmate's name -->
 <!-- 2 - roles -->
 <!-- 0 - dead's name -->
-<!-- 1 - lover's name -->
+<!-- 1 - crewmate's name -->
 <!-- 2 - roles -->
     <value>Tijdens {0}'s laatste ademzucht, stort {1} in bij {0}'s lichaam, ontroostbaar huilend. In onvermogen om met het verlies om te gaan, wordt het besluit genomen om zich bij diens geliefde te voegen en wel met het dichtsbij zijnde pistool. {1} is... nee, {2}.
 </value>
@@ -860,17 +860,17 @@
   <string key="AskDoppelganger">
     <value>Wie wil jij worden? Onthoud, dit gebeurt pas wanneer deze inwoner sterft.</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>Wie wil jij dat de geliefden zijn? Kies de eerste inwoner.</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>Wie wil jij dat de geliefden zijn? Kies de tweede inwoner.</value>
   </string>
   <string key="Hunter">
     <value>de Jager 🎯</value>
   </string>
-  <string key="Cupid">
-    <value>Cupido 🏹</value>
+  <string key="Recruiter">
+    <value>Recruitero 🏹</value>
   </string>
   <string key="SerialKiller">
     <value>de Seriemoordenaar 🔪</value>
@@ -883,7 +883,7 @@
 <!-- 0 - target's name -->
     <value>Je bent het Wilde Kind geworden! Je rolmodel is {0}. Als deze sterft, word jij dus Wolf.</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
     <value>Ware liefde overwint alles! De Geliefden hebben gewonnen!</value>
   </string>
   <string key="HunterKilledVisiter">
@@ -893,7 +893,7 @@
 <!-- 1 - role -->
     <value>In het midden van het stadhuisplein, kan iedereen het lichaam van {0} zien, met meerdere schoten in het lichaam. Het ziet er naar uit dat {0}, {1}, geprobeert heeft de Jager te besluipen!</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>Een figuur met een kap heeft geprobeerd je te bekeren tot zijn geloof, maar je trapte er niet in!</value>
   </string>
   <string key="AlreadyOnWaitList">
@@ -993,7 +993,7 @@
   <string key="AboutFool">
     <value>De Dwaas denkt dat hij/zij de Ziener is... en kiest dan ook net als de Ziener iedere nacht een inwoner van Wakkerdam om zijn/haar beroep te ontcijferen. Hoewel het geziene beroep wel in Wakkerdam aanwezig is, hoeft deze niet bij de bekeken inwoner te horen.</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>Sekteleden hebben als doel alle andere inwoners van Wakkerdam bekeren tot hun geloof. Een aantal beroepen zijn hier bestendiger tegen dan anderen. Het spel eindigd wanneer alle levende inwoners van Wakkerdam bekeerd zijn tot het geloof, dan wint dus de Sekte.</value>
   </string>
   <string key="AboutCH">
@@ -1014,8 +1014,8 @@
   <string key="AboutDG">
     <value>Volgens de legendes waren de voorouders van de Doppelgänger gedaanteverwisselaars, daardoor konden ze iedere vorm kiezen die ze wilden. De Doppelgänger heeft hier wel wat van mee gekregen, maar helaas niet alles. Dus deze kiest een inwoner van Wakkerdam en als deze sterft, transformeert de Doppelgänger in deze inwoner en krijgt daarbij zijn/haar beroep. De Doppelgänger kan pas winnen als deze een beroep heeft overgenomen! Tenzij hij/zij in de liefde gekoppeld is aan iemand wiens team wint.</value>
   </string>
-  <string key="AboutCupid">
-    <value>Love is in the air. Cupido kiest twee inwoners van Wakkerdam tijdens de eerste nacht, deze twee inwoners worden ongeloofelijk verliefd, waardoor als de ene sterft, de andere zal sterven van verdriet. De verliefden weten dat ze verliefd op elkaar zijn, maar kennen niet direct elkaars beroep. Als de geliefden de enige twee overgebleven inwoners van Wakkerdam zijn, winnen ze samen, zonder hun teams. Als de geliefden bij verschillende teams horen en 1 van de teams wint, winnen beiden geliefden met het winnende team mee.</value>
+  <string key="AboutRecruiter">
+    <value>Love is in the air. Recruitero kiest twee inwoners van Wakkerdam tijdens de eerste nacht, deze twee inwoners worden ongeloofelijk verliefd, waardoor als de ene sterft, de andere zal sterven van verdriet. De verliefden weten dat ze verliefd op elkaar zijn, maar kennen niet direct elkaars beroep. Als de geliefden de enige twee overgebleven inwoners van Wakkerdam zijn, winnen ze samen, zonder hun teams. Als de geliefden bij verschillende teams horen en 1 van de teams wint, winnen beiden geliefden met het winnende team mee.</value>
   </string>
   <string key="AboutHunter">
     <value>De Jager, schietgraag en houd van wraak. De Jager probeert zichzelf veilig te houden, wanneer andere dan ook op bezoek komen, kan het zijn dat de Jager iets te paranoide is en de bezoeker neerschiet. Als de Wolven aanvallen is er een kans dat de Jager de Wolf mee neemt in zijn/haar graf. Als de Jager op een andere manier sterft is er een kans dat deze mag kiezen wie hij/zij schiet. Als de Sekte hem/haar probeert te bekeren is er niet alleen een kans van 50% dat het niet lukt, maar ook nog eens 50% kans dat de Jager hun nieuwste Sektelid naar zijn/haar graf stuurd!
@@ -1183,10 +1183,10 @@ Notitie: Als de Wolven aanvallen heb de Jager bij 1 Wolf 30% kans dat hij/zij de
   <string key="AllowTannerA">
     <value>Looier als rol optie ingesteld op: {0}</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>Sekte als rol optie toestaan?\nHuidig: {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>Sekte als rol optie ingesteld op: {0}</value>
   </string>
   <string key="EnableSecretLynchQ">
@@ -1363,13 +1363,13 @@ Notitie: Als de Wolven aanvallen heb de Jager bij 1 Wolf 30% kans dat hij/zij de
   <string key="SerialKillerTeamEnd">
     <value>Team Seriemoorenaar</value>
   </string>
-  <string key="CultTeamEnd">
+  <string key="zoombiesTeamEnd">
     <value>Team Sekte</value>
   </string>
   <string key="TannerTeamEnd">
     <value>Team Looier</value>
   </string>
-  <string key="CultConvertWolf">
+  <string key="zoombiesConvertWolf">
     <value>De Sekte stuurde {0} om te proberen om {1} te bekeren, maar in plaats daarvan komt het hoofd van {0} het raam uit vliegen... Waarom zou {1} het hoofd van {0} toch oneetbaar gevonden hebben? Het moge in ieder geval duidelijk zijn dat {0} dood is...</value>
   </string>
   <string key="HarlotFuckedKilledPublic">
@@ -1390,8 +1390,8 @@ Notitie: Als de Wolven aanvallen heb de Jager bij 1 Wolf 30% kans dat hij/zij de
   <string key="ZombieKilled">
     <value>{0} is doodgestoken, met een kaars... bij zijn/haar altaar. De Seriemoordenaar heeft weer toegeslagen en hield daarbij geen rekening met ras, taal of religie! {0} was duidelijk een Sektelid.</value>
   </string>
-  <string key="CupidKilled">
-    <value>De volgende morgen treurden de dorpelingen tot diep in hun hart toen ze {0} vonden, {0} was beter bekend als Cupido. Helaas was Cupido opengespleten van hoofd tot tenen. Vreemd genoeg was het hart verdwenen... Het lijkt wel chirurgisch verwijderd.</value>
+  <string key="RecruiterKilled">
+    <value>De volgende morgen treurden de dorpelingen tot diep in hun hart toen ze {0} vonden, {0} was beter bekend als Recruitero. Helaas was Recruitero opengespleten van hoofd tot tenen. Vreemd genoeg was het hart verdwenen... Het lijkt wel chirurgisch verwijderd.</value>
   </string>
   <string key="DrunkKilled">
     <value>De dorpelingen hadden gehoopt om {0} te kunnen begroeten, om zijn/haar Remy Martin te complimenteren, maar in  het huis van {0} vonden ze alleen een gebroken mes en een lever. Al die jaren waarin {0} gedronken had, hadden geleid to een lever zo hard dat zelfs de Seriemoordenaar hem niet meer hoefde... Het was ook een echte Zuiplap.</value>
@@ -1426,13 +1426,13 @@ Notitie: Als de Wolven aanvallen heb de Jager bij 1 Wolf 30% kans dat hij/zij de
     <value>De inwoners van Wakkerdam worden 's ochtends wakker en vinden verschillende losse lichaamsdelen van {0}, de SekteJager, in een winkelwagentje, geplaatst in vol zicht buiten het stadhuis. Les geleerd: Ga niet op bezoek bij de Seriemoordenaar!</value>
     <value>Het lichaam van {0}, de Sektejager, werd in het midden van Wakkerdam gevonden, in precies honderd stukjes gesneden. Controleren of de Seriemoordenaar een Sektelid was, bleek geen goed idee...</value>
   </string>
-  <string key="CultConvertWolfPublic">
+  <string key="zoombiesConvertWolfPublic">
 <!--used when Zombies convert the wolves, only if wolves stayed home-->
 <!--used when Zombies convert the wolves, only if wolves stayed home-->
     <value>Terwijl de Wolven voor de verandering braaf thuis bleven, straften ze {0}. Hij/zij was een Sektelid die het te moeilijk vond om de verleiding te weerstaan om de Wolven lastig te vallen. {0} zijn/haar hoofd werd een fijnproevers diner, bij de Wolven thuisbezorgd!</value>
     <value>De Sekte kreeg afgelopen nacht, onverwachte problemen. Hun nieuwste Sektelid had de onfortuinlijke eer om de Wolven te bezoeken, net op de nacht waarop de Wolven niet gingen jagen. De Wolven vonden {0} echter erg lekker! Maar helaas was het offer van {0} voor niets, de Wolven hadden geen interesse om zich te bekeren en zich tot het geloof van de Sekte.</value>
   </string>
-  <string key="CultConvertKillerPublic">
+  <string key="zoombiesConvertKillerPublic">
 <!--used when Zombies convert the SK-->
 <!--used when Zombies convert the SK-->
     <value>De Sekte dacht dat ze een nieuw lid konden inwijden, maar oh wat zaten ze daar fout! {0}, een Sektelid, is in kleine stukjes gesneden en 's ochtends te vinden in het midden van het stadhuisplein! Vreemd genoeg stak er een mes uit hun 'heilig' boek, als een statement om te laten zien wiens 'religie' overwon.</value>
@@ -1538,7 +1538,7 @@ Notitie: Als de Wolven aanvallen heb de Jager bij 1 Wolf 30% kans dat hij/zij de
     <value>De laatste 30 seconden ingeschreven voor een woning in Wakkerdam en daarmee alle risico's die hierbij komen kijken geaccepteerd: {0}</value>
     <value>De laatste 30 seconden ingeschreven voor een woning in Wakkerdam en besloten het risico te accepteren om vermoord te worden: {0}</value>
   </string>
-  <string key="AllowCult">
+  <string key="Allowzoombies">
     <value>Sekte toestaan</value>
   </string>
   <string key="AllowTanner">
@@ -1771,7 +1771,7 @@ Notitie: Als de Wolven aanvallen heb de Jager bij 1 Wolf 30% kans dat hij/zij de
     <value>Je mede Vrijmetselaars, als ze er zijn, zijn: {0}
 </value>
   </string>
-  <string key="ThiefToCult">
+  <string key="ThiefTozoombies">
 <!-- 0 - old Zombie's name -->
 <!-- 1 - new Zombie's name -->
     <value>{0} is niet langer lid van de Sekte en {1} is zonder enige inzet van jullie bekeerd!</value>
@@ -2126,18 +2126,18 @@ Notitie: Als de Wolven aanvallen heb de Jager bij 1 Wolf 30% kans dat hij/zij de
     <value>Je arriveert bij het huis van {0}, maar daar staat de Beschermengel, pontificaal voor het huis. Je probeert nog te vechten, maar je maakt geen schijn van kans! Man man, wat een slechte nacht...</value>
   </string>
   <string key="HunterFell">
-<!--{0}: cult hunter-->
+<!--{0}: zoombies hunter-->
     <value>Alweer een nacht waarbij je die vervloekte Sekte niet te pakken krijgt! Gefrustreerd loop je over de begraafplaats, waardoor je die ene val mist. Je voelt hem om je enkel en schreeuwt, je probeert los te komen waardoor je met val en al in het opgen graf van {0} valt. Het laatste wat je hoort is het breken van je nek, dan word alles zwart.</value>
   </string>
   <string key="HunterFellDigger">
 <!--{0}: Zombie-->
     <value>Na alweer een lange en vermoeiende nacht loop je terug naar huis, terwijl de zon zelfs al op komt. Echter loop je langs een van je open graven en zie je een zwaard op de grond liggen, met in het graf het lichaam van {0}... Tjah, had de Sektejager je maar moeten vertrouwen...</value>
   </string>
-  <string key="CultFell">
+  <string key="zoombiesFell">
 <!--{0}: Zombie who fell, {1}: grave digger-->
     <value>Je bent net binnen, na het graven van de graven van vannacht, wanneer je een ijzingwekkende schreeuw hoort van een van je open graven. Je haast je en vind {0}, dood. Najaaa, wat zand eroverheen en dit Sektelid is begraven op heilige grond. Nu snel slapen hoor, gaaaaap.</value>
   </string>
-  <string key="CultConvertGraveDigger">
+  <string key="zoombiesConvertGraveDigger">
 <!--{0}: grave digger-->
     <value>Onderweg naar {1} om deze te bekeren, bedenkt {0} zich ineens dat het een goed idee is om de kerk in de fik te zetten! {0} rent door de begraafplaats en de rest van de sekte volgt, tot deze uitglijd en in een graf valt! Het ijzige gekrijs van {0} is zo eng dat iedereen vlucht!</value>
   </string>

@@ -652,7 +652,7 @@
 <!-- 1 - target name -->
     <value>بڕیاری{0} وایە کە {1} بگۆرین</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
 <!-- 0 - Yougest Zombie (killed)'s name' -->
 <!-- 1 - ZombieHunter's name -->
 <!-- 0 - Yougest Zombie (killed)'s name' -->
@@ -665,7 +665,7 @@
 <!-- 1 - ZombieHunter's name -->
     <value>دەی {0}رۆشت بۆ ئەوە {1} بکاهژە بیرەوەر بەڵام {1} راوچی بوو و کووشتی!</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
 <!-- 0 - Youngest Zombie's name -->
 <!-- 1 - Number of Zombies left -->
 <!-- 0 - Youngest Zombie's name -->
@@ -678,10 +678,10 @@
 <!-- 1 - Number of Zombies left -->
     <value>دویشەو {0} هات بتکاتە بیرەوەر. بەڵام تۆ لیت دا و کووشت! {1} ماوەتەوە</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>تۆ ئیستا بیرەوەری هەر شەو لەگەل هەڤالە کانت یەکیک دەبیت بکەیتە بێرەوەر </value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
 <!-- 0 - Number of Zombies -->
 <!-- 0 - Number of Zombies -->
 <!-- 0 - Number of Zombies -->
@@ -689,7 +689,7 @@
 <!-- 0 - Number of Zombies -->
     <value>بیرەوەرەکان : {0}ئەم مرۆڤانەن</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
 <!-- 0 - new Zombie's name -->
 <!-- 0 - new Zombie's name -->
 <!-- 0 - new Zombie's name -->
@@ -697,7 +697,7 @@
 <!-- 0 - new Zombie's name -->
     <value>ئیستا {0} بوەتە بیرەوەر</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
 <!-- 0 - Newest Zombie's name -->
 <!-- 1 - target name -->
 <!-- 0 - Newest Zombie's name -->
@@ -710,7 +710,7 @@
 <!-- 1 - target name -->
     <value>دەی {0} رۆشت {1} بکاتە بیرەوەر بەڵام لە ماڵ نە بوو</value>
   </string>
-  <string key="CultWins">
+  <string key="zoombiesWins">
     <value>دیهات زۆرینەی بیرەوەرن !! بیرەوەرە کان سەر کەوتن</value>
   </string>
   <string key="HunterVisitDead">
@@ -863,7 +863,7 @@
 <!-- new strings May 6 2016-->
     <value>  ماسونە کانی دیکه: {0}</value>
   </string>
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
 <!-- 0 - Youngest Zombies name -->
 <!-- 0 - Youngest Zombies name -->
 <!-- 0 - Youngest Zombies name -->
@@ -884,7 +884,7 @@
 <!-- new strings May 9 2016-->
     <value>دویشەو گوورگەکان چوون  {0} بیکووژن بەڵام فریشتەی پاریزەر وەک پیاو پاراستی</value>
   </string>
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
 <!-- 0 - newest  -->
 <!-- 1 - target's name -->
 <!-- new string May 12 2016-->
@@ -915,7 +915,7 @@
 <!-- 1 - name -->
     <value>بەریز{0} {1} یاریزانیکی دی بە ناوی ئیوەوە لەم یاری یا هەیە، ناوت بگورە تابتوانی بەشداری ئەم یاری یە بیت</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
 <!-- 0 - target's name -->
 <!-- new string May 13 2016-->
 <!-- 0 - target's name -->
@@ -1090,7 +1090,7 @@
 <!-- new strings june 10 2016 -->
     <value>کات تەواو بوو!</value>
   </string>
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
     <value>تۆ خۆای مەم وزینی ! تیرت بە لە دڵی دوو کەس و ئەوینداریان کە!گەر یەکیان بمرێت ئەوی تریان لە خەفەتیا دەمریت</value>
   </string>
   <string key="RoleInfoDoppelganger">
@@ -1102,7 +1102,7 @@
   <string key="RoleInfoSerialKiller">
     <value>تۆ بەکووژی. هەر شەو یەکیک بە کولیسیونەکەت زیا ئەکەت. ئامانجت ئەوەیە حەموو بکووژی.!</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>تۆ ئەوینی {0}لە دلتایە . گەر یکتان بمریت ئەوی کەشیان ئەمریت.</value>
     <value>پەیکەری ئەوین تیرە کەی کردوە بە دڵتا و {0} . ئیستا گەر ئەو بمریت تۆش ئەمری</value>
   </string>
@@ -1170,7 +1170,7 @@
 <!-- 2 - target's role -->
     <value>پاسەوان {0} لەکۆتایین چرکە چەکە کەی دەر هینا و {1}کووشت. {2}</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <value>بیرەوەری خۆشەویست {0} رۆشت بۆ ماڵی بە کووژ {1} که بی کات با بیرەوەر {1} بەڵام گشت ئەندامە کانی بەیە نی خستە نیو ئەلکوول</value>
     <value>بیرەوەری خوشەویست  {0} رووشت بەکووژ  {1} بکاتە بیرەوەر بەڵام دوایی مەیتە کەیان دۆزی یە وە</value>
   </string>
@@ -1214,7 +1214,7 @@
 <!-- 0 - target's name -->
     <value>رۆشتی {0} بکووژی بەڵام فریشتەی پاریزەر بەری گرتی</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
 <!-- 0 - Youngest Zombie's name -->
 <!-- 1 - target's name -->
 <!-- 0 - Youngest Zombie's name -->
@@ -1262,7 +1262,7 @@
 <!-- 1 - mason collegues's name -->
     <value>دەی  {0} هاو ژیانەکەت مرد . چون کە ماسون بوو تۆش بوویتە ماسون و باقی هاوریکانت: {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
 <!-- 0 - new Zombie's name -->
 <!-- 0 - new Zombie's name -->
 <!-- 0 - new Zombie's name -->
@@ -1270,7 +1270,7 @@
 <!-- 0 - new Zombie's name -->
     <value>رۆحی سەرگەردانت {0} چونکە ئەکدامیکی 0بیرەوەری هەڵبژاردبوو ئیستا هاوژیان ماسونە.</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
 <!-- 0 - role's name -->
 <!-- 1 - teammates's name -->
 <!-- 0 - role's name -->
@@ -1310,37 +1310,37 @@
   <string key="AskKill">
     <value>دەتەویت ئەمشەو کی بکووژی؟</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
 <!-- 0 - dead's name -->
-<!-- 1 - lover's name -->
+<!-- 1 - crewmate's name -->
 <!-- 2 - roles -->
 <!-- 0 - dead's name -->
-<!-- 1 - lover's name -->
+<!-- 1 - crewmate's name -->
 <!-- 2 - roles -->
 <!-- 0 - dead's name -->
-<!-- 1 - lover's name -->
+<!-- 1 - crewmate's name -->
 <!-- 2 - roles -->
 <!-- 0 - dead's name -->
-<!-- 1 - lover's name -->
+<!-- 1 - crewmate's name -->
 <!-- 2 - roles -->
 <!-- 0 - dead's name -->
-<!-- 1 - lover's name -->
+<!-- 1 - crewmate's name -->
 <!-- 2 - roles -->
     <value>بە مەرگی {0}  ئەوینە کەی مرد {1} خۆی خستە سەر تەرمە کەی تا مرد. {2}</value>
   </string>
   <string key="AskDoppelganger">
     <value>دەتەویت ببیتە رؤحی سەرگەردانی کی ؟ گەر بمریت تۆ ڕولە کەی لە ئەستو بگریت</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>دە تەویت کی بکەیتە ئەوین دار؟ یەکەم مەم هەلبژیرە</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>دە تەویت کی بکەیتە ئەوین دار؟ دووهەم زین هەلبژیرە</value>
   </string>
   <string key="Hunter">
     <value>پاسەوان🎯</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value> خۆای مەم وزین💘</value>
   </string>
   <string key="SerialKiller">
@@ -1357,7 +1357,7 @@
 <!-- 0 - target's name -->
     <value>تۆ بەچکە وەحشیت و شیوەت کەسیک نیە جگە لە {0}</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
     <value>ئەوین دارەکان براوەن</value>
   </string>
   <string key="HunterKilledVisiter">
@@ -1373,7 +1373,7 @@
 <!-- 1 - role -->
     <value>دەی دویشەوچوو بو مالی  {0} بۆ سەرە تاتکی  . یەک فیشەکی پیوە نا کووشتی. {1}</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>دویشەو بیرەوەریک ئەیویست بتکاتە بیرە وەر بەڵام تۆ بە کردەوەتر بوویت لەوەی فێلی بخۆیت</value>
   </string>
   <string key="AlreadyOnWaitList">
@@ -1517,7 +1517,7 @@
   <string key="AboutFool">
     <value>بە گەمژە دەوترێت غەیب بێژە بەلام کاتیک بیەویت روڵی یەکیک بزانیت درۆ ی لەگەل دەکەین و رۆلیک بە رەمەکی پێ دەلین</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>وەک بیرەوەری سەرەتایی ئامانجت ئەوەیە گشت دیهات فیری بییر کردنەوە و لیدوان بکەی کاتیک براوەی کە حەموو ت فیری بیر کردنەوە بکەیت.</value>
   </string>
   <string key="AboutCH">
@@ -1542,7 +1542,7 @@
 تێبينى: ئەگەرەكە ياريزان گۆڕدرا بۆ بیرەوەر، تۆ دەبەيت لەسەريان ڕەسەن ڕۆڵ. هەموو ديكە ئاسايى حوكم جێبەجێ دەكەن: ئەگەر ئەوان بچکە وەحشی بوون تۆش دەبیت
 بیرەوەر ناتۆاویت کارت ڵی بکات چوون رۆحی سەر لێ شێواوی و مرۆڤیش دەسەڵاتی بە سەر رۆحا نیە </value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>
       ئەوین لە ناو ژیانا وەک خۆین وایە لە نێو دەمارا! وەک خودای مەم و زین ئیشت ئەوە یە دووکەس ئەویندار کەیت💕اگه یکی از عاشقا!گەر مەم بمریت زینیش لە ناراحەتی مەرگیا دیق ئەکات و ئەمریت گەر مەم وە یبات زینیش ئەیباتەوە (وەک :گوورگ و دیهات)
     </value>
@@ -1733,10 +1733,10 @@
   <string key="AllowTannerA">
     <value>ڕۆلی مونافق کارایە: {0}</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>ڕۆلی بیرەوەر کارا بێت؟\n sشیوەی ئیشتا : {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>ڕۆڵی بیرەوەر کارایە: {0}</value>
   </string>
   <string key="ThankYou">
@@ -1927,13 +1927,13 @@
   <string key="SerialKillerTeamEnd">
     <value>کۆری کوتایی بەکووژ</value>
   </string>
-  <string key="CultTeamEnd">
+  <string key="zoombiesTeamEnd">
     <value>کوری کۆتایی بیرەوەر</value>
   </string>
   <string key="TannerTeamEnd">
     <value>کۆری کۆتایی مونافق</value>
   </string>
-  <string key="CultConvertWolf">
+  <string key="zoombiesConvertWolf">
     <value>دیشەو بیرەوەرەکان {0} ناردیان کە {1} بیکەنە بیرەوەر ، بەلام سەریان بینی {0} لە پەنجەرەی مال {1} کەوتوەتە دەر! {0}مردوە</value>
   </string>
   <string key="HarlotFuckedKilledPublic">
@@ -1965,7 +1965,7 @@
   <string key="ZombieKilled">
     <value>دویشەو بەکووژ هیرشی کردە سەر بیرەوەرە کان {0} کووشت!</value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>بەیانی تەرمی {0} پەیا بوو ! ئیدی کەس لە نیۆ دیەاتا باسی ئەوین و ئەوینداران ناکات مەخابم! خودای مەم و زین بە چەرۆی بەکووژ گیانی شیرینی لە دەست دا ئیدی تەواوی جیەان شین و رو رو یو فریشتەی غەم سەر کەوت!</value>
   </string>
   <string key="DrunkKilled">
@@ -2000,7 +2000,7 @@
 <!--used when CH visits SK-->
     <value>ڕاوچی {0} لە نێو دارستانا بەدوای بیرەوەرە کانا ئەگەرا لە ناکاو بەکووژ هیرش ئەکاتە سەری و ئەی کووژیت</value>
   </string>
-  <string key="CultConvertWolfPublic">
+  <string key="zoombiesConvertWolfPublic">
 <!--used when Zombies convert the wolves, only if wolves stayed home-->
 <!--used when Zombies convert the wolves, only if wolves stayed home-->
 <!--used when Zombies convert the wolves, only if wolves stayed home-->
@@ -2008,7 +2008,7 @@
 <!--used when Zombies convert the wolves, only if wolves stayed home-->
     <value>دویشەو {0} چوو گوورگە کان بکاتە بیرەوەر ! بەلام گوورگە کان هیرشیان کردە سەری تیکە تیکە ی جەستە یان لە نیو دەهاتا بلاو کردەوە!</value>
   </string>
-  <string key="CultConvertKillerPublic">
+  <string key="zoombiesConvertKillerPublic">
 <!--used when Zombies convert the SK-->
 <!--used when Zombies convert the SK-->
 <!--used when Zombies convert the SK-->
@@ -2163,7 +2163,7 @@
 <!-- {0} = list of people who have joined -->
     <value>{0} لە 30 چرکەی رابردوا هاتە نێو یاری </value>
   </string>
-  <string key="AllowCult">
+  <string key="Allowzoombies">
     <value>بیرەوەر</value>
   </string>
   <string key="AllowTanner">
@@ -2488,7 +2488,7 @@
 <!-- 0 - mason collegues's name -->
     <value>هاوری کانت (گەر ببن ) ئەمانەن:{0}.</value>
   </string>
-  <string key="ThiefToCult">
+  <string key="ThiefTozoombies">
 <!-- 0 - old Zombie's name -->
 <!-- 1 - new Zombie's name -->
 <!-- 0 - old Zombie's name -->
@@ -2963,11 +2963,11 @@
     <value>چووی بۆ مالی  {0} بەڵام فریشتەی پاریزەر لەوی بوو شەریکی چاکت لەگەلا کرد ،  بەلام هیچ شانسیکت نەبوو . ئەم شەو شەویکی خراپ بوو بۆت</value>
   </string>
   <string key="HunterFell">
-<!--{0}: cult hunter-->
-<!--{0}: cult hunter-->
-<!--{0}: cult hunter-->
-<!--{0}: cult hunter-->
-<!--{0}: cult hunter-->
+<!--{0}: zoombies hunter-->
+<!--{0}: zoombies hunter-->
+<!--{0}: zoombies hunter-->
+<!--{0}: zoombies hunter-->
+<!--{0}: zoombies hunter-->
     <value>شەوی کی دی بە نا ئومیدی لەوەی کە بیرەوەریکت بەر دەست نەکەوتوە بۆ راو ،لە ناو گۆرستانا ئەرۆیت `ەبریکت بەر چاو نایات و لە ناکاو ئەکەویتە ناوی.زۆر ئەقیژینیت یەکیکت فریا کەویت  {0} دێت بەلام زۆر درەنگ ئەوەندە کە تازە خەریکە گیانت دەر ئەچیت! </value>
   </string>
   <string key="HunterFellDigger">
@@ -2978,7 +2978,7 @@
 <!--{0}: Zombie-->
     <value> دوای شەویکی زۆر نالە بار و ناخۆش دەگەریتەوە مال بەلام لە لای گۆریک شمشیریک ئەبینی وادیارە راو چی  {0} کەوتوەتە ناو گۆر</value>
   </string>
-  <string key="CultFell">
+  <string key="zoombiesFell">
 <!--{0}: Zombie who fell, {1}: grave digger-->
 <!--{0}: Zombie who fell, {1}: grave digger-->
 <!--{0}: Zombie who fell, {1}: grave digger-->
@@ -2986,7 +2986,7 @@
 <!--{0}: Zombie who fell, {1}: grave digger-->
     <value> دوای یەک شەو زۆر ناخۆش لە وەسەتیت کارا کت و پر دەنگیکی کز لە ناۆ گۆریکی ناتەواو ئەبیستی ئەچیت  {0} ئەبینی کە کەوتوەتە ناو گۆر. بۆچی بیرەوەریک دیتە ناو گۆرستان کە لە چی تی بکریت یان ویستوویەتی گۆرکەن بکاتە بیرەوەر؟</value>
   </string>
-  <string key="CultConvertGraveDigger">
+  <string key="zoombiesConvertGraveDigger">
 <!--{0}: grave digger-->
 <!--{0}: grave digger-->
 <!--{0}: grave digger-->

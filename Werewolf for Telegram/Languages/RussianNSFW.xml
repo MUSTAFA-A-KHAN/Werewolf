@@ -306,25 +306,25 @@
   <string key="ZombieVotedConvert" >
     <value >{0} проголосовал завербовать {1}</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <value>{0} был отправлен сделать свою грязную работу и завербовать {1}..., но это был охотник за сектантами! {0} получил пиздюлей и скончался!</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <value>{0} пришёл, чтобы завербовать тебя....  но ты просунул свой меч ему прям промеж булок. Осталось {1} сектант(ов)!</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>Секта завербовала тебя на свою сторону!  Теперь ты сектант.  Теперь каждую ночь ты будешь ходить.</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>Сектанты: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <value>{0} присоединился к секте!</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <value>{0} был отправлен сделать свою грязную работу и завербовать {1}... но дома никого не было!</value>
   </string>
-  <string key="CultWins" >
+  <string key="zoombiesWins" >
     <value >Все волки передохли, а оставшиеся жителя завербованы в секту.  Секта победила!</value>
   </string>
   <string key="HunterVisitDead">
@@ -421,7 +421,7 @@
     <value>  Список масонов: {0}</value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <value>Ваш новичок приближается к дому {0}, чтобы завербовать его, но в доме обнаружил полный беспорядок, кровь и сперма вокруг. Кусочки меха остались в дверном проёме...</value>
   </string>
   <string key="GuardBlockedWolf">

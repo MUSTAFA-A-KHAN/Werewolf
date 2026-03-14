@@ -380,33 +380,33 @@
     <!-- 1 - target name -->
     <value >{0} telah mengajak kamu untuk mengajar {1} tentang raver dan hipster.</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <!-- 0 - Yougest Zombie (killed)'s name' -->
     <!-- 1 - ZombieHunter's name -->
     <value>{0} telah dihantar untuk menghasut, dan menghasut {1}... tetapi dia merupakan seorang OTAI! {0} dihumban ke telaga misteri.</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - Number of Zombies left -->
     <value>{0} datang ke rumah anda semalam, bersedia untuk meghasut anda menyertai tarian pelik... Tetapi anda mengambil rotan dan memukul {1}, salah seorang budak raver, dan menghumbannya ke dalam telaga misteri.</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>Anda tertarik dengan pendekatan raver dan hipster yang diberikan kepada anda. Kini anda menjadi sebahagian daripada mereka.</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <!-- 0 - Number of Zombies -->
     <value>Budak Raver/Hipster: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <!-- 0 - new Zombie's name -->
     <value>{0} telah menyertai Budak Raver/Hipster!</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <!-- 0 - Newest Zombie's name -->
     <!-- 1 - target name -->
     <value>{0} telah di hantar untuk mengajarkan tarian raver kepada {1}... tetapi dia tiada sesiapa di rumah!</value>
   </string>
-  <string key="CultWins" isgif="true">
+  <string key="zoombiesWins" isgif="true">
     <value >Semua makhluk halus berjaya di hapuskan, yang tinggal hanyalah budak raver, semua penduduk Kampung Misteri terpengaruh untuk menjadi budak raver. Budak raver dan hipster telah menang!</value>
   </string>
   <string key="HunterVisitDead">
@@ -511,7 +511,7 @@
     <value>  Ahli RELA :  {0}</value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <!-- 0 - Youngest Zombies name -->
     <value>Ahli terbaru anda telah menuju ke rumah {0} untuk mengajak jadi ahli raver, tetapi dia telah melarikan diri secara tiba-tiba. Sotong bergelimpahan dan video yang cuba ditularkan belum sempat dimuat naik...</value>
   </string>
@@ -520,7 +520,7 @@
     <value>Sekumpulan mahluk halus menuju ke rumah {0} untuk menjadikan mangsa, tetapi mereka menjumpai seorang bermisai dan kumis yang agak macho. Mahluk halus balik dengan hati yang kecewa kerana Pak Guard menjaga mangsa dengan baik.</value>
   </string>
   <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <!-- 0 - newest  -->
     <!-- 1 - target's name -->
     <value>Anda telah dihantar {0} untuk cuba mengajak {1} menjadi budak raver, tetapi iman dia terlalu kuat. :(</value>
@@ -531,7 +531,7 @@
     <!-- 1 - name -->
     <value>@{1}, pemain bernama {0} sudah memasuki Kampung Misteri. Sila tukar nama lain  terlebih dahulu.</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <!-- 0 - target's name -->
     <value>Anda menyelinap masuk ke rumah {0} untuk sedekahkan hasil jualan kueh yang tak habis... tetapi ketika anda meninggalkan rumah tersebut, anda mula mendengari muzik yang aneh dan terlihat sekumpulan penduduk melakukan tarian raver...</value>
   </string>
@@ -625,7 +625,7 @@
     <value>Masa tamat!</value>
   </string>
   <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
     <value>Anda seorang pencari jodoh 🏹. Menghabiskan masa anda mempelajari ilmu pengasih, anda akan memilih dua orang pemain untuk di jodohkan. Jika salah seorang hilang, seorang lagi akan menghilangkan diri dalam kesepian.</value>
   </string>
   <string key="RoleInfoDoppelganger">
@@ -637,7 +637,7 @@
   <string key="RoleInfoSerialKiller">
     <value>Anda merupakan Pontianak 🔪 yang ingin membalas dendam terhadap penduduk Kampung Misteri. Setiap malam anda memilih seorang penduduk kampung untuk dibunuh tanpa dikesan. Anda akan menang jika semua penduduk kampung telah tiada(Kecuali ada kekasih). Jika orang minyak menyerang anda, mereka akan mati dibunuh.</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>Anda dilamun cinta bersama {0}. Jika salah seorang hilang, seorang lagi akan membawa diri ketempat lain. Jika pasangan anda menang, anda juga akan menang.</value>
     <value>Jampi pengasih telah mengenai diri anda! Anda mabuk di lamun cinta dengan {0}! Jika si dia hilang, anda turut hilang, jika si dia menang kamu berdua akan menang.</value>
   </string>
@@ -693,12 +693,12 @@
     <!-- 0 - target's name -->
     <value>Kamu cuba menyerang {0} tetapi dia dijaga oleh Pak Guard yang berpengalaman...</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
     <value>Budak Raver/Hipster menghantar {0} ke rumah {1} untuk dijadikan rakan raver. Ternyata {1} tidak suka lalu mengenakan jampi keatas {0}. {0} pon pergi ke telaga misteri sambil bernyanyi.. 'Beginilah nasib diriku yang malang, oh tuhan..'</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
     <value>Budak Raver/Hipster menghantar {0} ke rumah {1} untuk dijadikan rakan raver. Tanpa diduga {0} tercampak ke seluruh kawasan rumah itu lalu menghilang. Gilalah, macam tak percaya....</value>
@@ -723,11 +723,11 @@
     <!-- 1 - mason collegues's name -->
     <value>{0} telah hilang, dan kamu berubah menjadi seperti dirinya.  Rakan RELA kamu adalah: {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <!-- 0 - new Zombie's name -->
     <value>Hantu Raya {0} bertukar menjadi seperti anda. Seorang Budak Raver/Hipster! Bhahahaa!</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <!-- 0 - role's name -->
     <!-- 1 - teammates's name -->
     <value>{0} sudah hilang, dan kamu bertukar menjadi Budak Raver/Hipster.  Rakan Raver/Hipster kamu adalah (Jika ada): {1}</value>
@@ -747,25 +747,25 @@
   <string key="AskKill">
     <value>Siapakah yang akan menjadi mangsa anda?</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <!-- 0 - dead's name -->
-    <!-- 1 - lover's name -->
+    <!-- 1 - crewmate's name -->
     <!-- 2 - roles -->
     <value>{1} mendapati bahawa {0} telah tiada. Tanpa berfikir panjang {1} terjun kearah telaga misteri dihujung kampung. {2}</value>
   </string>
   <string key="AskDoppelganger">
     <value>Andaingin menjadi seperti siapa jika dia menghilang?</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>Siapa yang anda mahu mereka berjodohan? Pilih pemain pertama</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>Siapa yang anda mahu mereka berjodohan? Pilih pemain kedua</value>
   </string>
   <string key="Hunter">
     <value>Pemburu Hantu 🎯</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>Pencari Jodoh 🏹</value>
   </string>
   <string key="SerialKiller">
@@ -778,7 +778,7 @@
     <!-- 0 - target's name -->
     <value>Anda menjadi saka dan tuan anda adalah {0}.</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
     <value>Cinta sejati berkekalan! Mereka bergembira kerana tiada lagi yang mengganggu mereka.. Kalau dah jodoh tak ke mana.. </value>
   </string>
   <string key="HunterKilledVisiter">
@@ -786,7 +786,7 @@
     <!-- 1 - role -->
     <value>Di tengah kampung, semua orang berkumpul dan menjumpai peralatan yan selalu digunakan {0}, beberapa jurus di beri ke atas tubuhnya. Nampaknya mereka cuba untuk mengganggu Pemburu Hantu! {1}</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>Budak Raver/Hipster menerangkan pegangan mereka dan mengajak anda menjadi sepertinya tetapi anda lebih bijak menolak pelawaan mereka.</value>
   </string>
   <string key="AlreadyOnWaitList">
@@ -870,7 +870,7 @@
   <string key="AboutFool">
     <value>Anda didedahkan sebagai Wartawan.... Apabila anda melihat seseorang, anda akan diberikan watak orang tersebut secara random.</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>Sebagai Budak Raver/Hipster, anda akan menghasut setiap penduduk Kampung Misteri untuk menjadi ahli Hipster/Raver.</value>
   </string>
   <string key="AboutCH">
@@ -894,7 +894,7 @@
 	  Nota: Jika dipanggil untuk menyertai Raver/Hipster, anda tidak layan sehingga anda mendapatkan watak baru anda. Jika pilihan anda adalah Saka dan tuannya sudah hilang, maka anda bertukar menjadi Orang Minyak. Selain itu, anda akan mewarisi tuan yang sama.
     </value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>
       Cinta itu buta. Sebagai Pencari Jodoh, anda memberikan jampi pengasih kepada dua pemain pada awal permainan. Mereka akan saling cinta mencintai dan tiada siapa boleh memutuskan perhubungan mereka. Jika salah seorang hilang, maka pasangannya akan bersedih lalu pergi ke telaga misteri :(.
       Nota: Pencinta mengenali satu sama lain tetapi tidak tahu watak kekasihnya. Jika mereka berdua tidak hilang diakhir permainan, mereka akan menang tidak kira baik atau jahat.
@@ -904,7 +904,7 @@
     <value>
       Anda sangat terkenal dengan gelaran Pemburu Hantu kerana mahir dalam jampi penghapus hantu. Sayangnya anda boleh melakukan jampi tersebut sebanyak sekali sahaja. Jika Orang Minyak menyerang anda, anda menggunakan jampi itu keatas Orang Minyak tersebut. Selain itu, anda diberi peluang membawa seorang penduduk Kampung Misteri mengikut anda ke telaga misteri. 
       Note: For wolf attacks, the chance starts at 30%. If there is one wolf, the hunter has a 30% chance to kill the wolf (and survive). For each additional wolf, add 20% (2 wolves = 50%, 3 = 70%, etc). However - if there are multiple wolves, while you may kill one of them, you will still be outnumbered and killed.
-      If the cult tries to convert you, they have a 50% chance to fail. If they fail, you have a 50% chance to kill one of them!
+      If the zoombies tries to convert you, they have a 50% chance to fail. If they fail, you have a 50% chance to kill one of them!
     </value>
   </string>
   <string key="AboutSK">
@@ -1076,11 +1076,11 @@
   <string key="AllowTannerA">
     <value>Tanner as a role set to: {0}</value>
   </string>
-  <string key="AllowCultQ">
-    <value>Allow cult as a role option?\nCurrent: {0}</value>
+  <string key="AllowzoombiesQ">
+    <value>Allow zoombies as a role option?\nCurrent: {0}</value>
   </string>
-  <string key="AllowCultA">
-    <value>Cult as a role set to: {0}</value>
+  <string key="AllowzoombiesA">
+    <value>zoombies as a role set to: {0}</value>
   </string>
   <string key="EnableSecretLynchQ">
     <value>Enable Secret Lynch?\nCurrent: {0}</value>
@@ -1239,7 +1239,7 @@
   <string key="SerialKillerTeam" deprecated="true">
     <value>Kumpulan Pontianak</value>
   </string>
-  <string key="CultTeam" deprecated="true">
+  <string key="zoombiesTeam" deprecated="true">
     <value>Kumpulan Raver/Hipster</value>
   </string>
   <string key="TannerTeam" deprecated="true">
@@ -1258,13 +1258,13 @@
   <string key="SerialKillerTeamEnd">
     <value>Kumpulan Pontianak</value>
   </string>
-  <string key="CultTeamEnd">
+  <string key="zoombiesTeamEnd">
     <value>Kumpulan Raver/Hipster</value>
   </string>
   <string key="TannerTeamEnd">
     <value>Kumpulan Bom Berani Mati</value>
   </string>
-  <string key="CultConvertWolf">
+  <string key="zoombiesConvertWolf">
     <value>Kumpulan Raver/Hipster menghantar {0} untuk menerangkan tarian mereka kepada {1}, tetapi {0} tidak pulang semula... {0} telah hilang...</value>
   </string>
 
@@ -1285,7 +1285,7 @@
   <string key="ZombieKilled">
     <value>Mayat {0} dijumpai dengan mp3 lagu raver masih terpasang. Pontinak menyerang lagi, tidak mengira budak muda mahupun orang tua yang sudah berumur! {0} seorang budak Raver/Hipster.</value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>Pada keesokan paginya, penduduk kampung berasa sedih kerana menjumpai {0} a.k.a. Si Penjodoh terpisah tubuhnya. Botol yang bertulis air pengasih juga dipecahkan...</value>
   </string>
   <string key="DrunkKilled">
@@ -1319,12 +1319,12 @@
     <value>Penduduk bangun pada keesokan hari, ternyata {0} pon tiada dimana-mana pelusuk kampung, Otai telah meninggalkan kampung. Pengajaran: Jangan mencari Pontianak!</value>
     <value>Kelihatan orang yang paling berpengaruh {0}, Otai, tidak memunculkan dirinya. Memperlakukan Pontianak sebagai Budak Hipster/Raver bukanlah idea yang bagus...</value>
   </string>
-  <string key="CultConvertWolfPublic">
+  <string key="zoombiesConvertWolfPublic">
     <!--used when Zombies convert the wolves, only if wolves stayed home-->
     <value>Nampaknya orang Minyak mahu bertaubat untuk malam ini, tetapi {0}, ahli baru Budak Hipster/Raver mencetuskan masalah. Kepala {0} dilumur dengan minyak, sebelum di ratah.!</value>
     <value>Budak Hipster/Raver menghadapi masalah. Ahli terbaru mereka bersungguh-sungguh untuk merekrut sekutu raver baru, mereka melawat orang minyak semalam ketika orang minyak duduk di rumah. Orang minyak mendapati {0} sangat sesuai untuk dijadikan mangsa. Malang buat {0}, orang minyak tidak berminat untuk menyertai mereka.</value>
   </string>
-  <string key="CultConvertKillerPublic">
+  <string key="zoombiesConvertKillerPublic">
     <!--used when Zombies convert the SK-->
     <value>Budak Hipster/Raver ingat mereka boleh mempengaruhi orang baru tetapi mereka silap! {0}, seorang Budak Hipster/Raver tercincang dah diletakkan dekat pohon buluh! Anehnya telefon yang berbunyi lagu Hipster/Raver turut berbunyi.</value>
 	<value>Malam semalam Budak Hipster/Raver cuba menghasut penduduk kampung tetapi ahli terbaru cuba untuk menghasut Pontianak. Jasad {0} ditinggalkan di pohon buluh.</value>
@@ -1412,8 +1412,8 @@
     <!-- NOTE: No space between {0} and joined. It will be added in the code if necessary-->
     <value>{0} sudah masuk ke Kampung Misteri.</value>
   </string>
-  <string key="AllowCult">
-    <value>Allow Cult</value>
+  <string key="Allowzoombies">
+    <value>Allow zoombies</value>
   </string>
   <string key="AllowTanner">
     <value>Allow Tanner</value>
@@ -1451,7 +1451,7 @@
     <value>All</value>
   </string>
   <string key="RandomModeQ">
-    <value>Enable random mode?\nWhen random mode is enabled, Chaos, Secret Lynch, Show Roles on Death, and Allow Cult / Fool / Tanner will be randomly determined everytime someone starts a game.\nCurrent:{0}</value>
+    <value>Enable random mode?\nWhen random mode is enabled, Chaos, Secret Lynch, Show Roles on Death, and Allow zoombies / Fool / Tanner will be randomly determined everytime someone starts a game.\nCurrent:{0}</value>
   </string>
   <string key="RandomModeA">
     <value>Enabling of random mode set to: {0}</value>
@@ -1651,7 +1651,7 @@
     <!-- 0 - mason collegues's name -->
     <value>Rakan RELA anda (jika ada) adalah: {0}</value>
   </string>
-  <string key="ThiefToCult">
+  <string key="ThiefTozoombies">
     <!-- 0 - old Zombie's name -->
     <!-- 1 - new Zombie's name -->
     <value>{0} bukan lagi rakan menari anda. Mulai sekarang ,{1} menjadi Budak Raver/Hipster, seperti kamu!</value>

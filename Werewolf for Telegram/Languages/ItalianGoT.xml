@@ -145,7 +145,7 @@ variant="Game of Thrones"/>
   </string>
   <string key="AskConvert">
 
-    <value>Chi vuoi convertire al culto della Stella a Sette punte?</value>
+    <value>Chi vuoi convertire al zoombieso della Stella a Sette punte?</value>
   </string>
   <string key="DiscussWith"><!--Leave the leading spaces here please-->
     <value>  Sii sicuro di discutere con {0}</value>
@@ -384,29 +384,29 @@ variant="Game of Thrones"/>
   <string key="ZombieVotedConvert" >
     <value >{0} vota per convertire al credo {1}</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
 
     <value>{0} è stato inviato dall'Alto passero per convertire {1}... ma era Cersei Lannister! {0} è stato schiacciato dalla 'montagna'!</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
 
     <value>{0} ti ha fatto visita la scorsa notte, pronto a ripeterti i versi delle sacre scritture... ma tu l'hai tolto dal mondo sussurrando a Clegane di trucidarlo.  Un Septon è morto... {1} rimanenti!</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
 
     <value>I Septon ti hanno convertito al credo!  Ora sei uno di loro.  Ogni notte, avrai la possibilità di convertire un altro giocatore. L'alto passero ne sarà entusiasta.</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>Septon: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <value>{0} ha aderito al credo della Stella a Sette punte!</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
 
     <value>{0} è stato inviato dall'Alto passero per convertire {1}... ma nessuno era in casa!</value>
   </string>
-  <string key="CultWins" >
+  <string key="zoombiesWins" >
 
     <value >Tutti gli Estranei sono morti, ma tutti i sopravvissuti sono stati convertiti al credo... L'Alto passero e i suoi Septon hanno vinto!</value>
   </string>
@@ -513,7 +513,7 @@ variant="Game of Thrones"/>
     <value>  Gli altri dothraki sono: {0}</value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
 
     <value>Il vostro ultimo adepto si reca a casa di {0} per convertirlo, ma trova invece uno scenario orribile, con del sangue ovunque. </value>
   </string>
@@ -522,7 +522,7 @@ variant="Game of Thrones"/>
     <value>Ti appresti a scannare {0}, ma improvvisamente un ragazzo con uno spadone in acciaio di Valeria incrocia la tua spada di ghiaccio. È Jon Snow. Combattete a lungo ma sei costretto a tornare a casa per non farti distruggere.</value>
   </string>
   <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
 
     <value>Spedite {0} per convertire {1}, ma non siete riusciti a convertirlo. La prossima volta servirà una walk of Shame.</value>
   </string>
@@ -531,7 +531,7 @@ variant="Game of Thrones"/>
 
     <value>@{1}, un giocatore con il nome di {0} e' gia' entrato. Per favore cambia il tuo nome per partecipare. </value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
 
     <value>Ti rechi a casa di {0} per divertirti un po'... Ma quando stai per uscire, ti accorgi di un altare con le sacre scritture ed una veste da Septon!</value>
   </string>
@@ -624,9 +624,9 @@ variant="Game of Thrones"/>
 	<value>È scaduto il tempo!</value>
   </string>
   <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
 
-    <value>[Cupido] Sei Melisandra. Sei una seguace di R'hllor, il Dio Rosso. Tra i tuoi poteri puoi legare insieme due anime. Qualora una delle due dovesse morire, all'altra toccherà la stessa sorte.</value>
+    <value>[Recruitero] Sei Melisandra. Sei una seguace di R'hllor, il Dio Rosso. Tra i tuoi poteri puoi legare insieme due anime. Qualora una delle due dovesse morire, all'altra toccherà la stessa sorte.</value>
   </string>
   <string key="RoleInfoDoppelganger">
 
@@ -640,7 +640,7 @@ variant="Game of Thrones"/>
 
     <value>[Serial killer] Sei Ramsey Bolton. Da poco Lord di casa Bolton, il tuo obiettivo è torturare fino alla morte tutti gli altri. Ogni notte, puoi aggiungere un pezzo di un giocatore alla tua collezione. Il pezzo della tua collezione a cui tieni di più è senz'altro quello di Theon Greyjoy.</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
 
     <value>Un sortilegio ti ha colpito. La tua anima è stata legata a quella di {0} . Il tuo obiettivo è rimanere entrambi vivi. Se uno di voi due muore, all'altro toccherà la stessa sorte.</value>
 	<value>Il sortilegio di Melisandra ha colpito {0}!  Se muore, condividerai il suo destino.  Se riuscite a sopravvivere fino alla fine, sarete entrambi vincitori.</value>
@@ -698,11 +698,11 @@ variant="Game of Thrones"/>
 
     <value>Hai provato ad aggiungere la pelle di {0} alla tua collezione, ma invece ti sei scontrato con Jon Snow! Niente da fare stasera, nottataccia....</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
 
     <value>I Septon mandano {0} per convertire {1}, ma invece il corpo di {0} esce dalla finestra volando con un ascia conficcata nel petto! {0} è morto....</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
 
     <value>I Septon mandano {0} per convertire {1}, ma invece il corpo di {0} esce volando dalla finestra senza più la sua pelle. ! CHE SADICO! {0} è morto....</value>
 	<value>{0} si intrufola nella stanza di {1}, apre la porta, e viene immediatamente accolto da un maniaco pazzo con un coltello già sudicio di sangue!! {1} immerge profondamente il coltello negli organi di {0} in ordine alfabetico, sghignazzando tutto il tempo! {0} è morto D:</value>
@@ -724,11 +724,11 @@ variant="Game of Thrones"/>
 
     <value>{0} è morto, e tu ti trasformi in un dothrako.  I tuoi fratelli di sangue (se presenti) sono: {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
 
     <value>Jaqen H'ghar {0} è ora diventato un Septon, esattamente come te!</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
 
     <value>{0} è morto, e tu ti trasformi in un Septon. Gli altri membri del credo (se presenti) sono: {1}</value>
   </string>
@@ -748,7 +748,7 @@ variant="Game of Thrones"/>
 
     <value>Chi vuoi uccidere stanotte?</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
 
     <value>Con l'ultimo respiro di {0}, {1} muore assassinato da una misteriosa ombra. R'hllor è stato compiaciuto. {2}</value>
   </string>
@@ -756,18 +756,18 @@ variant="Game of Thrones"/>
 
     <value>Di chi vuoi prendere il volto?</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
 
     <value>Chi sono i due a cui vuoi legare le anime ? Scegli il primo mistificatore</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
 
     <value>Chi sono i due a cui vuoi legare le anime ? Scegli il secondo mistificatore</value>
   </string>
   <string key="Hunter">
     <value>Il Mastino🐶 - (🎯) </value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>Melisandra💃 - (🏹)</value>
   </string>
   <string key="SerialKiller">
@@ -784,10 +784,10 @@ variant="Game of Thrones"/>
   <string key="HunterKilledVisiter">
     <value>Al centro della piazza centrale, viene ritrovato il corpo di {0}, preso a colpi di ascia. Sembra che lui abbia provato a visitare il Mastino! {1}</value>
   </string>
-  <string key="CultAttempt">
-    <value>Una figura incappucciata ha provato a portarti con se nel suo culto, ma hai resistito alle sacre scritture.</value>
+  <string key="zoombiesAttempt">
+    <value>Una figura incappucciata ha provato a portarti con se nel suo zoombieso, ma hai resistito alle sacre scritture.</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
   <value>I Maledetti da R'hllor hanno vinto! Sono sfuggiti al Dio Rosso!</value>
   </string>
   <string key="SerialKillerWinsOverpower">
@@ -857,7 +857,7 @@ variant="Game of Thrones"/>
   <string key="AboutFool">
     <value>Ned Stark è un Primo cavaliere a cui vengono date informazioni sbagliate perché vogliono tradirlo. Quando sceglie di vedere il ruolo a qualcuno, gli verrà detto un ruolo casuale in partita. Nota: È più utile di quello che sembra, può sapere con esattezza i ruoli che ci sono in partita. Se vedete un ruolo, sarà in partita.</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>Come Septon, il tuo obiettivo è convertire tutti gli altri giocatori al credo della Stella a Sette punte, come ordinatoti dall"Alto passero. (tranne gli Estranei). Se a fine partita, tutti i giocatori sono convertiti al credo, Vincono. \n Probabilità di convertire i seguenti ruoli: \n Jaqen H'ghar: 0% Finchè rimane un uomo semplice, è impossibile da convertire \n Primo cavaliere 40% Il Primo cavaliere è il più difficile da convertire \n Jon Snow 60% Nota: Se protegge qualcuno, non lo troverai in casa \n Benjen Stark 60% \n Varys 70% \n Ros 70% Come Jon Snow, se non è casa, non potrete convertirla \n Il Mastono 50% Avrai il 50% di convertire il Mastino. Se fallite, C'è il 50% che vi spari.</value>
   </string>
   <string key="AboutCH">
@@ -878,7 +878,7 @@ variant="Game of Thrones"/>
   <string key="AboutDG">
     <value>Puoi scegliere un giocatore a inizio partita, ne prendi il suo volto e quindi il suo ruolo. \n Nota: Se il giocatore viene convertito al credo, prenderai il suo ruolo originale. Tutte le altre regole normali si applicano: se erano Aria Stark e il nome che avevano offerto è morto, diventerai un Estraneo. Sennò, prendi il volto del nome che avevano offerto .\nI Septon non possono convertire Jaqen H'ghar (ma possono dopo che Jaqen H'ghar cambia ruolo) - Jaqen H'ghar NON può vincere a meno che non abbia preso un altro volto. Se a fine partita, Jaqen H'ghar non ha preso un altro volto, perde (eccezione: maleficio di R'hllor).</value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>A Inizio partita, sceglie due giocatori. Dopo diventa a tutti gli effetti una donna normale. Questi due verranno colpiti dal maleficio di R'hllor, il Dio Rosso e le loro anime saranno legate allo stesso destino, se uno dei due dovesse morire, l'altra sarà uccisa da un ombra misteriosa. Nota: i maledetti da R'hllor sanno chi è l'altro, ma non sanno il loro ruolo. Se i maledetti sono gli ultimi due vivi, loro vincono, indipendemente dal loro ruolo. Se i maledetti sono di due team diversi (esempio: Estranei + Uomini), e un team vince (esempio: Estranei) , anche l'amante (esempio:Dorniano) vince. \n TL;DR Se tutti e due i maledetti sono vivi a fine partita, e almeno uno dei due è nel team vincitore, vincono insieme</value>
   </string>
   <string key="AboutHunter">
@@ -1055,10 +1055,10 @@ variant="Game of Thrones"/>
   <string key="AllowTannerA">
     <value>Theon Greyjoy come ruolo impostato a {0}</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>Ammettere i Septon in partita, come ruolo?\nAttualmente: {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>Septon come ruolo impostato a {0}</value>
   </string>
   <string key="ThankYou">

@@ -377,33 +377,33 @@
     <!-- 1 - target name -->
     <value >{0} memilih menghasut {1}</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <!-- 0 - Yougest Zombie (killed)'s name' -->
     <!-- 1 - ZombieHunter's name -->
     <value>{0} dikirim untuk menghasut {1} ternyata ia seorang Zombie Hunter. {0} Tewas!</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - Number of Zombies left -->
     <value>{0} ke rumah semalam dan mencoba menghasut Anda. Namun Anda sigap mendorongnya dan menghunuskan pedang tepat di dadanya! Seorang Zombie mati, {1} tersisa!</value>
   </string>
-  <string key="CultConvertYou">
-    <value>Cult telah berhasil menghasut Anda!  Kini Anda bisa merekrut pemain lain tiap malam.</value>
+  <string key="zoombiesConvertYou">
+    <value>zoombies telah berhasil menghasut Anda!  Kini Anda bisa merekrut pemain lain tiap malam.</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <!-- 0 - Number of Zombies -->
     <value>Zombies: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <!-- 0 - new Zombie's name -->
     <value>{0} telah menjadi seorang Zombie!</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <!-- 0 - Newest Zombie's name -->
     <!-- 1 - target name -->
     <value>{0} berangkat untuk menghasut {1}. Tapi tidak ada orang di rumah!</value>
   </string>
-  <string key="CultWins" isgif="true">
+  <string key="zoombiesWins" isgif="true">
     <value >Semua serigala telah mati, warga desa yang tersisa telah bergabung ke aliran sesat. Zombie menang!</value>
   </string>
   <string key="HunterVisitDead">
@@ -507,7 +507,7 @@
     <value>  Tim Mason adalah: {0}</value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <!-- 0 - Youngest Zombies name -->
     <value>Anggota kalian pergi ke rumah {0} untuk dihasut, tapi ia malah menemukan rumah yang hancur, bekas cakaran binatang buas, dan darah di mana-mana...</value>
   </string>
@@ -516,7 +516,7 @@
     <value>Kawanan Serigala berusaha ke rumah {0}, tetapi mereka menemui penampakan hitam besar dengan mata menyala. Guardian Angel sedang menjaganya, kalian pun lari ketakutan.</value>
   </string>
   <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <!-- 0 - newest  -->
     <!-- 1 - target's name -->
     <value>{0} pergi untuk menghasut {1}, tetapi keyakinannya terlalu kuat dan kalian pun gagal merekrutnya :(</value>
@@ -527,7 +527,7 @@
     <!-- 1 - name -->
     <value>@{1}, pemain dengan nama {0} terlebih dahulu bergabung.  Silakan mengganti nama Anda.</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <!-- 0 - target's name -->
     <value>Anda menyelinap ke rumah {0} untuk bersenang-senang, tetapi ketika pulang, Anda melihat sebuah altar persembahan menyala di salah satu ruangan.</value>
   </string>
@@ -621,8 +621,8 @@
     <value>Jawabanmu terlambat!</value>
   </string>
   <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
-    <value>Anda adalah seorang Cupid, malaikat kecil yang turun ke dunia sebagai bayi dengan popok dan sayap mungil. Membawa busur dengan panah cinta, pilih dua pemain yang akan menjadi sepasang kekasih. Jika salah satunya mati, kekasihnya akan mati karena berduka. </value>
+  <string key="RoleInfoRecruiter">
+    <value>Anda adalah seorang Recruiter, malaikat kecil yang turun ke dunia sebagai bayi dengan popok dan sayap mungil. Membawa busur dengan panah cinta, pilih dua pemain yang akan menjadi sepasang kekasih. Jika salah satunya mati, kekasihnya akan mati karena berduka. </value>
   </string>
   <string key="RoleInfoDoppelganger">
     <value>Anda adalah Doppelgänger. Menurut legenda leluhur, Anda dapat berubah wujud. Pilih satu pemain, jika ia mati maka Anda yang akan menggantikannya.</value>
@@ -633,7 +633,7 @@
   <string key="RoleInfoSerialKiller">
     <value>Anda adalah Serial Killer, kabur dari rumah sakit jiwa dan bersembunyi di dalam desa. Tujuan utama Anda adalah melengkapi koleksi organ tubuh dari para korban Anda setiap malam.</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>Cinta telah membuatmu tergila-gila, setiap menatap {0} hanya ia yang muncul di kepala. Tujuan kalian adalah selamat hingga akhir permainan, jika salah satu dari kalian mati, kekasih Anda ikut mati.</value>
   </string>
   <string key="HunterLynchedChoice">
@@ -668,7 +668,7 @@
     <!-- 2 - target's role -->
     <value>{0} masih berusaha bangun dan menolak untuk mati sia-sia. Ia berhasil mengeluarkan pistol dan menembak {1} tepat di antara kedua matanya. {2}</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <value>{0} menghampiri kediaman {1} , pintu terbuka, sebilah pisau dan tatapan bengis muncul dihadapannnya .. {1} menancapkan pisau ke tubuh {0} dan mencabik-cabiknya hingga tewas.. </value>
   </string>
   <string key="HunterShotWolfMulti">
@@ -691,12 +691,12 @@
     <!-- 0 - target's name -->
     <value>Anda mencoba membunuh {0} dan mengoleksi potongan tubuhnya... Namun Anda dikalahkan oleh Guardian Angel! Tidak ada korbanmu malam ini....</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
     <value>Perkumpulan Zombie menyuruh {0} mencoba menghasut {1}, terdengar suara tembakan.. Tubuh {0} terhempas keluar jendela! {0} telah mati...</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
     <value>Perkumpulan Zombie menyuruh {0} untuk menghasut {1}. Namun, terlihat dari dalam rumah terdengar keributan.  Tubuh {0} terlempar keluar jendela dengan bekas tusukan di seluruh badan. Sungguh psikopat!! {0} terbunuh...</value>
@@ -720,11 +720,11 @@
     <!-- 1 - mason collegues's name -->
     <value> {0} telah mati, dan Anda berubah menjadi Mason. Rekan-rekan Anda adalah: {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <!-- 0 - new Zombie's name -->
     <value>Si Doppelgänger {0} telah menjadi Culstist!</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <!-- 0 - role's name -->
     <!-- 1 - teammates's name -->
     <value>{0} telah mati dan Anda menjadi seorang Zombie.  Rekan-rekan Anda adalah: {1}</value>
@@ -744,26 +744,26 @@
   <string key="AskKill">
     <value>Siapa yang ingin Anda bunuh malam ini?</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <!-- 0 - dead's name -->
-    <!-- 1 - lover's name -->
+    <!-- 1 - crewmate's name -->
     <!-- 2 - roles -->
     <value>{1} menghampiri tubuh {0} dan memeluknya dengan erat. Air matanya jatuh dalam kesunyian. Sambil menggendong tubuh kekasihnya, {1} berjalan menuju tebing dan sebelum warga dapat mencegahnya, ia melemparkan diri ke dalam jurang bersama kekasihnya. {2}</value>
 	</string>
   <string key="AskDoppelganger">
     <value>Siapakah pilihan Anda? Jika ia mati, maka Anda dapat berubah wujud menyerupai dia</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>Siapa yang akan Anda jadikan pasangan? Pilih pemain pertama</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>Siapa yang akan kamu jadikan pasangan? Pilih pemain kedua.</value>
   </string>
   <string key="Hunter">
     <value>Hunter 🎯</value>
   </string>
-  <string key="Cupid">
-    <value>Cupid 🏹</value>
+  <string key="Recruiter">
+    <value>Recruiter 🏹</value>
   </string>
   <string key="SerialKiller">
     <value>Serial Killer 🔪</value>
@@ -771,23 +771,23 @@
   <string key="Doppelgänger">
     <value>Doppelgänger 🎭</value>
   </string>
-  <string key="CupidChosen">
-    <!-- 0 - lover's name -->
+  <string key="RecruiterChosen">
+    <!-- 0 - crewmate's name -->
     <value>Panah asmara melanda! Anda telah jatuh cinta dengan {0}!  Jika dia mati, Anda akan ikut mati. Jika kalian bertahan hingga akhir, kalian berdua akan menang..</value>
   </string>
   <string key="NewWCRoleModel">
     <!-- 0 - target's name -->
     <value>Amda sudah menjadi Wild Child.  Panutan Anda adalah {0}</value>
   </string>
-  <string key="LoversWin">
-    <value>Cinta sejati! The Lovers telah menang!</value>
+  <string key="crewmatesWin">
+    <value>Cinta sejati! The crewmates telah menang!</value>
   </string>
   <string key="HunterKilledVisiter">
     <!-- 0 - target's name -->
     <!-- 1 - role -->
     <value>Di tengah alun alun desa, terlihat mayat {0}, bekas beberapa tembakan.  Sepertinya dia telah mencoba mengganggu seorang Hunter {1}</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>Seorang Zombie mencoba untuk menghasut Anda, namun iman Anda terlalu kuat.</value>
   </string>
   <string key="AlreadyOnWaitList">
@@ -867,7 +867,7 @@
   <string key="AboutFool">
     <value>Fool, dia menerima pemberitahuan bahwa ialah sang Seer.... memilih 1 pemain setiap malam untuk mengetahui perannya, namun hasilnya acak.</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>Sebagai Zombie, tujuan kalian adalah menghasut semua pemain (terkecuali serigala) sebagai anggota sekte. Jika semua yang hidup sampai akhir adalah Zombie, Zombie menang.</value>
   </string>
   <string key="AboutCH">
@@ -889,13 +889,13 @@
     <value>
       Anda adalah keturunan dari ras yang dapat mengubah bentuk, Anda akan memilih salah satu pemain di awal permainan dan menjadi dirinya jika pemain tersebut tewas.
       Note: Jika pemain yang Anda pilih menjadi Zombie dan mati, Anda akan menjadi peran awal dari pemain tersebut. Jika yang Anda pilih adalah wild child dan ia mati, maka Anda akan menjadi wild child dengan pilihan panutan yang sama.
-      Cult tidak dapat menghasut Doppelgänger (kecuali ia telah menjadi bentuk panutannya) dan kalah jika ia tidak berubah dari bentuk Doppelgänger (kecuali lovers)
+      zoombies tidak dapat menghasut Doppelgänger (kecuali ia telah menjadi bentuk panutannya) dan kalah jika ia tidak berubah dari bentuk Doppelgänger (kecuali crewmates)
     </value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>
-      Sebarkan cinta ke seluruh dunia! Sebagai Cupid, Anda akan memilih dua pemain di awal permainan.  Kedua pemain ini akan saling mencintai hingga akhir hayat, jika salah satu pemain mati, kekasihnya akan mati menyusul ajalnya.
-      Note: Lover akan mengetahui siapa kekasihnya, tapi tidak mengetahui peran kekasihnya. Jika sejoli itu berhasil bertahan hingga akhir permainan, mereka menang tanpa melihat di tim mana mereka berperan. Jika mereka mati, kekasihnya yang di tim kalah akan ikut menang karena mengikuti tim kekasihnya.
+      Sebarkan cinta ke seluruh dunia! Sebagai Recruiter, Anda akan memilih dua pemain di awal permainan.  Kedua pemain ini akan saling mencintai hingga akhir hayat, jika salah satu pemain mati, kekasihnya akan mati menyusul ajalnya.
+      Note: crewmate akan mengetahui siapa kekasihnya, tapi tidak mengetahui peran kekasihnya. Jika sejoli itu berhasil bertahan hingga akhir permainan, mereka menang tanpa melihat di tim mana mereka berperan. Jika mereka mati, kekasihnya yang di tim kalah akan ikut menang karena mengikuti tim kekasihnya.
     </value>
   </string>
   <string key="AboutHunter">
@@ -906,7 +906,7 @@
     </value>
   </string>
   <string key="AboutSK">
-    <value>Rumah sakit jiwa? Bukan halangan, Anda kini bebas untuk berkeliaran di desa! Mari kembali ke permainan, Bunuh semua pemain lain! Serial Killer adalah penyendiri dan bukan bagian dari tim mana pun, Anda hanya bisa menang jika Anda adalah pemain terakhir yang hidup. (kecuali lovers) Siapa yang bisa Anda bunuh? SEMUANYA!!</value>
+    <value>Rumah sakit jiwa? Bukan halangan, Anda kini bebas untuk berkeliaran di desa! Mari kembali ke permainan, Bunuh semua pemain lain! Serial Killer adalah penyendiri dan bukan bagian dari tim mana pun, Anda hanya bisa menang jika Anda adalah pemain terakhir yang hidup. (kecuali crewmates) Siapa yang bisa Anda bunuh? SEMUANYA!!</value>
   </string>
   <string key="AboutPara">
     <value>Para adalah penyebab kegilaan werewolf di Telegram, waspadalah!</value>
@@ -1072,10 +1072,10 @@
   <string key="AllowTannerA">
     <value>Pilihan Tanner dalam Peran: {0}</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>Apakah Anda ingin Zombie dalam pilihan peran?\nPengaturan saat ini: {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>Pilihan Zombie dalam Peran: {0}</value>
   </string>
   <string key="ThankYou">

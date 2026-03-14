@@ -372,25 +372,25 @@
   <string key="ZombieVotedConvert">
     <value>*{0}* ha votado poner a dieta y apuntar en el gimnasio a *{1}*.</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <value>{0} le llevó su desayuno de pan integral y fruta a {1} para empezar su primer día del gimnasio. Pero resultó ser un chubby convencido… ¡{0} ha engordado dos kilos y abandonado la casa!</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <value>{0} vino a tu cuarto a primera hora de la mañana con una bandeja de pan integral y fruta. Se la tiraste a la cara y le metiste una caña de chocolate por la boca. Luego le metiste más cosas. Esa perra no volverá a pisar el gimnasio. Una musculoca ha abandonado la casa… ¡Quedan {1}!</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>A primera hora de la mañana te han traído pan integral y fruta para desayunar y te han apuntado al gimnasio. Ahora eres una musculoca y no quieres más fofisanas a tu alrededor. Cada noche, alistaréis a una para vuestra causa.</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>Musculocas: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <value>¡{0} es una musculoca más!</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <value>{0} le llevó su desayuno de pan integral y fruta a {1} para empezar su primer día del gimnasio. ... ¡pero no había nadie en su cuarto!</value>
   </string>
-  <string key="CultWins">
+  <string key="zoombiesWins">
     <value>Todos los pervertidos actores porno han abandonado la casa y las únicas maricas que quedan, son musculocas...  ¡Las *musculocas* han ganado!</value>
   </string>
   <string key="HunterVisitDead">
@@ -483,19 +483,19 @@
   <string key="MasonTeam">
     <value>Los del trimonio son: {0}</value>
   </string>
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <value>La musculoca menos hinchada fue a la habitación de {0} para llevarle un desayuno con mucha avena. Pero volvió frutrada, pues {0} no quería comer otra cosa que no fuera una buena polla… Desde luego, ya no tiene motivos para estar en la casa.</value>
   </string>
   <string key="GuardBlockedWolf">
     <value>Después de estar tocándotela un rato y ver que la tienes dura como una marica en un vestuario de jugadores de rugby, decidiste darle solución visitando a {0} anoche. Sin embargo, justo antes de abrir su puerta, oiste que estaba acompañado… ¡¡¡por una mujeeeer!!! Se te bajó de inmediato y te volviste a tu cuarto. ¡Malditas mariliendres!</value>
   </string>
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <value>{0} se presentó en la habitación de {1} con un desayuno fuerte para empezar una sesión de gimnasio. Sin embargo, en un descuido se fue al baño y se escaqueo de un día sudoroso de pesas.</value>
   </string>
   <string key="NameExists">
     <value>@{1}, mari, tu nombre de travesti es muy poco original, tengo a cientos con el nombre {0} en mi agenda. ¿Cómo voy a diferenciarte del resto de las maricas? Cámbiate el nombre, anda.</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <value>Anoche decidiste compartir tus dudas con **{0}**. Es un tío muy enrollao, hablásteis de todo. Insistió en enseñarte sus biceps y músculos que no sabías ni que existían. [Has descubierto una musculoca (Zombiea)].</value>
   </string>
   <string key="Was">
@@ -586,8 +586,8 @@
   <string key="TimesUp">
     <value>Se acabó el tiempo, sodomita (si no estuvieras siempre mariconeando...).</value>
   </string>
-  <string key="RoleInfoCupid">
-    <value>Eres la Lianta, el topo de la casa. Tu misión - por orden del súper - es meterte en las vidas de dos maricas y emparejarlos usando chismes y cotilleos para que acaben demostrando que son superjulandrones y se larguen. Si uno de ellos abandona la casa, el otro no podrá vivir sin él y se macharán juntos. [Eres Cupido].</value>
+  <string key="RoleInfoRecruiter">
+    <value>Eres la Lianta, el topo de la casa. Tu misión - por orden del súper - es meterte en las vidas de dos maricas y emparejarlos usando chismes y cotilleos para que acaben demostrando que son superjulandrones y se larguen. Si uno de ellos abandona la casa, el otro no podrá vivir sin él y se macharán juntos. [Eres Recruitero].</value>
   </string>
   <string key="RoleInfoDoppelganger">
     <value>Eres la Moderna, quieres ser super popu y disimular a tope que eres de lo más gayer, así que buscas al que te parece EL MÁS MACHO de la casa y le copias hasta los andares. Cuando se descubra que en realidad es un muerdealmohadas, tú sí que sabrás usar sus técnicas para suplantar su sitio en la escala social.</value>
@@ -598,7 +598,7 @@
   <string key="RoleInfoSerialKiller">
     <value>Eres la viciosa. Recientemente has escapado de una orgía gay y te has enterado de que hay una casa donde unas ilusas maricas quieren reprimirse y hacerse heterososos. Tu misión en el mundo es írtelos tirando de uno en uno de todas las formas posibles para que descubran su lado más salvaje. [Eres el Asesino en Serie].</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>Te han ido comienzo la cabeza - y otras cosas - y ahora eres la putita de {0} para siempre. Vuestro objetivo es mantener vuestro pervertido amor sadomaso-homosexual en secreto porque, como pillen a uno de los dos, no podréis vivir separados y os marcharéis juntos de la casa.</value>
   </string>
   <string key="HunterLynchedChoice">
@@ -640,10 +640,10 @@
   <string key="GuardBlockedKiller">
     <value>Quisiste follarte a {0} para tu colección, pero desde fuera de la puerta oíste que estaba acompañado y te tuviste que volver a pajearte a la cama. ¡La Mariliendre te ha hecho cock blocking! </value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <value>La secta de las musculocas envía a {0} para intentar convertir a {1}, pero esta, asqueado de su gordofobia, se lo folla y le escribe: "¡MARICÓN Y GORDÓFOBO!" en la frente con rotulador permanente. Marcado de por vida, {0} abandona la casa </value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <value>{0} se cuela en el cuarto de {1} para convencerlo de que se apunte a Crossfit. Pero la viciosa le contesta que las proteínas que necesita las saca ya del semen, demostrándoselo con un lefazo seguido de una noche de sexo salvaje. {0}, la musculoca, se queda tan loca que abandona la casa al haber descubierto un nuevo tipo de alimentación. </value>
   </string>
   <string key="GuardKiller">
@@ -661,10 +661,10 @@
   <string key="DGTransformToMason">
     <value>{0} ha muerto, y tú te conviertes al Trimonio. Tus compañeros de equipo (si los tienes) son: {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <value>La Moderna (doble) {0} se ha convertido en musculoca, ¡como tú! ¡A tope con el Crossfit!</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <value>{0} ha muerto, y tú te conviertes en musculoca. ¡A tope con el Crossfit! Tus compañeros de equipo (si los tienes) son: {1}</value>
   </string>
   <string key="DGToWolf">
@@ -679,22 +679,22 @@
   <string key="AskKill">
     <value>¿A quién quieres sodomizar esta noche?</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <value>Ante la marcha de {0}, {1} se tira al suelo en mitad del salón, llorando como una perra mala. No puede soportar que su amado se vaya y grita a los cuatro vientos: "¡¡SÍII, SOY MARICÓOON, LO AMOOO!!". Mientras el mariconal lo mira atónito, se levanta y sale corriendo de la casa detrás de su amante. {2} </value>
   </string>
   <string key="AskDoppelganger">
     <value>¿A quién vas a stalkear a saco para copiarlo cuando se marche de la casa por sodomita?</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>¿A quiénes convertirás en amantes furtivos, para que se den rabo hasta el amanecer, con tus malas artes? Escoge al muerdealmohadas</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>¿Quién quieres que sea su macho? Escoge al soplanucas.</value>
   </string>
   <string key="Hunter">
     <value>La Drama Queen</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>La Lianta</value>
   </string>
   <string key="SerialKiller">
@@ -706,13 +706,13 @@
   <string key="NewWCRoleModel">
     <value>Eres el adolescente sensible e influenciable.  Tú modelo a seguir es {0}</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
     <value>¡Qué ojo tuvo la Lianta! ¡El soplanucas y el muerdealmohadas han encajado tan bién que han resistido juntos dentro de la casa y han ganado!</value>
   </string>
   <string key="HunterKilledVisiter">
     <value>En medio del salón, encuentran el cuerpo de {0} bastante pegajoso y con múltiples arañazos y las palabras "ESTE ES MARICÓN" en rotulador permanente en su espalda. ¡Parece ser que intentó delatar a la Drama Queen! {1}</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>Unos abdominales con patas trataron de convertirte a tu secta, pero tu amor a los bollos y el silloning era demasiado fuerte. </value>
   </string>
   <string key="AlreadyOnWaitList">
@@ -781,11 +781,11 @@
   <string key="AboutFool">
     <value>he fool is told they are the seer.... when they choose to see someone's role at night, they are told a random role.</value>
   </string>
-  <string key="AboutCult">
-    <value>As a Zombie, it is your goal to convert all other players (except wolves) to your cult. If at the end of the game, all living players are Zombie - the cult wins</value>
+  <string key="Aboutzoombies">
+    <value>As a Zombie, it is your goal to convert all other players (except wolves) to your zoombies. If at the end of the game, all living players are Zombie - the zoombies wins</value>
   </string>
   <string key="AboutCH">
-    <value>Your job is to hunt the Cult. If the cult attacks you, their newest member will die. Each night you may pick a player to 'hunt' - if they are a Zombie, they will die.</value>
+    <value>Your job is to hunt the zoombies. If the zoombies attacks you, their newest member will die. Each night you may pick a player to 'hunt' - if they are a Zombie, they will die.</value>
   </string>
   <string key="AboutWC">
     <value>At the beginning of the game, you will choose someone to be your 'role model'. If they die, you become a werewolf.</value>
@@ -802,25 +802,25 @@
   <string key="AboutDG">
     <value>
       Your ancestors had the ability to metamorph into others... while you don't have their full abilities, you can pick a player at the start of the game. If that player dies, you will become what they were.
-      Note: If the player was converted to cult, you will take on their original role. All other normal rules apply: If they were Wild Child and their role model died, you will become a wolf. Otherwise, you will inherit their role model.
-      The cult cannot convert the Doppelgänger (but can after the doppelganger switches roles). Also - the Doppelgänger can NOT win unless they have transformed. If at the end of the game, the Doppelgänger is still the same, they lose (exception: lover)
+      Note: If the player was converted to zoombies, you will take on their original role. All other normal rules apply: If they were Wild Child and their role model died, you will become a wolf. Otherwise, you will inherit their role model.
+      The zoombies cannot convert the Doppelgänger (but can after the doppelganger switches roles). Also - the Doppelgänger can NOT win unless they have transformed. If at the end of the game, the Doppelgänger is still the same, they lose (exception: crewmate)
     </value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>
-      Love is in the air. As Cupid, you will choose two players at the start of the game. These two players will become madly in love! If one of them dies, the other will die of sorrow :(
-      Note: Lovers will know who each other are, but not be told their roles. If the lovers are the last two alive, they win, regardless of teams. If the lovers are on different teams (villager + wolf), and one team wins (wolf), the lover (villager) wins as well. TL;DR if both lovers are alive at the end, and at least one of them was on the winning team, they both win together
+      Love is in the air. As Recruiter, you will choose two players at the start of the game. These two players will become madly in love! If one of them dies, the other will die of sorrow :(
+      Note: crewmates will know who each other are, but not be told their roles. If the crewmates are the last two alive, they win, regardless of teams. If the crewmates are on different teams (villager + wolf), and one team wins (wolf), the crewmate (villager) wins as well. TL;DR if both crewmates are alive at the end, and at least one of them was on the winning team, they both win together
     </value>
   </string>
   <string key="AboutHunter">
     <value>
       A trigger happy, vindictive player. As the hunter, you try to keep to yourself. However, when others come to visit you, they may find themselves dead, as your paranoia takes hold and you shoot. If the wolves attack you, you have a chance to take one of them with you. Otherwise, if you die, you will get a chance to shoot someone as you die.
       Note: For wolf attacks, the chance starts at 30%. If there is one wolf, the hunter has a 30% chance to kill the wolf (and survive). For each additional wolf, add 20% (2 wolves = 50%, 3 = 70%, etc). However - if there are multiple wolves, while you may kill one of them, you will still be outnumbered and killed.
-      If the cult tries to convert you, they have a 50% chance to fail. If they fail, you have a 50% chance to kill one of them!
+      If the zoombies tries to convert you, they have a 50% chance to fail. If they fail, you have a 50% chance to kill one of them!
     </value>
   </string>
   <string key="AboutSK">
-    <value>That asylum was silly anyways. What a joke. You are free now however, back to business as usual - killing! The serial killer is a lone player, on their own team. They can win only if they are the last player alive (exception: lovers). As the serial killer, you can kill ANYONE - wolves, hunters, gunners, guardian angels, whatever. If the wolves try to attack you, you will kill one of them (random), and live.</value>
+    <value>That asylum was silly anyways. What a joke. You are free now however, back to business as usual - killing! The serial killer is a lone player, on their own team. They can win only if they are the last player alive (exception: crewmates). As the serial killer, you can kill ANYONE - wolves, hunters, gunners, guardian angels, whatever. If the wolves try to attack you, you will kill one of them (random), and live.</value>
   </string>
   <string key="AboutPara">
     <value>Para is a silly developer that likes to bark at people.  Maybe he's been messing with werewolves too long....Messing with werewolves is a very bad idea.</value>
@@ -996,11 +996,11 @@
   <string key="AllowTannerA">
     <value>Tanner as a role set to: {0}</value>
   </string>
-  <string key="AllowCultQ">
-    <value>Allow cult as a role option?\nCurrent: {0}</value>
+  <string key="AllowzoombiesQ">
+    <value>Allow zoombies as a role option?\nCurrent: {0}</value>
   </string>
-  <string key="AllowCultA">
-    <value>Cult as a role set to: {0}</value>
+  <string key="AllowzoombiesA">
+    <value>zoombies as a role set to: {0}</value>
   </string>
   <string key="ThankYou">
     <value>Gracias zorriiiiii, diviertete.</value>
@@ -1026,13 +1026,13 @@
   <string key="SerialKillerTeamEnd">
     <value>SK Team</value>
   </string>
-  <string key="CultTeamEnd">
-    <value>Cult Team</value>
+  <string key="zoombiesTeamEnd">
+    <value>zoombies Team</value>
   </string>
   <string key="TannerTeamEnd">
     <value>Tanner Team</value>
   </string>
-  <string key="CultConvertWolf">
+  <string key="zoombiesConvertWolf">
     <value>Intentas poner a dieta a {1} , pero en su lugar el dildo de {0}sale volando de su cuarto...  {0} ha sido expulsado...</value>
   </string>
   <string key="HarlotFuckedKilledPublic">
@@ -1047,7 +1047,7 @@
   <string key="ZombieKilled">
     <value>{0} fué encontrado en la cocina con varias verduras metidas en su hermoso y musculado culito. Con las palabras "La calabaza dolió un poquito, pero al final una se acostumbra" decidió no decir quien fue la viciosa que le ayudó a gozar como perra e irse a casa a seguir siendo una violada por verduras, {0} era una musculoca.</value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>A la mañana siguiente, las maricas encuentran a {0} la lianta, haciendo las maletas. Esa noche, la viciosa con ayuda de su dildo de 3 metros, le llegó al corazón a la lianta...</value>
   </string>
   <string key="DrunkKilled">
@@ -1080,13 +1080,13 @@
     <value>El cazador de musculocas no aguantó la violación con pepinos lubricados en chocolate(a modo de venganza, son musculocas, que esperabais?) y {0} (el cazador de musculocas) decidió irse a un balneario gay a limpiarse el chocolate del ano, el cazador de musculocas, sube muchas fotos posers a su instagram mientras está en el balneario!</value>
     <value>Se encontraron muchos condones rellenos de bolleria varia en el cuarto de {0}, era el cazador de musculocas, comprobar si la viciosa era una musculoca, fué un grave error...</value>
   </string>
-  <string key="CultConvertWolfPublic">
+  <string key="zoombiesConvertWolfPublic">
     <value>El actor porno decidió ser majo con {0}, una musculoca que decidió hablar un poquito de fitness. La cabeza e {0} pareció ser un perfecto juguettito antes de que decidiera marcharse de la casa.</value>
     <value>El miembro más reciente de las musculocas tubo que ir a combencer a los actores porno para que coman más sano, pero ellos decidieron que el culito de {0} fué mas delicioso que cualquier ensalada. Desafortunadamente para {0}, a los actores porno no les interesa ser musculocas. La musculoca {0} huyó de la casa.</value>
   </string>
-  <string key="CultConvertKillerPublic">
-    <value>The cult thought they would have a new member in their ranks, but they were wrong! {0}, a Zombie, was minced to pieces and placed at the town square in the morning! Strangely their "holy" book was found stabbed with a knife, as if a statement to show whose religion was triumphant.</value>
-    <value>Last night, the cult tried to convert the one person in the village crazier than they are. Their newest member tried to convert the Serial Killer, and the Serial Killer made a new piece of art in the town square of {0}'s internal organs.</value>
+  <string key="zoombiesConvertKillerPublic">
+    <value>The zoombies thought they would have a new member in their ranks, but they were wrong! {0}, a Zombie, was minced to pieces and placed at the town square in the morning! Strangely their "holy" book was found stabbed with a knife, as if a statement to show whose religion was triumphant.</value>
+    <value>Last night, the zoombies tried to convert the one person in the village crazier than they are. Their newest member tried to convert the Serial Killer, and the Serial Killer made a new piece of art in the town square of {0}'s internal organs.</value>
   </string>
   <string key="GAGuardedKiller">
     <value>Pareció que la viciosa era muy buena en los cuchicheos, pero lo que {0} no sabía era que, siendo la viciosa su lema era "En tiempos de guerra da igual a qué te folles". Basicamente, le reventaron el pussy a {0} y salió de la casa.</value>

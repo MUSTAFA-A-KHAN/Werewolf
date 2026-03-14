@@ -377,20 +377,20 @@
     <!-- 1 - target name -->
     <value>{0}님이 {1}님을 데려오자고 투표했습니다</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <!-- 0 - Yougest Zombie (killed)'s name' -->
     <!-- 1 - ZombieHunter's name -->
     <value>{0}님을 보내서 {1}님을 데려오려고 했지만... 그(녀)는 마녀교도 헌터였다💂! {0}님은 죽었습니다!</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - Number of Zombies left -->
     <value>{0}님이 당신을 마녀교로 데려가려고 찾아왔지만.... 그(녀)를 칼로 죽였다. {1}명이 남았네요!</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>마녀교가 당신을 선택해서, 마녀교랑 합류하게 됐다. 매일 밤에, 다른 플레이어를 선택하여 그(녀)를 데려올 수 있다,</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <!-- 0 - Number of Zombies -->
     <!-- 0 - Number of Zombies -->
     <!-- 0 - Number of Zombies -->
@@ -409,16 +409,16 @@
     <!-- 0 - Number of Zombies -->
     <value>마녀교도 멤버: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <!-- 0 - new Zombie's name -->
     <value>{0}님이 합류했네요!</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <!-- 0 - Newest Zombie's name -->
     <!-- 1 - target name -->
     <value>{0}님을 보내서 {1}님을 데려오려고 했지만... 집에 아무도 없었다!</value>
   </string>
-  <string key="CultWins">
+  <string key="zoombiesWins">
     <value>늑대들은 모두 사망하였고, 생존자들은 다 마녀교 멤버입니다…마녀교 승리!</value>
   </string>
   <string key="HunterVisitDead">
@@ -523,7 +523,7 @@
   <!-- new strings May 6 2016-->
     <value>일꾼들 👷: {0}</value>
   </string>
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <!-- 0 - Youngest Zombies name -->
     <value>{0}님을 데리러 마녀교도를 보내지만, 집은 엉망이었고, 벽에는 피가 묻어있었다…</value>
   </string>
@@ -532,7 +532,7 @@
   <!-- new strings May 9 2016-->
     <value>{0}님을 먹으러 가지만, 거대한 수호 천사(👼)가 그(녀)를 지키고있다. 늑대들은 결국 아무것도 못먹고 도망쳤다.</value>
   </string>
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <!-- 0 - newest  -->
     <!-- 1 - target's name -->
   <!-- new string May 12 2016-->
@@ -543,7 +543,7 @@
     <!-- 1 - name -->
     <value>@{1}, {0}이라는 이름은 이미 사용중 입니다. 게임에 참가하고 싶으시면 이름을 바꿔주십시오.</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <!-- 0 - target's name -->
   <!-- new string May 13 2016-->
     <value>{0}님 집에 즐거운 밤을 보내려고 들어가지만... 나갈때 구석에서 이상한 불빛이 눈에 띈다. 당신은 궁금해서 살짝 엿보는데…이상한 제단을 발견하였다…</value>
@@ -636,7 +636,7 @@
   <!-- new strings june 10 2016 -->
     <value>동작 그만!</value>
   </string>
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
     <value>당신은 큐피드입니다 🏹. 기저귀랑, 활이랑 화살 두개 갖고 지구에 도착했고, 플레이어 두명을 선턱하면, 그들은 영원히 사랑에 빠질겁니다. 만약에 둘중에 한명이 죽으면, 다른 플레이어도 고통에 시달려 죽을겁니다</value>
   </string>
   <string key="RoleInfoDoppelganger">
@@ -648,7 +648,7 @@
   <string key="RoleInfoSerialKiller">
     <value>당신은 연쇄 살인마 입니다 🔪. 얼마 안돼 감옥에서 나와서, 당신에 목표는 다른 사람들을 죽이는거 입니다. 매일 밤, 플레이어 시체를 컬렉션에 추가합니다.</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>당신은 사랑에 빠졌어요 💘. {0}님을 절대 잊을수 없을만큼 그(녀)를 사랑합니다. 당신의 목표는 그(녀)와 같이 살아남는것. 둘중에 한명이 죽으면, 다른 플레이어도 죽을겁니다.</value>
     <value>큐피드의 화살이 당신을 맞췄어요! {0}님을 미친듯이 사랑합니다! 그(녀)가 죽는다면, 당신도 죽는겁니다. 둘중 한명이라도 이기면, 양쪽 다 이깁니다.</value>
   </string>
@@ -705,12 +705,12 @@
     <!-- 0 - target's name -->
     <value>{0}님을 죽여 시체를 수집하고 싶었지만, 수호 천사(👼)가 그(녀)를 지키고있었다! 결국엔 아무도 못 죽였다...</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
     <value>마녀교도가 {0}님한테 {1}님을 데려오라고 명령하지만, 갑자기 총(🎯) 소리가 들리면서 {0}님의 시체가 창문 밖으로 날라갔다! {0}님은 죽었습니다...</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
     <value>마녀교도가 {0}님한테 {1}님을 데려오라고 명령하지만, {0}님의 시체가 창문 밖으로 날아간다…몸 전체에 칼로 찔렀다는 자국이 남아있다! 미친 싸이코🔪! {0}님은 죽었습니다...</value>
@@ -735,11 +735,11 @@
     <!-- 1 - mason collegues's name -->
     <value>{0}님이 죽어 당신은 일꾼(👷)이 되었습니다. 당신의 동료는: {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <!-- 0 - new Zombie's name -->
     <value>{0} 도플갱어가 당신처럼 마녀교도(👤)가 되었습니다!</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <!-- 0 - role's name -->
     <!-- 1 - teammates's name -->
     <value>{0}님이 죽어 당신은 마녀교도(👤)가 되었습니다. 당신의 동료는: {1}</value>
@@ -759,25 +759,25 @@
   <string key="AskKill">
     <value>오늘은 누구를 죽이고 싶습니까?</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <!-- 0 - dead's name -->
-    <!-- 1 - lover's name -->
+    <!-- 1 - crewmate's name -->
     <!-- 2 - roles -->
     <value>{0}님이 죽기 시작하니, {1}님은 울면서 그(녀)에게 달려듭니다. 그들은 서로 너무 사랑하는 마저, 한명이 죽으면 삶이 가치가 없다고 생각해서, {1}님은 자살은 합니다. {2}</value>
   </string>
   <string key="AskDoppelganger">
     <value>누구로 변하고 싶습니까?</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>누구를 사랑에 빠트리고 싶습니까? 첫번째 플레이어를 선택하십시오</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>누구를 사랑에 빠트리고 싶습니까? 두번째 플레이어를 선택하십시오 </value>
   </string>
   <string key="Hunter">
     <value>사냥꾼 🎯</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>큐피드 🏹</value>
   </string>
   <string key="SerialKiller">
@@ -790,7 +790,7 @@
     <!-- 0 - target's name -->
     <value>당신은 야생 아이가 되었습니다. 당신의 롤 모델은: {0}</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
     <value>진정한 사랑은 절대 지지 않은다! 커플의 승리!</value>
   </string>
   <string key="HunterKilledVisiter">
@@ -798,7 +798,7 @@
     <!-- 1 - role -->
     <value>광장에 모두가 {0}님의 시체를 발견한다. 그(녀)의 시체에는 많은 총알(🎯)들이 박혀있다. 그(녀)는 사냥꾼을 찾으러 갔었나 보네요! {1}</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>어두운 모습이 당신을 마녀교로 데려가려고 했지만, 당신의 믿음은 너무나 강력했습니다</value>
   </string>
   <string key="AlreadyOnWaitList">
@@ -879,7 +879,7 @@
   <string key="AboutFool">
     <value>그(녀)는 예언자라고 불리지만 원래는 그저 광대랍니다... 그(녀)가 플레이어를 선택하면, 랜덤으로 역할이 보일 거에요.</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>마녀교도는 다른 플레이어들을 마녀교에 데려오는 것이 목적입니다. 만약에 남은 생존자들이 마녀교도면, 그들이 이깁니다.</value>
   </string>
   <string key="AboutCH">
@@ -901,7 +901,7 @@
     <value>
    당신의 선조들은 그들이 원하는 것으로 변할수 있었지만, 당신은 그들의 능력을 완벽하게 못 익혔습니다. 플레이어를 선택하여, 선택 받은자가 죽으면, 그(녀)의 역할을 얻게 됩니다 참고: 마녀교도는 도플갱어를 못 데려갑니다 (역할이 바뀌면 할 수 있지만요). 만약에 도플갱어가 변신을 안 했다면, 게임 끝날 때 그(녀)는 못 이깁니다. (커플 제외)</value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>
   큐피드는 플레이어 두명을 선택한다. 그들은 미친듯이 서로 사랑에 빠지게 된다. 둘중에 한명이 죽으면, 다른 한명도 자살을 할 것이다. 참고: 사랑에 빠진 자들은 서로 이름은 알지만, 역할은 모른다. 마지막까지 둘다 살아남으면, 그들이 이긴다. (늑대 + 마을 사람, 마녀교도 + 늑대…)</value>
   </string>
@@ -1075,11 +1075,11 @@
   <string key="AllowTannerA">
     <value>Tanner as a role set to: {0}</value>
   </string>
-  <string key="AllowCultQ">
-    <value>Allow cult as a role option?\nCurrent: {0}</value>
+  <string key="AllowzoombiesQ">
+    <value>Allow zoombies as a role option?\nCurrent: {0}</value>
   </string>
-  <string key="AllowCultA">
-    <value>Cult as role set to: {0}</value>
+  <string key="AllowzoombiesA">
+    <value>zoombies as role set to: {0}</value>
   </string>
   <string key="EnableSecretLynchQ">
     <value>Enable secret lynch?\nCurrent: {0}</value>
@@ -1233,7 +1233,7 @@
   <string deprecated="true" key="SerialKillerTeam">
     <value>연쇄 살인마 팀</value>
   </string>
-  <string deprecated="true" key="CultTeam">
+  <string deprecated="true" key="zoombiesTeam">
     <!-- 0 - Number of Zombies -->
     <!-- 0 - Number of Zombies -->
     <!-- 0 - Number of Zombies -->
@@ -1267,13 +1267,13 @@
   <string key="SerialKillerTeamEnd">
     <value>연쇄 살인마 팀</value>
   </string>
-  <string key="CultTeamEnd">
+  <string key="zoombiesTeamEnd">
     <value>마녀교도 팀</value>
   </string>
   <string key="TannerTeamEnd">
     <value>상인 팀</value>
   </string>
-  <string key="CultConvertWolf">
+  <string key="zoombiesConvertWolf">
     <value>마녀교도는 {0}님한테 {1}님을 데려오라고 명령하지만, {0}님의 머리가 창문에서 날라오네요... 왜 머리는 안 먹었을까? {0}님은 죽었습니다.</value>
   </string>
   <string key="HarlotFuckedKilledPublic">
@@ -1290,7 +1290,7 @@
   <string key="ZombieKilled">
     <value>{0}님은 제단 옆에 있던 촛대로 살인을 당했다. 살인마가 다시 나타서, 인종, 종교, 언어에 상관 없이, 사람을 죽이기 시작했다! {0}님은 마녀교도였다</value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>아침에 마을 사람들은 큐피드인 {0}님의 시체가 있어, 굉장히 슬퍼하였다.. 이상하게도 심장이 없었다...</value>
   </string>
   <string key="DrunkKilled">
@@ -1323,11 +1323,11 @@
     <value>마을 사람들이 일어나, 마녀교도 헌터{0}님의 몇개의 시체 조각들을 발견한다. 오늘의 교훈: 연쇄 살인마를 찾으러 가지 말자!</value>
     <value>마녀교도 헌터{0}님의 시체가 정확히 백개로 나눠져 있는채로 발견되었다. 살인마가 마녀교도인지 아닌지 확인하는 것은 좋은 생각은 아니네요...</value>
   </string>
-  <string key="CultConvertWolfPublic">
+  <string key="zoombiesConvertWolfPublic">
     <value>늑대는 가만히 있었지만 마녀교도인 {0}님이 그들을 데려올려고 했다. 늑대들한텐 {0}님의 머리는 아주 맛있는 야식이 되었다!</value>
     <value>마녀교도는 갑작스러운 잘못을 저질렀다. 그들의 신멤버가 불길하게도 늑대의 집을 찾아갔다. 늑대는 {0}님을 맛있게 먹어치웠다. {0}님, 늑대들은 마녀한테 관심이 없습니다.</value>
   </string>
-  <string key="CultConvertKillerPublic">
+  <string key="zoombiesConvertKillerPublic">
     <value>마녀교도는 드디어 새로운 멤버가 들어올줄 알았지만, 그들은 모르고 있었다! 마녀교도 {0}님이 토막난채로 마을 광장에 있었다! 이상하게도 그(녀)의 성스러운 책에 칼 자국이 남아있었다, 마치 그들의 종교가 별거 아니라는 걸 보여주기 위해서.</value>
     <value>어젯밤에 마녀교도는 그들보다 더 미친 사람을 데려올려고 했다. 그들의 신멤버가 살인마를 데려올려고 해서, 살인마는 그의 예술적인 면을 보여주면서 {0}님의 기관으로 작품을 만들었다...</value>
   </string>
@@ -1408,8 +1408,8 @@
     <!-- NOTE: No space between {0} and joined. It will be added in the code if necessary-->
     <value>{0}님은 최근 30초에 참가를 하셨습니다</value>
   </string>
-  <string key="AllowCult">
-    <value>Allow Cult</value>
+  <string key="Allowzoombies">
+    <value>Allow zoombies</value>
   </string>
   <string key="AllowTanner">
     <value>Allow Tanner</value>
@@ -1446,7 +1446,7 @@
     <value>All</value>
   </string>
   <string key="RandomModeQ">
-    <value>Enable random mode?\nWhen random mode is enabled, Chaos, Secret Lynch, Show Roles on Death, and Allow Cult / Fool / Tanner will be randomly determined everytime someone starts a game.\nCurrent:{0}</value>
+    <value>Enable random mode?\nWhen random mode is enabled, Chaos, Secret Lynch, Show Roles on Death, and Allow zoombies / Fool / Tanner will be randomly determined everytime someone starts a game.\nCurrent:{0}</value>
   </string>
   <string key="RandomModeA">
     <value>Enabling of random mode set to: {0}</value>

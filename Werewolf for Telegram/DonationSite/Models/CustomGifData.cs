@@ -21,9 +21,9 @@ namespace DonationSite.Models
         public string StartGame { get; set; }
         public string StartChaosGame { get; set; }
         public string TannerWin { get; set; }
-        public string CultWins { get; set; }
+        public string zoombiesWins { get; set; }
         public string SerialKillerWins { get; set; }
-        public string LoversWin { get; set; }
+        public string crewmatesWin { get; set; }
         public bool ShowBadge { get; set; } = true;
         public bool Submitted { get; set; }
     }

@@ -6,7 +6,7 @@
 
 	18/05/2018 (8.2) :
 	Tom 增加 1 條 "RoleInfoMayor" 字串
-	Tom 增加 1 條 "CultConvertYou" 字串
+	Tom 增加 1 條 "zoombiesConvertYou" 字串
 	Tom 增加 1 條 "StartingGameWait" 字串
 	Tom 增加 1 條 "DetectiveSnoop" 字串
 	Tom 增加 1 條 "DetectiveCaught" 字串
@@ -28,7 +28,7 @@
 	Tom 增加 1 條 "RoleInfoDetective" 字串
 	Tom 增加 1 條 "RoleInfoTanner" 字串
 	Tom 增加 1 條 "BeholderSeer" 字串
-	Tom 增加 1 條 "CultJoin" 字串
+	Tom 增加 1 條 "zoombiesJoin" 字串
 	
 	17/05/2018 (v8.0) :
 		官方更新
@@ -191,8 +191,8 @@
 	Tom 修改 "SetDayTimeA" 字串
 	Tom 修改 "SetNightTimeA" 字串
 	Tom 修改 "SetLynchTimeA" 字串
-	Tom 修改 "AllowCultQ" 字串
-	Tom 修改 "AllowCultA" 字串
+	Tom 修改 "AllowzoombiesQ" 字串
+	Tom 修改 "AllowzoombiesA" 字串
 	Tom 修改 "AllowExtendQ" 字串
 	Tom 修改 "AllowExtendA" 字串
 	
@@ -209,9 +209,9 @@
 	KC 增加 1 條 "FleeDisabled" 字串
 	AK 修改 "PrinceLynched" 字串
 	Tom 修改 "XXXXXWin(s)" 、 "NoWinner" 、 "EndTime" 字串（共 14 條—移動 "\n/startgame 開始「正常版」新遊戲\n/startchaos 開始「混亂版」新遊戲" 位置）
-	Tom 增加 1 條 "LoversWin" 字串
-	Ku 修改 1 條 "LoversWin" 字串
-	GreenWalker 增加 2 條 "LoversWin" 字串
+	Tom 增加 1 條 "crewmatesWin" 字串
+	Ku 修改 1 條 "crewmatesWin" 字串
+	GreenWalker 增加 2 條 "crewmatesWin" 字串
 
 	11/07/2017 (v2.1) :
 	Tom 修改 "無" 為 "冇" （共 54 條）
@@ -287,7 +287,7 @@
 	KC 修改 "Mayor" 圖案
 	KC 增加 6 條 "PlayerVotedLynch" 字串
 	Ku 修改 "HunterKillsWolfEnd" 字串
-	AK 修改 "CultConvertWolfPublic" 字串
+	AK 修改 "zoombiesConvertWolfPublic" 字串
 	KC 增加 1 條 "NotEnoughPlayers" 字串
 	KC 增加 2 條 "JoinButton" 字串
 	Dory 修改 "DetectiveSnoop" 字串
@@ -370,7 +370,7 @@
 
 		初期漏洞修理：
 	Tom 補回 "WolfKillsHunterEnd" 字串缺少的 {0} 及 {1}
-	Tom 補回 "AllowCult" 字串
+	Tom 補回 "Allowzoombies" 字串
 	Tom 補回 "AllowTanner" 字串
 	Tom 補回 "AllowFool" 字串
 	Tom 補回 "EnableSecretLynch" 字串
@@ -808,27 +808,27 @@
 	<string key="ZombieVotedConvert">
 		<value>【{0}】想【{1}】嚟傾莊。</value>
 	</string>
-	<string key="CultConvertZombieHunter">
+	<string key="zoombiesConvertZombieHunter">
 		<value>【{0}】去咗拉【{1}】嚟傾莊……但係佢係代表會成員！你送羊入虎口，搞到【{0}】 Quit 咗 U 喇！</value>
 	</string>
-	<string key="ZombieHunterKilledCultVisit">
+	<string key="ZombieHunterKilledzoombiesVisit">
 		<value>【{0}】琴晚去咗你間宿叫你去傾莊，你當然唔會放過佢，嚴刑逼供加上地氈式搜索，搵到黑材料去報串，一個莊員就咁比你搞到 Quit 咗 U ……\n支莊仲有 {1} 個莊員！</value>
 	</string>
-	<string key="CultConvertYou">
+	<string key="zoombiesConvertYou">
 		<value>恭喜你成功捱過正諮！多謝加入冇得瞓教～你係新莊員！！</value>
 		<value>恭喜你成功得到學生會員大比數支持！你係冇得瞓教嘅新莊員了，多謝莊員同會員嘅支持啦！</value>
 	</string>
-	<string key="CultTeam">
+	<string key="zoombiesTeam">
 		<value>莊員名單：【{0}】</value>
 	</string>
-	<string key="CultJoin">
+	<string key="zoombiesJoin">
 		<value>【{0}】成功捱過正諮，上咗莊喇！</value>
 		<value>【{0}】成功捱過正諮，過埋投票，成為你哋嘅一份子喇！</value>
 	</string>
-	<string key="CultVisitEmpty">
+	<string key="zoombiesVisitEmpty">
 		<value>【{0}】比你叫咗去搵【{1}】傾莊，但係【{1}】間房冇人！</value>
 	</string>
-	<string key="CultWins">
+	<string key="zoombiesWins">
 		<value>「和盡天地風雲之聲……」只聽見 Dem Beat 聲此起彼落，活動搞得如火如荼，皆因中大係莊員嘅天下。\n莊員 勝出！</value>
 	</string>
 	<string key="HunterVisitDead">
@@ -931,7 +931,7 @@
 	</string>
 	
 <!-- new strings 06/05/2016-->
-	<string key="CultTargetDead">
+	<string key="zoombiesTargetDead">
 		<value>你哋去【{0}】間房想拉佢傾莊時，發現嗰度一啲嘢都冇，好乾淨，睇嚟佢執晒啲嘢走， Quit 咗 U 喇……</value>
 	</string>
 	<string key="GuardBlockedWolf">
@@ -939,7 +939,7 @@
 	</string>
 	
 <!-- new strings 09/05/2016-->
-	<string key="CultUnableToConvert">
+	<string key="zoombiesUnableToConvert">
 		<value>你派出【{0}】去搵【{1}】去傾莊，但係【{1}】死要形象，唔想同你哋一齊 Dem Beat 而拒絕咗！</value>
 		<value>你派出【{0}】去搵【{1}】去傾莊，但係【{1}】話：「諮詢大會要通頂，不了。」所以佢最後冇上莊。</value>
 		<value>你派出【{0}】去搵【{1}】去傾莊，但係【{1}】話：「冇錢畀你哋墊住先。」所以你最後冇搵佢上莊。</value>
@@ -950,7 +950,7 @@
 	<string key="NameExists">
 		<value>【@{1}】，中大入面已經有人叫【{0}】，唔該你去入境處改改個名先加入！</value>
 	</string>
-	<string key="HarlotDiscoverCult">
+	<string key="HarlotDiscoverzoombies">
 		<value>你今晚去咗【{0}】間房，你哋啪得好開心。當你哋 Say Goodbye 嗰陣，你發現佢間房嘅衣櫃有件莊Tee……</value>
 		<value>你今晚去咗【{0}】間房，你哋啪得好開心。當你意猶未盡但要走嗰陣，你發現佢間房枱頭有一堆 Table Stand ……</value>
 		<value>你今晚去咗【{0}】間房，你哋啪得好開心。當你哋着返啲衫嗰陣，你發現佢間房床邊有一大卷 Banner ……</value>
@@ -1014,7 +1014,7 @@
 	</string>
 	
 <!-- New strings 10/06/2016 -->
-	<string key="RoleInfoCupid">
+	<string key="RoleInfoRecruiter">
 		<value>你係花生友 🥜，你好想食出Pool飯。\n一開始你會揀兩個人出Pool。\n如果佢哋入面其中一個 Quit U ，另一個都會 You jump I jump 咁 Quit U 。\n備註：情侶會互相知道另一半係邊個，但唔會知道對方身分。如果情侶係最後兩個順利 Grad 到就贏。\n你自己係屬於學渣陣營。</value>
 	</string>
 	<string key="RoleInfoDoppelganger">
@@ -1026,7 +1026,7 @@
 	<string key="RoleInfoSerialKiller">
 		<value>你係Killer 🔪。\n你可以將任何人嘅功課都定為爛 Grade 而令佢 Quit U 。如果學霸嚟搵你嘅話，你有 20% 機會俾佢哋令你 Quit U ，另外 80% 機會掉返轉令佢哋其中一位 Quit U 。</value>
 	</string>
-	<string key="CupidChosen">
+	<string key="RecruiterChosen">
 		<value>喺花生友嘅慫恿下，你同【{0}】一齊行過情人路，立下海誓山盟：「不求同年同月同日生，但求同年同月同日 Grad 。」如果你哋有一個人 Quit U ，另一個人都會跟住 Quit U 。</value>
 		<value>花生友撮合咗你同【{0}】！你哋兩個一係就一齊 Grad ，一係就一齊 Quit 。</value>
 	</string>
@@ -1054,7 +1054,7 @@
 	<string key="HunterKilledFinalShot">
 		<value>【{0}】快如閃電咁改完佢手上嘅試卷交畀教授，而【{1}】份卷係肥咗，【{1}】最終要跟【{0}】一齊 Quit U 。\n【{2}】</value>
 	</string>
-	<string key="CultConvertSerialKiller">
+	<string key="zoombiesConvertSerialKiller">
 		<value>你派出【{0}】去 39 區嘅羅志祥綜合生物醫學大樓搵Killer【{1}】傾莊。Killer對你哋搵佢傾莊覺得莫名其妙，覺得你哋痴線痴得幾勻循，所以就留低咗【{0}】喺佢嘅不正常人類研究中心做研究對象……</value>
 	</string>
 	<string key="HunterShotWolfMulti">
@@ -1077,7 +1077,7 @@
 	<string key="GuardBlockedKiller">
 		<value>你肥晒【{0}】啲功課，以為佢考試一定肥埋，點知佢 Pass 咗 Exam ！原來佢食組爸媽嘅 Source ，令你呢個 Sem 白白嘥晒啲腦汁……</value>
 	</string>
-	<string key="CultConvertHunter">
+	<string key="zoombiesConvertHunter">
 		<value>Pro P 嗰陣支莊派【{0}】去某班洗堂，衝入去發現【{1}】帶緊 Tutorial ，【{0}】急急腳著草，點知撞跌晒啲儀器……最後因為破壞公物，俾人踢出校！【{0}】已被 Quit U ！</value>
 	</string>
 	<string key="GuardKiller">
@@ -1097,10 +1097,10 @@
 	<string key="DGTransformToMason">
 		<value>【{0}】已 Quit U ，你攞咗佢張 CU Link 做 Roommate 。同你一齊住同一間房嘅係（如有）：【{1}】</value>
 	</string>
-	<string key="DGToCult">
+	<string key="DGTozoombies">
 		<value>孖生兄弟【{0}】攞咗佢兄弟張 CU Link ，佢依家係莊員，就好似你咁！</value>
 	</string>
-	<string key="DGTransformToCult">
+	<string key="DGTransformTozoombies">
 		<value>【{0}】已 Quit U ，你攞咗佢張 CU Link 做莊員，你班莊員係（如有）：【{1}】</value>
 	</string>
 	<string key="DGToWolf">
@@ -1115,23 +1115,23 @@
 	<string key="AskKill">
 		<value>你想 肥 邊個，令佢 Quit U ？</value>
 	</string>
-	<string key="LoverDied">
+	<string key="crewmateDied">
 		<value>【{0}】同【{1}】講佢要 Quit U ，【{1}】覺得留喺大學空虛寂寞冷、生無可戀，佢大嗌：「等埋我呀！」就 Quit 埋 U 。\n【{2}】</value>
 		<value>花生友帶佢哋行過嘅其實係辮子路。相傳辮子姑娘曾經喺度慘死，變成孤魂野鬼，估唔到今日【{0}】同【{1}】都成為路下亡魂了。大家為佢哋默哀一秒鐘……\n【{2}】</value>
 	</string>
 	<string key="AskDoppelganger">
 		<value>你希望做邊個嘅孖生兄弟，將來繼承佢張 CU Link 呢？</value>
 	</string>
-	<string key="AskCupid1">
+	<string key="AskRecruiter1">
 		<value>你想 令邊個 出Pool？依家揀第一個人。</value>
 	</string>
-	<string key="AskCupid2">
+	<string key="AskRecruiter2">
 		<value>你想 令邊個 出Pool？依家揀第二個人。</value>
 	</string>
 	<string key="Hunter">
 		<value>TA 👨‍🎓</value>
 	</string>
-	<string key="Cupid">
+	<string key="Recruiter">
 		<value>花生友 🥜</value>
 	</string>
 	<string key="SerialKiller">
@@ -1143,7 +1143,7 @@
 	<string key="NewWCRoleModel">
 		<value>你係純情小毒L 2.0！你成部電話 Album 裡面都係你最愛嘅「女神BB豬」【{0}】啲相。</value>
 	</string>
-	<string key="LoversWin">
+	<string key="crewmatesWin">
 		<value>愛是最大權利！戀人們勝利！準備請食出 Pool 飯！</value>
 		<value>完了吧！如無意外！從今開始該好好戀愛！準備請食出 Pool 飯！</value>
 		<value>愛是最大權利！戀人們勝利！準備入返 Pool 啦你哋！</value>
@@ -1152,7 +1152,7 @@
 	<string key="HunterKilledVisiter">
 		<value>喺某個 Lab 內嘅儀器散落一地，之後 Department 牆上貼咗張新 Notice 話【{0}】蓄意破壞大量公物，踢佢出校。\n【{1}】</value>
 	</string>
-	<string key="CultAttempt">
+	<string key="zoombiesAttempt">
 		<value>一位莊員試圖說服你去傾莊，但係你拒絕咗佢哋。</value>
 		<value>一位莊員試圖說服你去傾莊，但係你話：「冇錢畀你哋墊住先。」所以佢哋最後冇搵你上莊。</value>
 		<value>一位莊員試圖說服你去傾莊，但係你話：「諮詢大會要通頂，不了。」，拒絕咗佢哋。</value>
@@ -1175,18 +1175,18 @@
 	
 <!-- New strings 16/06/2016-->
 	<string key="SerialKillerWinsOverpower">
-		<value>一次考試開始之際， Shaw Gym 出面行雷閃電兼且倒水咁落雨，【{1}】難得地準時去到，但只見 Professor 【{0}】畀佢一份 Faculty 出嘅卷，【{1}】再叻都招架唔住， Professor 改完份卷之後 Send Email 俾【{1}】，話佢份卷 F 咗，要佢 Quit U ……</value>
-		<value>一次考試開始之際， NA Gym 出面行雷閃電兼且倒水咁落雨，【{1}】難得地準時去到，但只見 Professor 【{0}】畀佢一份 Faculty 出嘅卷，【{1}】再叻都招架唔住， Professor 改完份卷之後 Send Email 俾【{1}】，話佢份卷 F 咗，要佢 Quit U ……</value>
-		<value>一次考試開始之際， UC Gym 出面行雷閃電兼且倒水咁落雨，【{1}】難得地準時去到，但只見 Professor 【{0}】畀佢一份 Faculty 出嘅卷，【{1}】再叻都招架唔住， Professor 改完份卷之後 Send Email 俾【{1}】，話佢份卷 F 咗，要佢 Quit U ……</value>
-		<value>一次考試開始之際， U Gym 出面行雷閃電兼且倒水咁落雨，【{1}】難得地準時去到，但只見 Professor 【{0}】畀佢一份 Faculty 出嘅卷，【{1}】再叻都招架唔住， Professor 改完份卷之後 Send Email 俾【{1}】，話佢份卷 F 咗，要佢 Quit U ……</value>
-		<value>一次考試開始之際，龐萬倫出面行雷閃電兼且倒水咁落雨，【{1}】準時去到，但只見 Professor 【{0}】畀佢一份 Faculty 出嘅卷，【{1}】再叻都招架唔住， Professor 改完份卷之後 Send Email 俾【{1}】，話佢份卷 F 咗，要佢 Quit U ……</value>
-		<value>一次考試開始之際， YIA 出面行雷閃電兼且倒水咁落雨，【{1}】準時去到，但只見 Professor 【{0}】畀佢一份 Faculty 出嘅卷，【{1}】再叻都招架唔住， Professor 改完份卷之後 Send Email 俾【{1}】，話佢份卷 F 咗，要佢 Quit U ……</value>
+		<value>一次考試開始之際， Shaw Gym 出面行雷閃電兼且倒水咁落雨，【{1}】難得地準時去到，但只見 Professor 【{0}】畀佢一份 Fazoombiesy 出嘅卷，【{1}】再叻都招架唔住， Professor 改完份卷之後 Send Email 俾【{1}】，話佢份卷 F 咗，要佢 Quit U ……</value>
+		<value>一次考試開始之際， NA Gym 出面行雷閃電兼且倒水咁落雨，【{1}】難得地準時去到，但只見 Professor 【{0}】畀佢一份 Fazoombiesy 出嘅卷，【{1}】再叻都招架唔住， Professor 改完份卷之後 Send Email 俾【{1}】，話佢份卷 F 咗，要佢 Quit U ……</value>
+		<value>一次考試開始之際， UC Gym 出面行雷閃電兼且倒水咁落雨，【{1}】難得地準時去到，但只見 Professor 【{0}】畀佢一份 Fazoombiesy 出嘅卷，【{1}】再叻都招架唔住， Professor 改完份卷之後 Send Email 俾【{1}】，話佢份卷 F 咗，要佢 Quit U ……</value>
+		<value>一次考試開始之際， U Gym 出面行雷閃電兼且倒水咁落雨，【{1}】難得地準時去到，但只見 Professor 【{0}】畀佢一份 Fazoombiesy 出嘅卷，【{1}】再叻都招架唔住， Professor 改完份卷之後 Send Email 俾【{1}】，話佢份卷 F 咗，要佢 Quit U ……</value>
+		<value>一次考試開始之際，龐萬倫出面行雷閃電兼且倒水咁落雨，【{1}】準時去到，但只見 Professor 【{0}】畀佢一份 Fazoombiesy 出嘅卷，【{1}】再叻都招架唔住， Professor 改完份卷之後 Send Email 俾【{1}】，話佢份卷 F 咗，要佢 Quit U ……</value>
+		<value>一次考試開始之際， YIA 出面行雷閃電兼且倒水咁落雨，【{1}】準時去到，但只見 Professor 【{0}】畀佢一份 Fazoombiesy 出嘅卷，【{1}】再叻都招架唔住， Professor 改完份卷之後 Send Email 俾【{1}】，話佢份卷 F 咗，要佢 Quit U ……</value>
 	</string>
 	<string key="NoWinner" isgif="true">
 		<value>中大所有人都 Quit 晒 U ，成間大學都空蕩蕩……只見君子塔同淑女塔互望，長相廝守，直到永遠，阿們。\n</value>
 		<value>中大所有人都 Quit 晒 U ，成間大學空空如也……只有中大貓喺中大遊遍天南地北。\n【中大貓】勝出！\n</value>
 		<value>中大雖然所有人都 Quit 晒 U ，但喺《新假期》鋪天蓋地嘅攻勢下，中大變得水泄不通，《新假期》好似大嗌住：「佔領中大正式啟動！遊客將會全面進場！」\n</value>
-		<value>全部中大人都走晒。你以為冇人贏？少年，你太年輕了。喺《新假期》嘅全力推動下，遊客全面進場，佔領中大，正式啟動。遊客坐滿原本空空嘅 4 號巴，幫襯敬文嘅 Coffee Lover ，為敬文嘅 Coffee Lover 帶來源源不絕嘅生意。\n【敬Can曾生】勝出！\n</value>
+		<value>全部中大人都走晒。你以為冇人贏？少年，你太年輕了。喺《新假期》嘅全力推動下，遊客全面進場，佔領中大，正式啟動。遊客坐滿原本空空嘅 4 號巴，幫襯敬文嘅 Coffee crewmate ，為敬文嘅 Coffee crewmate 帶來源源不絕嘅生意。\n【敬Can曾生】勝出！\n</value>
 		<value>全部中大人都走晒。你以為冇人贏？少年，你太年輕了。喺《新假期》嘅全力推動下，遊客全面進場，佔領中大，正式啟動。遊客坐滿原本空空嘅 3 號巴，幫襯和聲嘅 Café Tolo ，不過 Café Tolo 啲姐姐繼續西盡所有客人面。\n【Café Tolo老闆】勝出！\n</value>
 		<value>全部中大人都走晒。你以為冇人贏？少年，你太年輕了。喺《新假期》嘅全力推動下，遊客全面進場，佔領中大，正式啟動。遊客坐滿原本空空嘅 3 號巴，幫襯和聲嘅 Café Tolo ，為 Café Tolo 帶來源源不絕嘅生意。\n【Café Tolo老闆】勝出！\n</value>
 		<value>所有中大人都走了。你以为没有人胜出？少年，你太年轻了。原来被退学的同学纷纷前往深圳中文大学（香港）接受再教育，研习拥有中国特色的社会主义，听党的话，坚持党的领导，已获得中大学位。深圳中文大学（香港）亦已经获得一笔为数不少的收入。\n【深圳中文大学（香港）】胜出！\n</value>
@@ -1252,7 +1252,7 @@
 	<string key="AboutFool">
 		<value>【邊緣人 👤】學渣陣營\n逢考試週：可以打聽一個人嘅身份。\n注意：\n1）系統會同你講你係大組長；\n2）你打聽到嘅多數都係流料。</value>
 	</string>
-	<string key="AboutCult">
+	<string key="Aboutzoombies">
 		<value>【莊員 🕺】學會陣營\n逢考試週：成支莊可以拉一個人去傾莊（除咗學霸同孖生兄弟），但係啲人如果唔喺宿就唔會俾你搵到。上咗莊嘅人會失去原來嘅身份。代表會成員／Killer會令你Quit U。\n一定會上莊：Roommate、學渣、宿舍酒鬼、OC、旗佬、邊緣人、花生友、Freerider、學生會會長、Carrier、層導師、二五仔、純情小毒L、CUSIS老母\n其他人上莊機率︰\n40% ：大組長、人生贏家\n50% ：TA\n60% ：走讀生、組爸媽\n70% ：宿生會會長、Hell雞\n75% ：學長\n如果你拉唔到TA上莊，佢有 50% 機會會令你 Quit U 。最後如果冇晒學霸同 Killer ，而且全中大都上晒莊，咁你就贏喇。</value>
 	</string>
 	<string key="AboutCH">
@@ -1273,7 +1273,7 @@
 	<string key="AboutDG">
 		<value>【孖生兄弟 👬】未入任何陣營\n只限首個考試週：可以揀一位兄弟，若然佢 Quit U ，你就會執佢張 CU Link 繼續大學生活。如果孖生兄弟喺遊戲結束嗰陣仲未有 CU Link ，就會輸（除非你嘅戀人贏咗）。</value>
 	</string>
-	<string key="AboutCupid">
+	<string key="AboutRecruiter">
 		<value>【花生友 🥜】學渣陣營\n只限首個考試週：揀兩個人出Pool。如果佢哋入面其中一個 Quit U ，另一個都會跟住 Quit U 。情侶會互相知道另一半係邊個，但唔會知道對方身分。如果情侶係最後兩個順利 Grad 到，或其中一個所屬陣營 Grad 到就會贏。\n注意：你自己係屬於學生陣營。</value>
 	</string>
 	<string key="AboutHunter">
@@ -1443,10 +1443,10 @@
 	<string key="AllowTannerA">
 		<value>已 {0} 玩家抽中CUSIS老母。</value>
 	</string>
-	<string key="AllowCultQ">
+	<string key="AllowzoombiesQ">
 		<value>准許玩家抽中莊員？\n（只限遊戲人數 11 人或以上）\n當前設定︰{0} 。</value>
 	</string>
-	<string key="AllowCultA">
+	<string key="AllowzoombiesA">
 		<value>已 {0} 玩家抽中莊員。（只限遊戲人數 11 人或以上）</value>
 	</string>
 	<string key="ThankYou">
@@ -1676,7 +1676,7 @@
 	<string key="SerialKillerTeam">
 		<value>Killer</value>
 	</string>
-	<string key="CultTeam">
+	<string key="zoombiesTeam">
 		<value>學會陣營</value>
 	</string>
 	<string key="TannerTeam">
@@ -1695,13 +1695,13 @@
 	<string key="SerialKillerTeamEnd">
 		<value>Killer</value>
 	</string>
-	<string key="CultTeamEnd">
+	<string key="zoombiesTeamEnd">
 		<value>學會陣營</value>
 	</string>
 	<string key="TannerTeamEnd">
 		<value>CUSIS老母</value>
 	</string>
-	<string key="CultConvertWolf">
+	<string key="zoombiesConvertWolf">
 		<value>冇得瞓教派出莊員【{0}】去【{1}】到拉佢傾莊，點知半個鐘後見到個麻包袋喺走廊躝下躝下咁，打開一睇，原來係傷痕累累嘅【{0}】！【{0}】因為無法考試而要Quit U……</value>
 	</string>
 	<string key="HarlotFuckedKilledPublic">
@@ -1718,7 +1718,7 @@
 	<string key="ZombieKilled">
 		<value>教授喺火車站見到莊員【{0}】 Dem Beat 特別出力，覺得佢應該係表演藝術人才，留喺中大係大材小用，所以就畀咗張 Quit U Form 同演藝學院單張佢。\n【莊員 🕺】已被 Quit U 。</value>
 	</string>
-	<string key="CupidKilled">
+	<string key="RecruiterKilled">
 		<value>Killer一如以往咁改卷，發現有份卷鶴立雞群！平時啲人識就答，唔識就求其寫啲相關嘅嘢，但【{0}】似乎食花生食上腦，卷上「下至花生」星羅棋布，但係「上至天文」寥寥可數。【{0}】仲寫埋Killer圍內嘅私事，Killer惱羞成怒之下畫咗一個大交叉，直接送咗個 F 俾【{0}】。\n【花生友 🥜】已被 Quit U 。</value>
 	</string>
 	<string key="DrunkKilled">
@@ -1752,10 +1752,10 @@
 	<string key="SerialKillerKilledCH"> <!--used when CH visits SK-->
 		<value>代表會成員【{0}】明明諗住去冚人檔收人旗，點知誤闖Killer個 Lab 同倒瀉咗啲實驗品，仲要唔小心炸埋個 Lab 。最後【{0}】因為擅闖禁地同危險行為俾人踢咗出校。\n【代表會成員 🤗】已被 Quit U 。</value>
 	</string>
-	<string key="CultConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
+	<string key="zoombiesConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
 		<value>當學霸專心摺宿溫書之際，莊員【{0}】上門去搵一位學霸傾莊！學霸見到佢自動送上門，於是同校方報串，屈【{0}】私下收 FM OCamp 錢，因此【{0}】 Quit 咗 U 。\n【莊員 🕺】已被 Quit U 。</value>
 	</string>
-	<string key="CultConvertKillerPublic"> <!--used when Zombies convert the SK-->
+	<string key="zoombiesConvertKillerPublic"> <!--used when Zombies convert the SK-->
 		<value>莊員尋晚興致勃勃咁去拉人入會同收會費，點知撞親咁啱心情唔靚嘅Killer，仲要令佢跌落未圓湖。個Killer喺港大爬返出嚟嗰陣迷迷糊糊，剩係記得其中一件蛋散個名，唔好彩嘅【{0}】因此被踢出校。\n【莊員 🕺】已被 Quit U 。</value>
   	</string>
 	<string key="GAGuardedKiller">
@@ -1856,7 +1856,7 @@
 	<!-- {0} = list of people who have joined -->
 		<value>{0} 喺過去 30 秒內入咗中大。</value>
 	</string>
-	<string key="AllowCult">
+	<string key="Allowzoombies">
 		<value>角色／莊員</value>
 	</string>
 	<string key="AllowTanner">

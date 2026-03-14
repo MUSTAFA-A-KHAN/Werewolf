@@ -313,25 +313,25 @@ translate to Bahasa Melayu by Skyzkillerz-->
   <string key="ZombieVotedConvert" >
     <value >{0} telah mengundi melakukan sesuatu {1}</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <value>{0} pergi kerumah {1} telah mati!</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <value>{0} telah mati! Terdapat nombor dalam kepala kamu... {1}</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>Peranan anda berubah daripada apa ke apa?</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>Kamu mungkin tidak mengingati diri kamu, tapi kamu teringat seseorang yang penting iaitu: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <value>Dalam banyak nama dalam kepala kamu, satu nama muncul: {0}!</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <value>{0} pergi ke rumah {1} tetapi tiada dirumah</value>
   </string>
-  <string key="CultWins" isgif="true">
+  <string key="zoombiesWins" isgif="true">
     <value >Mereka mungkin tidak ingat siapa diri mereka, tetapi yang tinggal adalah pengamal ajaran sesat... Pengamal ajaran sesat menang!</value>
   </string>
   <string key="HunterVisitDead">
@@ -428,21 +428,21 @@ translate to Bahasa Melayu by Skyzkillerz-->
     <value>  Anda mungkin tidak mengingati diri anda, tetapi anda ingat seseorang yang penting  {0}</value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <value>{0} telah mati!</value>
   </string>
   <string key="GuardBlockedWolf">
     <value>Ada sesuatu berlaku dekat rumah {0} semalam? Anda nampak tak ingat...</value>
   </string>
   <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <value>{0} pergi ke rumah {1}, tetapi tidak ingat perkara yang berlaku di sana...</value>
   </string>
   <!-- new string May 12 2016-->
   <string key="NameExists">
     <value>@{1}, pemain dengan nama {0} telah menyertai. Sila ubah nama anda untuk sertai.</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <value>Anda mungkin tidak mengingati diri sendiri, tetapi kamu ingat : {0} pengamal ajaran sesat 👤!</value>
   </string>
   <!-- new string May 13 2016-->
@@ -522,7 +522,7 @@ translate to Bahasa Melayu by Skyzkillerz-->
 	<value>Anda lupa untuk membalas? Masa telah tamat!</value>
   </string>
   <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
     <value>Pelik... Anda tidak ingat siapa diri anda, cuma anda perlu lakukan sesuatu pada waktu malam!</value>
   </string>
   <string key="RoleInfoDoppelganger">
@@ -534,7 +534,7 @@ translate to Bahasa Melayu by Skyzkillerz-->
   <string key="RoleInfoSerialKiller">
     <value>Pelik... Anda tidak ingat siapa diri anda, cuma anda perlu lakukan sesuatu pada waktu malam!</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>Anda mungkin tidak ingat siapa diri anda tetapi anda ingat seorang yang penting: {0}</value>
   </string>
   <string key="HunterLynchedChoice">
@@ -561,7 +561,7 @@ translate to Bahasa Melayu by Skyzkillerz-->
   <string key="HunterKilledFinalShot">
     <value>Seperti {0} yang cedera teruk, dan rebah ketanah... tanpa melengahkan masa mengambil pistol mereka menembak {1}, mengenai antara kedua mata. {2}</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <value>{0} pergi ke rumah {1} dan sekarang telah mati!</value>
   </string>
   <string key="HunterShotWolfMulti">
@@ -579,7 +579,7 @@ translate to Bahasa Melayu by Skyzkillerz-->
   <string key="GuardBlockedKiller">
     <value>Sesuatu berlaku dekat rumah {0} semalam? Kamu tidak ingat...</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <value>{0} pergi ke rumah {1} dan telah mati!</value>
   </string>
   <string key="GuardKiller">
@@ -594,10 +594,10 @@ translate to Bahasa Melayu by Skyzkillerz-->
   <string key="DGTransformToMason">
     <value>{0} telah mati! Peranan anda berubah, dari apa kepada apa? Anda mungkin mengingati diri anda, tetapi anda ingat seseorang yang penting: {1}</value>
   </string>h
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <value>Dalam banyak nama dalam kepala kamu, sesuatu nama muncul: {0}!</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <value>{0} telah mati! Peranan anda berubah, dari apa kepada apa? Anda mungkin mengingati diri anda, tetapi anda ingat seseorang yang penting: {1}</value>
   </string>
   <string key="DGToWolf">
@@ -612,22 +612,22 @@ translate to Bahasa Melayu by Skyzkillerz-->
   <string key="AskKill">
     <value>Kamu tahu kamu patut pilih seseorang, siapa yang kamu pilih?</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <value>Dengan kematian {0}, {1} bergegas pergi, menangis. Mereka tidak boleh kehilangan orang yang mereka sayang. Mereka mengambil pistol yang berdekatan dan menembak diri sendiri. {2}</value>
   </string>
   <string key="AskDoppelganger">
     <value>Kamu tahu kamu patut pilih seseorang, siapa yang kamu pilih?</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>Kamu tahu kamu patut pilih seseorang, siapa yang kamu pilih?</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>Kamu tahu kamu perlu lakukan sesuatu pada orang lain, tetapi siapa yang kamu pilih?</value>
   </string>
   <string key="Hunter">
     <value>Pemburu 🎯</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>Telangkai 🏹</value>
   </string>
   <string key="SerialKiller">
@@ -639,13 +639,13 @@ translate to Bahasa Melayu by Skyzkillerz-->
   <string key="NewWCRoleModel">
     <value>Watak anda telah berubah, daripada apa kepada apa? Anda mungkin tidak mengingati diri sendiri, tetapi anda ingat seseorang yang penting: {0}</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
     <value>Cinta sejati bertahan! Kekasih telah menang!</value>
   </string>
   <string key="HunterKilledVisiter">
     <value>Di tengah bandar mereka menjumpai mayat {0}, beberapa das tembakan kelihatan di tubuh mangsa. Kelihatan mereka cuba melihat pemburu {1}</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>Sesuatu berlaku semalam? Kamu tidak mengingatinya...</value>
   </string>
   <string key="AlreadyOnWaitList">
@@ -760,8 +760,8 @@ translate to Bahasa Melayu by Skyzkillerz-->
 	
 	NIGHT ACTIONS, setiap malam!</value>
   </string>
-  <string key="AboutCult">
-  <!-- CULT CONVERSION RATES AND WHO'S HOME HERE! ayylmao -->
+  <string key="Aboutzoombies">
+  <!-- zoombies CONVERSION RATES AND WHO'S HOME HERE! ayylmao -->
     <value>
 	Pada setiap malam, para ahli ajaran sesat akan mengundi siapakah yang akan ditukarkan. Kumpulan ajaran sesat akan menang apabila semua orang ditukarkan menjadi ahli ajaran sesat, bukan senang nak tukarkan!
 	
@@ -800,14 +800,14 @@ translate to Bahasa Melayu by Skyzkillerz-->
   <string key="AboutDG">
     <value>
            Keturunan anda mempunyai kemahiran untuk menukar orang lain ... semasa anda tidak mempunyai kebolehan mereka sepenuhnya, anda boleh mengambil pemain pada permulaan permainan. Jika pemain itu mati, anda akan menjadi apa yang mereka jadi.
-           Nota: Jika pemain itu ditukar kepada Cult, anda akan mengambil peranan asal mereka. Arahan asal sebelum ini dipakai: Jika mereka Kanak-kanak Liar dan role model mereka mati, anda akan menjadi serigala. Jika tidak, anda akan mewarisi role model mereka.
+           Nota: Jika pemain itu ditukar kepada zoombies, anda akan mengambil peranan asal mereka. Arahan asal sebelum ini dipakai: Jika mereka Kanak-kanak Liar dan role model mereka mati, anda akan menjadi serigala. Jika tidak, anda akan mewarisi role model mereka.
            Pengamal ajaran sesat tidak boleh menukar Doppelgänger (tetapi boleh selepas doppelganger beralih peranan). Juga - Doppelgänger TIDAK boleh menang kecuali mereka berubah. Jika pada akhir permainan, Doppelgänger masih tidak berubah, mereka kalah (pengecualian: kekasih)
 
       
 	  TINDAKAN MALAM PERTAMA,tiada sehingga peranan mereka berubah!
     </value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>
       Anda dilamun cinta. Sebagai Telangkai, anda boleh dua pemain pada awal permainan ini. Dua pemain ini akan mabuk cinta!Jika serang mati, seorang lagi akan mati dalam kesedihan:(
       Nota: Kekasih akan tahu satu sama lain, tapi tidak diberi tahu peranan mereka. Jika keduanya hidup, mereka menang, tidak kira pasukan mana. Jika kekasih berada pada pasukan berbeza(orang kampung+serigala), dan satu pasukan menang(serigala), kekasihnya(penduduk kampung) turut menang sekali. TL;DR Jika salah seorang daripada kekasih menang seorang lagi turut menang.
@@ -1001,10 +1001,10 @@ translate to Bahasa Melayu by Skyzkillerz-->
   <string key="AllowTannerA">
     <value>Peyamak sebagai: {0}</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>Membenarkan ahli ajaran sesat sebagai watak peranan?\nCurrent: {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>Ahli ajaran sesat sebagai: {0}</value>
   </string>
   <string key="ThankYou">
@@ -1156,7 +1156,7 @@ translate to Bahasa Melayu by Skyzkillerz-->
   <string key="SerialKillerTeam" deprecated="true">
     <value>Pasukan Pembunuh</value>
   </string>
-  <string key="CultTeam" deprecated="true">
+  <string key="zoombiesTeam" deprecated="true">
     <value>Pasukan Ajaran Sesat</value>
   </string>
   <string key="TannerTeam" deprecated="true">
@@ -1175,13 +1175,13 @@ translate to Bahasa Melayu by Skyzkillerz-->
   <string key="SerialKillerTeamEnd">
     <value>Pasukan Pembunuh Bersiri</value>
   </string>
-  <string key="CultTeamEnd">
+  <string key="zoombiesTeamEnd">
     <value>Pasukan Ajaran Sesat</value>
   </string>
   <string key="TannerTeamEnd">
     <value>Pasukan Penyamak </value>
   </string>
-  <string key="CultConvertWolf">
+  <string key="zoombiesConvertWolf">
     <value>{0} pergi ke rumah {1} dan telah mati!</value>
   </string>
 
@@ -1201,7 +1201,7 @@ translate to Bahasa Melayu by Skyzkillerz-->
   <string key="ZombieKilled">
     <value>{0} di jumpai ditikam sampai mati dengan batang lilin dekat altar. Pembunuh bersiri melalkukan lagi, tanpa mengira agama, bahasa atau bangsa! {0} adalah pengamal Ajaran Sesat</value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>Keesokannya, penduduk kampung terkejut nampak {0} a.k.a. Telangkai terpisah dari kepala ke kaki. Peliknya hatinya turut hilang....</value>
   </string>
   <string key="DrunkKilled">
@@ -1234,13 +1234,13 @@ translate to Bahasa Melayu by Skyzkillerz-->
     <value>Penduduk kampung bangun pagi ini, menjumpai sebagai tubuh {0}, Zombie Hunter diletakkan di luar Town Hall. Pengajaran: Jangan melawat pembunuh upahan!</value>
     <value>Jasad {0}, Zombie Hunter, ditemui ditengah bandar, was found in the middle of town, walaupun di potong dengan tepat dalam 100 bahagian. Menyemak Pembunuh Bersiri nampaknya bukan idea yang bijak… </value>
   </string>
- <string key="CultConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
+ <string key="zoombiesConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
     <value>Walaupun nampak macam serigala mahu menjadi baik, menghukum {0}, seorang Zombie yang cuba mencari masalah dengan serigala, membuktikan sukar untuk dihalang. Kepala {0} di jadikan makan malam dan dihantar ke rumah serigala.</value>
     <value>Kultus mengalami masalah semalam. Terdapat seorang ahli baru bernasib malang melawat serigala dan bermalam, serigala merasakan{0} sangat sedap. Sayangnya untuk {0}, serigala tidak berminat menyertai kultus.</value>
   </string>
-  <string key="CultConvertKillerPublic"> <!--used when Zombies convert the SK-->
-    <value>Puak cult ingatkan mereka akan dapat ahli baru mereka silap! {0}, seorang Zombie, dicincang dan diletakkan di kota pagi ini! Anehnya buku mereka ditetak dengan pisau, sebagai menunjukkan puak mana lebih berkuasa.</value>
-    <value>Semalam, ahli cult cuba untuk ajak Pembunuh Bersiri menyertai mereka. Pembunuh bersiri menghiasa bandar dengan hasil seni organ dalaman {0}.</value>
+  <string key="zoombiesConvertKillerPublic"> <!--used when Zombies convert the SK-->
+    <value>Puak zoombies ingatkan mereka akan dapat ahli baru mereka silap! {0}, seorang Zombie, dicincang dan diletakkan di kota pagi ini! Anehnya buku mereka ditetak dengan pisau, sebagai menunjukkan puak mana lebih berkuasa.</value>
+    <value>Semalam, ahli zoombies cuba untuk ajak Pembunuh Bersiri menyertai mereka. Pembunuh bersiri menghiasa bandar dengan hasil seni organ dalaman {0}.</value>
   </string>
   <string key="GAGuardedKiller"> <!-- used when GA guards SK -->
     <value>Ia sepatutnya menjadi malam di mana {0} menyelamatkan penduduk kampung daripada terbunuh tetapi {0}terpadam dan sayapnya dipotong oleh Pembunuh Bersiri! Nota ditinggalkan, "Saya dapat menyelamatkan diri lebih baik daripada kamu"</value>

@@ -334,25 +334,25 @@
   <string key="ZombieVotedConvert" >
     <value >خب {0} رای داد تا یه کاری با {1} بکنیم</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <value>خب {0} رفت به خونه ی {1} و حالا بگا رفته</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <value>خب {0} مرده ولی چرا یه عدد تو ذهن کیریته......{1}</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>نقش کیریت عوض شد ولی از چی ب چی نمیدونی</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>درسته یادت نمیاد چه عنی هستی ولی چند فرد کیرکلفت مهم یادته : {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <value>یه اسم تخمی جدید یادت میاد! اون اسم {0} عه!</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <value>خب {0} رفت خونه ی {1} ... ولی خونه نبوده!بکیرم</value>
   </string>
-  <string key="CultWins" isgif="true">
+  <string key="zoombiesWins" isgif="true">
     <value >با اینکه نمیدونن چه عنی هستن ولی تنها افرادی که باقی موندن فرقه گرای عمه لامپی  هستن و اونا برنده شدن! به کیر عمم</value>
   </string>
   <string key="HunterVisitDead">
@@ -516,21 +516,21 @@
     <value>  درسته که انقد جق زدی یادت رفته کی هستی ولی یه سری اسم کیری یادته : {0}</value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <value>مثه اینکه {0} بگا رفته</value>
   </string>
   <string key="GuardBlockedWolf">
     <value>مثه اینکه دیشب تو خونه این {0} کصکش یه اتفاقی افتاده بوده ولی یادت نمیاد چی!</value>
   </string>
   <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <value>خب {0} رفت خونه ی {1} ولی یادش نمیاد چه گوهی خورده!</value>
   </string>
   <!-- new string May 12 2016-->
   <string key="NameExists">
     <value> کصکش  @{0} یه نفر هم اسم تو توی بازیه اسمتو عوض کن تا نکردمت!  \n {1}</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <value>درسته که انقد زدی نمیدونی چه گوهی هستی ولی حداقل میدونی که : {0} یه فرقه گرای کون گلابیه👤</value>
   </string>
   <!-- new string May 13 2016-->
@@ -609,7 +609,7 @@
 	<value>انقد جق زدی یادت رفت رای بدی؟ وقتت تموم شد خاک بر سرت</value>
   </string>
   <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
     <value>خیلی عجیبه ولی بکیرم .... یادت نمیاد چه عنی هستی! فقط یادته تو شب باید یه گوهی بخوری</value>
   </string>
   <string key="RoleInfoDoppelganger">
@@ -621,7 +621,7 @@
   <string key="RoleInfoSerialKiller">
     <value>خیلی عجیبه ولی بکیرم .... یادت نمیاد چه عنی هستی! فقط یادته تو شب باید یه گوهی بخوری</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>درسته که انقد جق زدی فراموش کردی ولی اسم یه شخص کیر کلفت  یادته و اون {0} هست!</value>
   </string>
   <string key="HunterLynchedChoice">
@@ -648,7 +648,7 @@
   <string key="HunterKilledFinalShot">
     <value>خب کلانتر فیس اسهالیمون یعنی {0} با اینکه خیلی پریود و زخمی بود ولی تفنگشو یرداشت و به {1} شلیک کرد عمشو گایید! ...{2}</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <value>مثه اینکه {0} رفته خونه ی {1} و حالا مرده!</value>
   </string>
   <string key="HunterShotWolfMulti">
@@ -666,7 +666,7 @@
   <string key="GuardBlockedKiller">
     <value>مثه اینکه دیشب تو خونه {0} یه اتفاقی افتاده بوده ولی یادت نمیاد چی!</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <value>مثه اینکه {0} رفته خونه {1} و حالا مرده!</value>
   </string>
   <string key="GuardKiller">
@@ -684,10 +684,10 @@
   <string key="DGTransformToMason">
     <value>خب {0} مرده و نقش کیریه تو عوض شده ولی از چی به چی نمیدونی! ....... یه شخص کیرکلفته مهم یادت میاد! : {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <value>اسمای توی ذهنتو مرتب میکنی یکی دیگه ظاهر میشه .... {0}</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <value>خب {0} مرده و نقش کیریه تو عوض شده ولی از چی به چی نمیدونی! ....... یه شخص کیر کلفت مهم یادت میاد! : {1}</value>
   </string>
   <string key="DGToWolf">
@@ -702,22 +702,22 @@
   <string key="AskKill">
     <value>میدونی باید با یکی یه کاری انجام میدادی ولی کی؟؟!</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <value>با مرگ {0} خایمال ابدیش یعنی {1} چون نمیتونست دوری عشقش رو تحمل کنه انقد خودشو انگشت تا مرد! ... {2}</value>
   </string>
   <string key="AskDoppelganger">
     <value>میدونی باید با یکی یه کاری انجام میدادی ولی کی؟؟!</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>میدونی باید با یکی یه کاری انجام میدادی ولی کی؟؟!</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>میدونی باید با یکی یه کاری انجام میدادی ولی کی؟؟!</value>
   </string>
   <string key="Hunter">
     <value>کلانتر فیس اسهالی🎯</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>الهه عشق میلف🏹</value>
   </string>
   <string key="SerialKiller">
@@ -730,13 +730,13 @@
     <value>خب {0} بگا رفته و نقش تو عوض شده ولی از چی به چی نمیدونی!</value>
   </string>
 
-  <string key="LoversWin">
+  <string key="crewmatesWin">
     <value>سکس همیشه پیروزه..... عاشقا بردن همه عاشقا پایدار و بکیرمون باشن</value>
   </string>
   <string key="HunterKilledVisiter">
     <value>جقی ها بدن {0} رو با دو تا کبر و چنتا تیر تو سینش پیدا میکنن... {1}</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>دیشب اتفاقی افتاد؟! یادت نیست....</value>
   </string>
   <string key="AlreadyOnWaitList">
@@ -851,8 +851,8 @@
 
 	تو درست به ذهن نمیاری که کی هستی فقط میدونی که باید یک کاری رو توی شبا انجام بدی...یک کار احمقانه...</value>
   </string>
-  <string key="AboutCult">
-  <!-- CULT CONVERSION RATES AND WHO'S HOME HERE! ayylmao -->
+  <string key="Aboutzoombies">
+  <!-- zoombies CONVERSION RATES AND WHO'S HOME HERE! ayylmao -->
     <value>
 	به عنوان رییس فرقه هدف شما آینه که همه ی بازیکن(بجز گرگ ها) به تو ایمان بیارند وقتی برنده میشی که همه ی روستایی های زنده عضو فرقه ی تو باشن
 
@@ -895,7 +895,7 @@
 	تو نمیدونی کی هستی فقط میدونی که باید یک کاری رو شب اول انجام بدی...و منتظر باشی که نقشت عوض بشه
     </value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>
       عشق در زندگی جریان داره! به عنوان الهه ی عشق در ابتدای بازی دو نفر رو انتخاب میکنی و اون دو نفر دیوانه وار عاشق هم میشن💕اگه یکی از عاشقا بمیره اون یکی هم از غمش میمیره اگه تو آخر بازی یکی از عاشقا برنده بشه آون یکی هم به طور اتوماتیک برنده حساب میشه حتی اگه توی تیم مخالف باشه!(مثال:گرگ و روستایی)
 
@@ -1085,10 +1085,10 @@
   <string key="AllowTannerA">
     <value>وضعیت منافق در این بازی : {0}</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>دوست دارید در این بازی فرقه داشته باشید ؟\nCurrent: {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>وضعیت منافق در این بازی: {0}</value>
   </string>
   <string key="ThankYou">
@@ -1240,7 +1240,7 @@
   <string key="SerialKillerTeam">
     <value>گروه قاتل زنجیره ای</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>گروه فرقه</value>
   </string>
   <string key="TannerTeam">
@@ -1258,13 +1258,13 @@
   <string key="SerialKillerTeamEnd">
     <value>گروه قاتل زنجیره ای</value>
   </string>
-  <string key="CultTeamEnd">
+  <string key="zoombiesTeamEnd">
     <value>گروه فرقه</value>
   </string>
   <string key="TannerTeamEnd">
     <value>گروه منافق</value>
   </string>
-    <string key="CultConvertWolf">
+    <string key="zoombiesConvertWolf">
     <value>دیشب فرقه گراها {0} رو فرستادن تا {1} رو به فرقه دعوت کنه، اما سَر {0} رو دیدن که از پنجره خونه {1} به بیرون پرتاب شده! {0} مرده!</value>
   </string>
   <string key="HarlotFuckedKilledPublic"> <!-- used when Harlot visit's SK's victim, and dies -->
@@ -1285,7 +1285,7 @@
   <string key="ZombieKilled">
     <value>دیشب قاتل زنجیره ای به فرقه گراها حمله کرد و {0} رو به قتل رسوند!</value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>صبح روز بعد روستایی ها جنازه {0} رو پیدا کردن! دیگه توی روستا خبری از عشق نخواهد بود! الهه عشق مرده!</value>
   </string>
   <string key="DrunkKilled">
@@ -1315,10 +1315,10 @@
   <string key="SerialKillerKilledCH"> <!--used when CH visits SK-->
     <value>شکارچی {0} مشغول پیداکردن رئیس فرقه بود زمانی که داشت توی جنگل دنبال ردی از رئیس فرقه میگشت قاتل زنجیره ای بهش حمله میکنه و میکشتش!</value>
   </string>
-  <string key="CultConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
+  <string key="zoombiesConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
     <value>دیشب {0} رفت که گرگارو دعوت کنه به فرقه! ولی گرگا بهش حمله کردن و جنازه تکه تکه شدشو توی نقاط مختلف روستا ول کردن!</value>
   </string>
-  <string key="CultConvertKillerPublic"> <!--used when Zombies convert the SK-->
+  <string key="zoombiesConvertKillerPublic"> <!--used when Zombies convert the SK-->
     <value>شب قبل فرقه گرا ها میخواستن یک عضو جدید رو به فرقه دعوت کنن، {0} مامور شد که یکی رو به فرقه دعوت کنه، اما دیگه خبری از {0} نشد! صبح روز بعد اعضای فرقه جنازه {0} رو جلوی در خونه رئیس فرقه پیدا میکنن! قاتل زنجیره ای {0} رو کشته!</value>
   </string>
   <string key="GAGuardedKiller"> <!-- used when GA guards SK -->
@@ -1406,7 +1406,7 @@
     <!-- {0} = list of people who have joined -->
     <value>{0} در 30 ثانیه اخر بازی کیرمو خوردند و وارد بازی شدند </value>
   </string>
-  <string key="AllowCult">
+  <string key="Allowzoombies">
     <value>فرقه</value>
   </string>
   <string key="AllowTanner">
@@ -1644,7 +1644,7 @@
     <!-- 0 - mason collegues's name -->
     <value>یادت نمیاد کی هستی اما یه چیز مهم رو یادته : {0}</value>
   </string>
-  <string key="ThiefToCult">
+  <string key="ThiefTozoombies">
     <!-- 0 - old Zombie's name -->
     <!-- 1 - new Zombie's name -->
     <value>کیرم دهنت کم کم داری یه اسمی رو فراموش میکنی...چی بود؟ {0}یه اسم جدید توی ذهنت پیدا میشه: {1}!</value>
@@ -1999,16 +1999,16 @@
      <string key="HunterFell">
        <value>در راه رفتن به خونه {0} از وسط قبرستون رد میشدی انقد جق زدی که یه دفعه سرت گیج میره حالا تو همه چی یادت میاد اما چه فایده تو تو قبر افتادی و گورگن خایمال گرفت کردت.</value>
      </string>
-     <!--{0}: cult hunter-->
+     <!--{0}: zoombies hunter-->
      <string key="HunterFellDigger">
        <value>دیشب چه اتفاقی افتاد؟ یادت نمیاد انقد جق زدی اما یه اسمی همش تو ذهنت میاد {0} اما دلیلش چیه؟</value>
      </string>
      <!--{0}: Zombie-->
-     <string key="CultFell">
+     <string key="zoombiesFell">
        <value>دیشب چه اتفاقی افتاد؟ یادت نمیاد انقد جق زدی اما یه اسمی همش تو ذهنت میاد {0} اما دلیلش چیه؟</value>
      </string>
      <!--{0}: Zombie who fell, {1}: grave digger-->
-     <string key="CultConvertGraveDigger">
+     <string key="zoombiesConvertGraveDigger">
        <value>دیشب یه اتفاقی تو خونه {0} افتاد اما انقد جق زدی نمیدونی چه اتفاقی افتاد فقط  یادت میاد که {1} مرده .</value>
      </string>
      <!--{0}: grave digger-->

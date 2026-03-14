@@ -134,7 +134,7 @@
     <Content Include="$(MSBuildThisFileDirectory)Persian - NightClub Mode.xml" />
     <Content Include="$(MSBuildThisFileDirectory)Persian Amnesia NSFW.xml" />
     <Content Include="$(MSBuildThisFileDirectory)Persian Death Station.xml" />
-    <Content Include="$(MSBuildThisFileDirectory)Persian diabolik lovers.xml" />
+    <Content Include="$(MSBuildThisFileDirectory)Persian diabolik crewmates.xml" />
     <Content Include="$(MSBuildThisFileDirectory)Persian GAME OF THRONES.xml" />
     <Content Include="$(MSBuildThisFileDirectory)Persian Hezartu.xml" />
     <Content Include="$(MSBuildThisFileDirectory)Persian Hip Hop.xml" />

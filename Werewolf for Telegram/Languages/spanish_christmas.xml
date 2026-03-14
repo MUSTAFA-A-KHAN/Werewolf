@@ -23,7 +23,7 @@
   Espíritu de la Navidad 🎄 (💂)= Cazador de Zombieas = Zombie Hunter
   Hombrecito de jengibre 🍞 (👷) = Masón = Mason
   Prancer 🌟 (🎭) = doppelgänger = Doppelganger 
-	Reno del amor 💘 (🏹)= Cupido = Cupid	
+	Reno del amor 💘 (🏹)= Recruitero = Recruiter	
 	Krampus 👹 (🔪)= Asesino serial = Serial Killer
   ****************************************
 	Rodolfo 🦌 (🎖)= Alcalde = Mayor
@@ -34,7 +34,7 @@
 	Jack Frost 🌨 (⚡️)= Lobo Alfa = Alpha Wolf 
 	Frosty el Hombre de Nieve ❄️ (🐶)= Lobezno = Wolf Cub
   **********************************************
-  Escultor de hielo ❄️(👱🌚)= Guardabosques = WolfMan
+  Eszoombiesor de hielo ❄️(👱🌚)= Guardabosques = WolfMan
   Gnomo 📿(🐺🌝) = Licántropo = Lycan
   Santa callejero 🤹🏻‍♀️🧤(🌀) = Oráculo = Oracle
   Carol cantante de navidad 👩🏼‍🎤 / 👨🏼‍🎤 (💤)= Arenero = Sandman
@@ -451,33 +451,33 @@
     <!-- 1 - target name -->
     <value>{0} ha votado para convertir a {1} en un No Creyente</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <!-- 0 - Youngest Non-Believer (killed)'s name' -->
     <!-- 1 - Spirit of Christmas' name -->
     <value>{0} fue enviado para hacer su trabajo sucio, e intentó convertir a {1} en un No Creyente... sin embargo, ¡{1} es el Espíritu de Navidad. {0} está muerto!</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <!-- 0 - Youngest Non-Believer name -->
     <!-- 1 - Number of Non-Believers left -->
     <value>{0} llegó a tu casa anoche, listo para convertirte en un No Creyente... Los iluminaste tanto con tu fe en la Navidad que murio de eso. El No Creyente está muerto... {1} queda!</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>¡Los No Creyentes 👻 (👤) te han convertido en su orden! Ahora eres un No Creyente también. Cada dos noches, tendrás la oportunidad de convertir a otro jugador en un No Creyente y así podran odiar la navidad para siempre.</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <!-- 0 - Number of Zombies -->
     <value>No Creyentes: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <!-- 0 - new Zombie's name -->
     <value>¡{0} se ha unido a los No Creyentes 👻 (👤)!</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <!-- 0 - Newest Zombie's name -->
     <!-- 1 - target name -->
     <value>{0} fue enviado para hacer su trabajo sucio, y convertir a {1} en un No Creyente... ¡Pero nadie estaba en casa!</value>
   </string>
-  <string key="CultWins" isgif="true">
+  <string key="zoombiesWins" isgif="true">
     <value>Todos los Hombres de Nieve y Krampus 👹 (🔪) murieron, y los elfos que quedaron en pie se convirtieron a No Creyentes... ¡Los No Creyentes 👻 (👤) ganaron y destruyeron la fé en Navidad por completo!</value>
   </string>
   <string key="HunterVisitDead">
@@ -582,7 +582,7 @@
     <value>Los hombrecitos de jengibre 🍞 (👷) son: {0}</value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <!-- 0 - Youngest Zombies name -->
     <value>Su miembro más reciente se dirige a la casa de {0} para convertirlo en No Creyente, pero en su lugar encuentra la casa en completa ruina, hielo en todas partes y algunos rastros de los malvados Hombres de Nieve fueron dejados allí como advertencia..</value>
   </string>
@@ -591,7 +591,7 @@
     <value>Los Hombres de Nieve van a la casa de {0} para congelarlo, pero se encuentran con una figura alta, delgada y oscura, armado hasta los dientes. Jack Skellington 💀 (👼) lucha con todo, y regresas derrotado.</value>
   </string>
   <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <!-- 0 - newest  -->
     <!-- 1 - target's name -->
     <value>Envían a {0} con la orden de convertir a {1} en un No Creyente, sin embargo, su creencia en Navidad es demasiado fuerte y no pudo convertirlo en uno de los suyos.😭</value>
@@ -602,7 +602,7 @@
     <!-- 1 - name -->
     <value>@{1}, un jugador con el mismo nombre {0} ya se ha unido. Por favor cambia tu nombre para unirte.</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <!-- 0 - target's name -->
     <value>Vas a la casa de {0} para tomar chocolate  caliente con malvaviscos... pero cuando te vas, notas un letrero de Navidad, mal escondido en una habitación lateral, con un resplandor verde proveniente de él... Te das cuenta de que {0} no cree en la navidad!</value>
   </string>
@@ -695,7 +695,7 @@
     <value>¡Se acabó el tiempo!</value>
   </string>
   <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
     <value>Tú eres el reno de amor 💘 (🏹). Elegirás dos jugadores al comienzo del juego. ¡Estos 2 jugadores estarán locamente enamorados! Si uno de ellos muere, el otro morirá de tristeza.</value>
   </string>
   <string key="RoleInfoDoppelganger">
@@ -707,7 +707,7 @@
   <string key="RoleInfoSerialKiller">
     <value>Oh, eres Krampus 👹 (🔪), estas aquí para castigar a todos los niños que se portan mal. Estás en tu propio equipo. Cada noche, podrás elegir un jugador para matar. Si los Hombres de Nieve intentan congelarte, derretirás uno de ellos y vivirás.</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>Has sido tocado por el amor. La memoria de {0} nunca se desvanecerá en tu corazón. Si uno de ustedes muere, el otro morirá de tristeza. Si uno de ustedes gana, el otro también gana.</value>
     <value>¡La flecha del Reno del Amor te ha tocado! ¡Estás locamente enamorado de {0}! Si muere, también morirás. Si uno de los dos gana, ambos ganarán.</value>
   </string>
@@ -763,12 +763,12 @@
     <!-- 0 - target's name -->
     <value>¡Intentó recolectar el hígado de {0} para su colección, pero Jack Skellington 💀 (👼) lo derrotó! No hay hígado para ti esta noche...</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <!-- 0 - Youngest Non-Believers name -->
     <!-- 1 - target's name -->
     <value>Los No Creyentes enviaron a {0} para tratar de convertir a {1}, pero en su lugar suena una espada y el cuerpo de {0} sale picado por la ventana. {0} está muerto...</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <!-- 0 - Youngest Non-Believers name -->
     <!-- 1 - target's name -->
     <value>Los No Creyentes 👻 (👤) enviaron a {0} fuera para tratar de convertir a {1} en uno de llos, pero en su lugar el cuerpo de {0} sale volando por la ventana, con los cuchillos metidos en cada parte de su cuerpo. ¡QUÉ ES UN PSICÓPATA! {0} está muerto... usa /nextgame para recibir notificaciones cuando comience el próximo juego.</value>
@@ -797,11 +797,11 @@
     <!-- 1 - Gingerbread Man partners name -->
     <value>{0} ha muerto, y te transformas en un Hombrecito de jengibre 🍞 (👷).\n Tus compañeros de equipo (si los hay) son: {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <!-- 0 - new Zombie's name -->
     <value>¡Prancer 🌟 (🎭) {0} ahora se ha convertido en un No Creyente 👻 (👤), como tú!</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <!-- 0 - role's name -->
     <!-- 1 - teammates's name -->
     <value>{0} ha muerto, por lo que te transformas en un No Creyente 👻 (👤). Tus compañeros de equipo (si los hay) son: {1}</value>
@@ -821,25 +821,25 @@
   <string key="AskKill">
     <value>¿A quién quieres castigar esta noche?</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <!-- 0 - dead's name -->
-    <!-- 1 - lover's name -->
+    <!-- 1 - crewmate's name -->
     <!-- 2 - roles -->
     <value>Se escucha el grito de {1} al ver la muerte de {0}. ¡No amor mio! ¡Por que te fuiste sin mi!. No me apartare de su lado. Se clava una daga en su pecho y muere al lado de su amor, quedando así unidos para toda al eternidad. {2}</value>
   </string>
   <string key="AskDoppelganger">
     <value>¿En quién quieres convertirte si muere?</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>¿Quiénes quieres que sean los amantes? Elige el primer jugador</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>¿Quiénes quieres que sean los amantes? Elige el segundo jugador</value>
   </string>
   <string key="Hunter">
     <value>El Cascanueces 💂 (🎯)</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>El Reno del Amor 💘 (🏹)</value>
   </string>
   <string key="SerialKiller">
@@ -852,7 +852,7 @@
     <!-- 0 - target's name -->
     <value>Ahora eres Relámpago 🐃 (👶). Tu guia a seguir es {0}.</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
     <value>¡El verdadero amor perdura! ¡Los amantes han ganado!</value>
   </string>
   <string key="HunterKilledVisiter">
@@ -860,7 +860,7 @@
     <!-- 1 - role -->
     <value>En el medio del Polo Norte, todos encuentran a {0}, con múltiples sablazos en el cuerpo. Parece que trataron de acercarse sigilosamente al Cascanueces 💂 (🎯)! Bien hecho, {1}.</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>Un No Creyente 👻 (👤) intentó hacerte olvidar la Navidad, pero tu fe en Santa era demasiado fuerte para ellos.</value>
   </string>
   <string key="AlreadyOnWaitList">
@@ -944,7 +944,7 @@
   <string key="AboutFool">
     <value>El Santa del centro comercial 👳🏼 (🃏) recibe el encargo de ser el verdadero Santa. Cuando elija ver el rol de alguien por la noche, se le dirá un rol aleatorio.</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>¡El No Creyente 👻 (👤), y no crees en Santa Claus! Tu objetivo es convertir a todos los demás jugadores (excepto Hombres de Nieve) en No Creyentes. Si al final del juego, todos los jugadores vivos son No Creyentes, todos estos ganan.</value>
   </string>
   <string key="AboutCH">
@@ -965,8 +965,8 @@
   <string key="AboutDG">
     <value>¡Eres Prancer 🌟 (🎭)! Tienes un poco de magia navideña adicional en ti. Usted tiene la capacidad de convertirse en otros jugadores. Puedes elegir un jugador al comienzo del juego. Si ese jugador muere, serás lo fue.</value>
   </string>
-  <string key="AboutCupid">
-    <value>¡Eres el Reno del Amor 💘 (🏹), también conocido como Cupido! Elegirás dos jugadores al comienzo del juego. ¡Estos 2 jugadores estarán locamente enamorados! Si uno de ellos muere, el otro morirá de tristeza. </value>
+  <string key="AboutRecruiter">
+    <value>¡Eres el Reno del Amor 💘 (🏹), también conocido como Recruitero! Elegirás dos jugadores al comienzo del juego. ¡Estos 2 jugadores estarán locamente enamorados! Si uno de ellos muere, el otro morirá de tristeza. </value>
   </string>
   <string key="AboutHunter">
     <value>¡Eres el Cascanueces 💂 (🎯)! Normalmente estarías pasando el tiempo ensayando para el ballet, pero hay problemas en el Polo Norte. Si los Hombres de Nieve intentan congelarte, tienes la oportunidad de derribar a uno de ellos. Si mueres de otra forma, tendrás la oportunidad de dispararle a alguien cuando mueras.</value>
@@ -1090,7 +1090,7 @@
     <value>Máximo número de jugadores configurado en {0}</value>
   </string>
   <string key="ShowRolesDeathQ">
-    <value>¿Mostrar u ocultar roles en el momento de la muerte?\nActualmente: {0}</value>
+    <value>¿Mostrar u ozoombiesar roles en el momento de la muerte?\nActualmente: {0}</value>
   </string>
   <string key="ShowRolesDeathA">
     <value>Los roles serán {0} al morir.</value>
@@ -1137,10 +1137,10 @@
   <string key="AllowTannerA">
     <value>El Grinch 🤢 (👺) como rol: {0}</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>¿Permitir a los No Creyentes 👻 (👤) como una opción de rol? \nActual: {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>No Creyentes 👻 (👤) como rol: {0}</value>
   </string>
   <string key="EnableSecretLynchQ">
@@ -1296,7 +1296,7 @@
   <string key="SerialKillerTeam" deprecated="true">
     <value>Equipo Krampus</value>
   </string>
-  <string key="CultTeam" deprecated="true">
+  <string key="zoombiesTeam" deprecated="true">
     <value>Equipo No Creyente</value>
   </string>
   <string key="TannerTeam" deprecated="true">
@@ -1314,13 +1314,13 @@
   <string key="SerialKillerTeamEnd">
     <value>Equipo Krampus</value>
   </string>
-  <string key="CultTeamEnd">
+  <string key="zoombiesTeamEnd">
     <value>Equipo No Creyente</value>
   </string>
   <string key="TannerTeamEnd">
     <value>Equipo Grinch</value>
   </string>
-  <string key="CultConvertWolf">
+  <string key="zoombiesConvertWolf">
     <value>Los No Creyentes 👻 (👤) envían a {0} tratando de convertir a {1} en uno de ellos, pero {0} conoció a un Hombre de Nieve y murió congelado por ese Hombre de Nieve...</value>
   </string>
   <string key="HarlotFuckedKilledPublic">
@@ -1338,7 +1338,7 @@
   <string key="ZombieKilled">
     <value>{0} fue encontrado tumbado en la nieve profunda. ¡Krampus 👹 (🔪) ha atacado de nuevo! ¡Adivina que no le importa si crees en Santa o no! {0} era un No Creyente 👻 (👤).</value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>A la mañana siguiente, los elfos del Polo Norte tuvieron el corazón roto al encontrar a {0}, El Reno del Amor 💘 (🏹), tirado en la nieve. Quizás Krampus tiene algo para los corazones de renos...</value>
   </string>
   <string key="DrunkKilled">
@@ -1372,12 +1372,12 @@
     <value>Los elfos del Polo Norte se despiertan por la mañana, solo para encontrar las partes separadas del cuerpo de {0}, era el Espíritu de Navidad 🎄 (💂),  en una carreta afuera de la casa de Rodolfo. Lección aprendida: ¡No visites Krampus 👹 (🔪)!</value>
     <value>El cuerpo de {0}, era el Espíritu de Navidad 🎄 (💂), se encontró en el centro de la ciudad, aunque cortado exactamente en cien pedazos. Comprobar si Krampus 👹 (🔪) estaba creyendo en Navidad no parece ser la mejor idea que {0} tenía...</value>
   </string>
-  <string key="CultConvertWolfPublic">
+  <string key="zoombiesConvertWolfPublic">
     <!--used when Non-Believers convert the Snowman, only if Snowman stayed at home-->
     <value>Si bien parece que los Hombres de Nieve tomaron un descanso esta noche, los No Creyentes no, asi que salieron a hacer su trabajo y convirtieron a otro elfo del Polo Norte en un No Creyente, pero no era un elfo como todos los demás, era un Hombre de Nieve. {0} trató de escapar lo más rápido posible, pero el aliento del Hombre de Nieve era más rápido y se anticipó a una muerte fría.</value>
     <value>Los No Creyentes trabajaron arduamente anoche cuando enviaron a uno de ellos a convertir a otro elfo del Polo Norte. Mientras tanto, los Hombres de Nieve estaban perezosos esta noche y solo esperaban a su próxima víctima cuando alguien se acercaba a ellos. Nadie más que {0} fue esa víctima. Los No Creyentes restantes encuentran en la nieve su cadáver.</value>
   </string>
-  <string key="CultConvertKillerPublic">
+  <string key="zoombiesConvertKillerPublic">
     <!--used when Non-Believers convert Krampus-->
     <value>{0} uno de los No Creyentes pensó que podría alejar a otro elfo de la Navidad y la fe en él, pero oh no, llegaron a la casa equivocada y quedaron atrapados por Krampus 👹 (🔪). La próxima vez elige sabiamente antes de intentar convertir al elfo equivocado.</value>
     <value>La última noche, los No Creyentes trataron de convertir a alguien en uno de ellos, pero no se dieron cuenta de que había alguien allí que odia la Navidad incluso más que ellos. {0} pagó ese error con la vida.</value>
@@ -1494,7 +1494,7 @@
     <!-- NOTE: No space between {0} and joined. It will be added in the code if necessary-->
     <value>Llegó un trineo con {0}.</value>
   </string>
-  <string key="AllowCult">
+  <string key="Allowzoombies">
     <value>Permitir No Creyentes</value>
   </string>
   <string key="AllowTanner">
@@ -1532,7 +1532,7 @@
     <value>Todos</value>
   </string>
   <string key="RandomModeQ">
-    <value>¿Habilita el modo aleatorio? \nCuando se habilita el modo aleatorio, Caos, Lichamiento Secreto, Mostrar roles en la muerte y Permitir culto / tonto / curtidor se determinarán al azar cada vez que alguien inicie un juego.\nActivo: {0}</value>
+    <value>¿Habilita el modo aleatorio? \nCuando se habilita el modo aleatorio, Caos, Lichamiento Secreto, Mostrar roles en la muerte y Permitir zoombieso / tonto / curtidor se determinarán al azar cada vez que alguien inicie un juego.\nActivo: {0}</value>
   </string>
   <string key="RandomModeA">
     <value>Habilitar del modo aleatorio establecido en: {0}</value>
@@ -1625,15 +1625,15 @@
     <value>Modo Ladrón completo»</value>
   </string>
   <string key="RoleInfoWolfMan">
-    <value>Eres el escultor de hielo ❄️ (👱🌚). Pasas el día y la noche en la nieve, así que ten cuidado, ¡Santa Claus podría pensar que eres uno de los muñecos de nieve, ya que estás completamente cubierto de nieve! Oh no...</value>
-    <value>Eres el escultor de hielo ❄️ (👱🌚). Pasas día y noche en la nieve, así que ten cuidado, Santa Claus podría pensar que eres uno de los muñecos de nieve, ya que trabajas las 24 horas del día, los 7 días de la semana para que tu cuerpo esté cubierto de nieve intensa hasta que llegues a casa...</value>
+    <value>Eres el eszoombiesor de hielo ❄️ (👱🌚). Pasas el día y la noche en la nieve, así que ten cuidado, ¡Santa Claus podría pensar que eres uno de los muñecos de nieve, ya que estás completamente cubierto de nieve! Oh no...</value>
+    <value>Eres el eszoombiesor de hielo ❄️ (👱🌚). Pasas día y noche en la nieve, así que ten cuidado, Santa Claus podría pensar que eres uno de los muñecos de nieve, ya que trabajas las 24 horas del día, los 7 días de la semana para que tu cuerpo esté cubierto de nieve intensa hasta que llegues a casa...</value>
   </string>
   <string key="WolfMan">
-    <value>El escultor de hielo ❄️(👱🌚)</value>
+    <value>El eszoombiesor de hielo ❄️(👱🌚)</value>
   </string>
   <string key="AboutWolfMan">
-    <value>Tú eres el escultor de hielo. Pasas el día y la noche en la nieve, así que ten cuidado, ¡Santa Claus podría pensar que eres uno de los muñecos de nieve, ya que estás completamente cubierto de nieve! Oh no...</value>
-    <value>Eres el escultor de hielo ❄️ (👱🌚). Pasas día y noche en la nieve, así que ten cuidado, Santa Claus podría pensar que eres uno de los muñecos de nieve, ya que trabajas las 24 horas del día, los 7 días de la semana para que tu cuerpo esté cubierto de nieve intensa hasta que llegues a casa...</value>
+    <value>Tú eres el eszoombiesor de hielo. Pasas el día y la noche en la nieve, así que ten cuidado, ¡Santa Claus podría pensar que eres uno de los muñecos de nieve, ya que estás completamente cubierto de nieve! Oh no...</value>
+    <value>Eres el eszoombiesor de hielo ❄️ (👱🌚). Pasas día y noche en la nieve, así que ten cuidado, Santa Claus podría pensar que eres uno de los muñecos de nieve, ya que trabajas las 24 horas del día, los 7 días de la semana para que tu cuerpo esté cubierto de nieve intensa hasta que llegues a casa...</value>
   </string>
   <string key="RoleInfoLycan">
     <value>Eres el Gnomo 📿 (🐺🌝)! Estás trabajando para los muñecos de nieve, pero como robaste el disfraz de un elfo, ¿seguro que Santa pensará que eres un elfo?</value>
@@ -1748,7 +1748,7 @@
     <!-- 0 - mason collegues's name -->
     <value>Tus compañeros (si los hay) son: {0}</value>
   </string>
-  <string key="ThiefToCult">
+  <string key="ThiefTozoombies">
     <!-- 0 - old Zombie's name -->
     <!-- 1 - new Zombie's name -->
     <value>{0} ya no forma parte de tu equipo, y {1} se ha convertido en No Creyente, ¡como tú!</value>
@@ -2110,16 +2110,16 @@
   <string key="HunterFell">
   <value>¡Otra noche sin ser capaz de matar a uno de esos No Creyente 👻 (👤)! Frustrado, caminas sobre una tumba, sin notar la trampa lanzallamas. Gritas y forcejeas, pero es muy tarde. Caes de espaldas en una tumba que {0} dejó abierta</value>
   </string>
-  <!--{0}: cult hunter-->
+  <!--{0}: zoombies hunter-->
   <string key="HunterFellDigger">
   <value>Después de otra noche cansina, caminas de regreso a tu casa con el sol ya saliendo. Justo antes de llegar, notas una espada descasando en el suelo al lado de una tumba sin finalizar. Dentro de ella, encuentras el cuerpo calcinado de {0}. El Espíritu de la Navidad 🎄 (💂) no debió sospechar de ti...</value>
   </string>
   <!--{0}: Zombie-->
-  <string key="CultFell">
+  <string key="zoombiesFell">
   <value>Regresas de una noche agotadora, ¡cuando de repente escuchas un grito proveniente de una de tus tumbas sin terminar! Te apuras para ir allí, solo para encontrar a {0}, incinerándose, retorciéndose, hasta su muerte. De todos modos, ¿Qué clase de No Creyente 👻 (👤) intenta convertir al Pastor de almas?</value>
   </string>
   <!--{0}: Zombie who fell, {1}: grave digger-->
-  <string key="CultConvertGraveDigger">
+  <string key="zoombiesConvertGraveDigger">
   <value>En el camino a la casa de {1}, {0} lidera a los No Creyentes 👻 (👤) a través del cementerio, ¡cuando de repente activo una trampa lanzallamas! Todo lo que pueden escuchar es su grito mientras se calcina, tropieza y cae en una tumba abierta, el resto de los No Creyentes 👻 (👤) corren por su vida. Tratando de esquivar las trampas.</value>
   </string>
   <!--{0}: grave digger-->

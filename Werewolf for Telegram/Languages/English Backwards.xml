@@ -374,33 +374,33 @@
 <!-- 1 - target name -->
     <value>{1} trevnoc ot detov sah {0}</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
 <!-- 0 - Yougest Zombie (killed)'s name' -->
 <!-- 1 - ZombieHunter's name -->
     <value>!daed si {0} !retnuh tluc eht erew yeht ,revewoh ...{1} trevnoc dna ,krow ytrid ruoy od ot tnes saw {0}</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
 <!-- 0 - Youngest Zombie's name -->
 <!-- 1 - Number of Zombies left -->
     <value>!niamer {1} ...daed si tsitluc A  .meht hguorht thgir drows ruoy devohs uoy tub  ....uoy trevnoc ot ydaer ,thgin tsal esuoh ruoy ot emac {0}</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>.reyalp rehtona trevnoc ot ecnahc a evah lliw uoy ,thgin rehto yrevE  .tsitluc a won era uoY  !redro rieht ot uoy detrevnoc sah tluc ehT</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
 <!-- 0 - Number of Zombies -->
     <value>{0} :stsitluC</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
 <!-- 0 - new Zombie's name -->
     <value>!tluc eht denioj sah {0}</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
 <!-- 0 - Newest Zombie's name -->
 <!-- 1 - target name -->
     <value>!emoh saw eno on tub ...{1} trevnoc dna ,krow ytrid ruoy od ot tnes saw {0}</value>
   </string>
-  <string key="CultWins">
+  <string key="zoombiesWins">
     <value>!now sah tluc ehT  ..stsitluc ot detrevnoc neeb lla evah gnidnats tfel elpoep ylno eht dna ,deid evah sevlow eht llA</value>
   </string>
   <string key="HunterVisitDead">
@@ -505,7 +505,7 @@
 <!-- new strings May 6 2016-->
     <value>{0} :era snosam ehT  </value>
   </string>
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
 <!-- 0 - Youngest Zombies name -->
     <value>...yawrood eht no deggans ruf flow fo stib dna ,erehwyreve doolb ,kcerw etelpmoc a esuoh eht sdnif daetsni tub ,meht trevnoc ot esuoh s'{0} ot revo sdaeh rebmem tsewen ruoY</value>
   </string>
@@ -514,7 +514,7 @@
 <!-- new strings May 9 2016-->
     <value>.detaefed kcab daeh uoy dna ,ffo enoyreve sthgif legnA naidrauG ehT .hteet eht ot demra ,erugif krad llat a yb tem era yeht tub ,meht tae ot esuoh s'{0} ot sdaeh kcap ehT</value>
   </string>
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
 <!-- 0 - newest  -->
 <!-- 1 - target's name -->
 <!-- new string May 12 2016-->
@@ -525,7 +525,7 @@
 <!-- 1 - name -->
     <value>.nioj ot eman ruoy egnahc esaelP  .denioj ydaerla sah {0} eman eht htiw reyalp a ,@{1}</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
 <!-- 0 - target's name -->
 <!-- new string May 13 2016-->
     <value>...ti morf gnimoc gniwolg egnarts a htiw ,moor edis a ni ffo neddih ylroop ,ratla egnarts a eciton ot neppah uoy ,gnivael era uoy sa tub ...nuf fo tib a rof esuoh s'{0} otni deppils uoY</value>
@@ -618,7 +618,7 @@
 <!-- new strings june 10 2016 -->
     <value>!pu s'emiT</value>
   </string>
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
     <value>.worros fo seid eno rehto eht ,seid meht fo eno fI .ytinrete rof rehto hcae evol ot sreyalp owt esoohc ot teg uoy ,sworra owt dna wob a ,stnaprednu ylno htiw htraE ot tneS .dipuC era uoY</value>
   </string>
   <string key="RoleInfoDoppelganger">
@@ -630,7 +630,7 @@
   <string key="RoleInfoSerialKiller">
     <value>.noitcelloc ruoy ot ydob s'reyalp a dda nac uoy ,thgin yrevE .eid ot esle enoyreve rof si laog ruoy ,mulysa lacol eht morf depacse yltneceR .rellik laires eht era uoY</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>.oot sniw eno rehto eht ,sniw uoy fo eno fI .worros fo tuo eid lliw eno rehto eht ,seid uoy fo eno fI .traeh ruoy ni edaf reven lliw yromem s'{0} .evol yb kcurts neeb evah uoY</value>
     <value>.niw htob lliw uoy ,sniw owt uoy fo eno fI .oot eid lliw uoy ,eid yeht fI !{0} htiw evol ni yldam era uoY !uoy kcurts sah worra s'dipuC</value>
   </string>
@@ -686,12 +686,12 @@
 <!-- 0 - target's name -->
     <value>...thginot uoy rof llik oN !legna naidraug eht yb ffo thguof erew uoy tub ,noitcelloc ruoy rof ydob s'{0} tcelloc ot deirt uoY</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
 <!-- 0 - Youngest Zombie's name -->
 <!-- 1 - target's name -->
     <value>....daed si {0} !wodniw eht fo tuo gniylf semoc ydob s'{0} dna tuo sgnir tohs a daetsni tub ,{1} trevnoc ot yrt ot {0} sdnes tluc ehT</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
 <!-- 0 - Youngest Zombie's name -->
 <!-- 1 - target's name -->
     <value>....daed si {0} !OHCYSP A TAHW !ydob rieht fo trap yreve otni dehsup sevink ,wodniw eht fo tuo gniylf semoc ydob s'{0} daetsni tub ,{1} trevnoc ot yrt ot {0} sdnes tluc ehT</value>
@@ -716,11 +716,11 @@
 <!-- 1 - mason collegues's name -->
     <value>{1} :era (yna fi) setammaet ruoY  .nosam a otni mrofsnart uoy dna ,deid sah {0}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
 <!-- 0 - new Zombie's name -->
     <value>!uoy ekil tsuj ,tsitluc a emoceb won sah {0} regnagleppod ehT</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
 <!-- 0 - role's name -->
 <!-- 1 - teammates's name -->
     <value>{1} :era (yna fi) setammaet ruoY  .tsitluc a otni mrofsnart uoy dna ,deid sah {0}</value>
@@ -740,25 +740,25 @@
   <string key="AskKill">
     <value>?thginot llik ot tnaw uoy od ohW</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
 <!-- 0 - dead's name -->
-<!-- 1 - lover's name -->
+<!-- 1 - crewmate's name -->
 <!-- 2 - roles -->
     <value>{2} .dnif nac yeht lotsip tseraen eht htiw sevlesmeht toohs dna ,eno devol rieht fo ssol eht dnats tonnac yehT  .gniyrc ,sllaf dna revo sehsur {1} ,htaerb gniyd s'{0} htiW</value>
   </string>
   <string key="AskDoppelganger">
     <value>?eid yeht fi emoceb ot tnaw uoy od ohW</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>reyalp tsrif eht esoohC ?eb ot srevol eht tnaw uoy od ohW</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>reyalp dnoces eht esoohC ?eb ot srevol eht tnaw uoy od ohW</value>
   </string>
   <string key="Hunter">
     <value>🎯 retnuH eht</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>🏹 dipuC</value>
   </string>
   <string key="SerialKiller">
@@ -771,7 +771,7 @@
 <!-- 0 - target's name -->
     <value>.{0} si ledom elor uoY .dlihc dliw eht emoceb evah uoY</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
     <value>!now evah srevol ehT !serudne evol eurT</value>
   </string>
   <string key="HunterKilledVisiter">
@@ -779,7 +779,7 @@
 <!-- 1 - role -->
     <value>.{1} ,lleW !retnuH eht no pu kaens ot deirt yeht ekil skooL .ydob eht ot stohs elpitlum ,{0} fo ydob eht sdnif enoyreve ,erauqs nwot eht fo elddim eht nI</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>.gnorts oot saw htiaf ruoy tub ,tluc rieht ot uoy trevnoc ot deirt erugif dedooh A</value>
   </string>
   <string key="AlreadyOnWaitList">
@@ -863,7 +863,7 @@
   <string key="AboutFool">
     <value>.elor modnar a dlot era yeht ,thgin ta elor s'enoemos ees ot esoohc yeht nehw ....rees eht era yeht dlot si loof eh</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>sniw tluc eht - tsitluc era sreyalp gnivil lla ,emag eht fo dne eht ta fI .tluc ruoy ot (sevlow tpecxe) sreyalp rehto lla trevnoc ot laog ruoy si ti ,tsitluc a sA</value>
   </string>
   <string key="AboutCH">
@@ -888,7 +888,7 @@
 .erew yeht tahw emoceb lliw uoy ,seid reyalp taht fI .emag eht fo trats eht ta reyalp a kcip nac uoy ,seitiliba lluf rieht evah t'nod uoy elihw ...srehto otni hpromatem ot ytiliba eht dah srotsecna ruoY
 </value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>
 .rehtegot niw htob yeht ,maet gninniw eht no saw srevol eht fo eno tsael ta fi RD;LT .llew sa sniw (regalliv) revol eht ,(flow) sniw maet eno dna ,(flow + regalliv) smaet tnereffid no era srevol eht fI .smaet fo sseldrager ,niw yeht ,evila owt tsal eht era srevol eht fI .selor rieht dlot eb ton tub ,era rehto hcae ohw wonk lliw srevoL :etoN
 ): worros fo eid lliw rehto eht ,seid meht fo eno fI !evol ni yldam emoceb lliw sreyalp owt esehT .emag eht fo trats eht ta sreyalp owt esoohc lliw uoy ,dipuC sA .ria eht ni si evoL
@@ -1067,10 +1067,10 @@
   <string key="AllowTannerA">
     <value>{0} :ot tes elor a sa rennaT</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>{0} :tnerruC\n?noitpo elor a sa tluc wollA</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>{0} :ot tes elor a sa tluC</value>
   </string>
   <string key="EnableSecretLynchQ">
@@ -1241,13 +1241,13 @@
   <string key="SerialKillerTeamEnd">
     <value>maeT KS</value>
   </string>
-  <string key="CultTeamEnd">
+  <string key="zoombiesTeamEnd">
     <value>maeT tluC</value>
   </string>
   <string key="TannerTeamEnd">
     <value>maeT rennaT</value>
   </string>
-  <string key="CultConvertWolf">
+  <string key="zoombiesConvertWolf">
     <value>...daed si {0} !elbideni saw ti thguoht yeht yhw rednoW ...wodniW eht fo tuo gniylf semoc daeH s'{0} daetsni tub ,{1} trevnoc ot yrt ot {0} sdnes tluc ehT</value>
   </string>
   <string key="HarlotFuckedKilledPublic">
@@ -1265,7 +1265,7 @@
   <string key="ZombieKilled">
     <value>.tsitluC a saw {0} !noigiler ro egaugnal ,ecar fo sseldrager ,niaga kcurts sah rellik laires ehT .ratla rieht yb kcitseldnac a htiw htaed ot debbats dnuof saw {0}</value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>...gnissim saw traeh eht ylegnartS .eot ot daeh morf tilps dipuC .a.k.a {0} dnif ot nekorbtraeh erew sregalliv eht ,gninrom txen ehT</value>
   </string>
   <string key="DrunkKilled">
@@ -1299,12 +1299,12 @@
     <value>!rellik laires eht tisiv t'nod :tnrael nosseL .llah nwot eht edistuo weiv lluf ni decalp trac a ni ,retnuH tsitluC eht ,{0} fo strap ydob dereves eht dnif ot ylno ,gninrom eht ni pu ekaw sregalliv ehT</value>
     <value>...aedi doog a eb ot mees ton seod tsitluc a saw relliK laireS eht fi gnikcehC .seceip derdnuh a otni ylesicerp tuc tiebla ,nwot fo elddim eht ni dnuof saw ,retnuH tsitluC eht ,{0} fo ydob ehT</value>
   </string>
-  <string key="CultConvertWolfPublic">
+  <string key="zoombiesConvertWolfPublic">
 <!--used when Zombies convert the wolves, only if wolves stayed home-->
     <value>!spetsrood 'sevlow eht ot dereviled ,reppus enif a ot detrevnoc saw daeh s'{0} .tsiser ot tluciffid oot devorp ,sevlow eht htiw elbuort truoc ot dediced taht tsitluc a ,{0} gnihsinup ,ecno rof doog yats ot dediced sevlow eht taht demees ti elihW</value>
     <value>.tnemevom suoigiler wen eht gninioj ni tseretni on evah sevlow ,{0} rof yletanutrofnU .suoiciled etiuq {0} dnuof flow eht dna ,emoh yats ot dediced sevlow eht thgin eht no flow a gnitisiv fo enutrofsim eht dah rebmem tsewen riehT .thgin tsal elbuort detcepxenu otni nar tluc ehT</value>
   </string>
-  <string key="CultConvertKillerPublic">
+  <string key="zoombiesConvertKillerPublic">
 <!--used when Zombies convert the SK-->
     <value>.tnahpmuirt saw noigiler esohw wohs ot tnemetats a fi sa ,efink a htiw debbats dnuof saw koob "yloh" rieht ylegnartS !gninrom eht ni erauqs nwot eht ta decalp dna seceip ot decnim saw ,tsitluc a ,{0} !gnorw erew yeht tub ,sknar rieht ni rebmem wen a evah dluow yeht thguoht tluc ehT</value>
     <value>.snagro lanretni s'{0} fo erauqs nwot eht ni tra fo eceip wen a edam relliK laireS eht dna ,relliK laireS eht trevnoc ot deirt rebmem tsewen riehT .era yeht naht reizarc egalliv eht ni nosrep eno eht trevnoc ot deirt tluc eht ,thgin tsaL</value>
@@ -1388,7 +1388,7 @@
 <!-- NOTE: No space between {0} and joined. It will be added in the code if necessary-->
     <value>.sdnoces 03 tsal eht ni emag eht denioj {0}</value>
   </string>
-  <string key="AllowCult">
+  <string key="Allowzoombies">
     <value>tluC wollA</value>
   </string>
   <string key="AllowTanner">
@@ -1623,7 +1623,7 @@
     <!-- 0 - mason collegues's name -->
     <value>{0} :era (yna fi) setammaet ruoY</value>
   </string>
-  <string key="ThiefToCult">
+  <string key="ThiefTozoombies">
     <!-- 0 - old Zombie's name -->
     <!-- 1 - new Zombie's name -->
     <value>!uoy ekil tsuj ,tsitluc a emoceb won sah {1} dna etammaet ruoy regnol on si {0}</value>
@@ -1980,16 +1980,16 @@
   <string key="HunterFell">
 	<value>.kcalb seog gnihtyreve erofeb raeh uoy gniht tsal eht si gnikaerb kcen ruoy fo dnuos eht dna nepo tfel {0} taht evarg a otni sdrawkcab llaf uoY .etal oot s'ti tub ,elggurts dna maercs uoY .elkna ruoy dnuora sesolc ti litnu part raeb eht gniciton tuohtiw ,drayevarg eht revo klaw uoy ,detartsurF !stsitluc ydoolb esoht fo eno yals ot elba gnieb tuohtiw thgin rehtonA</value>
   </string>
-  <!--{0}: cult hunter-->
+  <!--{0}: zoombies hunter-->
   <string key="HunterFellDigger">
 	<value>...uoy detcepsus evah ton dluohs retnuh tsitluc ehT .{0} fo ydob daed eht ees uoy evarg taht edisnI .evarg dehsinifnu na ot txen dnuorg eht no gniyl drows a eciton uoy ,evirra uoy erofeb tsuJ .gnisir ydaerla nus eht htiw emoh ruoy ot kcab klaw uoy ,thgin gnirit rehtona retfA</value>
   </string>
   <!--{0}: Zombie-->
-  <string key="CultFell">
+  <string key="zoombiesFell">
 	<value>?yawyna ,reggid evarg a trevnoc ot seirt tluc fo dnik tahW .evarg dehsinifnu na ni daed gniyl {0} dnif ot tsuj ,ereht yrruh uoY !sevarg dehsinifnu ruoy fo eno morf maercs a raeh uoy ylneddus nehw ,thgin gnirit rehtona morf nruter uoY</value>
   </string>
   <!--{0}: Zombie who fell, {1}: grave digger-->
-  <string key="CultConvertGraveDigger">
+  <string key="zoombiesConvertGraveDigger">
 	<value>.sevil ruoy rof nur uoy dna evarg a otni llaf yeht erofeb maercs rieht si raeh nac uoy llA !elkna rieht dnuora spans part raeb a ylneddus nehw drayevarg eht hguorht uoy dael yehT .llew sa hcruhc eht nwod nrub ot aedi doog a eb dluow ti taht sediced ylneddus {0} ,esuoh s'{1} ot yaw ruoy nO</value>
   </string>
   <!--{0}: grave digger-->

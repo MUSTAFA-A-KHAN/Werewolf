@@ -383,33 +383,33 @@
     <!-- 1 - target name -->
     <value >نظر {0} اینه که {1} رو به هایدرا ملحق کنید</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <!-- 0 - Yougest Zombie (killed)'s name' -->
     <!-- 1 - ZombieHunter's name -->
     <value>{0} رفت پیش {1} که اونو به عضویت هایدرا در بیاره اما از بخت بدش {1} پانیشر بود و همونجا با به تیر مغز {0} رو ترکوند😐</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - Number of Zombies left -->
     <value>دیشب {0} اومد تو رو به عضویت هایدرا در بیاره ولی ی گلوله تو سرش خالی کردی! {1} باقی مونده</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>تو‌ الان یکی از اعضای هایدرایی و میخوای که دنیا رو تصاحب کنی اما قدم اول هلی کریره، تو و بقیه اعضای هایدرا هر شب یکی رو برای ملحق شدن به هایدرا انتخاب می کنین</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <!-- 0 - Number of Zombies -->
     <value>اعضای هایدرا: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <!-- 0 - new Zombie's name -->
     <value>الان {0} عضو هایدرا شد</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <!-- 0 - Newest Zombie's name -->
     <!-- 1 - target name -->
     <value>خب  {0} رفت {1} رو به هایدرا دعوت کنه ولی خونه نبود</value>
   </string>
-  <string key="CultWins" isgif="true">
+  <string key="zoombiesWins" isgif="true">
     <value >دارو دسته جوکر نابود شدن، هایدرا کنترل زمین رو بدست گرفت</value>
   </string>
   <string key="HunterVisitDead">
@@ -514,7 +514,7 @@
     <value>  گرین لنترن های دیگه عبارت اند از: {0}</value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <!-- 0 - Youngest Zombies name -->
     <value>عضو جدید هایدرا رفت کابین {0} که به هایدرا دعوتش کنه ولی فقط یه جنازه رو تو کابین دید که به طور وحشیانه ای کشته شده</value>
   </string>
@@ -523,7 +523,7 @@
     <value>دیشب دارو دسته جوکر رفتن کابین {0} که تیکه تیکش کنن ولی کاپیتان امریکا هم اونجا بود و با سرعت نور قبل اینکه حتی صورت هم رو هم ببینن با سپرش اونا رو از کابین انداخت بیرون</value>
   </string>
   <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <!-- 0 - newest  -->
     <!-- 1 - target's name -->
     <value>دیشب {0} رو فرستادین تا {1} رو به هایدرا ملحق کنه ولی قبول نکرد</value>
@@ -534,7 +534,7 @@
     <!-- 1 - name -->
     <value>جناب {0} @{1} یه بازیکن هم اسم تو توی بازیه، اسمتو عوض کن تا بتونی وارد بازی بشی</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <!-- 0 - target's name -->
     <value>دیشب رفتی خونه {0} که باز هم اهداف خلقت رو شفاهی توضیح بدی ولی یارو هایدرایی بود و انقدر سرش گرم نقشه کشیدن برای فتح دنیا بود که محلت نداد!</value>
   </string>
@@ -628,7 +628,7 @@
   <value>وقت تموم شد!</value>
   </string>
   <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
     <value>تو یک استار سفایری! یک لنترن صورتی که حلقت با نیروی عشق شارژ میشه برای همین میتونی با حلقت نور عشق رو به قلب دو نفر بتابونی تا عاشق هم بشن!اون دو نفر به قدری عاشق هم میشن که با مرگ یکی اون یکی هم از غصه میمیره</value>
   </string>
   <string key="RoleInfoDoppelganger">
@@ -672,7 +672,7 @@
     <!-- 2 - target's role -->
     <value>ایرونمن رید 😐 کلا مهم نیست چیکار کنه، ما میگیم ریده 😐 {0} تو دقیقه 90 با کمک لباسش {1} رو کشت. {2}</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
 	  <value>عضو هایدرا {0} رفت خونه دکتر دووم ( {1} ) که اونو عضو هایدرا کنه و با کمکش دنیا رو بگیره، ولیدکتر نقشه های خودشو واسه این دنیا داره و تو دنیاش جایی واسه هایدرا نیس. {0} خدمات زیادی به هایدرا کرد ولی الان در وسط دنیا سرگردونه و هیچی جز یه خاطره ازش نمونده.</value>
 	   <value>شما {0} رو فرستادید تا {1} رو به هایدرا ملحق کنه ولی اون قاتل بود و کاری کرد که تنها یه خاطره از این عضوتون باقی بمونه</value>
   </string>
@@ -696,7 +696,7 @@
     <!-- 0 - target's name -->
     <value>رفتی که {0} رو نابود کنی ولی کاپیتان اونجا بود و مانعت شد!</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
     <value>{0} رفت که {1} رو به هایدرا ملحق کنه ولی رکب خورد و {1} که آیرون من بود {0} رو در حالی که تو خودش ریده بود پوکوند</value>
@@ -720,11 +720,11 @@
     <!-- 1 - mason collegues's name -->
     <value>همزادت {0} مرده و تو به شکل اون در اومدی!! شاید با این حرکتت حلقه رو گول زدی شاید هم واقعا لیاقتشو داری ولی به هرحال الان تو یه لنترنی و بقیه عبارتند از : {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <!-- 0 - new Zombie's name -->
     <value>میستیک یعنی {0} همزادت بود و الان به هایدرا ملحق شده</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <!-- 0 - role's name -->
     <!-- 1 - teammates's name -->
     <value>همزادت{0} مرد ، اون یکی از اعضای هایدرا بود و تو هم با تبدیل شدن به اون با هایدرایی. اعضای هایدرا عبارتند از: {1}</value>
@@ -744,25 +744,25 @@
   <string key="AskKill">
     <value>کیو میخوای امشب نابود کنی؟</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <!-- 0 - dead's name -->
-    <!-- 1 - lover's name -->
+    <!-- 1 - crewmate's name -->
     <!-- 2 - roles -->
     <value>با مرگ {0} عشق ابدیش یعنی {1} هم خودشو انداخت روی جنازش و انقدر گریه کرد تا مرد. {2}</value>
   </string>
   <string key="AskDoppelganger">
     <value>میخوای همزاد کی بشی؟ اگه بمیره تو نقششو بر عهده میگیری</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>کیا رو میخوای عاشق همدیگه بکنی؟ نفر اول رو انتخاب کن</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>کیا رو میخوای عاشق همدیگه بکنی؟ نفر دوم رو انتخاب کن</value>
   </string>
   <string key="Hunter">
     <value>ایرون من👮</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>استارسفایر💘</value>
   </string>
   <string key="SerialKiller">
@@ -771,8 +771,8 @@
   <string key="Doppelgänger">
     <value>میستیک🎭</value>
   </string>
-  <string key="CupidChosen">
-    <!-- 0 - lover's name -->
+  <string key="RecruiterChosen">
+    <!-- 0 - crewmate's name -->
     <value>استارفایر هم دردسر شده ها تو و {0} عاشق دل خسته هم شدین بدون همدیگه زندگی واستون معنا نداره با مرگ یکیتون اون یکی هم میمیره</value>
 	<value>حلقه استار فایر زد قلبتو به چیز داد. تو عاشق {0} شدی، میخوای بخوا نمیخوای بیا برو تو کووووووووچه</value>
   </string>
@@ -780,7 +780,7 @@
     <!-- 0 - target's name -->
     <value>تو بچه دیمین وینی و شخصی که خیلی دوستش داری و الگوی زندگیته کسی نیست جز {0}</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
     <value>عاشقا برنده شدن</value>
   </string>
   <string key="HunterKilledVisiter">
@@ -788,7 +788,7 @@
     <!-- 1 - role -->
     <value>{0} دور و ور کابین استارک دور دور می کرد که آیرون من با یه شلیک خلاصش کرد {1}</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>یکی از اعضای هایدرا دیشب میخواست تورو وسوسه کنه تا به اونا بپیوندی ولی تو یه 👍 بهش نشون دادی :))</value>
   </string>
   <string key="AlreadyOnWaitList">
@@ -872,7 +872,7 @@
   <string key="AboutFool">
     <value>ددپول بخاطر مشکلات مغزی جدیدش فکر میکنه پیشگوعه و ما هم علاقه ای به تکذیبش نداریم، اون میتونه بقیه رو ببینه و ممکنه بهش درست بگیم و ممکنه بهش نقش اشتباهی رو بگیم</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>هدف تو به عنوان رد اسکال و رییس هایدرا اینه که همه افراد حاضر در هلی کریر به جز دار و دسته جوکر و دکتر دووم رو عضو هایدرا کنی</value>
   </string>
   <string key="AboutCH">
@@ -897,7 +897,7 @@
 همینطور تو به گروهی تعلق نداری! پس باید شخصی که همزادش شدی بمیره تا ببری!!!!!!!! البته اگه تو تیم عاشقا باشی یه مسئله جداست..
     </value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>
     استارسفایر همون لنترن صورتیه که حلقش با نیروی عشق شارژ میشه...توی بازی در ابتدا با عاشق کردن دو نفر نیروی عشقو‌ بینشون زیاد میکنه تا بدجور عاشق هم بشن.اگه یکی از عاشقا هم بمیره اون یکی از غصه میمیره و اگه یکیشون تو بازی برنده شه برای عشق بینشون اون یکی هم برنده حساب میشه حتی اگه تو تیم مخالف باشه(مثل رد هود و مامور شیلد)
     </value>
@@ -1077,10 +1077,10 @@
   <string key="AllowTannerA">
     <value>نقش کلی فیس: {0}</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>نقش فرقه گرا فعال باشه؟\n حالت فعلی: {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>نقش هایدرایی ها: {0}</value>
   </string>
   <string key="ThankYou">
@@ -1232,7 +1232,7 @@
   <string key="SerialKillerTeam">
     <value>دووم و پیروانش</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>سازمان هایدرا</value>
   </string>
   <string key="TannerTeam">
@@ -1250,13 +1250,13 @@
   <string key="SerialKillerTeamEnd">
     <value>دووم و پیروانش</value>
   </string>
-  <string key="CultTeamEnd">
+  <string key="zoombiesTeamEnd">
     <value>سازمان هایدرا</value>
   </string>
   <string key="TannerTeamEnd">
     <value>مکسیموس </value>
   </string>
-    <string key="CultConvertWolf">
+    <string key="zoombiesConvertWolf">
     <value>دیشب یکی از مامورین هایدرا {0} رفت تا {1} رو به فرقه دعوت کنه ...اما صبح که شد جنازشو وسط راهرو پیدا کردن که ی لبخند بزرگم رو صورتشه!</value>
   </string>
   <string key="HarlotFuckedKilledPublic"> <!-- used when Harlot visit's SK's victim, and dies -->
@@ -1276,7 +1276,7 @@
   <string key="ZombieKilled">
     <value>دووم دیشب زد به سرش و با هرچی جادو دم دستش بود به پایگاه هایدرا حمله کردو اون {0} بدبخت رو محو کرد 😐!</value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>باز صبح شد و یکی دیگه مرد! روح {0} شاد 😩
 نیروی فانوس عشق نتونست در برابر سحر و جادوی دووم دوام بیاره و استارسفایر مرده!😖</value>
   </string>
@@ -1307,10 +1307,10 @@
   <string key="SerialKillerKilledCH"> <!--used when CH visits SK-->
     <value>پانیشر {0} داشت دنبال رد اسکال میگشت ولی شانس باهاش یار نبود و به پست دووم خورد و دووم هم که خار مادر جادوگری رو بله، زد خود پانیشر رو هم بله</value>
   </string>
-  <string key="CultConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
+  <string key="zoombiesConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
     <value>هایدرایی ها دیشب {0} رو فرستادن که جوکر و دار و دستش رو به سازمان دعوت کنن! ولی اونا بهش حمله کردن و بعد از به قتل رسوندنش، با مایو از سقف آویزونش کردن و یه شکلک خندان رو صورتش کشیدن!</value>
   </string>
-  <string key="CultConvertKillerPublic"> <!--used when Zombies convert the SK-->
+  <string key="zoombiesConvertKillerPublic"> <!--used when Zombies convert the SK-->
     <value>{0}از جانب رد اسکال این افتخار رو کسب کرد که بره و یکی رو به فرقه دعوت کنه ولی روز بعد انگار محو شده بود و تو هلی کریر نبود! بدون شک دووم اون رو از سحنه روزگار محو کرده!</value>
   </string>
   <string key="GAGuardedKiller"> <!-- used when GA guards SK -->
@@ -1398,7 +1398,7 @@
     <!-- {0} = list of people who have joined -->
     <value>{0} در 30 ثانیه اخر بازی جوین شدند </value>
   </string>
-  <string key="AllowCult">
+  <string key="Allowzoombies">
     <value>فرقه</value>
   </string>
   <string key="AllowTanner">

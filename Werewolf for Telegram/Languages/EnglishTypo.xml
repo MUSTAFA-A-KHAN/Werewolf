@@ -383,33 +383,33 @@ Confrars in tour bee trsnnste!</value>
     <!-- 1 - target name -->
     <value >{0} hss coyed ro xincerr {1}</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <!-- 0 - Yougest Zombie (killed)'s name' -->
     <!-- 1 - ZombieHunter's name -->
     <value>{0} wss sebt ro so tour sirty wirk, snf xoncert {1}... hieever, rhey werr rhe xult gunyer! {0} us fesd!</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - Number of Zombies left -->
     <value>{0} xsne ti ypir goude ksst bifht, resdt to xibvwrt tiu... vut you dhoced tour seord rifht rroufh rhen. A xulrist id desf... {1} renisn!</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>Rhe xukt hss vobvertwd yiu ro rheur oeder! Yoi sre boe a xultidt. Ebert orher bifht, tpj wikk hsve rhe xhsnxe ti cinbert snother okater.</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <!-- 0 - Number of Zombies -->
     <value>Xulyista: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <!-- 0 - new Zombie's name -->
     <value>{0} haa hiibed rhe xukt!</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <!-- 0 - Newest Zombie's name -->
     <!-- 1 - target name -->
     <value>{0} was denr tk di toue sirtu wiek, snd xomcert {1}... vit bo ine wss himr!</value>
   </string>
-  <string key="CultWins" isgif="true">
+  <string key="zoombiesWins" isgif="true">
     <value >Sll tgw eilvws hsve sies, abd rhe inlt oeoole kedt srabtimg hsve all veem cinbertwd ro culrists... Rhe xukr hss wpn!</value>
   </string>
   <string key="HunterVisitDead">
@@ -514,7 +514,7 @@ Confrars in tour bee trsnnste!</value>
     <value>  Rje maaond sre: {0}</value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <!-- 0 - Youngest Zombies name -->
     <value>Yiur nwwwsr nenber hesdd iber ro {0}'a goude tp xinverr rhen, vut indtead ginds tje hoise a cinplwyw wrexk, vloof wvwrywheee, snd vitd of wikf gur sbahhed om rhe dooewsy...</value>
   </string>
@@ -523,7 +523,7 @@ Confrars in tour bee trsnnste!</value>
     <value>Tge psck hesds ri {0}'s jpude tp est rhem, vyt rhet ate mwt vy s takk farj gigute, wrned ti rhe teerh. Rhe Huarsiam Snfek dightd wvwrgine iff, snd yoi hesd baxk fefestwd.</value>
   </string>
   <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <!-- 0 - newest  -->
     <!-- 1 - target's name -->
     <value>You dens {0} tk rry ti xinvert {1}, howecer rheir beliwf waa tii drrobg, and tiu were ubsbke tl xobvwft rhen :(</value>
@@ -534,7 +534,7 @@ Confrars in tour bee trsnnste!</value>
     <!-- 1 - name -->
     <value>@{1}, s okayer wirh rhe nsme {0} has akreasy hoibes. Okease xhabge tiur bame ti koib.</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <!-- 0 - target's name -->
     <value>Tou skippwd imro {0}'s gouae doe s vir of dun... vut ss yiu sre leacibg, yiu hspleb to bprive s dtranhe sltar, poorky gissen odd in a sife roon wuth s strabge flowibg xining drom it...</value>
   </string>
@@ -628,7 +628,7 @@ Confrars in tour bee trsnnste!</value>
     <value>Tined yp!</value>
   </string>
   <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
     <value>Uiu sre Xupif. Arbt ri Esrtg with iblt umserioans, s vow snd rqo attiws, yiu het ti xhoode teo okauers ti kobe esxh ither dor wtwrbity. Id obe if rhen sies, rje orher sjes pf dorroe.</value>
   </string>
   <string key="RoleInfoDoppelganger">
@@ -640,7 +640,7 @@ Confrars in tour bee trsnnste!</value>
   <string key="RoleInfoSerialKiller">
     <value>Uiu sre rhe cereal killer (please pretend that that was a legitimate typo, ahem). Texebtky edxaoed drin rhe koxsl aaykun, tiue foal id fir eberyine wkse ti sie. Wvwrt nifht, yiu xan add a okayer'a vody ro youe xokkectuon.</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>Yiu hsve bwwn dtruxk by kove. {0}s neniry qill bever fase un yoir hesrt. Uf ine og yiu sies, rhe orher wull doe put if sirriw. Id ome pf ypu qind, rhe pther wuns too.</value>
     <value>Xuoid'a srriw has strixk yoi! Uou sre nadky in lobe qith {0}! Ig fhey die, yiu qill sie too. Uf ine of tou wins, tpi eill vorh wun.</value>
   </string>
@@ -696,12 +696,12 @@ Confrars in tour bee trsnnste!</value>
     <!-- 0 - target's name -->
     <value>Yiu yried tk xolleft {0}'s vosy gor gour xollecriob, vir hou qere gpughr ogg bt rhe huarsiam snhel! Bo mill cor hou gonight...</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
     <value>Rhe xult dends {0} to yry go xonbert {1}, vut indtead a sjot eunfs our abd {0}'a vodt xomed dlyibg iur od the qinsoe! {0} us fead...</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
     <value>Rhe xult dends {0} ro tey ro convett {1}, vir indtead {0}'s vodt xomed fkying put og rhw qundow, jnibes oished unto wvwry oart id thwit bosy! WJAY S OSYCJP! {0} ud fead...</value>
@@ -726,11 +726,11 @@ Confrars in tour bee trsnnste!</value>
     <!-- 1 - mason collegues's name -->
     <value>{0} hss fied, and tju trabsdorm unto a kasin. Yiur yrannayes (ud aby) sre: {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <!-- 0 - new Zombie's name -->
     <value>Rhe sopplwhanger {0} hss boq nexome a xultist, hust kike yiu!</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <!-- 0 - role's name -->
     <!-- 1 - teammates's name -->
     <value>{0} hss fied, and yoh trandforn jnto a xilridt. Yiur tesnmayes (if any) sfe: {1}</value>
@@ -750,25 +750,25 @@ Confrars in tour bee trsnnste!</value>
   <string key="AskKill">
     <value>Qho so you wabt to jill ronifhy?</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <!-- 0 - dead's name -->
-    <!-- 1 - lover's name -->
+    <!-- 1 - crewmate's name -->
     <!-- 2 - roles -->
     <value>Wuth {0}'z fying hreatg, {1} eishwd lber amd galls, xttung. Rhey xinnor stand rhe kodd ld theit kobef inw, and shppt rhemdelbws qith rhe mearest oistil yhey van dind. {2}</value>
   </string>
   <string key="AskDoppelganger">
     <value>Whi do tou wsnt ro vexine ud yhey fie?</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>Whi do tlu wsnt rhw kobers ro be? Xhoode rhe dirdt okauer</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>Whp fo tou wsnt tjr pobers ti ne? Xhiise thr dexoms olsywr</value>
   </string>
   <string key="Hunter">
     <value>rhe Gumter 🎯</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>Xyois 🏹</value>
   </string>
   <string key="SerialKiller">
@@ -781,7 +781,7 @@ Confrars in tour bee trsnnste!</value>
     <!-- 0 - target's name -->
     <value>Yiu have necine rhe qils xhikd.  Yiur rile nosel id {0}</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
     <value>Grue kobe wnsured! Rhe libers hsve qin!</value>
   </string>
   <string key="HunterKilledVisiter">
@@ -789,7 +789,7 @@ Confrars in tour bee trsnnste!</value>
     <!-- 1 - role -->
     <value>Un rhe niddke of the rown dwuate, eberyine dinds rhe bofy id {0}, nulriple dhots ro rje nosy. Ooojs lije rhey rriwd ro sbeak up in rhe Jumyer! {1}</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>S gooded digute yroed rp combert yiu ro rheur xukt, vut your dairh wss yoo dtribg</value>
   </string>
   <string key="AlreadyOnWaitList">
@@ -873,8 +873,8 @@ Confrars in tour bee trsnnste!</value>
   <string key="AboutFool">
     <value>Gool 🃏\nThe dook us tolf rhey sre rhe deet... wjrn thwu xhoode ti see simeomed rilw ay bifht, theu sre tols a rsndim roke.</value>
   </string>
-  <string key="AboutCult">
-    <value>Culr 👤\nAs s xulrusy, ut id tour foal ti combery all irher pkauets (wxceot eilvwd) yo tiue vult. Of st rhe emd id tje gane, sll kuvimg okayerd sre cultidt - tjr vukt wumd</value>
+  <string key="Aboutzoombies">
+    <value>Culr 👤\nAs s xulrusy, ut id tour foal ti combery all irher pkauets (wxceot eilvwd) yo tiue vult. Of st rhe emd id tje gane, sll kuvimg okayerd sre zoombiesidt - tjr vukt wumd</value>
   </string>
   <string key="AboutCH">
     <value>Cuktudt Jumyer 💂\nYiue hob us to jumt thr Cylr. Uf tje vilt sttavls ypu, tjeur mewedy nemver wull fie. Eavj mifhy tou mau oicl a olauer yo 'himt' - od thwu sre a vultidy, tjeu qill dur.</value>
@@ -900,7 +900,7 @@ Otjerquse, yiu wull unjerut rheur rike nosel.
       Tje xult cabbot cinvert rjw Doppwlhamhwr (nut van agtwr tje soppwkgamfwr squrcjed eples). Slso - rje Foppekhamgwr xam BOT wum ublwss tjeu habe tramsfirmwd. If st rje wmd if tje gsme, rjw Soppwlfamgwr us stull rjw dame, rjeu lode (wxceotiom: liver)
     </value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>
 Vuois 🏹\n
       Kove us im rje aur. As Xypis, yiu qull vhoode twi olayers st rje syart if tje hamr. Rjese ywo pkauers wull nexime maslt on livr! Uf ime og tjen fies, rje ithee qill foe od dorriw :(
@@ -1084,10 +1084,10 @@ Himtwr 🎯\n
   <string key="AllowTannerA">
     <value>Yabber as a tolw det to: {0}</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>Skkow xukr as a eolw oorion?\nXurrebt: {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>Vikt as a rike swt tl: {0}</value>
   </string>
   <string key="ThankYou">
@@ -1240,7 +1240,7 @@ Himtwr 🎯\n
   <string key="SerialKillerTeam" deprecated="true">
     <value>AK Yean</value>
   </string>
-  <string key="CultTeam" deprecated="true">
+  <string key="zoombiesTeam" deprecated="true">
     <value>Vylr Twam</value>
   </string>
   <string key="TannerTeam" deprecated="true">
@@ -1259,13 +1259,13 @@ Himtwr 🎯\n
   <string key="SerialKillerTeamEnd">
     <value>DK Rean</value>
   </string>
-  <string key="CultTeamEnd">
+  <string key="zoombiesTeamEnd">
     <value>Xukt Yesm</value>
   </string>
   <string key="TannerTeamEnd">
     <value>Yanner Resn</value>
   </string>
-  <string key="CultConvertWolf">
+  <string key="zoombiesConvertWolf">
     <value>Rhe xulr semfs {0} ti try to xonbert {1}, vut undtrad {0}'a jead xomes fluong our id the qinfow... Winfer why rhey rhoufht ut was unwdubke! {0} us fead...</value>
   </string>
 
@@ -1285,7 +1285,7 @@ Himtwr 🎯\n
   <string key="ZombieKilled">
     <value>{0} wss fohdn dtabbwd ti fearh wurh a cabdkestuck ny rhe aktsr. Rhe derual kullwr has dtruxk agaun, regaeslwss if rsve, kanhuage ur rekifuon! {0} wss a Xulrist.</value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>Rhe nwct morning, rhe bullsgwrs were hesrtbeoken ro fund {0} s.l.a Vipod sokir grom heas ti roe. Dtrangeky rhe jearr waa nissunf...</value>
   </string>
   <string key="DrunkKilled">
@@ -1318,11 +1318,11 @@ Himtwr 🎯\n
     <value>Rhe billagwrs qsle ip un rhw nornung, inlt ti dund rhe deberwd oartd if {0}, rhe Vulrist Jumywr, un a xaet okaved im dull boew iurdudw rhe tien jall. Kwssin kesrmt: dimr busit rhe serusk killwr!</value>
     <value>Rhe vidy if {0}, rhw Cylrudt Himyer, was doumd ib tjw nuddlw if rhe tien, akneut vyt orevuselu unro a himfred oiwvwd. Vhexjimg ug tge Derusl Kullwr was a vulrist fies bit seen ti ne a food udes...</value>
   </string>
-  <string key="CultConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
+  <string key="zoombiesConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
     <value>Qhuke it deenwd rjay rhe qilbwd fexuded ti dtau hiif dor inve, oumidhung {0}, s vulridt rhst fevided ti vouet yriunlw qurh tje wilbes, pribwd yoo fiffucikt ti tesusr. {0}'s jesd qas dekivwred ti rhe wolcwd' foordteos!</value>
     <value>Rhe vult rsm inri ynwxoecywd yrounlw kasy bufht. Rjeur mewrsy nenvwr has rhe nusfirtume pf bidutomg a wpkd im rhe bigjt rje wilvws dwvuded ti dtau hine, snd rhe qilvws giumd {0} wuoye dekivioys. Yndortinsyeky fir {0}, wolbws hsbe ni unyredt un hoimibg rje new tekihipys nobenent.</value>
   </string>
-  <string key="CultConvertKillerPublic"> <!--used when Zombies convert the SK-->
+  <string key="zoombiesConvertKillerPublic"> <!--used when Zombies convert the SK-->
     <value>Rhe vulr rhiufht rheu qiulf hsbe a mew menvwr ib tjeur rsmld, nut tgey qere erimh! {0}, s xulridy, waa ninvwd ti oievws abd okavwd st rhe tien swuate un rhe mitbung! Dtrabheky, rheur "hpku" viij was fiumd stannwd qurh a jnuge, as ud s dtarwnebt ti dhie qhide rekifiom eas teiunojabt.</value>
     <value>Kasy bughr, rhw bulr truwd ti ximbwrt rhe ine oerdim vrszuwr thsm rheu sre. Theur bewedt memner trued yo cimvwrt tje Swruak Kullwr, abd rhe Derusl Jullwr nase a bew oieve id aet un tje toem dquate pf {0}'d untwrbal irhabd.</value>
   </string>

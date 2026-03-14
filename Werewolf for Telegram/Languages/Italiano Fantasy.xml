@@ -382,33 +382,33 @@ Ognuno ha {0} secondi per votare!
 <!-- 1 - target name -->
     <value>{0} ha scelto di trasformare {1}</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
 <!-- 0 - Yougest Zombie (killed)'s name' -->
 <!-- 1 - ZombieHunter's name -->
     <value>{0} è stato mandato per trasformare {1}... peccato che si trattava del Cacciatore di Vampiri! {0} è morto!</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
 <!-- 0 - Youngest Zombie's name -->
 <!-- 1 - Number of Zombies left -->
     <value>{0} è arrivato per trasformarti in Vampiro la scorsa notte... non poteva sapere che gli stavi dando la caccia! Sei riuscito ad ucciderlo senza problemi! {1} Vampiri rimasti!</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>Un Vampiro ti ha fatto visita, ti ha morso e sei stato trasformato in una notturna creatura succhiasangue che odia l'aglio. D'ora in poi, ogni notte, avrai la possibilità di convertire in Vampiro un giocatore a tua scelta. Attenzione, c'è un Cacciatore di Vampiri che vi sta cercando...</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
 <!-- 0 - Number of Zombies -->
     <value>Vampiri: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
 <!-- 0 - new Zombie's name -->
     <value>{0} è diventato un Vampiro!</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
 <!-- 0 - Newest Zombie's name -->
 <!-- 1 - target name -->
     <value>{0} è stato inviato per trasformare {1}... ma non c'era nessuno!</value>
   </string>
-  <string key="CultWins">
+  <string key="zoombiesWins">
     <value>Gli Orchi e le altre creature malvagie sono state sconfitte, le poche creature magiche rimaste sono state trasformate... avete vinto, Vampiri! La Foresta Incantata è vostra!</value>
   </string>
   <string key="HunterVisitDead">
@@ -509,7 +509,7 @@ Ognuno ha {0} secondi per votare!
   <string key="MasonTeam">
     <value>  Gli altri Gnomi sono: {0}</value>
   </string>
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
 <!-- 0 - Youngest Zombies name -->
     <value>Uno dei nuovi Vampiri si reca nel rifugio di {0} per convertirlo, tuttavia una sorpresa lo accoglie: tracce di sangue ovunque, mobili distrutti, impronte di creature diverse e un fetore terribile di chi non si lava da mesi...</value>
   </string>
@@ -517,7 +517,7 @@ Ognuno ha {0} secondi per votare!
 <!-- 0 - target's name -->
     <value>Ti rechi da {0} per ucciderlo e mangiarlo, ma una sorpresa ti attende: una maestosa figura alata e splendente, armata con spade e sfere di luce, inizia a combattere con te. Si tratta di un Angelo, il sacro protettore della tua vittima. Meglio andarsene, prima che ti dia il colpo di grazia...</value>
   </string>
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
 <!-- 0 - newest  -->
 <!-- 1 - target's name -->
     <value>Hai mandato {0} per trasformare {1}, tuttavia il suo potere magico era troppo forte e ha resistito al morso vampiresco!</value>
@@ -527,7 +527,7 @@ Ognuno ha {0} secondi per votare!
 <!-- 1 - name -->
     <value>@{1}, un giocatore con il nome di {0} è già entrato. Per favore cambia il tuo nome per partecipare. </value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
 <!-- 0 - target's name -->
     <value>Hai richiamato con la tua voce {0} e vi siete divertiti nell'acqua insieme... tuttavia alcuni particolari della notte appena trascorsa ti ritornano alla mente: la sua pelle bianca come il gesso, la sua sete di sangue, i suoi canini stranamente affilati... brr! Con chi cavolo ti sei diveritta?</value>
   </string>
@@ -619,7 +619,7 @@ Ognuno ha {0} secondi per votare!
 <!-- new strings june 10 2016 -->
     <value>E' scaduto il tempo!</value>
   </string>
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
     <value>Sei un Unicorno 🦄 (🏹), il portatore di pace e magia! Il tuo potere è legato all'amore: solo per una volta puoi scegliere due giocatori da unire sentimentalmente e farli innamorare. Il loro amore è talmente forte che, se uno dei due dovesse morire, l'altro si ucciderà per il dispiacere. Se almeno uno dei due vince, entrambi vincono. Se sono gli ultimi due rimasti in vita, solo loro vincono e tutti gli altri perdono.</value>
   </string>
   <string key="RoleInfoDoppelganger">
@@ -632,7 +632,7 @@ Ad ogni modo con te è meglio fare attenzione: sei pur sempre un Drago!</value>
   <string key="RoleInfoSerialKiller">
     <value>Sei il Basilisco 🐍 (🔪)! Creature come te sono assai rare e molto, molto pericolose! Il tuo sguardo non ha rivali: se qualcuno ti guarda negli occhi... muore! Va' e divertiti: ogni notte avrai l'opportunità di uccidere qualcuno. Se vieni linciato, però, non avrai scampo. Fa' attenzione!</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>La magia dell'Unicorno ti avvolge e ti lega sentimentalmente a {0}! Ora siete innamorati e totalmente fatti l'uno per l'altra! L'amore tra voi è così forte che, se il tuo amante dovesse morire, morirai anche tu. Se uno dei due vince, vincete entrambi. Amatevi e proteggetevi... che la magia dell'Unicorno vi benedica!</value>
   </string>
   <string key="HunterLynchedChoice">
@@ -687,12 +687,12 @@ Ad ogni modo con te è meglio fare attenzione: sei pur sempre un Drago!</value>
 <!-- 0 - target's name -->
     <value>Hai provato ad intrufolarti nel rifugio di {0}, però hai incontrato un luminoso Angelo che ti ha impedito di uccidere la tua vittima! Sconfitto e con qualche cicatrice, te ne torni strisciando da dove sei venuto...</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
 <!-- 0 - Youngest Zombie's name -->
 <!-- 1 - target's name -->
     <value>Uno dei Vampiri invia {0} per trasformare {1}... Nessuno pensava di trovarsi davanti un Drago irascibile! Nemmeno un Vampiro immortale come {0} riuscirebbe a sopravvivere a quel getto infuocato! Di {0}, ormai, non resta che cenere...</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
 <!-- 0 - Youngest Zombie's name -->
 <!-- 1 - target's name -->
     <value>Uno dei Vampiri invia {0} per mordere e trasformare {1}, ma... Sorpresa! Appena gli occhi di {0} si posano su quelli del Basilisco... la sua vita, seppur immortale, termina in un istante! {0} è morto. Non era così immortale, dopotutto...</value>
@@ -716,12 +716,12 @@ Ad ogni modo con te è meglio fare attenzione: sei pur sempre un Drago!</value>
 <!-- 1 - mason collegues's name -->
     <value>{0} è morto e tu ti trasformi in uno Gnomo. Gli altri Gnomi (se presenti) sono: {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
 <!-- 0 - new Zombie's name -->
 <!-- 0 - new Zombie's name -->
     <value>Lo Spirito dell'Acqua {0} è diventato un Vampiro proprio come te!</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
 <!-- 0 - role's name -->
 <!-- 1 - teammates's name -->
     <value>{0} è morto e tu prendi il suo posto diventando un Vampiro. Gli altri Vampiri (se presenti) sono: {1}</value>
@@ -741,25 +741,25 @@ Ad ogni modo con te è meglio fare attenzione: sei pur sempre un Drago!</value>
   <string key="AskKill">
     <value>Chi vuoi uccidere con il tuo sguardo questa notte?</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
 <!-- 0 - dead's name -->
-<!-- 1 - lover's name -->
+<!-- 1 - crewmate's name -->
 <!-- 2 - roles -->
     <value>Mentre {0} si accascia al suolo morente, {1} si china sul suo corpo e urla piangendo dal dolore. Incapace di vivere senza l'amore della sua vita, decide di togliersi la vita e raggiungere il suo amante... ovunque esso sia. {2}</value>
   </string>
   <string key="AskDoppelganger">
     <value>Di chi vuoi ereditare il ruolo quando morirà?</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>Quali creature magiche vuoi far innamorare e amare per sempre? Scegli il primo giocatore</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>Quali creature magiche vuoi far innamorare e amare per sempre? Scegli il secondo giocatore</value>
   </string>
   <string key="Hunter">
     <value>un Drago 🐲 (🎯)</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>un Unicorno 🦄 (🏹)</value>
   </string>
   <string key="SerialKiller">
@@ -772,7 +772,7 @@ Ad ogni modo con te è meglio fare attenzione: sei pur sempre un Drago!</value>
 <!-- 0 - target's name -->
     <value>Ora sei una Giovane Ninfa! Il tuo modello di vita è {0}.</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
     <value>La benedizione dell'Unicorno ha funzionato! La Magia dell'Amore regna nella Foresta Incantata... i due amanti hanno vinto!</value>
   </string>
   <string key="HunterKilledVisiter">
@@ -780,7 +780,7 @@ Ad ogni modo con te è meglio fare attenzione: sei pur sempre un Drago!</value>
 <!-- 1 - role -->
     <value>Nei pressi di una grotta, viene trovato carbonizzato il corpo di {0}. Sembra che si sia avventurato nella Tana del Drago nonostante gli avvertimenti posti all'ingresso della grotta. Mai sottovalutare un Drago! {1}.</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>Una creatura pallida e con lunghi canini ha provato a morderti e trasformarti in un Vampiro... niente da fare! La magia e i poteri che ti scorrono nelle vene hanno impedito che il veleno facesse effetto! Sei salvo!</value>
   </string>
   <string key="AlreadyOnWaitList">
@@ -859,7 +859,7 @@ Ad ogni modo con te è meglio fare attenzione: sei pur sempre un Drago!</value>
   <string key="AboutFool">
     <value>Lo Sciamano è una figura mistica, fuori dal comune e abbastanza folle. Nei suoi rituali fa spesso uso di funghi speciali e erbe incantate che gli provocano allucinazioni... e gli faranno credere di essere il Vecchio Mago! Ogni notte, infatti, potrà scegliere un giocatore da scrutare. Attenzione! Il ruolo che gli verrà rivelato sarà casuale e non veritiero!</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>Il Vampiro è una creatura della notte, immortale e dai canini affilati. Odia l'aglio e si nutre di sangue, il suo obiettivo è quello di invadere e fare sua la Foresta Incantata! Per farlo, avrà bisogno di un esercito. Ogni notte potrà scegliere un giocatore da mordere e trasformare in Vampiro. Se a fine partita tutti i giocatori sopravvissuti sono Vampiri... vincono!</value>
   </string>
   <string key="AboutCH">
@@ -881,7 +881,7 @@ Ad ogni modo con te è meglio fare attenzione: sei pur sempre un Drago!</value>
     <value>Lo Spirito dell'Acqua è una creatura soprannaturale dall'aspetto simile a quello umano. Come l'acqua, l'elemento che comanda e che gli appartiene, ha la capacità di assumere qualsiasi forma. A inizio partita dovrà scegliere un giocatore e ne assumerà il ruolo quando il giocatore scelto morirà.
       /nNB: Se il giocatore scelto è stato trasformato in Vampiro, prenderà il ruolo iniziale. Tutte le altre regole normali si applicano: se eredita il ruolo di giovane Ninfa e il suo modello è morto, lo Spirito dell'Acqua diventa un Orco; altrimenti, eredita il suo modello.\nI Vampiri non possono convertire lo Spirito dell'Acqua (ma possono farlo quando eredita un ruolo) e - lo Spirito dell'Acqua NON può vincere a meno che non si trasforma. Se a fine partita non si è ancora trasformato, perde (eccezione: amanti).</value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value> L'amore è nell'aria... e l'Unicorno ha il compito di spargerlo in giro! Con il suo corno magico a inizio partita può scegliere due giocatori da far innamorare e amare per sempre. Il loro amore sarà talmente forte che, se uno dei due amanti muore, lo farà anche l'altro.
       NB: Gli amanti si conoscono a vicenda ma non possono rivelare il loro ruolo. Se uno dei due vince, anche l'altro lo farà (anche se uno è buono e l'altro cattivo!). Se i due amanti sono gli unici sopravvissuti... hanno vinto!
     </value>
@@ -1057,10 +1057,10 @@ Ad ogni modo con te è meglio fare attenzione: sei pur sempre un Drago!</value>
   <string key="AllowTannerA">
     <value>Ruolo della Fenice impostato su: {0}</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>Ammettere i Vampiri in partita?\nAttualmente: {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>Ruoli dei Vampiri impostato su: {0}</value>
   </string>
   <string key="EnableSecretLynchQ">
@@ -1229,13 +1229,13 @@ Dopo essersi accertate della veridicità del suo racconto, le creature magiche l
   <string key="SerialKillerTeamEnd">
     <value>Team Basilisco</value>
   </string>
-  <string key="CultTeamEnd">
+  <string key="zoombiesTeamEnd">
     <value>Team Vampiri</value>
   </string>
   <string key="TannerTeamEnd">
     <value>Team Fenice</value>
   </string>
-  <string key="CultConvertWolf">
+  <string key="zoombiesConvertWolf">
     <value>I Vampiri inviano {0} per trasformare {1}, ma improvvisamente vedono {0} smembrato in tanti pezzi diversi... nemmeno alle creature oscure interessano i Vampiri! {0} è morto!</value>
   </string>
   <string key="HarlotFuckedKilledPublic">
@@ -1252,7 +1252,7 @@ Dopo essersi accertate della veridicità del suo racconto, le creature magiche l
   <string key="ZombieKilled">
     <value>Che strano! I Vampiri non erano immortali? Non proprio, a quanto pare... {0} è stato trovato pietrificato nei pressi del suo rifugio. Accanto al suo corpo vengono ritrovate tracce di pelle di serpente. Con il Basilisco non si scherza! {0} era un Vampiro.</value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>Le creature magiche sono sotto shock. Nel cuore della Foresta Incantata trovano il corpo candido e puro di {0} privo di vita. Chi mai potrebbe uccidere un Unicorno? Il Basilisco, naturalmente!</value>
   </string>
   <string key="DrunkKilled">
@@ -1283,11 +1283,11 @@ Dopo essersi accertate della veridicità del suo racconto, le creature magiche l
 <!--used when CH visits SK-->
     <value>Le creature magiche fanno una triste scoperta. Trovano il corpo di {0}, il Cacciatore di Vampiri, pietrificato e con un'espressione di pure stupore sul volto. Ha avuto proprio un brutto incontro: si aspettava di incontrare gli occhi immortali di un Vampiro... e invece ha incontrato quelli del Basilisco!</value>
   </string>
-  <string key="CultConvertWolfPublic">
+  <string key="zoombiesConvertWolfPublic">
 <!--used when Zombies convert the wolves, only if wolves stayed home-->
     <value>Sembra che le creature oscure abbiano deciso di non attaccare, la scorsa notte. Ciò non ha impedito loro di uccidere il Vampiro {0}, mandato per cercare di convertire uno di loro. Che sia da lezione, con gli Orchi non si scherza!</value>
   </string>
-  <string key="CultConvertKillerPublic">
+  <string key="zoombiesConvertKillerPublic">
 <!--used when Zombies convert the SK-->
     <value>I Vampiri credevano di allargare il loro gruppo, questa notte... quanto si sbagliavano! Il Vampiro {0} ha incontrato gli occhi letali del Basilisco, dando definitivamente fine alla sua vampiresca esistenza. L'immortalità dei Vampiri, per un Basilisco, è davvero una sciocchezza!</value>
   </string>
@@ -1370,7 +1370,7 @@ Dopo essersi accertate della veridicità del suo racconto, le creature magiche l
 <!-- NOTE: No space between {0} and joined. It will be added in the code if necessary-->
     <value>{0} sono entrati nella Foresta Incantata negli ultimi 30 secondi.</value>
   </string>
-  <string key="AllowCult">
+  <string key="Allowzoombies">
     <value>Abilita i Vampiri</value>
   </string>
   <string key="AllowTanner">
@@ -1592,7 +1592,7 @@ Dopo essersi accertate della veridicità del suo racconto, le creature magiche l
 <!-- 0 - mason collegues's name -->
     <value>I tuoi compagni di team (se presenti) sono: {0}</value>
   </string>
-  <string key="ThiefToCult">
+  <string key="ThiefTozoombies">
 <!-- 0 - old Zombie's name -->
 <!-- 1 - new Zombie's name -->
     <value>{0} non fa più parte del gruppo, mentre {1} è ora un Vampiro come te!</value>
@@ -1938,18 +1938,18 @@ Dopo essersi accertate della veridicità del suo racconto, le creature magiche l
     <value>Arrivi alla casa di {0} per ucciderlo... non ti aspettavi di trovare un valoroso Angelo protettore! Dato il dolore atroce alla testa non perdi nemmeno tempo a lottare ma torni direttamente a casa. Che nottataccia!</value>
   </string>
   <string key="HunterFell">
-<!--{0}: cult hunter-->
+<!--{0}: zoombies hunter-->
     <value>Un'altra notte inutile senza aver trovato nemmeno un Vampiro! Frustrato, corri freneticamente tra i sentieri della Foresta Incantata, senza renderti conto di essere entrato nella zona dell'Angelo della Morte {0}. Si sa, lì corre voce che ci siano i fantasmi... non ci credevi finché non li hai visti dirigersi verso di te! Spaventato, provi a fuggire... purtroppo inciampi e batti la testa su una roccia affilata lì vicino. La ferita è troppo profonda, purtoppo non sopravvivi...</value>
   </string>
   <string key="HunterFellDigger">
 <!--{0}: Zombie-->
     <value>Dopo un'altra lunga notte, ritorni alla tua casa mentre il sole sta già sorgendo. Prima di arrivare, trovi il corpo di {0} immerso in una pozza di sangue. Se il Cacciatore di Vampiri non avesse avuto tanta fretta, probabilmente non sarebbe caduto sopra a quel masso appuntito...</value>
   </string>
-  <string key="CultFell">
+  <string key="zoombiesFell">
 <!--{0}: Zombie who fell, {1}: grave digger-->
     <value>Ti avvii verso casa dopo una faticosa nottata, quando senti un urlo riecheggiare fra gli alberi. Ti rechi subito sul posto, solo per trovare le ceneri di {0}. A quanto pare un Vampiro voleva convertirti ma... chissà cosa sarà successo, non è riuscito ad evitare i raggi del sole!</value>
   </string>
-  <string key="CultConvertGraveDigger">
+  <string key="zoombiesConvertGraveDigger">
 <!--{0}: grave digger-->
     <value>Mentre vai a casa di {1}, {0} ti suggerisce di fare in fretta perché il sole sta sorgendo... Sei talmente impegnato ad osservare quei fantasmi che ti dimentichi del tuo compito e non ti accorgi che i tuoi compagni se ne sono già andati. Ormai è tardi per chiedere aiuto: non appena il sole fa capolino, il tuo corpo inizia a prendere fuoco e tu ti trasformi in un mucchietto di cenere!</value>
   </string>

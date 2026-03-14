@@ -19,7 +19,7 @@ namespace Werewolf_Node.Helpers
             { "SpumpkinFailDetonate", "You carried the large pumpkin towards {0} and... seems like this pumpkin is not big enough for it to detonate... Go home and keep plowing!" },
             { "BlackDeathWinner", "Congratulations, {0}, YOU survived the {1} alone! Happy April Fool's!" },
             { "BlackDeathKilledAll", "Everybody in the village was killed by the {0} and only corpses are lying around! Happy April Fool's!" },
-            { "BlackDeathLovers", "Congratulations, {0} and {1}, you are so madly in love that you even managed to survive the {2} together! Happy April Fool's!" },
+            { "BlackDeathcrewmates", "Congratulations, {0} and {1}, you are so madly in love that you even managed to survive the {2} together! Happy April Fool's!" },
         };
     }
 }

@@ -382,33 +382,33 @@
     <!-- 1 - target name -->
     <value >نظر {0} اینه که {1} رو تبدیل کنید</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <!-- 0 - Yougest Zombie (killed)'s name' -->
     <!-- 1 - ZombieHunter's name -->
     <value>خب {0} رفت که {1} رو به مزرعه دعوت کنه ولی {1} چارلز بود و دستگیرش کرد!</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - Number of Zombies left -->
     <value>یکی از اهالی مزرعه {0} اومد تورو هم به مزرعه دعوت کنه توهم دستگیرش کردی حالا {1} نفر دیگه تو مزرعه باقی موندن</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>تو با موفقیت وارد مزرعه شدی  </value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <!-- 0 - Number of Zombies -->
     <value>دوستای تو عبارتند از {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <!-- 0 - new Zombie's name -->
     <value>دعوت دیشبتون موثر بود و {0} حالا به عضویت مزرعه درومده.</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <!-- 0 - Newest Zombie's name -->
     <!-- 1 - target name -->
     <value>عضو مزرعه {0} رفت که {1} رو به مزرعه دعوت کنه اما خونه نبود!</value>
   </string>
-  <string key="CultWins" isgif="true">
+  <string key="zoombiesWins" isgif="true">
     <value >کل ریوردیل پر شده از افراد فرقه گرا!! فرقه گراها بردن</value>
   </string>
   <string key="HunterVisitDead">
@@ -513,7 +513,7 @@
     <value>   افعی های دیگه عبارتند از {0}</value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <!-- 0 - Youngest Zombies name -->
     <value>عضو جدید فرقه رفت خونه {0} که به راه راست هدایتش کنه ولی دید کشته شده</value>
   </string>
@@ -522,7 +522,7 @@
     <value>دیشب گارگویل ها رفتن خونه {0} که بکشنش ولی آرچی مثل مرد ازش محافظت کرد</value>
   </string>
   <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <!-- 0 - newest  -->
     <!-- 1 - target's name -->
     <value>دیشب {0} رفت که {1} رو به مزرعه دعوت کنه اما اون قبول نکرد!</value>
@@ -533,7 +533,7 @@
     <!-- 1 - name -->
     <value>جناب {0} @{1} یه بازیکن هم اسم تو توی بازیه، اسمتو عوض کن تا بتونی وارد بازی بشی</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <!-- 0 - target's name -->
     <value>از صحبت های {0} فهمیدی که یکی از اعضای مزرعست!</value>
   </string>
@@ -630,7 +630,7 @@
   <value>وقت تموم شد!</value>
   </string>
   <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
     <value>تو کوین کلر هستی دو نفرو انتخاب کن که باهم اشناشون کنی!</value>
   </string>
   <string key="RoleInfoDoppelganger">
@@ -642,7 +642,7 @@
   <string key="RoleInfoSerialKiller">
     <value>تو بلک هود🔪 هستی هرشب یه گناهکارو انتخاب میکنی تا به سزای اعمالش برسونی.</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>تو عاشق {0} شدی. اگه یکیتون بمیره اون یکی هم از غمش میمیره</value>
 	<value>کوین کلر {0} بهت معرفی میکنه حالا تو عاشقش شدی اگه اون بمیره تو هم از غمش میمیری</value>
   </string>
@@ -678,7 +678,7 @@
     <!-- 2 - target's role -->
     <value>کلانتر یعنی {0} آخرین لحظه تفنگشو در آورد و {1} رو کشت. {2}</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <value>دیشب {0} رفت که  {1} به فرقه دعوت کنه اما شما فقط صدای جیغش رو شنیدید {0} هیچوقت برنگشت.</value>
   </string>
   <string key="HunterShotWolfMulti">
@@ -701,7 +701,7 @@
     <!-- 0 - target's name -->
     <value>رفتی {0} رو به قتل برسونی ولی ارچی جلوتو گرفت</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
     <value>عضو مزرعه عزیز یعنی {0} رفت که {1} رو به دینش دعوت کنه ولی {1} کلانتر بود و با تفنگش زد {0} رو کشت</value>
@@ -725,12 +725,12 @@
     <!-- 1 - mason collegues's name -->
     <value>خب {0} همزادت بود و مرد. چون اون افعی بود تو هم افعی شدی و بقیه افعی ها عبارت اند از: {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <!-- 0 - new Zombie's name -->
     <value>فنگز، یعنی {0} هم چون یکی از اعضای مزرعه رو به عنوان مدل انتخاب کرده بود الان عضو مزرعه شد.</value>
   </string>
 
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <!-- 0 - role's name -->
     <!-- 1 - teammates's name -->
     <value>همزادت یعنی {0} مرد و چون از اعضای مزرعه بود تو هم عضو مزرعه شدی. بقیه اعضای مزرعه عبارت اند از: {1}</value>
@@ -750,25 +750,25 @@
   <string key="AskKill">
     <value>کدوم یکی از اهالی گناهکار ریوردیل رو میخوای بکشی؟</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <!-- 0 - dead's name -->
-    <!-- 1 - lover's name -->
+    <!-- 1 - crewmate's name -->
     <!-- 2 - roles -->
     <value>با مرگ {0} عشق ابدیش یعنی {1} هم خودشو انداخت روی جنازش و انقدر گریه کرد تا مرد. {2}</value>
   </string>
   <string key="AskDoppelganger">
     <value>میخوای همزاد کی بشی؟ اگه بمیره تو نقششو بر عهده میگیری</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>کیا رو میخوای عاشق همدیگه بکنی؟ نفر اول رو انتخاب کن</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>کیا رو میخوای عاشق همدیگه بکنی؟ نفر دوم رو انتخاب کن</value>
   </string>
   <string key="Hunter">
     <value>اف پی جونز 🎯</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>کوین کلر💘</value>
   </string>
   <string key="SerialKiller">
@@ -782,7 +782,7 @@
     <!-- 0 - target's name -->
     <value>تو ریکی ای و الگوت کسی نیست جز {0}</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
     <value>عاشقا برنده شدن</value>
   </string>
   <string key="HunterKilledVisiter">
@@ -790,7 +790,7 @@
     <!-- 1 - role -->
     <value>خب دیشب {0} رف خونه کلانتر فضولی کنه. کلانتر هم دخلشو آورد. {1}</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>دیشب اعضای مزرعه اومدن تا به مزرعه دعوتت کنن اما تو گولشونو نخوردی</value>
   </string>
   <string key="AlreadyOnWaitList">
@@ -875,7 +875,7 @@
   <string key="AboutFool">
     <value>به احمق گفته میشه که بتیه اما وقتی سعی میکنه هویت یه نفر رو بفهمه یه هویت به صورت تصادفی بهش گفته میشه</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>اعضای مزرعه 👤 عضو فرقه ای با مراسمات مذهبی خاص هستند که هرشب میتونند یک نفرو به مزرعه دعوت بدن تا وارد فرقشون بشه.</value>
   </string>
   <string key="AboutCH">
@@ -897,7 +897,7 @@
     <value> تو فنگز هستی یه نفرو انتخاب میکنی تا بعد از مردنش جایگزینش بشی و به گروهش ملحق شی.
   !</value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>
       تو کوین کلر  هستی پسر خوبی که افراد جدید رو باهم اشنا میکنه تا اونها وارد رابطه بشن! کسایی که بهم معرفی میکنی عاشق هم میشن طوری که اگر یکیشون بمیره اون یکی هم از غمش میمیره</value>
   </string>
@@ -1073,10 +1073,10 @@
   <string key="AllowTannerA">
     <value>نقش جیسون بلاسم: {0}</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>نقش عضو مزرعه فعال باشه؟\n حالت فعلی‌: {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>نقش عضو مزرعه:{0}</value>
   </string>
   <string key="ThankYou">
@@ -1228,7 +1228,7 @@
   <string key="SerialKillerTeam">
     <value>گروه قاتل زنجیره ای</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>گروه فرقه</value>
   </string>
   <string key="TannerTeam">
@@ -1246,13 +1246,13 @@
   <string key="SerialKillerTeamEnd">
     <value>گروه قاتل زنجیره ای</value>
   </string>
-  <string key="CultTeamEnd">
+  <string key="zoombiesTeamEnd">
     <value>گروه فرقه</value>
   </string>
   <string key="TannerTeamEnd">
     <value>گروه جیسون بلاسم</value>
   </string>
-    <string key="CultConvertWolf">
+    <string key="zoombiesConvertWolf">
     <value>دیشب {0} به قصد دعوت دادن {1} از مزرعه خارج شد اما جنازش با لب های آبی وسط جنگل پیدا شد .!</value>
   </string>
   <string key="HarlotFuckedKilledPublic"> <!-- used when Harlot visit's SK's victim, and dies -->
@@ -1271,7 +1271,7 @@
   <string key="ZombieKilled">
     <value>دیشب بلک هود به مزرعه حمله کرد و یکی از پیروانش {0} رو به قتل رسوند!!</value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>کوین کلر عزیزمون {0} دیشب به فجیع ترین شکل‌ ممکن به قتل رسید😔 اون افراد زیادی و باهم آشنا کرده بود روحش شاد.!</value>
   </string>
   <string key="DrunkKilled">
@@ -1301,10 +1301,10 @@
   <string key="SerialKillerKilledCH"> <!--used when CH visits SK-->
     <value>چارلز اسمیت {0} رفت یه نفر دیگه رو دستگیر کنه اما متاسفانه اون بلک هود بود و به طرز وحشی ای کشتش.</value>
   </string>
-  <string key="CultConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
+  <string key="zoombiesConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
     <value>دیشب {0} رفت که یک نفر رو به مزرعه دعوت کنه اما اون یکی از اعضای گارگویل ها بود و اونو قربانی کرد</value>
   </string>
-  <string key="CultConvertKillerPublic"> <!--used when Zombies convert the SK-->
+  <string key="zoombiesConvertKillerPublic"> <!--used when Zombies convert the SK-->
     <value>صبح روز بعد جسد {0} با لباس سرتاپا سفید کنار خیابون پیدا شد شاید اون نباید به خونه بلک هود میرفت تا دعوتش کنه!!</value>
   </string>
   
@@ -1396,7 +1396,7 @@
     <!-- {0} = list of people who have joined -->
     <value>{0} در 30 ثانیه گذشته جوین شدند </value>
   </string>
-  <string key="AllowCult">
+  <string key="Allowzoombies">
     <value>عضو مزرعه</value>
   </string>
   <string key="AllowTanner">
@@ -1634,7 +1634,7 @@
       <!-- 0 - mason collegues's name -->
       <value>هم تیمی های شما(درصورت وجود) عبارت اند از:{0}.</value>
     </string>
-    <string key="ThiefToCult">
+    <string key="ThiefTozoombies">
       <!-- 0 - old Zombie's name -->
       <!-- 1 - new Zombie's name -->
       <value>حاجی {0} دیگه هم تیمی شما نیست به جاش {1} عضو مزرعه  شده دقیقا مثل شماها.</value>
@@ -1995,16 +1995,16 @@
   <string key="HunterFell">
 	<value> یه شب دیگه بدون اینکه بتونید کسی رو دستگیر  کنید به خانه برمیگردید، ناامید در قبرستان قدم میزنید و ناگهان به داخل یک قبر میوفتید. شما فریاد میزنید و {0} به سراغ شما میاد اما خیلی دیر شده! </value>
   </string>
-  <!--{0}: cult hunter-->
+  <!--{0}: zoombies hunter-->
   <string key="HunterFellDigger">
 	<value> بعد از یک شب خسته کننده شما به خانه برمیگردید قبل از اینکه وارد خانه شوید دستبندی کنار یک قبر میبینید مثل اینکه چارلز یعنی {0} توی قبر افتاده</value>
   </string>
   <!--{0}: Zombie-->
-  <string key="CultFell">
+  <string key="zoombiesFell">
 	<value> بعد از یک شب خسته کننده در راه خانه صدای فریادی از یک قبر ناتمام خود میشنوید، با عجله به آنجا میروید و {0} رو میبینید که اومده دعوت شما آخه کدوم عاقلی گورکن رو به مزرعه دعوت میکنه؟</value>
   </string>
   <!--{0}: Zombie who fell, {1}: grave digger-->
-  <string key="CultConvertGraveDigger">
+  <string key="zoombiesConvertGraveDigger">
 	<value> در راه خانه {1} ناگهان {0} تصمیم میگیرد به سراغ یک کلیسا برود. اما در قبرستان داخل یک قبر افتاد. شما صدای فریاد او را قبل از افتادن میشنوید اما برای نجات خود فرار میکند! </value>
   </string>
   <!--{0}: grave digger-->

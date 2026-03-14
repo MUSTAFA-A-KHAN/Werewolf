@@ -167,7 +167,7 @@
     <value>你係學徒先知🙇 /aboutAppS</value>
   </string>
   <string key="RoleInfoZombie" >
-    <value>你係邪教👤 /aboutCult</value>
+    <value>你係邪教👤 /aboutzoombies</value>
   </string>
   <string key="RoleInfoZombieHunter" >
     <value>你係邪殺💂 /aboutCH</value>
@@ -299,25 +299,25 @@
   <string key="ZombieVotedConvert" >
     <value>{0} 想拉 {1}</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <value>{1} 係邪殺 {0} 死左</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <value>邪教 {0} 去左拉你 俾你殺左\n仲有{1}個</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>你入左教</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>邪教\n{0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <value>{0} 入左教</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <value>{1} 唔係屋企\n{0} 白費心機</value>
   </string>
-  <string key="CultWins" >
+  <string key="zoombiesWins" >
     <value>邪贏👤\n/startgame 正常版\n/startchaos 混亂版</value>
   </string>
   <string key="HunterVisitDead">
@@ -414,21 +414,21 @@
     <value>廢共\n{0}</value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <value>{0} 俾狼食左 無得拉</value>
   </string>
   <string key="GuardBlockedWolf">
     <value>守天守左 {0}</value>
   </string>
   <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <value>{0} 拉 {1} 入教 但係失敗</value>
   </string>
   <!-- new string May 12 2016-->
   <string key="NameExists">
     <value>@{1}\n已經有人叫 {0} 請改名再入場</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <value>{0} 係 邪教👤</value>
   </string>
   <!-- new string May 13 2016-->
@@ -465,8 +465,8 @@
   <value>夠鐘</value>
   </string>
   <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
-    <value>你係丘比特🏹 /aboutCupid</value>
+  <string key="RoleInfoRecruiter">
+    <value>你係丘比特🏹 /aboutRecruiter</value>
   </string>
   <string key="RoleInfoDoppelganger">
     <value>你係分身🎭 /aboutDG</value>
@@ -477,7 +477,7 @@
   <string key="RoleInfoSerialKiller">
     <value>你係連殺🔪 /aboutSK</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>你同 {0} 係情侶</value>
   </string>
   <string key="HunterLynchedChoice">
@@ -504,7 +504,7 @@
   <string key="HunterKilledFinalShot">
     <value>獵人 {0} 殺左 {1}\n{2} (反殺)</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <value>{1} 係連殺 {0} 死左</value>
   </string>
   <string key="HunterShotWolfMulti">
@@ -522,7 +522,7 @@
   <string key="GuardBlockedKiller">
     <value>守天守左 {0}</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <value>{1} 係 獵人🎯 {0} 死左</value>
   </string>
   <string key="GuardKiller">
@@ -540,10 +540,10 @@
   <string key="DGTransformToMason">
     <value>{0} 死左 你變左廢共\n廢共\n{1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <value>分身 {0} 變左做邪教</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <value>{0} 死左 你變左邪教\n邪教\n{1}</value>
   </string>
   <string key="DGToWolf">
@@ -558,22 +558,22 @@
   <string key="AskKill">
     <value>殺邊個</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <value>{0} 同 {1} 係情侶 所以 {1} 死埋\n{2}</value>
   </string>
   <string key="AskDoppelganger">
     <value>分邊個</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>邊個做情侶</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>邊個做情侶</value>
   </string>
   <string key="Hunter">
     <value>獵人🎯</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>丘比特🏹</value>
   </string>
   <string key="SerialKiller">
@@ -585,13 +585,13 @@
   <string key="NewWCRoleModel">
     <value>你係野仔👶\n你隻替死鬼係 {0}</value>
   </string>
-  <string key="LoversWin" isgif="true">
+  <string key="crewmatesWin" isgif="true">
     <value>情侶贏❤️\n/startgame 正常版\n/startchaos 混亂版</value>
   </string>
   <string key="HunterKilledVisiter">
     <value>獵人殺左 {0}\n{1}</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>邪教拉唔到你</value>
   <!-- New strings 15 June 2016-->
   </string>
@@ -666,7 +666,7 @@
   <string key="AboutFool">
     <value>【白痴仔】\n系統會同你講你係先知\n你每晚都同先知一樣可以「查」一個人嘅身份 不過系統多數都係呃你</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>【邪教會員】\n每晚拉一個人（除左狼同分身）\n啲人如果唔喺屋企就唔會俾你拉入教\n入左教既人會失去原來既身份\n邪教殺手／連環殺手會殺左你\n入教機率\n40% 先知\n50% 獵人 拉唔倒獵人 佢有 50% 殺左你\n60% 被詛咒 守天\n70% 偵探 妓女 100% 廢共 醉酒佬 旁觀者 槍手 叛徒 學徒先知 野仔 白痴仔 邱比特 皮匠\n最後無晒狼同連殺而且全村人都入晒教就贏</value>
   </string>
   <string key="AboutCH">
@@ -687,7 +687,7 @@
   <string key="AboutDG">
     <value>【分身】第一晚揀一個目標 佢死咗 你變佢個身份\n分身唔會俾人拉入邪教 要變左身先得\n分身喺遊戲結束時仲未變到身 就會輸</value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>【邱比特】第一晚揀兩個人做情侶 其中一個死咗 另一個都會死\n佢地會互相知道邊個佢嘅愛人 但唔會知道對方嘅身份\n最後得番戀人既話 佢地獨贏\n其中一個贏左 另一個都會贏</value>
   </string>
   <string key="AboutHunter">
@@ -855,10 +855,10 @@
   <string key="AllowTannerA">
     <value>已{0}玩家抽中皮匠</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>准許玩家抽中邪教？\n當前設定 {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>已{0}玩家抽中邪教會員</value>
   </string>
   <string key="ThankYou">
@@ -1016,13 +1016,13 @@
   <string key="SerialKillerTeamEnd">
     <value>連殺陣營</value>
   </string>
-  <string key="CultTeamEnd">
+  <string key="zoombiesTeamEnd">
     <value>邪教陣營</value>
   </string>
   <string key="TannerTeamEnd">
     <value>皮匠陣營</value>
   </string>
-  <string key="CultConvertWolf">
+  <string key="zoombiesConvertWolf">
     <value>{1}係狼 {0}死左</value>
   </string>
   <string key="HarlotFuckedKilledPublic">
@@ -1039,7 +1039,7 @@
   <string key="ZombieKilled">
     <value>連殺殺左 {0}\n{0} 係 邪教👤</value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>連殺殺左 {0}\n{0} 係 丘比特🏹</value>
   </string>
   <string key="DrunkKilled">
@@ -1069,10 +1069,10 @@
   <string key="SerialKillerKilledCH"> <!--used when CH visits SK-->
     <value>連殺殺左 {0}\n{0} 係 邪殺💂 (邪殺搵連殺)</value>
   </string>
-  <string key="CultConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
+  <string key="zoombiesConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
     <value>狼食左 {0}\n{0} 係 邪教👤 (邪教拉狼)</value>
   </string>
-  <string key="CultConvertKillerPublic"> <!--used when Zombies convert the SK-->
+  <string key="zoombiesConvertKillerPublic"> <!--used when Zombies convert the SK-->
     <value>連殺殺左 {0}\n{0} 係 邪教👤 (邪教拉連殺)</value>
     </string>
   <string key="GAGuardedKiller">
@@ -1167,7 +1167,7 @@
   <string key="RandomModeA">
     <value>隨機 {0}</value>
   </string>
-    <string key="AllowCult">
+    <string key="Allowzoombies">
     <value>有邪</value>
   </string>
   <string key="AllowTanner">

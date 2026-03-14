@@ -380,33 +380,33 @@
     <!-- 1 - target name -->
     <value >نظر {0} اینه که {1} رو دعوت کنین</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <!-- 0 - Yougest Zombie (killed)'s name' -->
     <!-- 1 - ZombieHunter's name -->
     <value>خب {0} رفت که {1} رو به قبیله دعوت کنه غافل از اینکه {1} خود لوک خوش شانسه و آبکشش کرد!</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - Number of Zombies left -->
     <value>دیشب {0} اومد به قبیله دعوتت کنه ولی تو زدی کشتیش! {1} باقی مونده</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>تو الان عضو قبیله سرخ پوستا هستی و هر شب با بقیه یارات باید یه نفرو به قبیله خودتون دعوت کنین</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <!-- 0 - Number of Zombies -->
     <value>سرخ پوست ها: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <!-- 0 - new Zombie's name -->
     <value>الان {0} عضو قبیله سرخ پوستها شد</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <!-- 0 - Newest Zombie's name -->
     <!-- 1 - target name -->
     <value>خب  {0} رفت {1} رو به قبیله دعوت کنه ولی خونه نبود</value>
   </string>
-  <string key="CultWins" isgif="true">
+  <string key="zoombiesWins" isgif="true">
     <value >همه دالتون ها مردن و فقط اعضای قبیله سرخ پوست ها باقی موندن. سرخ پوست ها بردن</value>
   </string>
   <string key="HunterVisitDead">
@@ -511,7 +511,7 @@
     <value>  کشیش های دیگه عبارت اند از: {0}</value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <!-- 0 - Youngest Zombies name -->
     <value>عضو جدید قبیله رفت خونه {0} که اونو به قبیله دعوت کنه ولی دید کشته شده</value>
   </string>
@@ -520,7 +520,7 @@
     <value>دیشب دالتون ها رفتن خونه {0} که بکشنش ولی جالی با دو تا جفتگ مانعشون شد</value>
   </string>
   <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <!-- 0 - newest  -->
     <!-- 1 - target's name -->
     <value>دیشب {0} رو فرستادین که {1} رو به قبیله سرخ پوست ها دعوت کنه ولی قبول نکرد</value>
@@ -531,7 +531,7 @@
     <!-- 1 - name -->
     <value>جناب {0} @{1} یه بازیکن هم اسم تو توی بازیه، اسمتو عوض کن تا بتونی وارد بازی بشی</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <!-- 0 - target's name -->
     <value>دیشب که رفتی خونه {0} دیدی که داره دورآتیش سرخ پوستی میرقصه !</value>
   </string>
@@ -628,7 +628,7 @@
   <value>وقت تموم شد!</value>
   </string>
   <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
     <value>تو الهه عشقی! تیرتو بزن تو قلب دو نفر که عاشق همدیگه بشن! اگه یکی بمیره اون یکی هم از عشق یارش میمیره</value>
   </string>
   <string key="RoleInfoDoppelganger">
@@ -640,7 +640,7 @@
   <string key="RoleInfoSerialKiller">
     <value>تو بیلی کوچیکه هستی. هر شب یه نفرو میکشی و بدنشو به کلکسیونت اضافه میکنی. هدف تو اینه که همه رو بکشی!</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>تو عاشق {0} شدی. اگه یکیتون بمیره اون یکی هم از غمش میمیره</value>
 	<value>الهه عشق تیرش رو تو قلب تو و {0} زده. حالا اگه اون بمیره تو هم از غمش میمیری</value>
   </string>
@@ -676,7 +676,7 @@
     <!-- 2 - target's role -->
     <value>کلانتر یعنی {0} آخرین لحظه تفنگشو در آورد و {1} رو کشت. {2}</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <value>سرخ پوست عزیزمون یعنی {0} رفت خونه ی بیلی کوچیکه یعنی {1} که به قبیله دعوتش کنه ولی {1} تک تک اعضای بدنشو به ترتیب حروف الفبا برید و گذاشت تو شیشه الکل</value>
 	<value>سرخ پوست عزیز یعنی {0} رفت بیلی کوچیکه یعنی {1} رو به قبیله دعوت کنه ولی کشته شد</value>
   </string>
@@ -700,7 +700,7 @@
     <!-- 0 - target's name -->
     <value>رفتی {0} رو به قتل برسونی ولی جالی جلوتو گرفت</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
     <value>سرخ پوست عزیز یعنی {0} رفت که {1} رو به قبیلش دعوت کنه ولی {1} کلانتر بود و با تفنگش زد {0} رو کشت</value>
@@ -724,12 +724,12 @@
     <!-- 1 - mason collegues's name -->
     <value>خب {0} همزادت بود و مرد. چون اون کشیش بود تو هم کشیش شدی و بقیه کشیش ها عبارت اند از: {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <!-- 0 - new Zombie's name -->
     <value>همزاد، یعنی {0} هم چون یکی از اعضای قبیله سرخ پوستها رو به عنوان الگو انتخاب کرده بود الان سرخ پوست شد.</value>
   </string>
 
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <!-- 0 - role's name -->
     <!-- 1 - teammates's name -->
     <value>همزادت یعنی {0} مرد و چون سرخ پوست بود تو هم سرخ پوست شدی. بقیه سرخ پوست ها عبارت اند از: {1}</value>
@@ -749,25 +749,25 @@
   <string key="AskKill">
     <value>کیو میخوای امشب بکشی؟</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <!-- 0 - dead's name -->
-    <!-- 1 - lover's name -->
+    <!-- 1 - crewmate's name -->
     <!-- 2 - roles -->
     <value>با مرگ {0} عشق ابدیش یعنی {1} هم خودشو انداخت روی جنازش و انقدر گریه کرد تا مرد. {2}</value>
   </string>
   <string key="AskDoppelganger">
     <value>میخوای همزاد کی بشی؟ اگه بمیره تو نقششو بر عهده میگیری</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>کیا رو میخوای عاشق همدیگه بکنی؟ نفر اول رو انتخاب کن</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>کیا رو میخوای عاشق همدیگه بکنی؟ نفر دوم رو انتخاب کن</value>
   </string>
   <string key="Hunter">
     <value>کلانتر🎯</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>الهه عشق💘</value>
   </string>
   <string key="SerialKiller">
@@ -781,7 +781,7 @@
     <!-- 0 - target's name -->
     <value>تو بچه لاتی و الگوت کسی نیست جز {0}</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
     <value>عاشقا برنده شدن</value>
   </string>
   <string key="HunterKilledVisiter">
@@ -789,7 +789,7 @@
     <!-- 1 - role -->
     <value>خب دیشب {0} رف خونه کلانتر شیطنت کنه. کلانتر هم دخلشو آورد. {1}</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>یه سرخ پوست دیشب میخواست تو رو هم دعوت کنه ولی ایمانت قوی تر از این حرفا بود که گولشو بخوری</value>
   </string>
   <string key="AlreadyOnWaitList">
@@ -873,7 +873,7 @@
   <string key="AboutFool">
     <value>به احمق گفته میشه که دیده بانه اما وقتی سعی میکنه نقش یه نفر رو بفهمه یه نقش به صورت تصادفی بهش گفته میشه</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>به عنوان رییس قبیله سرخ پوست ها،  هدف شما آینه که همه ی بازیکن های باقی مونده به تو ایمان بیارند و به قبیلت بیان ، وقتی برنده میشی که همه ی کابوی های زنده عضو قبیله ی تو باشن.</value>
   </string>
   <string key="AboutCH">
@@ -898,7 +898,7 @@
 یک همزاد تا قبل از اینکه جای کسی رو بگیره نمیتونه برنده بازی باشه!مگر اینکه عاشق باشه
     </value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>
       عشق در زندگی جریان داره! به عنوان الهه ی عشق در ابتدای بازی دو نفر رو انتخاب میکنی و اون دو نفر دیوانه وار عاشق هم میشن💕اگه یکی از عاشقا بمیره اون یکی هم از غمش میمیره اگه تو آخر بازی یکی از عاشقا برنده بشه آون یکی هم به طور اتوماتیک برنده حساب میشه حتی اگه توی تیم مخالف باشه!(مثال:دالتون و کابوی)
     </value>
@@ -1078,10 +1078,10 @@
   <string key="AllowTannerA">
     <value>نقش خائن: {0}</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>نقش سرخ پوست فعال باشه؟\n حالت فعلی: {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>نقش سرخ پوست ها: {0}</value>
   </string>
   <string key="ThankYou">
@@ -1233,7 +1233,7 @@
   <string key="SerialKillerTeam">
     <value>گروه بیل کوچیکه</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>گروه سرخ پوست ها</value>
   </string>
   <string key="TannerTeam">
@@ -1251,13 +1251,13 @@
   <string key="SerialKillerTeamEnd">
     <value>گروه بیل کوچیکه</value>
   </string>
-  <string key="CultTeamEnd">
+  <string key="zoombiesTeamEnd">
     <value>گروه سرخ پوست ها</value>
   </string>
   <string key="TannerTeamEnd">
     <value>گروه آدم فروش</value>
   </string>
-    <string key="CultConvertWolf">
+    <string key="zoombiesConvertWolf">
     <value>دیشب سرخ پوست ها{0} رو فرستادن تا {1} رو به قبیله دعوت کنه، اما سَر {0} رو دیدن که از پنجره خونه {1} به بیرون پرتاب شده! {0} مرده!</value>
   </string>
   <string key="HarlotFuckedKilledPublic"> <!-- used when Harlot visit's SK's victim, and dies -->
@@ -1278,7 +1278,7 @@
   <string key="ZombieKilled">
     <value>دیشب بیلی کوچیکه به سرخ پوست ها حمله کرد و {0} رو به قتل رسوند!</value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>صبح روز بعد کابوی ها جنازه {0} رو پیدا کردن! دیگه توی غرب وحشی خبری از عشق نخواهد بود! الهه عشق مرده!</value>
   </string>
   <string key="DrunkKilled">
@@ -1308,10 +1308,10 @@
   <string key="SerialKillerKilledCH"> <!--used when CH visits SK-->
     <value>لوک خوش شانس{0} مشغول پیداکردن سرخ پوست ها بود اما درست زمانی که داشت توی جنگل قدم میزد بیلی کوچیکه بهش حمله میکنه و میکشتش ،ظاهرا اینبار لوک خوش شانس ، شانسشو جا گذاشته بود!</value>
   </string>
-  <string key="CultConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
+  <string key="zoombiesConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
     <value>دیشب {0} رفت که دالتون ها رو دعوت کنه به قبیله ! ولی دالتون ها بهش حمله کردن و جنازه تکه تکه شدشو توی نقاط مختلف شهر پخش کردن!</value>
   </string>
-  <string key="CultConvertKillerPublic"> <!--used when Zombies convert the SK-->
+  <string key="zoombiesConvertKillerPublic"> <!--used when Zombies convert the SK-->
     <value>شب قبل سرخ پوست ها میخواستن یک عضو جدید رو به قبیله دعوت کنن، {0} مامور شد که یکی رو به قبیله دعوت کنه، اما دیگه خبری از {0} نشد! صبح روز بعد اعضای قبیله جنازه {0} رو توی شهر پیدا میکنن! بیلی کوچیکه {0} رو کشته!</value>
   </string>
   
@@ -1401,7 +1401,7 @@
     <!-- {0} = list of people who have joined -->
     <value>{0} در جوین شدند ، 30 ثانیه به افتخارشون به زمان ورود به بازی اضافه میشه!</value>
   </string>
-  <string key="AllowCult">
+  <string key="Allowzoombies">
     <value>سرخ پوست</value>
   </string>
   <string key="AllowTanner">
@@ -1644,7 +1644,7 @@
       <!-- 0 - mason collegues's name -->
       <value>هم تیمی های شما(درصورت وجود) عبارت اند از:{0}.</value>
     </string>
-    <string key="ThiefToCult">
+    <string key="ThiefTozoombies">
       <!-- 0 - old Zombie's name -->
       <!-- 1 - new Zombie's name -->
       <value>هی کابوی ، {0} دیگه همتیمی شما نیست به جاش {1} سرخ پوست شده دقیقا مثل شماها.</value>

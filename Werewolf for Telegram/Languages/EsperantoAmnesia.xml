@@ -308,25 +308,25 @@
   <string key="ZombieVotedConvert" >
     <value >{0} voĉis por ion fari al {1}</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <value>{0} iris ĉe {1} kaj mortis!</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <value>{0} mortis. Ial tio gravas... Ankaŭ strange gravas nombro: {1}...</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>Via rolo ŝanĝiĝis.. sed de kiu al kiu?</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>Vi ne memoras kiu vi estas, sed vi ial memoras la nomon de {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <value>Inter la nomoj en via menso, subite aldoniĝas tiu de {0}...</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <value>{0} iris ĉe {1}, sed neniu estis hejme...</value>
   </string>
-  <string key="CultWins" >
+  <string key="zoombiesWins" >
     <value >Ĉiuj lupoj mortis, kaj ĉiuj supervivantoj estas sektanoj. La sekto venkas!</value>
   </string>
   <string key="HunterVisitDead">
@@ -423,21 +423,21 @@
     <value> Vi ne memoras kiu vi estas, sed vi ial memoras la nomon de {0}</value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <value>{0} jam mortis!</value>
   </string>
   <string key="GuardBlockedWolf">
     <value>Ho, kio okazis ĉe {0}..? Ĉu eĉ nenio..?</value>
   </string>
   <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <value>{0} iris ĉe {1}, sed ne memoras kio okazis...</value>
   </string>
   <!-- new string May 12 2016-->
   <string key="NameExists">
     <value>@{1}, jam aliĝis ludanto nomata {0}. Bonvolu ŝanĝi vian nomon por aliĝi.</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <value>Vi ne bone memoras kiu estas vi, sed vi certas ke {0} estas Sektano 👤!</value>
   </string>
   <!-- new string May 13 2016-->
@@ -515,7 +515,7 @@
 	<value>Tempo finiĝis!</value>
   </string>
   <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
     <value>Strange... Vi klopodas, sed ne povas memori kiu vi estas :/ Sed vi ja scias, ke vi ion devas fari dumnokte!</value>
   </string>
   <string key="RoleInfoDoppelganger">
@@ -527,7 +527,7 @@
   <string key="RoleInfoSerialKiller">
     <value>Strange... Vi klopodas, sed ne povas memori kiu vi estas :/ Sed vi ja scias, ke vi ion devas fari dumnokte!</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>Vi ne memoras kiu vi estas, sed vi ial memoras la nomon de {0}</value>
   </string>
   <string key="HunterLynchedChoice">
@@ -554,7 +554,7 @@
   <string key="HunterKilledFinalShot">
     <value>Kiam la kuglo traboras {0}, li falas teren, sed tuj atingas sian pafilon kaj pafas al {1}, kiu ricevas kuglon ĝuste inter siajn okulojn. {2}</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <value>{0} iris ĉe {1} kaj mortis!</value>
   </string>
   <string key="HunterShotWolfMulti">
@@ -572,10 +572,10 @@
   <string key="GuardBlockedKiller">
     <value>Ho, kio okazis ĉe {0}..? Ĉu eĉ nenio..?</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <value>{0} iris ĉe {1} kaj mortis!</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <value>{0} iris ĉe {1} kaj mortis!</value>
   </string>
   <string key="GuardKiller">
@@ -593,10 +593,10 @@
   <string key="DGTransformToMason">
     <value>Via rolo ŝanĝiĝis.. sed de kiu al kiu? Ĉu tio rilatas al morto de {0}, eble...? Subite vi memoras la nomojn de {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <value>Inter la nomoj en via menso, subite aldoniĝas tiu de {0}...</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <value>Via rolo ŝanĝiĝis.. sed de kiu al kiu? Ĉu tio rilatas al morto de {0}, eble...? Subite vi memoras la nomojn de {1}</value>
   </string>
   <string key="DGToWolf">
@@ -611,22 +611,22 @@
   <string key="AskKill">
     <value>Vi scias ke vi devus fari ion al iu... Eble vi ne scias kion, sed nu, elektu iun...</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <value>Kiam {0} mortas, {1} tuj kuras kaj falas plorante, ne tolerante la perdon de sia amato, kaj sin pafas per la plej proksima pafilo. {2}</value>
   </string>
   <string key="AskDoppelganger">
     <value>Vi scias ke vi devus fari ion al iu... Eble vi ne scias kion, sed nu, elektu iun...</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>Vi scias ke vi devus fari ion al iu... Eble vi ne scias kion, sed nu, elektu iun... Vi devas elekti iun ankoraŭ 2-foje!</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>Vi scias ke vi devus fari ion al iu... Eble vi ne scias kion, sed nu, elektu iun... Vi devas elekti iun ankoraŭ 1-foje!</value>
   </string>
   <string key="Hunter">
     <value>Ĉasisto 🎯</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>Kupido 🏹</value>
   </string>
   <string key="SerialKiller">
@@ -635,19 +635,19 @@
   <string key="Doppelgänger">
     <value>Doppelgänger 🎭</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>Vi ne memoras kiu vi estas, sed vi ial memoras la nomon de {0}</value>
   </string>
   <string key="NewWCRoleModel">
     <value>Via rolo ŝanĝiĝis.. sed de kiu al kiu? Subite vi memoras la nomon de {0}</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
     <value>Vera amo daŭras! La amantoj venkas!</value>
   </string>
   <string key="HunterKilledVisiter">
     <value>En la centra placo de la vilaĝo, oni trovas la kadavron de {0}, multfoje borita de kugloj. Ŝajnas ke {0} provis eniri la domon de la ĉasisto! {1}</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>Ĉu io okazis ĉi-nokte?...</value>
   </string>
   <string key="AlreadyOnWaitList">
@@ -720,7 +720,7 @@
   <string key="AboutFool">
     <value>🃏 FRENEZULO (Vilaĝa teamo)\n\n• Celo: Linĉi ĉiujn malbonulojn (lupojn, sektanojn, murdiston).\n• Priskribo: Li ne scias esti frenezulo, kaj kredas esti divenisto, sed roloj kiujn ili divenas estas hazardaj.\n\n• Rimarko 1: Ĉar roloj kiujn li divenas estas hazardaj, tial ili povas esti eĉ ĝustaj!\n• Rimarko 2: Frenezulo ne estas tute senutila! La roloj kiuj li divenas estas elektita el la vivantaj ludantoj. Do se li divenas rolon, certe iu ludanto havas ĝin!\n• Rimarko 3: Metodo por kontroli ke vi ne estas frenezulo estas diveni dufoje la rolon de unu ludanto. Se vi estas frenezulo, verŝajne vi vidos ĝin malsama. Plie, se vi vidas iun kiel fiulo, certe vi estas frenezulo (la divenisto vidas lin kiel lupo aŭ vilaĝanon).</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>👤 SEKTANO (Sekta teamo)\n\n• Celo: Sektanigi ĉiujn vivantajn ludantojn.\n• Priskribo: Ĉiunokte sektanoj elektas kune, per voĉo, unu ludanton kaj iras ĉe li por sektanigi lin.\n\n• Rimarkindaj okazoj:\n  - Se ili elektas la sektoĉasiston, aŭ la murdiston, li mortigos la lastan aniĝinton.\n  - Se ili elektas la ĉasiston, kaj ne sukcesas sektanigi lin, li mortigos la lastan aniĝinton je 50% probablo.\n  - Se ili elektas masoniston, la aliaj masonistoj ekscios lian sektaniĝon.\n- Probabloj de aniĝo al sekto:\n     Divenisto: 40%\n     Malbenito: 60%\n     Maldeculo: 70% (nur se restas hejme)\n     Gardanĝelo: 60% (nur se restas hejme)\n     Detektivo: 70%\n     Ĉasisto: 50%\n     Nesektanigeblaj roloj: Lupo (ne estas hejme), Sektoĉasisto (vd. supren), Doppelgänger, Murdisto (vd. supren).\n     Ĉiuj ceteraj certe aniĝas al sekto: Vilaĝano, Ebriulo, Observanto, Pafisto, Fiulo, Divenista ĉeflernanto, Kolera infano, Frenezulo, Masonisto, Kupido.</value>
   </string>
   <string key="AboutCH">
@@ -741,7 +741,7 @@
   <string key="AboutDG">
     <value>🎭 DOPPELGÄNGER (Neŭtrala teamo)\n\n• Celo: Aliformiĝi en alian rolon kaj venki per sia nova rolo.\n• Priskribo: Komence de la partio, li elektas ludanton. Kiam tiu mortos, li prenos lian rolon. Doppelgänger ne povas venki se li ne aliformiĝas.</value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>🏹 KUPIDO (Vilaĝa teamo)\n\n• Celo: Linĉi ĉiujn malbonulojn (lupojn, sektanojn, murdiston).\n• Priskribo: Komence de la partio, li elektas du ludantojn por ke ili amu sin reciproke. Se unu el ili mortos, ankaŭ la alia mortas pro sufero. Ili konservas siajn rolojn; tamen, se unu el ili venkas, ankaŭ la alia venkas. Plie, ili havas specialan movbildon se ili estas la lastaj du supervivantoj: tio igas ĉiujn aliajn malvenki.</value>
   </string>
   <string key="AboutHunter">
@@ -810,7 +810,7 @@
   <string key="NotPara">
     <value>Vi ne estas Para...</value>
   </string>
-<!-- Ne tradukitaj: Yes ĝis AllowCultA -->
+<!-- Ne tradukitaj: Yes ĝis AllowzoombiesA -->
   <string key="ThankYou">
     <value>Dankon, ĝis :)</value>
   </string>
@@ -951,10 +951,10 @@
   <string key="AllowTannerA">
     <value>Tanner as a role set to: {0}</value>
   </string>
-  <string key="AllowCultQ">
-    <value>Allow cult as a role option?\nCurrent: {0}</value>
+  <string key="AllowzoombiesQ">
+    <value>Allow zoombies as a role option?\nCurrent: {0}</value>
   </string>
-  <string key="AllowCultA">
-    <value>Cult as a role set to: {0}</value>
+  <string key="AllowzoombiesA">
+    <value>zoombies as a role set to: {0}</value>
   </string>
 </strings>

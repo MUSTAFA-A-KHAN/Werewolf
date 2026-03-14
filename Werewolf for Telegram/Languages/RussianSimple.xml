@@ -309,25 +309,25 @@
 	<string key="ZombieVotedConvert">
 		<value>{0} голосует за {1}.</value>
 	</string>
-	<string key="CultConvertZombieHunter">
+	<string key="zoombiesConvertZombieHunter">
 		<value>{0} пришел к {1}, но тот культхант.</value>
 	</string>
-	<string key="ZombieHunterKilledCultVisit">
+	<string key="ZombieHunterKilledzoombiesVisit">
 		<value>{0} попытался тебя завербовать. Осталось {1} секты.</value>
 	</string>
-	<string key="CultConvertYou">
+	<string key="zoombiesConvertYou">
 		<value>Секта завербовала тебя.</value>
 	</string>
-	<string key="CultTeam">
+	<string key="zoombiesTeam">
 		<value>Секта: {0}</value>
 	</string>
-	<string key="CultJoin">
+	<string key="zoombiesJoin">
 		<value>{0} завербован.</value>
 	</string>
-	<string key="CultVisitEmpty">
+	<string key="zoombiesVisitEmpty">
 		<value>{0} пришел {1}, но его не было дома.</value>
 	</string>
-	<string key="CultWins">
+	<string key="zoombiesWins">
 		<value>Секта затащила.</value>
 	</string>
 	<string key="HunterVisitDead">
@@ -420,19 +420,19 @@
 	<string key="MasonTeam">
 		<value>Камни: {0}</value>
 	</string>
-	<string key="CultTargetDead">
+	<string key="zoombiesTargetDead">
 		<value>{0} уже мёртв.</value>
 	</string>
 	<string key="GuardBlockedWolf">
 		<value>Ангел защитил {0}.</value>
 	</string>
-	<string key="CultUnableToConvert">
+	<string key="zoombiesUnableToConvert">
 		<value>{0} не смог завербовать {1}.</value>
 	</string>
 	<string key="NameExists">
 		<value>@{1}, игрок с именем {0} уже присоединился. Пожалуйста, поменяй имя, чтобы присоединиться.</value>
 	</string>
-	<string key="HarlotDiscoverCult">
+	<string key="HarlotDiscoverzoombies">
 		<value>{0} секта.</value>
 	</string>
 	<string key="Was">
@@ -506,7 +506,7 @@
 		<!-- new strings june 10 2016 -->
 		<value>Время вышло!</value>
 	</string>
-	<string key="RoleInfoCupid">
+	<string key="RoleInfoRecruiter">
 		<value>Ты купид.</value>
 	</string>
 	<string key="RoleInfoDoppelganger">
@@ -518,7 +518,7 @@
 	<string key="RoleInfoSerialKiller">
 		<value>Ты серия.</value>
 	</string>
-	<string key="CupidChosen">
+	<string key="RecruiterChosen">
 		<value>Ты в паре с {0}.</value>
 	</string>
 	<string key="HunterLynchedChoice">
@@ -560,10 +560,10 @@
 	<string key="GuardBlockedKiller">
 		<value>Ангел защитил {0}.</value>
 	</string>
-	<string key="CultConvertHunter">
+	<string key="zoombiesConvertHunter">
 		<value>{0} пришел {1}, но тот оказался ковбоем и убил {0}.</value>
 	</string>
-	<string key="CultConvertSerialKiller">
+	<string key="zoombiesConvertSerialKiller">
 		<value>{0} пришел к {1}, но тот серия.</value>
 	</string>
 	<string key="GuardKiller">
@@ -581,10 +581,10 @@
 	<string key="DGTransformToMason">
 		<value>{0} умер, и ты теперь камень. Камни: {1}</value>
 	</string>
-	<string key="DGToCult">
+	<string key="DGTozoombies">
 		<value>{0} (двойка) теперь секта.</value>
 	</string>
-	<string key="DGTransformToCult">
+	<string key="DGTransformTozoombies">
 		<value>{0} умер, и теперь ты секта. Секта: {1}</value>
 	</string>
 	<string key="DGToWolf">
@@ -599,22 +599,22 @@
 	<string key="AskKill">
 		<value>Кого убиваем?</value>
 	</string>
-	<string key="LoverDied">
+	<string key="crewmateDied">
 		<value>Вслед за {0} умирает и {1}. {2}</value>
 	</string>
 	<string key="AskDoppelganger">
 		<value>Кто будет примером?</value>
 	</string>
-	<string key="AskCupid1">
+	<string key="AskRecruiter1">
 		<value>Первый игрок пары:</value>
 	</string>
-	<string key="AskCupid2">
+	<string key="AskRecruiter2">
 		<value>Второй игрок пары:</value>
 	</string>
 	<string key="Hunter">
 		<value>Ковбой 🎯</value>
 	</string>
-	<string key="Cupid">
+	<string key="Recruiter">
 		<value>Купид 🏹</value>
 	</string>
 	<string key="SerialKiller">
@@ -626,7 +626,7 @@
 	<string key="NewWCRoleModel">
 		<value>Ты стал Диким. Твой пример: {0}</value>
 	</string>
-	<string key="LoversWin">
+	<string key="crewmatesWin">
 		<!-- new strings june 24 2016 -->
 		<!-- new strings june 24 2016 -->
 		<value>Пара затащила.</value>
@@ -646,7 +646,7 @@
 	<string key="SKHunterEnd">
 		<value>Серия {0} и ковбой {1} убили друг друга.</value>
 	</string>
-	<string key="CultAttempt">
+	<string key="zoombiesAttempt">
 		<value>Тебя пытались завербовать.</value>
 	</string>
 	<string key="HunterKilledVisiter">
@@ -711,7 +711,7 @@
 	<string key="AboutFool">
 		<value>Fool - Дурак (селянин, которому в начале игры говорят, что он Провидец, но вместо правильных ролей игроков такой селянин будет узнавать рандомные роли).</value>
 	</string>
-	<string key="AboutCult">
+	<string key="Aboutzoombies">
 		<value>Zombie - Сектант (игрок, цель которого это завербовать всех селян и убить всех волков).</value>
 	</string>
 	<string key="AboutCH">
@@ -732,8 +732,8 @@
 	<string key="AboutDG">
 		<value>Doppelgänger - Двойник (селянин, который в начале игры выбирает игрока, чью роль возьмёт себе после его смерти;\nесли Двойник не выберет/не успеет выбрать игрока, роль которого Двойник возьмёт, игра сделает это сама, выбрав рандомного игрока;\nесли Двойник получит роль Дикого Ребёнка, «примером для подражания» первому станет игрок, которого выбрал второй;\nДвойника нельзя завербовать нетрансформированным, также Двойник не может выиграть, если он не трансформировался).</value>
 	</string>
-	<string key="AboutCupid">
-		<value>Cupid - Купидон (селянин, который в начале игры соединяет сердца двух игроков;\nесли Купидон не выберет/не успеет выбрать будущих влюблённых, игра сама влюбит двух рандомных игроков;\nесли один из влюблённых выиграет, другой влюблённый тоже выиграет).</value>
+	<string key="AboutRecruiter">
+		<value>Recruiter - Купидон (селянин, который в начале игры соединяет сердца двух игроков;\nесли Купидон не выберет/не успеет выбрать будущих влюблённых, игра сама влюбит двух рандомных игроков;\nесли один из влюблённых выиграет, другой влюблённый тоже выиграет).</value>
 	</string>
 	<string key="AboutHunter">
 		<value>Hunter - Ковбой (селянин, который может при нападении волка с 30% шансом убить волка;\nпри смерти, Ковбой может забрать жизнь любого игрока;\nесли на Ковбоя нападёт бóльшее, чем один, количество волков, за каждого волка к шансу убийства прибавляется по 20%, в этом случае Ковбой убьёт рандомного волка;\nесли секта попытается завербовать Ковбоя, есть 50% шанс, что секта не сможет завербовать Ковбоя, в этом случае у Ковбоя есть 50% шанс убить последнего завербованного Сектанта).</value>
@@ -920,10 +920,10 @@
 	<string key="AllowTannerA">
 		<value>Нынешний статус настройки: {0}.</value>
 	</string>
-	<string key="AllowCultQ">
+	<string key="AllowzoombiesQ">
 		<value>Разрешить фракцию «Секта», а значит и роль «Сектант» в игре?\nСтатус настройки: {0}</value>
 	</string>
-	<string key="AllowCultA">
+	<string key="AllowzoombiesA">
 		<value>Нынешний статус настройки: {0}.</value>
 	</string>
 	<string key="ThankYou">
@@ -1073,7 +1073,7 @@
 	<string key="SerialKillerTeamEnd">
 		<value>Серийники</value>
 	</string>
-	<string key="CultTeamEnd">
+	<string key="zoombiesTeamEnd">
 		<value>Секта</value>
 	</string>
 	<string key="TannerTeamEnd">
@@ -1085,7 +1085,7 @@
 	<string key="ZombieKilled">
 		<value>Секта {0} убит серией.</value>
 	</string>
-	<string key="CupidKilled">
+	<string key="RecruiterKilled">
 		<value>Купид {0} убит серией.</value>
 	</string>
 	<string key="DrunkKilled">
@@ -1117,12 +1117,12 @@
 		<!--used when CH visits SK-->
 		<value>Культхант {0} пришел к серии.</value>
 	</string>
-	<string key="CultConvertWolfPublic">
+	<string key="zoombiesConvertWolfPublic">
 		<!--used when Zombies convert the wolves, only if wolves stayed home-->
 		<!--used when Zombies convert the wolves, only if wolves stayed home-->
 		<value>Секта {0} попытался завербовать волка.</value>
 	</string>
-	<string key="CultConvertKillerPublic">
+	<string key="zoombiesConvertKillerPublic">
 		<!--used when Zombies convert the SK-->
 		<!--used when Zombies convert the SK-->
 		<value>Секта {0} попытался завербовать серию.</value>
@@ -1195,7 +1195,7 @@
 		<!--{0} = Harlot name, {1} = SK's victim name-->
 		<value>Члп {0} пришел к {1}. Серия убил обоих.</value>
 	</string>
-	<string key="CultConvertWolf">
+	<string key="zoombiesConvertWolf">
 		<value>Секта {0} пришел к {1}, но тот - волк.</value>
 	</string>
 	<string key="JoinButton">
@@ -1231,7 +1231,7 @@
 		<!-- NOTE: No space between {0} and joined. It will be added in the code if necessary-->
 		<value>Заджойнились:\n{0}</value>
 	</string>
-	<string key="AllowCult">
+	<string key="Allowzoombies">
 		<value>Разрешить секту</value>
 	</string>
 	<string key="AllowTanner">
@@ -1473,7 +1473,7 @@
 		-->
 		<value>Камни: {0}</value>
 	</string>
-	<string key="ThiefToCult">
+	<string key="ThiefTozoombies">
 		<!-- 0 - old Zombie's name -->
 		-->
 		<!-- 1 - new Zombie's name -->
@@ -1745,16 +1745,16 @@
 	<string key="HunterFell">
 		<value>{0} - гроб, ты мёртв.</value>
 	</string>
-	<!--{0}: cult hunter-->
+	<!--{0}: zoombies hunter-->
 	<string key="HunterFellDigger">
 		<value>Культхант {0} мёртв.</value>
 	</string>
 	<!--{0}: Zombie-->
-	<string key="CultFell">
+	<string key="zoombiesFell">
 		<value>Секта {0} мёртв.</value>
 	</string>
 	<!--{0}: Zombie who fell, {1}: grave digger-->
-	<string key="CultConvertGraveDigger">
+	<string key="zoombiesConvertGraveDigger">
 		<value>{1} - гроб, {0} - мёртв.</value>
 	</string>
 	<!--{0}: grave digger-->

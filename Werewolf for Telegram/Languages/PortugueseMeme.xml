@@ -322,25 +322,25 @@
   <string key="ZombieVotedConvert" >
     <value >{0} quer colocar {1} no lado ruim das piadas.</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <value>{0} foi enviado(a) para fazer o trabalho sujo e trazer {1} para o lado negro das piadas... Entretanto, ele era o Carlos Alberto de Nóbrega, SURPRISE, ele tinha um interceptor que desconectou o Português do mundo dos memes! {0} está desligado(a)!</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <value>{0} foi ao seu banco de dados na noite passada, pronto(a) para trazer você ao lado negro das piadas....  Mas você tinha um interceptor especial só pra desligar esse tipo de gente. Um português está desligado... {1} restante(s)!</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>Eles te escolheram e agora você é um membro da trupe dos portugueses.  Durante a noite, você poderá tentar trazer outros jogadores para o lado negro das piadas.</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>Os Portugueses: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <value>{0} entrou para a trupe dos portugueses!</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <value>{0} tentou trazer {1} pro lado ruim das piadas, mas ninguém estava online...</value>
   </string>
-  <string key="CultWins" isgif="true">
+  <string key="zoombiesWins" isgif="true">
     <value >Todos os Bichos Piruleta foram desligados e as únicas pessoas que restaram no mundo dos memes são portugueses..  Os portugueses venceram! VOCÊS VÃO TER QUE ENGOLIR ESSES MEMES RUINS AGORA!</value>
   </string>
   <string key="HunterVisitDead">
@@ -437,21 +437,21 @@
     <value>  Os Criadores de Meme são: {0}</value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <value>O membro mais recente da trupe dos Portugueses corre para o banco de dados de {0} para fazer o trabalho sujo e trazê-lo(a) para o lado negro das piadas, mas encontra uma bagunça com muitas marcas de piruletas... Seu alvo foi desligado!</value>
   </string>
   <string key="GuardBlockedWolf">
     <value>O bando dos Bichos Piruleta se dirige ao pc de {0}, para desliga-lo(a), mas lá dá de cara com um programa estranho, muito bem programado, pronto para expulsar qualquer Bicho Piruleta dali. O Pedro Bial foi inteligente e usou seu antivírus em defesa do alvo e, após um escaneamento profundo do sistema, ao som dos mais variados hits do Safadão, o lado dos Bichos Piruleta acabam por ter que voltar para seu recinto.</value>
   </string>
   <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <value>{0} foi enviado(a) para fazer o trabalho sujo, mas a experiência em memes bem feitos de {1} era grande de mais para ser corrompida ao ponto de virar nada. :(</value>
   </string>
   <!-- new string May 12 2016-->
   <string key="NameExists">
     <value>@{1}, um(a) jogador(a) com nome {0} já se juntou à partida. Por favor mude seu nome para poder entrar no jogo.</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <value>Você dividiu seu suco de laranja com {0} para se deliciar um pouco, mas enquanto saia você notou através de uma pasta aberta uma estranha coleção de memes ruins....</value>
   </string>
   <!-- new string May 13 2016-->
@@ -527,7 +527,7 @@
 	<value>Tempo esgotado!</value>
   </string>
   <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
     <value>Você é o Roberto Carlos, um astro do mundo do memes. Todo início de partida você pode fazer um show especial que irá fazer dois jogadores se apaixonarem.</value>
   </string>
   <string key="RoleInfoDoppelganger">
@@ -539,7 +539,7 @@
   <string key="RoleInfoSerialKiller">
     <value>Você é o Hater, você é um egoísta que não gosta de ninguém e de nenhum meme que você não tenha feito. O seu objetivo é desconectar todos e reinar sobre o mundo dos memes.</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>Você agora tá de casinho virtual com {0} após ser atingido por uma crise de amores causada por uma música do Roberto Carlos. Se um dos dois for desconectado o outro também será, afinal, você não vivem sem o outro.</value>
   </string>
   <string key="HunterLynchedChoice">
@@ -566,7 +566,7 @@
   <string key="HunterKilledFinalShot">
     <value>{0} cai no chão quase desconectado, de novo... Mas antes ele consegue concentrar seu ki o suficiente para dar uma galick-ho em {1}, que cai no chão, com um enorme buraco na barriga. {2}</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <value>{0} entra no banco de dados de {1}. Assim que entra, vê várias mensagens de repúdio a memes! {1} aparece de repente e percebe que {0} também faz memes, como um bom Hater ele não deixa assim. {0} está desligado. Que Peninha!</value>
   </string>
   <string key="HunterShotWolfMulti">
@@ -584,7 +584,7 @@
   <string key="GuardBlockedKiller">
     <value>Você foi tentar desconectar {0}. Porém o Bial resolveu acabar com sua diversão! Sem desconect hoje...</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <value>Os Portugueses mandam {0} tentar trazer para o lado negro dos memes o(a) {1}. Mas o Vegeta se nega ao Babidi, e desconecta {0}!</value>
   </string>
   <string key="GuardKiller">
@@ -602,10 +602,10 @@
   <string key="DGTransformToMason">
     <value>{0} morreu, e você agora é um Criador de Memes.  Seus companheiros (se houver) são: {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <value>O Zé pequeno {0} se transformou em um membro da trupe dos Portugueses. Mais um com piadas ruins!</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <value>{0} foi desligado, IIIH parece que sua experiência com memes desapareceu, e agora você só produz memes ruins pois entrou pra trupe dos Portugueses. Seus novos companheiros (se houver) são: {1}</value>
   </string>
   <string key="DGToWolf">
@@ -620,22 +620,22 @@
   <string key="AskKill">
     <value>Quem você quer desconectar essa noite?</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <value>{0} faz sua última postagem olhando no fundo dos olhos de seu amado(a), {1}, que acompanha todo o processo de desligamento. {1} não aguenta a dor, e, com um programa especializado, ele se desliga o mundo dos memes... Eles ficarão juntos, mesmo no mundo real. {2}</value>
   </string>
   <string key="AskDoppelganger">
     <value> Quem você escolherá para se transformar?</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>Quem você quer levar pro camarote do seu show? Escolha o primeiro que irá se apaixonar ao som de sua música.</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>Quem você quer levar pro camarote do seu show? Escolha o segundo que irá se apaixonar ao som de sua música.</value>
   </string>
   <string key="Hunter">
     <value>o Vegeta 🎯</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>Roberto Carlos 🏹</value>
   </string>
   <string key="SerialKiller">
@@ -647,13 +647,13 @@
   <string key="NewWCRoleModel">
     <value>Você se tornou o Dioguinho Capeta.  Seu modelo exemplar é {0}</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
     <value>Os namorados venceram! Parece que Roberto Carlos acertou no casal.</value>
   </string>
   <string key="HunterKilledVisiter">
     <value>Quando acordam, todos vêem a notícia que {0} foi morto de forma brutal. Parece que alguém tentou atacar o Vegeta e não conseguiu. {1}</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>Alguém veio conversar com você no privado lhe convidando para aderir a causa dos portugueses. Você fecha a janela imediatamente mas esquece de olhar o nome dele.</value>
   </string>
   <string key="AlreadyOnWaitList">
@@ -727,7 +727,7 @@
   <string key="AboutFool">
     <value>he fool is told they are the seer.... when they choose to see someone's role at night, they are told a random role.</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>Você é um membro da turpe dos portugueses. Como não fazem mêmes bons, vocês tentam converter os outros pra eles pararem de fazer mêmes bons.</value>
   </string>
   <string key="AboutCH">
@@ -750,7 +750,7 @@
      Você é o Zé pequeno, de acordo com as lendas, você tem o pode de se transformar em quem você escolher, mas primeiro essa pessoa tem que ser descontada.
     </value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>
       Você é o Roberto Carlos, um astro do mundo do memes. Todo início de partida você pode fazer um show especial que irá fazer dois jogadores se apaixonarem.
     </value>
@@ -934,10 +934,10 @@
   <string key="AllowTannerA">
     <value>Existência do Suicida definida como: {0}</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>Permitir a Seita como um papel possível?\nAtual: {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>Existência da Seita definida como: {0}</value>
   </string>
   <string key="ThankYou">
@@ -1097,7 +1097,7 @@
   <string key="SerialKillerTeam">
     <value>Time Hater</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>Time Português</value>
   </string>
   <string key="TannerTeam">
@@ -1115,13 +1115,13 @@
 - <string key="SerialKillerTeamEnd">
   <value>Time Hater</value> 
   </string>
-- <string key="CultTeamEnd">
+- <string key="zoombiesTeamEnd">
   <value>Time Português</value> 
   </string>
 - <string key="TannerTeamEnd">
   <value>Time Viciado em Memes</value> 
   </string>
-  - <string key="CultConvertWolf">
+  - <string key="zoombiesConvertWolf">
   <value>A trupe dos Portugueses envia {0} para tentar trazer {1} ao lado negro das piadas, mas em vez disso, um vírus entrou em todo o seu sistema. {0} está desligado...</value> 
   </string>
  <string key="HarlotFuckedKilledPublic">
@@ -1138,7 +1138,7 @@
   <string key="ZombieKilled">
     <value>De manhã todos encontram o perfil de {0} exterminado nas redes sociais. O Hater conseguiu de novo! A trupe dos Portugueses vai sentir falta de {0}...</value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>A população do mundo dos memes fica de coração partido ao encontrar {0}, o Roberto Carlos, desligado. Estranho o fato de todos os seus cd's terem sido excluídos, obviamente obra do Hater.</value>
   </string>
   <string key="DrunkKilled">
@@ -1168,10 +1168,10 @@
   <string key="SerialKillerKilledCH"> <!--used when CH visits SK-->
     <value>A população do mundo dos memes acordou essa manhã só para olhar o Twitter e perceber que, {0}, O Carlos Alberto de Nóbrega, foi desligado. O Hater não perdoou nem quem faz  piadas ruins. Realmente o Hater está louco para dominar esse mundo!</value>
   </string>
-  <string key="CultConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
+  <string key="zoombiesConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
     <value>Péssima escolha dos Portugueses ao tentar trazer um Bicho Piruleta pro lado negro das piadas. {0} está desligado, pois os Bichos Piruleta não gostam muito de Portugueses também. PIRUUUULLEETAAA!</value>
   </string>
-  <string key="CultConvertKillerPublic"> <!--used when Zombies convert the SK-->
+  <string key="zoombiesConvertKillerPublic"> <!--used when Zombies convert the SK-->
     <value>Ontem a noite a trupe dos Portugueses decidiu tentar trazer pro lado negro das piadas a única pessoa mais estranha do que eles, o Hater, e por causa disso, {0} foi desligado ao som de uma bela música clássica. O Hater conseguiu de novo!</value>
   </string>
   <string key="GAGuardedKiller">

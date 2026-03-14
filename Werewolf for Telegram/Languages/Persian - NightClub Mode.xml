@@ -431,25 +431,25 @@
   <string key="ZombieVotedConvert" >
     <value >نظر {0} اینه که {1} رو به کلاس های آقای طوسی دعوت کنیم</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <value>خب این کونی {0} رفت که {1} رو به کلاس آقای طوسی دعوت کنه ولی {1} شکارچی بود و پای چپشو کرد تو کونش و بگاش داد.</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <value>دیشب این کونی {0} اومد به کلاس آقای طوسی دعوتت کنه ولی تو زدی کونشو پاره کردی ! {1} تا شاگرد طوسی باقی مونده.</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>تو الان شاگرد آقای طوسی هستی (شُل کن😅) . هر شب با بقیه شاگردا باید یه نفرو به کلاس آقای طوسی دعوت کنین.</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>شاگردای طوسی 👤 : {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <value>خب {0} عضو کلاس آقای طوسی شد</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <value>خب این کونی {0} رفت خونه ی {1} تا به کلاس آقای طوسی دعوتش کنه ولی کسی خونه نبود.</value>
   </string>
-  <string key="CultWins" isgif="true">
+  <string key="zoombiesWins" isgif="true">
     <value >همه بُکُنای قهّار بگا رفتن و فقط شاگردای آقای طوسی باقی موندن. آقای طوسی و شاگرداش بردن.</value>
   </string>
   <string key="HunterVisitDead">
@@ -547,21 +547,21 @@
     <value> بی خایه ها عبارت اند از : {0}</value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <value>عضو کونیِ جدید کلاسِ آقای طوسی رفت خونه ی {0} که به کلاس دعوتش کنه ولی دید زمین پر از آب کیر و خونه. {0} کشته شده.</value>
   </string>
   <string key="GuardBlockedWolf">
     <value>دیشب گله ی بُکُنای قهّار رفتن خونه {0} که یه جوری بگانش نفت دربیاد ولی محافظ کون با دیلدوی صورتیِ خار دارش همشونو فراری داد.</value>
   </string>
   <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <value>دیشب {0} رو فرستادین که {1} رو هم عضو کلاسای آقای طوسی کنه ولی گفت بیا برو چاقال شما همتون کونین و قبول نکرد :( </value>
   </string>
   <!-- new string May 12 2016-->
   <string key="NameExists">
     <value>چاقال محترم {0} @{1} یه چاقال هم اسم تو توی بازیه ، کیرم تو اسمتون. اسم کیریتو عوض کن تا بتونی وارد بازی بشی</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <value>بانو جون دیشب باز حشرت زد بالا و رفتی خونه {0} دیدی آقای طوسی آروم به {0} میگه شل کن عمو جان درد نداره ! {0} شاگرد طوسی شده.</value>
   </string>
   <!-- new string May 13 2016-->
@@ -645,7 +645,7 @@
 	  <value>وقت تموم شد ! ریدی </value>
   </string>
 <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
     <value>تو خاله هستی 🏹. برا بقیه بُکُن و بِده جور میکنی و جفت هم میشن و تا آخر عمرشون با هم هستن. اگه یکیشون به گا بره اون یکی هم انقد جق میزنه تا خون بیاد و به گا میره.</value>
   </string>
   <string key="RoleInfoDoppelganger">
@@ -703,10 +703,10 @@
     <value>رفتی خونه ی {0} تا بکنیش و بعد به قتل برسونیش ولی محافظ کون براش شرت آهنی خریده بود و نتونستی کاری کنی.</value>
 	<value>رفتی خونه ی {0} تا بکنیش و بعد به قتل برسونیش ولی محافظ کون با دیلدوی خاردار نشسته بود در خونش و از ترس کونت نتونستی کاری کنی.</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <value>یکی از شاگردای آقای طوسی یعنی {0} رفت خونه ی {1} تا به کلاس دعوتش کنه ولی {1} پریود بود ، اعصابش کیری شد و با تفنگ زد {0} و بگا داد.</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
     <value>آقای طوسی شاگرد کونیِ جدیدش یعنی {0} رو فرستاد خونه ی {1} تا به کلاس دعوتش کنه . {0} وقتی در و باز کرد و رفت تو ، قاتل حشری از پشت گرفتش و به صورت سگی یه دل سیر کردش. بعد چاقوش رو تو همه سوراخاش فرو کرد. {0} با ذکر کیرم توت مرد.</value>
@@ -727,10 +727,10 @@
   <string key="DGTransformToMason">
     <value>خب این کیری {0} که خایه هاشو میمالیدی به گا رفت و چون یه بی خایس 👷🏻‍♂️ بود نقشش و گرفتی و تو هم یه بی خایه شدی. بقیه بی خایه ها : {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <value>خایه مال یعنی این چاقال {0} ، مثل تو شاگردِ طوسی شد.</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <value>خب این کیری {0} که خایه هاشو میمالیدی به گا رفت و چون یکی از شاگردای آقای طوسی 👤 بود نقشش و گرفتی و تو هم یه شاگرد طوسی شدی. بقیه شاگردای آقای طوسی : {1}</value>
   </string>
   <string key="DGToWolf">
@@ -745,25 +745,25 @@
   <string key="AskKill">
     <value> امشب میخوای کیو بعد از کردن پاره پوره کنی ؟ </value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <!-- 0 - dead's name -->
-    <!-- 1 - lover's name -->
+    <!-- 1 - crewmate's name -->
     <!-- 2 - roles -->
     <value>با بگا رفتن {0} بُکُنِش یعنی {1} رفت سر جنازش و بعد از 42 بار پشت سر هم جق زدن ، خون اومد و همراه جنده اش به گا رفت. {2}</value>
   </string>
   <string key="AskDoppelganger">
     <value>خب کیری خان ! میخوای خایه های کیو بمالی که وقتی بگا رفت نقششو بده به تو ؟ </value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>خب خاله جون کیا رو میخوای برا هم جور کنی ؟ اول بُکُن رو انتخاب کن</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>خب خاله جون کیا رو میخوای برا هم جور کنی ؟ حالا بِده رو انتخاب کن</value>
   </string>
   <string key="Hunter">
     <value>پریود 🎯</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>خاله 🏹</value>
   </string>
   <string key="SerialKiller">
@@ -772,20 +772,20 @@
   <string key="Doppelgänger">
     <value>خایه مال 🎭</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>خاله {0} و برات جور کرد تا مث سگ همدیگرو بکنید از این به بعد عاشق هم هستین و اگه {0} بگا رفت تو هم بگا میری. سعی کنین زنده بمونین کیریا</value>
     <value>خاله {0} رو برات انتخاب کرد تا باهم سکس کنین کونیا ، اگه یکیتون بمیره اون یکی انقد جغ میزنه تا خون بیاد و بمیره.</value>
   </string>
   <string key="NewWCRoleModel">
     <value>تو وحشی 👶🏻 شدی جاکش. الگوت اینه {0}</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
     <value>بُکُن و جنده اش برنده شدن 🙈</value>
   </string>
   <string key="HunterKilledVisiter">
     <value>وسط میدان روستا ، روستاییا جسدِ کیریه {0} رو پیدا میکنن که 3 بار به سوراخ کونش شلیک شده و سوراخ کونش مثل غار باز شده . به نظر میرسه {0} دیشب رفته خونه پریود فضولی کنه اونم اعصابش کیری بوده با تفنگش زده بگاش داده. {1}</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>دیشب آقای طوسی میخواست تورو عضو کلاسش کنه ولی تو از ترس کونت قبول نکردی.</value>
   </string>
   <string key="AlreadyOnWaitList">
@@ -861,7 +861,7 @@
   <string key="AboutFool">
     <value>تو کودن هستی🃏. بهت گفته میشه پیشگوزی ولی در اصل کیر پیشگوزم نیستی و وقتی بخوای نقش یکی و بدونی بهت یه نقش کسشر گفته میشه نه نقش اصلی .</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>تو آقای طوسی هستی 👤 ، هر شب میتونی یه نفرو به کلاست دعوت کنی اگه همه ی بازیکنای زنده تو کلاسات عضو بشن میبرین.</value>
   </string>
   <string key="AboutCH">
@@ -882,7 +882,7 @@
   <string key="AboutDG">
     <value>تو خایه مال هستی 🎭. یه نفرو انتخاب میکنی ، انقد از کیرش میری بالا و خایه هاشو میمالی که وقتی بگا میره و میمیره نقشش و میده به تو .</value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>تو خاله هستی 🏹. برا بقیه بُکُن و بِده جور میکنی و جفت هم میشن و تا آخر عمرشون با هم هستن. اگه یکیشون به گا بره اون یکی هم انقد جق میزنه تا خون بیاد و به گا میره.</value>
   </string>
   <string key="AboutHunter">
@@ -1059,10 +1059,10 @@
   <string key="AllowTannerA">
     <value>نقش ایدزی (منافق) : {0}</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>اجازه میدی آقای طوسی و شاگردشاش (فرقه) توی بازی باشن ؟\nوضیت فعلی: {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>نقش شاگرد طوسی (فرقه) : {0}</value>
   </string>
   <string key="ThankYou">
@@ -1214,7 +1214,7 @@
   <string key="SerialKillerTeam" deprecated="true">
     <value>تیم قاتل جقی</value>
   </string>
-  <string key="CultTeam" deprecated="true">
+  <string key="zoombiesTeam" deprecated="true">
     <value>تیم آقای طوسی و شاگرداش</value>
   </string>
   <string key="TannerTeam" deprecated="true">
@@ -1232,13 +1232,13 @@
   <string key="SerialKillerTeamEnd">
     <value>تیم قاتل جقی</value>
   </string>
-  <string key="CultTeamEnd">
+  <string key="zoombiesTeamEnd">
     <value>تیم آقای طوسی و شاگرداش</value>
   </string>
   <string key="TannerTeamEnd">
     <value>تیم ایدزی</value>
   </string>
-<string key="CultConvertWolf">
+<string key="zoombiesConvertWolf">
     <value>آقای طوسی و شاگرداش جمع میشن برن خونه ی {1} تا اونم عضو کلاس کنن. وقتی میرسن به خونه ی {1} ، {0} میفرستن بره تو . چند دقیقه بعد ، {0} از پنجره پرت میشه پایین و میبینن که کونش مثل غار شده و آب کیر از همه ی سوراخاش بیرون میریزه . ظاهراً {1} یه بُکُن قهّار بوده و {0} به گا رفته.</value>
   </string>
 
@@ -1260,7 +1260,7 @@
   <string key="ZombieKilled">
     <value>دیشب قاتل حشری کیر به دست وارد دارالکونِ آقای طوسی شد و یکی از شاگرداش یعنی {0} و به گا داد.</value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>صُبح روزِ بعد جقیا جنازه ی کیریِ {0} رو پیدا میکنن که از نوک پا تا ممه هاش جر خورده ! دیگه کسی نیس که براتون بُکُن پیدا کنه جنده ها. خاله مرده 🙁</value>
   </string>
   <string key="DrunkKilled">
@@ -1290,10 +1290,10 @@
   <string key="SerialKillerKilledCH"> <!--used when CH visits SK-->
     <value>لاشه ی {0} ، یعنی شکارچی رو روستاییا وقتی داشتن وسط روستا جق میزدن پیدا کردن. دیشب شکارچی رفته خونه قاتل حشری تا چک کنه ببینه یکی از شاگردای کونی آقای طوسی هست یا نه ولی قاتل حشری کیر {0} رو بریده و گذاشته دهنش. شکارچی کیر به دهن مرده 😮</value>
   </string>
-  <string key="CultConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
+  <string key="zoombiesConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
     <value>دیشب آقای طوسی {0} رو فرستاد پیش بُکُنای قهّار به امید اینکه بتونه عضو کلاسشون کنه ! ولی نمیدونست بُکُنای قهّار به هیچکس رحم نمیکنن . {0} به گا رفته.</value>
   </string>
-  <string key="CultConvertKillerPublic"> <!--used when Zombies convert the SK-->
+  <string key="zoombiesConvertKillerPublic"> <!--used when Zombies convert the SK-->
     <value>آقای طوسی وشاگرداش به امید اینکه یه شاگرد کونی دیگه هم به جمعشون اضافه میشه {0} رو مامور کردن تا بره خونه قاتل حشری ! صب روز بعد دیدن جنازه {0} در حالی که کیر و خایه هاش از گردنش آویزونه و سوراخ کونش مثل تونل توحیده وسط روستاس. {0} به گا رفته.</value>
   </string>
   <string key="GAGuardedKiller"> <!-- used when GA guards SK -->
@@ -1402,7 +1402,7 @@
 <value>{0} این کون مونا تو 30 ثانیه اخیر واردِ بازی شدن</value>
 </string>
 
-  <string key="AllowCult">
+  <string key="Allowzoombies">
     <value>شاگرد طوسی</value>
   </string>
   <string key="AllowTanner">
@@ -1636,7 +1636,7 @@
 	  <!-- 0 - mason collegues's name -->
 	  <value>بی خایه های دیگه عبارتند از: {0} </value>
 	</string>
-	<string key="ThiefToCult">
+	<string key="ThiefTozoombies">
 	  <!-- 0 - old Zombie's name -->
 	  <!-- 1 - new Zombie's name -->
 	  <value>{0} دیگه شاگرد طوسی نیست.ازاین به بعد {1} همشاگردی جدیدتونه!</value>
@@ -1998,16 +1998,16 @@
   <string key="HunterFell">
 	<value> رفتی خونه ی {0} که یه حرکتی بزنی ولی تا چشمت به صابون افتاد ازش استفاده کردی ولی بگا رفتی کصخل </value>
   </string>
-  <!--{0}: cult hunter-->
+  <!--{0}: zoombies hunter-->
   <string key="HunterFellDigger">
 	<value> بعد از یک شب خسته کننده شما به خانه برمیگردید قبل از اینکه وارد خانه شوید شمشیری کنار یک قبر میبینید مثل اینکه شکارچی یعنی {0} توی قبر افتاده</value>
   </string>
   <!--{0}: Zombie-->
-  <string key="CultFell">
+  <string key="zoombiesFell">
 	<value> رفتی خونه ی {0} که یه حرکتی بزنی ولی تا چشمت به صابون افتاد ازش استفاده کردی ولی بگا رفتی کصخل</value>
   </string>
   <!--{0}: Zombie who fell, {1}: grave digger-->
-  <string key="CultConvertGraveDigger">
+  <string key="zoombiesConvertGraveDigger">
 	<value> در راه خانه {1} ناگهان {0} تصمیم میگیرد به سراغ یک کلیسا برود. اما در قبرستان داخل یک قبر افتاد. شما صدای فریاد او را قبل از افتادن میشنوید اما برای نجات خود فرار میکند! </value>
   </string>
   <!--{0}: grave digger-->

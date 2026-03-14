@@ -14,7 +14,7 @@ namespace Database
     
     public partial class AspNetRole
     {
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCalcrewmateridableMethodsInConstructors")]
         public AspNetRole()
         {
             this.AspNetUsers = new HashSet<AspNetUser>();

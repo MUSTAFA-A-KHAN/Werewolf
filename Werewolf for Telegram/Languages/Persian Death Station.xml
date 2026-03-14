@@ -381,33 +381,33 @@
     <!-- 1 - target name -->
     <value >نظر {0} اینه که {1} رو شورشی کنید</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <!-- 0 - Yougest Zombie (killed)'s name' -->
     <!-- 1 - ZombieHunter's name -->
     <value>خب {0} رفت که {1} رو به گروه شورشیا دعوت کنه ولی {1} ضد شورش بود و کشتش!</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - Number of Zombies left -->
     <value>دیشب {0} اومد به گروه شورشیا دعوتت کنه ولی تو زدی کشتیش! {1} باقی مونده</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>تو الان عضو شورشی هستی و هر شب با بقیه یارات باید یه نفرو به گروه شورشیا خودتون دعوت کنین</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <!-- 0 - Number of Zombies -->
     <value>شورشی ها: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <!-- 0 - new Zombie's name -->
     <value>الان {0} شورشی شد</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <!-- 0 - Newest Zombie's name -->
     <!-- 1 - target name -->
     <value>خب  {0} رفت {1} رو به شورشا دعوت کنه ولی کسی تو کوپه نبود</value>
   </string>
-  <string key="CultWins" isgif="true">
+  <string key="zoombiesWins" isgif="true">
     <value >همه خلافکارا مردن و فقط افراد شورشی باقی موندن. شورشیا بردن</value>
   </string>
   <string key="HunterVisitDead">
@@ -512,7 +512,7 @@
     <value>  دانشجوهای های دیگه عبارت اند از: {0}</value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <!-- 0 - Youngest Zombies name -->
     <value>عضو جدید شورشی رفت کوپه {0} که به راه راست هدایتش کنه ولی دید کشته شده</value>
   </string>
@@ -521,7 +521,7 @@
     <value>دیشب خلافکارا رفتن کوپه {0} که بکشنش ولی بادیگارد مثل مرد ازش محافظت کرد</value>
   </string>
   <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <!-- 0 - newest  -->
     <!-- 1 - target's name -->
     <value>دیشب {0} رو فرستادین که {1} رو به شورشی ها اضافه کنه ولی قبول نکرد</value>
@@ -532,7 +532,7 @@
     <!-- 1 - name -->
     <value>جناب {0} @{1} یه بازیکن هم اسم تو توی بازیه، اسمتو عوض کن تا بتونی وارد بازی بشی</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <!-- 0 - target's name -->
     <value>دیشب که رفتی کوپه {0} دیدی که داره عبادت میکنه!</value>
   </string>
@@ -629,7 +629,7 @@
   <value>ریدی وقت تموم شد!</value>
   </string>
   <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
     <value>تو عاقدی با تکنیکی که داری میتونی دو نفر از تو شهر رو عاشق هم کنی اگه یکیشون بمیره اون یکیم از غمش میمیره .</value>
   </string>
   <string key="RoleInfoDoppelganger">
@@ -641,7 +641,7 @@
   <string key="RoleInfoSerialKiller">
     <value>تو بمب گذار معروف هستی و خون جلو چشاتو گرفته و میخوای کل شهرو نابود کنی هرشب میری تو کوپه یه نفر بمب میزاری و میترکونیش.</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>عاقد تورو عاشق {0} میکنه اگ یکیتون بمیره جفتاتون میمیرین </value>
 	<value>عاقد تورو عاشق {0} کرده. حالا اگه اون بمیره تو هم از غمش میمیری</value>
   </string>
@@ -677,7 +677,7 @@
     <!-- 2 - target's role -->
     <value>پلیس یعنی {0} آخرین لحظه تفنگشو در آورد و {1} رو هدشات کرد. {2}</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <value>شورشی کثیف یعنی {0} رفت کوپه ی بمب گذار یعنی {1} که به گروه خودش دعوتش کنه ولی {1}بمب گذاشت تو شلوارش و فرستادش هوا  </value>
 	<value> شورشی کثیف یعنی {0} رفت بمب گذار یعنی {1} رو به گروهش دعوت کنه اونم به عنوان جایزه ی بمب بهش داد و بووووووم !</value>
   </string>
@@ -701,7 +701,7 @@
     <!-- 0 - target's name -->
     <value>رفتی {0} تو کوپه اش بمب گزاشتی اما بادیگارد خنثی کردش </value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
     <value>شورشیه کثیف  یعنی {0} رفت که {1} رو به شورشیا دعوت کنه ولی {1} پلیس بود و با تفنگش زد {0} رو سرویس کرد </value>
@@ -725,12 +725,12 @@
     <!-- 1 - mason collegues's name -->
     <value>خب {0} ازش تقلید می کردی مرد. چون اون دانشجو بود تو هم دانشجو شدی و بقیه دانشجو ها عبارت اند از: {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <!-- 0 - new Zombie's name -->
     <value>تقلید، یعنی {0} هم چون یکی از اعضای شورشی رو به عنوان اینکه ازش تقلید کنه انتخاب کرده بود الان شورشی شد.</value>
   </string>
 
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <!-- 0 - role's name -->
     <!-- 1 - teammates's name -->
     <value>کسی که ازش تقلید میکردی یعنی {0} مرد و چون شورشی بود تو هم شورشی شدی. بقیه شورشی ها  عبارت اند از: {1}</value>
@@ -750,25 +750,25 @@
   <string key="AskKill">
     <value>کیو میخوای امشب منفجر بکنی ؟</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <!-- 0 - dead's name -->
-    <!-- 1 - lover's name -->
+    <!-- 1 - crewmate's name -->
     <!-- 2 - roles -->
     <value>با کشته شدن {0} عشق ابدیش یعنی {1} از غم دوری خودشو از پنجره قطار پرت کرد بیرون و خیال همه رو راحت کرد . {2}</value>
   </string>
   <string key="AskDoppelganger">
     <value>میخوای از کی تقلید کنی؟ اگه بمیره چون کارشو یاد گرفتی تو نقششو به عهده میگیری</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>دو نفرو عاشق کن ؟ مسافر اول رو انتخاب کن</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>دو نفرو عاشف کن ؟ مسافر دوم رو انتخاب کن</value>
   </string>
   <string key="Hunter">
     <value>مامور پلیس 👮‍♂️</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>عاقد💘</value>
   </string>
   <string key="SerialKiller">
@@ -782,7 +782,7 @@
     <!-- 0 - target's name -->
     <value>تو عاشق پیشه ای و کسی که عاشقشی کسی نیست جز {0}</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
     <value>عشقولا برنده شدن پایدار باشین </value>
   </string>
   <string key="HunterKilledVisiter">
@@ -790,7 +790,7 @@
     <!-- 1 - role -->
     <value>خب دیشب {0} رف کوپه مامور پلیس فضولی کنه. پلیس هم زد دهنشو سرویس کرد. {1}</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>یه شورشی دیشب میخواست تو رو هم شورشی  کنه ولی تو گفتی من اینجوری راحت ترم و با قاطعیت بهش چواب نه دادی  </value>
   </string>
   <string key="AlreadyOnWaitList">
@@ -874,7 +874,7 @@
   <string key="AboutFool">
     <value>به مهره سوخته گفنه میشه هکره اما نقشا بصورت تصادفی بهش اعلام میشه</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>به عنوان رییس شورشی ها ماموری کسایی که تو قطارنو شورشی کنی تا همع مثل تو یک دست شن و برنده شین.</value>
   </string>
   <string key="AboutCH">
@@ -899,7 +899,7 @@
 یک تقلید کار تا قبل از اینکه جای کسی رو بگیره نمیتونه برنده بازی باشه!مگر اینکه عاشق باشه
     </value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>
       عشق در زندگی جریان داره! به عنوان عاقد در ابتدای بازی دو نفر رو انتخاب میکنی و اون دو نفر دیوانه وار عاشق هم میشن💕اگه یکی از عاشقا بمیره اون یکی هم از غمش میمیره اگه تو آخر بازی یکی از عاشقا برنده بشه آون یکی هم به طور اتوماتیک برنده حساب میشه حتی اگه توی تیم مخالف باشه!(مثال:گرگ و روستایی)
     </value>
@@ -1079,10 +1079,10 @@
   <string key="AllowTannerA">
     <value>نقش خائن: {0}</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>نقش فرقه گرا فعال باشه؟\n حالت فعلی: {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>نقش فرقه گرا: {0}</value>
   </string>
   <string key="ThankYou">
@@ -1234,7 +1234,7 @@
   <string key="SerialKillerTeam">
     <value>گروه بمب گذار</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>گروه شورشی</value>
   </string>
   <string key="TannerTeam">
@@ -1252,13 +1252,13 @@
   <string key="SerialKillerTeamEnd">
     <value>گروه بمب گذار</value>
   </string>
-  <string key="CultTeamEnd">
+  <string key="zoombiesTeamEnd">
     <value>گروه شورشی</value>
   </string>
   <string key="TannerTeamEnd">
     <value>گروه انتحاری</value>
   </string>
-    <string key="CultConvertWolf">
+    <string key="zoombiesConvertWolf">
     <value>دیشب شورشی ها  {0} رو فرستادن تا {1} رو به شورشی ها  دعوت کنه، اما سَر {0} رو دیدن که از پنجره کوپه {1} به بیرون پرتاب شده! {0} مرده!</value>
   </string>
   <string key="HarlotFuckedKilledPublic"> <!-- used when Harlot visit's SK's victim, and dies -->
@@ -1279,7 +1279,7 @@
   <string key="ZombieKilled">
     <value>دیشب بمب گذار به شورشی ها حمله کرد و تو کوپه یکیشون بمب گذاشت و{0} رو منفجر کرد!</value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>صبح روز بعد مسافرا ها جنازه {0} رو پیدا کردن! دیگه توی قطار خبری از عاقد نخواهد بود! عاقد مرده!</value>
   </string>
   <string key="DrunkKilled">
@@ -1309,10 +1309,10 @@
   <string key="SerialKillerKilledCH"> <!--used when CH visits SK-->
     <value>ضد شورش {0} مشغول پیداکردن شورشی  ها بود اما درست زمانی که داشت توی راهروی قطار قدم میزد پاش روی یکی از بمبای بمب گذار میره و بومممم! ضد شورش منفجر میشه!</value>
   </string>
-  <string key="CultConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
+  <string key="zoombiesConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
     <value>دیشب {0} رفت در کوپه خلافکارا تا یکیشونو به شورشی ها دعوت کنه ! ولی خلافکارا بهش حمله کردن و جنازه تکه تکه شدشو توی رستوران قطار پخش کردن!</value>
   </string>
-  <string key="CultConvertKillerPublic"> <!--used when Zombies convert the SK-->
+  <string key="zoombiesConvertKillerPublic"> <!--used when Zombies convert the SK-->
     <value>دیشب یکی از شورشی ها یعنی، {0} مامور شد که یکی رو به فرقه دعوت کنه، اما دیگه خبری از {0} نشد!صبح بعد شورشی ها جنازه {0} رو توی یکی از کوپه های خالی پیدا میکنند!بمب گزار {0} رومنفجر کرده!</value>
   </string>
   
@@ -1402,7 +1402,7 @@
     <!-- {0} = list of people who have joined -->
     <value>{0} در 30 ثانیه اخر وارد قطار شدند </value>
   </string>
-  <string key="AllowCult">
+  <string key="Allowzoombies">
     <value>شورشی</value>
   </string>
   <string key="AllowTanner">
@@ -1645,7 +1645,7 @@
       <!-- 0 - mason collegues's name -->
       <value>هم تیمی های شما(درصورت وجود) عبارت اند از:{0}.</value>
     </string>
-    <string key="ThiefToCult">
+    <string key="ThiefTozoombies">
       <!-- 0 - old Zombie's name -->
       <!-- 1 - new Zombie's name -->
       <value>حاجی {0} دیگه همتیمی شما نیست به جاش {1} شورشی شده دقیقا مثل شماها.</value>

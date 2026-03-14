@@ -208,7 +208,7 @@
     <value >أنت فيفي 🙇، العرافة المتدربة، بديلة روبن (الحقيقية). إذا ماتت روبن (الحقيقية)، فستتمكني من أكل فاكهة زهرة-زهرة وتكتسبين مهارة اوجوس فلور. تحتاج مساعدة؟ > /aboutAppS</value>
   </string>
   <string key="RoleInfoZombie" >
-    <value >أنت من فريق اليونكو العظيم 👤. كل ليلة، يمكنك إختيار لاعب لكي تغسل دماغه لينضم لفريق اليونكو. إذا كان جميع اللاعبين الأحياء المتبقين في النهاية جزءٌ من فريق اليونكو، فستفوز. تحتاج مساعدة؟ د > /aboutCult</value>
+    <value >أنت من فريق اليونكو العظيم 👤. كل ليلة، يمكنك إختيار لاعب لكي تغسل دماغه لينضم لفريق اليونكو. إذا كان جميع اللاعبين الأحياء المتبقين في النهاية جزءٌ من فريق اليونكو، فستفوز. تحتاج مساعدة؟ د > /aboutzoombies</value>
   </string>
   <string key="RoleInfoZombieHunter" >
     <value >أنت ملك القراصنة المستقبلي خاصتنا مونكي دي لوفي 💂، تحاول القضاء على كل قرصان من فريق اليونكو كي تمنعهم من غسل دماغ الآخرين! كل ليلة، إختر لاعبًا. إن كان من فريق اليونكو فسيموت. إن حاول فريق اليونكو غسل دماغك، أحدث عضو في الفريق سيموت من من عضب ضربتك غومو غمو نو كونغ غان. تحتاج مساعدة؟ > /aboutCH</value>
@@ -379,33 +379,33 @@
     <!-- 1 - target name -->
     <value >صوت {0} لتجنيد {1} في فريق اليونكو حيث أنه قرصان قوي وجدير بلقبنا.</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <!-- 0 - Yougest Zombie (killed)'s name' -->
     <!-- 1 - ZombieHunter's name -->
     <value>أُرسل {0} لتجنيد {1} في فريق اليونكو... برغم ذلك، يتضح أن ذلك الشخص ليس سوى... ملك القراصنة المستقبلي! لا أحد يجرؤ على معارضة ملك القراصنة (حتى لو كان في المستقبل). مات {0}!</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - Number of Zombies left -->
     <value>أتى {0} لسفينتك الليلة الماضية، جاهزًا لتجنيدك في اليونكو.... لكنهم لا يعلمون بأن هدفك هو ان تصبح ملك القراصنة، وليس مجرد يونكو. لقد هدد بأخذ حياة رفاقك إن لم تنضم لهم، لذا لم تتردد بالإطاحة به لحماية رفاقك. تبقى{1}!</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>لقد ضمك اليونكو لهم! أنت الآن أحد اليونكو، أقوى قرصان في البحر. كل ليلة، أنت وفريقك يمكنكم تجنيد المزيد من القراصنة الأقوياء في اليونكو.</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <!-- 0 - Number of Zombies -->
     <value>Yonkou - Members: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <!-- 0 - new Zombie's name -->
     <value>انضم {0} لليونكو!</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <!-- 0 - Newest Zombie's name -->
     <!-- 1 - target name -->
     <value>ذهب {0} لضم {1}... لكن لم يعثر على سفينته!</value>
   </string>
-  <string key="CultWins" isgif="true">
+  <string key="zoombiesWins" isgif="true">
     <value >لقد مات كل البحرية، والأشخاص المتبقين قد انضموا لليونكو.. فاز اليونكو!</value>
   </string>
   <string key="HunterVisitDead">
@@ -509,7 +509,7 @@
     <value>  عملاء الأعمال الباروكية هم: {0}</value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <!-- 0 - Youngest Zombies name -->
     <value>أحدث عضو فيكم توجه لسفينة {0} ليضمه لليونكو، لكن بدلًا من ذلك يجد السفينة تعمها الفوضى والدماء متناثرة في كل مكان وقطع من زي البحرية مبعثرة في الأنحاء...</value>
   </string>
@@ -518,7 +518,7 @@
     <value>اتجه أسطول البحرية لسفينة {0} لكي يأسره، لكنهم يجدون لعبة صغيرة ظريفة وناعمة (أو هل هي كذلك؟). اوه مهلًا، فجأةً تتحول اللعبة الناعمة إلى وحش عملاق وبغضب هائج يُدمر أسطولكم بالكامل. ووبعد تلقيكم لمعلومة من موظف البحرية، تكتشفون أن ذلك الوحش الذي يهاجم سفنكم هو تشوبر وأنه ليس لديكم أدنى فرصةلمجابهته، لأنه استخدم كرة الرامبل. تشوبر، الملاك المنقذ يصد كل البحرية، لذا عدتم مهزومين.</value>
   </string>
   <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <!-- 0 - newest  -->
     <!-- 1 - target's name -->
     <value>أرسلتم {0} لمحاولة غسل دماغ {1} لتجعلوه يؤمن بأفكاركم، ولكن الهاكي خاصته (قوة الإرادة) كان قويًا جدًا، ولم تتمكنوا من غسل دماغه :( GG….</value>
@@ -529,7 +529,7 @@
     <!-- 1 - name -->
     <value>يا @{1}، لاعب بالإسم {0} قد انضم بالفعل.  من فضلك غير إسمك كي تنضم.</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <!-- 0 - target's name -->
     <value>تسللتِ لسفينة {0} كي ترضي هوسكِ وتستمتعي بسرقة الأشياء... لكن بينما تدخلين السفينة، تسمعين صوتًا مخيف لتابعٍ يحضر عشاء البيغ مام ( تضحيةٌ بشرية - اللعنة ما هذا، لأنهليس هناك حلوى). وبعد ذلك بوقتٍ قصير تسمعين ضِحكةً مدوية ”مامامامّاماماما“ من على بعد. لذا تقررين عدم العبث مع يونكو بدون تعزيزات. وتنسحبين بهدوء من السفينة.</value>
   </string>
@@ -624,8 +624,8 @@
     <value>إنتهى الوقت!</value>
   </string>
   <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
-    <value>أنت أحد قراصنة الجيل الأسوأ، ترافلغار دي. ووتر لاو 🏹. باستخدام فاكهتك اوبي اوبي نو مي، أنت قادرٌ على تنفيذ عملية نقل الشخصية (لكن لمرةٍ واحدة فقط) وتبديل قلبي قرصانين والقلوب المبادلة ستنتمي لهم للأبد، حيث أنك لا تخطط لتبديلهم لما كانوا عليه من قبل. إن مات أحدهم، سيموت الآخر من الأسى لأن قلبه الحقيقي قد مات.. تحتاج مساعدة؟ > /aboutCupid</value>
+  <string key="RoleInfoRecruiter">
+    <value>أنت أحد قراصنة الجيل الأسوأ، ترافلغار دي. ووتر لاو 🏹. باستخدام فاكهتك اوبي اوبي نو مي، أنت قادرٌ على تنفيذ عملية نقل الشخصية (لكن لمرةٍ واحدة فقط) وتبديل قلبي قرصانين والقلوب المبادلة ستنتمي لهم للأبد، حيث أنك لا تخطط لتبديلهم لما كانوا عليه من قبل. إن مات أحدهم، سيموت الآخر من الأسى لأن قلبه الحقيقي قد مات.. تحتاج مساعدة؟ > /aboutRecruiter</value>
   </string>
   <string key="RoleInfoDoppelganger">
     <value>أنت بينثام المعروف بـ مستر 2 بون كوري 🎭، عميلٌ سابق للأعمال الباروكية. بقدرة ماني ماني نو مي (فاكهة الشيطان التقليد) يمكنك التحول لأي هيئةٍ تريدها. لكنفي هذه اللعبة، يمكنك تقليد شخصٌ واحد. إختر لاعب، وعندما يموت ذلك اللاعب أو يأسر فستستولي على دوره.</value>
@@ -636,7 +636,7 @@
   <string key="RoleInfoSerialKiller">
     <value>أنت اللحية السوداء مارشال دي. تيتش 🔪. أنت متعطش للقوة وطماع، وهدفك هو أن تصبح أقوى قرصان على وجه الأرض. هوايتك هي جمع جميع فواكة الشيطان -- لذا أنت لا تتردد في قتل الأشخاص في أقرب فرصة. كل ليلة، ستزور لاعبًا واحد لتقتله وتضم فاكهة الشيطان خاصته لمجموعتك.</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>لقد ضُربت من قبل لاو. ذكرى {0} لن تتلاشى من قلبك أبدًا، لأن كلٌ من قلبيكما قد تبدلا. هدفك هو أن ينجو كلاكما. إن مات أحدكما فسيموت الآخر من الأسى لأنه فقد قلبه للأبد.</value>
 	<value>لاو قد ضربكما بقدرته ”人格移植手術 جينكاكو ايشوكو شوجوتسو“ والمعروفة أيضًا بعملية نقل الشخصية (وتبديل قلوبكم)! جسدك وقلبك الآن مترابطان مع {0}! إن مات فستموت أنت أيضًا. إن نجوتما حتى النهاية فسيفوز كلاكما.</value>
   </string>
@@ -692,12 +692,12 @@
     <!-- 0 - target's name -->
     <value>حاولت أخذ فاكهة الشيطان الخاصة بـ{0} كي تضمها لمجموعتك، لكن تم صدك من قبل الملاك الحارس! لا ضحية لك الليلة...</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
     <value>اليونكو أرسلّ {0} لمحاولة ضم {1}، لكن بدلًا من ذلك جثة {0} تأتي محلقةً من على السفينة، وهي مقطوعة قطعة واحدة ميتقيمة والدماء تغكيها بالكامل! مات {0}....</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
     <value>اليونكو أرسلّ {0} لمحاولة ضم {1}، لكن بدلًا من ذلك جثة {0} المظلمة تأتي في علبة كتحذير! كم يمكن أن يصبح اللحية السوداء متوحشًا! مات {0}....</value>
@@ -722,11 +722,11 @@
     <!-- 1 - mason collegues's name -->
     <value>مات {0}، وتم دعوتك للإنضمام للأعمال الباروكية كعميلٍ سري. زملاؤك (إذا كان هناك) هم: {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <!-- 0 - new Zombie's name -->
     <value>بون كوري، {0} انضم لفريق اليونكو (ماذا تقول؟!)!</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <!-- 0 - role's name -->
     <!-- 1 - teammates's name -->
     <value>مات {0}، وانضممت لفريق اليونكو للحماية. زملاؤك (إذا كان هناك) هم: {1}</value>
@@ -746,25 +746,25 @@
   <string key="AskKill">
     <value>من الذي تريد قتله الليلة؟</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <!-- 0 - dead's name -->
-    <!-- 1 - lover's name -->
+    <!-- 1 - crewmate's name -->
     <!-- 2 - roles -->
     <value>بينما يلفظ {0} أنفاسه الأخيرة، يسرع {1} ليسقط باكيًا لأن قلبه قد توقف. لا يمكنه تحمل فقدان قلبه المحبوب، لذا يذهب ليسقط في البحر. {2}</value>
   </string>
   <string key="AskDoppelganger">
     <value>من تريد أن تُصبح إن مات أو أُسر؟</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>من الذي تريد تبديل قلبه؟ إختر اللاعب الأول</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>القرصان الثاني الذي ستبدل قلبه؟ إختر اللاعب الثاني</value>
   </string>
   <string key="Hunter">
     <value>زورو، صائد القراصنة 🎯</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>ترافلغار دي. ووتر لاو 🏹</value>
   </string>
   <string key="SerialKiller">
@@ -777,7 +777,7 @@
     <!-- 0 - target's name -->
     <value>أنت كوبي، القرصان اليافع الجامح. من تظن أنه اختطفك؟ {0}</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
     <value>كل ذلك الجهد للنجاة بالقلوب المبدلة قد آتى أُكله أخيرًا! الثنائي العَرَضيّ فاز!</value>
   </string>
   <string key="HunterKilledVisiter">
@@ -785,7 +785,7 @@
     <!-- 1 - role -->
     <value>في الشارع قرب رصيف السفن، يعثر الجميع على جثة {0}، ويعلوها طعنات وقطعات عديدة. يبدو أنه حاول التسلل على صائد القراصنة! يا للغباء! {1}</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>شخصٌ مقنع حاول ضمك لفريق اليونك ، لكن هاكيك (قوة إرادتك) كان قويًا جدًا بحيث لم يستطع التعامل معه</value>
   </string>
   <string key="AlreadyOnWaitList">
@@ -866,11 +866,11 @@ https://teespring.com/stores/werewolf-for-telegram</value>
   <string key="AboutFool">
     <value>he fool is told they are the seer.... when they choose to see someone's role at night, they are told a random role.</value>
   </string>
-  <string key="AboutCult">
-    <value>As a Zombie, it is your goal to convert all other players (except wolves) to your cult. If at the end of the game, all living players are Zombie - the cult wins</value>
+  <string key="Aboutzoombies">
+    <value>As a Zombie, it is your goal to convert all other players (except wolves) to your zoombies. If at the end of the game, all living players are Zombie - the zoombies wins</value>
   </string>
   <string key="AboutCH">
-    <value>Your job is to hunt the Cult. If the cult attacks you, their newest member will die. Each night you may pick a player to 'hunt' - if they are a Zombie, they will die.</value>
+    <value>Your job is to hunt the zoombies. If the zoombies attacks you, their newest member will die. Each night you may pick a player to 'hunt' - if they are a Zombie, they will die.</value>
   </string>
   <string key="AboutWC">
     <value>At the beginning of the game, you will choose someone to be your 'role model'. If they die, you become a werewolf.</value>
@@ -887,25 +887,25 @@ https://teespring.com/stores/werewolf-for-telegram</value>
   <string key="AboutDG">
     <value>
       Your ancestors had the ability to metamorph into others... while you don't have their full abilities, you can pick a player at the start of the game. If that player dies, you will become what they were.
-      Note: If the player was converted to cult, you will take on their original role. All other normal rules apply: If they were Wild Child and their role model died, you will become a wolf. Otherwise, you will inherit their role model.
-      The cult cannot convert the Doppelgänger (but can after the doppelganger switches roles). Also - the Doppelgänger can NOT win unless they have transformed. If at the end of the game, the Doppelgänger is still the same, they lose (exception: lover)
+      Note: If the player was converted to zoombies, you will take on their original role. All other normal rules apply: If they were Wild Child and their role model died, you will become a wolf. Otherwise, you will inherit their role model.
+      The zoombies cannot convert the Doppelgänger (but can after the doppelganger switches roles). Also - the Doppelgänger can NOT win unless they have transformed. If at the end of the game, the Doppelgänger is still the same, they lose (exception: crewmate)
     </value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>
-      Love is in the air. As Cupid, you will choose two players at the start of the game. These two players will become madly in love! If one of them dies, the other will die of sorrow :(
-      Note: Lovers will know who each other are, but not be told their roles. If the lovers are the last two alive, they win, regardless of teams. If the lovers are on different teams (villager + wolf), and one team wins (wolf), the lover (villager) wins as well. TL;DR if both lovers are alive at the end, and at least one of them was on the winning team, they both win together
+      Love is in the air. As Recruiter, you will choose two players at the start of the game. These two players will become madly in love! If one of them dies, the other will die of sorrow :(
+      Note: crewmates will know who each other are, but not be told their roles. If the crewmates are the last two alive, they win, regardless of teams. If the crewmates are on different teams (villager + wolf), and one team wins (wolf), the crewmate (villager) wins as well. TL;DR if both crewmates are alive at the end, and at least one of them was on the winning team, they both win together
     </value>
   </string>
   <string key="AboutHunter">
     <value>
       A trigger happy, vindictive player. As the hunter, you try to keep to yourself. However, when others come to visit you, they may find themselves dead, as your paranoia takes hold and you shoot. If the wolves attack you, you have a chance to take one of them with you. Otherwise, if you die, you will get a chance to shoot someone as you die.
       Note: For wolf attacks, the chance starts at 30%. If there is one wolf, the hunter has a 30% chance to kill the wolf (and survive). For each additional wolf, add 20% (2 wolves = 50%, 3 = 70%, etc). However - if there are multiple wolves, while you may kill one of them, you will still be outnumbered and killed.
-      If the cult tries to convert you, they have a 50% chance to fail. If they fail, you have a 50% chance to kill one of them!
+      If the zoombies tries to convert you, they have a 50% chance to fail. If they fail, you have a 50% chance to kill one of them!
     </value>
   </string>
   <string key="AboutSK">
-    <value>That asylum was silly anyways. What a joke. You are free now however, back to business as usual - killing! The serial killer is a lone player, on their own team. They can win only if they are the last player alive (exception: lovers). As the serial killer, you can kill ANYONE - wolves, hunters, gunners, guardian angels, whatever. If the wolves try to attack you, you will kill one of them (random), and live.</value>
+    <value>That asylum was silly anyways. What a joke. You are free now however, back to business as usual - killing! The serial killer is a lone player, on their own team. They can win only if they are the last player alive (exception: crewmates). As the serial killer, you can kill ANYONE - wolves, hunters, gunners, guardian angels, whatever. If the wolves try to attack you, you will kill one of them (random), and live.</value>
   </string>
   <string key="AboutPara">
     <value>Para is a silly developer that likes to bark at people. Maybe he's been messing with marines too long....Messing with marines is a very bad idea.</value>
@@ -1076,10 +1076,10 @@ https://teespring.com/stores/werewolf-for-telegram</value>
   <string key="AllowTannerA">
     <value>شيراهوشي كدور تم وضعه لـ: {0}</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>السماح لفريق اليونكو كدور؟/nالحالي: {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>فريق اليونكو كدور تم وضعه لـ: {0}</value>
   </string>
   <string key="EnableSecretLynchQ">
@@ -1240,7 +1240,7 @@ https://teespring.com/stores/werewolf-for-telegram</value>
   <string key="SerialKillerTeam" deprecated="true">
     <value>فريق السفاح</value>
   </string>
-  <string key="CultTeam" deprecated="true">
+  <string key="zoombiesTeam" deprecated="true">
     <value>فريق الطائفة</value>
   </string>
   <string key="TannerTeam" deprecated="true">
@@ -1259,13 +1259,13 @@ https://teespring.com/stores/werewolf-for-telegram</value>
   <string key="SerialKillerTeamEnd">
     <value>فريق السفاح</value>
   </string>
-  <string key="CultTeamEnd">
+  <string key="zoombiesTeamEnd">
     <value>فريق الطائفة</value>
   </string>
   <string key="TannerTeamEnd">
     <value>فريق الدباغ</value>
   </string>
-  <string key="CultConvertWolf">
+  <string key="zoombiesConvertWolf">
     <value>أرسلت الطائفة {0} ليحاول تحويل {1}، لكن بدلًا من ذلك يأتي رأس {0} محلقًا من النافذة... أتساءل لماذا ظن أنه غير قابلٍ للأكل! {0} مات...</value>
   </string>
 
@@ -1286,7 +1286,7 @@ https://teespring.com/stores/werewolf-for-telegram</value>
   <string key="ZombieKilled">
     <value>عُثر على {0} مطعون حتى الموت بواسطة شمعدان خاصٌ بالمذبح. السفاح ضرب مجددًا، لا مبالٍ بالعرق أو اللغة أو الدين! {0} كان طائفي.</value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>يطل الصباح التالي، والقرويون كانوا مفطوري القلب بعد أن عثروا على {0} والمعروف أيضًا بملاك الحب مبتور من الرأس إلى القدم. وخلافًا للعادة القلب كان مفقود...</value>
   </string>
   <string key="DrunkKilled">
@@ -1320,12 +1320,12 @@ https://teespring.com/stores/werewolf-for-telegram</value>
     <value>يستيقظ القرويين في الصباح، فقط ليعثروا جسد {0}، صائد الطائفيين، مقطع لأشلاء، في داخل عربة أمام دار البلدية. تم تعلم الدرس: لا تزر السفاح!</value>
     <value>جثة {0}، صائد الطائفيين، عُثر عليها في وسط البلدة، ولو أنها مقطعة بدقة إلى مائة قطعة. لا يبدو أن التحقق مما إذا كان السفاح طائفي فكرةً جيدة...</value>
   </string>
-  <string key="CultConvertWolfPublic">
+  <string key="zoombiesConvertWolfPublic">
     <!--used when Zombies convert the wolves, only if wolves stayed home-->
     <value>بينما كان يبدو أن الذئاب قررت البقاء جيدةً لمرة، إلا أنها عاقبت {0}، طائفي قرر افتعال المشاكل مع الذئاب، لتبرهن صعوبة مقاومة ذلك. رأس {0} تحول لعشاءٍ ممتاز، تم توصيله لعتبة منزل الذئاب!</value>
     <value>الطائفة علقت في مشكلةٍ غير متوقعة الليلة الماضية. أحدث عضوٍ فيهم كان سيء الحظ لزيارته ذئبًا في الليلة التي قررت فيها الذئاب البقاء في المنزل، والذئب وجد {0} لذيذًا نوعًا ما. لسوء حظ {0}، الذئاب ليس لديها اهتمام في الإنضمام لحركة طائفةٍ جديدة.</value>
   </string>
-  <string key="CultConvertKillerPublic">
+  <string key="zoombiesConvertKillerPublic">
     <!--used when Zombies convert the SK-->
     <value>الطائفة ظنوا أنهم سيكسبون عضوً جديدً في صفوفهم، لكنهم كانوا مخطئين! {0}، طائفي فُرم لقطع ووُضع في ميدان البلدة في الصباح! وخلافًا للعادة كتاب "الطائفة" خاصته عُثر عليه مطعونًا بسكين، كما لو أنه تصريحٌ ليبين أي عقيدةٍ هي المنتصرة.</value>
     <value>الليلة الماضية، الطائفة حاولت تحويل الوحيد في القرية الأكثر جنونًا منهم. أحدث عضو حاول تحويل السفاح، والسفاح صنع قطعةً فنيةً جديدة في ميدان البلدة مكونةً من أعضاء {0} الداخلية.</value>
@@ -1413,8 +1413,8 @@ https://teespring.com/stores/werewolf-for-telegram</value>
     <!-- NOTE: No space between {0} and joined. It will be added in the code if necessary-->
     <value>إنضم {0}للعبة في آخر 30 ثانية.</value>
   </string>
-  <string key="AllowCult">
-    <value>Allow Cult</value>
+  <string key="Allowzoombies">
+    <value>Allow zoombies</value>
   </string>
   <string key="AllowTanner">
     <value>Allow Tanner</value>
@@ -1452,7 +1452,7 @@ https://teespring.com/stores/werewolf-for-telegram</value>
     <value>الكل</value>
   </string>
   <string key="RandomModeQ">
-    <value>Enable random mode?\nWhen random mode is enabled, Chaos, Secret Lynch, Show Roles on Death, and Allow Cult / Fool / Tanner will be randomly determined everytime someone starts a game.\nCurrent:{0}</value>
+    <value>Enable random mode?\nWhen random mode is enabled, Chaos, Secret Lynch, Show Roles on Death, and Allow zoombies / Fool / Tanner will be randomly determined everytime someone starts a game.\nCurrent:{0}</value>
   </string>
   <string key="RandomModeA">
     <value>Enabling of random mode set to: {0}</value>
@@ -1651,7 +1651,7 @@ https://teespring.com/stores/werewolf-for-telegram</value>
     <!-- 0 - mason collegues's name -->
     <value>رفاقك (إذا كان هنا) هم: {0}</value>
   </string>
-  <string key="ThiefToCult">
+  <string key="ThiefTozoombies">
     <!-- 0 - old Zombie's name -->
     <!-- 1 - new Zombie's name -->
     <value>{0} is no longer your teammate and {1} has now become a Zombie, just like you!</value>
@@ -1821,7 +1821,7 @@ https://teespring.com/stores/werewolf-for-telegram</value>
 	<value>{0} wasn't home! You drag your suitcase back home, cursing your bad luck.</value>
   </string>
   <string key="ZombiesList">
-	<value>The cult members are currently: {0}</value>
+	<value>The zoombies members are currently: {0}</value>
   </string>
   <string key="SnowWolf">
 	<value>الذئب الثلجي 🐺☃️</value>
@@ -1872,7 +1872,7 @@ https://teespring.com/stores/werewolf-for-telegram</value>
     <value>As you stirred in your sleep, preparing to wake up to get your potions, a strong gust of wind blew in from the windows, causing you to freeze 🐺☃️. From the corner of your eyes, you saw the bottles of your potions frosted over. Looks like they didn't escape the brunt of the freezing spell either. You mentally sighed, wishing the sun came up sooner... Good thing you're thawed now, though</value>
   </string>
   <string key="ZombieFrozen">
-    <value>As you donned your cloak and prepared to leave your house, a gust of wind blew in from the doorway, causing you to freeze 🐺☃️. Your fellow Zombies dropped by soon after to bring you along to cult people, but they ended up laughing at your demise. Leaving you by the doorway, they promised that they'll make good work of tonight. Now that you're unfrozen, you leave the house, cringing in embarrassment. </value>
+    <value>As you donned your cloak and prepared to leave your house, a gust of wind blew in from the doorway, causing you to freeze 🐺☃️. Your fellow Zombies dropped by soon after to bring you along to zoombies people, but they ended up laughing at your demise. Leaving you by the doorway, they promised that they'll make good work of tonight. Now that you're unfrozen, you leave the house, cringing in embarrassment. </value>
   </string>
   <string key="CHFrozen">
     <value>As you grabbed your sword, a gust of wind blew in from the window, causing you to freeze, back still arched 🐺☃️. You mentally groaned, your limbs aching from being in this position until now... </value>
@@ -1962,7 +1962,7 @@ https://teespring.com/stores/werewolf-for-telegram</value>
     <value>Player list will be shuffled every time: {0}</value>
   </string>
   <string key="AboutGraveDigger">
-	<value>You are the Grave Digger ☠️. Every night, you dig the graves for all the people who died since the last time you did (yes, even werewolves deserve a proper burial). Since you are out all night, wolves and the cult can't find you, unless you actually have nothing to do (i.e. no one died), in that case you'll just stay home. Everyone who visits you has a chance of falling into your newly dug graves, depending on how many graves you dug. Also, the chance is halved for everyone who is on the village team with you. But since you are out at night, the wolves or the serial killer might spot and kill you, and the more graves you have to dig, the more likely it is. Also, apparently the serial killer can find you whether you're at home or not, but they might at least stumble in one of your graves and hurt their leg, causing them to maybe lose control over who is their victim the next night...</value>
+	<value>You are the Grave Digger ☠️. Every night, you dig the graves for all the people who died since the last time you did (yes, even werewolves deserve a proper burial). Since you are out all night, wolves and the zoombies can't find you, unless you actually have nothing to do (i.e. no one died), in that case you'll just stay home. Everyone who visits you has a chance of falling into your newly dug graves, depending on how many graves you dug. Also, the chance is halved for everyone who is on the village team with you. But since you are out at night, the wolves or the serial killer might spot and kill you, and the more graves you have to dig, the more likely it is. Also, apparently the serial killer can find you whether you're at home or not, but they might at least stumble in one of your graves and hurt their leg, causing them to maybe lose control over who is their victim the next night...</value>
   </string>
   <string key="RoleInfoGraveDigger">
 	<value>أنت حفار القبور ☠. هو التخلص من جثث الأموات في القرية. تحفر قبرًا لكل من يموت منذ. الليلة الماضية. برغم ذلك، أنت في العادة تتعب ولا تتمكن من إنهاء القبر، لذا يبقى مفتوح. بعض، الزائرين قد ربما يسقطون في أحد القبور ويموتون... على الأقل، لا تستطيع الذئاب أكلك لانك تظل خارجًا طوال الليل.</value>
@@ -2008,16 +2008,16 @@ https://teespring.com/stores/werewolf-for-telegram</value>
   <string key="HunterFell">
 	<value>ليلة أخرى لا يمكنك فيها ذبح أحد أولئك الطائفيين اللعناء! فتمشي محبطًا خلال المقبرة ولم تلحظ فخ الدببة الذي علق حول كاحلك. صرخت للنجدة وكافحت للنجاة، لكن قد فات الأوان. وقعت للخلف داخل قبرٍ تركه {0} مفتوحًا وصوت كسر عنقك هو آخر شيءٍ سمعتَه قبل أن يصبح كل شيءٍ مظلمًا.</value>
   </string>
-  <!--{0}: cult hunter-->
+  <!--{0}: zoombies hunter-->
   <string key="HunterFellDigger">
 	<value>بعد ليلةٍ مرهقة، تعود للمنزل عند بدء شروق الشمس. وقبل أن تصل، تلاحظ وجود سيفٌ مرميٌ على الأرض بجانب قبرٍ غير مكتمل. بداخل ذلك القبر تجد جثة {0} ميتًا. ما كان ينبغي على صائد الطائفيين أن يشك بك...</value>
   </string>
   <!--{0}: Zombie-->
-  <string key="CultFell">
-	<value>You return from another tiring night, when suddenly you hear a scream from one of your unfinished graves! You hurry there, just to find {0} lying dead in an unfinished grave. What kind of cult tries to convert a grave digger, anyway?</value>
+  <string key="zoombiesFell">
+	<value>You return from another tiring night, when suddenly you hear a scream from one of your unfinished graves! You hurry there, just to find {0} lying dead in an unfinished grave. What kind of zoombies tries to convert a grave digger, anyway?</value>
   </string>
   <!--{0}: Zombie who fell, {1}: grave digger-->
-  <string key="CultConvertGraveDigger">
+  <string key="zoombiesConvertGraveDigger">
 	<value>On your way to {1}'s house, {0} suddenly decides that it would be a good idea to burn down the church as well. They lead you through the graveyard when suddenly a bear trap snaps around their ankle! All you can hear is their scream before they fall into a grave and you run for your lives.</value>
   </string>
   <!--{0}: grave digger-->

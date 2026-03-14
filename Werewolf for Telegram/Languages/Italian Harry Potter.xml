@@ -11,7 +11,7 @@ Angelo: Lily J. Potter👼
 Cacciatore Urbano: Harry Potter🎯
 Cacciatore Di Satanisti: Remus Lupin💂‍♀️
 Artigliere: Sirius Black🔫
-Cupido: Luna Lovegood🏹
+Recruitero: Luna Lovegood🏹
 Sosia: Ninfadora Tonks🎭
 Bimbo Ribelle: Mirtilla Malcontenta👶
 Maledetto: Dolores Umbridge😾
@@ -481,39 +481,39 @@ Se il Professore di Divinazione o Fiorenzo ti dovessero guardare, puoi o meno es
 <value>{0} ha votato per baciare la morte e far diventare {1} un Dissennatore.</value>
 </string>
 
-<string key="CultConvertZombieHunter">
+<string key="zoombiesConvertZombieHunter">
 <!-- 0 - Yougest Zombie (killed)'s name' -->
 <!-- 1 - ZombieHunter's name -->
 <value>{0} è stato inviato per baciare {1} e farlo diventare un Dissennatore... Tuttavia, era Remus Lupin e aveva un ottimo modo per allontanare i Dissennatori!</value>
 </string>
 
-<string key="ZombieHunterKilledCultVisit">
+<string key="ZombieHunterKilledzoombiesVisit">
 <!-- 0 - Youngest Zombie's name -->
 <!-- 1 - Number of Zombies left -->
 <value>{0} è andato nel tuo ufficio ieri sera, pronto a baciarti e a trasformarti in uno di loro... Ma tu hai un ottimo modo per proteggerti. Uno dei Dissennatori è tornato ad Azkaban... {1} rimanenti!</value>
 </string>
  
-<string key="CultConvertYou">
+<string key="zoombiesConvertYou">
 <value>Hai ricevuto il bacio della morte di un Dissennatore e ti sei trasformato in uno di loro. Durante la notte, puoi provare a baciar la morte e trasformare altri maghi in Dissennatori...</value>
 </string>
 
-<string key="CultTeam">
+<string key="zoombiesTeam">
 <!-- 0 - Number of Zombies -->
 <value>Dissennatori: {0}</value>
 </string>
 
-<string key="CultJoin">
+<string key="zoombiesJoin">
 <!-- 0 - new Zombie's name -->
 <value>{0} ha ricevuto il bacio della morte ed è stato trasformato in un Dissennatore!</value>
 </string>
   
-<string key="CultVisitEmpty">
+<string key="zoombiesVisitEmpty">
 <!-- 0 - Newest Zombie's name -->
 <!-- 1 - target name -->
 <value>{0} è stato inviato per baciare e trasformare {1} in un dissennatore... Ma nessuno era nella camera da letto quella notte.</value>
 </string>
 
-<string key="CultWins" isgif="true">
+<string key="zoombiesWins" isgif="true">
 <value >Tutti i maghi sono morti e gli unici sopravvissuti sono i Dissennatori... I Dissennatori hanno vinto!</value>
 </string>
 
@@ -649,7 +649,7 @@ Se il Professore di Divinazione o Fiorenzo ti dovessero guardare, puoi o meno es
 </string>
 
 <!-- new strings May 6 2016-->
-<string key="CultTargetDead">
+<string key="zoombiesTargetDead">
 <!-- 0 - Youngest Zombies name -->
 <value>Il membro più recente dei Dissennatori corre nella stanza di {0} per dargli il bacio della morte e trasformarlo in un Dissennatore, ma trova invece disordine, molto sangue e pezzi... L'obiettivo è stato assassinato!</value>
 </string>
@@ -660,7 +660,7 @@ Se il Professore di Divinazione o Fiorenzo ti dovessero guardare, puoi o meno es
 </string>
 
 <!-- new strings May 9 2016-->
-<string key="CultUnableToConvert">
+<string key="zoombiesUnableToConvert">
 <!-- 0 - newest  -->
 <!-- 1 - target's name -->
 <value>{0} è stato inviato per trasformare {1} in un Dissennatore, ma il suo Patronus era troppo forte. :(</value>
@@ -673,7 +673,7 @@ Se il Professore di Divinazione o Fiorenzo ti dovessero guardare, puoi o meno es
 <value>{1} un mago / strega con il nome {0} si è già unito alla battaglia. Per favore cambia il tuo nome per entrare ad Hogwarts</value>
 </string>
 
-<string key="HarlotDiscoverCult">
+<string key="HarlotDiscoverzoombies">
 <!-- 0 - target's name -->
 <value>Sei andato nella camera da letto di {0} per scoprire un po' di segreti, ma quando sei arrivato hai sentito una sensazione di vuoto, come se la tua anima lasciasse il tuo corpo. </value>
 </string>
@@ -735,7 +735,7 @@ Se il Professore di Divinazione o Fiorenzo ti dovessero guardare, puoi o meno es
 </string>
  
 <!-- new strings june 10 2016 -->
-<string key="RoleInfoCupid">
+<string key="RoleInfoRecruiter">
 <value>Sei Luna Lovegood🏹. Inviato ad Hogwarts con gli occhiali dello spettrometro e la pozione d'amore di Amortentia. Il primo giorno puoi scegliere due maghi da far innamorare per l'intero anno scolastico. Se uno di loro muore, l'altro morirà di dolore. Dopo aver unito i due piccioncini, puoi tornare a fare quello che facevi prima come un semplice studente.</value>
 </string>
 
@@ -751,7 +751,7 @@ Se il Professore di Divinazione o Fiorenzo ti dovessero guardare, puoi o meno es
 <value>Tu sei Gellert Grindelwald🔪. Sei solo e gli altri maghi non sono altro che i tuoi giocattoli. Ogni sera puoi scegliere un giocatore a cui lanciare un Avada Kedavra e aggiungerlo alla tua collezione.</value>
 </string>
 
-<string key="CupidChosen">
+<string key="RecruiterChosen">
 <value>L'amore è nell'aria!! Sei stato stregato, la memoria di {0} non svanirà mai dal tuo cuore. Il tuo obbiettivo è rimanere entrambi vivi. Se uno di voi viene ucciso o inviato ad Azkaban, l'altro lo accompagnerà.</value>
 </string>
 
@@ -820,13 +820,13 @@ Se il Professore di Divinazione o Fiorenzo ti dovessero guardare, puoi o meno es
 <value>Sei andato a divertirti un po' con {0}. Ma arrivando lì, Lily J. Potter👼 ha concluso il tuo divertimento! Niente scherzi questa notte...</value>
 </string>
 
-<string key="CultConvertHunter">
+<string key="zoombiesConvertHunter">
 <!-- 0 - Youngest Zombie's name -->
 <!-- 1 - target's name -->
 <value>I Dissennatori ordinano a {0} di baciare e trasformare {1} in un Dissennatore. Arrivando lì {0} viene accolto con un Avada Kedavra al petto! {0} è morto.</value>
 </string>
 
-<string key="CultConvertSerialKiller">
+<string key="zoombiesConvertSerialKiller">
 <value>I Dissennatori mandano {0} per trasformare {1}, ma invece il corpo di {0} esce volando dalla finestra con coltelli conficcati in ogni parte del corpo! CHE PSICOPATICO! {0} è morto...</value>
 </string>
 
@@ -854,12 +854,12 @@ Se il Professore di Divinazione o Fiorenzo ti dovessero guardare, puoi o meno es
 <value>{0} è morto, e tu ti trasformi in un membro dell'Esercito di Silente👷‍♂️. I tuoi compagni (se presenti) sono: {1}</value>
 </string>
  
-<string key="DGToCult">
+<string key="DGTozoombies">
 <!-- 0 - new Zombie's name -->
 <value>{0}, Ninfadora Tonks🎭 si è trasformata in un Dissennatore</value>
 </string>
 
-<string key="DGTransformToCult">
+<string key="DGTransformTozoombies">
 <!-- 0 - role's name -->
 <!-- 1 - teammates's name -->
 <value>{0} è morto, accettando il tuo destino, ti sei unito ai dissennatori. I tuoi nuovi compagni(se presenti) sono: {1}</value>
@@ -884,9 +884,9 @@ Se il Professore di Divinazione o Fiorenzo ti dovessero guardare, puoi o meno es
 <value>Chi vuoi uccidere stanotte?</value>
 </string>
 
-<string key="LoverDied">
+<string key="crewmateDied">
 <!-- 0 - dead's name -->
-<!-- 1 - lover's name -->
+<!-- 1 - crewmate's name -->
 <!-- 2 - roles -->
 <value>Con l'ultimo respiro di {0}, {1} accorre per vedere il suo cadavere e piange. Non riesce a sopportare la morte dell'amato, e con una bacchetta lancia un Avada Kedavra su di se. {2}</value>
 </string>
@@ -895,11 +895,11 @@ Se il Professore di Divinazione o Fiorenzo ti dovessero guardare, puoi o meno es
 <value>Di chi vuoi ereditare il ruolo alla sua morte?</value>
 </string>
 
-<string key="AskCupid1">
+<string key="AskRecruiter1">
 <value>Chi vuoi che siano gli innamorati? Scegli il primo studente</value>
 </string>
 
-<string key="AskCupid2">
+<string key="AskRecruiter2">
 <value>Chi vuoi che siano gli innamorati? Scegli il secondo studente</value>
 </string>
 
@@ -907,7 +907,7 @@ Se il Professore di Divinazione o Fiorenzo ti dovessero guardare, puoi o meno es
 <value>Harry Potter🎯</value>
 </string>
 
-<string key="Cupid">
+<string key="Recruiter">
 <value>Luna Lovegood🏹</value>
 </string>
 
@@ -924,7 +924,7 @@ Se il Professore di Divinazione o Fiorenzo ti dovessero guardare, puoi o meno es
 <value>Sei diventato Mirtilla Malcontenta👶. Il tuo fantastico esempio di vita è: {0}.</value>
 </string>
 
-<string key="LoversWin">
+<string key="crewmatesWin">
 <value>Il vero amore trionfa! Gli innamorati hanno vinto!</value>
 </string>
 
@@ -934,7 +934,7 @@ Se il Professore di Divinazione o Fiorenzo ti dovessero guardare, puoi o meno es
 <value>Quando gli studenti si svegliano, trovano {0} morto nel mezzo della Sala Grande, completamente deperito a causa del Sectumsempra. Sembra che qualcuno abbia visitato Harry Potter🎯 e qualcosa sia andato storto! {1}</value>
 </string>
 
-<string key="CultAttempt">
+<string key="zoombiesAttempt">
 <value> Nel mezzo della notte senti una tristezza, un vuoto, come se la tua felicità fosse sparita. Usi il tuo patronus per proteggerti e tutto ritorna alla normalita.</value>
 </string>
 
@@ -1038,7 +1038,7 @@ Se il Professore di Divinazione o Fiorenzo ti guarda, puoi o meno essere identif
 <value>Argus Filch dice che di essere un mago... Quando lancia un incantesimo, non succede nulla.</value>
 </string>
 
-<string key="AboutCult">
+<string key="Aboutzoombies">
 <value> Sei uno dei Dissennatori. Durante la notte, puoi scegliere qualcuno da baciare fino alla morte e sostituirlo con un Dissennatore. Se tutti i giocatori rimasti alla fine del gioco vengono rimpiazzati dai Dissennatori, l’anno finirà!</value>
 </string>
 
@@ -1066,7 +1066,7 @@ Se il Professore di Divinazione o Fiorenzo ti guarda, puoi o meno essere identif
 <value>Tu sei Ninfadora Tonks. Un metamorphmagus, capace di modificare il proprio aspetto senza l'uso di magie o pozioni. Scegli un mago e quando morirà assumerai il suo ruolo ad Hogwarts.</value>
 </string>
 
-<string key="AboutCupid">
+<string key="AboutRecruiter">
 <value>Sei Luna Lovegood. Inviato ad Hogwarts con gli occhiali dello spettrometro e la pozione d'amore di Amortentia. Il primo giorno puoi scegliere due maghi da far innamorare per l'intero anno scolastico. Se uno di loro muore, l'altro morirà di dolore. Dopo aver unito i due piccioncini, puoi tornare a fare quello che facevi prima come un semplice studente.</value>
 </string>
 
@@ -1293,11 +1293,11 @@ Se il Professore di Divinazione o Fiorenzo ti guarda, puoi o meno essere identif
 <value>Conciatore come ruolo impostato a {0}</value>
 </string>
 
-<string key="AllowCultQ">
+<string key="AllowzoombiesQ">
 <value>Ammettere i Satanisti in partita, come ruolo?\nAttualmente: {0}</value>
 </string>
 
-<string key="AllowCultA">
+<string key="AllowzoombiesA">
 <value>Satanista come ruolo impostato a {0}</value>
 </string>
 
@@ -1494,7 +1494,7 @@ Se il Professore di Divinazione o Fiorenzo ti guarda, puoi o meno essere identif
 <value>Team Gellert Grindelwald</value>
 </string>
 
-<string key="CultTeam">
+<string key="zoombiesTeam">
 <value>Team Dissennatori</value>
 </string>
 
@@ -1518,7 +1518,7 @@ Se il Professore di Divinazione o Fiorenzo ti guarda, puoi o meno essere identif
 <value>Team Gellert Grindelwald</value>
 </string>
 
-<string key="CultTeamEnd">
+<string key="zoombiesTeamEnd">
 <value>Team Dissennatori</value>
 </string>
 
@@ -1526,7 +1526,7 @@ Se il Professore di Divinazione o Fiorenzo ti guarda, puoi o meno essere identif
 <value>Team Antonin Dolohov</value>
 </string>
 
-<string key="CultConvertWolf">
+<string key="zoombiesConvertWolf">
 <value>I Dissennatori hanno mandato {0} per provare a convertire {1}, ma all'improvviso si vede la testa di {0} volare fuori dalla finestra... Indovinate perché pensavano fosse immangiabile! {0} è morto...</value>
 </string>
 
@@ -1548,7 +1548,7 @@ Se il Professore di Divinazione o Fiorenzo ti guarda, puoi o meno essere identif
 <value>{0} è stato trovato ucciso. Gellert Grindelwald🔪 ha colpito ancora! {0} era un Dissennatore👤.</value>
 </string>
 
-<string key="CupidKilled">
+<string key="RecruiterKilled">
 <value>Il mattino seguente, gli studenti furono affranti a trovare {0}, cioè Luna Lovegood🏹 ucciso in modo violento da Gellert Grindelwald🔪.</value>
 </string>
 
@@ -1588,11 +1588,11 @@ Se il Professore di Divinazione o Fiorenzo ti guarda, puoi o meno essere identif
 <value>Il corpo di {0}, Remus Lupin💂‍♂️ è stato trovato nel centro del cortile di Hogwarts, con due bacchette ficcate negli occhi. Controllare se Gellert Grindelwald🔪 fosse un Dissennatore👤 non sembra essere stata una buona idea..</value>
 </string>
 
-<string key="CultConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
+<string key="zoombiesConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
 <value>I Dissennatori hanno incontrato un problema non previsto questa notte. Il loro membro più recente, mandato a fare proseliti, è stato ucciso dal Mangiamorte che ha visitato. Sfortunatamente per {0}, i Mangiamorte non hanno interesse a diventare Dissennatori.</value>
 </string>
 
-<string key="CultConvertKillerPublic"> <!--used when Zombies convert the SK-->
+<string key="zoombiesConvertKillerPublic"> <!--used when Zombies convert the SK-->
 <value>I Dissennatori pensavano di convertire un nuovo membro tra di loro, ma si sbagliavano! {0}, un Dissennatore è stato trovato tritato nella piazza centrale! Gellert Grindelwald evidentemente non ci teneva a diventare un Dissennatore.</value>
 </string>
 
@@ -1700,8 +1700,8 @@ Se il Professore di Divinazione o Fiorenzo ti guarda, puoi o meno essere identif
 <value>{0} sono saliti nell'Hogwarts Express negli ultimi 30 secondi.</value>
 </string>
 
-<string key="AllowCult">
-<value>Allow Cult</value>
+<string key="Allowzoombies">
+<value>Allow zoombies</value>
 </string>
 
 <string key="AllowTanner">
@@ -1985,7 +1985,7 @@ Se il Professore di Divinazione o Fiorenzo ti guarda, puoi o meno essere identif
 <value>I membri dell'Esercito di Silente (se presenti) sono: {0}</value>
 </string>
 
-<string key="ThiefToCult">
+<string key="ThiefTozoombies">
 <!-- 0 - old Zombie's name -->
 <!-- 1 - new Zombie's name -->
 <value>{0} non è più dei vostri, in compenso {1} è diventato un dissennatore al suo posto, proprio come voi!</value>
@@ -2438,18 +2438,18 @@ Se il Professore di Divinazione o Fiorenzo ti guarda, puoi o meno essere identif
 <value>Un'altra notte inutile senza riuscire ad uccidere nessun Dissenatore! Frustrato, corri freneticamente nella foresta, ti addentri in una grotta, e prima che tu te ne accorga, sei imprigionato in una ragnatela. Urli e ti dimeni, ma è troppo tardi. Ben presto la tela di {0} ti avvolge completamente e  di te non resta che un corpo senza vita.</value>
 </string>
 
-<!--{0}: cult hunter-->
+<!--{0}: zoombies hunter-->
 <string key="HunterFellDigger">
 <value>Dopo un'altra lunga e faticosa notte, ritorni alla tua tana mentre il sole sta già sorgendo. Camminando sulla ragnatela, vieni punto da qualcosa, è una spada. Dentro al bozzolo c'è il cadavere di {0}. Remus Lupin non avrebbe dovuto sospettare di te...</value>
 </string>
 
 <!--{0}: Zombie-->
-<string key="CultFell">
+<string key="zoombiesFell">
 <value>Ritorni alla tana dopo una faticosa nottata, quando senti un urlo provenire dalle gallerie! Ti rechi subito sul posto, solo per trovare {0} morto stecchito. Da quando i Dissennatori provano a convertire i ragni giganti?</value>
 </string>
 
 <!--{0}: Zombie who fell, {1}: grave digger-->
-<string key="CultConvertGraveDigger">
+<string key="zoombiesConvertGraveDigger">
 <value>Mentre vai a casa di {1}, {0} suggerisce che sarebbe una buona passare per la foresta. Ti guidano tramite una grotta, che dovrebbe essere una scorciatoia, quando improvvisamente qualcosa lo immobilizza! Provate a liberarlo ma rischiate di restare intrappolati anche voi, così decidete  di scappare e lasciarlo lì.</value>
 </string>
 

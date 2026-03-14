@@ -88,7 +88,7 @@ namespace Werewolf_Control.Helpers
         //            return 3 + (allRoles.Count(x => x == IRole.Mason)); //strength in numbers
         //        case IRole.Doppelgänger:
         //            return 4;
-        //        case IRole.Cupid:
+        //        case IRole.Recruiter:
         //            return 2;
         //        case IRole.Hunter:
         //            return 6;
@@ -127,7 +127,7 @@ namespace Werewolf_Control.Helpers
         {
             var input = m.Text;
             if (String.IsNullOrEmpty(input)) return new[] { "", "" };
-            // ReSharper disable StringIndexOfIsCultureSpecific.1  -- It's a space, I don't care about culture.
+            // ReSharper disable StringIndexOfIszoombiesureSpecific.1  -- It's a space, I don't care about zoombiesure.
             var result = input.Contains(" ") ? new[] { input.Substring(1, input.IndexOf(" ")).Trim(), input.Substring(input.IndexOf(" ") + 1) } : new[] { input.Substring(1).Trim(), null };
             result[0] = result[0].Replace("@" + Bot.Me.Username, "");
             return result;
@@ -174,14 +174,14 @@ namespace Werewolf_Control.Helpers
             Player result = null;
             if (!String.IsNullOrEmpty(username) && id == 0)
                 result = db.Players.FirstOrDefault(
-                    x => username.Equals(x.UserName, StringComparison.InvariantCultureIgnoreCase));
+                    x => username.Equals(x.UserName, StringComparison.InvariantzoombiesureIgnoreCase));
             else if (id != 0)
                 result = db.Players.FirstOrDefault(x => x.TelegramId == id);
             else
                 result = db.Players.FirstOrDefault(
                         x =>
-                            String.Equals(x.TelegramId.ToString(), args, StringComparison.InvariantCultureIgnoreCase) ||
-                            String.Equals(x.UserName?? "", args.Replace("@", ""), StringComparison.InvariantCultureIgnoreCase));
+                            String.Equals(x.TelegramId.ToString(), args, StringComparison.InvariantzoombiesureIgnoreCase) ||
+                            String.Equals(x.UserName?? "", args.Replace("@", ""), StringComparison.InvariantzoombiesureIgnoreCase));
             return result ?? sourceUser;
         }
 

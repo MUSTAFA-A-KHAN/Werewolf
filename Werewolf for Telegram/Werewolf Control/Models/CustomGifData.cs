@@ -21,9 +21,9 @@ namespace Werewolf_Control.Models
         public string StartGame { get; set; }
         public string StartChaosGame { get; set; }
         public string TannerWin { get; set; }
-        public string CultWins { get; set; }
+        public string zoombiesWins { get; set; }
         public string SerialKillerWins { get; set; }
-        public string LoversWin { get; set; }
+        public string crewmatesWin { get; set; }
         public string SKKilled { get; set; }
         public string ArsonistWins { get; set; }
         public string BurnToDeath { get; set; }

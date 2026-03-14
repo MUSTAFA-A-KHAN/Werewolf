@@ -320,25 +320,25 @@
   <string key="ZombieVotedConvert" >
     <value >{0} vota per rubare l'umanità a {1}</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <value>{0} è stato inviato a fare il suo sporco lavoro, per convertire {1}... ma era Stroheim! {0} è morto!</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <value>{0} ti ha fatto visita la scorsa notte, pronto a convertirti...  ma l'hai ucciso con uno dei riflettori ultravioletti che hai sulle spalle. Un vampiro ribelle è morto... {1} rimanenti!</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>La setta ti ha vampirificato! Ora sei uno di loro. Ogni notte, avrai la possibilità di convertire un altro giocatore.</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>gli altri Zombies: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <value>{0} ha aderito alla setta!</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <value>{0} è stato inviato a fare il suo sporco lavoro, per far visita a {1}... ma nessuno era in camera!</value>
   </string>
-  <string key="CultWins" >
+  <string key="zoombiesWins" >
     <value >Tutti i servitori di Dio sono morti, ma tutti i sopravvissuti sono stati vampirificati... I vampiri ribelli hanno vinto!</value>
   </string>
   <string key="HunterVisitDead">
@@ -433,21 +433,21 @@
     <value>  Gli altri Fratelli sono: {0}</value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <value>Il vostro novizio va a casa di {0} per convincero a diventare un vampiro ribelle, ma trova invece una casa malmessa e sangue ovunque. </value>
   </string>
   <string key="GuardBlockedWolf">
     <value>Ti infiltri nella camera di {0} per spazzarlo via, ma ti rendi conto che Johnny Joestar con Tusk ti stavano già spettando, la sua potenza dellҠinfinito ti blocca e sei costretto a tornare in camera, hai perso una battaglia contro il fantino meraviglia!.</value>
   </string>
   <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <value>Spedite {0} per convertire {1}, purtroppo lui non vuole credere alle storielle sui palestrati aztechi che venerate, non siete riusciti a vampirificarlo :(</value>
   </string>
   <!-- new string May 12 2016-->
   <string key="NameExists">
     <value>@{1}, un giocatore con il nome di {0} e' gia' entrato. Cambia il tuo nome per entrare. </value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <value>Ti rechi a casa di {0} per divertirti un po'... Ma quando stai per uscire, ti accorgi di uno strano altare.. Nascosto malamente, all'angolo della stanza, ed una strana luce provenire da esso. Hai scoperto un vampiro che venera Kars! Corri subito via in preda al terrore</value>
   </string>
   <!-- new string May 13 2016-->
@@ -522,8 +522,8 @@
 	<value>è scaduto il tempo!</value>
   </string>
   <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
-    <value>Sei Lovers, brutto infame, il tuo stand ti permette di collegare due persone, essi saranno in squadra fino alla fine indipendentemente dal ruolo, e se uno muore, muore anche l' altro.</value>
+  <string key="RoleInfoRecruiter">
+    <value>Sei crewmates, brutto infame, il tuo stand ti permette di collegare due persone, essi saranno in squadra fino alla fine indipendentemente dal ruolo, e se uno muore, muore anche l' altro.</value>
   </string>
   <string key="RoleInfoDoppelganger">
     <value>Il tuo stand è Yellow Temperance, con il tuo potere stand all' inizio dell' avventura potrai scegliere una persona, se egli muore potrai copiargli aspetto, stand e tutto il resto, diventerai lui a tutti gli effetti!!!! Prenderai anche il suo ruolo.</value>
@@ -534,8 +534,8 @@
   <string key="RoleInfoSerialKiller">
     <value>Sei Kira Yoshikage! il tuo unico scopo è vivere una vita tranquilla, ma adesso sei minacciato!! Puoi uccidere chiunque tu voglia e se un servitore di dio ti prende di mira c'è la probabilità che Killer Queen gli faccia esplodere la testa, è ora di tornare a vivere la tua vita tranquilla!.</value>
   </string>
-  <string key="CupidChosen">
-    <value>Un piccolo stand si è intrufolato, si tratta di LOVERS, sei legato a  {0} per il resto della partita, se lui muore morirai anche tu.</value>
+  <string key="RecruiterChosen">
+    <value>Un piccolo stand si è intrufolato, si tratta di crewmateS, sei legato a  {0} per il resto della partita, se lui muore morirai anche tu.</value>
  </string>
   <string key="HunterLynchedChoice">
     <value>hanno deciso che la minaccia sei tu! prima di venire accerchiato utilizzi la tua tecnica. Scegli chi colpire!</value>
@@ -561,7 +561,7 @@
   <string key="HunterKilledFinalShot">
     <value>In fin di vita, {0} cade... Ma non senza utilizzare il suo vetro a ricerca e sparare a {1}, che si becca il proiettile ne cuore e cade a terra senza vita. {2}</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <value>{0} si intrufola nella casa di {1}, apre la porta e viene immediatamente accolto da un maniaco pazzo con un coltello!!! {1} immerge profondamente il coltello negli organi di {0} in ordine alfabetico, sghignazzando tutto il tempo! {0} è morto D:</value>
     <value>I vampiri ribelli mandano {0} per convertire {1}, ma invece il corpo di {0} esce volando dalla finestra con coltelli conficcati in ogni parte del corpo! Che paura! {0} è morto...</value>
  </string>
@@ -580,7 +580,7 @@
   <string key="GuardBlockedKiller">
     <value>Hai provato ad aggiungere le mani di {0} alla tua collezione, ma invece ti sei scontrato con Johnny! Niente da fare stasera, nottataccia...</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <value>I vampiri ribelli mandano {0} per convertire {1}, ma invece una luce pervade la sua casa e il corpo di {0} esce dalla finestra polverizzato! {0} è morto...</value>
   </string>
   <string key="GuardKiller">
@@ -599,10 +599,10 @@
   <string key="DGTransformToMason">
     <value>{0} è morto, e tu acquisti le sue sembianze. I tuoi fratelli (se presenti) sono: {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <value>Yellow Temperance {0} è ora diventato un vampiro ribelle, esattamente come te!</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <value>{0} è morto, e tu acquisti le sue sembianze da vampiro ribelle. I tuoi compagni (se presenti) sono: {1}</value>
   </string>
   <string key="DGToWolf">
@@ -617,23 +617,23 @@
   <string key="AskKill">
     <value>Su chi vuoi sfogare i tuoi istinti stanotte?</value>
   </string>
-  <string key="LoverDied">
-    <value>Con l'ultimo respiro di {0}, a {1} è toccata la stessa sorte, è stato ucciso per mano di Lovers, entrambi erano stati LEGATI! {2}</value>
+  <string key="crewmateDied">
+    <value>Con l'ultimo respiro di {0}, a {1} è toccata la stessa sorte, è stato ucciso per mano di crewmates, entrambi erano stati LEGATI! {2}</value>
   </string>
   <string key="AskDoppelganger">
     <value>Di chi vuoi acquisire le sembianze dopo la morte?</value>
   </string>
-  <string key="AskCupid1">
-    <value>Chi vuoi legare con Lovers? Scegli il primo giocatore</value>
+  <string key="AskRecruiter1">
+    <value>Chi vuoi legare con crewmates? Scegli il primo giocatore</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>E il secondo sfortunato? Scegli il secondo giocatore</value>
   </string>
   <string key="Hunter">
     <value>Josuke Higashikata🎯</value>
   </string>
-  <string key="Cupid">
-    <value>Lovers🏹</value>
+  <string key="Recruiter">
+    <value>crewmates🏹</value>
   </string>
   <string key="SerialKiller">
     <value>Kira Yoshikage🔪</value>
@@ -647,11 +647,11 @@
   <string key="HunterKilledVisiter">
     <value>viene ritrovato il corpo di {0}, centrato in pieno al cuore. Sembra che lui abbia insultato i capelli di Josuke! {1}</value>
   </string>
-  <string key="CultAttempt">
-    <value>Una figura con gli addominali scolpiti ha provato a convertiti ad uno strano culto azteco, ma tu non hai mollato.</value>
+  <string key="zoombiesAttempt">
+    <value>Una figura con gli addominali scolpiti ha provato a convertiti ad uno strano zoombieso azteco, ma tu non hai mollato.</value>
   </string>
-  <string key="LoversWin">
-  <value>Costretti a collaborare, i due malcapitati legati da Lovers, hanno ingannato tutti e hanno vinto!</value>
+  <string key="crewmatesWin">
+  <value>Costretti a collaborare, i due malcapitati legati da crewmates, hanno ingannato tutti e hanno vinto!</value>
   </string>
   <string key="SerialKillerWinsOverpower">
     <value>Ne sono rimasti solo due e sono faccia a faccia. {0} si mette a sghignazzare e appena nota che {1} sfodera il suo stand  non esita a fargli esplodere la testa! Kira ha vinto!</value>
@@ -720,8 +720,8 @@
   <string key="AboutFool">
     <value>un povero imbecille che imita Joseph, vede ruoli casuali ma che sono sicuramente in partita, lui crede di essere Joseph, quindi tu potresti essere un falso veggente.</value>
   </string>
-  <string key="AboutCult">
-    <value>Come Vampiro ribelle il tuo obiettivo è convertire tutti gli altri giocatori. Al tuo culto. Se a fine partita, tutti i giocatori sono Vampiri, vincete.</value>
+  <string key="Aboutzoombies">
+    <value>Come Vampiro ribelle il tuo obiettivo è convertire tutti gli altri giocatori. Al tuo zoombieso. Se a fine partita, tutti i giocatori sono Vampiri, vincete.</value>
   </string>
   <string key="AboutCH">
     <value>Il tuo lavoro è estirpare i vampiri ribelli. Se ti visitano, ucciderai il loro ultimo membro e saprai quanti ne sono rimasti. Ogni notte potrai visitare un giocatore: Se sono vampiri, li ucciderai. Sennò tornerai a casa, come se nulla fosse successo.</value>
@@ -741,8 +741,8 @@
   <string key="AboutDG">
     <value>Sei Yellow Temperance. Puoi scegliere un giocatore a inizio partita, quando lui  muore erediti il suo stand, le sue sembianze e tutto il resto.</value>
   </string>
-  <string key="AboutCupid">
-    <value>A Inizio partita, sceglie due giocatori. Dopo diventa a tutti gli effetti un normale avventuriero. Questi due verranno legati da Lovers e se uno dei due muore, l'altro morirà.</value>
+  <string key="AboutRecruiter">
+    <value>A Inizio partita, sceglie due giocatori. Dopo diventa a tutti gli effetti un normale avventuriero. Questi due verranno legati da crewmates e se uno dei due muore, l'altro morirà.</value>
   </string>
   <string key="AboutHunter">
     <value>Un tipo calmo, con l' unica ossessione per i suoi capelli. Quando gli altri ti visitano, potrebbero trovarsi morti, visto che diventi furioso quando insultano i tuo amati capelli.</value>
@@ -912,10 +912,10 @@
   <string key="AllowTannerA">
     <value>Carne come ruolo impostato a {0}</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>Ammettere i vampiri ribelli in partita, come ruolo?\nAttualmente: {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>Vampiri ribelli come ruolo impostato a {0}</value>
   </string>
   <string key="ThankYou">
@@ -1076,13 +1076,13 @@
   <string key="SerialKillerTeamEnd">
     <value>Team Kira</value>
   </string>
-  <string key="CultTeamEnd">
+  <string key="zoombiesTeamEnd">
     <value>Team Vampiri Ribelli</value>
   </string>
   <string key="TannerTeamEnd">
     <value>Team Carne</value>
   </string>
-  <string key="CultConvertWolf">
+  <string key="zoombiesConvertWolf">
     <value>I Vampiri ribelli hanno mandato {0} per provare a convertire {1}, ma all'improvviso si vede la testa di {0} volare fuori dalla finestra...{0} è morto...</value>
   </string>
   <string key="HarlotFuckedKilledPublic"> <!-- used when Harlot visit's SK's victim, and dies -->
@@ -1101,8 +1101,8 @@
   <string key="ZombieKilled">
     <value>{0} è stato trovato pugnalato a morte da un candeliere del suo altare. Kira ha colpito ancora, indipendentemente da razza, lingua e religione! {0} era un Vampiro ribelle.</value>
   </string>
-  <string key="CupidKilled">
-    <value>svegliatisi tutti, viene ritrovato {0}, cioè Lovers, tagliato dalla testa ai piedi.</value>
+  <string key="RecruiterKilled">
+    <value>svegliatisi tutti, viene ritrovato {0}, cioè crewmates, tagliato dalla testa ai piedi.</value>
   </string>
   <string key="DrunkKilled">
     <value>gli avventurieri speravano di incontrare il campione di bevute {0}, ma {0} viene trovato morto nella propria casa, preso alla sprovvista mentre si ubriacava di notte fonda...Il giovane Polnareff ha incontrato Kira, e ha perso!</value>
@@ -1131,10 +1131,10 @@
   <string key="SerialKillerKilledCH"> <!--used when CH visits SK-->
     <value>tutti trovano i resti esplosi di {0}, Stroheim, da quello che sembra, è meglio non controllare se Kira sia unVampiro ribelle!</value>
  </string>
-  <string key="CultConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
+  <string key="zoombiesConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
     <value>Sembrava una notte tranquilla, visto che i servitori di Dio hanno deciso di rimanere in camera, ma l'unico sfortunato è stato {0}, un Vampiro ribelle che ha provato a convertire un servitore di Dio.</value>
   </string>
-  <string key="CultConvertKillerPublic"> <!--used when Zombies convert the SK-->
+  <string key="zoombiesConvertKillerPublic"> <!--used when Zombies convert the SK-->
     <value>I Vampiri ribelli pensavano di convertire un nuovo membro tra di loro, ma si sbagliavano! {0}, un Vampiro è stato trovato a pezzi in pubblico, Kira non ha gradito la pubblicità della maschera.</value>
 </string>
   <string key="GAGuardedKiller"> <!-- used when GA guards SK -->
@@ -1223,7 +1223,7 @@
     <!-- {0} = list of people who have joined -->
     <value>{0} sono entrati in partita negli ultimi 30 secondi.</value>
   </string>
-  <string key="AllowCult">
+  <string key="Allowzoombies">
     <value>Abilità i Vampiri ribelli</value>
   </string>
   <string key="AllowTanner">
@@ -1455,7 +1455,7 @@
     <!-- 0 - mason collegues's name -->
     <value>i tuoi compagni (se presenti) sono: {0}</value>
   </string>
-  <string key="ThiefToCult">
+  <string key="ThiefTozoombies">
     <!-- 0 - old Zombie's name -->
     <!-- 1 - new Zombie's name -->
     <value>{0} non è più un Vampiro ribelle, {1} è adesso diventato un Vampiro ribelle, esattamente come te!</value>
@@ -1807,16 +1807,16 @@
   <string key="HunterFell">
 	<value>Un'altra notte inutile senza riuscire a uccidere uno di questi maledetti vampiri ribelli! Frustrato, corri freneticamente attraverso il cimitero,  senza accorgerti della trappola per orsi. Urli e ti dimeni, ma è troppo tardi. Cadi all'indietro su una tomba che {0} non ha richiuso e il suono del tuo collo rompersi è l'ultima cosa che senti prima che tutto diventasse nero.</value>
   </string>
-  <!--{0}: cult hunter-->
+  <!--{0}: zoombies hunter-->
   <string key="HunterFellDigger">
 	<value>Dopo un'altra lunga e faticosa notte, ritorni alla tua casa mentre il sole sta già sorgendo. Prima di arrivare a casa, noti una torcia ultravioletta poggiata sopra una tomba non finita. Dentro la tomba noti il cadavere di {0}. Il cacciatore di Satanisti non avrebbe dovuto sospettare di te...</value>
   </string>
   <!--{0}: Zombie-->
-  <string key="CultFell">
+  <string key="zoombiesFell">
 	<value>Ritorni a casa dopo una faticosa nottata, quando senti un urlo dalle tombe non finite! Ti rechi subito sul posto, solo per trovare {0} morto dentro una tomba. Da quando i vampiri ribelli provano a vampirificare i becchini?</value>
   </string>
   <!--{0}: Zombie who fell, {1}: grave digger-->
-  <string key="CultConvertGraveDigger">
+  <string key="zoombiesConvertGraveDigger">
 	<value>Mentre vai a casa di {1}, {0} suggerisce che sarebbe una buona idea bruciare la chiesa. Ti guidano tramite il cimitere quando improvvisamente una trappola per orsi gli cattura l'anca! Tutto quello che senti è il suo urlo mentre casca nella tomba e voi scappate via.</value>
   </string>
   <!--{0}: grave digger-->

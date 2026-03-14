@@ -378,33 +378,33 @@
 <!-- 1 - target name -->
     <value>نظر {0} اینه که {1} رو معتاد کنید</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
 <!-- 0 - Yougest Zombie (killed)'s name' -->
 <!-- 1 - ZombieHunter's name -->
     <value>خب {0} رفت که {1} رو به دسته انگل های دانشگاه دعوت کنه ولی {1} انگل شناس بود ... فوری اخراج شد !! ☹️</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
 <!-- 0 - Youngest Zombie's name -->
 <!-- 1 - Number of Zombies left -->
     <value>دیشب {0} اومد معتادت کنه ولی تو راپورتش رو دادی و از دانشگاه اخراجش کردی ! {1}  معتاد باقی مونده</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>تو الان انگل دانشگاه هستی ! و هر شب میتونی یکی دیگه رو هم مثل خودت معتاد و بدبخت کنی</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
 <!-- 0 - Number of Zombies -->
     <value>معتاد ها: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
 <!-- 0 - new Zombie's name -->
     <value>تونستی {0} معتاد کنی</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
 <!-- 0 - Newest Zombie's name -->
 <!-- 1 - target name -->
     <value>خب {0} به اتاق {1} رفت تا اونو هم مثل خودتون معتاد کنه،  اما نتونست {1} رو توی اتاقش پیدا کنه!</value>
   </string>
-  <string key="CultWins">
+  <string key="zoombiesWins">
     <value>انگل ها بودجه یکسال دانشگاه رو به تصاحب بردن !!</value>
   </string>
   <string key="HunterVisitDead">
@@ -509,7 +509,7 @@
 <!-- new strings May 6 2016-->
     <value>  بسیجی های دیگه عبارتند از: {0}</value>
   </string>
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
 <!-- 0 - Youngest Zombies name -->
     <value>عضو جدید انگل های دانشگاه رفت به اتاق {0} که معتادش کنه ولی دید که پرونده زیر بغل داره با اشک از دانشگاه میره ... نکن این کارو خب 😐😂
 </value>
@@ -519,7 +519,7 @@
 <!-- new strings May 9 2016-->
     <value>دیشب استادا میخواستند {0} رو اخراج کنند ولی مدافع حقوق دانشجویی مثل یک مرد اجازه نداد‌ ...</value>
   </string>
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
 <!-- 0 - newest  -->
 <!-- 1 - target's name -->
 <!-- new string May 12 2016-->
@@ -530,7 +530,7 @@
 <!-- 1 - name -->
     <value>جناب {0} @{1} یه بازیکن هم اسم تو توی بازیه، اسمتو عوض کن تا بتونی وارد بازی بشی</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
 <!-- 0 - target's name -->
 <!-- new string May 13 2016-->
     <value>دیشب رفتی اتاق {0} و دیدی که داره مواد میکشه ... سریع زیپ شلوارت رو کشیدی بالا و آروم آروم اومدی بیرون که ایدزی نشی !!!</value>
@@ -623,7 +623,7 @@
 <!-- new strings june 10 2016 -->
     <value>وقت تموم شد!</value>
   </string>
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
     <value>تو مسئول تنظیم پروژه هستی 🕺 دو نفرو انتخاب کن تا مهمترین پروژه سال دانشگاه رو اجرا کنن ! اگر یکی از این دو نفر اخراج بشه ، نفر بعدی هم باهاش اخراج میشه و پروژه می خوابه . در صورتی هم که این دو نفر تا پایان پروژه اخراج نشن ، بودجه یکسال دانشگاه رو مال خودشون می کنن یا بین هم تیمی هاشون تقسیم می کنن . ببینم می تونی گل بکاری با درست انتخاب کردنت !</value>
   </string>
   <string key="RoleInfoDoppelganger">
@@ -635,7 +635,7 @@
   <string key="RoleInfoSerialKiller">
     <value>تو رئیس دانشگاه هستی . هر شب یکی از اعضا را اخراج کن تا در نهایت فقط خودت بمونی و بودجه یکسال دانشگاه رو برای خودت برادری !</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>مسئول تنظیم پروژه ، تو و {0} برای اجرای مهمترین پروژه سال دانشگاه انتخاب کرده ! حالا اگر با هم موفق بشید پروژه رو به اتمام برسونین ، بودجه یکسال دانشگاه بین شما دو نفر یا بین هم تیمی هاتون تقسیم میشه ولی اگر یکی از شما بنا به دلایلی اخراج بشه ... نفر بعدی هم همراهش اخراج میشه و مهمترین پروژه سال دانشگاه می خوابه .</value>
   </string>
   <string key="HunterLynchedChoice">
@@ -670,7 +670,7 @@
 <!-- 2 - target's role -->
     <value>آمارگیر یعنی {0} لحظاتی قبل از اخراجش تصمیم گرفت {1} رو همراه با خودش اخراج کنه . {2}</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <value>انگل عزیزمون یعنی {0} رفت سراغ  {1} که معتادش کنه اما {1} رئیس دانشگاه دراومد !!! یکی زد توی گوشش و از دانشگاه اخراجش کرد ☹️
 </value>
   </string>
@@ -694,7 +694,7 @@
 <!-- 0 - target's name -->
     <value>رفتی {0} رو اخراج کنی ولی مدافع حقوق دانشجویان نذاشت!</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
 <!-- 0 - Youngest Zombie's name -->
 <!-- 1 - target's name -->
     <value>معتاد عزیزمون {0} رفت که {1} هم مثل خودش معتاد کنه منتها {1} آمارش رو گرفت و به دانشگاه لوش داد . {0} اخراج شد</value>
@@ -718,11 +718,11 @@
 <!-- 1 - mason collegues's name -->
     <value>آخ جون ... بلاخره {0} اخراج شد و تونستی جایگاهش رو تصاحب کنی . چون اون بسیجی بود تو هم بسیجی شدی . بقیه بسیجی ها عبارت اند از : {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
 <!-- 0 - new Zombie's name -->
     <value>به به ... خفت گیر ( {0} ) چون می خواست جایگاه یکی از انگل ها رو تصاحب کنه ، الان مثل شما معتاد شده . خوشا به سعادتون فضانوردان عزیز 😁</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
 <!-- 0 - role's name -->
 <!-- 1 - teammates's name -->
     <value>آخ جون ... بلاخره {0} اخراج شد و تونستی جایگاهش رو تصاحب کنی . چون اون انگل بود تو هم انگل شدی . حضور پر ثمرت رو به خانواده تبریک می گم . بقیه انگل ها عبارت اند از : {1}</value>
@@ -742,25 +742,25 @@
   <string key="AskKill">
     <value>رئیس جان ، کیو میخوای امشب اخراج کنی؟</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
 <!-- 0 - dead's name -->
-<!-- 1 - lover's name -->
+<!-- 1 - crewmate's name -->
 <!-- 2 - roles -->
     <value>با اخراج {0} ، همکارش یعنی {1} هم از دانشگاه اخراج شد و مهمترین پروژه دانشگاه خوابید . {1} چیزی نبود جز یک {2}</value>
   </string>
   <string key="AskDoppelganger">
     <value>میخوای جایگاه کی رو توی دانشگاه تصاحب کنی؟</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>نفر اول رو برای پروژه انتخاب کن</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>نفر دوم رو برای پروژه انتخاب کن</value>
   </string>
   <string key="Hunter">
     <value>آمارگیر 🎯(🎯)</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>مسئول تنظیم پروژه 🕺(💘)</value>
   </string>
   <string key="SerialKiller">
@@ -773,7 +773,7 @@
 <!-- 0 - target's name -->
     <value>تو قماربازی و حدس زدی {0} زودتر اخراج میشه</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
     <value>آماده برپایی یه جشن و افتتاحیه باشید ... مهمترین پروژه سال دانشگاه با موفقیت به پایان رسید . بودجه یکسال دانشگاه فقط به همکاران پروژه میرسه !!</value>
   </string>
   <string key="HunterKilledVisiter">
@@ -781,7 +781,7 @@
 <!-- 1 - role -->
     <value>خب دیشب {0} رفت اتاق آمارگیر فضولی کنه .... ولی آمارگیر ، سریع آمارشو گرفت و اخراجش کرد . {1}</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>یک انگل میخواست تو رو هم معتاد کنه ولی خب ... تو بچه خوبی هستی و از این کارا نمیکنی . بشین شیر کاکائوت رو بخور گلم 😂</value>
   </string>
   <string key="AlreadyOnWaitList">
@@ -865,7 +865,7 @@
   <string key="AboutFool">
     <value>احمق🃏همان دانشجویی که توی چالش بهش گفته میشه ( تو کارآموز بایگانی هستی ) اما در اصل سرکار گذاشته شده . وقتی سعی میکنه نقش یه نفر رو بفهمه یه نقش به صورت تصادفی بهش گفته میشه .</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>انگل دانشگاه 🚬 هر شب با دوستاش بساط میکنه تا یه نفر دیگه رو مثل خودش معتاد کنه ...  . اگه بتونه همه ی دانشجوها را معتاد کنه ، برنده میشه  !</value>
   </string>
   <string key="AboutCH">
@@ -888,7 +888,7 @@
 خفت گیر 🎭 منتظره تا سریع جایگاه فرد مورد نظرشو تصاحب کنه یعنی تا وقتی که اون فرد زنده است تلاش می کنه تا به شکلی اخراجش کنه !
     </value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>
 مسئول تنظیم پروژه🕺دو نفرو برای اجرای مهمترین پروژه سال دانشگاه انتخاب می کنه . اگر یکی از این دو نفر اخراج بشه ، نفر بعدی هم باهاش اخراج میشه و پروژه می خوابه . در صورتی هم که این دو نفر تا پایان پروژه اخراج نشن ، بودجه یکسال دانشگاه رو مال خودشون می کنن یا بین هم تیمی هاشون تقسیم می کنن .
     </value>
@@ -1064,10 +1064,10 @@
   <string key="AllowTannerA">
     <value>نقش هکر : {0}</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>نقش انگل فعال باشه ؟ \n حالت فعلی : {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>نقش انگل : {0}</value>
   </string>
   <string key="ThankYou">
@@ -1230,13 +1230,13 @@
   <string key="SerialKillerTeamEnd">
     <value>گروه رئیس دانشگاه</value>
   </string>
-  <string key="CultTeamEnd">
+  <string key="zoombiesTeamEnd">
     <value>گروه انگل ها</value>
   </string>
   <string key="TannerTeamEnd">
     <value>گروه هکر</value>
   </string>
-  <string key="CultConvertWolf">
+  <string key="zoombiesConvertWolf">
     <value>دیشب انگل های دانشگاه {0} رو فرستادن تا {1} رو معتاد کنه ، اما دیگه {0} برنگشت . انگل ها متوجه میشن {1} استاده و باعث اخراج دوستشون شده ☹️
 </value>
   </string>
@@ -1255,7 +1255,7 @@
   <string key="ZombieKilled">
     <value>دیشب رئیس دانشگاه یکی از انگل های دانشگاه یعنی {0} رو از دانشگاه اخراج کرد !!!</value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>اعضای دانشگاه می بینن ، دیشب {0} توسط رئیس دانشگاه اخراج شده با اینکه قبلا وظیفه اصلیشو انجام داده بود ! {0} چیزی نبود جز یک مسئول تنظیم پروژه . در آرامش باشی رفیق ❤️</value>
   </string>
   <string key="DrunkKilled">
@@ -1286,11 +1286,11 @@
 <!--used when CH visits SK-->
     <value>انگل شناس {0} مشغول تحقیق روی دانشجوهای مختلف بود تا اینکه رئیس دانشگاه متوجه میشه که داره اون رو بررسی میکنه .  اینکارش توهین تلقی میشی و توسط رئیس اخراج میشه</value>
   </string>
-  <string key="CultConvertWolfPublic">
+  <string key="zoombiesConvertWolfPublic">
 <!--used when Zombies convert the wolves, only if wolves stayed home-->
     <value>دیشب {0} رفت که استادا رو معتاد کنه منتها استادا پوسترش رو توی کل دانشگاه پخش کردند و با خفت اخراجش کردند تا درس عبرتی بشه برای آیندگان !</value>
   </string>
-  <string key="CultConvertKillerPublic">
+  <string key="zoombiesConvertKillerPublic">
 <!--used when Zombies convert the SK-->
     <value>انگل ها شب قبل {0} مامور کردند تا عضو به توافق رسیده را معتاد کنن منتها دیگه خبری ازش نشد . تا اینکه امروز باقی اعضا متوجه میشن که {0} بدلیل مصرف زیاد مواد مخدر و دعوت رئیس دانشگاه به معتاد شدن از دانشگاه اخراج شده !!!</value>
   </string>
@@ -1378,7 +1378,7 @@
 <!-- {0} = list of people who have joined -->
     <value>{0} در دانشگاه ثبت نام کردن </value>
   </string>
-  <string key="AllowCult">
+  <string key="Allowzoombies">
     <value>انگل</value>
   </string>
   <string key="AllowTanner">
@@ -1611,7 +1611,7 @@
 <!-- 0 - mason collegues's name -->
     <value>هم تیمی های شما(درصورت وجود) عبارت اند از:{0}.</value>
   </string>
-  <string key="ThiefToCult">
+  <string key="ThiefTozoombies">
 <!-- 0 - old Zombie's name -->
 <!-- 1 - new Zombie's name -->
     <value>آخ {0} دیگه همتیمی شما نیست به جاش {1} یه انگل شده درست مثل شماها .‌ هواستون باشه لوتون نده 😐</value>
@@ -1962,14 +1962,14 @@
     <value>یه شب دیگه بدون اینکه بتونید انگلی را اخراج کنید به سمت اتاقتون میرید ... ناامید در اطراف باغچه های جدید دانشگاه قدم میزنید . ناگهان به داخل یکی از چاله های باغچه می افتید  . شما فریاد میزنید و {0} به سراغ شما میاد اما خیلی دیر شده . شما بخاطر اینکه تو چاله افتادی , اخراجی عزیزم !</value>
   </string>
   <string key="HunterFellDigger">
-<!--{0}: cult hunter-->
+<!--{0}: zoombies hunter-->
     <value>بعد از یک شب خسته کننده قبل از اینکه وارد اتاقتان شوید تستری رو داخل باغچه جدید دانشگاه می بینی ... مثل اینکه دانشجوی انگل شناس یعنی {0} قبلا بخاطر افتادن توی چاله و چوله های باغچه دانشگاه اخراج شده !</value>
   </string>
-  <string key="CultFell">
+  <string key="zoombiesFell">
 <!--{0}: Zombie-->
     <value>صدای فریادی را از درون باغچه های جدید دانشگاه می شنوی ، با عجله به آنجا میری و {0} را می بینی که در چاله و چوله ها باغچه افتاده . آخه کدوم انگلی میخواد یه باغچه بان رو معتاد کنه ؟!</value>
   </string>
-  <string key="CultConvertGraveDigger">
+  <string key="zoombiesConvertGraveDigger">
 <!--{0}: Zombie who fell, {1}: grave digger-->
     <value>در راه اتاق {1} ناگهان {0} تصمیم می گیره به مسجد دانشگاه بره اما در چاله و چوله های باغچه جدید دانشگاه می افته . صدای فریاد او رو قبل از افتادن می شنوید اما برای نجات خود فرار می کنید !</value>
   </string>

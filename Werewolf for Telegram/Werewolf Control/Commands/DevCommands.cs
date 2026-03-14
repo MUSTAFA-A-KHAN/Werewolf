@@ -42,7 +42,7 @@ namespace Werewolf_Control
             var gifLists = new[]
             {
                 "VillagerDieImages", "WolfWin", "WolvesWin", "VillagersWin", "NoWinner", "StartGame", "StartChaosGame",
-                "TannerWin", "CultWins", "SerialKillerWins", "LoversWin"
+                "TannerWin", "zoombiesWins", "SerialKillerWins", "crewmatesWin"
             };
 
             foreach (var name in gifLists)
@@ -363,7 +363,7 @@ namespace Werewolf_Control
             }
         }
 
-        //private static List<IRole> GetRoleList(int playerCount, bool allowCult = true, bool allowTanner = true, bool allowFool = true)
+        //private static List<IRole> GetRoleList(int playerCount, bool allowzoombies = true, bool allowTanner = true, bool allowFool = true)
         //{
         //    var rolesToAssign = new List<IRole>();
         //    //need to set the max wolves so game doesn't end immediately - 25% max wolf population
@@ -381,7 +381,7 @@ namespace Werewolf_Control
         //            case IRole.ZombieHunter:
         //            case IRole.Preacher:
         //            case IRole.Zombie:
-        //                if (allowCult != false && playerCount > 10)
+        //                if (allowzoombies != false && playerCount > 10)
         //                    rolesToAssign.Add(role);
         //                break;
         //            case IRole.Tanner:
@@ -611,7 +611,7 @@ namespace Werewolf_Control
 
                 }
 
-                //groups = groups.Where(x => x.Name.Unidecode().IndexOf("Werewolf",StringComparison.InvariantCultureIgnoreCase) != -1).ToList();
+                //groups = groups.Where(x => x.Name.Unidecode().IndexOf("Werewolf",StringComparison.InvariantzoombiesureIgnoreCase) != -1).ToList();
                 if (groups.Any())
                     Bot.Send(
                         groups.Aggregate("Groups detected having variations of Werewolf and Official in name:\n",

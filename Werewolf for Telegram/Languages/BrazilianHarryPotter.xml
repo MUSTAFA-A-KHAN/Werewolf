@@ -322,25 +322,25 @@
   <string key="ZombieVotedConvert" >
     <value >{0} votou para dar o beijo da morte e substituir {1} por um Dementador.</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <value>{0} foi enviado(a) para dar o beijo da morte e substituir {1} por um Dementador... Entretanto, ele era Remo Lupin, e tinha uma ótima maneira de afastar Dementadores! {0} voltou para Azkaban!</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <value>{0} foi ao seu escritório na noite passada, pronto(a) para te dar o beijo da morte e te substituir....  Mas você tinha um ótimo jeito de se proteger. Um dos Dementadores voltou para Azkaban... {1} restante(s)!</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>Você recebeu o beijo da morte de um Dementador e foi substituído(a) por um deles.  Durante a noite, você poderá tentar dar o beijo da morte e substituir outros bruxos.</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>Dementadores: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <value>{0} recebeu o beijo da morte e foi substituido por um Dementador!</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <value>{0} foi enviado(a) para dar o beijo da morte e substituir {1}... Mas ele não estava em seu dormitório!</value>
   </string>
-  <string key="CultWins" isgif="true">
+  <string key="zoombiesWins" isgif="true">
     <value >Todos os Bruxos morreram e as únicos sobreviventes são os Dementadores... Os Dementadores venceram! </value>
   </string>
   <string key="HunterVisitDead">
@@ -437,21 +437,21 @@
     <value>  A Armada de Dumbledore é formada por: {0}</value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <value>O membro mais recente dos Dementadores corre para o quarto de {0} para dar o beijo da morte e substituí-lo(a) por um Dementador, mas encontra uma bagunça, muito sangue e pedacinhos... Seu alvo virou vítima de um Ritual!</value>
   </string>
   <string key="GuardBlockedWolf">
     <value>A corja se dirige ao quarto de {0}, para o ataque, mas lá dá de cara com uma criatura alta, elevada e cercada por luz, armada com uma espada e uma varinha. Lilian J. Potter sai em defesa do alvo e, após uma luta repleta de efeitos de luz, o lado perdedor foge para casa.</value>
   </string>
   <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <value>{0} foi enviado(a) para dar o beijo da morte e substituir {1} por um Dementador mas o patrono dele era forte de mais. :(</value>
   </string>
   <!-- new string May 12 2016-->
   <string key="NameExists">
     <value>@{1}, um(a) bruxo(a) com nome {0} já se juntou à Batalha. Por favor mude seu nome para poder entrar em Hogwarts.</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <value>Você foi ao dormitório de {0} para beijar um pouco, mas ao chegar você sentiu uma sensação de vazio, como se sua alma deixasse seu corpo. Na volta para o Salão Comunal de Corvinal você decide comer um sapo de chocolate...</value>
   </string>
   <!-- new string May 13 2016-->
@@ -527,7 +527,7 @@
 	<value>Tempo esgotado!</value>
   </string>
   <!-- new strings june 10 2016 -->
-     <string key="RoleInfoCupid">
+     <string key="RoleInfoRecruiter">
     <value>Você é a Luna Lovegood. Enviada à Hogwarts com seu óculos spectrespecs e a poção da amortencia, você poderá escolher dois Bruxos que irão se amar pelo resto do ano letivo. Se um deles morrer, o outro morrerá de tristeza. Depois de unir dois pombinhos, você pode voltar a seguir sua vida como um simples Bruxo. </value>
   </string>
   <string key="RoleInfoDoppelganger">
@@ -539,7 +539,7 @@
   <string key="RoleInfoSerialKiller">
     <value>Você é Gellert Grindelwald, você está sozinho e os outros bruxos não são mais que seus brinquedinhos. Toda noite você pode escolher um jogador para lançar um Avada Kedavra e adicionar para sua coleção de corpos.</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>O amor está no ar!! Você foi enfeitiçado. O rosto de {0} não sai da sua cabeça. Seu objetivo agora é a sobrevivência dos dois. Se um de vocês for morto ou enviado para Azkaban o outro irá acompanhar, para que possam ficar juntos.</value>
     <value>O amor está no ar!! Você foi enfeitiçado. O rosto de {0} não sai da sua cabeça. Seu objetivo agora é a sobrevivência dos dois. Se um de vocês for morto ou enviado para Azkaban o outro irá acompanhar, para que possam ficar juntos.</value>
   </string>
@@ -582,12 +582,12 @@
   <string key="GuardBlockedKiller">
     <value>Você foi jogar um joguinho com {0}. Mas chegando lá, a Lilian J. Potter acabou com sua diversão! Sem brincadeiras essa noite...</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
     <value>Os Dementadores mandam {0} para dar o beijo da morte e substituir {1} por um Dementador. Chegando lá {0} é recebido com um Avada Kedavra bem no peito! {0} está morto(a)...</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
     <value>Os Dementadores mandam {0} para dar o beijo da morte e substituir {1} por um Dementador. Chegando lá {0} descobre que foi uma perda de tempo, ele só sente ódio e fúria, sem ter o que fazer {0} retornou para seu quarto...</value>
@@ -608,10 +608,10 @@
   <string key="DGTransformToMason">
     <value>{0} morreu, e você agora é um membro da Armada de Dumbledore.  Seus companheiros (se houver) são: {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <value>{0}, a Nymphadora Tonks foi substituída por um Dementador.</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <value>{0} morreu, aceite que você entrou para os Dementadores. Seus novos companheiros (se houver) são: {1}</value>
   </string>
   <string key="DGToWolf">
@@ -626,22 +626,22 @@
   <string key="AskKill">
     <value>Quem você quer matar essa noite?</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <value>{0} dá seu último suspiro olhando no fundo dos olhos de seu amado(a), {1}, que segura seu corpo de joelhos. {1} não aguenta a dor, e, com uma varinha, lança um Avada Kedavra em si próprio... Eles ficarão juntos, mesmo no mundo dos mortos. {2}</value>
   </string>
   <string key="AskDoppelganger">
     <value> Quem você escolherá para se transformar?</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>Quem será o casal? Escolha o primeiro amante.</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>Quem será o casal? Escolha o segundo amante.</value>
   </string>
   <string key="Hunter">
     <value>Olho-Tonto Moody 🎯</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>Luna Lovegood 🏹</value>
   </string>
   <string key="SerialKiller">
@@ -653,14 +653,14 @@
   <string key="NewWCRoleModel">
     <value>Você se tornou Draco Malfoy.  Seu modelo exemplar é {0}</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
     <value>Os amantes venceram! Queriam o que né? O Amor sempre vence!</value>
   </string>
   <string key="HunterKilledVisiter">
     <value>Quando acordam, vocês encontram {0} largado no meio do Salão Principal, parecendo uma peneira por causa do Sectumsempra. Parece que alguém visitou o Olho-Tonto Moody e se deu mal! {1}</value>
   </string>
   
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>No meio da noite você sente uma tristeza, um vazio, como se a sua felicidade estivesse sendo sugada. Você usa seu patrono, e fica protegido.</value>
   </string>
   <string key="AlreadyOnWaitList">
@@ -733,7 +733,7 @@
   <string key="AboutFool">
     <value>O Argus Filch diz que é um bruxl.... Quando ele faz um feitiço, nafa acontece.</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>Você é um dos dementadores.  Durante a noite, você poderá escolher alguém para converter aos Comensais. Se todos os jogadores restantes ao final do jogo forem dos Comensais, eles vencem!</value>
   </string>
   <string key="AboutCH">
@@ -754,7 +754,7 @@
   <string key="AboutDG">
     <value>Você é Nymphadora Tonks, uma metamorfomaga, capaz de modificar sua própria aparência sem a utilização de feitiços ou poções. Escolha um jogador, quando ele morrer você assumirá o papel dele em Hogwarts.</value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>Você é Luna Lovegood. Enviada à Hogwarts com seu óculos spectrespecs, e a poção da amortencia, você poderá escolher dois Bruxos que irão se amar pelo resto do ano letivo. Se um deles morrer, o outro morrerá de tristeza. Depois de unir dois pombinhos, você pode voltar a seguir sua vida como um simples Bruxo.    </value>
   </string>
   <string key="AboutHunter">
@@ -936,10 +936,10 @@
   <string key="AllowTannerA">
     <value>Existência do Suicida definida como: {0}</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>Permitir a Seita como um papel possível?\nAtual: {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>Existência a Seita definido como: {0}</value>
   </string>
   <string key="ThankYou">
@@ -1099,7 +1099,7 @@
   <string key="SerialKillerTeam">
     <value>Time Gellert Grindelwald.</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>Time dos Dementadores</value>
   </string>
   <string key="TannerTeam">
@@ -1117,13 +1117,13 @@
 - <string key="SerialKillerTeamEnd">
   <value>Time Gellert Grindelwald.</value> 
   </string>
-- <string key="CultTeamEnd">
+- <string key="zoombiesTeamEnd">
   <value>Time dos Dementadores</value> 
   </string>
 - <string key="TannerTeamEnd">
   <value>Time Rabicho</value> 
   </string>
-  <string key="CultConvertWolf">
+  <string key="zoombiesConvertWolf">
   <value>Os Dementadores enviam {0} para dar o beijo da morte em {1} e substítuí-lo para um Dementador, mas em vez disso, ele não sente nada {0} retornou para seu lugar de descanso...</value> 
   </string>
     <string key="ApprenticeSeerEaten">
@@ -1135,7 +1135,7 @@
   <string key="ZombieKilled">
     <value>De manhã todos encontram {0} empalado em um candelabro. O Serial Killer não se importa com religião, todos são brinquedinhos para ele! A Seita vai sentir falta de {0}...</value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>Os bruxos ficam de coração partido ao ver {0}, a Luna Lovegood morta. Estranho o fato de seu coração estar faltando, claramente mais uma obra macabra de Gellert Grindelwald.</value>
   </string>
   <string key="DrunkKilled">
@@ -1165,10 +1165,10 @@
   <string key="SerialKillerKilledCH"> <!--used when CH visits SK-->
     <value>Hogwarts acordou essa manhã só para encontrar um corpo torturado e morto no leito do Lago negro. {0}, o Inquisidor, investigou o bruxo errado. Gellert Grindwald utilizou todos os feitiços de tortura que se pode imaginar.</value>
   </string>
-  <string key="CultConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
+  <string key="zoombiesConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
     <value>Péssima escolha dos dementadores ao visitar um Comensal que decidiu ficar no seu dormitório durante a noite. {0} retornou para Azkaban. Os comensais parecem conhecer uma boa forma de afastar os dementadores.</value>
   </string>
-  <string key="CultConvertKillerPublic"> <!--used when Zombies convert the SK-->
+  <string key="zoombiesConvertKillerPublic"> <!--used when Zombies convert the SK-->
     <value>De manhã os bruxos acordam em meio a barulhos, todos vão atras da causa e param próximo ao Salgueiro lutador. Eles polarizam ao ver alguém afastar um Dementador. Os dementadores devem pensar bem em quem visitar, pois, Gellert Grindelwald não se importa com a raça, todos são experimentos para ele! Os dementadores perderam o {0}...</value>
   </string>
   <string key="GAGuardedKiller">

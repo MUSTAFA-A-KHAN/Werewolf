@@ -381,33 +381,33 @@
     <!-- 1 - target name -->
     <value >نظر {0} اینه که {1} رو تبدیل کنید</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <!-- 0 - Yougest Zombie (killed)'s name' -->
     <!-- 1 - ZombieHunter's name -->
     <value>خب {0} رفت که {1} رو به مسافرا دعوت کنه ولی {1} شکارچی آلاریک بود و کشتش!</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - Number of Zombies left -->
     <value>دیشب {0} اومد به مسافرا دعوتت کنه ولی تو زدی کشتیش! {1} باقی مونده</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>تو الان عضو مسافرایی هستی و هر شب با بقیه یارات باید یه نفرو به محفل خودتون دعوت کنین</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <!-- 0 - Number of Zombies -->
     <value>مسافرا بردن: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <!-- 0 - new Zombie's name -->
     <value>الان {0} عضو مسافرا شد</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <!-- 0 - Newest Zombie's name -->
     <!-- 1 - target name -->
     <value>خب  {0} رفت {1} رو به مسافرا دعوت کنه ولی خونه نبود</value>
   </string>
-  <string key="CultWins" isgif="true">
+  <string key="zoombiesWins" isgif="true">
     <value >همه خوناشاما مردن و فقط افراد مسافرا باقی موندن. مسافرا بردن</value>
   </string>
   <string key="HunterVisitDead">
@@ -512,7 +512,7 @@
     <value>  استریکس های دیگه عبارت اند از: {0}</value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <!-- 0 - Youngest Zombies name -->
     <value>عضو جدید مسافرا رفت خونه {0} که به راه راست هدایتش کنه ولی دید کشته شده</value>
   </string>
@@ -521,7 +521,7 @@
     <value>دیشب خوناشاما رفتن خونه {0} که خونشو بخورن ولی لکسی مثل مرد ازش محافظت کرد</value>
   </string>
   <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <!-- 0 - newest  -->
     <!-- 1 - target's name -->
     <value>دیشب {0} رو فرستادین که {1} رو به مسافرا اضافه کنه ولی قبول نکرد</value>
@@ -532,7 +532,7 @@
     <!-- 1 - name -->
     <value>جناب {0} @{1} یه بازیکن هم اسم تو توی بازیه، اسمتو عوض کن تا بتونی وارد بازی بشی</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <!-- 0 - target's name -->
     <value>دیشب که رفتی خونه {0} دیدی که داره عبادت میکنه!</value>
   </string>
@@ -629,7 +629,7 @@
   <value>وقت تموم شد!</value>
   </string>
   <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
     <value>تو کرولاین فوربزی! از اونجا که عاشق کارای سطحی هستی میتونی به دو نفر نفوذ ذهنی کنی تا عاشق هم بشن! اگه یکی بمیره اون یکی هم از عشق یارش میمیره</value>
   </string>
   <string key="RoleInfoDoppelganger">
@@ -641,7 +641,7 @@
   <string key="RoleInfoSerialKiller">
     <value>تو مایکل هستی. هر شب یه نفرو میکشی و بدنشو  به کلکسیونت اضافه میکنی. هدف تو اینه که همه رو بکشی و به جهنم ببری!</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>تو عاشق {0} شدی. اگه یکیتون بمیره اون یکی هم از غمش میمیره</value>
 	<value>کرولاین فوربز نفوذ ذهنی کرده به تو  و{0}  تا عاشق هم باشین. حالا اگه اون بمیره تو هم از غمش میمیری</value>
   </string>
@@ -677,7 +677,7 @@
     <!-- 2 - target's role -->
     <value>کلانتر فوربز یعنی {0} آخرین لحظه تفنگشو در آورد و {1} رو کشت. {2}</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <value>مسافر عزیز یعنی {0} رفت خونه مایکل یعنی {1} که به دین خودش دعوتش کنه ولی {1} تک تک اعضای بدنشو به ترتیب حروف الفبا برید و گذاشت تو شیشه الکل</value>
 	<value>مسافر عزیز یعنی {0} رفت مایکل یعنی {1} رو به دینش دعوت کنه ولی کشته شد</value>
   </string>
@@ -701,7 +701,7 @@
     <!-- 0 - target's name -->
     <value>رفتی {0} رو به قتل برسونی و ببریش جهنم ولی لکسی جلوتو گرفت</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
     <value>مسافر عزیز یعنی {0} رفت که {1} رو به دینش دعوت کنه ولی {1} کلانتر  وربز بود و با تفنگش زد {0} رو کشت</value>
@@ -725,12 +725,12 @@
     <!-- 1 - mason collegues's name -->
     <value>خب {0} سایبس بود و مرد. چون اون استریکس بود تو هم استریکس شدی و بقیه استریکس ها عبارت اند از: {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <!-- 0 - new Zombie's name -->
     <value> سایلس، یعنی {0} هم چون یکی از اعضای مسافرا رو به عنوان مدل انتخاب کرده بود الان مسافر شد.</value>
   </string>
 
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <!-- 0 - role's name -->
     <!-- 1 - teammates's name -->
     <value>سایلس  یعنی {0} مرد و چون مسافر بود تو هم مسافر شدی. بقیه مسافرا عبارت اند از: {1}</value>
@@ -750,25 +750,25 @@
   <string key="AskKill">
     <value>کیو میخوای امشب بکشی و ببری جهنم؟</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <!-- 0 - dead's name -->
-    <!-- 1 - lover's name -->
+    <!-- 1 - crewmate's name -->
     <!-- 2 - roles -->
     <value>با مرگ {0} عشق ابدیش یعنی {1} هم خودشو انداخت روی جنازش و انقدر گریه کرد تا مرد. {2}</value>
   </string>
   <string key="AskDoppelganger">
     <value> سایلس میخوای بری تو جلد کی بشی؟ اگه بمیره تو نقششو بر عهده میگیری</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>کیا رو میخوای با نفوذ ذهنی عاشق همدیگه بکنی؟ نفر اول رو انتخاب کن</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>کیا رو میخوای عاشق همدیگه بکنی؟ نفر دوم رو انتخاب کن</value>
   </string>
   <string key="Hunter">
     <value>کلانتر فوربز🎯</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>کرولاین فوربز💘</value>
   </string>
   <string key="SerialKiller">
@@ -782,7 +782,7 @@
     <!-- 0 - target's name -->
     <value>تو انزو ای و الگوت کسی نیست جز {0}</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
     <value>عاشقا برنده شدن</value>
   </string>
   <string key="HunterKilledVisiter">
@@ -790,7 +790,7 @@
     <!-- 1 - role -->
     <value>خب دیشب {0} رف خونه کلانتر فوربز فضولی کنه. کلانتر هم دخلشو آورد. {1}</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>یکی از مسافرا دیشب میخواست تو رو هم مسافر کنه ولی ایمانت قوی تر از این حرفا بود که گولشو بخوری</value>
   </string>
   <string key="AlreadyOnWaitList">
@@ -875,7 +875,7 @@
   <string key="AboutFool">
     <value>به لوکاس پارکر گفته میشه که بانی بنته اما وقتی سعی میکنه نقش یه نفر رو بفهمه یه نقش به صورت تصادفی بهش گفته میشه</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>به عنوان رییس مسافرا هدف شما اینه که همه ی بازیکن های باقی مونده به تو ایمان بیارند وقتی برنده میشی که همه ی اهالی میستیک فالزی که زنده اند عضو محفل تو باشن.</value>
   </string>
   <string key="AboutCH">
@@ -900,7 +900,7 @@
 یک سایلس تا قبل از اینکه جای کسی رو بگیره نمیتونه برنده بازی باشه!مگر اینکه عاشق باشه
     </value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>
       عشق در زندگی جریان داره! به عنوان الهه ی عشق در ابتدای بازی دو نفر رو انتخاب میکنی و اون دو نفر دیوانه وار عاشق هم میشن💕اگه یکی از عاشقا بمیره اون یکی هم از غمش میمیره اگه تو آخر بازی یکی از عاشقا برنده بشه آون یکی هم به طور اتوماتیک برنده حساب میشه حتی اگه توی تیم مخالف باشه!(مثال: خوناشام و میستیک فالزی)
     </value>
@@ -1080,10 +1080,10 @@
   <string key="AllowTannerA">
     <value>نقش کاترین: {0}</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>نقش مسافراا فعال باشه؟\n حالت فعلی: {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>نقش مسافرا: {0}</value>
   </string>
   <string key="ThankYou">
@@ -1235,7 +1235,7 @@
   <string key="SerialKillerTeam">
     <value>گروه مایکل</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>گروه مسافرا</value>
   </string>
   <string key="TannerTeam">
@@ -1253,13 +1253,13 @@
   <string key="SerialKillerTeamEnd">
     <value>گروه مایکل</value>
   </string>
-  <string key="CultTeamEnd">
+  <string key="zoombiesTeamEnd">
     <value>گروه مسافرا</value>
   </string>
   <string key="TannerTeamEnd">
     <value>گروه مارسل</value>
   </string>
-    <string key="CultConvertWolf">
+    <string key="zoombiesConvertWolf">
     <value>دیشب مسافرا {0} رو فرستادن تا {1} رو به مسافرا دعوت کنه، اما سَر {0} رو دیدن که از پنجره خونه {1} به بیرون پرتاب شده! {0} مرده!</value>
   </string>
   <string key="HarlotFuckedKilledPublic"> <!-- used when Harlot visit's SK's victim, and dies -->
@@ -1280,7 +1280,7 @@
   <string key="ZombieKilled">
     <value>دیشب مایکل به مسافرا حمله کرد و {0} رو به قتل رسوند!</value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>صبح روز بعد میستیک فالزی ها ها جنازه {0} رو پیدا کردن! دیگه توی شهر خبری از عشق نخواهد بود! کرولاین فوربز مرده!</value>
   </string>
   <string key="DrunkKilled">
@@ -1310,10 +1310,10 @@
   <string key="SerialKillerKilledCH"> <!--used when CH visits SK-->
     <value>شکارچی آلاریک{0} مشغول پیداکردن مسافرها بود اما درست زمانی که داشت توی شهر قدم میزد مایکل بهش حمله میکنه و میکشتش!</value>
   </string>
-  <string key="CultConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
+  <string key="zoombiesConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
     <value>دیشب {0} رفت که خوناشام ها رو دعوت کنه به مسافرا! ولی خوناشاما بهش حمله کردن و جنازه تکه تکه شدشو توی نقاط مختلف میستیک فالز ول کردن!</value>
   </string>
-  <string key="CultConvertKillerPublic"> <!--used when Zombies convert the SK-->
+  <string key="zoombiesConvertKillerPublic"> <!--used when Zombies convert the SK-->
     <value>شب قبل مسافرا ها میخواستن یک عضو جدید رو به مسافر دعوت کنن، {0} مامور شد که یکی رو به مساف دعوت کنه، اما دیگه خبری از {0} نشد! صبح روز بعد اعضای مسافر جنازه {0} رو توی میستیک فالز پیدا میکنند! مایکل  مایکل {0} رو کشته!</value>
   </string>
   
@@ -1403,7 +1403,7 @@
     <!-- {0} = list of people who have joined -->
     <value>{0} در 30 ثانیه اخر بازی جوین شدند </value>
   </string>
-  <string key="AllowCult">
+  <string key="Allowzoombies">
     <value>مسافرا</value>
   </string>
   <string key="AllowTanner">
@@ -1647,7 +1647,7 @@
       <!-- 0 - mason collegues's name -->
       <value>هم تیمی های شما(درصورت وجود) عبارت اند از:{0}.</value>
     </string>
-    <string key="ThiefToCult">
+    <string key="ThiefTozoombies">
       <!-- 0 - old Zombie's name -->
       <!-- 1 - new Zombie's name -->
       <value>حاجی {0} دیگه همتیمی شما نیست به جاش {1} فرقه شده دقیقا مثل شماها.</value>
@@ -1992,16 +1992,16 @@
   <string key="HunterFell">
 	<value> یه شب دیگه بدون اینکه بتونید مسافری شکار کنید به خانه برمیگردید، ناامید در قبرستان قدم میزنید و میخواستید برای جو ارزوی ارامشکنی ناگهان به داخل یک قبر میوفتید. شما فریاد میزنید و {0} به سراغ شما میاد اما خیلی دیر شده! </value>
   </string>
-  <!--{0}: cult hunter-->
+  <!--{0}: zoombies hunter-->
   <string key="HunterFellDigger">
 	<value> بعد از یک شب خسته کننده شما به خانه برمیگردید قبل از اینکه وارد خانه شوید کراس بو کنار یک قبر میبینید مثل اینکه شکارچی یعنی {0} توی قبر افتاده</value>
   </string>
   <!--{0}: Zombie-->
-  <string key="CultFell">
+  <string key="zoombiesFell">
 	<value> بعد از یک شب خسته کننده در راه خانه صدای فریادی از یک قبر ناتمام خود میشنوید، با عجله به آنجا میروید و {0} را میبینید که در قبر افتاده. آخه کدوم مسافری میخواد یه گورکن رو تبدیل کنه؟</value>
   </string>
   <!--{0}: Zombie who fell, {1}: grave digger-->
-  <string key="CultConvertGraveDigger">
+  <string key="zoombiesConvertGraveDigger">
 	<value> در راه خانه {1} ناگهان {0} تصمیم میگیرد به سراغ یک کلیسا برود. اما در قبرستان داخل یک قبر افتاد. شما صدای فریاد او را قبل از افتادن میشنوید اما برای نجات خود فرار میکند! </value>
   </string>
   <!--{0}: grave digger-->
@@ -2057,7 +2057,7 @@
 	<value> ویکی داناون {0} در راه خانه ی گورکن بود که درون یک قبر افتاد و مرد. شاید بهتر بود یک شغل دیگه انتخاب میکرد. </value>
   </string>
   <!--{0}: Zombie who died-->
-  <string key="CultFellPublic">
+  <string key="zoombiesFellPublic">
 	<value> مسافرا میخواستند کلیسا رو آتیش بزنند، اما {0} که گروه رو هدایت میکرد درون یک قبر افتاد. او فریاد میزد اما بقیه مسافرا برای نجات جان خود فرار کردند. </value>
   </string>
   <!--{0}: thief-->

@@ -415,34 +415,34 @@
     <!-- 1 - target name -->
     <value >{0} memilih baprospek {1}</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <!-- 0 - Yougest Zombie (killed)'s name' -->
     <!-- 1 - ZombieHunter's name -->
     <value>{0} diutus untuk baprospek {1} .. dengan polosnya, dia baru sadar bahwa ternyata dia mantan abu MLM yang insaf. Adohh. 💂
   {0} namatemo dipaka ditundu!</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - Number of Zombies left -->
     <value>{0} ke rumahmu semalam membawa brosur pendaftaran dan konga-konga surga telinga untuk naik kapal pesiar.. Merasa ditipu-tipu sama prospek MLM, ngana malah paka {1} pas ditundunya.</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>👤 Anggota Abu MLM berhasil baprospek ngana bergabung! BIDIP!! BIDIP!! 🐚. Setiap malam, ngana juga bisa baprospek orang lain untuk bergabung ngoni pe MLM. Impian naik kapal pesiar semakin besar</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <!-- 0 - Number of Zombies -->
     <value>Zombies abu prospek MLM: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <!-- 0 - new Zombie's name -->
     <value>{0} telah bergabung ikut MLM!!</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <!-- 0 - Newest Zombie's name -->
     <!-- 1 - target name -->
     <value>{0} membawa brosur pendaftaran dan iming2 naik kapal pesiar ke rumah {1}. Setelah mengetuk pintu rumahnya beberapa jam, ngana cekewa batunggu dan meninggalkan brosur pendaftaran MLM di bawah pintu.</value>
   </string>
-  <string key="CultWins" isgif="true">
+  <string key="zoombiesWins" isgif="true">
     <value >Semua serigala telah mati, Warga yang tersisa so taprospek jadi anggota MLM! Impian naik kapal pesiar sudah bisa terwujud dan MENANG!</value>
   </string>
   <string key="HunterVisitDead">
@@ -546,7 +546,7 @@
     <value>  Anggota Moci Poci yaitu: {0}</value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <!-- 0 - Youngest Zombies name -->
     <value>Anggota barumu menuju rumah {0} dengan pede mo baprospek,
       Tetapi pas so sampe ternyata yang mo diprospek so dinodai tundunya sama serigala. Terpaksa cari orang lain yang bisa di konga akan</value>
@@ -557,7 +557,7 @@
     Seorang Preman Pasar Insaf membuat serigala lari ketakutan.</value>
   </string>
   <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <!-- 0 - newest  -->
     <!-- 1 - target's name -->
     <value>Kamu mengutus {0} untuk baprospek {1} baikut MLM, tetapi iman dia sangat kuat dan tidak tergoyahkan. Dia naheba leh.</value>
@@ -568,7 +568,7 @@
     <!-- 1 - name -->
     <value>@{1} , Pemain dengan nama {0} terlalu pasaran beh. Pi ganti nama dulu sana baru ikut lagi haha.</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <!-- 0 - target's name -->
     <value>Kamu menyelinap ke rumah {0} untuk bagatal 👄. Setelah akan pulang, kamu melihat sebuah poster MLM dan kerang raksasa bercahaya di salah satu kamar. BIDIP! BIDIP!! 🐚</value>
   </string>
@@ -662,7 +662,7 @@
     <value>Ebeehh telat ngana!</value>
   </string>
   <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
     <value>Kamu adalah Om2 primbon 💘. Om2 yang teada kerjaan dan suka bajodoh-jodohkan orang seenak jidat, dengan jurus cie cie mu kamu bisa bapilih sepasang kekasih yang dimabuk sagero dan tak terpisah oleh waktu. Jika salah satu pilihanmu mati, kekasihnya akan meninggal karena kesedihan lebay.</value>
   </string>
   <string key="RoleInfoDoppelganger">
@@ -674,7 +674,7 @@
   <string key="RoleInfoSerialKiller">
     <value>Ngana adalah Psikopat Kere 🔪, psikopat yang suka bapalak minta uang dengan cara batiup-tiup tundu sampe kena iler. Tapi komiu malah senang ba sedeng2 begitu entah kenapa, pokoknya ketagihan. Abala!</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>ACIE CIE CIE CIE!! Uhuk uhuk Nga pe soulmate adalah {0} !  Tapi kalo nga pe soulmate namatemo, ngana pun akan namatemo, Bisa te bodoh! Masih banyak ikan padahal. Kalau ngoni berdua bertahan sampai akhir, kalianlah pemenangnya</value>
   </string>
   <string key="HunterLynchedChoice">
@@ -712,7 +712,7 @@
     <value>🎯
   {0} tatende bapegang tundunya yang ternodai lalu nanavu bacium tanah.... Dengan sisa hidupnya ia nongiri melancarkan jurus paka tundu jarak jauhnya ke arah kerumunan dan takena 【{1}】. {2}</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <value>{0} babawa brosur MLM ke rumah {1} dan disambut dengan tende. Secangkir orson tersaji dan belum sempat diprospek tiba-tiba {1} batiup tundunya 【{0}】 sambil bapalak minta uang buat bayar kos. Karena sama2 kere akhirnya {0} namatemo.
   {0} telah mati..</value>
   </string>
@@ -737,12 +737,12 @@
     <!-- 0 - target's name -->
     <value>Ngana pi ke rumah {0} untuk bapalak karena telama lagi harus babayar kosan, tetapi komiu malah ketemu dengan preman pasar yang insaf! Komiu yang nongiri malah banamango baserang tundunya preman pasar insaf tapi ternyata malah komiu kalah pulang tebawa uang.</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
     <value>Anggota MLM junior {0} pi ke rumah {1} babawa brosur pendaftaran, tetapi tadengar suara peleton dan {0} tabolengkar keluar jendela! {0} so namatemo.</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
     <value>Anggota MLM junior {0} pi ke rumah {1}  babawa brosur pendaftaran, tetapi tadengar suara teriakan {0} lalu hening dan terdengar bunyi kentut! {0} so namatemo.</value>
@@ -766,11 +766,11 @@
     <!-- 1 - mason collegues's name -->
     <value>{0} so namatemo, dan komiu jadi anggota Moci Poci 👷. Ko pe geng Moci Poci yaitu: {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <!-- 0 - new Zombie's name -->
     <value>Abu KW {0} sekarang so jadi anggota MLM macam ngana!</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <!-- 0 - role's name -->
     <!-- 1 - teammates's name -->
     <value>{0} so namatemo, dan komiu menjadi anggota Moci Poci 👤. Teman-teman MLM mu adalah: {1}</value>
@@ -790,25 +790,25 @@
   <string key="AskKill">
     <value>Sapa yang ko mo palak malam ini?</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <!-- 0 - dead's name -->
-    <!-- 1 - lover's name -->
+    <!-- 1 - crewmate's name -->
     <!-- 2 - roles -->
     <value>{0} so mo namatemo sambil babisik ke {1} dengan berkata "Cie jomblo situ". Saking te tahan digara2 jomblo sama warga sekitar, akhirnya ngoni dipaksa berhenti main ww untuk bacari jodoh di dunia nyata biar move on .💔 {2}</value>
   </string>
   <string key="AskDoppelganger">
     <value>Siapa yang kau mau KW akan kalo itu orang namatemo?</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>Siapa yang ko mo cie cie akan biar jadian? Pilih yang di cie akan pertama</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>Siapa yang ko mo cie cie akan biar jadian? Pilih yang di cie akan kedua</value>
   </string>
   <string key="Hunter">
     <value>the Hunter 🎯</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>Om2 Primbon 🏹</value>
   </string>
   <string key="SerialKiller">
@@ -817,15 +817,15 @@
   <string key="Doppelgänger">
     <value>Abu KW 🎭</value>
   </string>
-  <string key="CupidChosen">
-    <!-- 0 - lover's name -->
+  <string key="RecruiterChosen">
+    <!-- 0 - crewmate's name -->
     <value>Jurus cie cie Om2 primbon berhasil bikin ngana baper, Komiu ndak sendiri lagi!! Asek, Ko pe soulmate adalah {0} !  Tapi kalau soulmatemu mati, ngana dipaksa berenti bermain untuk bacari jodoh di dunia nyata.</value>
   </string>
   <string key="NewWCRoleModel">
     <!-- 0 - target's name -->
     <value>Ngana so jadi Bolang Ababil 👶. Yang ko zen akan adalah {0}</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
     <value>🎉 Cie cie cie Cinta Sejati Selalu Bertahan!
   Sepasang kekasih telah Menang! #LoveWins</value>
   </string>
@@ -834,7 +834,7 @@
     <!-- 1 - role -->
     <value>Seonggok mayat tagantong di atas pohon mengkudu, mereka menatap {0} te banyawa dengan luka cipok di tundu. Sepertinya dia mo bacoba masuk ke rumahnya Hunter! {1}</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>Komiu batemukan sehelai brosur pendaftaran MLM di bawah pintu, tapi tak teada orang disekitarmu.</value>
   </string>
   <string key="AlreadyOnWaitList">
@@ -922,7 +922,7 @@
   <string key="AboutFool">
     <value>Abu Pantoa KW merasa dirinya bisa basusupo deng bapantoa. Padahal, semuanya tipu2 saja.</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>Hidup anggota abu MLM Pemuja Kerang Ajaib! Prospek warga biar baikut ngana mewujudkan mimpi naik kapal pesiar, kalo semuanya berhasil ngana prospek, maka komiu menang!</value>
   </string>
   <string key="AboutCH">
@@ -945,9 +945,9 @@
      Abu KW bisa bapilih pemain lain dan ketika pemain tersebut namatemo, dia ambe perannya. Abu MLM tebisa baprospek Abu KW, parcuma. Kalo yang dipilih anak ababil dan yang di zen akan namatemo, komiu jadi serigala yang ba alasan biar te curhat.
     </value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>
-      Lope lope bertebaran di udara. Om2 primbon akan bapilih 2 pemain jomblo untuk di cie cie kan biar jadi pasangan (lovers). Mereka bisa baku tau nama pasangannya, tapi tidak tahu peran masing-masing. 
+      Lope lope bertebaran di udara. Om2 primbon akan bapilih 2 pemain jomblo untuk di cie cie kan biar jadi pasangan (crewmates). Mereka bisa baku tau nama pasangannya, tapi tidak tahu peran masing-masing. 
     Jika psangan yang di cie cie kan bertahan hidup, mereka akan menang.
     </value>
   </string>
@@ -1126,10 +1126,10 @@
   <string key="AllowTannerA">
     <value>Pilihan Tanner dalam Peran: {0}</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>Boleh kasi ada Zombie dalam pilihan peran?\nPengaturan saat ini: {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>Pilihan Zombie dalam Peran: {0}</value>
   </string>
   <string key="ThankYou">

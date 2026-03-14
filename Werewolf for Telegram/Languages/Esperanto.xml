@@ -178,7 +178,7 @@
     <value>🙇 Vi estas la divenista ĉeflernanto. Se la divenisto mortos, vi prenos lian oficon kiel divenisto.\n\nPliaj informoj: /aboutAppS (se tio ne aperas esperante, klaku /setlang kaj agordu esperanton)</value>
   </string>
   <string key="RoleInfoZombie">
-    <value>👤 Vi estas sektano. Ĉiunokte, vi povas elekti ludanton por sektanigi. Se ĉiuj la supervivantoj estas sektanoj, ili venkas.\n\nPliaj informoj: /aboutCult (se tio ne aperas esperante, klaku /setlang kaj agordu esperanton)</value>
+    <value>👤 Vi estas sektano. Ĉiunokte, vi povas elekti ludanton por sektanigi. Se ĉiuj la supervivantoj estas sektanoj, ili venkas.\n\nPliaj informoj: /aboutzoombies (se tio ne aperas esperante, klaku /setlang kaj agordu esperanton)</value>
   </string>
   <string key="RoleInfoZombieHunter">
     <value>💂 Vi estas la sektoĉasisto. Sektanoj estas en la vilaĝo! Ĉiunokte, vi povas elekti ludanton: se li estas sektano, vi mortigas lin.\n\nPliaj informoj: /aboutCH (se tio ne aperas esperante, klaku /setlang kaj agordu esperanton)</value>
@@ -310,25 +310,25 @@
   <string key="ZombieVotedConvert">
     <value>{0} voĉis por sektanigi {1}.</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <value>Vi sendis {0} por fari vian filaboron, kaj sektanigi {1}. Tamen, {1} estis la sektoĉasisto! {0} mortis.</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <value>{0} alvenis ĉe vi lastnokte, kaj volis sektanigi vin, sed tuj mortis, traŝovata de via glavo. Restas {1} sektano(j)!</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>Vi iĝis sektano! Ĉiunokte, vi povas elekti ludanton por sektanigi.</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>Sektanoj: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <value>{0} iĝis sektano!</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <value>Vi sendis {0} por fari vian filaboron, kaj sektanigi {1}. Tamen, {1} ne estis hejme!</value>
   </string>
-  <string key="CultWins">
+  <string key="zoombiesWins">
     <value>Ĉiuj lupoj mortis, kaj ĉiuj supervivantoj estas sektanoj. La sekto venkas!</value>
   </string>
   <string key="HunterVisitDead">
@@ -425,21 +425,21 @@
     <value> La aliaj masonistoj estas: {0}</value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <value>La lasta aniĝinto estis sendata sektanigi {0}, sed trovas la domon de {0} detruigita, kun lupaj haroj apud la pordo...</value>
   </string>
   <string key="GuardBlockedWolf">
     <value>La tuta luparo volis manĝi {0}, sed apud la domo ili renkontas altan, malhelan, kaj ege armitan homon. La Gardanĝelo forpelis vin ĉiujn, kaj vi retroiras malvenkinte.</value>
   </string>
   <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <value>Vi sendis {0} sektanigi {1}, sed la kredo de {0} estas tro forta.</value>
   </string>
   <!-- new string May 12 2016-->
   <string key="NameExists">
     <value>@{1}, jam aliĝis ludanto nomata {0}. Bonvolu ŝanĝi vian nomon por aliĝi.</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <value>Vi ŝtele iris ĉe {0} por iomete amuziĝi... sed kiam vi eliras, vi hazarde rimarkas strangan altaron, nebone kaŝitan, strange lumantan...</value>
   </string>
   <!-- new string May 13 2016-->
@@ -517,8 +517,8 @@
 	<value>Tempo finiĝis!</value>
   </string>
   <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
-    <value>🏹 Vi estas Kupido. Vi estis sendita sur la Tero nur kun subvesto, pafarko kaj du sagoj. Elektu du ludantojn: ili sin amos reciproke por ĉiam.\n\nPliaj informoj: /aboutCupid (se tio ne aperas esperante, klaku /setlang kaj agordu esperanton)</value>
+  <string key="RoleInfoRecruiter">
+    <value>🏹 Vi estas Kupido. Vi estis sendita sur la Tero nur kun subvesto, pafarko kaj du sagoj. Elektu du ludantojn: ili sin amos reciproke por ĉiam.\n\nPliaj informoj: /aboutRecruiter (se tio ne aperas esperante, klaku /setlang kaj agordu esperanton)</value>
   </string>
   <string key="RoleInfoDoppelganger">
     <value>🎭 Vi estas la legenda Doppelgänger, kies prauloj, laŭ mito, povis sin aliformigi en formon kiun ili volis. Vi heredis kelkajn kapablojn de ili: vi povas elekti ludanton kies rolon vi deprenos de li, kiam li mortos.\n\nPliaj informoj: /aboutDG (se tio ne aperas esperante, klaku /setlang kaj agordu esperanton)</value>
@@ -529,9 +529,9 @@
   <string key="RoleInfoSerialKiller">
     <value>🔪 Vi estas la murdisto, kiu lastatempe forkuris de frenezulejo. Via celo estas ke ĉiuj aliaj ludantoj mortu. Ĉiunokte, vi povas murdi ludanton kaj aldoni kadavron al via specimeno.\n\nPliaj informoj: /aboutSK (se tio ne aperas esperante, klaku /setlang kaj agordu esperanton)</value>
   </string>
-  <string key="CupidChosen">
-    <value>❤️ Vi enamiĝis. {0} por ĉiam estos en via koro kaj memoro. Se unu el vi mortos, ankaŭ la alia mortos pro sufero; se unu el vi venkos, ankaŭ la alia venkos.\n\nPliaj informoj pri amantoj: /aboutCupid (se tio ne aperas esperante, klaku /setlang kaj agordu esperanton)</value>
-    <value>❤️ La sago de Kupido frapis vin! Vi fervore enamiĝis al {0}! Se {0} mortos, ankaŭ vi mortos pro sufero; se unu el vi venkos, ankaŭ la alia venkos.\n\nPliaj informoj pri amantoj: /aboutCupid (se tio ne aperas esperante, klaku /setlang kaj agordu esperanton)</value>
+  <string key="RecruiterChosen">
+    <value>❤️ Vi enamiĝis. {0} por ĉiam estos en via koro kaj memoro. Se unu el vi mortos, ankaŭ la alia mortos pro sufero; se unu el vi venkos, ankaŭ la alia venkos.\n\nPliaj informoj pri amantoj: /aboutRecruiter (se tio ne aperas esperante, klaku /setlang kaj agordu esperanton)</value>
+    <value>❤️ La sago de Kupido frapis vin! Vi fervore enamiĝis al {0}! Se {0} mortos, ankaŭ vi mortos pro sufero; se unu el vi venkos, ankaŭ la alia venkos.\n\nPliaj informoj pri amantoj: /aboutRecruiter (se tio ne aperas esperante, klaku /setlang kaj agordu esperanton)</value>
   </string>
   <string key="HunterLynchedChoice">
     <value>La vilaĝanoj volas linĉi vin! Tiu ĉi estas via lasta ŝanco pafi al iu ludanto dum vi estas mortkondamnata!</value>
@@ -557,7 +557,7 @@
   <string key="HunterKilledFinalShot">
     <value>{0}, mortante, falas teren, sed tuj atingas sian pafilon kaj pafas al {1}, kiu ricevas kuglon ĝuste inter siajn okulojn. {2}</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <value>{0} ŝtele iras ĉe {1}, malfermas la pordon, sed subite renkontas maniulon kun tranĉilo!! {1}, kriante, ŝovas la tranĉilon en la organojn de {0} laŭ alfabeta ordo. {0} mortis.</value>
     <value>La sektanoj sendas {0} por sektanigi {1}, sed subite la korpo de {0} aperas antaŭ la pordo, kun tranĉiloj enŝovitaj! Kia maniulo! {0} mortis.</value>
   </string>
@@ -576,7 +576,7 @@
   <string key="GuardBlockedKiller">
     <value>Vi provis preni la kadavron de {0} por via specimeno, sed la Gardanĝelo forkurigis vin!</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <value>La sektanoj sendas {0} por sektanigi {1}, sed aŭdeblas laŭta pafo kaj oni vidas la korpon de {0} elflugi el fenestro! {0} mortis.</value>
   </string>
   <string key="GuardKiller">
@@ -591,10 +591,10 @@
   <string key="DGTransformToMason">
     <value>{0} mortis, kaj vi aliformiĝas en masoniston. Viaj teamanoj, se ili vivas, estas: {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <value>La Doppelgänger {0} iĝis sektano kiel vi!</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <value>{0} mortis, kaj vi aliformiĝas en sektanon. Viaj teamanoj, se ili vivas, estas: {1}</value>
   </string>
   <string key="DGToWolf">
@@ -609,22 +609,22 @@
   <string key="AskKill">
     <value>Kiun vi volas murdi ĉi-nokte?</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <value>Kiam {0} mortas, {1} tuj kuras kaj falas plorante, ne tolerante la perdon de sia amato, kaj sin pafas per la plej proksima pafilo. {2}</value>
   </string>
   <string key="AskDoppelganger">
     <value>Kies formon vi volas preni post lia morto?</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>Kiujn vi volas igi amantoj? Elektu la unuan ludanton.</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>Kiujn vi volas igi amantoj? Elektu la duan ludanton.</value>
   </string>
   <string key="Hunter">
     <value>Ĉasisto 🎯</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>Kupido 🏹</value>
   </string>
   <string key="SerialKiller">
@@ -634,20 +634,20 @@
     <value>Doppelgänger 🎭</value>
   </string>
   <!--alportita supren
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>La sago de Kupido frapis vin! Vi fervore enamiĝis al {0}! Se {0} mortos, ankaŭ vi mortos pro sufero. Se vi ambaŭ estos la lastaj supervivantoj, vi venkos.</value>
   </string>
   -->
   <string key="NewWCRoleModel">
     <value>Vi iĝis kolera infano. Via modelo estas {0}.</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
     <value>Vera amo daŭras! La amantoj venkas!</value>
   </string>
   <string key="HunterKilledVisiter">
     <value>En la centra placo de la vilaĝo, oni trovas la kadavron de {0}, multfoje borita de kugloj. Ŝajnas ke {0} provis eniri la domon de la ĉasisto! {1}</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>Kapuĉulo provis sektanigi vin, sed via kredo estas tro forta.</value>
   </string>
   <string key="AlreadyOnWaitList">
@@ -720,7 +720,7 @@
   <string key="AboutFool">
     <value>🃏 FRENEZULO (Vilaĝa teamo)\n\n• Celo: Linĉi ĉiujn malbonulojn (lupojn, sektanojn, murdiston).\n• Priskribo: Li ne scias esti frenezulo, kaj kredas esti divenisto, sed roloj kiujn ili divenas estas hazardaj.\n\n• Rimarko 1: Ĉar roloj kiujn li divenas estas hazardaj, tial ili povas esti eĉ ĝustaj!\n• Rimarko 2: Frenezulo ne estas tute senutila! La roloj kiuj li divenas estas elektita el la vivantaj ludantoj. Do se li divenas rolon, certe iu ludanto havas ĝin!\n• Rimarko 3: Metodo por kontroli ke vi ne estas frenezulo estas diveni dufoje la rolon de unu ludanto. Se vi estas frenezulo, verŝajne vi vidos ĝin malsama. Plie, se vi vidas iun kiel fiulo, certe vi estas frenezulo (la divenisto vidas lin kiel lupon aŭ vilaĝanon).</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>👤 SEKTANO (Sekta teamo)\n\n• Celo: Sektanigi ĉiujn vivantajn ludantojn.\n• Priskribo: Ĉiunokte sektanoj elektas kune, per voĉo, unu ludanton kaj iras ĉe li por sektanigi lin.\n\n• Rimarkindaj okazoj:\n  - Se ili elektas la sektoĉasiston, aŭ la murdiston, li mortigos la lastan aniĝinton. Tio ankaŭ okazas se ili elektas lupon kaj la lupoj restis hejme.\n  - Se ili elektas la ĉasiston, kaj ne sukcesas sektanigi lin, li mortigos la lastan aniĝinton je 50% probablo.\n  - Se ili elektas masoniston, la aliaj masonistoj ekscios lian sektaniĝon.\n- Probabloj de aniĝo al sekto:\n     Divenisto: 40%\n     Malbenito: 60%\n     Maldeculo: 70% (nur se restas hejme)\n     Gardanĝelo: 60% (nur se restas hejme)\n     Detektivo: 70%\n     Ĉasisto: 50%\n     Nesektanigeblaj roloj: Lupoj (ne estas hejme), Sektoĉasisto (vd. supren), Doppelgänger, Murdisto (vd. supren).\n     Ĉiuj ceteraj certe aniĝas al sekto: Vilaĝano, Ebriulo, Observanto, Pafisto, Fiulo, Divenista ĉeflernanto, Kolera infano, Frenezulo, Masonisto, Kupido, Vilaĝestro, Princo, Sorĉisto, Forĝisto, Misemulo.</value>
   </string>
   <string key="AboutCH">
@@ -741,7 +741,7 @@
   <string key="AboutDG">
     <value>🎭 DOPPELGÄNGER (Neŭtrala teamo)\n\n• Celo: Aliformiĝi en alian rolon kaj venki per sia nova rolo.\n• Priskribo: Komence de la partio, li elektas ludanton. Kiam tiu mortos, aŭ iĝos lupo aŭ sektano, li prenos lian rolon. Doppelgänger ne povas venki se li ne aliformiĝas.</value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>🏹 KUPIDO (Vilaĝa teamo)\n\n• Celo: Linĉi ĉiujn malbonulojn (lupojn, sektanojn, murdiston).\n• Priskribo: Komence de la partio, li elektas du ludantojn por ke ili amu sin reciproke. Se unu el ili mortos, ankaŭ la alia mortas pro sufero. Ili konservas siajn rolojn; tamen, se unu el ili venkas, ankaŭ la alia venkas. Plie, ili havas specialan movbildon se ili estas la lastaj du supervivantoj: tio igas ĉiujn aliajn malvenki.</value>
   </string>
   <string key="AboutHunter">
@@ -810,7 +810,7 @@
   <string key="NotPara">
     <value>Vi ne estas Para...</value>
   </string>
-<!-- Ne tradukitaj: Yes ĝis AllowCultA -->
+<!-- Ne tradukitaj: Yes ĝis AllowzoombiesA -->
   <string key="ThankYou">
     <value>Dankon, ĝis :)</value>
   </string>
@@ -955,13 +955,13 @@
   <string key="SerialKillerTeamEnd">
     <value>Murdisto</value>
   </string>
-  <string key="CultTeamEnd">
+  <string key="zoombiesTeamEnd">
     <value>Sektano</value>
   </string>
   <string key="TannerTeamEnd">
     <value>Maskulo</value>
   </string>
-  <string key="CultConvertWolf">
+  <string key="zoombiesConvertWolf">
     <value>La sekto sendas {0} sektanigi {1}, sed la kapo de {0} elflugas de la fenestro... Strange, ke ili pensis, ke ĝi estas nemanĝebla! {0} mortis...</value>
   </string>
   <string key="HarlotFuckedKilledPublic">
@@ -979,7 +979,7 @@
   <string key="HarlotFuckKillerPublic">
     <value>La vilaĝo vidas la korpon de {0} mortite kuŝanta en la ĉefplaco kun sennombraj tranĉilaj vundoj. 💋{0} mortis.</value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>Matene, la vilaĝanoj estis korpremitaj trovante {0}, alinome 🏹Kupido, disigita de kapo ĝis kalkanoj. Strange, la koro mankis...</value>
   </string>
   <string key="DrunkKilled">
@@ -1017,11 +1017,11 @@
     <value>La vilaĝanoj vekiĝas matene, kaj trovas la disigitan korpon de 💂{0}, la sektoĉasisto, en ĉareto metita klarvideble ekster la urbodomo. Lernite: ne vizitu la murdiston!</value>
     <value>La korpo de {0}, la sektoĉasisto, troviĝis meze de la vilaĝo, kvankam precize centonigita tranĉile. Eble kontroli ĉu la murdisto estas sektano ne estis bona ideo...</value>
   </string>
-  <string key="CultConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
+  <string key="zoombiesConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
     <value>Kvankam la lupoj volis resti hejme, ŝajnas, ke estis tro malfacila rezisti je puno de {0}, 👤sektano, kiu decidis provoki al si ĝenojn ĉe la lupoj. La kapo de {0} iĝis bonan vespermanĝon rekte liveritan hejmen!</value>
     <value>La sekto trafis neatenditan ĝenon lastnokte. Ĝia lasta aniĝinto malbonŝance vizitis lupon ĝuste je nokto kiam la lupoj decidis resti hejme, kaj la lupo trovis {0} gustumindan. 👤{0} bedaŭris, ke la lupoj ne interesiĝas pri novaj religioj.</value>
   </string>
-  <string key="CultConvertKillerPublic"> <!--used when Zombies convert the SK-->
+  <string key="zoombiesConvertKillerPublic"> <!--used when Zombies convert the SK-->
     <value>La sekto pensis ke ili havos novan anon kun ili, sed ili malpravis! {0} estis hakita kaj metita en la centra placo ĉi-matene. Strange la "sankta" libro de {0} troviĝis frapita tranĉile, kvazaŭ tio montrus, kies religio estas venkanta.</value>
     <value>Lastnokte, la sekto provis sektanigi la nura homo kiu, el vilaĝanoj, estas pli freneza ol ili. {0} iris ĉe la murdisto, kaj li faris artaĵon per la organojn de {0} kaj eksposiciis ĝin en la centra placo.</value>
   </string>
@@ -1197,11 +1197,11 @@
   <string key="AllowTannerA">
     <value>Tanner as a role set to: {0}</value>
   </string>
-  <string key="AllowCultQ">
-    <value>Allow cult as a role option?\nCurrent: {0}</value>
+  <string key="AllowzoombiesQ">
+    <value>Allow zoombies as a role option?\nCurrent: {0}</value>
   </string>
-  <string key="AllowCultA">
-    <value>Cult as a role set to: {0}</value>
+  <string key="AllowzoombiesA">
+    <value>zoombies as a role set to: {0}</value>
   </string>
   <string key="AllowExtendQ">
     <!--{0} = "Allow" / "Disallow" string-->
@@ -1223,8 +1223,8 @@
   <string key="EnableSecretLynchA">
     <value>Enabling of secret Lynch set to: {0}</value>
   </string>
- <string key="AllowCult">
-    <value>Allow Cult</value>
+ <string key="Allowzoombies">
+    <value>Allow zoombies</value>
   </string>
   <string key="AllowTanner">
     <value>Allow Tanner</value>

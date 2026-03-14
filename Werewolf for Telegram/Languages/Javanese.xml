@@ -377,33 +377,33 @@
     <!-- 1 - target name -->
     <value>{0} wis milih ngerekrut {1} dijak melu sekte 👤</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <!-- 0 - Yougest Zombie (killed)'s name' -->
     <!-- 1 - ZombieHunter's name -->
     <value>{0} dikirim karo sekte kanggo ngerekrut {1}... jebule, wonge ki Zombie Hunter 💂! {0} modyar we dibacok pedang!</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - Number of Zombies left -->
     <value>{0} teko nang omahmu lan pengen ngerekrut kowe.... tapi kowe kanthi sigap mbacokake pedangmu nang arahe deknen. Zombie 👤 modyar... Zombie e tinggal {1}!</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>Zombie 👤 wis ngerekrut kowe dadi pengikut sekte! Kowe saiki dadi anggota aliran sesat anyaran. Pendhak wengi, kowe iso milih kanggo ngerekrut uwong mlebu melu sektemu.</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <!-- 0 - Number of Zombies -->
     <value>Anggota Zombie: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <!-- 0 - new Zombie's name -->
     <value>{0} wis gabung melu sekte Zombie 👤! Ciye-ciye ono cah anyaran.</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <!-- 0 - Newest Zombie's name -->
     <!-- 1 - target name -->
     <value>{0} wis mbok kirim nggo ngajak {1} gabung melu sekte 👤... tapi sakne, ra ono uwong nang ngomah!</value>
   </string>
-  <string key="CultWins" >
+  <string key="zoombiesWins" >
     <value>Kabeh Serigala wis mati, lan warga sing isih urip wis melu gabung nang sekte Zombie... Dolanan dimenangke Zombie 👤!</value>
   </string>
   <string key="HunterVisitDead">
@@ -508,7 +508,7 @@
     <value>  Konco Mason-mu yaiku: {0}</value><value>  Bolo pekokmu yaiku: {0}</value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <!-- 0 - Youngest Zombies name -->
     <value>Anggota anyaranmu lungo nang omahe {0} arep direkrut, tapi anggota anyaranmu malah delok omahe si {0} wis ra toto, getih nang ngendi-endi, lan ono wulu Serigala nyangkut nang cerak lawang...</value>
   </string>
@@ -517,7 +517,7 @@
     <value>Kabeh Serigala podo nang omahe {0} arep dipangan, tapi malah ketemu wujud sing gawe Serigala wedi. Ternyata kuwi Guardian Angel. Guardian Angel ngelawan Serigala, Serigala podo mlayu kocar-kacir bali nang omahe.</value>
   </string>
   <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <!-- 0 - newest  -->
     <!-- 1 - target's name -->
     <value>Kowe ngutus {0} nggo ngrekrut {1}, ternyata wonge terlalu sholeh/sholehah lan susah direkrut, kowe raiso ngrekrut deknen :(</value>
@@ -528,7 +528,7 @@
     <!-- 1 - name -->
     <value>@{1}, pemain sing nganggo jeneng {0} uwis ono, cobo diganti jeneng liyane.</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <!-- 0 - target's name -->
     <value>Kowe mlipir nang ngomahe {0} banjur tumpak-tumpakan... Pas wis rampung olehmu seneng-seneng, kowe delok tempat semedi si Zombie nang kamar e...</value>
   </string>
@@ -622,8 +622,8 @@
   <value>⌚️ Wektune entek!</value>
   </string>
   <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
-    <value>Kowe ki Cupid 🏹. Dikirim nang donya gur nganggo popok, panah, lan anak panah jumlahe 2. Pilih 2 (loro) pemain sing arep mbok jodokne dadi pasangan. Amargo setia sampe mati, nek salah siji pasangan kuwi mati, pasangane bakalan melu mati.</value>
+  <string key="RoleInfoRecruiter">
+    <value>Kowe ki Recruiter 🏹. Dikirim nang donya gur nganggo popok, panah, lan anak panah jumlahe 2. Pilih 2 (loro) pemain sing arep mbok jodokne dadi pasangan. Amargo setia sampe mati, nek salah siji pasangan kuwi mati, pasangane bakalan melu mati.</value>
   </string>
   <string key="RoleInfoDoppelganger">
     <value>Kowe ki Doppelgänger 🎭. Jare cerito jaman semono, nenek moyangmu ki iso berubah wujud, lan iso niru berubah dadi opo wae sing dikarepke. Ilmu kuwi wis diturunke nang kowe.\nPilih pemain sing arep mbok tiru wujude, nek wonge kuwi mati, kowe bakal niru wujud ngganteni dadi wonge.</value>
@@ -634,8 +634,8 @@
   <string key="RoleInfoSerialKiller">
     <value>Kowe ki serial killer 🔪. Ceritane kowe ki psikopat sing ucul seko Rumah Sakit Jiwa, tujuanmu ki gawe terror nggo mateni wong liyo. Pendhak bengi, kowe golek koleksi organ awak wong mati nggo pajangan.</value>
   </string>
-  <string key="CupidChosen">
-    <value>Kowe lagi ketaman asmoro 💞. Cupid wis njodohke kowe karo {0} dadi pasangan sehidup semati. Kowe ro pasangan mu kudu berjuang urip nganti dolanan rampung.\nNek salah siji seko kowe mati, pasanganmu yo bakal melu mati.</value>
+  <string key="RecruiterChosen">
+    <value>Kowe lagi ketaman asmoro 💞. Recruiter wis njodohke kowe karo {0} dadi pasangan sehidup semati. Kowe ro pasangan mu kudu berjuang urip nganti dolanan rampung.\nNek salah siji seko kowe mati, pasanganmu yo bakal melu mati.</value>
 	<value>Panah wis ditembakne ning atimu 💞! Kowe kedanan karo {0}! Nek wonge mati, kowe bakal bunuh diri melu mati. Nek salah siji menang, kowe yo melu menang.</value>
   </string>
   <string key="HunterLynchedChoice">
@@ -690,12 +690,12 @@
     <!-- 0 - target's name -->
     <value>Kowe nyoba arep nambah koleksi jeroane {0}, nanging wonge wis dilindungu Guardian Angel 👼! Sokor wonge ra iso dipateni...</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
     <value>Zombie 👤 ngutus si {0} nggo ngrekrut {1}, nanging ono suworo tembakan seko Hunter lan awake {0} menculat seko jendelo! {0} wis modyar....</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
     <value>Zombie 👤 ngutus si {0} nggo ngrekrut {1}, nanging bar kuwi krungu suworo jeritan, sisa mayit e {0} sumebar metu seko jendelo, akeh bekas tusukan nang awake! PANCEN WONG EDAN! {0} wis modyar....</value>
@@ -720,11 +720,11 @@
     <!-- 1 - mason collegues's name -->
     <value>{0} wis modyar, lan kowe malih dadi Mason. Koncomu (nek misal ono) yaiku: {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <!-- 0 - new Zombie's name -->
     <value>Si Doppelganger 🎭 {0} saiki wis malih dadi Zombie 👤, jan plek koyo kowe!</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <!-- 0 - role's name -->
     <!-- 1 - teammates's name -->
     <value>{0} wis modyar, lan kowe malih dadi Zombie 👤. Koncomu (nek misal ono) yaiku: {1}</value>
@@ -744,26 +744,26 @@
   <string key="AskKill">
     <value>❓ Sopo sing arep mbok pateni bengi iki?</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <!-- 0 - dead's name -->
-    <!-- 1 - lover's name -->
+    <!-- 1 - crewmate's name -->
     <!-- 2 - roles -->
     <value>si {0} mati nang kekepan e si {1}, banjur nangis kekejer. Wegah jones meneh, akhire wonge bunuh diri nang wit ceplukan. 💔 {2}</value>
   </string>
   <string key="AskDoppelganger">
     <value>❓ Kowe pengen berubah wujud dadi sopo? Nek misal wong sing tok pilih mati, kowe bakal ganteni perane. Pilih sopo?</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>❓ Jones endi sing arep mbok dadekne pasangan? Pilih jones sing kesiji:</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>❓ Pilih jones sing keloro:</value>
   </string>
   <string key="Hunter">
     <value>Hunter 🎯</value>
   </string>
-  <string key="Cupid">
-    <value>Cupid 🏹</value>
+  <string key="Recruiter">
+    <value>Recruiter 🏹</value>
   </string>
   <string key="SerialKiller">
     <value>Serial Killer 🔪</value>
@@ -775,7 +775,7 @@
     <!-- 0 - target's name -->
     <value>Kowe saiki dadi Wild Child 👶. Panutanmu yaiku: {0}</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
     <value>Tresno kang sejati bakal langgeng nganti tekan pati.\n💏 Pasangan sing ketaman asmoro wis menang! 💗</value>
   </string>
   <string key="HunterKilledVisiter">
@@ -783,7 +783,7 @@
     <!-- 1 - role -->
     <value>Nang tengah alun-alun, kabeh warga podo nemoke mayit {0} bekas ditembaki. Ketoke wonge waton mlebu nang ngomahe Hunter! {1}</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>Zombie 👤 nyobo arep ngrekrut kowe, tapi kowe terlalu sholeh/sholehah, wonge banjur mbok tolak!</value>
   </string>
   <string key="AlreadyOnWaitList">
@@ -867,7 +867,7 @@
   <string key="AboutFool">
     <value>Fool iki tim warga. Nanging, bot ngandani de'e ki Seer. Pas wektune de'e nerawang peran'e pemain liyane, de'e diandani peran sing kadang bener kadang ndlepus, amargo presentase kebenarane hasil terawangane fool mung 40%. </value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>Zombie iki tim dhewe. Selaku Zombie, tujuan'e pemain kuwi ngubah pikiran pemain sing liyane ben melu kelompok Zombie. Cara dolanmu ngono, tujuanmu yo ngubah pemain liyane (kecuali Serigala yo) mlebu kelompokmu. Nek pemainne kabeh wes dadi Zombie, Zombie menang.</value>
   </string>
   <string key="AboutCH">
@@ -889,13 +889,13 @@
     <value>
       Doppelgänger ki jane ndhuwe tim dhewe. Nang mbengi pertama pemain'e bakalan iso milih sopo sing meh tiru peranne. Nek pemain sing ditiru mati, DG bakalan malih peran tur melu tim'e kuwi. Nek DG ora milih, mengko bot bakalan milih acak.
       Elingo: Nek pemain'e kuwi malah dadi Zombie, DG bakalan malih dadi peran asline. Aturan sing liyane tetep: nek pemain sing ditiru kuwi WC tur panutan'e modyar, DG bakalan dadi Serigala. Nek ora, DG bakal ngewarisi panutan'e kuwi.
-      Zombie ra iso lebokke DG nang tim'e (isone di wektu DG ganti peran). DG iki ra iso menang kecuali nek de'e uwes malih. Nek ngasi dolanan bar DGne ora malih, DG-kalah kecuali nek de'e lover.
+      Zombie ra iso lebokke DG nang tim'e (isone di wektu DG ganti peran). DG iki ra iso menang kecuali nek de'e uwes malih. Nek ngasi dolanan bar DGne ora malih, DG-kalah kecuali nek de'e crewmate.
     </value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>
-      Cupid iki tim warga. Dikirim nang donya gur nganggo popok, panah, lan anak panah jumlahe 2. Pilih 2 (loro) pemain sing arep mbok jodokne dadi pasangan. Amargo setia sampe mati, nek salah siji pasangan kuwi mati, pasangane bakalan melu mati. Pasanganne kuwi dadi tim dhewe.
-      Elingo: Pasanganne bakalan ngerti sopo tresnone, nanging ra bakalan weruh peran-peran'e. Nek Pasanganne Cupid dadi 2 pemain terakhir, tim Pasanganne kuwi sing menang. Nek tim Pasanganne bedo (warga + Serigala), tur salah siji tim Pasanganne menang (Serigala), Pasangan sing liyane (warga) melu menang. KAKEAN COCOT nek Pasangan dho urip nang akhir permainan, tur salah siji tim Pasanganne menang, kelorone menang.
+      Recruiter iki tim warga. Dikirim nang donya gur nganggo popok, panah, lan anak panah jumlahe 2. Pilih 2 (loro) pemain sing arep mbok jodokne dadi pasangan. Amargo setia sampe mati, nek salah siji pasangan kuwi mati, pasangane bakalan melu mati. Pasanganne kuwi dadi tim dhewe.
+      Elingo: Pasanganne bakalan ngerti sopo tresnone, nanging ra bakalan weruh peran-peran'e. Nek Pasanganne Recruiter dadi 2 pemain terakhir, tim Pasanganne kuwi sing menang. Nek tim Pasanganne bedo (warga + Serigala), tur salah siji tim Pasanganne menang (Serigala), Pasangan sing liyane (warga) melu menang. KAKEAN COCOT nek Pasangan dho urip nang akhir permainan, tur salah siji tim Pasanganne menang, kelorone menang.
     </value>
   </string>
   <string key="AboutHunter">
@@ -906,7 +906,7 @@
     </value>
   </string>
   <string key="AboutSK">
-    <value>Serial Killer iki ndhuwe tim'e dhewe. Serial Killer iki menange nek de'e dadi pemain terakhir sing urip, kecuali nek de'e dadi Lover. Serial Killer iki gaweane mateni wong utowo serigala saben mbengi. Nek Serial Killer kui diserang serigala ono kemungkinan 50% serial killer bakal modyar.</value>
+    <value>Serial Killer iki ndhuwe tim'e dhewe. Serial Killer iki menange nek de'e dadi pemain terakhir sing urip, kecuali nek de'e dadi crewmate. Serial Killer iki gaweane mateni wong utowo serigala saben mbengi. Nek Serial Killer kui diserang serigala ono kemungkinan 50% serial killer bakal modyar.</value>
   </string>
   <string key="AboutPara">
     <value>Parah ki wong ra cetho. Demenane nyolek-nyolek Serigala nang omahe, koyo jin. Padahal nyolek-nyolek Serigala koyo ngono gur membahayakan nyawa :(</value>
@@ -1074,11 +1074,11 @@
   <string key="AllowTannerA">
     <value>Tanner disetel dadi: {0}</value>
   </string>
-  <string key="AllowCultQ">
-    <value>Ijinke Cult dadi pilihan nang role dolanan?\nSaiki: {0}</value>
+  <string key="AllowzoombiesQ">
+    <value>Ijinke zoombies dadi pilihan nang role dolanan?\nSaiki: {0}</value>
   </string>
-  <string key="AllowCultA">
-    <value>Cult disetel dadi: {0}</value>
+  <string key="AllowzoombiesA">
+    <value>zoombies disetel dadi: {0}</value>
   </string>
     <string key="EnableSecretLynchQ">
     <value>Ijinke nuduh kanthi rahasia (secret lynch)?\nSaiki: {0}</value>
@@ -1238,7 +1238,7 @@
   <string key="SerialKillerTeam">
     <value>Tim SK</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>Tim Zombie</value>
   </string>
   <string key="TannerTeam">
@@ -1257,13 +1257,13 @@
   <string key="SerialKillerTeamEnd">
     <value>Tim SK</value>
   </string>
-  <string key="CultTeamEnd">
+  <string key="zoombiesTeamEnd">
     <value>Tim Zombie</value>
   </string>
   <string key="TannerTeamEnd">
     <value>Tim Tanner</value>
   </string>
-  <string key="CultConvertWolf">
+  <string key="zoombiesConvertWolf">
     <value>Zombie 👤 ngirim {0} nggo ngrekrut si {1},SEMPRUL sing direkrut jebule Serigala!\nWarga ndeso malah weruh ndase {0} mencelat metu seko jendelo... Kabeh do bingung ngopo kok iso ngono kuwi!\n{0} wis modyar...</value>
   </string>
   
@@ -1284,8 +1284,8 @@
   <string key="ZombieKilled">
     <value>Si {0} ditemokake ketusuk wesi wadah lilin ning tempat semedi. Serial Killer 🔪 beraksi meneh tanpo pandang bulu! {0} ki jebule Zombie 👤.</value>
   </string>
-  <string key="CupidKilled">
-    <value>Isuk-isuk warga ndeso nemokke mayit {0} Si Mak Comblang a.k.a. Cupid 🏹 mati kejiret busur panah e dewe. Mesakke, sopo hayo seng mateni?</value>
+  <string key="RecruiterKilled">
+    <value>Isuk-isuk warga ndeso nemokke mayit {0} Si Mak Comblang a.k.a. Recruiter 🏹 mati kejiret busur panah e dewe. Mesakke, sopo hayo seng mateni?</value>
   </string>
   <string key="DrunkKilled">
     <value>Mambu ciu karo lapen neng omah e {0}, Jebul de'e drunk 🍻 alias Cah Mendeman, omahe diacak-acak njuk wong e dipateni karo serial killer 🔪 nganti awakke biru. Nanging ketok e ciune ora diombe karo Serial Killer e 🔪.</value>
@@ -1318,12 +1318,12 @@
     <value>Warga ndeso tangi isuk-isuk nemokke mayit {0} si Zombie Hunter 💂. Niat golek kutil jebul salah marani, seng diparani malah Serial Killer 🔪!</value>
     <value>Mayit e {0} si Zombie Hunter 💂 ditemokke warga ndeso ambyar neng kidul rel, dikiro ketubruk kreto jebul Zombie Hunter 💂 e marani Serial Killer 🔪. Dikiro serial killer e kutilan opo yo...</value>
   </string>
-  <string key="CultConvertWolfPublic">
+  <string key="zoombiesConvertWolfPublic">
 	<!--used when Zombies convert the wolves, only if wolves stayed home-->
     <value>Serigalane 🐺 wes kadung kesel ameh metu, jebul {0} 👤 teko gowo formulir, niat ngerekrut malah ketemu serigala keluwen. Sikil e {0} 👤 seng diconvert dadi sayur sop, ngaterke panganan gratis kanggo serigala 🐺!</value>
     <value>Zombie 👤 nyobo ngerekrut uwong mau bengi. Niat ngerekrut seng ditekani malah omah e Serigala 🐺, ketepakan serigalane memeng metu, keluwen, njuk {0} dipangan masio rodo kecut sithik. Mesakke {0} 👤, Serigalane 🐺 ra gelem melu dadi Zombie.</value>
   </string>
-  <string key="CultConvertKillerPublic">
+  <string key="zoombiesConvertKillerPublic">
 	<!--used when Zombies convert the SK-->
     <value>Zombie 👤 wes niat apik ngerekrut Serial Killer ben nduwe konco. Nanging de'e lewih seneng dewean, njuk {0} si Zombie 👤 dipateni karo serial killer! Anggota Zombie 👤 kelong siji.</value>
     <value>Mau bengi Zombie 👤 meh nyobo ngerekrut uwong, jebul seng direkrut kuwi serial killer, njuk Zombie 👤 e malah didadekke pajangan neng taman kuto, {0} si Zombie 👤 anyaran wes mati.</value>
@@ -1411,8 +1411,8 @@
     <!-- NOTE: No space between {0} and joined. It will be added in the code if necessary-->
     <value>{0}wis sukses melu dolanan ana ing 30 detik kepungkur.</value>
   </string>
-  <string key="AllowCult">
-    <value>Ijinke Cult</value>
+  <string key="Allowzoombies">
+    <value>Ijinke zoombies</value>
   </string>
   <string key="AllowTanner">
     <value>Ijinke Tanner</value>
@@ -1450,7 +1450,7 @@
     <value>Kabeh</value>
   </string>
   <string key="RandomModeQ">
-    <value>Uripke Random Mode?\nPas random mode diuripke, Chaos, nuduh rahasia (Secret Lynch), tampilke lakon pas mati, lan ijinke Cult / Fool / Tanner bakal diacak kapan wae dolanan dilekasi.\nSaiki:{0}</value>
+    <value>Uripke Random Mode?\nPas random mode diuripke, Chaos, nuduh rahasia (Secret Lynch), tampilke lakon pas mati, lan ijinke zoombies / Fool / Tanner bakal diacak kapan wae dolanan dilekasi.\nSaiki:{0}</value>
   </string>
   <string key="RandomModeA">
     <value>Uripke random mode disetel dadi: {0}</value>

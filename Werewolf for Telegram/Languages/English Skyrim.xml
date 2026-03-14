@@ -172,7 +172,7 @@
         <!-- 1 - player role -->
         <value>{0} has not voted for 2 nights in a row. The Nine Divines have seen this as a terrible crime, and {0} suddenly falls, dead... {0} is now doomed to wander forever in the planes of Oblivion. {1}</value>
 		<value>{0} didn't show up to the lynching rally for 2 nights in a row. Since they are clearly a dragon, you all head to {0}'s house to kill them too. After the mob has killed {0}, they discover that {1}</value>
-		<value>{0} knew that one cannot stay as long as 2 nights away frmo the town. The town's ruler demanded that {0}'s belongings should be given to their lover, and now there's no place for {0} in this town anymore. {1}</value>
+		<value>{0} knew that one cannot stay as long as 2 nights away frmo the town. The town's ruler demanded that {0}'s belongings should be given to their crewmate, and now there's no place for {0} in this town anymore. {1}</value>
 		<value>If there's one rule in Skyrim, is this: Don't refrain from voting for 2 nights in a row. This is a crime! {0} paid with their life. {1}</value>
 		<value>The Elder Scroll proclaimed: DO NOT BE AFK FOR 2 NIGHTS IN A ROW. {0} challenged this rule and is now dead. {1}</value>
 		<value>No one can escape fate. {0} is (actually, was) a living proof of this. If you don't vote for 2 nights in a row, you WILL DIE. Not seven days, just two are enough. {1}</value>
@@ -710,7 +710,7 @@ HELP US STOPPING THE VAMPIRE THREAT."</value>
         <!-- 1 - target name -->
         <value>{0} has voted to turn {1}</value>
     </string>
-    <string key="CultConvertZombieHunter">
+    <string key="zoombiesConvertZombieHunter">
         <!-- 0 - Yougest Zombie (killed)'s name' -->
         <!-- 1 - ZombieHunter's name -->
         <value>{0} was sent to do your dirty work, and turn {1}... however, they were a Dawnguard! {0} is dead!
@@ -719,7 +719,7 @@ HELP US STOPPING THE VAMPIRE THREAT."</value>
         </value>
 		<value>{0} had ONE job: turning the next player into a vampire, while avoiding {1}. What did they do? Went STRAIGHT into a trap.\nThey thought they were stronger than the Dawnguard, but the vampire dust sitting on the ground tells a clear message about the winner of that fight.</value>
     </string>
-    <string key="ZombieHunterKilledCultVisit">
+    <string key="ZombieHunterKilledzoombiesVisit">
         <!-- 0 - Youngest Zombie's name -->
         <!-- 1 - Number of Zombies left -->
         <value>{0} came to your house last night, ready to turn you into a vampire.... but you shoved your silver sword right through their chest! A dragon is dead... {1} remain!
@@ -727,22 +727,22 @@ HELP US STOPPING THE VAMPIRE THREAT."</value>
         <value>{0} tried to use their foul tricks with you. It's a shame that you didn't fell for them! You quickly slay another vampire. It leaves only their {1} friend(s).
         </value>
     </string>
-    <string key="CultConvertYou">
+    <string key="zoombiesConvertYou">
         <value>You were walking down the street and found a beautiful person, crying on the ground. You try to help them, just to discover that they are a vampire! You have been turned into one as well. Every other night, you will have a chance to turn another player into a vampire.
         </value>
         <value>You enter your house just to find a beautiful person crying in a corner. You try to help them, just to discover that they are a vampire! You have been turned into one as well. Every other night, you will have a chance to turn another player into a vampire.
         </value>
     </string>
-    <string key="CultTeam">
+    <string key="zoombiesTeam">
         <!-- 0 - Number of Zombies -->
         <value>Vampires: {0}</value>
     </string>
-    <string key="CultJoin">
+    <string key="zoombiesJoin">
         <!-- 0 - new Zombie's name -->
         <value>{0} has been turned into a vampire!</value>
         <value>There is a new vampire among you, and their name is {0}!</value>
     </string>
-    <string key="CultVisitEmpty">
+    <string key="zoombiesVisitEmpty">
         <!-- 0 - Newest Zombie's name -->
         <!-- 1 - target name -->
         <value>{0} was sent to do your dirty work, and turn {1} into a vampire... but no one was home!
@@ -750,7 +750,7 @@ HELP US STOPPING THE VAMPIRE THREAT."</value>
         <value>{1} weren't home, so {0} returns to the vampires' mansion with nothing but hunger.
         </value>
     </string>
-    <string isgif="true" key="CultWins">
+    <string isgif="true" key="zoombiesWins">
         <value>All the dragons have died, and the only ones left standing have all been turned into vampires!\nThey won!</value>
         <value>No one saw that coming. The vampires now rule over Skyrim!</value>
       <value>The vampire covenant is now stringer than ever, and they will rule for a long time from now on.</value>
@@ -874,7 +874,7 @@ HELP US STOPPING THE VAMPIRE THREAT."</value>
         <value>The Companions are: {0}</value>
         <value>Your fellow Companions are: {0}</value>
     </string>
-    <string key="CultTargetDead">
+    <string key="zoombiesTargetDead">
         <!-- 0 - Youngest Zombies name -->
         <value>Your newest member heads over to {0}'s house to bite and turn them, but instead finds the house a complete wreck, blood everywhere, and worse: there is a fire starting! The dragons were mercyless. Your youngest member quickly leaves the area.
         </value>
@@ -888,7 +888,7 @@ HELP US STOPPING THE VAMPIRE THREAT."</value>
         <value>As you try to attack {0}, you find that they are not alone. Lydia is with {0}, and her battle axe is too strong for you. Defeated, the dragons return to their burial sites.
         </value>
     </string>
-    <string key="CultUnableToConvert">
+    <string key="zoombiesUnableToConvert">
         <!-- 0 - newest  -->
         <!-- 1 - target's name -->
         <value>You send {0} to try to turn {1}. When {0} gets there, however, they are being expected with silver weapons and torches! {1} doesn't want to join your group of vampires, so {0} heads back, defeated.
@@ -902,7 +902,7 @@ HELP US STOPPING THE VAMPIRE THREAT."</value>
         <value>{1}, a player with the name {0} has already joined. Please change your name to join.
         </value>
     </string>
-    <string key="HarlotDiscoverCult">
+    <string key="HarlotDiscoverzoombies">
         <!-- 0 - target's name -->
         <value>You went to deliver {0}'s letter. Everything went well, but you couldn't help but notice a strange hunger in their eyes...
         </value>
@@ -1014,8 +1014,8 @@ HELP US STOPPING THE VAMPIRE THREAT."</value>
         <value>Time's up!</value>
     </string>
     <!-- new strings june 10 2016 -->
-    <string key="RoleInfoCupid">
-        <value>(Cupid) You are the Priestess of Mara. You will tie two players' fates. When one dies, the powerful binding magic will kill the other one, or something like that.
+    <string key="RoleInfoRecruiter">
+        <value>(Recruiter) You are the Priestess of Mara. You will tie two players' fates. When one dies, the powerful binding magic will kill the other one, or something like that.
         </value>
     </string>
     <string key="RoleInfoDoppelganger">
@@ -1030,7 +1030,7 @@ HELP US STOPPING THE VAMPIRE THREAT."</value>
         <value>(serial killer) The Dark Brotherhood has arived in Skyrim, and you are their agent. Fulfill the Night Mother's contract: Kill every single one on this village, and send their souls to feed the Mother. Anyone who visits you will die, and you might even be able to kill a dragon if it attacks you. Don't let them know who you are.\nHail Sithis.
         </value>
     </string>
-    <string key="CupidChosen">
+    <string key="RecruiterChosen">
         <value>This night, you dream of {0}. You feel drawn to them and you know they feel the same. You head to Mara's Temple and now you are married, together for life. And for death, because if they meet their demise, you will not be able to stand life as it is. You will kill yourself. But if only you survive at the end, you win.
         </value>
         <value>This night, you dream of {0}. You feel drawn to them and you know they feel the same. You head to Mara's Temple and now you are married, together for life. You swere at each other to live together forever, in this world or in the next. You both win alone if you survive until the end.
@@ -1126,7 +1126,7 @@ HELP US STOPPING THE VAMPIRE THREAT."</value>
         <value>As you headed to {0}'s house, you knew something was wrong. And you were right! Lydia  was there, and she helped them to fight you. You retreat, apologizing mentally to the Night Mother. You will kill them all, in your own time.
         </value>
     </string>
-    <string key="CultConvertHunter">
+    <string key="zoombiesConvertHunter">
         <!-- 0 - Youngest Zombie's name -->
         <!-- 1 - target's name -->
         <value>The vampires sends {0} to try to convert {1}, but the Forsworn didn't want anything to do with your covenant of vampires... The Forsworn dismembered {0} and burned they body in a huge fire. No healing magic will safe your partner now...
@@ -1134,7 +1134,7 @@ HELP US STOPPING THE VAMPIRE THREAT."</value>
         <value>The vampires sends {0} to try to convert {1}, but the Forsworn didn't want anything to do with your covenant of vampires... The Forsworn dismembered {0}, burned they body in a huge fire, and used their bones to decorate their armor. No healing magic will safe your partner now...
         </value>
     </string>
-    <string key="CultConvertSerialKiller">
+    <string key="zoombiesConvertSerialKiller">
         <!-- 0 - Youngest Zombie's name -->
         <!-- 1 - target's name -->
         <value>The vampires sends {0} to try to convert {1}, but it seems that the power of the Night Mother protected her agent! {0} never comes back, but a letter arrives instead: the Night Mother's sigil painted in the paper, using {0}'s blood as paint.
@@ -1175,13 +1175,13 @@ HELP US STOPPING THE VAMPIRE THREAT."</value>
         <value>With the death of {0}, you transform yourself into a Companion. Your teammates (if any) are: {1}
         </value>
     </string>
-    <string key="DGToCult">
+    <string key="DGTozoombies">
         <!-- 0 - new Zombie's name -->
         <value>The Face Sculptor was bitten, and now {0} becomes a vampire, just like you!</value>
         <value>With the death of your teammate, the Face Sculptor offers themselves to take your former partner's place. Now {0} becomes a vampire, just like you!
         </value>
     </string>
-    <string key="DGTransformToCult">
+    <string key="DGTransformTozoombies">
         <!-- 0 - role's name -->
         <!-- 1 - teammates's name -->
         <value>{0} has died, and you transform into a Vampire, with the covenant's help. Your teammates (if any) are: {1}
@@ -1209,9 +1209,9 @@ HELP US STOPPING THE VAMPIRE THREAT."</value>
     <string key="AskKill">
         <value>Who do you want to kill tonight?</value>
     </string>
-    <string key="LoverDied">
+    <string key="crewmateDied">
         <!-- 0 - dead's name -->
-        <!-- 1 - lover's name -->
+        <!-- 1 - crewmate's name -->
         <!-- 2 - roles -->
         <value>With {0}'s dying breath, {1} rushes over and falls, crying. They cannot stand the loss of their loved one, so they raise up their dagger and pierce it, accepting death. {2}
         </value>
@@ -1221,16 +1221,16 @@ HELP US STOPPING THE VAMPIRE THREAT."</value>
     <string key="AskDoppelganger">
         <value>Who do you want to become if they die?</value>
     </string>
-    <string key="AskCupid1">
-        <value>Who do you want the lovers to be? Choose the first player</value>
+    <string key="AskRecruiter1">
+        <value>Who do you want the crewmates to be? Choose the first player</value>
     </string>
-    <string key="AskCupid2">
-        <value>Who do you want the lovers to be? Choose the second player</value>
+    <string key="AskRecruiter2">
+        <value>Who do you want the crewmates to be? Choose the second player</value>
     </string>
     <string key="Hunter">
         <value>the Forsworn 🎯</value>
     </string>
-    <string key="Cupid">
+    <string key="Recruiter">
         <value>the Priestess of Mara 🏹</value>
     </string>
     <string key="SerialKiller">
@@ -1243,8 +1243,8 @@ HELP US STOPPING THE VAMPIRE THREAT."</value>
         <!-- 0 - target's name -->
         <value>You took Lucia, The Orphan's place. You have been adopted by {0}</value>
     </string>
-    <string key="LoversWin">
-        <value>True love endures! The lovers have won!</value>
+    <string key="crewmatesWin">
+        <value>True love endures! The crewmates have won!</value>
         <value>No one cas stand against the mighty power of love, not even dragons!</value>
     </string>
     <string key="HunterKilledVisiter">
@@ -1255,7 +1255,7 @@ HELP US STOPPING THE VAMPIRE THREAT."</value>
         <value>{0} is found dead, blood all over. The Forsworn brags about how they killed a member of the Dark Brotherhood!\n\n{1}
         </value>
     </string>
-    <string key="CultAttempt">
+    <string key="zoombiesAttempt">
         <value>A hooded figure approached you in a corner, and tried to bite you! You quickly shove them away and run for your house.
         </value>
         <value>As you got close to your house, someone tried to grab you. You draw your sword and show them you can handle yourself. Whoever it was, they ran quickly away, impressed by your skills, I suppose.
@@ -1360,7 +1360,7 @@ HELP US STOPPING THE VAMPIRE THREAT."</value>
         <value>The minstrel Thinks they have a strong voice, but the only think you can do is to sing the dragonborn song and hope you can guess their roles right. You honestly believe you are a Greybeard though, but even Malukah sings better than you. (She actually sings MAJESTICALLY)
         </value>
     </string>
-    <string key="AboutCult">
+    <string key="Aboutzoombies">
         <value>As a vampire, it is your goal to convert all other players (except dragons and of course, the Dark Brotherhood) to your covenant. If at the end of the game, all living players are vampires - you can rule the land!
         </value>
     </string>
@@ -1384,11 +1384,11 @@ HELP US STOPPING THE VAMPIRE THREAT."</value>
         </value>
     </string>
     <string key="AboutDG">
-        <value> You mastered the face sculpting magic... You can pick a player at the start of the game. If that player dies, you will become what they were.  Note: If the player was converted to vampire, you will take on their original role. All other normal rules apply: If they were Lucia and their parents died, you will become a dragon. Otherwise, you will inherit their parents. The vampires cannot transform you (but can after the you switches roles). Also - the Face Sculptor can NOT win unless they have transformed. If at the end of the game, you are still, well, you; you lose (exception: lover)
+        <value> You mastered the face sculpting magic... You can pick a player at the start of the game. If that player dies, you will become what they were.  Note: If the player was converted to vampire, you will take on their original role. All other normal rules apply: If they were Lucia and their parents died, you will become a dragon. Otherwise, you will inherit their parents. The vampires cannot transform you (but can after the you switches roles). Also - the Face Sculptor can NOT win unless they have transformed. If at the end of the game, you are still, well, you; you lose (exception: crewmate)
         </value>
     </string>
-    <string key="AboutCupid">
-        <value> Love is in the air. As the priestess of Mara, you will choose two players at the start of the game. These two players will become madly in love! If one of them dies, the other will die of sorrow :(\nNote: Lovers will know who each other are, but not be told their roles. If the lovers are the last two alive, they win, regardless of teams. If the lovers are on different teams, and one team wins , the lover wins as well. TL;DR if at least one of the lovers was on the winning team, they both win together.
+    <string key="AboutRecruiter">
+        <value> Love is in the air. As the priestess of Mara, you will choose two players at the start of the game. These two players will become madly in love! If one of them dies, the other will die of sorrow :(\nNote: crewmates will know who each other are, but not be told their roles. If the crewmates are the last two alive, they win, regardless of teams. If the crewmates are on different teams, and one team wins , the crewmate wins as well. TL;DR if at least one of the crewmates was on the winning team, they both win together.
         </value>
     </string>
     <string key="AboutHunter">
@@ -1396,7 +1396,7 @@ HELP US STOPPING THE VAMPIRE THREAT."</value>
         </value>
     </string>
     <string key="AboutSK">
-        <value>The Night Mother sent you here to wipe them all. You are a lone player, on your own team. The Dark Brotherhood can win only if they are the last player alive (exception: lovers). As a skilled and cold serial killer, you can kill ANYONE - dragons, dragonborns, vampires, chickens, whatever. If the dragons try to attack you, you will kill one of them (random), and live. OP, huh?
+        <value>The Night Mother sent you here to wipe them all. You are a lone player, on your own team. The Dark Brotherhood can win only if they are the last player alive (exception: crewmates). As a skilled and cold serial killer, you can kill ANYONE - dragons, dragonborns, vampires, chickens, whatever. If the dragons try to attack you, you will kill one of them (random), and live. OP, huh?
         </value>
     </string>
     <string key="AboutPara">
@@ -1572,10 +1572,10 @@ HELP US STOPPING THE VAMPIRE THREAT."</value>
     <string key="AllowTannerA">
         <value>CHICKEN as a role set to: {0}</value>
     </string>
-    <string key="AllowCultQ">
+    <string key="AllowzoombiesQ">
         <value>Allow VAMPIRES as a role option?\nCurrent: {0}</value>
     </string>
-    <string key="AllowCultA">
+    <string key="AllowzoombiesA">
         <value>VAMPIRES as a role set to: {0}</value>
     </string>
 	  <string key="EnableSecretLynchQ">
@@ -1757,8 +1757,8 @@ HELP US STOPPING THE VAMPIRE THREAT."</value>
     <string deprecated="true" key="SerialKillerTeam">
         <value>SK Team</value>
     </string>
-    <string deprecated="true" key="CultTeam">
-        <value>Cult Team</value>
+    <string deprecated="true" key="zoombiesTeam">
+        <value>zoombies Team</value>
     </string>
     <string deprecated="true" key="TannerTeam">
         <value>Tanner Team</value>
@@ -1776,13 +1776,13 @@ HELP US STOPPING THE VAMPIRE THREAT."</value>
     <string key="SerialKillerTeamEnd">
         <value>Dark Brotherhood</value>
     </string>
-    <string key="CultTeamEnd">
+    <string key="zoombiesTeamEnd">
         <value>Vampires</value>
     </string>
     <string key="TannerTeamEnd">
         <value>Chicken</value>
     </string>
-    <string key="CultConvertWolf">
+    <string key="zoombiesConvertWolf">
         <value>{0} heads off to try and turn {1}, but you all see as {0} runs away, on fire. LITERALLY. You can't turn dragons, now you know it (and I forgot to mention).
         </value>
     </string>
@@ -1806,7 +1806,7 @@ HELP US STOPPING THE VAMPIRE THREAT."</value>
         <value>{0} was found with a wooden *thing* stabbed in their hearts. It seems that even the vampires cannot escape from the Night Mother! The Dark Brotherhood had struck again.
         </value>
     </string>
-    <string key="CupidKilled">
+    <string key="RecruiterKilled">
         <value>{0}, the Pristess of Mara, was found dead in the altar. The Dark Brotherhhod does not believe in love of any kind, and now they sent their message.
         </value>
     </string>
@@ -1846,13 +1846,13 @@ HELP US STOPPING THE VAMPIRE THREAT."</value>
         <value>The body of {0}, the capitain of he Dawnguard, was found in the middle of town, albeit cut precisely into a hundred pieces. Next time, the Dawnguard will leave the Dark Brotherhood alone.</value>
     </string>
     <string
-        key="CultConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
+        key="zoombiesConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
         <value>Something that does not happen very often: the dragons didn't attack. The vampires thought it would be a goo idea to hunt on their own, but you can't turn a dragon into a vampire! {0} is killed as an example.
         </value>
         <value>Vampires are not included in a dragon's diet. So, a dragon dropped {0}'s body in flames, in the middle of the town square!
         </value>
     </string>
-    <string key="CultConvertKillerPublic"> <!--used when Zombies convert the SK-->
+    <string key="zoombiesConvertKillerPublic"> <!--used when Zombies convert the SK-->
         <value>The vampires thought the Dark Brotherhood wasn't important, and tried to convert one of their ranks! Sadly for {0}, the vampires learned in the worst way that you can't turn a trained murderer into a vampire just like that.
         </value>
         <value>The Dark Brotherhood does not fear simple magics. A trained Serial Killer won't just turn into a vampire without fighting! {0} died, clearly overwhelmed by the killer's skill.
@@ -1970,7 +1970,7 @@ HELP US STOPPING THE VAMPIRE THREAT."</value>
         <!-- NOTE: No space between {0} and joined. It will be added in the code if necessary-->
         <value>{0}joined the game in the last 30 seconds.</value>
     </string>
-    <string key="AllowCult">
+    <string key="Allowzoombies">
         <value>Allow Vampires</value>
     </string>
     <string key="AllowTanner">
@@ -2246,7 +2246,7 @@ HELP US STOPPING THE VAMPIRE THREAT."</value>
     <!-- 0 - mason collegues's name -->
     <value>Your teammates (if any) are: {0}</value>
   </string>
-  <string key="ThiefToCult">
+  <string key="ThiefTozoombies">
     <!-- 0 - old Zombie's name -->
     <!-- 1 - new Zombie's name -->
     <value>{0} is no longer your teammate and {1} has now become a vampire, just like you!</value>

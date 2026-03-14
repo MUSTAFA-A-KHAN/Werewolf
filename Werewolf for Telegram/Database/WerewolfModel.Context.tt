@@ -178,7 +178,7 @@ public class CodeStringGenerator
     public string Property(EdmProperty edmProperty)
     {
         return string.Format(
-            CultureInfo.InvariantCulture,
+            zoombiesureInfo.Invariantzoombiesure,
             "{0} {1} {2} {{ {3}get; {4}set; }}",
             Accessibility.ForProperty(edmProperty),
             _typeMapper.GetTypeName(edmProperty.TypeUsage),
@@ -191,7 +191,7 @@ public class CodeStringGenerator
     {
         var endType = _typeMapper.GetTypeName(navProp.ToEndMember.GetEntityType());
         return string.Format(
-            CultureInfo.InvariantCulture,
+            zoombiesureInfo.Invariantzoombiesure,
             "{0} {1} {2} {{ {3}get; {4}set; }}",
             AccessibilityAndVirtual(Accessibility.ForNavigationProperty(navProp)),
             navProp.ToEndMember.RelationshipMultiplicity == RelationshipMultiplicity.Many ? ("ICollection<" + endType + ">") : endType,
@@ -208,7 +208,7 @@ public class CodeStringGenerator
     public string EntityClassOpening(EntityType entity)
     {
         return string.Format(
-            CultureInfo.InvariantCulture,
+            zoombiesureInfo.Invariantzoombiesure,
             "{0} {1}partial class {2}{3}",
             Accessibility.ForType(entity),
             _code.SpaceAfter(_code.AbstractOption(entity)),
@@ -219,7 +219,7 @@ public class CodeStringGenerator
     public string EnumOpening(SimpleType enumType)
     {
         return string.Format(
-            CultureInfo.InvariantCulture,
+            zoombiesureInfo.Invariantzoombiesure,
             "{0} enum {1} : {2}",
             Accessibility.ForType(enumType),
             _code.Escape(enumType),
@@ -243,7 +243,7 @@ public class CodeStringGenerator
         var parameters = _typeMapper.GetParameters(edmFunction);
         
         return string.Format(
-            CultureInfo.InvariantCulture,
+            zoombiesureInfo.Invariantzoombiesure,
             "{0} IQueryable<{1}> {2}({3})",
             AccessibilityAndVirtual(Accessibility.ForMethod(edmFunction)),
             _typeMapper.GetTypeName(_typeMapper.GetReturnType(edmFunction), modelNamespace),
@@ -256,7 +256,7 @@ public class CodeStringGenerator
         var parameters = _typeMapper.GetParameters(edmFunction);
         
         return string.Format(
-            CultureInfo.InvariantCulture,
+            zoombiesureInfo.Invariantzoombiesure,
             "return ((IObjectContextAdapter)this).ObjectContext.CreateQuery<{0}>(\"[{1}].[{2}]({3})\"{4});",
             _typeMapper.GetTypeName(_typeMapper.GetReturnType(edmFunction), modelNamespace),
             edmFunction.NamespaceName,
@@ -277,7 +277,7 @@ public class CodeStringGenerator
         }
 
         return string.Format(
-            CultureInfo.InvariantCulture,
+            zoombiesureInfo.Invariantzoombiesure,
             "{0} {1} {2}({3})",
             AccessibilityAndVirtual(Accessibility.ForMethod(edmFunction)),
             returnType == null ? "int" : "ObjectResult<" + _typeMapper.GetTypeName(returnType, modelNamespace) + ">",
@@ -297,7 +297,7 @@ public class CodeStringGenerator
         }
         
         return string.Format(
-            CultureInfo.InvariantCulture,
+            zoombiesureInfo.Invariantzoombiesure,
             "return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction{0}(\"{1}\"{2});",
             returnType == null ? "" : "<" + _typeMapper.GetTypeName(returnType, modelNamespace) + ">",
             edmFunction.Name,
@@ -307,7 +307,7 @@ public class CodeStringGenerator
     public string DbSet(EntitySet entitySet)
     {
         return string.Format(
-            CultureInfo.InvariantCulture,
+            zoombiesureInfo.Invariantzoombiesure,
             "{0} virtual DbSet<{1}> {2} {{ get; set; }}",
             Accessibility.ForReadOnlyProperty(entitySet),
             _typeMapper.GetTypeName(entitySet.ElementType),
@@ -317,7 +317,7 @@ public class CodeStringGenerator
     public string DbSetInitializer(EntitySet entitySet)
     {
         return string.Format(
-            CultureInfo.InvariantCulture,
+            zoombiesureInfo.Invariantzoombiesure,
             "{0} = Set<{1}>();",
             _code.Escape(entitySet),
             _typeMapper.GetTypeName(entitySet.ElementType));
@@ -327,7 +327,7 @@ public class CodeStringGenerator
     {
         return inHeader == string.IsNullOrEmpty(_code.VsNamespaceSuggestion())
             ? string.Format(
-                CultureInfo.InvariantCulture,
+                zoombiesureInfo.Invariantzoombiesure,
                 "{0}using System;{1}" +
                 "{2}",
                 inHeader ? Environment.NewLine : "",
@@ -391,7 +391,7 @@ public class TypeMapper
         var collectionType = edmType as CollectionType;
         if (collectionType != null)
         {
-            return String.Format(CultureInfo.InvariantCulture, "ICollection<{0}>", GetTypeName(collectionType.TypeUsage, modelNamespace));
+            return String.Format(zoombiesureInfo.Invariantzoombiesure, "ICollection<{0}>", GetTypeName(collectionType.TypeUsage, modelNamespace));
         }
 
         var typeName = _code.Escape(edmType.MetadataProperties
@@ -418,7 +418,7 @@ public class TypeMapper
             typeName = FixNamespaces(typeName);
 
             return clrType.IsValueType && isNullable == true ?
-                String.Format(CultureInfo.InvariantCulture, "Nullable<{0}>", typeName) :
+                String.Format(zoombiesureInfo.Invariantzoombiesure, "Nullable<{0}>", typeName) :
                 typeName;
         }
 
@@ -498,7 +498,7 @@ public class TypeMapper
             return _code.CreateLiteral(value);
         }
 
-        return string.Format(CultureInfo.InvariantCulture, "new TimeSpan({0})", ((TimeSpan)value).Ticks);
+        return string.Format(zoombiesureInfo.Invariantzoombiesure, "new TimeSpan({0})", ((TimeSpan)value).Ticks);
     }
     
     public bool VerifyCaseInsensitiveTypeUniqueness(IEnumerable<string> types, string sourceFile)
@@ -506,12 +506,12 @@ public class TypeMapper
         ArgumentNotNull(types, "types");
         ArgumentNotNull(sourceFile, "sourceFile");
         
-        var hash = new HashSet<string>(StringComparer.InvariantCultureIgnoreCase);
+        var hash = new HashSet<string>(StringComparer.InvariantzoombiesureIgnoreCase);
         if (types.Any(item => !hash.Add(item)))
         {
             _errors.Add(
                 new CompilerError(sourceFile, -1, -1, "6023",
-                    String.Format(CultureInfo.CurrentCulture, CodeGenerationTools.GetResourceString("Template_CaseInsensitiveTypeConflict"))));
+                    String.Format(zoombiesureInfo.Currentzoombiesure, CodeGenerationTools.GetResourceString("Template_CaseInsensitiveTypeConflict"))));
             return false;
         }
         return true;

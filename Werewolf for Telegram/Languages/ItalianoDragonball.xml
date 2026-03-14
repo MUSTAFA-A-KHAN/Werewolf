@@ -346,25 +346,25 @@
   <string key="ZombieVotedConvert">
     <value>{0} vota per convertire {1}</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <value>{0} è stato inviato a fare il suo sporco lavoro, per convertire {1}... ma purtroppo ha scelto Goku! {0} è morto!</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <value>{0} ti ha fatto visita la scorsa notte, pronto a convertirti...  ma l'hai ucciso in pochi colpi. Un seguace di Baby è stato ucciso. {1} rimanenti!</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>Dopo la visita di uno strano individuo, ti senti strano, e senti di dover obbedire ad un certo Baby. Sai anche che il tuo compito è ottenere altri seguaci.</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>Seguaci di Baby: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <value>{0} è stato convertito!</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <value>{0} è stato inviato a convertire {1}... ma non è riuscito a trovarlo!</value>
   </string>
-  <string key="CultWins">
+  <string key="zoombiesWins">
     <value>Tutti i guerrieri vivi sono seguaci di Baby. Alla fine ha avuto la sua vendetta. MUAHAHAHAH</value>
   </string>
   <string key="HunterVisitDead">
@@ -461,21 +461,21 @@
   <!-- new strings May 6 2016-->
     <value>  Gli altri membri del Trio sono: {0}</value>
   </string>
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <value>Il vostro membro piu' nuovo si reca da {0} per convertirlo, ma trova solo rimasugli dei corpi delle sue vittime.</value>
   </string>
   <string key="GuardBlockedWolf">
   <!-- new strings May 9 2016-->
     <value>Proprio quando stavi per finire {0}, uno Yardrat si teletrasporta da lui e lo porta via dal pericolo. Peccato!</value>
   </string>
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
   <!-- new string May 12 2016-->
     <value>Spedite {0} per convertire {1}, ma la sua volontà era troppo forte. Le uova non sono bastate per impossessarsi della sua mente. :(</value>
   </string>
   <string key="NameExists">
     <value>@{1}, un giocatore con il nome di {0} e' gia' entrato. Per favore cambia il tuo nome per partecipare. </value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
   <!-- new string May 13 2016-->
     <value>Ti rechi a casa di {0} per cercare le sfere del drago, ma quando stai per uscire, ti accorgi di uno strano liquido grigiastro sparso per terra.</value>
   </string>
@@ -550,7 +550,7 @@
   <!-- new strings june 10 2016 -->
     <value>È scaduto il tempo!</value>
   </string>
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
     <value>Sei Kaioshin il Sommo. Puoi utilizzare i tuoi orecchini per unire due combattenti a vita. Se uno dei due verrà eliminato, anche l'altro soffrirà equalmente fino alla morte</value>
   </string>
   <string key="RoleInfoDoppelganger">
@@ -562,7 +562,7 @@
   <string key="RoleInfoSerialKiller">
     <value>Sei Lord Beerus. Visto che sei un Dio della Distruzione, il tuo vero obiettivo è cancellare tutti gli altri guerrieri. Hai comunque dei limiti. "Hakai" richiede una gran quantità di energia, e puoi eseguirla una sola volta ogni notte.</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>Qualcuno ti ha infilato di nascosto uno strano orecchino. Improvvisamente il tuo corpo si unisce a quello di {0}. Da questo momento, siete come un solo giocatore.</value>
     <value>Qualcuno ti ha infilato di nascosto un orecchino. Improvvisamente il tuo corpo si unisce a quello di {0}. Da questo momento, siete come un solo giocatore.</value>
   </string>
@@ -590,7 +590,7 @@
   <string key="HunterKilledFinalShot">
     <value>In fin di vita, {0} cade... Ma non senza colpire con le sue ultime energie {1}, che viene eliminato quasi istantaneamente. {2}</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <value>{0} aveva intenzione di convertire {1}, ma una volta vicino, viene immediatamente attaccato!!! {1} colpisce profondamente i punti vitali di {0} in ordine alfabetico, provando anche un certo piacere!! Ed alla fine, "Hakai"! {0} è stato cancellato.</value>
     <value>I satanisti mandano {0} per convertire {1}, ma invece il corpo di {0} scompare misteriosamente dalla faccia della terra... e probabilmente anche da quella dell'universo. {0} è stato cancellato.</value>
   </string>
@@ -609,7 +609,7 @@
   <string key="GuardBlockedKiller">
     <value>E proprio quando stavi per cancellare {0}, uno Yardrat lo teletrasporta via con se, salvandogli la vita. Peccato!</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <value>{0} viene mandato da {1} per convertirlo, ma invece si sente solo un forte urlo e il corpo di {0} esce dalla finestra volando! {0} è morto...</value>
   </string>
   <string key="GuardKiller">
@@ -628,10 +628,10 @@
   <string key="DGTransformToMason">
     <value>{0} è finalmente morto, e tu ti trasformi in un membro del Trio. I tuoi compagni (se presenti) sono: {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <value>Uno strano essere blu ({0}) è ora diventato un seguace di Baby, esattamente come te!</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <value>{0} è morto, e tu ti trasformi in un seguace di Baby. I tuoi compagni (se presenti) sono: {1}</value>
   </string>
   <string key="DGToWolf">
@@ -646,22 +646,22 @@
   <string key="AskKill">
     <value>Chi vuoi uccidere stanotte?</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <value>Con la morta di {0}, anche la parte del suo corpo che apparteneva a {1} crolla. {2}</value>
   </string>
   <string key="AskDoppelganger">
     <value>Di chi vuoi ereditare il ruolo alla sua morte?</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>A chi vuoi mettere i tuoi orecchini? Scegli il primo guerriero</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>? A chi vuoi mettere l'ultimo orecchino?</value>
   </string>
   <string key="Hunter">
     <value>Vegeta🎯</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>Kaioshin il Sommo🏹</value>
   </string>
   <string key="SerialKiller">
@@ -676,10 +676,10 @@
   <string key="HunterKilledVisiter">
     <value>Al centro del ring, viene ritrovato il corpo di {0}, con vari fori in tutto il corpo. Sembra che lui abbia provato a visitare Vegeta! {1}</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>Una figura incappucciata ha provato a farti ingerire una strana sostanza, ma tu hai deciso di non fidarti.</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
     <value>L'unione fa la forza!!!</value>
   </string>
   <string key="SerialKillerWinsOverpower">
@@ -749,8 +749,8 @@
   <string key="AboutFool">
     <value>un povero Folle che crede di essere il Veggente.... Quando sceglie di vedere il ruolo a qualcuno, gli verrà detto un ruolo casuale in partita. Nota: È più utile di quello che sembra, può sapere con esattezza i ruoli che ci sono in partita. Se vedete un ruolo, sarà in partita.</value>
   </string>
-  <string key="AboutCult">
-    <value>Come Satanista, il tuo obiettivo è convertire tutti gli altri giocatori (tranne i lupi) Al tuo culto. Se a fine partita, tutti i giocatori sono Satanisti, Vincono. \n Probabilità di convertire i seguenti ruoli: \n Sosia: 0% Finchè rimane sosia, è impossibile da convertire \n Veggente 40% Il veggente è il più difficile da convertire \n Angelo 60% Nota: Se protegge qualcuno, non lo troverai in casa \n Maledetto 60% \n Investigatore 70% \n Prostituta 70% Come l'angelo, se non è casa, non potrete convertirla \n Cacciatore 50% Avrai il 50% di convertire il cacciatore. Se fallite, C'è il 50% che vi spari.</value>
+  <string key="Aboutzoombies">
+    <value>Come Satanista, il tuo obiettivo è convertire tutti gli altri giocatori (tranne i lupi) Al tuo zoombieso. Se a fine partita, tutti i giocatori sono Satanisti, Vincono. \n Probabilità di convertire i seguenti ruoli: \n Sosia: 0% Finchè rimane sosia, è impossibile da convertire \n Veggente 40% Il veggente è il più difficile da convertire \n Angelo 60% Nota: Se protegge qualcuno, non lo troverai in casa \n Maledetto 60% \n Investigatore 70% \n Prostituta 70% Come l'angelo, se non è casa, non potrete convertirla \n Cacciatore 50% Avrai il 50% di convertire il cacciatore. Se fallite, C'è il 50% che vi spari.</value>
   </string>
   <string key="AboutCH">
     <value>Il tuo lavoro è estirpare i Satanisti. Se ti visitano, ucciderai il loro ultimo membro e saprai quanti satanisti sono rimasti. Ogni notte potrai visitare un giocatore: Se sono satanisti, li ucciderai. Sennò, tornerai a casa, come se nulla fosse successo.</value>
@@ -770,7 +770,7 @@
   <string key="AboutDG">
     <value>Puoi scegliere un giocatore a inizio partita, erediti il suo ruolo \n Nota: Se il giocatore viene convertito ai satanisti, prenderai il suo ruolo originale. Tutte le altre regole normali si applicano: se erano bimbi ribelli e il loro modello è morto, diventerai un lupo. Sennò, erediterai il loro modello.\nI satanisti non possono convertire il Sosia (ma possono dopo che il sosia cambia ruolo) E - Il sosia NON può vincere a meno che si sono trasformati. Se a fine partita, il Sosia non si è trasformato, perde (eccezione: amante).</value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>A Inizio partita, sceglie due giocatori. Dopo diventa a tutti gli effetti un normale villico. Questi due diventeranno follemente innamorati e se uno dei due muore, l'altro morirà. Nota: gli amanti sanno chi è l'altro, ma non sanno il loro ruolo. Se gli amanti sono gli ultimi due vivi, loro vincono, indipendemente dal loro ruolo. Se gli amanti sono di due team diversi(esempio: lupo + villico), e un team vince (esempio: lupi), anche l'amante (esempio:villico) vince. \n TL;DR Se tutti e due gli amanti sono vivi a fine partita, e almeno uno dei due è nel team vincitore, vincono insieme</value>
   </string>
   <string key="AboutHunter">
@@ -941,10 +941,10 @@
   <string key="AllowTannerA">
     <value>Conciatore come ruolo impostato a {0}</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>Ammettere i Satanisti in partita, come ruolo?\nAttualmente: {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>Satanista come ruolo impostato a {0}</value>
   </string>
   <string key="ThankYou">
@@ -1095,7 +1095,7 @@
   <string key="SerialKillerTeam">
     <value>God of Destruction</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>Team Baby</value>
   </string>
   <string key="TannerTeam">
@@ -1113,13 +1113,13 @@
   <string key="SerialKillerTeamEnd">
     <value>God of Destruction</value>
   </string>
-  <string key="CultTeamEnd">
+  <string key="zoombiesTeamEnd">
     <value>Team Baby</value>
   </string>
   <string key="TannerTeamEnd">
     <value>Team Cell</value>
   </string>
-  <string key="CultConvertWolf">
+  <string key="zoombiesConvertWolf">
     <value>I seguaci di Baby hanno mandato {0} per provare a convertire {1}, ma all'improvviso si vede la testa di {0} volare fuori dalla finestra... {0} è morto...</value>
   </string>
   <string key="HarlotFuckedKilledPublic">
@@ -1136,7 +1136,7 @@
   <string key="ZombieKilled">
     <value>{0} è stato cancellato senza pietà da Beerus. Lui ODIA i parassiti. HAKAI!</value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>Il mattino seguente, anche il corpo di Kaioshin il Sommo era sparito. Che Beerus abbia visitato {0}?? HAKAI!</value>
   </string>
   <string key="DrunkKilled">
@@ -1167,10 +1167,10 @@
   <string key="SerialKillerKilledCH">
     <value>I Saiyan passano tutto il mattino alla ricerca di Goku, ma invano. Sembra che sia completamente scomparso. {0} è stato cancellato. Che sia stato proprio Goku ad iniziare il combattimento?? HAKAI!</value>
   </string>
-  <string key="CultConvertWolfPublic">
+  <string key="zoombiesConvertWolfPublic">
     <value>Sembrava una notte tranquilla, visto che i seguaci di F avevano deciso di non attaccare, ma l'unico sfortunato è stato {0}, un seguace di Baby che ha provato a convertire un membro dell'impero di Freezer. La testa di {0} è stata trasformata in una decorazione per l'astronave!</value>
   </string>
-  <string key="CultConvertKillerPublic">
+  <string key="zoombiesConvertKillerPublic">
     <value>I seguaci di Baby pensavano di trovare un nuovo membro, ma si sbagliavano! {0}, un seguace di Baby è completamente scomparso durante la notte. HAKAI!</value>
   </string>
   <string key="GAGuardedKiller">
@@ -1254,8 +1254,8 @@
     <!-- {0} = list of people who have joined -->
     <value>{0} sono entrati in partita negli ultimi 30 secondi.</value>
   </string>
-  <string key="AllowCult">
-    <value>Allow Cult</value>
+  <string key="Allowzoombies">
+    <value>Allow zoombies</value>
   </string>
   <string key="AllowTanner">
     <value>Allow Tanner</value>

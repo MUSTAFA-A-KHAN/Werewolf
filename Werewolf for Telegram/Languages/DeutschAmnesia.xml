@@ -449,32 +449,32 @@
     <value>{0} will irgendetwas mit {1} machen.</value>
     <value>{0} hat seine Wahl getroffen: {1}</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <value>{0} ging zu {1}s Haus und starb dort!</value>
     <value>Leider musste {0} bei {1}s Haus sein Leben lassen... Eine Person mehr, die ihre Erinnerungen für immer verloren hat!</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <value>{0} starb! Du erinnerst dich wieder an eine Zahl... {1}</value>
     <value>Da {0} gestorben ist, macht sich in deinem Kopf plötzlich eine Zahl bemerkbar: {1}</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>Deine Rolle hat sich geändert. Doch du weißt weder was du warst, noch zu was du gerade wurdest.</value>
     <value>Was ist das? Du spürst, wie sich dein Körper verändert... Komisch, dabei verläuft die Pubertät normalerweise nicht so schnell!</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>Du weißt vielleicht nicht mehr wer du selbst bist, dafür aber erinnerst du dich an jemand anderen: {0}</value>
     <value>Dein Gedächtnis scheint dich doch nicht vollständig im Stich gelassen zu haben... Irgendwo in den hintersten Windungen deines Gehirns findest du folgende Namen: {0}</value>
     <value>Du weißt vielleicht nicht mehr wer du bist, aber du kannst dich noch an einen Namen erinnern: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <value>Plötzlich erinnerst du dich an einen wichtigen Namen: {0}</value>
     <value>Aus dem hintersten Winkel deines Kopfes kommt ein Name hervorgekrochen: {0}</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <value>Dank {0} erinnerst du dich, dass {1} nicht zu Hause war!</value>
     <!-- <value>Du kommst gerade bei {1}s Haus an, da fällt dir auf, dass es vollkommen menschenleer ist... Hast du die richtige Adresse vergessen oder verbirgt {1} irgendetwas?</value> -->
   </string>
-  <string key="CultWins" isgif="true">
+  <string key="zoombiesWins" isgif="true">
     <value>Alle Wölfe starben, alle anderen Lebenden wurden zu Kultisten bekehrt.. Der Kult hat gewonnen!</value>
     <value>Der Kult hat anscheinend mithilfe seines Gottes den Gedächtnisschwund überwunden... sie haben gewonnen!</value>
   </string>
@@ -580,7 +580,7 @@
     <value>Dein Gedächtnis scheint dich doch nicht vollständig im Stich gelassen zu haben... Irgendwo in den hintersten Windungen deines Gehirns findest du folgende Namen: {0}</value>
     <value>Du weißt vielleicht nicht mehr wer du bist, aber du kannst dich noch an einen Namen erinnern: {0}</value>
   </string>
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <value>{0} ist schon tot!</value>
     <value>Was machst du denn hier? {0} ist doch schon tot, hast du das schon wieder vergessen?</value>
   </string>
@@ -588,14 +588,14 @@
     <value>Irgendetwas geschah bei {0}s Haus letzte Nacht. Leider kannst du dich nicht mehr daran erinnern ...</value>
     <value>Was ist nur in der letzten Nacht bei {0}s Haus passiert? Bist du etwa verkatert, oder warum kannst du dich partout nicht daran erinnern?</value>
   </string>
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <value>{0} ging zu {1}s Haus, doch kann sich leider nicht mehr daran erinnern, was dort geschah.</value>
     <value>{0} ging zu {1}s Haus... oder etwa doch nicht? Jedenfalls weiß {0} nicht mehr, was dort passiert ist...</value>
   </string>
   <string key="NameExists">
     <value>@{1}, ein Spieler mit dem Namen {0} ist bereits beigetreten. Bitte ändere deinen Namen, um beizutreten.</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <value>Du weißt vielleicht nicht mehr wer du selbst bist, dafür aber weißt du, dass {0} ein Kultist 👤 ist</value>
     <value>Eine Offenbarung! Plötzlich bist du dir ganz sicher: {0} ist ein Kultist 👤! Leider weißt du jedoch immer noch nicht, wer du selbst bist...</value>
     <value>Nanu? Plötzlich weißt du ganz genau: {0} ist ein Kultist 👤! Leider musst du erst mal die Anderen davon überzeugen...</value>
@@ -678,7 +678,7 @@
     <value>Hast du vergessen zu antworten? Die Zeit ist um!</value>
     <value>Ja sag mal, pass doch auf! Jetzt hast du schon wieder vergessen, zu antworten!</value>
   </string>
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
     <value>Komisch... du kannst dich nicht mehr daran erinnern, wer du bist! Du weißt nur, dass du nachts nicht schlafen kannst.</value>
     <value>Du scheinst eine Schlafstörung zu haben... oder warum brennt um kurz nach Mitternacht noch Licht in deinem Haus? Und was viel wichtiger ist, was zur Hölle treibst du da?</value>
     <value>Tagsüber wirkst du auf deine Mitmenschen wie ein ganz normaler Dorfbewohner, doch nur des Nachts entpuppt sich deine wahre Gestalt! Leider klingt das sehr viel weniger gruselig, wenn du vergessen hast, worin deine Macht besteht...</value>
@@ -698,7 +698,7 @@
     <value>Du scheinst eine Schlafstörung zu haben... oder warum brennt um kurz nach Mitternacht noch Licht in deinem Haus? Und was viel wichtiger ist, was zur Hölle treibst du da?</value>
     <value>Tagsüber wirkst du auf deine Mitmenschen wie ein ganz normaler Dorfbewohner, doch nur des Nachts entpuppt sich deine wahre Gestalt! Leider klingt das sehr viel weniger gruselig, wenn du vergessen hast, worin deine Macht besteht...</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>Du weißt vielleicht nicht mehr wer du selbst bist, dafür aber erinnerst du dich an jemand anderen: {0}</value>
     <value>Dein Gedächtnis scheint dich doch nicht vollständig im Stich gelassen zu haben... Irgendwo in den hintersten Windungen deines Gehirns findest du folgende Namen: {0}</value>
     <value>Du weißt vielleicht nicht mehr wer du bist, aber du kannst dich noch an einen Namen erinnern: {0}</value>
@@ -739,7 +739,7 @@
     <value>Tödlich verletzt - und die letzten Atemzüge nehmend - fällt {0} zu Boden... aber nicht ohne nach seiner Pistole 🎯 zu greifen und {1} abzuschießen, welchen die Kugel direkt zwischen seinen Augen trifft. {2}</value>
     <value>Plötzlich hört man einen Knall... {0}, der aus einer Wunde blutet, fällt tot um, die Augen starr auf {1} gerichtet, in dessen Brust eine Kugel eingeschlagen ist... der Jäger 🎯 hat seine Rache verübt! {2}</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <value>{0} ging zu {1}s Haus und starb dort!</value>
     <value>Leider musste {0} bei {1}s Haus sein Leben lassen... Eine Person mehr, die ihre Erinnerungen für immer verloren hat!</value>
   </string>
@@ -763,7 +763,7 @@
     <value>Irgendetwas geschah bei {0}s Haus letzte Nacht. Leider kannst du dich nicht mehr daran erinnern ...</value>
     <value>Was ist nur in der letzten Nacht bei {0}s Haus passiert? Bist du etwa verkatert, oder warum kannst du dich partout nicht daran erinnern?</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <value>{0} ging zu {1}s Haus und starb dort!</value>
     <value>Leider musste {0} bei {1}s Haus sein Leben lassen... Eine Person mehr, die ihre Erinnerungen für immer verloren hat!</value>
   </string>
@@ -787,11 +787,11 @@
     <value>Durch {0}s Tod hat sich deine Rolle geändert. Doch du weißt weder was du warst, noch zu was du gerade wurdest. Du weißt vielleicht nicht mehr wer du selbst bist, dafür aber erinnerst du dich an jemand anderen: {1}</value>
     <value>Etwas Seltsames geschieht aufgrund von {0}s Tod: Du spürst, wie sich dein Körper verändert! Noch wärend du gerade denkst, dass die Pubertät normalerweise langsamer verlaufen sollte, schießen dir plötzlich folgende Namen durch den Kopf: {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <value>Plötzlich erinnerst du dich an einen wichtigen Namen: {0}</value>
     <value>Aus dem hintersten Winkel deines Kopfes kommt ein Name hervorgekrochen: {0}</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <value>Durch {0}s Tod hat sich deine Rolle geändert. Doch du weißt weder was du warst, noch zu was du gerade wurdest. Du weißt vielleicht nicht mehr wer du selbst bist, dafür aber erinnerst du dich an jemand anderen: {1}</value>
     <value>Etwas Seltsames geschieht aufgrund von {0}s Tod: Du spürst, wie sich dein Körper verändert! Noch wärend du gerade denkst, dass die Pubertät normalerweise langsamer verlaufen sollte, schießen dir plötzlich folgende Namen durch den Kopf: {1}</value>
   </string>
@@ -814,7 +814,7 @@
     <value>Du hast eine schwierige Wahl vor dir... Jeder dieser Namen steht für einen Menschen, dessen Leben auf seine Art und Weise lebenswert ist. Hinter jedem dieser Namen steht ein Individuum. Und du hältst die Macht in den Händen, einen dieser Namen auszuwählen. Es gibt nur einen Haken: Du weißt nicht, was du damit anrichtest. Du könntest das Leben der gewählten Person bereichern... aber du könntest es auch vollkommen zerstören. Die Entscheidung liegt bei dir.</value>
     <value>You've got the power... aber welche Macht hast du? Und was passiert, wenn du jemanden gewählt hast? Ich habe etwas Angst was wohl passiert wenn du den Falsc... NEIN! Ich darf dir keine Angst machen. Wähle jemanden! Du kannst! Wird schon nichts schlimmes passieren! Hoffentlich...</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <value>Mit dem sterbendem Atemzug von {0} eilt {1} herbei und fällt weinend auf die Knie. Er kann den Tod seiner Geliebten ❤️ nicht ertragen und erschießt sich mit der nächsten aufzutreibenden Pistole. {2}</value>
     <value>Die Liebe ist stärker als jegliche Amnesie... und so folgt {1} seiner Liebe ❤ {0} ohne zu zögern in den Tod. Hoffentlich ergeht es den beiden dort besser als hier... {2}</value>
   </string>
@@ -825,21 +825,21 @@
     <value>Du hast eine schwierige Wahl vor dir... Jeder dieser Namen steht für einen Menschen, dessen Leben auf seine Art und Weise lebenswert ist. Hinter jedem dieser Namen steht ein Individuum. Und du hältst die Macht in den Händen, einen dieser Namen auszuwählen. Es gibt nur einen Haken: Du weißt nicht, was du damit anrichtest. Du könntest das Leben der gewählten Person bereichern... aber du könntest es auch vollkommen zerstören. Die Entscheidung liegt bei dir.</value>
     <value>You've got the power... aber welche Macht hast du? Und was passiert, wenn du jemanden gewählt hast? Ich habe etwas Angst was wohl passiert wenn du den Falsc... NEIN! Ich darf dir keine Angst machen. Wähle jemanden! Du kannst! Wird schon nichts schlimmes passieren! Hoffentlich...</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>Du weißt, dass du mit jemanden irgenwas machen kannst, aber wen willst du wählen?</value>
     <value>Was musstest du nochmal tun? Ach ja, du wolltest eine Person auswählen. Aber wen... und vor allem warum?</value>
     <value>Wie du siehst, sind da unten Knöpfe mit Namen darauf. Aber welchen von diesen Knöpfen wirst du drücken, und wirst du die Schuld ertragen können, die du damit auf dich nimmst?</value>
     <value>Du hast eine schwierige Wahl vor dir... Jeder dieser Namen steht für einen Menschen, dessen Leben auf seine Art und Weise lebenswert ist. Hinter jedem dieser Namen steht ein Individuum. Und du hältst die Macht in den Händen, einen dieser Namen auszuwählen. Es gibt nur einen Haken: Du weißt nicht, was du damit anrichtest. Du könntest das Leben der gewählten Person bereichern... aber du könntest es auch vollkommen zerstören. Die Entscheidung liegt bei dir.</value>
     <value>You've got the power... aber welche Macht hast du? Und was passiert, wenn du jemanden gewählt hast? Ich habe etwas Angst was wohl passiert wenn du den Falsc... NEIN! Ich darf dir keine Angst machen. Wähle jemanden! Du kannst! Wird schon nichts schlimmes passieren! Hoffentlich...</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>Du weißt, dass du mit noch jemanden irgenwas machen kannst, aber wen willst du wählen?</value>
     <value>Noch mehr Knöpfe... inzwischen ist dir vermutlich wieder eingefallen, wer du bist, oder? Vollende deinen Auftrag.</value>
   </string>
   <string key="Hunter">
     <value>der Jäger 🎯</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>Amor 🏹</value>
   </string>
   <string key="SerialKiller">
@@ -852,7 +852,7 @@
     <value>Deine Rolle hat sich geändert. Doch du weißt weder was du warst, noch zu was du gerade wurdest. Du weißt vielleicht nicht mehr wer du bist, aber du kannst dich noch an einen Namen erinnern: {0}</value>
     <value>Dein Körper verändert sich... das kann ja mal passieren, aber was ist mit deinem Gedächtnis los? Plötzlich will dir der Name {0} einfach nicht mehr aus dem Kopf gehen...</value>
   </string>
-  <string key="LoversWin" isgif="true">
+  <string key="crewmatesWin" isgif="true">
     <value>Wahre Liebe hält am längsten! Die Liebenden haben gewonnen!</value>
     <value>Die Liebe ist stärker als alles andere, und so hat sie auch die Vergesslichkeit besiegt! Das Liebespaar hat gewonnen!</value>
   </string>
@@ -860,7 +860,7 @@
     <value>Inmitten des Dorfzentrums finden die Dorfbewohner den Körper von {0}, mehrfach beschossen. Sieht so aus, als hätte er versucht, sich an den Jäger 🎯 anzuschleichen! {1}</value>
     <value>Eine seltsame Gestalt in einer Kutte liegt auf dem Marktplatz, in einer Pfütze aus Blut. Als ihr sie untersucht, erkennt ihr mit einem Schrecken: Es ist {0}, ein Kultist 👤! Offenbar wollte der Kult den Jäger 🎯 in seine Reihen aufnehmen... {1}</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>Irgendetwas geschah letzte Nacht. Du kannst dich nicht mehr daran erinnern.</value>
     <value>Etwas Großartiges ist letzte Nacht geschehen! Leider kannst du dich nicht mehr daran erinnern, was es war...</value>
   </string>
@@ -950,7 +950,7 @@
     <value>Du bist der Narr 🃏. Zwar liebenswürdig, aber auch gefährlich, auf deine eigene Weise: weil du es nicht besser weißt, behauptest du, der Seher zu sein - dabei sind die Rollen, die dir angezeigt werden, komplett zufällig! Vielleicht hättest du damals bei Professor Trelawney doch besser aufpassen sollen...</value>
     <value>Du Narr 🃏! Du siehst zwar in der Nacht die Rollen von Personen, doch du vergisst sofort wieder, wen du überprüfen wolltest, und siehst deshalb die Rolle irgendeines zufälligen Spielers... davon weißt du nur leider nichts, du bist felsenfest davon überzeugt, ein Seher zu sein...</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>Du bist ein Kultist 👤 - fashiontechninsch vielleicht nicht ganz auf der Höhe, trotzdem - oder vielleicht gerade deshalb? - bist du relativ erfolgreich: jede Nacht kannst du einen Spieler aussuchen, den du zu deinem Kult bekehren willst; und das ist auch dein Lebensmotto: das ganze Dorf zu bekehren. Wenn am Ende nur noch Kultisten überleben, gewinnt ihr! Aber nicht immer hast du Glück - manche Bewohner sind schwerer zu bekehren als Andere...</value>
     <value>Als Kultist 👤 hast du es im Amnesia-Mode relativ leicht, denn dein Erzfeind, der Kultjäger, kennt seine Rolle nicht! Du musst weiterhin das ganze Dorf bekehren, wobei einige Bewohner sich ein wenig querstellen - aber nichts, womit du nicht fertig werden würdest.</value>
   </string>
@@ -980,7 +980,7 @@
 	\nAls Doppelgänger ist es dir ganz wichtig, dass das Dorf erkennt, wie gut du deine Profession beherrscht: solange du dich nicht verwandelt hast, kannst du das Spiel auch nicht gewinnen! Wenn das Spiel vorbei ist, und du noch du bist... verlierst du.</value>
     <value>Du bist der Doppelgänger 🎭, und du hast einige Gemeinsamkeiten mit dem wilden Kind: Beide wollt ihr, dass euer Vorbild stirbt, nur dass du nicht gewinnen kannst, bevor es nicht tot ist! Doch dafür kannst du nicht vom Kult bekehrt werden, bevor du dich verwandelt hast, sodass es auch im Interesse der Kultisten ist,dein Vorbild zu töten. Wenn du das wilde Kind als Vorbild hast (warum sollte ein pubertierender Jugendlicher deine erste Wahl als Vorbild sein?), übernimmst du bei dessen Tod einfach sein Vorbild.</value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>
       Es knistert, aber gewaltig! Dabei hast du deinen Job als Elektriker doch eigentlich an den Nagel gehangen - deine neue Berufskleidung ist zwar etwas seltsam, aber wer möchte nicht gern von Luft und Liebe leben? Also: deine Berufung als Amor 🏹 ist es, zwei Pfeile abzuschießen: die beiden Bewohner, die von ihnen getroffen werden, werden sich unsterblich ineinander verlieben, unfähig, ohne den jeweils anderen zu überleben: sollte einer von beiden sterben, wird sich der Andere aus Kummer das Leben nehmen... Je nachdem, wie geschickt dein Händchen ist, kann daraus ein großes Hochzeitsfest oder ein Killerpärchen entstehen!
 	  Wichtig: die Liebenden wissen zwar voneinander, bekommen die Rollen des jeweils Anderen jedoch nicht mitgeteilt. Sie gewinnen, wenn mindestens einer von ihnen im gewinnenden Team ist - sollten die Beiden es schaffen, als die letzten Beiden am Leben zu sein, gewinnen sie als Paar (Herzchen-Emoji hier evtl?)
@@ -1159,10 +1159,10 @@
   <string key="AllowTannerA">
     <value>Einstellung für den Gerber: {0}</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>Willst du den Kult zulassen?\nAktuell: {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>Einstellung für Kult: {0}</value>
   </string>
   <string key="ThankYou">
@@ -1342,13 +1342,13 @@
   <string key="SerialKillerTeamEnd">
     <value>Team Forever alone</value>
   </string>
-  <string key="CultTeamEnd">
+  <string key="zoombiesTeamEnd">
     <value>Team Fashionvictim</value>
   </string>
   <string key="TannerTeamEnd">
     <value>Team Gerbera</value>
   </string>
-  <string key="CultConvertWolf">
+  <string key="zoombiesConvertWolf">
     <value>{0} ging zu {1}s Haus und starb dort!</value>
     <value>Leider musste {0} bei {1}s Haus sein Leben lassen... Eine Person mehr, die ihre Erinnerungen für immer verloren hat!</value>
   </string>
@@ -1369,7 +1369,7 @@
     <value>Ihr findet {0}, der mit einem Kerzenleuchter seines eigenen Altars 👤 erstochen wurde (ein wahrhaft kultiges Verbrechen). Dass der Serienmörder 🔪 sich weder um Herkunft, Berufung noch Religion seiner Opfer kümmert, war euch bereits bekannt, aber warum er diese Nacht kein Messer dabei hatte, ist doch äußerst rätselhaft...</value>
     <value>Der Serienmörder 🔪 möchte wohl beim Kultjäger in die Lehre gehen... diese Nacht hat er {0}, einen Kultisten 👤 erlegt! Vielleicht hatte er mit seiner Ansicht, das Dorf zu reinigen, ja doch Recht...</value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>Die Liebe ist tot... Oder zumindest ihr Stellvertreter auf Erden 🏹: obwohl {0} seinen Bogen noch in der Hand hält, konnte er damit nichts gegen den übermächtigen Serienmörder 🔪 ausrichten. Seltsamerweise wurde das Herz sauber herausgetrennt... Ist es etwa das, was diesem Verrückten all die Jahre gefehlt hat?!</value>
     <value>Schon als sie aufwachen, fühlen sich alle Dorfbewohner irgendwie lieblos. Zuerst hält man es für Einbildung, doch dann findet man den Amor 🏹, von Kopf bis Fuß aufgeschlitzt, vor der Kirche... Aus irgendeinem Grund fehlt {0} auch das Herz. 🔪</value>
   </string>
@@ -1405,10 +1405,10 @@
     <value>Als das Dorf erwacht, findet man {0}, den Kultjäger 💂 zerstückelt in einer Kiste vor dem Rathaus. Es scheint keine besonders gute Idee, nachts den Serienmörder 🔪 zu besuchen und ihn über seine Spiritualität auszufragen...</value>
     <value>Der Körper von {0}, dem Kultjäger 💂 wurde bis zur Unkenntlichkeit verstümmelt auf dem Altar der Kirche gefunden. Den Serienmörder 🔪 für einen Kultisten zu halten war eindeutig sein letzter Fehler...</value>
   </string>
-  <string key="CultConvertWolfPublic">
+  <string key="zoombiesConvertWolfPublic">
     <value>Eigentlich wollten die Wölfe 🐺 letzte Nacht ja fasten (wie vorbildlich!) - aber wer kann schon der Versuchung einer Lieferung frei Haus widerstehen?! Richtig: niemand. Das musste {0} am eigenen Leib erfahren, auch sein Glaube konnte den Kultisten 👤 nicht vor den scharfen Zähnen der Wölfe beschützen...</value>
   </string>
-  <string key="CultConvertKillerPublic">
+  <string key="zoombiesConvertKillerPublic">
     <value>Was für ein Fehler... Der Kult 👤 hat letzte Nacht die einzige Person im Dorf besucht, die noch verrückter ist als jedes seiner Mitglieder. Dafür können alle Bewohner heute ein abstraktes Kunstwerk, bestehend aus den zerstückelten Organen des verstorbenen {0}, vor dem Rathaus bestaunen. Vielleicht nicht jedermanns Geschmack... aber der Serienmörder 🔪 hat seinen ganz eigenen Sinn für Ästhetik.</value>
   </string>
   <string key="GAGuardedKiller">
@@ -1484,7 +1484,7 @@
 <!-- {0} = list of people who have joined -->
     <value>{0} betrat(en) das Dorf in den letzten 30 Sekunden und wurden vergesslich.</value>
   </string>
-  <string key="AllowCult">
+  <string key="Allowzoombies">
     <value>Kult erlauben</value>
   </string>
   <string key="AllowTanner">
@@ -1742,7 +1742,7 @@
     <value>Plötzlich erinnerst du dich an einen wichtigen Namen: {0}</value>
     <value>Aus dem hintersten Winkel deines Kopfes kommt ein Name hervorgekrochen: {0}</value>
   </string>
-  <string key="ThiefToCult">
+  <string key="ThiefTozoombies">
     <!-- 0 - Name alter Kultist -->
     <!-- 1 - Name neuer Kultist -->
     <value>Ihr könnt {0} wieder vergessen! Merkt euch lieber {1}.</value>
@@ -2055,7 +2055,7 @@
     <value>Irgendetwas geschah letzte Nacht. Du kannst dich nicht mehr daran erinnern.</value>
     <value>Etwas Großartiges ist letzte Nacht geschehen! Leider kannst du dich nicht mehr daran erinnern, was es war...</value>
 	<!-- <value>Gerade als du das Haus verlässt, um zum Gemeindehaus zu gehen, merkst du wie die Beine immer schwerer werden. Auch sonst ist dir kalt. Nach kurzer Zeit erstarrst du völlig 🐺❄️ und kannst den Kult nicht unterstützen. Nur gut, dass du noch vor dem Morgengrauen wieder auftaust und dich niemand in der Kluft gesehen hat!</value> -->
-    <!--<value>As you donned your cloak and prepared to leave your house, a gust of wind blew in from the doorway, causing you to freeze 🐺☃️. Your fellow Zombies dropped by soon after to bring you along to cult people, but they ended up laughing at your demise. Leaving you by the doorway, they promised that they'll make good work of tonight. Now that you're unfrozen, you leave the house, cringing in embarrassment. </value>-->
+    <!--<value>As you donned your cloak and prepared to leave your house, a gust of wind blew in from the doorway, causing you to freeze 🐺☃️. Your fellow Zombies dropped by soon after to bring you along to zoombies people, but they ended up laughing at your demise. Leaving you by the doorway, they promised that they'll make good work of tonight. Now that you're unfrozen, you leave the house, cringing in embarrassment. </value>-->
   </string>
   <string key="CHFrozen">
     <value>Irgendetwas geschah letzte Nacht. Du kannst dich nicht mehr daran erinnern.</value>

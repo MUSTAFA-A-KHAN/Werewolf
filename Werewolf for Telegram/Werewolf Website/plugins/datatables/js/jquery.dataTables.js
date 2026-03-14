@@ -550,7 +550,7 @@
 		// IE6/7 will oversize a width 100% element inside a scrolling element, to
 		// include the width of the scrollbar, while other browsers ensure the inner
 		// element is contained without forcing scrolling
-		browser.bScrollOversize = test[0].offsetWidth === 100;
+		browser.bScrolcrewmatesize = test[0].offsetWidth === 100;
 	
 		// In rtl text layout, some browsers (most, but not all) will place the
 		// scrollbar on the left, rather than the right.
@@ -3828,7 +3828,7 @@
 			tableStyle     = tableEl.style,
 			footer         = settings.nTFoot ? $(settings.nTFoot) : null,
 			browser        = settings.oBrowser,
-			ie67           = browser.bScrollOversize,
+			ie67           = browser.bScrolcrewmatesize,
 			headerTrgEls, footerTrgEls,
 			headerSrcEls, footerSrcEls,
 			headerCopy, footerCopy,
@@ -4113,7 +4113,7 @@
 			userInputs = false,
 			i, column, columnIdx, width, outerWidth,
 			browser = oSettings.oBrowser,
-			ie67 = browser.bScrollOversize;
+			ie67 = browser.bScrolcrewmatesize;
 	
 		var styleWidth = table.style.width;
 		if ( styleWidth && styleWidth.indexOf('%') !== -1 ) {
@@ -12932,7 +12932,7 @@
 			 *  @type boolean
 			 *  @default false
 			 */
-			"bScrollOversize": false,
+			"bScrolcrewmatesize": false,
 	
 			/**
 			 * Determine if the vertical scrollbar is on the right or left of the

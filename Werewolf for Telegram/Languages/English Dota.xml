@@ -385,33 +385,33 @@
     <!-- 1 - target name -->
     <value >{0} has voted to convert {1}</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <!-- 0 - Yougest Zombie (killed)'s name' -->
     <!-- 1 - ZombieHunter's name -->
     <value>{0} was sent to do your dirty work, and convert {1}... however, they were Bounty Hunter! {0} is dead!</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - Number of Zombies left -->
     <value>{0} came to your house last night, ready to convert you....  but you shoved your blade right through him.  Enigma is dead... {1} remain!</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>The Enigma has converted you to their order!  You are now an Enigma.  Every other night, you will have a chance to convert another creep.</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <!-- 0 - Number of Zombies -->
     <value>Enigmas: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <!-- 0 - new Zombie's name -->
     <value>{0} has joined the eidolon and became Enigma!</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <!-- 0 - Newest Zombie's name -->
     <!-- 1 - target name -->
     <value>{0} was sent to do your dirty work, and convert {1}... but no one was home!</value>
   </string>
-  <string key="CultWins" isgif="true">
+  <string key="zoombiesWins" isgif="true">
     <value >All the Lycans have died, and the only people left standing have all been converted to eidolon and become Enigma..  The enigma has won!</value>
   </string>
   <string key="HunterVisitDead">
@@ -515,7 +515,7 @@
     <value>  The meepoes are: {0}</value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <!-- 0 - Youngest Zombies name -->
     <value>Your newest Enigma heads over to {0}'s house to convert them, but instead finds the house a complete wreck, blood everywhere, and bits of Lycan fur snagged on the doorway...</value>
   </string>
@@ -524,7 +524,7 @@
     <value>The pack heads to {0}'s house to eat them, but they are met by a tall dark figure, armed to the teeth. The Omniknight fights everyone off, and you head back defeated.</value>
   </string>
   <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <!-- 0 - newest  -->
     <!-- 1 - target's name -->
     <value>You send {0} to try to convert {1}, however their belief was too strong, and you were unable to convert them :(</value>
@@ -535,7 +535,7 @@
     <!-- 1 - name -->
     <value>@{1}, a player with the name {0} has already joined.  Zeus said "change your name!".</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <!-- 0 - target's name -->
     <value>You slipped into {0}'s house for torment... but as you are leaving, you happen to notice something strange, there are so much eidolon in the house....</value>
   </string>
@@ -629,7 +629,7 @@
     <value>Time's up!</value>
   </string>
   <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
     <value>You are Ogre Magi🏹. You were destined to be conjoined twins. You can choose two players who will be cursed to be next the next Ogre Magi, if one of them dies the other one dies of sorrow.</value>
   </string>
   <string key="RoleInfoDoppelganger">
@@ -641,7 +641,7 @@
   <string key="RoleInfoSerialKiller">
     <value>You are Pudge🔪 the Fatty Bastard.  He came from the Fields of Endless Carnage, and never have enough fresh meat from the creeps. Everynight, he haunts and seek for fresh meat.</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>You have been cursed by Ogre Magi, {0} is your conjoined twins. If one of you dies, the other one will die out of sorrow.</value>
   </string>
   <string key="HunterLynchedChoice">
@@ -676,7 +676,7 @@
     <!-- 2 - target's role -->
     <value>As the stormhammer thrown, {0} fall to the ground.... but not without their blade, and throwing his stormhammer upon {1} falls over, dead. {2}</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <value>{0} sneaks over to {1}'s house, pops open the door, and is immediately greeted by a crazed bastard with a hook!!! {1} plunges the hook deep into {0}'s heart, cackling the entire time! {0} is dead D:</value>
   </string>
   <string key="HunterShotWolfMulti">
@@ -699,12 +699,12 @@
     <!-- 0 - target's name -->
     <value>You tried to hook {0}'s body for your dinner, but you were fought off by Omniknight's Guardian Angel! No kill for you tonight....</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
     <value>The Eidolons sends {0} to try to convert {1}, boom a stormhammer and {0}'s body comes flying out of the window! {0} is dead....</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
     <value>The Eidolons sends {0} to try to convert {1}, but a hook suddenly comes to {0}'s body. They are flying out of the window, hook and blade brings their body in! WHAT A BASTARD! {0} is dead....</value>
@@ -728,11 +728,11 @@
     <!-- 1 - mason collegues's name -->
     <value>{0} has died, and you transform into a meepo.  Your teammates (if any) are: {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <!-- 0 - new Zombie's name -->
     <value>Rubick {0} has now become an Enigma, just like you!</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <!-- 0 - role's name -->
     <!-- 1 - teammates's name -->
     <value>{0} has died, and you transform into an Enigma.  Your teammates (if any) are: {1}</value>
@@ -752,25 +752,25 @@
   <string key="AskKill">
     <value>Who do you want to kill tonight?</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <!-- 0 - dead's name -->
-    <!-- 1 - lover's name -->
+    <!-- 1 - crewmate's name -->
     <!-- 2 - roles -->
     <value>With {0}'s dying breath, {1} lost their ability and suddenly died. {1} was {2}</value>
   </string>
   <string key="AskDoppelganger">
     <value>Who do you want to steal?</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>Who do you want to curse? Choose the first player</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>Who do you want to curse? Choose the second player</value>
   </string>
   <string key="Hunter">
     <value>Sven 🎯</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>Ogre Magi 🏹</value>
   </string>
   <string key="SerialKiller">
@@ -779,15 +779,15 @@
   <string key="Doppelgänger">
     <value>Rubick 🎭</value>
   </string>
-  <string key="CupidChosen">
-    <!-- 0 - lover's name -->
+  <string key="RecruiterChosen">
+    <!-- 0 - crewmate's name -->
     <value>You were cursed! {0} is your conjoined twins.  If they die, you either.  If you both make it to the end, you will both win.</value>
   </string>
   <string key="NewWCRoleModel">
     <!-- 0 - target's name -->
     <value>You have become Wisp.  Your protector is {0}</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
     <value>That was a lovely curse! The Conjoined Twins have won!</value>
   </string>
   <string key="HunterKilledVisiter">
@@ -795,7 +795,7 @@
     <!-- 1 - role -->
     <value>In the middle of the lane, everyone finds the body of {0}, thrown by the stormhammer to their body.  Looks like they tried to sneak up on Sven! {1}</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>A hooded figure tried to convert you to their eidolon, but your faith was too strong.</value>
   </string>
   <string key="AlreadyOnWaitList">
@@ -875,7 +875,7 @@
   <string key="AboutFool">
     <value>Warlock is told that they are dark seer.... when they choose to see someone's role at night, they are told a random role.</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>As Enigma, your goal is to convert all other players become Eidolon (except wolves). If at the end of the game, all living players are Enigma - the Eidolon wins</value>
   </string>
   <string key="AboutCH">
@@ -896,25 +896,25 @@
   <string key="AboutDG">
     <value>
       Your ancestors had the ability to metamorph into others... while you don't have their full abilities, you can pick a player at the start of the game. If that player dies, you will become what they were.
-      Note: If the player was converted to cult, you will take on their original role. All other normal rules apply: If they were Wild Child and their role model died, you will become a wolf. Otherwise, you will inherit their role model.
-      The cult cannot convert the Doppelgänger (but can after the doppelganger switches roles). Also - the Doppelgänger can NOT win unless they have transformed. If at the end of the game, the Doppelgänger is still the same, they lose (exception: lover)
+      Note: If the player was converted to zoombies, you will take on their original role. All other normal rules apply: If they were Wild Child and their role model died, you will become a wolf. Otherwise, you will inherit their role model.
+      The zoombies cannot convert the Doppelgänger (but can after the doppelganger switches roles). Also - the Doppelgänger can NOT win unless they have transformed. If at the end of the game, the Doppelgänger is still the same, they lose (exception: crewmate)
     </value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>
-      Love is in the air. As Cupid, you will choose two players at the start of the game. These two players will become madly in love! If one of them dies, the other will die of sorrow :(
-      Note: Lovers will know who each other are, but not be told their roles. If the lovers are the last two alive, they win, regardless of teams. If the lovers are on different teams (villager + wolf), and one team wins (wolf), the lover (villager) wins as well. TL;DR if both lovers are alive at the end, and at least one of them was on the winning team, they both win together
+      Love is in the air. As Recruiter, you will choose two players at the start of the game. These two players will become madly in love! If one of them dies, the other will die of sorrow :(
+      Note: crewmates will know who each other are, but not be told their roles. If the crewmates are the last two alive, they win, regardless of teams. If the crewmates are on different teams (villager + wolf), and one team wins (wolf), the crewmate (villager) wins as well. TL;DR if both crewmates are alive at the end, and at least one of them was on the winning team, they both win together
     </value>
   </string>
   <string key="AboutHunter">
     <value>
       A trigger happy, vindictive player. As the hunter, you try to keep to yourself. However, when others come to visit you, they may find themselves dead, as your paranoia takes hold and you shoot. If the wolves attack you, you have a chance to take one of them with you. Otherwise, if you die, you will get a chance to shoot someone as you die.
       Note: For wolf attacks, the chance starts at 30%. If there is one wolf, the hunter has a 30% chance to kill the wolf (and survive). For each additional wolf, add 20% (2 wolves = 50%, 3 = 70%, etc). However - if there are multiple wolves, while you may kill one of them, you will still be outnumbered and killed.
-      If the cult tries to convert you, they have a 50% chance to fail. If they fail, you have a 50% chance to kill one of them!
+      If the zoombies tries to convert you, they have a 50% chance to fail. If they fail, you have a 50% chance to kill one of them!
     </value>
   </string>
   <string key="AboutSK">
-    <value>That asylum was silly anyways. What a joke. You are free now however, back to business as usual - killing! The serial killer is a lone player, on their own team. They can win only if they are the last player alive (exception: lovers). As the serial killer, you can kill ANYONE - wolves, hunters, gunners, guardian angels, whatever. If the wolves try to attack you, you will kill one of them (random), and live.</value>
+    <value>That asylum was silly anyways. What a joke. You are free now however, back to business as usual - killing! The serial killer is a lone player, on their own team. They can win only if they are the last player alive (exception: crewmates). As the serial killer, you can kill ANYONE - wolves, hunters, gunners, guardian angels, whatever. If the wolves try to attack you, you will kill one of them (random), and live.</value>
   </string>
   <string key="AboutPara">
     <value>Para is a silly developer that likes to bark at people.  Maybe he's been messing with werewolves too long....Messing with werewolves is a very bad idea.</value>
@@ -1084,11 +1084,11 @@
   <string key="AllowTannerA">
     <value>Tanner as a role set to: {0}</value>
   </string>
-  <string key="AllowCultQ">
-    <value>Allow cult as a role option?\nCurrent: {0}</value>
+  <string key="AllowzoombiesQ">
+    <value>Allow zoombies as a role option?\nCurrent: {0}</value>
   </string>
-  <string key="AllowCultA">
-    <value>Cult as a role set to: {0}</value>
+  <string key="AllowzoombiesA">
+    <value>zoombies as a role set to: {0}</value>
   </string>
   <string key="ThankYou">
     <value>Thank you, have a good day :)</value>

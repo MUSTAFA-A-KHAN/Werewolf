@@ -178,7 +178,7 @@
     <value >You are a snake(Zombie). Every night, you may choose a player to convert to a Zombie. If all remaining living players at the end are Zombies, they win.</value>
   </string>
   <string key="RoleInfoZombieHunter" >
-    <value >There is a Zombie in the town, trying to convert everyone! Each night, choose a player. If they are a Zombie, you capture and kill them.  If the cult tries to convert you, the newest member gets taken out.(Cult Hunter)</value>
+    <value >There is a Zombie in the town, trying to convert everyone! Each night, choose a player. If they are a Zombie, you capture and kill them.  If the zoombies tries to convert you, the newest member gets taken out.(zoombies Hunter)</value>
   </string>
   <string key="LynchTime" >
     <value >
@@ -309,26 +309,26 @@
   <string key="ZombieVotedConvert" >
     <value >{0} has voted to convert {1}</value>
   </string>
-  <string key="CultConvertZombieHunter">
-    <value>{0} was sent to do your dirty work, and convert {1}... however, they were the cult hunter! {0} is dead!</value>
+  <string key="zoombiesConvertZombieHunter">
+    <value>{0} was sent to do your dirty work, and convert {1}... however, they were the zoombies hunter! {0} is dead!</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <value>{0} came to your house last night, ready to convert you....  but you managed to lock them up below your house, taking care of one Zombie. {1} remain!</value>
   </string>
-  <string key="CultConvertYou">
-    <value>The cult has converted you to their order!  You are now a Snake (Zombie).  Every other night, you will have a chance to convert another player...  When you're not, you're too busy praying to a dark god beyond space.</value>
+  <string key="zoombiesConvertYou">
+    <value>The zoombies has converted you to their order!  You are now a Snake (Zombie).  Every other night, you will have a chance to convert another player...  When you're not, you're too busy praying to a dark god beyond space.</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>Snakes: {0}</value>
   </string>
-  <string key="CultJoin">
-    <value>{0} has joined the cult!</value>
+  <string key="zoombiesJoin">
+    <value>{0} has joined the zoombies!</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <value>{0} was sent to do your dirty work, and convert {1}... but no one was home!</value>
   </string>
-  <string key="CultWins" >
-    <value>All the wolves have died, and the only bunnies left standing have all been converted to Zombies... in celebration they open a ritual bringing forth the ender of days /n The *cult* has won!</value>
+  <string key="zoombiesWins" >
+    <value>All the wolves have died, and the only bunnies left standing have all been converted to Zombies... in celebration they open a ritual bringing forth the ender of days /n The *zoombies* has won!</value>
   </string>
   <string key="HunterVisitDead">
     <value>You went to hunt {0}, but they are already dead!</value>
@@ -424,21 +424,21 @@
     <value>  The otters are: {0}</value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <value>Your newest member heads over to {0}'s house to convert them, but instead finds the house a complete wreck, bloood all over, and bits of wolf fur snagged on the doorway...</value>
   </string>
   <string key="GuardBlockedWolf">
     <value>The pack heads to {0}'s house to eat them, but they are met by white growling tiger, Who snarls and fights everyone off, and you have to head back defeated.</value>
   </string>
   <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <value>You send {0} to try to convert {1}, however their belief was too strong, and you were unable to convert them :(</value>
   </string>
   <!-- new string May 12 2016-->
   <string key="NameExists">
     <value>@{1}, a player with the name {0} has already joined.  Change your name to join.</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <value>You slipped into {0}'s house for a bit of fun, and you end up getting your fill; but as you are leaving you happen to notice a strange altar, poorly hidden away in a side room, a strange glowing coming from it...</value>
   </string>
   <!-- new string May 13 2016-->
@@ -515,8 +515,8 @@
 	<value>Too late. Time's up!</value>
   </string>
   <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
-    <value>You are the lovebird(Cupid). You're a dirty shipper who can can sneak into peoples houses and get them attracted to each other's smell. Choose two players who will become addicted to each other's scent. If one of them dies, the other one dies of sorrow.</value>
+  <string key="RoleInfoRecruiter">
+    <value>You are the lovebird(Recruiter). You're a dirty shipper who can can sneak into peoples houses and get them attracted to each other's smell. Choose two players who will become addicted to each other's scent. If one of them dies, the other one dies of sorrow.</value>
   </string>
   <string key="RoleInfoDoppelganger">
     <value>You are a chameleon(Doppelgänger). Choose a player, when that player dies, you will take on their role.</value>
@@ -527,7 +527,7 @@
   <string key="RoleInfoSerialKiller">
     <value>You are the Wasp(Serial Killer). Recently escaped from the local asylum, your goal is for everyone else to die. Every night, you can add a player's body to your collection.</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>You have been struck by love.. and a small addiction to {0}'s smell. Mostly the second one. Your goal is for both of you to survive. If one of you dies, the other one will die out of sorrow.</value>
   </string>
   <string key="HunterLynchedChoice">
@@ -554,7 +554,7 @@
   <string key="HunterKilledFinalShot">
     <value> {0} starts to stumble out of their house looking around before turning to {1} and shoving them to the floor making sure to use the last of their rage to pulverize {1}. {2}</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <value>{0} sneaks over to {1}'s house, pops open the door, to introduce them to the wonderful world of space gods; and is immediately greeted by a crazed maniac with a stinger! {1} plunges the knife deep into {0}'s organs in alphabetical order, cackling the entire time! {0} is dead.</value>
   </string>
   <string key="HunterShotWolfMulti">
@@ -572,11 +572,11 @@
   <string key="GuardBlockedKiller">
     <value>You tried to collect {0}'s body for your organ collection, but you were fought off by the guardian angel! No kill for you tonight....</value>
   </string>
-  <string key="CultConvertHunter">
-    <value>The cult sends {0} to try to convert {1}, but instead {0}'s body get thrown out the window, bruised and bloodied! {0} is dead....</value>
+  <string key="zoombiesConvertHunter">
+    <value>The zoombies sends {0} to try to convert {1}, but instead {0}'s body get thrown out the window, bruised and bloodied! {0} is dead....</value>
   </string>
-  <string key="CultConvertSerialKiller">
-    <value>The cult sends {0} to try to convert {1}, but instead a {0}'s body comes flying out of the window, knives pushed into every part of their body! WHAT A PSYCHO! {0} is dead....</value>
+  <string key="zoombiesConvertSerialKiller">
+    <value>The zoombies sends {0} to try to convert {1}, but instead a {0}'s body comes flying out of the window, knives pushed into every part of their body! WHAT A PSYCHO! {0} is dead....</value>
   </string>
   <string key="GuardKiller">
     <value>You tried to guard the serial killer, but they came out to thank you with stabbings.</value>
@@ -593,11 +593,11 @@
   <string key="DGTransformToMason">
     <value>{0} has died, and you transform into an otter.  Your teammates (if any) are: {1}</value>
   </string>
-  <string key="DGToCult">
-    <value>The doppelganger {0} has now become a snake(Cult), just like you!</value>
+  <string key="DGTozoombies">
+    <value>The doppelganger {0} has now become a snake(zoombies), just like you!</value>
   </string>
-  <string key="DGTransformToCult">
-    <value>{0} has died, and you transform into a snake(Cult).  Your teammates (if any) are: {1}</value>
+  <string key="DGTransformTozoombies">
+    <value>{0} has died, and you transform into a snake(zoombies).  Your teammates (if any) are: {1}</value>
   </string>
   <string key="DGToWolf">
     <value>The chameleon (Doppelganger) {0} has now become a wolf, just like you!</value>
@@ -611,23 +611,23 @@
   <string key="AskKill">
     <value>Who do you want to kill tonight?</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <value>With {0}'s dying breath, {1} rushes over and falls, crying.  They cannot stand the loss of their loved one, and shoot themselves with the nearest pistol the can find. {2}</value>
   </string>
   <string key="AskDoppelganger">
     <value>Who do you want to become if they die?</value>
   </string>
-  <string key="AskCupid1">
-    <value>Who do you want the lovers to be? Choose the first player</value>
+  <string key="AskRecruiter1">
+    <value>Who do you want the crewmates to be? Choose the first player</value>
   </string>
-  <string key="AskCupid2">
-    <value>Who do you want the lovers to be? Choose the second player</value>
+  <string key="AskRecruiter2">
+    <value>Who do you want the crewmates to be? Choose the second player</value>
   </string>
   <string key="Hunter">
     <value>the Bear(Hunter) 🎯</value>
   </string>
-  <string key="Cupid">
-    <value>the Lovebird(Cupid) 🏹</value>
+  <string key="Recruiter">
+    <value>the Lovebird(Recruiter) 🏹</value>
   </string>
   <string key="SerialKiller">
     <value>the Hornet(Serial Killer) 🔪</value>
@@ -635,20 +635,20 @@
   <string key="Doppelgänger">
     <value>the Chameleon(Doppelganger) 🎭</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>the musk of {0} has struck you! You are madly in love with the smell of {0}!  If they die, you will die too.  If you both make it to the end, you will both win.</value>
   </string>
   <string key="NewWCRoleModel">
     <value>You have become the Lemur(wild child).  You role model is {0}</value>
   </string>
-  <string key="LoversWin">
-    <value>True love endures! The lovers have won! The lovers celebrate by skipping town.</value>
+  <string key="crewmatesWin">
+    <value>True love endures! The crewmates have won! The crewmates celebrate by skipping town.</value>
   </string>
   <string key="HunterKilledVisiter">
     <value>In the middle of the town square, everyone finds the body of {0}, multiple impact marks to the body.  Looks like they tried to sneak up on the Hunter! {1}</value>
   </string>
-  <string key="CultAttempt">
-    <value>A hooded figure tried to convert you to their cult of tentacles, but your faith was too strong.</value>
+  <string key="zoombiesAttempt">
+    <value>A hooded figure tried to convert you to their zoombies of tentacles, but your faith was too strong.</value>
   </string>
   <string key="AlreadyOnWaitList">
     <value>You are already on the wait list for {0}</value>
@@ -719,11 +719,11 @@
   <string key="AboutFool">
     <value>The fool/derp is told they are the seer.... when they choose to see someone's role at night, they are told a random role.Rolenames: Fool/Derp.</value>
   </string>
-  <string key="AboutCult">
-    <value>As a Zombie/snake, it is your goal to convert all other players (except wolves) to your cult. If at the end of the game, all living players are Zombie - the cult wins. Rolenames: Cult/Snake.</value>
+  <string key="Aboutzoombies">
+    <value>As a Zombie/snake, it is your goal to convert all other players (except wolves) to your zoombies. If at the end of the game, all living players are Zombie - the zoombies wins. Rolenames: zoombies/Snake.</value>
   </string>
   <string key="AboutCH">
-    <value>Your job is to hunt the Cult. If the cult attacks you, their newest member will die. Each night you may pick a player to 'hunt' - if they are a Zombie, they will die. Rolenames: Cult Hunter/Weasel</value>
+    <value>Your job is to hunt the zoombies. If the zoombies attacks you, their newest member will die. Each night you may pick a player to 'hunt' - if they are a Zombie, they will die. Rolenames: zoombies Hunter/Weasel</value>
   </string>
   <string key="AboutWC">
     <value>At the beginning of the game, you will choose someone to be your 'role model'. If they die, you become a werewolf. Rolenames: Wild Child/Lemur</value>
@@ -740,25 +740,25 @@
   <string key="AboutDG">
     <value>
       Your ancestors had the ability to metamorph into others... while you don't have their full abilities, you can pick a player at the start of the game. If that player dies, you will become what they were.
-      Note: If the player was converted to cult, you will take on their original role. All other normal rules apply: If they were Wild Child and their role model died, you will become a wolf. Otherwise, you will inherit their role model.
-      The cult cannot convert the Doppelgänger (but can after the doppelganger switches roles). Also - the Doppelgänger can NOT win unless they have transformed. If at the end of the game, the Doppelgänger is still the same, they lose (exception: lover) Rolenames: Doppleganger/Chameleon
+      Note: If the player was converted to zoombies, you will take on their original role. All other normal rules apply: If they were Wild Child and their role model died, you will become a wolf. Otherwise, you will inherit their role model.
+      The zoombies cannot convert the Doppelgänger (but can after the doppelganger switches roles). Also - the Doppelgänger can NOT win unless they have transformed. If at the end of the game, the Doppelgänger is still the same, they lose (exception: crewmate) Rolenames: Doppleganger/Chameleon
     </value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>
-      Love is in the air. As Cupid, you will choose two players at the start of the game. These two players will become madly in love! If one of them dies, the other will die of sorrow :(
-      Note: Lovers will know who each other are, but not be told their roles. If the lovers are the last two alive, they win, regardless of teams. If the lovers are on different teams (villager + wolf), and one team wins (wolf), the lover (villager) wins as well. TL;DR if both lovers are alive at the end, and at least one of them was on the winning team, they both win together. Rolenames: Cupid/Lovebird
+      Love is in the air. As Recruiter, you will choose two players at the start of the game. These two players will become madly in love! If one of them dies, the other will die of sorrow :(
+      Note: crewmates will know who each other are, but not be told their roles. If the crewmates are the last two alive, they win, regardless of teams. If the crewmates are on different teams (villager + wolf), and one team wins (wolf), the crewmate (villager) wins as well. TL;DR if both crewmates are alive at the end, and at least one of them was on the winning team, they both win together. Rolenames: Recruiter/Lovebird
     </value>
   </string>
   <string key="AboutHunter">
     <value>
       A trigger happy, vindictive player. As the hunter, you try to keep to yourself. However, when others come to visit you, they may find themselves dead, as your paranoia takes hold and you shoot. If the wolves attack you, you have a chance to take one of them with you. Otherwise, if you die, you will get a chance to shoot someone as you die.
       Note: For wolf attacks, the chance starts at 30%. If there is one wolf, the hunter has a 30% chance to kill the wolf (and survive). For each additional wolf, add 20% (2 wolves = 50%, 3 = 70%, etc). However - if there are multiple wolves, while you may kill one of them, you will still be outnumbered and killed.
-      If the cult tries to convert you, they have a 50% chance to fail. If they fail, you have a 50% chance to kill one of them! Rolenames: Hunter/Bear
+      If the zoombies tries to convert you, they have a 50% chance to fail. If they fail, you have a 50% chance to kill one of them! Rolenames: Hunter/Bear
     </value>
   </string>
   <string key="AboutSK">
-    <value>That asylum was silly anyways. What a joke. You are free now however, back to business as usual - killing! The serial killer is a lone player, on their own team. They can win only if they are the last player alive (exception: lovers). As the serial killer, you can kill ANYONE - wolves, hunters, gunners, guardian angels, whatever. If the wolves try to attack you, you will kill one of them (random), and live. Rolenames: Serial Killer/Wasp</value>
+    <value>That asylum was silly anyways. What a joke. You are free now however, back to business as usual - killing! The serial killer is a lone player, on their own team. They can win only if they are the last player alive (exception: crewmates). As the serial killer, you can kill ANYONE - wolves, hunters, gunners, guardian angels, whatever. If the wolves try to attack you, you will kill one of them (random), and live. Rolenames: Serial Killer/Wasp</value>
   </string>
   <string key="AboutPara">
     <value>Para is a silly developer that likes to bark at people.  Maybe he's been messing with werewolves too long....Messing with werewolves is a very bad idea.</value>
@@ -928,11 +928,11 @@
   <string key="AllowTannerA">
     <value>Tanner as a role set to: {0}</value>
   </string>
-  <string key="AllowCultQ">
-    <value>Allow cult as a role option?\nCurrent: {0}</value>
+  <string key="AllowzoombiesQ">
+    <value>Allow zoombies as a role option?\nCurrent: {0}</value>
   </string>
-  <string key="AllowCultA">
-    <value>Cult as a role set to: {0}</value>
+  <string key="AllowzoombiesA">
+    <value>zoombies as a role set to: {0}</value>
   </string>
   <string key="ThankYou">
     <value>Thanks for the assistance. Have fun.</value>

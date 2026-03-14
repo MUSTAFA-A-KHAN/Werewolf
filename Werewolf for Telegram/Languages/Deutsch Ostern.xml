@@ -436,34 +436,34 @@
       <value>{0} hat gewählt, {1} zu einem Mobber zu machen.</value>
       <value>{0} will {1} mobben. Nett ist das nicht!</value>
     </string>
-    <string key="CultConvertZombieHunter">
+    <string key="zoombiesConvertZombieHunter">
       <!-- 0 - Yougest Zombie (killed)'s name -->
       <!-- 1 - ZombieHunter's name -->
       <value>In diesem Tag war es die Aufgabe von {0}, eine weitere Person zu einem Mobber zu machen. Das Glück war anscheinend Anderen zuteil, da {1} als Glecihberechtigungsbeauftragte 💂 wohl so ziemlich das unglücklichste Ziel darstellte. Das Aufeinandertreffen hatte daher kein neues Kultmitglied zur Folge, sondern führte im Gegenteil zum Feuern eures jüngsten Mitglieds.</value>
     </string>
-    <string key="ZombieHunterKilledCultVisit">
+    <string key="ZombieHunterKilledzoombiesVisit">
       <!-- 0 - Youngest Zombie's name -->
       <!-- 1 - Number of Zombies left -->
       <value>{0} kommt zu deinem Arbeitsplatz, mit der festen Überzeugung, dich vom Mobbing zu überzeugen. Zu seinem Unglück durchschaust du die Masche deines Gegenübers und greifst, mehr aus Reflex als aus Wissen, nach deinem Telefon und lässt euren Chef mithören. Ein Mobber 👤 ist weg... {1} sind noch da!</value>
       <value>{0} versucht dich zu mobben. Doch du erinnerst dich an den Kurs "Umgang mit Mobbing" und reagierst so suverän, dass {0} nicht mehr mobben möchte. Leider will er auch nicht mehr mitarbeiten. Er verrät Dir aber noch, dass es noch {1} Mobber 👤 gibt.</value>
     </string>
-    <string key="CultConvertYou">
+    <string key="zoombiesConvertYou">
       <value>Der Besuch eines Mobbers hat dich in deinem Glauben zutiefst erschüttert; dir wird klar, dass nur dessen Art die einzig Richtige sein kann und dass es dein Schicksal ist, ebenso ein Mobber 👤 zu sein. Jede Nacht suchst du dir mit deinen Mitmobbern einen Spieler aus, den einer von euch dann zu Überzeugen versucht, auch mitzumachen.</value>
     </string>
-    <string key="CultTeam">
+    <string key="zoombiesTeam">
       <!-- 0 - Number of Zombies -->
       <value>Mobber: {0}</value>
     </string>
-    <string key="CultJoin">
+    <string key="zoombiesJoin">
       <!-- 0 - new Zombie's name -->
       <value>{0} trat dem Mobbingteam bei!</value>
     </string>
-    <string key="CultVisitEmpty">
+    <string key="zoombiesVisitEmpty">
       <!-- 0 - Newest Zombie's name -->
       <!-- 1 - target name -->
       <value>{0} wurde gesendet, um {1} zu überzeugen... aber keiner war am Malen!</value>
     </string>
-    <string key="CultWins" isgif="true">
+    <string key="zoombiesWins" isgif="true">
       <value>Die Maler sind gefeuert, alle anderen Arbeitenden wurden zu Mobber bekehrt.. Der Mobbingzirkel hat gewonnen!</value>
     </string>
     <string key="HunterVisitDead">
@@ -572,7 +572,7 @@
     </string>
 
     <!-- new strings May 6 2016-->
-    <string key="CultTargetDead">
+    <string key="zoombiesTargetDead">
       <!-- 0 - Youngest Zombies name -->
       <!-- Vorlage
 		<value>Euer neuestes Mitglied lief zum Haus von {0}, um ihn zu bekehren, aber das Haus war vollkommen zerstört, überall Blut, und Fäden eines Wolfsfells 🐺 vor der Tür...</value>
@@ -586,7 +586,7 @@
     </string>
 
     <!-- new strings May 9 2016-->
-    <string key="CultUnableToConvert">
+    <string key="zoombiesUnableToConvert">
       <!-- 0 - newest -->
       <!-- 1 - target's name -->
       <value>{0} wollte unbedingt {1} mobben. Nur ist {1} ziemlich stark und hat nur gekontert, {0} sei ein jämmerliches Würstchen. Tja 🤷‍♂️</value>
@@ -599,7 +599,7 @@
       <!-- 1 - name -->
       <value>/extend \n@{1}, ein Mitarbeiter mit dem Namen {0} arbeitet bereits für uns! Tut mir Leid. Sei so nett und ändere Deinen Namen. Wir warten</value>
     </string>
-    <string key="HarlotDiscoverCult">
+    <string key="HarlotDiscoverzoombies">
       <!-- 0 - target's name -->
       <value>Du gehst zu {0}, um etwas mit ihm zu malen... doch als du gerade gehen wolltest, konntest du einen kurzen Blick in einen Nebenraum erhaschen und siehst eine Wand voller Zeitungsausschnitte und Beleidigungen, wie sie nur ein Mobber 👤 haben kann.</value>
     </string>
@@ -705,7 +705,7 @@
     </string>
 
     <!-- new strings june 10 2016 -->
-    <string key="RoleInfoCupid">
+    <string key="RoleInfoRecruiter">
       <value>Du bist ein niedliches Küken 🐣 (aka Armor 🏹).\n Du hüpfst zu zwei Malern, wegen deiner Niedlichkeit verlieben sie sich ineinander und nehmen dich als Haustier auf. Fast, gäb es keine Allergien... Naja :( \nWähle zwei Arbeiter aus, die sich unsterblich ineinander verlieben. Falls einer der Verliebten gekündigt wird, kündigt auch der andere. Die Frage ist: willst du das verantworten?</value>
       <!-- <value>Du bist Amor 🏹.\nMit deinen stylischen Flügelschuhen düst du durch den Himmel und feuerst Pfeile auf unschuldige Passanten, welche sich Hals über Kopf ineinander verlieben und auf offener Straße übereinander herfallen. Insbesondere hast du ein ausgeprägtes Talent dafür, problematische Beziehungskonstellationen herbeizuführen.</value>
       <value>Manche mögen deine Waffenwahl ein wenig komisch finden, die Waffennarren im Ort spötteln sogar immer wieder - du machst ihnen jedoch unermüdlich klar, dass du als Amor 🏹 keinen Schaden mit deiner Waffe anrichtest, sondern eigentlich darauf bedacht bist, das Leben der Menschen zu verschönern. Dass dabei auch mal Missgeschicke passieren... nunja. Du versteckst deine Schadenfreude hinter einem Schulterzucken und murmelst etwas über Trefferquote.\nAlso, woraus wartest du? Schnapp dir Pfeil und Bogen und verbreite ein bisschen Liebe!</value>
@@ -724,8 +724,8 @@
       <value>Du bist der Serienmörder 🔪.\nAls du ein Kind warst, hast du im Garten tote Tiere gesammelt. Heute sammelst du Lebern, legst sie ein und stellst sie in deinem Regal aus. Andere Leute mögen das eklig finden, aber dir gefällts.</value>
       <value>Du bist der Serienmörder 🔪.\nSeit einer schiefgelaufenen Hirn-OP überkommt dich nachts immer das Bedürfnis mit dem großen Küchenmesser auf die Strasse zu laufen und den nächstbesten Dorfbewohner aufzuschlitzen, um dich an seinem Blut zu laben. Dass du dabei die Leber mitgehen lässt, ist wohl auf deine kleptomanische Neigung zurückzuführen.</value> -->
     </string>
-    <string key="CupidChosen">
-      <!-- 0 - lover's name -->
+    <string key="RecruiterChosen">
+      <!-- 0 - crewmate's name -->
       <value>Du und {0}, der zufällig neben dir stand, wurdest von einem kleinem süßen Küken besucht ❤! Die Erinnerungen an {0} sowie an das Küken werden nie in deinem Herzen verblassen. Euer Ziel ist, dass ihr beide den Arbeitsalltag übersteht. Falls einer von euch stirbt, wird der andere aus Kummer nicht mehr weiterarbeiten können... Dafür gewinnst du aber auch mit deinem Arbeitspartner und seinem Team :3</value>
       <!--<value>Du hast dich unsterblich in {0} verliebt. ❤ Nichts und niemand kann euch trennen! Falls einer von euch stirbt, wird der andere aus Liebeskummer Selbstmord begehen. Aber, keine Sorge, das Leben hat auch positivere Seiten zu bieten: egal ob am Leben oder nicht, du gewinnst mit deinem eigenen Team oder dem deines Partners :3</value>
       <value>Amors Pfeil trifft dich! Du bist wahnsinning in {0} verliebt ❤\nFalls diese Person stirbt, stirbst du ebenfalls. Falls ihr es beide bis zum Ende schafft, werdet ihr beide gewinnen - oder auch weiterhin als Mitglied eures jeweiligen Teams.</value>-->
@@ -788,12 +788,12 @@
       <!-- 0 - target's name -->
       <value>Du hast versucht, den Arbeitstag von {0} mit deinen Geschenken zu vermiesen, wurdest aber von Rafael 👼 abgewehrt! Diesmal hat es nicht geklappt :/</value>
     </string>
-    <string key="CultConvertHunter">
+    <string key="zoombiesConvertHunter">
       <!-- 0 - Youngest Zombie's name -->
       <!-- 1 - target's name -->
       <value>Das Mobbingteam sendet {0}, um {1} zu überzeugen, doch stattdessen hört man einen wütenden Schrei 🎯, kurz bevor euer jüngstes Mitglied aus der Firma geworfen wird! {0} ist gefeuert...</value>
     </string>
-    <string key="CultConvertSerialKiller">
+    <string key="zoombiesConvertSerialKiller">
       <value>{0} schleicht zu der Arbeitstätte von {1}, platzt herein, und wird direkt von einem Wahnsinnigen mit einem Haufen an Geschenken 🔪 begrüßt!!! {1} wirft sie unter irrem Lachen auf {0}, der blickt unweigerlich der Arbeitslosigkeit entgegen...</value>
       <!--<value>Der Kult sendet {0} aus, um {1} zu konvertieren, doch stattdessen fliegt der Körper von {0} aus dem Fenster, mit Messern 🔪 in jedem Teil seines Körpers! WAS FÜR EIN PSYCHO! {0} ist tot...</value>-->
     </string>
@@ -818,11 +818,11 @@
       <!-- 1 - mason collegues's name -->
       <value>{0} ist gestorben, und du verwandelst dich in einen Eier-Freikünstler 👷. Deine Kameraden sind (falls vorhanden): {1}</value>
     </string>
-    <string key="DGToCult">
+    <string key="DGTozoombies">
       <!-- 0 - new Zombie's name -->
       <value>Der Goldhase 🎭 {0} ist zum Mobber geworden, genau wie du!</value>
     </string>
-    <string key="DGTransformToCult">
+    <string key="DGTransformTozoombies">
       <!-- 0 - role's name -->
       <!-- 1 - teammates's name -->
       <value>{0} ist nicht mehr länger in der Firma tätig, und du verwandelst dich in einen Mobber 👤. Das Team besteht aus (falls vorhanden): {1}</value>
@@ -847,10 +847,10 @@
       <!--<value>Wen bringst du heute Nacht um die Ecke?</value>
       <value>Wen willst du heute aufschlitzen?</value>-->
     </string>
-    <string key="LoverDied">
+    <string key="crewmateDied">
       <!-- 0 - dead's name -->
-      <!-- 1 - lover's name -->
-      <!-- 2 - lover's role -->
+      <!-- 1 - crewmate's name -->
+      <!-- 2 - crewmate's role -->
 
       <value>Das nenne ich Liebe ❤️, bis dass der Tod sie scheidet 💔. Als {0} gekündigt wurde, hat auch {1} die Kündigung eingereicht und zusammen haben die beiden die Fabrik verlassen. Später haben beide geheiratet und sich wie die Kar­ni­ckel vermehrt. 👴 {0} und 👵 {1} sitzen jetzt häufig auf der Terasse, beim Sonnenuntergang 🌄 umgeben von 500 Kindern.\nÜbrigens: {2}</value>
     </string>
@@ -860,13 +860,13 @@
       <!-- <value>Wer möchtest du werden, wenn diejenige Person stirbt?</value>
       <value>Die Frage der Fragen: wessen Doppelgänger möchtest du sein?</value> -->
     </string>
-    <string key="AskCupid1">
+    <string key="AskRecruiter1">
       <value>Wer sollen die Liebenden 💞💗 sein? Wähle den ersten Mitarbeiter:</value>
       <!-- <value>Wen möchtest du verlieben? ❤ Wähle den ersten Spieler:</value>
       <value>Wen soll dein erster Pfeil treffen? ❤</value>
       <value>Wer soll sich Hals über Kopf verlieben? ❤</value> -->
     </string>
-    <string key="AskCupid2">
+    <string key="AskRecruiter2">
       <value>Interessante Wahl 🤔 Und der zweite Mitarbeiter?</value>
       <!-- <value>Wer sollen die Liebenden ❤ sein? Wähle den zweiten Spieler:</value>
       <value>Wen möchtest du verlieben? ❤ Wähle den zweiten Spieler:</value>
@@ -876,7 +876,7 @@
     <string key="Hunter">
       <value>der Hausmeister 🎯</value>
     </string>
-    <string key="Cupid">
+    <string key="Recruiter">
       <value>das süße Küken 🐣/🏹</value>
     </string>
     <string key="SerialKiller">
@@ -889,7 +889,7 @@
       <!-- 0 - target's name -->
       <value>Du bist das wilde Häschen 🐰/Kind 👶. Dein Vorbild ist {0}.</value>
     </string>
-    <string key="LoversWin" isgif="true">
+    <string key="crewmatesWin" isgif="true">
       <value>Wahre Liebe hält am längsten! Die Liebenden haben gewonnen!</value>
       <value>Die letzten beiden Angestellten sind die Liebenden. Sie fallen sich erleichtert in die Arme und genießen für einen Moment nur die Stille, bevor sie durch die verlassene Fabrik nach Hause schlendern.</value>
       <value>Wäh! Liebe. Naja, trotzdem gewonnen, Gratulation 😐</value>
@@ -900,7 +900,7 @@
       <!-- 1 - role -->
       <value>Inmitten des allabendlichen Besprechungsraum findet ihr das Kündigungsschreiben für {0}. Ihr alle wisst, dass der Hausmeister 🎯 seine Finger im Spiel hatte, aber Beweisen könnt ihrs nicht. {1}</value>
     </string>
-    <string key="CultAttempt">
+    <string key="zoombiesAttempt">
       <value>Eine verschleierte Gestalt versuchte, dich zu seinem Mobbingteam 👤 zu bekehren, doch dein Geist war zu stark. Weiter so 👍</value>
     </string>
     <string key="AlreadyOnWaitList">
@@ -999,7 +999,7 @@
     <string key="AboutFool">
       <value>Du bist der Narr. 🃏\nZwar liebenswürdig, aber auch gefährlich, auf deine eigene Weise: weil du es nicht besser weißt, behauptest du, der Seher zu sein - dabei sind die Rollen, die dir angezeigt werden, komplett zufällig! Vielleicht hättest du damals bei Professor Trelawney doch besser aufpassen sollen...\nEtwas hast du dem Seher aber voraus: du siehst den Verräter auch als solchen - während ein richtiger Wahrsager sich bei diesem nur zwischen Wolf und Dorfbewohner irren kann! Die einzelnen Wölfe kannst du aber leider nicht voneinander unterscheiden... :/</value>
     </string>
-    <string key="AboutCult">
+    <string key="Aboutzoombies">
       <value>Du bist ein Kultist 👤 - fashiontechninsch vielleicht nicht ganz auf der Höhe, trotzdem - oder vielleicht gerade deshalb? - bist du relativ erfolgreich: jede Nacht kannst du einen Spieler aussuchen, den du zu deinem Kult bekehren willst; und das ist auch dein Lebensmotto: das ganze Dorf zu bekehren. Wenn am Ende nur noch Kultisten überleben, gewinnt ihr! Aber nicht immer hast du Glück - manche Bewohner sind schwerer zu bekehren als Andere...</value>
     </string>
     <string key="AboutCH">
@@ -1020,7 +1020,7 @@
     <string key="AboutDG">
       <value>Du bist der Doppelgänger 🎭 - schon deine Ahnen verstanden sich gut darin, in die Rollen anderer zu schlüpfen: sie waren berühmte Schauspieler, Geheimagenten und Identitätsfälscher. In so einem kleinen Dorf ist es natürlich schwieriger, nicht aufzufallen - deshalb nimmst du die Identität dessen, den du bei deinem Einzug ins Dorf wählst, auch erst nach dessen Tod an. Du schlüpfst vollständig in die Rolle dessen, den du kopierst: hast die gleichen Fähigkeiten, musst allerdings auch mit den Entscheidungen dessen leben: kopierst du das wilde Kind, übernimmst du dessen Vorbild - und wenn dieses schon tot ist, wirst du direkt zum Wolf.\n\nSollten Kultisten im Dorf verkehren, haben sie keine Möglichkeit, den Doppelgänger zu bekehren, bevor er sich nicht verwandelt hat. Außerdem verliert der Kult ein Mitglied, sollte der vom Doppelgänger Kopierte Kultist gewesen sein: der Doppelgänger nimmt dann die urprüngliche Rolle des Toten ein.\n\nAls Doppelgänger ist es dir ganz wichtig, dass das Dorf erkennt, wie gut du deine Profession beherrscht: solange du dich nicht verwandelt hast, kannst du das Spiel auch nicht gewinnen! Wenn das Spiel vorbei ist, und du noch du bist... verlierst du.</value>
     </string>
-    <string key="AboutCupid">
+    <string key="AboutRecruiter">
       <value>Es knistert, aber gewaltig! Dabei hast du deinen Job als Elektriker doch eigentlich an den Nagel gehangen - deine neue Berufskleidung ist zwar etwas seltsam, aber wer möchte nicht gern von Luft und Liebe leben? Also: deine Berufung als Amor 🏹 ist es, zwei Pfeile abzuschießen: die beiden Bewohner, die von ihnen getroffen werden, werden sich unsterblich ineinander verlieben, unfähig, ohne den jeweils anderen zu überleben: sollte einer von beiden sterben, wird sich der Andere aus Kummer das Leben nehmen... Je nachdem, wie geschickt dein Händchen ist, kann daraus ein großes Hochzeitsfest oder ein Killerpärchen entstehen!\n\nWichtig: die Liebenden wissen zwar voneinander, bekommen die Rollen des jeweils Anderen jedoch nicht mitgeteilt. Sie gewinnen, wenn mindestens einer von ihnen im gewinnenden Team ist - sollten die Beiden es schaffen, als die letzten Beiden am Leben zu sein, gewinnen sie als Paar (Herzchen-Emoji hier evtl?)</value>
     </string>
     <string key="AboutHunter">
@@ -1205,10 +1205,10 @@
     <string key="AllowTannerA">
       <value>Neue Einstellung für den Gerber: {0}</value>
     </string>
-    <string key="AllowCultQ">
+    <string key="AllowzoombiesQ">
       <value>Willst du das mobbingteam zulassen?\nAktuell: {0}</value>
     </string>
-    <string key="AllowCultA">
+    <string key="AllowzoombiesA">
       <value>Neue Einstellung für den Mobbingzirkel: {0}</value>
     </string>
     <string key="EnableSecretLynchQ">
@@ -1378,13 +1378,13 @@
     <string key="SerialKillerTeamEnd">
       <value>Team Forever alone</value>
     </string>
-    <string key="CultTeamEnd">
+    <string key="zoombiesTeamEnd">
       <value>Team Fashionvictim</value>
     </string>
     <string key="TannerTeamEnd">
       <value>Team Gerbera</value>
     </string>
-    <string key="CultConvertWolf">
+    <string key="zoombiesConvertWolf">
       <value>Ihr habt in letzter Zeit viel über {1} gesammelt und {1} soll ihn mal so richtig mobben. Tja 🤷🏿‍♂️ Schwarzmaler 🐺 lassen sich aber nicht so leicht mobben und zu allem Überfluss erfährt der 
  von {0}s schwarzen Eiern und spricht die Kündigung aus. Typische lose-lose-Situation.</value>
       <!-- <value>Ihr entsendet in dieser Nacht {0}, um {1} für euren Glauben zu gewinnen, in der Hoffnung, dass dies eine einfache Aufgabe ist, der selbst euer neuestes Mitglied gewachsen ist, doch stattdessen müsst ihr am nächsten Morgen mit ansehen, wie das Dorf die Leiche von {0} entdeckt, die so zerfleischt in einem Gebüsch liegt, dass für euch sofort klar ist, was passiert sein muss. Ihr solltet euch in Zukunft wohl besser von den Wölfen 🐺 fernhalten...</value> -->
@@ -1404,7 +1404,7 @@
     <string key="ZombieKilled">
       <value>Eigentlich freut man sich ja nicht, wenn ein Kollege den Arbeitsplatz verlässt. Aber bei {0} ist das ein anderer Fall: Sein Mobbing 👤 war echt grässlich. Eigentlich gut, dass der Weihnachtsmann 🔪 sich mit seinem messerscharfen Geschenken drum gekümmert hat...</value>
     </string>
-    <string key="CupidKilled">
+    <string key="RecruiterKilled">
       
       <value>Bestürzung macht sich breit, als ein süßes Küken 🐣/🏹 an euch vorbei nach draußen hüpft. Es zieht an seinem kleinen Füßchen Geschenkpapier 🔪 nach sich... {0} wurde gefeuert!</value>
       <!--<value>Schon als sie aufwachen, fühlen sich alle Dorfbewohner irgendwie lieblos. Zuerst hält man es für Einbildung, doch dann findet man Amor 🏹, von Kopf bis Fuß aufgeschlitzt, vor der Kirche... Aus irgendeinem Grund fehlt {0} auch das Herz. 🔪</value>-->
@@ -1451,13 +1451,13 @@
       <!--<value>Als das Dorf erwacht, findet man {0}, den Kultjäger 💂 zerstückelt in einer Kiste vor dem Rathaus. Es scheint keine besonders gute Idee, nachts den Serienmörder 🔪 zu besuchen und ihn über seine Spiritualität auszufragen...</value>
       <value>Der Körper von {0}, dem Kultjäger 💂 wurde bis zur Unkenntlichkeit verstümmelt auf dem Altar der Kirche gefunden. Den Serienmörder für einen Kultisten zu halten war eindeutig sein letzter Fehler...</value>-->
     </string>
-    <string key="CultConvertWolfPublic">
+    <string key="zoombiesConvertWolfPublic">
       <!-- used when Zombies convert the wolves, only if wolves stayed home -->
       <value>Da will man als Emo 🐺 einmal seine schwarzen Eier behalten... Aber wenn man von {0} schon wegen Mobbing 👤 angesprochen wird, wie soll man da wiederstehen?</value>
       <!--<value>Eigentlich wollten die Wölfe  letzte Nacht ja fasten (wie vorbildlich!) - aber wer kann schon der Versuchung einerskleinen Mitternachtsnack auf zwei Beinen widerstehen?! Richtig: niemand. Das musste {0} am eigenen Leib erfahren, auch sein Glaube konnte den Kultisten 👤 nicht vor den scharfen Zähnen der Wölfe beschützen...</value>
       <value>Das Leben als Kultist 👤 ist nicht leicht. Nicht nur muss man sich davon erholen, bisher ein Leben lang an das Falsche geglaubt zu haben, nein, es stehen auch noch immer diese Nachtwanderungen auf dem Programm. {0} verirrte sich dabei letzte Nacht in das Haus eines ruhenden Werwolfs 🐺, war aber selbst ebenfalls zu müde, um wegzurennen - am Morgen kann er es nicht mehr, nur noch die Knochen sind von seinen Beinen übrig geblieben. So wie es aussieht, haben Werwölfe kein Interesse daran, sich neuen kultigen Kreisen anzuschließen....</value>-->
     </string>
-    <string key="CultConvertKillerPublic">
+    <string key="zoombiesConvertKillerPublic">
       <!-- used when Zombies convert the SK -->
       <value>Hmmm... Dass der Mobber 👤 jetzt fehlt, ist ja nicht so schlimm. Aber der Weihnachtsmann 🎅🔪 scheint noch sein Unwesen zu treiben. {0} wurde mit Geschenken überhäuft und gefeuert!</value>
       <!-- Strangely their "holy" book was found stabbed with a knife, as if a statement to show whose religion was triumphant.</value>
@@ -1556,7 +1556,7 @@
       <!-- {0} = list of people who have joined -->
       <value>Neu auf dem Schichtplan für euch: {0}</value>
     </string>
-    <string key="AllowCult">
+    <string key="Allowzoombies">
       <value>Kult erlauben</value>
     </string>
     <string key="AllowTanner">
@@ -1760,7 +1760,7 @@
     <!-- 0 - Namen der Freimaurer Kollegen -->
 	<value>Deine Kollegen in der Fertigung hochwertiger Eier (falls es denn welche neben dir gibt) sind: {0}</value>
   </string>
-  <string key="ThiefToCult">
+  <string key="ThiefTozoombies">
   <!-- 0 - Name alter Kultist -->
   <!-- 1 - Name neuer Kultist -->
 	<value>{0} hat ein Aussteigerprogramm besucht und will nicht weiter mobben. Er hat im Aussteigerprogramm {1} kennengelernt, dem irgendwie gefällt, was ihr macht und sich euch anschließt. Ich finde das eine klassische Win-Lose-Situation.</value>
@@ -2163,10 +2163,10 @@
   <string key="HunterFellDigger">
 	<value>Plötzlich liegt {0} auf deinem Seziertisch im UFO 🛸. Ein Namensschild verrät dir, das ist der Gleichstellungsbeauftragte 💂‍♀️. Ist Sexismus und Mobbing hier nicht normal? Interessiert nutzt du diese Gabe und schaust dir den Körper genauer an.</value>
   </string>
-  <string key="CultFell">
+  <string key="zoombiesFell">
 	<value>Plötzlich liegt {0} auf deinem Seziertisch im UFO 🛸. Das blöde Grinsen verrät dir, dass du einen Mobber 👤 erwischt hast, der wohl dich mobben wollte. Was ist das Tolle am Mobbing? interessiert fängst du deine Arbeit an.</value>
   </string>
-  <string key="CultConvertGraveDigger">
+  <string key="zoombiesConvertGraveDigger">
 	<value>Auf dem Weg zum Büro von {1} wird es urplötzlich sehr hell und {0} schwebt immer höher. Was wollt ihr denn beim Alien 👽/☠️? Schnell rennt ihr los, um nicht auch noch im UFO 🛸 zu landen.</value>
   </string>
   <string key="ChemistFell">

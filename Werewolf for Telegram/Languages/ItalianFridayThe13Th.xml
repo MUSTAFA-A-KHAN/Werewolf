@@ -130,7 +130,7 @@
     <value>Chi è la tua fonte di ispirazione?</value>
   </string>
   <string key="AskConvert">
-    <value>Chi vuoi convertire al tuo culto?</value>
+    <value>Chi vuoi convertire al tuo zoombieso?</value>
   </string>
   <string key="DiscussWith"><!--Leave the leading spaces here please-->
     <value>  Sii sicuro di discutere con {0}</value>
@@ -187,10 +187,10 @@
     <value >Sei il Sostituto della scientifica. Questo significa che nel campo c'è almeno un Agente della scientifica</value>
   </string>
   <string key="RoleInfoZombie" >
-    <value >Sei un membro del "Culto della Spina". Ogni notte, puoi scegliere un giocatore da convertire al tuo culto per poi aiutare Michael Myers ad Halloween.</value>
+    <value >Sei un membro del "zoombieso della Spina". Ogni notte, puoi scegliere un giocatore da convertire al tuo zoombieso per poi aiutare Michael Myers ad Halloween.</value>
   </string>
   <string key="RoleInfoZombieHunter" >
-    <value >Sei il poliziotto! Provieni dalla città di Michael Myers e sei venuto qua per eliminare i membri del culto stile Terminator. Ah, se un membro del culto della spina prova a convertirti, l'ultimo membro arruolato dal culto muore e scoprirai quanti ne sono rimasti.</value>
+    <value >Sei il poliziotto! Provieni dalla città di Michael Myers e sei venuto qua per eliminare i membri del zoombieso stile Terminator. Ah, se un membro del zoombieso della spina prova a convertirti, l'ultimo membro arruolato dal zoombieso muore e scoprirai quanti ne sono rimasti.</value>
   </string>
   <string key="LynchTime" >
     <value>Il crepuscolo si avvicina inesorabile. Con il "CHCHCH...AHAHAH" di Jason i sopravissuti si accorgono che hanno poco tempo per decidere chi sarà il linciato questa sera...\nOgnuno ha {0} secondi per votare!</value>
@@ -238,7 +238,7 @@
     <value>Il mattino è giunto, e con lui un fetore che sa di tragedia.  Seguendo l'odore, i villici trovano {0} fatto a pezzi nel suo rifugio senza testa. \n{1}</value>
   </string>
   <string key="HunterKilledZombie">
-    <value>Un odore rancido proviene dalla casa di {0}... durante l'ispezione viene ritrovato un corpo senza vita, chinato inerme davanti ad un altare oscuro... un membro del culto è stato ucciso dal poliziotto!</value>
+    <value>Un odore rancido proviene dalla casa di {0}... durante l'ispezione viene ritrovato un corpo senza vita, chinato inerme davanti ad un altare oscuro... un membro del zoombieso è stato ucciso dal poliziotto!</value>
   </string>
   <string key="NoAttack" >
     <value >Il giorno successivo i sopravissuti si riuniscono al centro del campo e nessuno manca all'appello.</value>
@@ -324,26 +324,26 @@
   <string key="ZombieVotedConvert" >
     <value>{0} vota per convertire {1}</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <value>{0} è stato inviato a fare il suo sporco lavoro, per convertire {1}... ma era il poliziotto e gli ha sparato in un occhio! {0} è morto sul colpo!</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
-    <value>{0} ti ha fatto visita la scorsa notte, pronto a convertirti...  ma l'hai ucciso.Un membro del culto è morto... {1} rimanenti!</value>
+  <string key="ZombieHunterKilledzoombiesVisit">
+    <value>{0} ti ha fatto visita la scorsa notte, pronto a convertirti...  ma l'hai ucciso.Un membro del zoombieso è morto... {1} rimanenti!</value>
   </string>
-  <string key="CultConvertYou">
-    <value>Il culto ti ha convertito al Culto della Spina! Ora sei uno di loro. Ogni notte, avrai la possibilità di convertire un altro giocatore.</value>
+  <string key="zoombiesConvertYou">
+    <value>Il zoombieso ti ha convertito al zoombieso della Spina! Ora sei uno di loro. Ogni notte, avrai la possibilità di convertire un altro giocatore.</value>
   </string>
-  <string key="CultTeam">
-    <value>Membri del Culto della Spina: {0}</value>
+  <string key="zoombiesTeam">
+    <value>Membri del zoombieso della Spina: {0}</value>
   </string>
-  <string key="CultJoin">
-    <value>{0} ha aderito al culto!</value>
+  <string key="zoombiesJoin">
+    <value>{0} ha aderito al zoombieso!</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <value>{0} è stato inviato a fare il suo sporco lavoro, per far visita a {1}... ma nessuno era in casa!</value>
   </string>
-  <string key="CultWins" >
-    <value >Tutti i cacciatori sono morti, ma tutti i sopravvissuti sono stati convertiti al Culto della Spina... Il culto se ne torna vincitore nella città di Michael Myers!</value>
+  <string key="zoombiesWins" >
+    <value >Tutti i cacciatori sono morti, ma tutti i sopravvissuti sono stati convertiti al zoombieso della Spina... Il zoombieso se ne torna vincitore nella città di Michael Myers!</value>
   </string>
   <string key="HunterVisitDead">
     <value>Hai perquisito {0}, ma era già morto!</value>
@@ -352,7 +352,7 @@
     <value>Fai visita alla casa di {0}, e lo cogli a pregare chissà quale dio sconosciuto... Sfoderi così la tua Python e gli spari alla nuca.</value>
   </string>
   <string key="HunterFailedToFind">
-    <value>Hai fatto visita alla casa di {0}, ma non hai notato niente di strano. Non era un membro del culto, perciò te ne ritorni al rifugio.</value>
+    <value>Hai fatto visita alla casa di {0}, ma non hai notato niente di strano. Non era un membro del zoombieso, perciò te ne ritorni al rifugio.</value>
   </string>
   <string key="WildChildToWolves">
     <value>Il modello di {0} è morto! Adesso è un cacciatore!</value>
@@ -438,21 +438,21 @@
     <value>  Gli altri Fratelli sono: {0}</value>
   </string>
   <!-- new strings May 6 2016--> 
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <value>Il vostro membro più nuovo bussa alla porta di {0}. Dato che la trova aperta, decide di entrare e scendendo in cantina trova armi di vario tipo e dietro di lui un ombra... </value>
   </string>
   <string key="GuardBlockedWolf">
     <value>Ti accingi per uccidere {0} ma ti imbatti nell'illusionista che si trasforma in Jason e perciò gridi: "Cos è quello" e lui: "Quello cosa?" *Stai correndo*.</value>
   </string>
   <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <value>Spedite {0} per convertire {1}, ma aveva un aura POTENTISSIMA.</value>
   </string>
   <!-- new string May 12 2016-->
   <string key="NameExists">
     <value>@{1}, un giocatore con il nome di {0} e' gia' entrato. Per favore cambia il tuo nome per partecipare. </value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <value>Ti rechi a casa di {0} per divertirti un po'... Ma quando stai per uscire, ti accorgi di uno strano altare...</value>
   </string>
   <!-- new string May 13 2016-->
@@ -527,8 +527,8 @@
 	<value>È scaduto il tempo!</value>
   </string>
   <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
-    <value>Sei Cupido. Mandato su Crystal Lake con solo delle mutande, un arco e due frecce, scegli due giocatori che si ameranno per l'eternità. Se uno dei due muore, l'altro si muore per il dispiacere.</value>
+  <string key="RoleInfoRecruiter">
+    <value>Sei Recruitero. Mandato su Crystal Lake con solo delle mutande, un arco e due frecce, scegli due giocatori che si ameranno per l'eternità. Se uno dei due muore, l'altro si muore per il dispiacere.</value>
   </string>
   <string key="RoleInfoDoppelganger">
     <value> Sei il Reincarnato. Scegli un giocatore e se esso muore prenderai le sue sembianze e il suo ruolo.</value>
@@ -539,9 +539,9 @@
   <string key="RoleInfoSerialKiller">
     <value>Sei Jason Voorhees. Fuggito di recente dal manicomio di zona, il tuo obiettivo è di far morire tutti gli altri. Ogni notte, puoi aggiungere il corpo di un giocatore alla tua collezione.</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>Hai avuto un colpo di fulmine per {0}, se lui muore ti suiciderai per il dispiacere.</value>
-    <value>La freccia di Cupido ti ha colpito! Ti sei innamorato perdutamente con {0}! Se muore, condividerai il suo destino. Se riuscite a sopravvivere fino alla fine, sarete entrambi vincitori.</value>
+    <value>La freccia di Recruitero ti ha colpito! Ti sei innamorato perdutamente con {0}! Se muore, condividerai il suo destino. Se riuscite a sopravvivere fino alla fine, sarete entrambi vincitori.</value>
  </string>
   <string key="HunterLynchedChoice">
     <value>Il villaggio ha deciso di impiccarti! Hai la possibilità di portarti qualcuno nella tomba.</value>
@@ -567,7 +567,7 @@
   <string key="HunterKilledFinalShot">
     <value>In fin di vita, {1} cade... Ma non senza afferrare la pistola e sparare a {2}, che si becca il proiettile precisamente tra gli occhi.</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <value>{0} si intrufola nella casa di {1}, quel che trova gli fa venire i brividi... Sangue, armi di tortura e poi una vecchia maschera da hockey, appena la raccoglie si gira per vedere la faccia di {1} che gli mette la testa nella sega circolare giù in cantina. Guardate il lato positivo, almeno {0} ha visto il vero volto di Jason prima di morire! </value>
     <value>I satanisti mandano {0} per convertire {1}, ma invece il corpo di {0} esce volando dalla finestra con coltelli conficcati in ogni parte del corpo! CHE PSICOPATICO! {0} è morto...</value>
  </string>
@@ -586,8 +586,8 @@
   <string key="GuardBlockedKiller">
     <value>Hai provato ad uccidere {0}, ma poi ti si è materializzata tua madre che ti ha pregato di non ucciderlo. Con gli occhi lacrimanti te ne torni a casa a pensare come far felice tua madre.</value>
   </string>
-  <string key="CultConvertHunter">
-    <value>I membri del culto spediscono {0} per convertire {1}. Lui tira fuori la sua Python e spara in testa a {0}. Era un chiaro "No grazie"</value>
+  <string key="zoombiesConvertHunter">
+    <value>I membri del zoombieso spediscono {0} per convertire {1}. Lui tira fuori la sua Python e spara in testa a {0}. Era un chiaro "No grazie"</value>
   </string>
   <string key="GuardKiller">
     <value>Hai provato a proteggere Jason, appena te ne accorgi esci correndo e durante l'inseguimento prende un ascia e te la lancia nella schiena e rimani paralizzato, ti prende e ti fa una Chockslam e muori sul colpo.</value>
@@ -604,11 +604,11 @@
   <string key="DGTransformToMason">
     <value>{0} è morto, e tu ti reincarni in un Fratello,i tuoi compagni(se presenti) sono:{0}.</value>
   </string>
-  <string key="DGToCult">
-    <value>Il reincarnato di {0} è diventato un membro del culto esattamente come te!</value>
+  <string key="DGTozoombies">
+    <value>Il reincarnato di {0} è diventato un membro del zoombieso esattamente come te!</value>
   </string>
-  <string key="DGTransformToCult">
-    <value>{0} è morto, e tu ti reincarni in un membro del culto. I tuoi compagni (se presenti) sono:{1}</value>
+  <string key="DGTransformTozoombies">
+    <value>{0} è morto, e tu ti reincarni in un membro del zoombieso. I tuoi compagni (se presenti) sono:{1}</value>
   </string>
   <string key="DGToWolf">
     <value>Il reincarnato di {0} è ora diventato un cacciatore, esattamente come te!</value>
@@ -622,23 +622,23 @@
   <string key="AskKill">
     <value>Chi vuoi uccidere?</value> 
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <value>Con l'ultimo respiro di {0}, {1} accorre per vedere il suo cadavere e piange. Non riesce a sopportare la morte dell'amato, e si spara con la pistola più vicina che trova. {2}</value>
   </string>
   <string key="AskDoppelganger">
     <value>Di chi vuoi ereditare il ruolo alla sua morte?</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>Chi vuoi che siano gli innamorati? Scegli il primo giocatore</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>Chi vuoi che siano gli innamorati? Scegli il secondo giocatore</value>
   </string>
   <string key="Hunter">
     <value>Tommy Jarvis🎯</value>
   </string>
-  <string key="Cupid">
-    <value>Cupido🏹</value>
+  <string key="Recruiter">
+    <value>Recruitero🏹</value>
   </string>
   <string key="SerialKiller">
     <value>Jason Voorhees🔪</value>
@@ -652,10 +652,10 @@
   <string key="HunterKilledVisiter">
     <value>Al centro del campeggio, viene ritrovato il corpo di {0}, che è stato bucherellato da {1} che non ha apprezzato la sua visita</value>
   </string>
-  <string key="CultAttempt">
-    <value>Una figura incappucciata ha provato a portarti con se nel suo culto, ma la tua fede era troppo elevata.</value>
+  <string key="zoombiesAttempt">
+    <value>Una figura incappucciata ha provato a portarti con se nel suo zoombieso, ma la tua fede era troppo elevata.</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
   <value>Il vero amore trionfa! Gli innamorati hanno vinto!</value>
   </string>
   <string key="SerialKillerWinsOverpower">
@@ -725,8 +725,8 @@
   <string key="AboutFool">
     <value>un povero Folle che crede di essere il Veggente.... Quando sceglie di vedere il ruolo a qualcuno, gli verrà detto un ruolo casuale in partita. Nota: È più utile di quello che sembra, può sapere con esattezza i ruoli che ci sono in partita. Se vedete un ruolo, sarà in partita.</value>
   </string>
-  <string key="AboutCult">
-    <value>Come Satanista, il tuo obiettivo è convertire tutti gli altri giocatori (tranne i lupi) Al tuo culto. Se a fine partita, tutti i giocatori sono Satanisti, Vincono. \n Probabilità di convertire i seguenti ruoli: \n Sosia: 0% Finchè rimane sosia, è impossibile da convertire \n Veggente 40% Il veggente è il più difficile da convertire \n Angelo 60% Nota: Se protegge qualcuno, non lo troverai in casa \n Maledetto 60% \n Investigatore 70% \n Prostituta 70% Come l'angelo, se non è casa, non potrete convertirla \n Cacciatore 50% Avrai il 50% di convertire il cacciatore. Se fallite, C'è il 50% che vi spari.</value>
+  <string key="Aboutzoombies">
+    <value>Come Satanista, il tuo obiettivo è convertire tutti gli altri giocatori (tranne i lupi) Al tuo zoombieso. Se a fine partita, tutti i giocatori sono Satanisti, Vincono. \n Probabilità di convertire i seguenti ruoli: \n Sosia: 0% Finchè rimane sosia, è impossibile da convertire \n Veggente 40% Il veggente è il più difficile da convertire \n Angelo 60% Nota: Se protegge qualcuno, non lo troverai in casa \n Maledetto 60% \n Investigatore 70% \n Prostituta 70% Come l'angelo, se non è casa, non potrete convertirla \n Cacciatore 50% Avrai il 50% di convertire il cacciatore. Se fallite, C'è il 50% che vi spari.</value>
   </string>
   <string key="AboutCH">
     <value>Il tuo lavoro è estirpare i Satanisti. Se ti visitano, ucciderai il loro ultimo membro e saprai quanti satanisti sono rimasti. Ogni notte potrai visitare un giocatore: Se sono satanisti, li ucciderai. Sennò, tornerai a casa, come se nulla fosse successo.</value>
@@ -746,7 +746,7 @@
   <string key="AboutDG">
     <value>Puoi scegliere un giocatore a inizio partita, erediti il suo ruolo \n Nota: Se il giocatore viene convertito ai satanisti, prenderai il suo ruolo originale. Tutte le altre regole normali si applicano: se erano bimbi ribelli e il loro modello è morto, diventerai un lupo. Sennò, erediterai il loro modello.\nI satanisti non possono convertire il Sosia (ma possono dopo che il sosia cambia ruolo) E - Il sosia NON può vincere a meno che si sono trasformati. Se a fine partita, il Sosia non si è trasformato, perde (eccezione: amante).</value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>A Inizio partita, sceglie due giocatori. Dopo diventa a tutti gli effetti un normale villico. Questi due diventeranno follemente innamorati e se uno dei due muore, l'altro morirà. Nota: gli amanti sanno chi è l'altro, ma non sanno il loro ruolo. Se gli amanti sono gli ultimi due vivi, loro vincono, indipendemente dal loro ruolo. Se gli amanti sono di due team diversi(esempio: lupo + villico), e un team vince (esempio: lupi), anche l'amante (esempio:villico) vince. \n TL;DR Se tutti e due gli amanti sono vivi a fine partita, e almeno uno dei due è nel team vincitore, vincono insieme</value>
   </string>
   <string key="AboutHunter">
@@ -917,10 +917,10 @@
   <string key="AllowTannerA">
     <value>Conciatore come ruolo impostato a {0}</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>Ammettere i Satanisti in partita, come ruolo?\nAttualmente: {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>Satanista come ruolo impostato a {0}</value>
   </string>
   <string key="ThankYou">
@@ -1069,8 +1069,8 @@
   <string key="SerialKillerTeam">
     <value>Team Killer</value>
   </string>
-  <string key="CultTeam">
-    <value>Team Culto della Spina</value>
+  <string key="zoombiesTeam">
+    <value>Team zoombieso della Spina</value>
   </string>
   <string key="TannerTeam">
     <value>Team Troller</value>
@@ -1087,14 +1087,14 @@
   <string key="SerialKillerTeamEnd">
     <value>Team Killer</value>
   </string>
-  <string key="CultTeamEnd">
-    <value>Team Culto della Spina</value>
+  <string key="zoombiesTeamEnd">
+    <value>Team zoombieso della Spina</value>
   </string>
   <string key="TannerTeamEnd">
     <value>Team Conciatore</value>
   </string>
-  <string key="CultConvertWolf">
-    <value>I membri del culto hanno mandato {0} per provare a convertire {1}, ma all'improvviso si vede la testa di {0} volare fuori dalla finestra,i cacciatori hanno disprezzato questa visita.</value>
+  <string key="zoombiesConvertWolf">
+    <value>I membri del zoombieso hanno mandato {0} per provare a convertire {1}, ma all'improvviso si vede la testa di {0} volare fuori dalla finestra,i cacciatori hanno disprezzato questa visita.</value>
   </string>
   <string key="HarlotFuckedKilledPublic"> <!-- used when Harlot visit's SK's victim, and dies -->
     <!--{0} = Harlot name, {1} = SK's victim name-->
@@ -1110,10 +1110,10 @@
     <value>Sembra che {0}, il Guardiano di Crystal Lake abbia incontrato il propretario di Crystal Lake, Jason, che decide di far finire {0} su tutte le sue trappole e i sopravissuti trovarono la sua faccia più mutilata di quella di Jason.</value>
   </string>
   <string key="ZombieKilled">
-    <value>{0} è stato trovato senza braccia e senza occhi, Jason non fa distinzione di religione... {0} era un Membro del culto 👤.</value>
+    <value>{0} è stato trovato senza braccia e senza occhi, Jason non fa distinzione di religione... {0} era un Membro del zoombieso 👤.</value>
   </string>
-  <string key="CupidKilled">
-    <value>Il mattino seguente, i villici furono affranti a trovare {0}, cioè Cupido, tagliato dalla testa ai piedi. Stranamente il cuore non era presente...</value>
+  <string key="RecruiterKilled">
+    <value>Il mattino seguente, i villici furono affranti a trovare {0}, cioè Recruitero, tagliato dalla testa ai piedi. Stranamente il cuore non era presente...</value>
   </string>
   <string key="DrunkKilled">
     <value>I sopravissuti andarono a casa di {0} dato che non si presentò e quello che si trovarono daavanti fu terribile. {0} stava guardando la tv con la sua birra in mano finchè Jason non inizia a conficcare più volte il machete nella schiena di {0}, per poi piegare il letto insieme alla sua vittima spezzandogli la spina dorsale.</value>
@@ -1145,13 +1145,13 @@
     <value>{0} ha fatto visita alla casa di Jason che appena sente bussare apre la porta e conficca una lancia nella bocca del povero Poliziotto che viene conficcato in una parete di casa di Jason, che poi col suo machete taglia prima gambe, braccia, ed infine testa che butta nel lago.</value>
     <value>Il corpo di {0}, il Poliziotto, viene ritrovato tagliato esattamente in 100 pezzi sparsi per il campo, sembra non sia stata una buona idea visitare Jason.</value>
   </string>
-  <string key="CultConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
-    <value>Sembrava una notte tranquilla, visto che i cacciatori hanno deciso di rimanere a casa, ma l'unico sfortunato è stato {0}, un membro del culto che ha provato a convertire un cacciatore La testa di {0} è stata usata per giocare a minigolf.</value>
-    <value>I membri del culto hanno incontrato un problema non previsto questa notte. Il loro membro più recente, mandato a convertire, è stato legato e affogato. Sfortunatamente per {0}, i cacciatori non hanno interesse a far parte del suo culto.</value>
+  <string key="zoombiesConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
+    <value>Sembrava una notte tranquilla, visto che i cacciatori hanno deciso di rimanere a casa, ma l'unico sfortunato è stato {0}, un membro del zoombieso che ha provato a convertire un cacciatore La testa di {0} è stata usata per giocare a minigolf.</value>
+    <value>I membri del zoombieso hanno incontrato un problema non previsto questa notte. Il loro membro più recente, mandato a convertire, è stato legato e affogato. Sfortunatamente per {0}, i cacciatori non hanno interesse a far parte del suo zoombieso.</value>
   </string>
-  <string key="CultConvertKillerPublic"> <!--used when Zombies convert the SK-->
-    <value>I membri del culto pensavano stupidamente di convertire Jason tra loro, ma si sbagliavano! Jason ha scritto nel corpo di {0} queste parole: Fuck u Myers.</value>
-    <value>L'ultima notte, i membri del culto hanno provato a convertire una persona più pazza di loro. Il loro membro più recente ha provato a convertire Jason, che ha creato una nuova scultura di arte moderna con gli organi interni di {0}.</value>
+  <string key="zoombiesConvertKillerPublic"> <!--used when Zombies convert the SK-->
+    <value>I membri del zoombieso pensavano stupidamente di convertire Jason tra loro, ma si sbagliavano! Jason ha scritto nel corpo di {0} queste parole: Fuck u Myers.</value>
+    <value>L'ultima notte, i membri del zoombieso hanno provato a convertire una persona più pazza di loro. Il loro membro più recente ha provato a convertire Jason, che ha creato una nuova szoombiesura di arte moderna con gli organi interni di {0}.</value>
   </string>
   <string key="GAGuardedKiller"> <!-- used when GA guards SK -->
     <value>Doveva essere una notte tranquilla dove {0} facesse il suo lavoro da illusionista ma i suoi poteri da illusionista non funzionano se protegge Jason. Vicino al corpo, una nota "Posso proteggermi meglio di te". Qualcuno ha provato a proteggere Jason, questa notte.</value>
@@ -1172,7 +1172,7 @@
   </string>
   <string key="CHKillsZombieEnd">
     <!--{0} = last Zombie's name, {1} = CH's name -->
-    <value>{1} e {0} escono appena spuntarono i primi raggi di luce. Vedendo il tatuaggio di {0}, capisce che ormai è un membro del culto e decide cosi di porre fine una volta per tutte al Culto della Spina, almeno a Crystal Lake. Ora andrà a far visita a Myers per ucciderlo, o almeno provarci!</value>
+    <value>{1} e {0} escono appena spuntarono i primi raggi di luce. Vedendo il tatuaggio di {0}, capisce che ormai è un membro del zoombieso e decide cosi di porre fine una volta per tutte al zoombieso della Spina, almeno a Crystal Lake. Ora andrà a far visita a Myers per ucciderlo, o almeno provarci!</value>
   </string>
   
   <!-- Extend time -->
@@ -1239,8 +1239,8 @@
     <!-- {0} = list of people who have joined -->
     <value>{0} sono entrati in partita negli ultimi 30 secondi.</value>
   </string>
-  <string key="AllowCult">
-    <value>Allow Cult</value>
+  <string key="Allowzoombies">
+    <value>Allow zoombies</value>
   </string>
   <string key="AllowTanner">
     <value>Allow Tanner</value>

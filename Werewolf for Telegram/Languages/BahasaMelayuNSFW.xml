@@ -209,7 +209,7 @@
     <value >You are a Zombie.  Every night, you may choose a player to convert to a Zombie. If all remaining living players at the end are Zombies, they win.</value>
   </string>
   <string key="RoleInfoZombieHunter" >
-    <value >You are the Zombie Hunter, trying to stop the cult in town from converting everyone!  Each night, choose a player.  If they are a Zombie, they die.  If the cult tries to convert you, the cult's newest member dies.</value>
+    <value >You are the Zombie Hunter, trying to stop the zoombies in town from converting everyone!  Each night, choose a player.  If they are a Zombie, they die.  If the zoombies tries to convert you, the zoombies's newest member dies.</value>
   </string>
   <string key="LynchTime" >
     <!-- 0 - number of seconds -->
@@ -268,7 +268,7 @@
   </string>
   <string key="HunterKilledZombie">
     <!-- 0 - victim name -->
-    <value>A noticeable stench is coming from {0}'s house...  the village inspects it to find a body lying in front of a dark altar. A Zombie has been killed by the cult hunter!</value>
+    <value>A noticeable stench is coming from {0}'s house...  the village inspects it to find a body lying in front of a dark altar. A Zombie has been killed by the zoombies hunter!</value>
   </string>
   <string key="NoAttack" >
     <value >The villagers gather the next morning in the village center, to sighs of relief - it appears there was no attack the previous night.</value>
@@ -377,34 +377,34 @@
     <!-- 1 - target name -->
     <value >{0} has voted to convert {1}</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <!-- 0 - Yougest Zombie (killed)'s name' -->
     <!-- 1 - ZombieHunter's name -->
-    <value>{0} was sent to do your dirty work, and convert {1}... however, they were the cult hunter! {0} is dead!</value>
+    <value>{0} was sent to do your dirty work, and convert {1}... however, they were the zoombies hunter! {0} is dead!</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - Number of Zombies left -->
     <value>{0} came to your house last night, ready to convert you....  but you shoved your sword right through him.  A Zombie is dead... {1} remain!</value>
   </string>
-  <string key="CultConvertYou">
-    <value>The cult has converted you to their order!  You are now a Zombie.  Every other night, you will have a chance to convert another player.</value>
+  <string key="zoombiesConvertYou">
+    <value>The zoombies has converted you to their order!  You are now a Zombie.  Every other night, you will have a chance to convert another player.</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <!-- 0 - Number of Zombies -->
     <value>Zombies: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <!-- 0 - new Zombie's name -->
-    <value>{0} has joined the cult!</value>
+    <value>{0} has joined the zoombies!</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <!-- 0 - Newest Zombie's name -->
     <!-- 1 - target name -->
     <value>{0} was sent to do your dirty work, and convert {1}... but no one was home. You make your way to the mamak and ask for 2 kosong before going home</value>
   </string>
-  <string key="CultWins" isgif="true">
-    <value >All the wolves have died, and the only people left standing have all been converted to Zombies..  The cult has won! HOOGA HOOGA HOOGA</value>
+  <string key="zoombiesWins" isgif="true">
+    <value >All the wolves have died, and the only people left standing have all been converted to Zombies..  The zoombies has won! HOOGA HOOGA HOOGA</value>
   </string>
   <string key="HunterVisitDead">
     <!-- 0 - target name -->
@@ -507,7 +507,7 @@
     <value>  The masons are: {0}</value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <!-- 0 - Youngest Zombies name -->
     <value>Your newest member heads over to {0}'s house to convert them, but instead finds the house a complete wreck, blood everywhere, and bits of wolf fur snagged on the doorway...</value>
   </string>
@@ -516,7 +516,7 @@
     <value>The pack heads to {0}'s house to eat them, but they are met by a tall dark figure, armed to the teeth. The Guardian Angel fights everyone off, and you head back defeated.</value>
   </string>
   <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <!-- 0 - newest  -->
     <!-- 1 - target's name -->
     <value>You send {0} to try to convert {1}, however their belief was too strong, and you were unable to convert them :(</value>
@@ -527,7 +527,7 @@
     <!-- 1 - name -->
     <value>@{1}, a player with the name {0} has already joined.  Please change your name to join.</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <!-- 0 - target's name -->
     <value>You slipped into {0}'s house for a bit of fun... but as you are leaving, you happen to notice a strange altar, poorly hidden off in a side room, with a strange glowing coming from it...</value>
   </string>
@@ -621,8 +621,8 @@
     <value>Time's up!</value>
   </string>
   <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
-    <value>You are Cupid. Sent to Earth with only underpants, a bow and two arrows, you get to choose two players to love each other for eternity. If one of them dies, the other one dies of sorrow.</value>
+  <string key="RoleInfoRecruiter">
+    <value>You are Recruiter. Sent to Earth with only underpants, a bow and two arrows, you get to choose two players to love each other for eternity. If one of them dies, the other one dies of sorrow.</value>
   </string>
   <string key="RoleInfoDoppelganger">
     <value>You are a Doppelgänger. Legend has it that your ancestors were metamorphs, and could choose any form they wanted. You have inherited some of their capacities. Choose a player, when that player dies, you will take on their role.</value>
@@ -633,7 +633,7 @@
   <string key="RoleInfoSerialKiller">
     <value>You are the serial killer. Recently escaped from the local asylum, your goal is for everyone else to die. Every night, you can add a player's body to your collection.</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>You have been struck by love. {0}'s memory will never fade in your heart. Your goal is for both of you to survive. If one of you dies, the other one will die out of sorrow.</value>
   </string>
   <string key="HunterLynchedChoice">
@@ -668,7 +668,7 @@
     <!-- 2 - target's role -->
     <value>As the bullet pierces {0}, they fall to the ground.... but not without grasping their pistol, and firing upon {1}, who takes a bullet right between the eyes. {2}</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <value>{0} sneaks over to {1}'s house, pops open the door, and is immediately greeted by a crazed maniac with a knife!!! {1} plunges the knife deep into {0}'s organs in alphabetical order, cackling the entire time! {0} is dead D:</value>
   </string>
   <string key="HunterShotWolfMulti">
@@ -691,15 +691,15 @@
     <!-- 0 - target's name -->
     <value>You tried to collect {0}'s body for your collection, but you were fought off by the guardian angel! No kill for you tonight...</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
-    <value>The cult sends {0} to try to convert {1}, but instead a shot rings out and {0}'s body comes flying out of the window! {0} is dead....</value>
+    <value>The zoombies sends {0} to try to convert {1}, but instead a shot rings out and {0}'s body comes flying out of the window! {0} is dead....</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
-    <value>The cult sends {0} to try to convert {1}, but instead a {0}'s body comes flying out of the window, knives pushed into every part of their body! WHAT A PSYCHO! {0} is dead....</value>
+    <value>The zoombies sends {0} to try to convert {1}, but instead a {0}'s body comes flying out of the window, knives pushed into every part of their body! WHAT A PSYCHO! {0} is dead....</value>
   </string>
   <string key="GuardKiller">
     <value>You tried to guard the serial killer, but they came out and stabbed you 89 times! You are dead....</value>
@@ -720,11 +720,11 @@
     <!-- 1 - mason collegues's name -->
     <value>{0} has died, and you transform into a mason.  Your teammates (if any) are: {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <!-- 0 - new Zombie's name -->
     <value>The doppelganger {0} has now become a Zombie, just like you!</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <!-- 0 - role's name -->
     <!-- 1 - teammates's name -->
     <value>{0} has died, and you transform into a Zombie.  Your teammates (if any) are: {1}</value>
@@ -744,26 +744,26 @@
   <string key="AskKill">
     <value>Who do you want to kill tonight?</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <!-- 0 - dead's name -->
-    <!-- 1 - lover's name -->
+    <!-- 1 - crewmate's name -->
     <!-- 2 - roles -->
     <value>With {0}'s dying breath, {1} rushes over and falls, crying.  They cannot stand the loss of their loved one, and shoot themselves with the nearest pistol they can find. {2}</value>
   </string>
   <string key="AskDoppelganger">
     <value>Who do you want to become if they die?</value>
   </string>
-  <string key="AskCupid1">
-    <value>Who do you want the lovers to be? Choose the first player</value>
+  <string key="AskRecruiter1">
+    <value>Who do you want the crewmates to be? Choose the first player</value>
   </string>
-  <string key="AskCupid2">
-    <value>Who do you want the lovers to be? Choose the second player</value>
+  <string key="AskRecruiter2">
+    <value>Who do you want the crewmates to be? Choose the second player</value>
   </string>
   <string key="Hunter">
     <value>the Hunter 🎯</value>
   </string>
-  <string key="Cupid">
-    <value>Cupid 🏹</value>
+  <string key="Recruiter">
+    <value>Recruiter 🏹</value>
   </string>
   <string key="SerialKiller">
     <value>the Serial Killer 🔪</value>
@@ -771,24 +771,24 @@
   <string key="Doppelgänger">
     <value>the Doppelgänger 🎭</value>
   </string>
-  <string key="CupidChosen">
-    <!-- 0 - lover's name -->
-    <value>Cupids arrow has struck you! You are madly in love with {0}!  If they die, you will die too.  If you both make it to the end, you will both win.</value>
+  <string key="RecruiterChosen">
+    <!-- 0 - crewmate's name -->
+    <value>Recruiters arrow has struck you! You are madly in love with {0}!  If they die, you will die too.  If you both make it to the end, you will both win.</value>
   </string>
   <string key="NewWCRoleModel">
     <!-- 0 - target's name -->
     <value>You have become the wild child.  You role model is {0}</value>
   </string>
-  <string key="LoversWin">
-    <value>True love endures! The lovers have won!</value>
+  <string key="crewmatesWin">
+    <value>True love endures! The crewmates have won!</value>
   </string>
   <string key="HunterKilledVisiter">
     <!-- 0 - target's name -->
     <!-- 1 - role -->
     <value>In the middle of the town square, everyone finds the body of {0}, multiple shots to the body.  Looks like they tried to sneak up on the Hunter! {1}</value>
   </string>
-  <string key="CultAttempt">
-    <value>A hooded figure tried to convert you to their cult, but your faith was too strong</value>
+  <string key="zoombiesAttempt">
+    <value>A hooded figure tried to convert you to their zoombies, but your faith was too strong</value>
   </string>
   <string key="AlreadyOnWaitList">
     <!-- 0 - target's name -->
@@ -867,11 +867,11 @@
   <string key="AboutFool">
     <value>he fool is told they are the seer.... when they choose to see someone's role at night, they are told a random role.</value>
   </string>
-  <string key="AboutCult">
-    <value>As a Zombie, it is your goal to convert all other players (except wolves) to your cult. If at the end of the game, all living players are Zombie - the cult wins</value>
+  <string key="Aboutzoombies">
+    <value>As a Zombie, it is your goal to convert all other players (except wolves) to your zoombies. If at the end of the game, all living players are Zombie - the zoombies wins</value>
   </string>
   <string key="AboutCH">
-    <value>Your job is to hunt the Cult. If the cult attacks you, their newest member will die. Each night you may pick a player to 'hunt' - if they are a Zombie, they will die.</value>
+    <value>Your job is to hunt the zoombies. If the zoombies attacks you, their newest member will die. Each night you may pick a player to 'hunt' - if they are a Zombie, they will die.</value>
   </string>
   <string key="AboutWC">
     <value>At the beginning of the game, you will choose someone to be your 'role model'. If they die, you become a werewolf.</value>
@@ -888,25 +888,25 @@
   <string key="AboutDG">
     <value>
       Your ancestors had the ability to metamorph into others... while you don't have their full abilities, you can pick a player at the start of the game. If that player dies, you will become what they were.
-      Note: If the player was converted to cult, you will take on their original role. All other normal rules apply: If they were Wild Child and their role model died, you will become a wolf. Otherwise, you will inherit their role model.
-      The cult cannot convert the Doppelgänger (but can after the doppelganger switches roles). Also - the Doppelgänger can NOT win unless they have transformed. If at the end of the game, the Doppelgänger is still the same, they lose (exception: lover)
+      Note: If the player was converted to zoombies, you will take on their original role. All other normal rules apply: If they were Wild Child and their role model died, you will become a wolf. Otherwise, you will inherit their role model.
+      The zoombies cannot convert the Doppelgänger (but can after the doppelganger switches roles). Also - the Doppelgänger can NOT win unless they have transformed. If at the end of the game, the Doppelgänger is still the same, they lose (exception: crewmate)
     </value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>
-      Love is in the air. As Cupid, you will choose two players at the start of the game. These two players will become madly in love! If one of them dies, the other will die of sorrow :(
-      Note: Lovers will know who each other are, but not be told their roles. If the lovers are the last two alive, they win, regardless of teams. If the lovers are on different teams (villager + wolf), and one team wins (wolf), the lover (villager) wins as well. TL;DR if both lovers are alive at the end, and at least one of them was on the winning team, they both win together
+      Love is in the air. As Recruiter, you will choose two players at the start of the game. These two players will become madly in love! If one of them dies, the other will die of sorrow :(
+      Note: crewmates will know who each other are, but not be told their roles. If the crewmates are the last two alive, they win, regardless of teams. If the crewmates are on different teams (villager + wolf), and one team wins (wolf), the crewmate (villager) wins as well. TL;DR if both crewmates are alive at the end, and at least one of them was on the winning team, they both win together
     </value>
   </string>
   <string key="AboutHunter">
     <value>
       A trigger happy, vindictive player. As the hunter, you try to keep to yourself. However, when others come to visit you, they may find themselves dead, as your paranoia takes hold and you shoot. If the wolves attack you, you have a chance to take one of them with you. Otherwise, if you die, you will get a chance to shoot someone as you die.
       Note: For wolf attacks, the chance starts at 30%. If there is one wolf, the hunter has a 30% chance to kill the wolf (and survive). For each additional wolf, add 20% (2 wolves = 50%, 3 = 70%, etc). However - if there are multiple wolves, while you may kill one of them, you will still be outnumbered and killed.
-      If the cult tries to convert you, they have a 50% chance to fail. If they fail, you have a 50% chance to kill one of them!
+      If the zoombies tries to convert you, they have a 50% chance to fail. If they fail, you have a 50% chance to kill one of them!
     </value>
   </string>
   <string key="AboutSK">
-    <value>That asylum was silly anyways. What a joke. You are free now however, back to business as usual - killing! The serial killer is a lone player, on their own team. They can win only if they are the last player alive (exception: lovers). As the serial killer, you can kill ANYONE - wolves, hunters, gunners, guardian angels, whatever. If the wolves try to attack you, you will kill one of them (random), and live.</value>
+    <value>That asylum was silly anyways. What a joke. You are free now however, back to business as usual - killing! The serial killer is a lone player, on their own team. They can win only if they are the last player alive (exception: crewmates). As the serial killer, you can kill ANYONE - wolves, hunters, gunners, guardian angels, whatever. If the wolves try to attack you, you will kill one of them (random), and live.</value>
   </string>
   <string key="AboutPara">
     <value>Para is a silly developer that likes to bark at people.  Maybe he's been messing with werewolves too long....Messing with werewolves is a very bad idea.</value>
@@ -1076,11 +1076,11 @@
   <string key="AllowTannerA">
     <value>Tanner as a role set to: {0}</value>
   </string>
-  <string key="AllowCultQ">
-    <value>Allow cult as a role option?\nCurrent: {0}</value>
+  <string key="AllowzoombiesQ">
+    <value>Allow zoombies as a role option?\nCurrent: {0}</value>
   </string>
-  <string key="AllowCultA">
-    <value>Cult as a role set to: {0}</value>
+  <string key="AllowzoombiesA">
+    <value>zoombies as a role set to: {0}</value>
   </string>
   <string key="ThankYou">
     <value>Thank you, have a good day :)</value>

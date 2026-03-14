@@ -374,35 +374,35 @@
 <!-- 1 - target name -->
     <value>{0} has voted to make {1} into a hooligan.</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
 <!-- 0 - Yougest Zombie (killed)'s name' -->
 <!-- 1 - ZombieHunter's name -->
     <value>{0} was sent to persuade {1} to become a hooligan only to be confronted with a weapon and hand cuffs. He is arrested and cannot go into stadiums ever again.</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
 <!-- 0 - Youngest Zombie's name -->
 <!-- 1 - Number of Zombies left -->
     <value>{0} wanted you to become a hooligan but you take your weapon out and arrest him instead! {1} hooligans remain!</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>The hooligans convinced you that football is a waste of time and beating people up is the better sport. So you have become one of them. Every game, you can convince another person to become a hooligan too.</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
 <!-- 0 - Number of Zombies -->
 <!-- 0 - Number of Zombies -->
     <value>Hooligans: {0}</value>
     <value>{0} has decided violence is good, football is bad and joined the hooligans!</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
 <!-- 0 - new Zombie's name -->
     <value>{0} has joined the hooligans!</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
 <!-- 0 - Newest Zombie's name -->
 <!-- 1 - target name -->
     <value>You wanted {1} to become a hooligan so you sent {0} to convince him. However, {0} couldn't find him on his usual position.</value>
   </string>
-  <string key="CultWins">
+  <string key="zoombiesWins">
     <value>Every football player, offender or not, has been banned from the stadium. Only people inside the stadium left are the hooligans! They destroyed the tournament and won!</value>
   </string>
   <string key="HunterVisitDead">
@@ -507,7 +507,7 @@
 <!-- new strings May 6 2016-->
     <value>  The defenders are: {0}</value>
   </string>
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
 <!-- 0 - Youngest Zombies name -->
     <value>Your newest member heads over to {0} to make him a hooligan but {0} decides he likes his way of violence more and punches your newest member in the face.</value>
   </string>
@@ -516,7 +516,7 @@
 <!-- new strings May 9 2016-->
     <value>You try to aim a ball at {0}'s face, but the goalkeeper gets it in time! Unlucky for him, the goal is free and someone shoots the ball in there!</value>
   </string>
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
 <!-- 0 - newest  -->
 <!-- 1 - target's name -->
 <!-- new string May 12 2016-->
@@ -527,7 +527,7 @@
 <!-- 1 - name -->
     <value>@{1}, a player with the name {0} has already joined.  Please change your name to join.</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
 <!-- 0 - target's name -->
 <!-- new string May 13 2016-->
     <value>You tried to support {0} last game but you find him on the ranks and not on the play field...?</value>
@@ -620,7 +620,7 @@
 <!-- new strings june 10 2016 -->
     <value>Time's up!</value>
   </string>
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
     <value>You are the dreamer (🏹). You like to come up with your own theories on who is paired with who, only that this tournament, your theory comes true!</value>
   </string>
   <string key="RoleInfoDoppelganger">
@@ -632,7 +632,7 @@
   <string key="RoleInfoSerialKiller">
     <value>You are the salty Holland (🔪). Your team didn't qualify for this tournament. Out of anger, you decided to ruin the tournament... For EVERYONE!!!!!!</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>The dreamer decided, you and {0} make the perfect couple. What's even worse, he is right! You can win together, but if {0} leaves the competition, so will you.</value>
     <value>The dreamer decided, you and {0} should be together and ever. Fate has it this tournament, he is right. You can win together, but if {0} leaves the competition, so will you.</value>
   </string>
@@ -688,12 +688,12 @@
 <!-- 0 - target's name -->
     <value>You tried to let your anger on {0} out, only to find you couldn't hit him because the goalkeeper was in the way...</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
 <!-- 0 - Youngest Zombie's name -->
 <!-- 1 - target's name -->
     <value>You wanted to make {1} a hooligan but you decided on the wrong person! {0} is the striker and kicks you for even daring to try...</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
 <!-- 0 - Youngest Zombie's name -->
 <!-- 1 - target's name -->
     <value>You send {0} to convince {1} violence is awesome, but {1} has his own sense of destruction. You loose one member as the salty Holland fouls him...</value>
@@ -717,11 +717,11 @@
 <!-- 1 - mason collegues's name -->
     <value>{0} has left the tournament. You pick up his shirt and become a defender! Your teammates (if any) are: {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
 <!-- 0 - new Zombie's name -->
     <value>The naked {0} picked up one of the hooligans shirts! He is now one of you!</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
 <!-- 0 - role's name -->
 <!-- 1 - teammates's name -->
     <value>{0} has left the competition. You pick up his shirt and become a hooligan just like {0} was. Your teammates (if any) are: {1}</value>
@@ -741,25 +741,25 @@
   <string key="AskKill">
     <value>Who do you want to foul this game?</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
 <!-- 0 - dead's name -->
-<!-- 1 - lover's name -->
+<!-- 1 - crewmate's name -->
 <!-- 2 - roles -->
-    <value>With {0} leaving the tournament, {1} decides not to play anymore and rushes to his lovers. They both leave the stadium in harmony, side by side side to play somewhere else. {2}</value>
+    <value>With {0} leaving the tournament, {1} decides not to play anymore and rushes to his crewmates. They both leave the stadium in harmony, side by side side to play somewhere else. {2}</value>
   </string>
   <string key="AskDoppelganger">
     <value>Whose shirt do you want to pick up after he leaves?</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>Which player do you want to be the perfect couple? Choose the first player</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>Who do you want to be the perfect couple? Choose the second player</value>
   </string>
   <string key="Hunter">
     <value>the Striker ⚽️ (🎯)</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>Dreamer 🛌 (🏹)</value>
   </string>
   <string key="SerialKiller">
@@ -772,7 +772,7 @@
 <!-- 0 - target's name -->
     <value>You have become the best buddy . Your best friend is {0}.</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
     <value>The dreamers love-fantasy becomes reality as the only people standing are his couple!</value>
   </string>
   <string key="HunterKilledVisiter">
@@ -780,7 +780,7 @@
 <!-- 1 - role -->
     <value>After everyone left the stadium, {0} is left lying on the ranks, the imprint of a ball in his face. Seems like the hooligans tried to make the Striker join last game... Well, {1}.</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>One of the hooligans tried to convince you last game, but your love to football is too strong.</value>
   </string>
   <string key="AlreadyOnWaitList">
@@ -862,7 +862,7 @@
   <string key="AboutFool">
     <value>The hobby Filmer (🃏) thinks he is a legit reporter... Only problem is, he is not... :(</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>You are a hooligan (👤). You like violence and pyrotechnics. You can convince other people to do so too until only hooligans are left standing and the tournament is ruined.</value>
   </string>
   <string key="AboutCH">
@@ -883,7 +883,7 @@
   <string key="AboutDG">
     <value>You are the naked (🎭). You forgot your shirt this tournament but lucky for you, you can choose someone whose shirt you will pick up once he leaves the tournament.</value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>>You are the dreamer (🏹). You like to come up with your own theories on who is paired with who, only that this tournament, your theory comes true!</value>
   </string>
   <string key="AboutHunter">
@@ -1055,10 +1055,10 @@
   <string key="AllowTannerA">
     <value>Injured player as a role set to: {0}</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>Allow hooligans as a role option?\nCurrent: {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>Hooligans as a role set to: {0}</value>
   </string>
   <string key="EnableSecretLynchQ">
@@ -1230,13 +1230,13 @@
   <string key="SerialKillerTeamEnd">
     <value>Hollands Team</value>
   </string>
-  <string key="CultTeamEnd">
+  <string key="zoombiesTeamEnd">
     <value>Hooligans Team</value>
   </string>
   <string key="TannerTeamEnd">
     <value>Injured Team</value>
   </string>
-  <string key="CultConvertWolf">
+  <string key="zoombiesConvertWolf">
     <value>You wanted to convert {0} to your team but instead your newest mate {1} gets fouled by him!!</value>
   </string>
   <string key="HarlotFuckedKilledPublic">
@@ -1254,7 +1254,7 @@
   <string key="ZombieKilled">
     <value>{0} wanted to convince the Salty Holland to become a hooligan, but he regrets this now as he is on his way to the hospital!</value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>The dreamer tried to sleep through a game but the Salty Holland used his chance to foul {0}...</value>
   </string>
   <string key="DrunkKilled">
@@ -1288,12 +1288,12 @@
 	<value>The saltiness of the Holland doesn't even make a stop from the police! As {0} tries to check on a particular player, he gets injured severely.</value>
 	<value>The police man tried to check the wrong person out. {0} is found in a locker, but his gun cannot be found anywhere... :S Hopefully, the Salty Holland didn't keep it.</value>
   </string>
-  <string key="CultConvertWolfPublic">
+  <string key="zoombiesConvertWolfPublic">
 <!--used when Zombies convert the wolves, only if wolves stayed home-->
 	<value>The Hooligans tried to convert one of the offenders, but {0} got injured in the process...</value>
 	<value>As {0} tries to convince an offender, the offender decides to do the police's job and made sure {0} would not be able to participate in the tournament again.</value>
   </string>
-  <string key="CultConvertKillerPublic">
+  <string key="zoombiesConvertKillerPublic">
 <!--used when Zombies convert the SK-->
 	<value>The hooligans wanted to add another violent member to their team. Too late they realized that their choice was even more violent than them. {0} was fouled and had to be send to the hospital cause of that mistake!</value>
 	<value>{0} tried to pursue the Holland into joining the hooligans. He didn't realize his error fast enough and got injured badly by the Holland.</value>
@@ -1378,7 +1378,7 @@
 <!-- NOTE: No space between {0} and joined. It will be added in the code if necessary-->
     <value>{0}joined the tournament in the last 30 seconds.</value>
   </string>
-  <string key="AllowCult">
+  <string key="Allowzoombies">
     <value>Allow Hooligans</value>
   </string>
   <string key="AllowTanner">

@@ -65,7 +65,7 @@ namespace Werewolf_Node.Models
         public ITeam Team { get; set; } = ITeam.Village;
         public bool HasNightAction { get; set; } = false;
         public bool HasDayAction { get; set; } = false;
-        public int DayCult { get; set; } = 0;
+        public int Dayzoombies { get; set; } = 0;
         public int RoleModel { get; set; } = 0;
         public IRole KilledByRole { get; set; }
         public bool DiedByVisitingKiller { get; set; } = false;
@@ -74,8 +74,8 @@ namespace Werewolf_Node.Models
         public int MessageId { get; set; }
         public string Name { get; set; }
         public IRole OriginalRole { get; set; }
-        public bool InLove { get; set; } = false;
-        public int LoverId { get; set; } = 0;
+        public bool isRecruited { get; set; } = false;
+        public int crewmateId { get; set; } = 0;
         public int DBPlayerId { get; set; } = 0;
         public int DBGamePlayerId { get; set; } = 0;
         public DateTime TimeDied { get; set; } = DateTime.MaxValue;
@@ -105,9 +105,9 @@ namespace Werewolf_Node.Models
         public bool DoubleKillEnding { get; set; } = false;
         public bool Bitten { get; set; }
         public List<int> CorrectSnooped { get; set; } = new List<int>();
-        public bool SpeedDating { get; set; } = false;
+        public bool DefaultRecruiter { get; set; } = false;
         public int FirstStone { get; set; } = 0;
-        public int CHHuntedCultCount { get; set; } = 0;
+        public int CHHuntedzoombiesCount { get; set; } = 0;
         public int ClumsyCorrectLynchCount { get; set; } = 0;
         public int AlphaConvertCount { get; set; } = 0;
         public int GAGuardWolfCount { get; set; } = 0;
@@ -142,8 +142,8 @@ namespace Werewolf_Node.Models
         Hunt,
         HunterKill,
         SerialKill,
-        Lover1,
-        Lover2,
+        crewmate1,
+        crewmate2,
         Mayor,
         SpreadSilver,
         Kill2,
@@ -160,7 +160,7 @@ namespace Werewolf_Node.Models
 
     public enum IRole
     {
-        Villager, Drunk, Harlot, Seer, Traitor, GuardianAngel, Detective, Wolf, Cursed, Gunner, Tanner, Fool, WildChild, Beholder, ApprenticeSeer, Zombie, ZombieHunter, Mason, Doppelgänger, Cupid, Hunter, SerialKiller,
+        Villager, Drunk, Harlot, Seer, Traitor, GuardianAngel, Detective, Wolf, Cursed, Gunner, Tanner, Fool, WildChild, Beholder, ApprenticeSeer, Zombie, ZombieHunter, Mason, Doppelgänger, Recruiter, Hunter, SerialKiller,
         //new roles
         Sorcerer, AlphaWolf, WolfCub, Blacksmith, ClumsyGuy, Mayor, Prince,
         //more new roles, from april fools.....
@@ -173,15 +173,15 @@ namespace Werewolf_Node.Models
 
     public enum ITeam
     {
-        Village, Cult, Wolf, Tanner,
-        Neutral, SerialKiller, Lovers,
+        Village, zoombies, Wolf, Tanner,
+        Neutral, SerialKiller, crewmates,
         SKHunter,
         NoOne
     }
 
     public enum KillMthd
     {
-        None, Lynch, Eat, Shoot, VisitWolf, VisitVictim, GuardWolf, Detected, Flee, Hunt, HunterShot, LoverDied, SerialKilled, HunterCult, GuardKiller, VisitKiller, Idle, Suicide, StealKiller, Chemistry, FallGrave,
+        None, Lynch, Eat, Shoot, VisitWolf, VisitVictim, GuardWolf, Detected, Flee, Hunt, HunterShot, crewmateDied, SerialKilled, Hunterzoombies, GuardKiller, VisitKiller, Idle, Suicide, StealKiller, Chemistry, FallGrave,
         Spotted, Burn, VisitBurning
     }
 }

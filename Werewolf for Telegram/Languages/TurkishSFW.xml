@@ -377,33 +377,33 @@
     <!-- 1 - target name -->
     <value >{0}, {1}’i çevirmek için oy kullandı.</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <!-- 0 - Yougest Zombie (killed)'s name' -->
     <!-- 1 - ZombieHunter's name -->
     <value>{0} senin pis işini yapmak için gönderildi, {1}’i çevirecekti... ama o Tarikatcı Avcısıydı! {0} nalları dikti!</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - Number of Zombies left -->
     <value>{0} dün gece evine geldi, seni çevirecekti... Sen de kılıcını çektin anında. Tarikatçı yerde... {1} Tarikat üyesi kaldı!</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>Tarikat üyesi seni çevirdi!  Şimdi tarikatçısın. Her gece birisini tarikat üyesine çevirebilirsin.</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <!-- 0 - Number of Zombies -->
     <value>Tarikat üyesi sayısı: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <!-- 0 - new Zombie's name -->
     <value>{0} Tarikata katıldı!</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <!-- 0 - Newest Zombie's name -->
     <!-- 1 - target name -->
     <value>{0} senin pis işini yapmak için gönderildi, {1}’i çevirecekti... ama evde kimse yok!</value>
   </string>
-  <string key="CultWins" isgif="true">
+  <string key="zoombiesWins" isgif="true">
     <value >Tüm kurtlar öldü, tüm kalanlar da tarikata girdi... Tarikat kazandı!</value>
   </string>
   <string key="HunterVisitDead">
@@ -508,7 +508,7 @@
     <value>  Masonlar: {0}</value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <!-- 0 - Youngest Zombies name -->
     <value>Tarikatın en yeni üyesi {0}'ın evine, onu ikna etmeye gitti ama ev tam bir enkaz her yer kan, kapıda kurt tüyleri var...</value>
   </string>
@@ -517,7 +517,7 @@
     <value>Sürü {0}'in evine onu yemeye gidiyorlar. Ama orada uzun, kocaman kanatlı birisi onları karşıladı. Koruyucu melek herkesi tek başına patakladı. Kuyruğunuzu kısıp geri döndünüz. </value>
   </string>
   <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <!-- 0 - newest  -->
     <!-- 1 - target's name -->
     <value> {1}’i dönüştürmek amacıyla {0}’i gönderdin lakin imanı çok kuvvetli olduğundan dönüşmedi :(</value>
@@ -528,7 +528,7 @@
     <!-- 1 - name -->
     <value>@{1}, {0} isminde bir oyuncu zaten katıldı.  Lütfen katılmak için ismini değiştir.</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <!-- 0 - target's name -->
     <value>Biraz eğlenmek için {0}’in evine gittin... Tam evi terk edecekken yan odada üstünkörü saklanmış ışıklar saçan garip bir sunak fark ettin 0o0...</value>
   </string>
@@ -622,7 +622,7 @@
     <value>Zaman doldu!</value>
   </string>
   <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
     <value>Eros oldun (aşk tanrısı). Bir yay ve iki ok ile beraber yeryüzüne gönderildin. İki kişiyi birbirlerine ölümüne aşık et ki biri diğerinin ölümüne dayanamayıp acısından can versin.</value>
   </string>
   <string key="RoleInfoDoppelganger">
@@ -634,7 +634,7 @@
   <string key="RoleInfoSerialKiller">
     <value>Seri Katilsin. Yerel bi akıl hastanesinden kaçtın, hedefin herkesi öldürmek. Her gece koleksiyonuna eklemek için birisini seçebilirsin.</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>Seni aşk çarpmış. {0}'in hatırası hep kalbinde kalacak. Eğer biriniz ölürse diğeriniz de acısından ölecek. Eğer biriniz kazanırsa da ikiniz kazanacaksınız, kalp kalp. </value>
 	<value>Aşk oku tam kalbine saplandı! {0}’i deli gibi seviyorsun! Eğer biriniz ölürse diğeriniz de acısından ölecek. Eğer biriniz kazanırsa da ikiniz kazanacaksınız.</value>
   </string>
@@ -670,7 +670,7 @@
     <!-- 2 - target's role -->
     <value>Ölüm kapıyı çalar.. {0} yere düşüyor... düşerken {1}’i alnının çatından vuruyor. {2}</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <value>{0}, {1}'in evine gidiyor. Kapıyı açar açmaz elinde bıçakla çılgın biri ona saldırıyor!!! {1} bıçağını {0}'in organlarına alfabetik sırayla saplıyor. Her seferinde de kıkır kıkır gülüyor pislik. {0} delik deşik </value>
   </string>
   <string key="HunterShotWolfMulti">
@@ -693,12 +693,12 @@
     <!-- 0 - target's name -->
     <value> {0}'in cesedini koleksiyonuna eklemek için çalışıyordun ama koruyucu melek tarafından püskürtüldün! Bu gece öldürme yok...</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
     <value>Tarikat üyeleri {0}’i,  {1}’i dönüştürmek için gönderdi, ama onun yerine bir ateş açıldı ve {0}'in vücudu pencereden dışarı fırladı! {0} ölü...</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
     <value>Tarikat üyeleri {0}’i, {1}’i dönüştürmek için gönderdi, ama onun yerine bir ateş açıldı ve {0}'in vücudu pencereden dışarı fırladı, bıçaklar vücudunun her yerine sokulmuş! NASIL BIR PSIKOPAT! {0} ölü...</value>
@@ -723,11 +723,11 @@
     <!-- 1 - mason collegues's name -->
     <value>{0} öldü ve sen masona dönüştün. Takım arkadaşların (eğer varsa): {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <!-- 0 - new Zombie's name -->
     <value> Çift-giden {0} şimdi tarikat üyesi oldu, tıpkı senin gibi!</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <!-- 0 - role's name -->
     <!-- 1 - teammates's name -->
     <value>{0} öldü ve sen tarikat üyesine dönüştün. Takım arkadaşların (eğer varsa): {1}</value>
@@ -747,25 +747,25 @@
   <string key="AskKill">
     <value>Bu gece kimi öldürmek istersin?</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <!-- 0 - dead's name -->
-    <!-- 1 - lover's name -->
+    <!-- 1 - crewmate's name -->
     <!-- 2 - roles -->
     <value> {0}'ın kesilen soluğuyla, {1} yıkılıp düşer ve ağlamaya başlar. Sevdiğinin kaybıyla yaşayamaz ve bulabildiği en yakın tabanca ile kendini öldürür. GERÇEK AŞK {2}</value>
   </string>
   <string key="AskDoppelganger">
     <value>Öldürülürse kimin rolünde olmak istersin?</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>Kimlerin aşık olmasını istersin? İlk oyuncuyu seç</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>Kimlerin aşık olmasını istersin? İkinci oyuncuyu seç</value>
   </string>
   <string key="Hunter">
     <value>Avcı 🎯</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>Eros 🏹</value>
   </string>
   <string key="SerialKiller">
@@ -778,7 +778,7 @@
     <!-- 0 - target's name -->
     <value>Yabani çocuk oldun. Rol modelin {0}</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
     <value>Gerçek aşk sonsuza dek devam eder! Aşıklar kazandı! *-*</value>
   </string>
   <string key="HunterKilledVisiter">
@@ -786,7 +786,7 @@
     <!-- 1 - role -->
     <value>Köy meydanının ortasında herkes, {0}’ın cesedini buldu, vücuduna birçok ateş edilmiş. Avcıya gizlice yaklaşmaya çalışmışa benziyor! {1}</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>Kapşonlu biri seni tarikat üyesine döndürmeye çalıştı ama senin inancın çok kuvvetli, aldırış etmedin.</value>
   </string>
   <string key="AlreadyOnWaitList">
@@ -870,7 +870,7 @@
   <string key="AboutFool">
     <value>Aptal’a gözcü olduğu söylenir… Gece birisini görmek için seçtiğinde, ona rasgele bir rol söylenir.</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>Tarikat Üyesi olarak senin görevin oyundaki diğer tüm oyuncaları (Kurtlar hariç) Tarikat Üyesi yapmak. Eğer oyunun sonunda yaşayan tüm oyuncular Tarikat Üyesi olursa, Tarikat kazanır.</value>
   </string>
   <string key="AboutCH">
@@ -895,7 +895,7 @@
      Tarikat Çift-Giden’i dönüştüremez. (ama Çift-Giden rolleri değiştirirse yapabilir.) Aynı zamanda, Çift-Giden dönüşene kadar kazanamaz. Oyunun sonunda Çift-Giden aynıysa eğer o zaman kaybeder.(Aşık hariç)
     </value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>
       Havada Aşk var. Eros olarak oyunun başında iki kişi seç. Bu iki kişiden biri ölürse diğeri de ızdıraptan ölecek.:(
      Not: Aşıklar kimler olduklarını bilecekler ama rolleri birbirlerie söylenmeyecek. Aşıklar sona kalan 2 kişi olursa takımlarından bağımsız olarak kazanacaklar. Aşıklar farklı takımdalarsa (köylü + kurt), mesela kurt takımı kazansa köylü aşığı da kazanmış olur. Lafın kısası aşıklardan biri kazanan takımda ise aşığı da kazanır.
@@ -1077,10 +1077,10 @@
   <string key="AllowTannerA">
     <value>İblis rolü ayarlandı: {0}</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>Cemaatçi rolü olmasına izin veriyor musun? \n Mevcut: {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>Tarikatçi rolü ayarlandı: {0}</value>
   </string>
   <string key="EnableSecretLynchQ">
@@ -1241,7 +1241,7 @@
   <string key="SerialKillerTeam">
     <value>SK Takımı</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>Tarikat Üyeleri</value>
   </string>
   <string key="TannerTeam">
@@ -1259,13 +1259,13 @@
   <string key="SerialKillerTeamEnd">
     <value>SK Takımı</value>
   </string>
-  <string key="CultTeamEnd">
+  <string key="zoombiesTeamEnd">
     <value>Tarikat Üyeleri</value>
   </string>
   <string key="TannerTeamEnd">
     <value>İblis’in Takımı</value>
   </string>
-  <string key="CultConvertWolf">
+  <string key="zoombiesConvertWolf">
     <value>Tarikat {0}’i {1}’i döndürsün diye gönderdi fakat onun yerine {0}'ın kafasını pencereden dışarı uçarken gördüler... Acaba kafayı neden yemediler! {0} ölü...</value>
   </string>
 
@@ -1286,7 +1286,7 @@
   <string key="ZombieKilled">
     <value>{0} sunaklarının yanında bir şamdanla ölümüne bıçaklanmış olarak bulundu. Seri katil, ırk, dil veya din ne olursa olsun yine acımıyor!  {0} bir Tarikatçıydı.</value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>Ertesi sabah köylüler aşk tanrısını nam-ı diğer {0}’ı kalbi oyulup alınmış bir şekilde meydanda gördüler ne kadar da korkunç bir ölüm şekli. Aşk tanrısına bunu yapan bize neler yapmaz...</value>
   </string>
   <string key="DrunkKilled">
@@ -1320,12 +1320,12 @@
     <value> Köylüler, sabahleyin uyandı, ancak Tarikatçı Avcısı {0} 'ın kesilmiş vücut kısımlarını, belediye binasının dışına tam olarak yerleştirilmiş bir arabada buluyorlardı.  Alınan ders: Seri katili ziyaret etmeyin! </value>
     <value>Tarikatçı Avcısı {0} sen bu hallere düşecek adam mıydın? Köylüler her sokak başı bir uzvunu topluyor, ne yazık ama. Kimse Seri katilin Tarikatçı olduğuna inanmamalı bu sayede.</value>
   </string>
-  <string key="CultConvertWolfPublic">
+  <string key="zoombiesConvertWolfPublic">
     <!--used when Zombies convert the wolves, only if wolves stayed home-->
     <value>Bir kurtu tarikata almak iyi bir fikir değil gibi, kurtlar her ne kadar istemese de {0} inatçıydı ve sonu kötü bitti. </value>
     <value>Tarikat dün gece beklenmedik bir belaya girişti, en yeni üyeleri olan {0} Kurtların akşam yemeği olmuştu.</value>
   </string>
-  <string key="CultConvertKillerPublic">
+  <string key="zoombiesConvertKillerPublic">
     <!--used when Zombies convert the SK-->
     <value> Tarikat, saflarında yeni bir üye olacağını düşündü, ama yanılıyorlardı!  Bir elçi olan {0}, parçalara kıyıldı ve sabah kent meydanına  zımbalandı!  Garip bir şekilde, "kutsal" kitaplarının, sanki dininin kandırmaca olduğunu gösteren bir açıklama gibi, bıçağa saplanmış olarak bulundu..</value>
     <value> Dün gece, tarikat köydeki bir kişiyi daha delice dönüştürmeye çalıştı. En yeni üyeleri Seri Katili dönüştürmeye çalıştı ve Seri Katil, {0} 'ın iç organlarını kasaba meydanında yeni bir sanat eseri yaptı..</value>
@@ -1413,7 +1413,7 @@
     <!-- NOTE: No space between {0} and joined. It will be added in the code if necessary-->
     <value> {0}Son 30 saniyede katıldı. </value>
   </string>
-  <string key="AllowCult">
+  <string key="Allowzoombies">
     <value>Tarikata İzin Ver</value>
   </string>
   <string key="AllowTanner">
@@ -1651,7 +1651,7 @@
     <!-- 0 - mason collegues's name -->
     <value>Takım arkadaşların (eğer varsa): {0}</value>
   </string>
-  <string key="ThiefToCult">
+  <string key="ThiefTozoombies">
     <!-- 0 - old Zombie's name -->
     <!-- 1 - new Zombie's name -->
     <value>{0} artık takım arkadaşın değil ama üzülme {1} artık sana katılıyor yani Tarikatçı oluyor!</value>
@@ -2008,16 +2008,16 @@
   <string key="HunterFell">
 	<value> Lanet Tarikatçılardan birini öldüremediğin başka bir gece!  Hayal kırıklığına uğramış, mezarlıkta dolaşıyordun, ayı kapanı ayak bileğine kapandı.  Çığlık atıyor ve mücadele ediyorsun, ama çok geç. {0}’ın açık bıraktığı bir mezara geri düşüyorsunuz ve boynunuzun kırılma sesi, her şey kararmadan önce duyduğunuz son şey. </value>
   </string>
-  <!--{0}: cult hunter-->
+  <!--{0}: zoombies hunter-->
   <string key="HunterFellDigger">
 	<value> Yorucu bir geceden sonra, güneş doğarken evinize dönüyorsunuz. Gelmeden hemen önce, bitmemiş bir mezarın yanında yerde yatan bir kılıç görüyorsunuz.  O mezarın içinde {0} cesedini görüyorsun.  Tarikatçı avcısı sizden şüphelenmemeliydi ...</value>
   </string>
   <!--{0}: Zombie-->
-  <string key="CultFell">
+  <string key="zoombiesFell">
 	<value> Başka bir yorucu geceden dönerken, aniden bitmemiş mezarlarınızdan birinde bir çığlık duydunuz! İşte orada acele edin, bitmemiş bir mezarda ölü duran {0}’i gördün. Zaten ne tür bir tarikat mezarcıyı dönüştürmeye çalışır ki??</value>
   </string>
   <!--{0}: Zombie who fell, {1}: grave digger-->
-  <string key="CultConvertGraveDigger">
+  <string key="zoombiesConvertGraveDigger">
 	<value> {1} 'in evine giderken, {0} birdenbire kiliseyi de ziyaret etmenin iyi bir fikir olduğuna karar verir.  Birdenbire bir ayı tuzağı ayak bileği çevresine oturarak mezara kapaklanır!  Duyabildiğiniz tek şey onların bir mezara düşmeden çığlıkları ve hayatınız için kaçıyorsunuz. </value>
   </string>
   <!--{0}: grave digger-->

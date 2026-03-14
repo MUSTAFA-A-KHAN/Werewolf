@@ -71,7 +71,7 @@ namespace Shared
         Doppelgänger = 524288,
 
         [Role("🏹")]
-        Cupid = 1048576,
+        Recruiter = 1048576,
 
         [Role("🎯")]
         Hunter = 2097152,

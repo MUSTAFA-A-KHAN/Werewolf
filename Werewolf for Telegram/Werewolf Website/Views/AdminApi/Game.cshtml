@@ -103,14 +103,14 @@
                 $('#title').html(d.ChatGroup + " - " + d.Cycle + " - " + d.State);
                 $.each(d.Players,
                     function(index, value) {
-                        addRow(t, value.Id, value.Name, value.PlayerRole, value.IsDead, value.Choice, value.Votes, value.CurrentQuestion, value.LoverId, value.DonationLevel);
+                        addRow(t, value.Id, value.Name, value.PlayerRole, value.IsDead, value.Choice, value.Votes, value.CurrentQuestion, value.crewmateId, value.DonationLevel);
                     });
                 updateNodeInfo();
             }
         });
     };
 
-    addRow = function (table, id, name, role, dead, choice, votes, question, lover, donation) {
+    addRow = function (table, id, name, role, dead, choice, votes, question, crewmate, donation) {
         
         table.find('tbody')
             .append($('<tr>')
@@ -121,7 +121,7 @@
                 .append($('<td>').append(choice))
                 .append($('<td>').append(votes))
                 .append($('<td>').append(question))
-                .append($('<td>').append(lover))
+                .append($('<td>').append(crewmate))
                 .append($('<td>').append(donation)));
         //.append($('<td>').append("<a href='/AdminApi/Game/" + grpid + "' class='btn btn-default btn-xs btn-block'>View</a>")));
     }

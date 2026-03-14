@@ -328,25 +328,25 @@
   <string key="ZombieVotedConvert" >
     <value >{0} votou para converter {1}</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <value>{0} foi enviado(a) para converter {1}... entretanto, ele(a) era o Jedi Inquisidor! {0} está morto(a)!</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <value>{0} foi em seus domínios, pronto(a) para te converter....  mas você o(a) atravessou com seu Sabre de Luz.  Um Jedi Negro está morto... {1} restante(s)!</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>Você foi convertido(a) e agora é um Jedi Negro.  Após a batalha, você poderá tentar converter outros jogadores.</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>Membros dos Jedi Negros: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <value>{0} se juntou os Jedi Negros!</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <value>{0} foi enviado(a) para converter {1}... mas ninguém estava no local!</value>
   </string>
-  <string key="CultWins" isgif="true">
+  <string key="zoombiesWins" isgif="true">
     <value >Todos os Jedi e Sith morreram e as únicas pessoas sobreviventes pertencem os Jedi Renegados...  Contemplem o poder do Lado Sombrio. A dogmatização religiosa dos Sith era atraso. Rompa as correntes!</value>
   </string>
   <string key="HunterVisitDead">
@@ -443,21 +443,21 @@
     <value>  Os Senadores são: {0}</value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <value>Um dos Jedi Renegados foi até {0} para convertê-lo ao Lado Sombrio, mas encontra um corpo no chão com um buraco de blaster no peito... o alvo morreu!</value>
   </string>
   <string key="GuardBlockedWolf">
     <value>Um dos Sith se dirige até {0} com um Sabre de Luz vermelho em punho, mas quando se aproxima é recebido por um tiro de uma besta Wookiee bem no joelho, arremessando-o para trás e fazendo-o cair em um lago. WRAAAAAAARGH.</value>
   </string>
   <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <value>{0} foi enviado(a) para converter {1} para o Lado Sombrio, mas a Força era intensa nele.</value>
   </string>
   <!-- new string May 12 2016-->
   <string key="NameExists">
     <value>@{1}, um(a) jogador(a) com nome {0} já se juntou à partida.  Por favor mude seu nome para poder entrar no jogo.</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <value>Você estava indo ao encontro de {0} mas percebe que o mesmo possuia um Sabre de Luz na cintura. Ele não é um Cavaleiro Jedi...</value>
   </string>
   <!-- new string May 13 2016-->
@@ -533,7 +533,7 @@
 	<value>Tempo esgotado!</value>
   </string>
   <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
     <value>Você é um Atendente de bar em Coruscant. Em sua última viagem à orla exterior, você comprou o Elixir do Amor de um mercador suspeito que aparentava ter asas e carregava um arco. Espalhe o amor, batize a bebida de duas pessoas. A quem você entregará um drink?</value>
   </string>
   <string key="RoleInfoDoppelganger">
@@ -545,7 +545,7 @@
   <string key="RoleInfoSerialKiller">
     <value>Você é o Caçador de Recompensas. Criado como um clone por Jango Fett, você não possui lados nesta guerra a não ser o seu BOLSO. Escolha com cautela as suas vítimas e não se esqueça de recolher a recompensa mais tarde.</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>Parece que o atendente do bar batizou sua bebida com o Elixir do Amor. Você está profundamente apaixonado por {0} e não conseguirá mais viver sem ele. Caso {0} morra, você não terá reação e acabará morto em combate, mas não faz mal. Irá se juntar a ele na Força.</value>
   </string>
   <string key="HunterLynchedChoice">
@@ -572,7 +572,7 @@
   <string key="HunterKilledFinalShot">
     <value>{0} cai no chão, ferido mortalmente... Mas antes de morrer, ele puxa sua arma e dá um tiro certeiro em {1}, que cai duro no chão, tentando respirar sem sucesso. {2}</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <value>{0} se aproxima arrogantemente de {1}. Assim que se aproxima, {1} aperta alguns botões em seu pulso e cordas prendem {0} no ar. Mais alguns botões e uma explosão muito forte ocorre no local. Vestindo seu capacete, {1} diz a {0} "Ritualistas da Força não valem nada no mercado. É um desperdício dos meus equipamentos...". {0} está morto(a)</value>
   </string>
   <string key="HunterShotWolfMulti">
@@ -590,10 +590,10 @@
   <string key="GuardBlockedKiller">
     <value>Você tentou assassinar {0}. Mas chegando lá recebeu um tiro de um Wookiee segurando uma besta enorme. O impacto arranca uma de suas pernas... Aos poucos você se tornará mais máquina e menos humano.</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <value>Os Jedi Negros ordenaram que {0} seduzisse {1} para o Lado Sombrio. Chegando lá {0} é recebido com um tiro de blaster no peito! {0} está morto...</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <value>Os Jedi Negros ordenaram que {0} seduzisse {1}. Chegando até ele, {0} descobre que era melhor ter ignorado esta ordem. Seu corpo é encontrado carbonizado na rua. {0} está morto...</value>
   </string>
   <string key="GuardKiller">
@@ -608,10 +608,10 @@
   <string key="DGTransformToMason">
     <value>{0} morreu, e você foi chamado para assumir o papel de {0} como Senador, para que não haja um colapso na República.  Seus companheiros (se houver) são: {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <value>O Clone {0} se transformou em um membro dos Jedi Renegados.</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <value>{0} morreu, e você teve que substituir seu papel como um agente dos Jedi Negros. Seus novos companheiros (se houver) são: {1}</value>
   </string>
   <string key="DGToWolf">
@@ -632,22 +632,22 @@
   <string key="AskKill">
     <value>Quem você quer matar essa noite?</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <value>{0} foi morto durante a guerra e {1}, ficou pasmo. Paralizado pela morte de seu grande amor, grita em protesto, e recebe um tiro de um dróide em uma das pernas. Caído no chão, {1} é cercado por Super dróides de batalha, que o executam com uma salva de tiros de blaster. {2}</value>
   </string>
   <string key="AskDoppelganger">
     <value> Quem você escolherá para substituir?</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>Quem serão as vítimas de seu drink?</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>Agora, escolha o segundo.</value>
   </string>
   <string key="Hunter">
     <value>o Jedi Furtivo 🎯</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>o Atendente de Bar 🏹</value>
   </string>
   <string key="SerialKiller">
@@ -656,20 +656,20 @@
   <string key="Doppelgänger">
     <value>o Clone 🎭</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>Durante uma comemoração em um bar você bebe uma bebida estranha, e {0} se parece cada vez mais atraente! Caso sua paixão sofra um ataque, você não terá reação. Se no final vocês forem os unicos vivos, vocês vencem.</value>
   </string>
   <string key="NewWCRoleModel">
     <value>Você se tornou o Padawan Rebelde. Seu Mestre é {0}</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
     <value>Quem disse que não há amor na galáxia? Serão felizes e abandonarão suas causas na guerra para viverem esse romance.</value>
   </string>
   <string key="HunterKilledVisiter">
     <value>Após a batalha, vocês encontram {0} caído morto em uma nave em chamas. Parece que alguém investiu contra o Jedi Furtivo e se deu mal! {1}</value>
   </string>
 
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>Uma figura encapuzada lhe aborda. Ao falar com ele, a mão dele se estente sobre sua cabeça e alguma coisa misteriosa acontece. "Posso sentir o Lado Sombrio em você. Venha, os Jedi Renegados possuem o conhecimento dos caminhos da Força!" Você o golpeia com sua mão e saca seu blaster, mas a figura desaparece...</value>
   </string>
   <string key="AlreadyOnWaitList">
@@ -744,7 +744,7 @@
   <string key="AboutFool">
     <value>Você é a unidade R2! Durante a batalha, você se infiltra em naves e bases para obter acesso a registros e gravações a fim de descobrir os inimigos. Tome cuidado para não ser visto pelos Sith!</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>Você é um membro dos Jedi "Renegados". Sensitivos à Força, frequentemente ex-Jedi, que optaram por negar o lado luminoso da Força e seguir o lado sombrio, vocês acreditam que os Jedi desequilibram a Força. Entre as batalhas, você poderá escolher alguém para converter aos Renegados. Se todos os jogadores restantes ao final do jogo forem Jedi Negros, eles vencem!</value>
   </string>
   <string key="AboutCH">
@@ -765,7 +765,7 @@
   <string key="AboutDG">
     <value>Os Kaminoanos receberam ordens de clonar membros de Coruscant em caso de o pior acontecer. Você pode escolher se tornar o clone de um dos membros, e, quando morrer, você assumirá seu papel na Capital da República.</value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>Você é um Atendente de bar em Coruscant. Em sua última viagem à orla exterior, você comprou o Elixir do Amor de um mercador suspeito que aparentava ter asas e carregava um arco. Espalhe o amor, batize a bebida de duas pessoas.</value>
   </string>
   <string key="AboutHunter">
@@ -945,10 +945,10 @@
   <string key="AllowTannerA">
     <value>Existência do Dróide Explosivo definida como: {0}</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>Permitir os Jedi Negros como um papel possível?\nAtual: {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>Existência dos Jedi Negros definida como: {0}</value>
   </string>
   <string key="ThankYou">
@@ -1004,7 +1004,7 @@
   </string>
 
   <string key="RoleInfoBlacksmith">
-    <value>Você é o Criador de Ysalamiri. Por séculos, o planeta Myrkr foi ocultado dos registros da República e do Império devido a sua fauna... Peculiar. Os Ysalamiri, animais locais, possuem a habilidade de criar um campo de isolamento onde a Força não existe. Agora, um dos donos de seus criadouros foi convocado a Coruscant para tentar conter a ameaça Sith. Quando liberados, os Ysalamiri não permitem que os Sith ataquem, mas eles não vivem soltos por mais de uma noite.</value>
+    <value>Você é o Criador de Ysalamiri. Por séculos, o planeta Myrkr foi ozoombiesado dos registros da República e do Império devido a sua fauna... Peculiar. Os Ysalamiri, animais locais, possuem a habilidade de criar um campo de isolamento onde a Força não existe. Agora, um dos donos de seus criadouros foi convocado a Coruscant para tentar conter a ameaça Sith. Quando liberados, os Ysalamiri não permitem que os Sith ataquem, mas eles não vivem soltos por mais de uma noite.</value>
   </string>
 
   <string key="RoleInfoAlphaWolf">
@@ -1078,7 +1078,7 @@
     <value>Você é o Jar Jar Binks. Não há nada de especial, você é atrapalhado e há 50% de chance de você votar na pessoa errada.</value>
   </string>
   <string key="AboutBlacksmith">
-    <value>Você é o Criador de Ysalamiri. Por séculos, o planeta Myrkr foi ocultado dos registros da República e do Império devido a sua fauna... Peculiar. Os Ysalamiri, animais locais, possuem a habilidade de criar um campo de isolamento onde a Força não existe. Agora, um dos donos de seus criadouros foi convocado a Coruscant para tentar conter a ameaça Sith. Quando liberados, os Ysalamiri não permitem que os Sith ataquem, mas eles não vivem soltos por mais de uma noite.</value>
+    <value>Você é o Criador de Ysalamiri. Por séculos, o planeta Myrkr foi ozoombiesado dos registros da República e do Império devido a sua fauna... Peculiar. Os Ysalamiri, animais locais, possuem a habilidade de criar um campo de isolamento onde a Força não existe. Agora, um dos donos de seus criadouros foi convocado a Coruscant para tentar conter a ameaça Sith. Quando liberados, os Ysalamiri não permitem que os Sith ataquem, mas eles não vivem soltos por mais de uma noite.</value>
   </string>
   <string key="AboutAlphaWolf">
     <value>Você é o Mestre Sith. Com um vasto conhecimento do Lado Sombrio, sempre que tentar matar alguém, você vai avaliar se a Força é intensa na sua vítima e se seu coração possui ódio, medo e cobiça. Há uma chance de 20% de conseguir seduzí-lo.</value>

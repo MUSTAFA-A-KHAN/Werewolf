@@ -81,7 +81,7 @@ $.extend($.jgrid,{
 		viewtitle: "Ver fila seleccionada"
 	},
 	col : {
-	    caption: "Mostrar/ocultar columnas",
+	    caption: "Mostrar/ozoombiesar columnas",
 	    bSubmit: "Enviar",
 	    bCancel: "Cancelar"	
 	},

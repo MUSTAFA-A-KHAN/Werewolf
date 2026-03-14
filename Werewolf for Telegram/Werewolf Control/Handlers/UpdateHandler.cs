@@ -369,7 +369,7 @@ namespace Werewolf_Control.Handler
                                 var command = Bot.Commands.FirstOrDefault(
                                     x =>
                                         String.Equals(x.Trigger, args[0],
-                                            StringComparison.InvariantCultureIgnoreCase));
+                                            StringComparison.InvariantzoombiesureIgnoreCase));
                                 if (command != null)
                                 {
                                     Bot.MessagesProcessed++;
@@ -824,8 +824,8 @@ namespace Werewolf_Control.Handler
                                     var id = query.From.Id;
                                     Send($"Sending gifs for {pid}", id);
                                     Thread.Sleep(1000);
-                                    Bot.Api.SendDocumentAsync(chatId: id, document: new InputFileId(pack.CultWins), caption: "Cult Wins");
-                                    Bot.Api.SendDocumentAsync(chatId: id, document: new InputFileId(pack.LoversWin), caption: "Lovers Win");
+                                    Bot.Api.SendDocumentAsync(chatId: id, document: new InputFileId(pack.zoombiesWins), caption: "zoombies Wins");
+                                    Bot.Api.SendDocumentAsync(chatId: id, document: new InputFileId(pack.crewmatesWin), caption: "crewmates Win");
                                     Thread.Sleep(250);
                                     Bot.Api.SendDocumentAsync(chatId: id, document: new InputFileId(pack.NoWinner), caption: "No Winner");
                                     Bot.Api.SendDocumentAsync(chatId: id, document: new InputFileId(pack.SerialKillerWins), caption: "SK Wins");
@@ -1454,7 +1454,7 @@ namespace Werewolf_Control.Handler
                                     .Any(
                                         x =>
                                             String.Equals(Path.GetFileNameWithoutExtension(x), slang.FileName,
-                                                StringComparison.InvariantCultureIgnoreCase)))
+                                                StringComparison.InvariantzoombiesureIgnoreCase)))
                             {
                                 //now get the group
                                 if (grp != null)
@@ -1761,17 +1761,17 @@ namespace Werewolf_Control.Handler
                         //        GetLocaleString("WhatToDo", language), replyMarkup: GetConfigMenu(groupid));
                         //    DB.SaveChanges();
                         //    break;
-                        //case "cult":
-                        //    buttons.Add(InlineKeyboardButton.WithCallbackData(GetLocaleString("Allow", language), $"setcult|{groupid}|true"));
-                        //    buttons.Add(InlineKeyboardButton.WithCallbackData(GetLocaleString("Disallow", language), $"setcult|{groupid}|false"));
-                        //    buttons.Add(InlineKeyboardButton.WithCallbackData(Cancel, $"setcult|{groupid}|cancel"));
+                        //case "zoombies":
+                        //    buttons.Add(InlineKeyboardButton.WithCallbackData(GetLocaleString("Allow", language), $"setzoombies|{groupid}|true"));
+                        //    buttons.Add(InlineKeyboardButton.WithCallbackData(GetLocaleString("Disallow", language), $"setzoombies|{groupid}|false"));
+                        //    buttons.Add(InlineKeyboardButton.WithCallbackData(Cancel, $"setzoombies|{groupid}|cancel"));
                         //    menu = new InlineKeyboardMarkup(buttons.Select(x => new[] { x }).ToArray());
                         //    Bot.ReplyToCallback(query,
-                        //        GetLocaleString("AllowCultQ", language, grp.AllowCult == false ? GetLocaleString("Disallow", language) : GetLocaleString("Allow", language)), replyMarkup: menu);
+                        //        GetLocaleString("AllowzoombiesQ", language, grp.Allowzoombies == false ? GetLocaleString("Disallow", language) : GetLocaleString("Allow", language)), replyMarkup: menu);
                         //    break;
-                        //case "setcult":
-                        //    grp.AllowCult = (choice == "true");
-                        //    Bot.Api.AnswerCallbackQuery(query.Id, GetLocaleString("AllowCultA", language, grp.AllowCult == false ? GetLocaleString("Disallow", language) : GetLocaleString("Allow", language)));
+                        //case "setzoombies":
+                        //    grp.Allowzoombies = (choice == "true");
+                        //    Bot.Api.AnswerCallbackQuery(query.Id, GetLocaleString("AllowzoombiesA", language, grp.Allowzoombies == false ? GetLocaleString("Disallow", language) : GetLocaleString("Allow", language)));
                         //    Bot.ReplyToCallback(query,
                         //        GetLocaleString("WhatToDo", language), replyMarkup: GetConfigMenu(groupid));
                         //    DB.SaveChanges();
@@ -1992,10 +1992,10 @@ namespace Werewolf_Control.Handler
                 downloadTasks.Add(DownloadGif(pack.ArsonistWins, m.Chat));
             if (!String.IsNullOrEmpty(pack.BurnToDeath))
                 downloadTasks.Add(DownloadGif(pack.BurnToDeath, m.Chat));
-            if (!String.IsNullOrEmpty(pack.CultWins))
-                downloadTasks.Add(DownloadGif(pack.CultWins, m.Chat));
-            if (!String.IsNullOrEmpty(pack.LoversWin))
-                downloadTasks.Add(DownloadGif(pack.LoversWin, m.Chat));
+            if (!String.IsNullOrEmpty(pack.zoombiesWins))
+                downloadTasks.Add(DownloadGif(pack.zoombiesWins, m.Chat));
+            if (!String.IsNullOrEmpty(pack.crewmatesWin))
+                downloadTasks.Add(DownloadGif(pack.crewmatesWin, m.Chat));
             if (!String.IsNullOrEmpty(pack.NoWinner))
                 downloadTasks.Add(DownloadGif(pack.NoWinner, m.Chat));
             if (!String.IsNullOrEmpty(pack.SerialKillerWins))
@@ -2134,7 +2134,7 @@ namespace Werewolf_Control.Handler
         //        NightTime = Settings.TimeNight,
         //        AllowFool = true,
         //        AllowTanner = true,
-        //        AllowCult = true,
+        //        Allowzoombies = true,
         //        DisableFlee = false,
         //        MaxPlayers = 35,
         //        EnableSecretLynch = false,
@@ -2199,7 +2199,7 @@ namespace Werewolf_Control.Handler
             buttons.Add(InlineKeyboardButton.WithCallbackData("Set Night Timer", $"night|{id}"));
             //buttons.Add(InlineKeyboardButton.WithCallbackData("Allow Fool", $"fool|{id}"));
             //buttons.Add(InlineKeyboardButton.WithCallbackData("Allow Tanner", $"tanner|{id}"));  //DONE
-            //buttons.Add(InlineKeyboardButton.WithCallbackData("Allow Cult", $"cult|{id}"));
+            //buttons.Add(InlineKeyboardButton.WithCallbackData("Allow zoombies", $"zoombies|{id}"));
             //buttons.Add(InlineKeyboardButton.WithCallbackData("Enable Secret Lynch", $"secretlynch|{id}"));  //DONE*/
             foreach (var flag in Enum.GetValues(typeof(GroupConfig)).Cast<GroupConfig>())
             {

@@ -14,7 +14,7 @@ namespace Database
     
     public partial class Group
     {
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCalcrewmateridableMethodsInConstructors")]
         public Group()
         {
             this.Games = new HashSet<Game>();
@@ -37,7 +37,7 @@ namespace Database
         public Nullable<int> LynchTime { get; set; }
         public Nullable<bool> AllowTanner { get; set; }
         public Nullable<bool> AllowFool { get; set; }
-        public Nullable<bool> AllowCult { get; set; }
+        public Nullable<bool> Allowzoombies { get; set; }
         public string ShowRolesEnd { get; set; }
         public Nullable<int> MaxPlayers { get; set; }
         public Nullable<bool> DisableFlee { get; set; }

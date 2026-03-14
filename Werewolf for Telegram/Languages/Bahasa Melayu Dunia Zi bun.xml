@@ -79,7 +79,7 @@ Deprecated strings (only there so your file will pass through validation with no
 	<string key="Hunter">
 		<value>Pemburu 🎯</value>
 	</string>
-	<string key="Cupid">
+	<string key="Recruiter">
 		<value>Tok Kadi 🏹</value>
 	</string>
 	<string key="SerialKiller">
@@ -137,7 +137,7 @@ Deprecated strings (only there so your file will pass through validation with no
 	<string key="SerialKillerTeamEnd">
 		<value>Pembunuh Bersiri</value>
 	</string>
-	<string key="CultTeamEnd">
+	<string key="zoombiesTeamEnd">
 		<value>Ahli Syiah</value>
 	</string>
 	<string key="TannerTeamEnd">
@@ -199,7 +199,7 @@ Deprecated strings (only there so your file will pass through validation with no
 	<string key="RoleInfoMason">
 		<value>Antum tu Buruh, 👷 masyarakat negeri yang tidak punya kekuatan apa-apa selain tahu siapa rakan-rakan buruh Antum, pandai-pandai la Antum ya.</value>
 	</string>
-	<string key="RoleInfoCupid">
+	<string key="RoleInfoRecruiter">
 		<value>Antum tu Tok Kadi 💘. Tugas antum menyatukan 2 insan. Pilih 2 orang (diri antum pun boleh) untuk antum jodohkan. Mati seorang mati juga yang keduanya, serupa Romeo dan Juliet kisahnya.</value>
 	</string>
 	<string key="RoleInfoDoppelganger">
@@ -232,7 +232,7 @@ Deprecated strings (only there so your file will pass through validation with no
 	<string key="RoleInfoWolfCub">
 		<value>Antum tu Anak Serigala🐶 yang amat disayang oleh serigala-serigala yang lain. Antum juga sama seperti serigala yang lain, cuma bila antum mati, serigala-serigala yang lain akan menjadi amat marah lalu mereka akan membalas dendam atas kematian antum dengan memakan 2 orang masyarakat negeri.</value>
 	</string>
-	<string key="CupidChosen">
+	<string key="RecruiterChosen">
 		<value>Ehem, antum dah berpunya tuuuu, kalau antum meninggal, {0} sebagai pasangan antum akan mengikuti antum, begitu juga sebaliknya. Rasulullah s.a.w bersabda, Cintailah kekasihmu sewajarnnya, kerana boleh jadi suatu saat nanti ia akan menjadi orang yang kamu benci. Jangan melebih sangat antum dalam mencintai. Pertahankan cinta kamu, kalau kamu hidup hingga akhir, kamu berdua menang bersama.</value>
 		<value>Fiiwit♫♫ Antum tidak SINGLE lagi!! Pasangan Antum {0}! \n“Dan segala sesuatu Kami ciptakan berpasang-pasangan supaya kamu mengingat kebesaran Allah.” [Q.S. Adz Dzariyat (51) : 59] \nMati yang satu mati juga yang kedua, antum berkasih sayang kuat sangat. Menangkan Permainan dengan antum berdua hidup sehingga habis permainan.</value>
 		<value>Antum telah dijodohkan dengan {0}, mungkinkah dia pasangan yang Antum cari-cari selama ini. Semoga dapat lihat kalian berdua bersama hingga tamat permainan, Salam Kasih Sayang!</value>
@@ -278,7 +278,7 @@ Deprecated strings (only there so your file will pass through validation with no
 	<string key="AboutFool">
 		<value>Si Luncai(Fool), suka meramal dengan segala mantera,yakin sangat diri sendiri tu peramal padahal mimpi semata.</value>
 	</string>
-	<string key="AboutCult">
+	<string key="Aboutzoombies">
 		<value>Ahli Syiah (Zombie) si pengamal ajaran menyimpang. Tiap malam cuba menghasut seseorang dengan rasuah martabak untuk bersamanya. Menang kalau semua masyrakat yang tinggal telah jadi ahli Syiah.</value>
 	</string>
 	<string key="AboutCH">
@@ -300,7 +300,7 @@ Deprecated strings (only there so your file will pass through validation with no
 		<value>Si Peniru (Doppleganger), menduplikat/meniru role orang yang dia pilih di awal permainan setelah orang yang di pilih tu telah mati, jika tidak dia akan kekal menjadi dopple tanpa bertukar, dan jika tak bertukar dia tidak akn berpihak pada mana-mana pihak dan membuatkan dia kalah begitu sahaja.
         </value>
 	</string>
-	<string key="AboutCupid">
+	<string key="AboutRecruiter">
 		<value>
       Tok kadi, tugasnya menjodohkan orang, dan bukan setakat orang, jodohkan diri sendiri pun boleh. Kalau yang pasangan yang dia satukan meninggal salah seorang, yang lagi seorang turut meninggal sebab tak sanggup berpisah.
         </value>
@@ -356,10 +356,10 @@ Deprecated strings (only there so your file will pass through validation with no
 		<!-- 0 - seer name -->
 		<value>{0} si peramal (Seer) 👳 telah mati. Sebagai murid peramal (Apprentice), Antum menggantikan tugasnya untuk kebaikan masyarakat kita.</value>
 	</string>
-	<string key="CultConvertYou">
+	<string key="zoombiesConvertYou">
 		<value>👤 Antum telah menjadi ahli Syiah!🐚 Lalala!!!. Setiap malam, Antum berusaha mengajak saudara yang lain untuk bersama antum. \nTapi antum harus ingat, “Dan (ingatlah) ketika Luqman berkata kepada anaknya, di waktu ia memberi pelajaran kepadanya: "Hai anakku, janganlah kamu mempersekutukan Allah, Sesungguhnya mempersekutukan (Allah) adalah benar-benar kezaliman yang besar".[Q.S. Luqman: 13]. Taubatlah sebelum terlambat.</value>
 	</string>
-	<string key="DGTransformToCult">
+	<string key="DGTransformTozoombies">
 		<!-- 0 - role's name -->
 		<!-- 1 - teammates's name -->
 		<value>{0} telah mati, Antum kini menjadi Ahli Syiah👤. Rakan sealiran antum: {1}.\nDari Abdullah ia berkata : Saya telah bertanya kepada Rasulullah saw.  dosa apakah yang lebih besar menurut Allah ? Beliau menjawab : “ Engkau menjadikan sekutu bagi Allah padahal Dialah yang menciptakanmu…” (HR. Bukhari dan Muslim )</value>
@@ -400,7 +400,7 @@ Deprecated strings (only there so your file will pass through validation with no
 		<!-- 0 - teammate names -->
 		<value>Rakan Serigala Antum ialah: {0}</value>
 	</string>
-	<string key="CultTeam">
+	<string key="zoombiesTeam">
 		<!-- 0 - Number of Zombies -->
 		<value>👤 Ahli Syiah: {0}</value>
 	</string>
@@ -411,7 +411,7 @@ Deprecated strings (only there so your file will pass through validation with no
 		<!-- 0 - target's name -->
 		<value>Si Peniru {0} (Doppelganger) telah menjadi buruh sama macam Antum!</value>
 	</string>
-	<string key="DGToCult">
+	<string key="DGTozoombies">
 		<!-- 0 - new Zombie's name -->
 		<value>Si Peniru {0} (Doppelganger) kini telah menjadi Ahli Syiah sama macam Antum!</value>
 	</string>
@@ -468,13 +468,13 @@ Deprecated strings (only there so your file will pass through validation with no
 	<string key="TannerWins" isgif="true">
 		<value>Anda telah diperbodohkan. Tahniah!! Semuanya terkejut, terkena dengan Tanner si PENIPU! SI PENIPU MENANG! 👺</value>
 	</string>
-	<string key="CultWins" isgif="true">
+	<string key="zoombiesWins" isgif="true">
 		<value>👤 Alhamdulillah semua serigala telah mati, tapi Na'udzubillah masyarakat yang tinggal telah menjadi ahli Syiah! AHLI SYIAH MENANG!</value>
 	</string>
 	<string key="SerialKillerWins" isgif="true">
 		<value>Innalillahi wainna ilaihi raji'uun \n🎉 Semua penduduk negeri telah mati dan menjadi koleksi di bilik Pembunuh Bersiri!! Pembunuh Bersiri Menang!!🔪</value>
 	</string>
-	<string key="LoversWin" isgif="true">
+	<string key="crewmatesWin" isgif="true">
 		<value>🎉Kalau dah memang jodoh. Sapasang kekasih telah Menang! #CintaSuci \nSemoga berkekalan</value>
 	</string>
 	<string key="NoWinner" isgif="true">
@@ -541,10 +541,10 @@ Deprecated strings (only there so your file will pass through validation with no
 	<string key="AskDoppelganger">
 		<value>Jika model ikutan yang antum pilih mati, antum akan brubah peranan dan mengambil peranan model ikutan yang antum pilih. Siapa yang Antum pilih untuk dijadikan model ikutan?</value>
 	</string>
-	<string key="AskCupid1">
+	<string key="AskRecruiter1">
 		<value>Siapa yang ingin Antum jadikan pasangan sehidup semati didalam permainan ini? Tapi tetap ingat, jodoh ditangan Tuhan.</value>
 	</string>
-	<string key="AskCupid2">
+	<string key="AskRecruiter2">
 		<value>Siapa pasangan yang ingin antum jodohkan untuk orang yang antum pilih tadi? Ingat ya, jodoh di tangan Tuhan.</value>
 	</string>
 	<string key="AskConvert">
@@ -649,7 +649,7 @@ Deprecated strings (only there so your file will pass through validation with no
 	<string key="PlayerBitten">
 		<value>Antum diserang oleh serigala, tetapi Ketua Serigala telah memilih antum. Antum tidak terbunuh tetapi antum bakal menjadi serigala pada keesokan hari!</value>
 	</string>
-	<string key="CultAttempt">
+	<string key="zoombiesAttempt">
 		<value>Antum melihat martabak dan Sate telah diletakkan di muka pintu rumah Antum, dan terdapat risalah mengenai ajaran Syiah padanya.</value>
 	</string>
 	<string key="HarlotVisitNonWolf">
@@ -657,7 +657,7 @@ Deprecated strings (only there so your file will pass through validation with no
 		<value>Puas hati dengan layanan antum, {0} berasa amat gembira. Bila lah antum ingin bertaubat?, Sesungguhnya keimanan itu lebih nikmat dari apa yang antum lakukan sekarang, perlu antum tahu.</value>
 		<value>Diam-diam antum pergi ke rumah {0}, bersuka ria,membuang masa 💕. Bila antum akan mencari rezeki dengan cara yang halal? sesungguhnya telah  disediakan Allah jalannya untuk antum, agar terhindar dari bahaya dan murka dariNya.</value>
 	</string>
-	<string key="HarlotDiscoverCult">
+	<string key="HarlotDiscoverzoombies">
 		<!-- 0 - target's name -->
 		<value>MasyaAllah, mohon ampun kepada Allah, Antum masih lagi dengan kerja terkutuk antum. Antum pergi ke rumah {0} untuk berseronok 👄. Ketika ingin pulang, antum ternampak tanda-tanda penganut Syiah di ruang ibadahnya.🐚</value>
 	</string>
@@ -666,22 +666,22 @@ Deprecated strings (only there so your file will pass through validation with no
 		<!-- 1 - target role -->
 		<value>Alhamdulillah!!! Penyelidikan Antum membuahkan hasil! {0} ialah {1}.</value>
 	</string>
-	<string key="CultJoin">
+	<string key="zoombiesJoin">
 		<!-- 0 - new Zombie's name -->
 		<value>{0} telah bersama antum menjadi ahli Syiah!👤 </value>
 	</string>
-	<string key="CultVisitEmpty">
+	<string key="zoombiesVisitEmpty">
 		<!-- 0 - Newest Zombie's name -->
 		<!-- 1 - target name -->
 		<value>{0} membawa apam balik berinti coklat kacang ke rumah {1}. Bila diketuk pintu rumahnya 3 kali, tiada yang hadir. Antum tinggalkan apam balik tersebut di muka pintu berserta risalah.</value>
 	</string>
-	<string key="CultUnableToConvert">
+	<string key="zoombiesUnableToConvert">
 		<!-- 0 - newest  -->
 		<!-- 1 - target's name -->
 		<value>{0} cuba menghasut {1} untuk turut bersamanya menjadi Ahli Syiah, namun imannya kuat, dan beliau merasa ajaran yang antum bawa tu menyimpang.</value>
 		<value>Antum menyuruh {0} untuk menghasut {1} bergabung, tapi beliau tolak segala hujah hasutan ajaran yang antum bawa dengan mengemukakan dalil-dalil menyangkal ajaran Syiah. {0} mengalah dengan {1} kerana ilmunya tinggi sangat.</value>
 	</string>
-	<string key="CultTargetDead">
+	<string key="zoombiesTargetDead">
 		<!-- 0 - Youngest Zombies name -->
 		<value>Innalillahi wainna ilaihi raji'uun.
         \nRumah {0} yang cuba antum kunjungi untuk antum ajak bersama-sama mengamal Syiah telah kosong. Nampaknya beliau telah dimakan serigala, dengan segera antum pergi dari rumah tersebut.</value>
@@ -738,15 +738,15 @@ Deprecated strings (only there so your file will pass through validation with no
 		<!-- 0 - player name -->
 		<value>Antum pergi ke rumah {0} untuk bersukaria 👄, tapi Antum telah salah memilih. Antum mati dimakan orang tersebut yang merupakan serigala jadian ☠🔞. Antum harusnya bertaubat, sesungguhnya zina itu tidak elok, [Q.S. Al Isra' (17) : 32], lagi-lagi dengan berperwatakan lawan jantina, tapi kini antum telah terlambat.</value>
 	</string>
-	<string key="CultConvertWolf">
+	<string key="zoombiesConvertWolf">
 		<value>Antum menghantar {0} dengan membawa roti canai untuk cuba menghasut {1}, tetapi kepala {0} terpelanting keluar lalu ke langit! {0} telah mati dimakan serigala...</value>
 	</string>
-	<string key="CultConvertZombieHunter">
+	<string key="zoombiesConvertZombieHunter">
 		<!-- 0 - Yougest Zombie (killed)'s name' -->
 		<!-- 1 - ZombieHunter's name -->
 		<value>{0} cuba untuk menghasut {1} agar menyertai gerakan syiah antum, tetapi sayangnya {1} merupakan pegawai JAIS 💂. {0} ditegur agar bertaubat tapi beliau tidak mahu.\n"Hai anakku, dirikanlah shalat dan suruhlah (manusia) mengerjakan yang baik dan cegahlah (mereka) dari perbuatan yang mungkar dan bersabarlah terhadap apa yang menimpa kamu. Sesungguhnya yang demikian itu termasuk hal-hal yang diwajibkan (oleh Allah)." [Q.S. Luqman () : 17].\nPegawai JAIS telah mencuba mengajak ke jalan yang lurus, tapi dicemuh, {0} telah dijadikan makanan buaya.</value>
 	</string>
-	<string key="ZombieHunterKilledCultVisit">
+	<string key="ZombieHunterKilledzoombiesVisit">
 		<!-- 0 - Youngest Zombie's name -->
 		<!-- 1 - Number of Zombies left -->
 		<value>Malam tadi {0} ke rumah Antum membawa apam balik berinti coklat kacang berserta pisang.. Antum ajak beliau mengaji sebentar, tapi cara mengajinya berbeza, antum sedar yang beliau ialah ahli Syiah. Antum kurung dia di dalam kolam berbuaya.. {1} ahli syiah yang tinggal!</value>
@@ -755,14 +755,14 @@ Deprecated strings (only there so your file will pass through validation with no
 		<!-- 0 - target name -->
 		<value>💂 Antum pergi ke rumah {0}, terdengar bacaan yang pelik!! 🐚 Antum menangkapnya lalu melemparnya ke dalam kolam berbuaya, Ahli Syiah mati seorang. 👤</value>
 	</string>
-	<string key="CultConvertHunter">
+	<string key="zoombiesConvertHunter">
 		<!-- for hunter, not Zombie hunter -->
 		<!-- 0 - Youngest Zombie's name -->
 		<!-- 1 - target's name -->
 		<value>{0} ke rumah {1} membawa martabak sebagai penarik untuk masuk ke kumpulannya, tapi, di rumah tersebut terdapat banyak ujiannya, kaki {0} terpijak paku, terhantuk kepalanya di dinding, terjatuh tersadung batu, ringkasnya banyaklah. 
 		{0} meninggal dihimpit pintu.</value>
 	</string>
-	<string key="CultConvertSerialKiller">
+	<string key="zoombiesConvertSerialKiller">
 		<!-- 0 - Youngest Zombie's name -->
 		<!-- 1 - target's name -->
 		<value> {0} ke rumah {1} membawa sate untuk menarik beliau menyertainya dalam aliran Syiah, {1} senyum ramah, {0} dibawa ke dalam, pintu ditutup. 
@@ -901,9 +901,9 @@ Deprecated strings (only there so your file will pass through validation with no
 		<value>“Dan siapakah yang lebih sesat daripada orang-orang yang menyembah sembahan-sembahan selain Allah yang tidak dapat memperkenankan (doa)nya sampai hari kiamat dan mereka lalai dari (memperhatikan) doa mereka ?” [Q.S. Al-Ahqaf (46) : 5].
         \n{0} terlambat bertaubat, Innalillahi wa inna ilaihi raji'uun, ahli Syiah 👤 meninggal dunia.</value>
 	</string>
-	<string key="LoverDied">
+	<string key="crewmateDied">
 		<!-- 0 - dead's name -->
-		<!-- 1 - lover's name -->
+		<!-- 1 - crewmate's name -->
 		<!-- 2 - roles -->
 		<value>{0} mati dipangkuan {1}. Tak sanggup menyendiri lagi, {1} meminum racun tikus untuk membunuh diri..💔 {2} mati kerana patah hati dan berputus asa dengan hidupnya.\n“Tiada suatu bencana pun yang menimpa di bumi dan (tidak pula) pada dirimu sendiri melainkan telah tertulis dalam kitab (Lauhul Mahfuzh) sebelum Kami menciptakannya. Sesungguhnya yang demikian itu adatelah mudah bagi Allah. (Kami jelaskan yang demikian itu) supaya kamu jangan berduka cita terhadap apa yang luput dari kamu, dan supaya kamu jangan terlalu gembira terhadap apa yang diberikan-Nya kepadamu. Dan Allah tidak menyukai setiap orang yang sombong lagi membanggakan diri” [Q.S. Al Hadid: 22-23]
         </value>
@@ -994,7 +994,7 @@ Deprecated strings (only there so your file will pass through validation with no
 	<string key="ZombieKilled">
 		<value>Mayat {0} dijumpai dengan risalah mengenai "Apa itu Syiah?". Pembunuh bersiri kembali, hidup ibarat tak bertuhan,membunuh orang tanpa belas kasihan dan tanpa fikiran, Seorang ahli syiah telah mati.</value>
 	</string>
-	<string key="CupidKilled">
+	<string key="RecruiterKilled">
 		<value>Masyarakat negeri mencari Tok Kadi bagi menyempurnakan majlis pernikahan salah seorang masyarakat negeri pada hari tersebut, tapi sayang mereka menemui {0} mati dibunuh dengan jarinya hilang satu. Masyarakat sedih atas kehilangan Tok Kadi negeri</value>
 	</string>
 	<string key="DrunkKilled">
@@ -1019,11 +1019,11 @@ Deprecated strings (only there so your file will pass through validation with no
 		<!--used when CH visits SK-->
 		<value>Pagi itu masyarakat menemui mayat {0} (Pegawai JAIS) dalam keadaan menyeramkan dengan tangan dan kaki dicincang, perut dibelah. Nampaknya Pembunuh Bersiri benar-benar tidak berminat dalam hal urusan agama. </value>
 	</string>
-	<string key="CultConvertWolfPublic">
+	<string key="zoombiesConvertWolfPublic">
 		<!--used when Zombies convert the wolves, only if wolves stayed home-->
 		<value>Malam itu serigala berubah fikiran dan memilih untuk duduk di rumah dan berehat tetapi Ahli Syiah mencari musibah apabila datang ke rumah serigala. Tidak melepaskan peluang, serigala menganggap rezeki datang bergolek, serigala tersenyum pada awalnya dan mempersilakan {0} masuk ke rumahnya lalu beliau menutup pintu,seorang ahli syiah mati dimakan serigala</value>
 	</string>
-	<string key="CultConvertKillerPublic">
+	<string key="zoombiesConvertKillerPublic">
 		<!--used when Zombies convert the SK-->
 		<value>Ahli syiah bersemangat untuk menyebarkan alirannya pada masyarakat negeri, tapi sayang, malam semalam {0} telah memilih orang yang salah untuk dihasut. {0} disambut oleh Pembunuh Bersiri yang tidak berminat untuk mengikuti apa-apa kumpulan, aliran mahupun fahaman.Seorang Ahli Syiah mati.</value>
 	</string>
@@ -1330,11 +1330,11 @@ Deprecated strings (only there so your file will pass through validation with no
 	<string key="AllowTannerA">
 		<value>Tanner as a role set to: {0}</value>
 	</string>
-	<string key="AllowCultQ">
-		<value>Allow cult as a role option?\nCurrent: {0}</value>
+	<string key="AllowzoombiesQ">
+		<value>Allow zoombies as a role option?\nCurrent: {0}</value>
 	</string>
-	<string key="AllowCultA">
-		<value>Cult as a role set to: {0}</value>
+	<string key="AllowzoombiesA">
+		<value>zoombies as a role set to: {0}</value>
 	</string>
 	<string key="AllowExtendQ">
 		<!--{0} = "Allow" / "Disallow" string-->
@@ -1453,8 +1453,8 @@ Deprecated strings (only there so your file will pass through validation with no
 	<string key="SerialKillerTeam" deprecated="true">
 		<value>SK Team</value>
 	</string>
-	<string key="CultTeam" deprecated="true">
-		<value>Cult Team</value>
+	<string key="zoombiesTeam" deprecated="true">
+		<value>zoombies Team</value>
 	</string>
 	<string key="TannerTeam" deprecated="true">
 		<value>Tanner Team</value>

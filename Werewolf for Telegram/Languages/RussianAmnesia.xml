@@ -233,13 +233,13 @@
   <string key="AllowTannerA">
     <value>Нынешний статус настройки: {0}</value>
   </string>
-  <string key="AllowCult">
+  <string key="Allowzoombies">
     <value>Разрешить секту</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>Разрешить фракцию «Секта», а значит и роль «Сектант» в игре?\nСтатус настройки: {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>Нынешний статус настройки: {0}</value>
   </string>
   <string key="AllowThief">
@@ -554,7 +554,7 @@
   <string key="Doppelgänger">
     <value>Двойник 🎭</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>Купидон 🏹</value>
   </string>
   <string key="Hunter">
@@ -682,8 +682,8 @@
   <string key="AboutAppS">
     <value>Apprentice Seer - Ученик Провидца (селянин, который после смерти Провидца становится новым Провидцем).</value>
   </string>
-  <string key="AboutCult">
-    <!-- CULT CONVERSION RATES AND WHO'S HOME HERE! ayylmao -->
+  <string key="Aboutzoombies">
+    <!-- zoombies CONVERSION RATES AND WHO'S HOME HERE! ayylmao -->
     <value>Zombie - Сектант (игрок, цель которого это завербовать всех селян и убить всех волков).</value>
   </string>
   <string key="AboutCH">
@@ -701,8 +701,8 @@
   <string key="AboutDG">
     <value>Doppelgänger - Двойник (селянин, который в начале игры выбирает игрока, чью роль возьмёт себе после его смерти;\nесли Двойник не выберет/не успеет выбрать игрока, роль которого Двойник возьмёт, игра сделает это сама, выбрав рандомного игрока;\nесли Двойник получит роль Дикого Ребёнка, «примером для подражания» первому станет игрок, которого выбрал второй;\nДвойника нельзя завербовать нетрансформированным, также Двойник не может выиграть, если он не трансформировался).</value>
   </string>
-  <string key="AboutCupid">
-    <value>Cupid - Купидон (селянин, который в начале игры соединяет сердца двух игроков;\nесли Купидон не выберет/не успеет выбрать будущих влюблённых, игра сама влюбит двух рандомных игроков;\nесли один из влюблённых выиграет, другой влюблённый тоже выиграет). \nКупидон и сам может стать одним из влюблённых. </value>
+  <string key="AboutRecruiter">
+    <value>Recruiter - Купидон (селянин, который в начале игры соединяет сердца двух игроков;\nесли Купидон не выберет/не успеет выбрать будущих влюблённых, игра сама влюбит двух рандомных игроков;\nесли один из влюблённых выиграет, другой влюблённый тоже выиграет). \nКупидон и сам может стать одним из влюблённых. </value>
   </string>
   <string key="AboutHunter">
     <value>Hunter - Ковбой (селянин, который может при нападении волка с 30% шансом убить волка.\nБудучи при смерти, Ковбой может забрать жизнь любого игрока;\nесли на Ковбоя нападёт бóльшее, чем один, количество волков, за каждого волка к шансу убийства прибавляется по 20%, в этом случае Ковбой убьёт рандомного волка;\nесли секта попытается завербовать Ковбоя, есть 50% шанс, что секта не сможет завербовать Ковбоя, в этом случае у Ковбоя есть 50% шанс убить последнего завербованного Сектанта)</value>
@@ -828,7 +828,7 @@
   <string key="RoleInfoDoppelganger">
     <value>Странно, я не помню, кто ты. Но так и быть, разрешаю тебе творить чёрные дела ночью!</value>
   </string>
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
     <!-- new strings june 10 2016 -->
     <value>Странно, я не помню, кто ты. Но так и быть, разрешаю тебе творить чёрные дела ночью!</value>
   </string>
@@ -929,13 +929,13 @@
   <string key="TannerWins" isgif="true">
     <value>О нет! Вы отправили на элетрошок Самоубийцу! Он выиграл. Не ожидали?</value>
   </string>
-  <string key="CultWins" isgif="true">
+  <string key="zoombiesWins" isgif="true">
     <value>Может они и отдали все воспоминания во славу Ктулху, но они выиграли! Секта победила.</value>
   </string>
   <string key="SerialKillerWins" isgif="true">
     <value>Последним оставшимся в живых стал Серийный Убийца! Кажется, он(а) выиграл(а)!</value>
   </string>
-  <string key="LoversWin" isgif="true">
+  <string key="crewmatesWin" isgif="true">
     <value>Настоящая любовь побеждает любые болезни! Любовники выиграли!</value>
   </string>
   <string key="NoWinner" isgif="true">
@@ -1037,10 +1037,10 @@
   <string key="AskDoppelganger">
     <value>Кажется, ты должен сделать чёрное дело. Кто будет жертвой?</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>Кажется, ты должен сделать чёрное дело. Кто будет жертвой?</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>Кажется, ты ОПЯТЬ должен сделать чёрное дело. Кто будет жертвой?</value>
   </string>
   <string key="AskDetect">
@@ -1190,22 +1190,22 @@
   <string key="ZombieVotedConvert">
     <value>{0} хочет сделать чёрное дело с {1}</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <value>{0} пришёл к {1} и теперь мёртв!</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <value>{0} мёртв! А в голове сидит это число: {1}</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>Роль изменилась. Но с какой и на какую - я не помню. Ну и что с того?</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>Хотя ты ничего не помнишь о себе, но в голове вертится этот человек: {0}. Он важен. Или нет... не важно!</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <value>В голове возникает новое имя: {0}!</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <value>{0} пошел к {1}, но его не было в своей палате!</value>
   </string>
   <string key="HunterVisitDead">
@@ -1235,18 +1235,18 @@
   <string key="MasonTeam">
     <value> Хотя ты ничего не помнишь о себе, но в голове вертится этот человек: {0}. Он важен. Или нет... не важно!</value>
   </string>
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <!-- new strings May 6 2016-->
     <value>{0} уже мёртв!</value>
   </string>
   <string key="GuardBlockedWolf">
     <value>Что-то случилось у {0} в палате? Ничего не помню.</value>
   </string>
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <!-- new strings May 9 2016-->
     <value>{0} пришел к {1}, но не помнит, что произошло.</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <value>Хотя ты и не помнишь о себе, но тебе кажется, что {0} - Сектант!</value>
   </string>
   <string key="Was">
@@ -1266,7 +1266,7 @@
   <string key="TimesUp">
     <value>Забыл сделать выбор? Время вышло!</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>Хотя ты ничего не помнишь о себе, но в голове вертится этот человек: {0}. Он важен. Или нет... не важно!</value>
   </string>
   <string key="HunterLynchedChoice">
@@ -1308,10 +1308,10 @@
   <string key="GuardBlockedKiller">
     <value>Что-то случилось у {0} в палате? Ничего не помню.</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <value>{0} пришёл к {1} и теперь мёртв!</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <value>{0} пришёл к {1} и теперь мёртв!</value>
   </string>
   <string key="GuardKiller">
@@ -1329,10 +1329,10 @@
   <string key="DGTransformToMason">
     <value>{0} мёртв, и твоя роль изменилась. Но с какой и на какую - я не помню. Ну и что с того? О, новое имя появилось в голове: {1}! Он важен! Или нет... не важно!</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <value>В голове возникает новое имя: {0}!</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <value>{0} мёртв, и твоя роль изменилась. Но с какой и на какую - я не помню. Ну и что с того? О, новое имя появилось в голове: {1}! Он важен! Или нет... не важно!</value>
   </string>
   <string key="DGToWolf">
@@ -1382,7 +1382,7 @@
   <string key="NewDGRoleModel">
     <value>Роль изменилась. Но с какой и на какую - я не помню. Ну и что с того? О, новое имя появилось в голове: {0}! Он важен! Или нет... не важно!</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <value>Бросив взгляд на мёртвое тело {0}, {1} падает на колени и рыдает. {1}, не выдерживая боли, хватает ближайший шприц и вкалывает себе смертельную дозу успокоительного... {2}</value>
   </string>
   <string key="SerialKillerWinsOverpower">
@@ -1391,7 +1391,7 @@
   <string key="SKHunterEnd">
     <value>Настаёт утро, и в больничной столовой встречаются двое оставшихся жителей. {0} достаёт скальпель и нападает на {1}. {1} достаёт свой пистолет и стреляет прямо в лицо {0}, после чего {0} падает, глубоко вонзая скальпель в {1}. Оба мертвы, больница пуста, победителя нет...</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>Что-то случилось? Ничего не помню.</value>
   </string>
   <string key="HunterKilledVisiter">
@@ -1451,7 +1451,7 @@
   <string key="SerialKillerTeamEnd">
     <value>Команда Серийных убийц</value>
   </string>
-  <string key="CultTeamEnd">
+  <string key="zoombiesTeamEnd">
     <value>Команда Оккультистов</value>
   </string>
   <string key="TannerTeamEnd">
@@ -1463,7 +1463,7 @@
   <string key="ZombieKilled">
     <value>{0} до смерти забили подсвечником с алтаря. Любой может стать жертвой маньяка. {0} был(а) сектантом.</value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>Утром пациенты с ужасом обнаружили расчленённого купидона {0}. Амур изуродован с головы до ног. Как странно, где же его сердце?...</value>
   </string>
   <string key="DrunkKilled">
@@ -1497,12 +1497,12 @@
     <value>Проснувшись утром, пациенты увидели останки {0}, охотника на секту. Не ходите к серийному убийце!</value>
     <value>Тело {0}, охотника на секту, было найдено в центре коридора разрезанным на мелкие кусочки. Не стоило проверять, является ли сектантом серийный убийца.</value>
   </string>
-  <string key="CultConvertWolfPublic">
+  <string key="zoombiesConvertWolfPublic">
     <!--used when Zombies convert the wolves, only if wolves stayed home-->
     <value>На этот раз волки решили поступить верно и наказали {0}. В отличие от больничной еды, культист оказался на редкость вкусным!</value>
     <value>Отправляясь вербовать пациентов, {0} столкнулся носом к носу с волком! Волки не любят секты, зато любят сектантов. Особенно упитанных.</value>
   </string>
-  <string key="CultConvertKillerPublic">
+  <string key="zoombiesConvertKillerPublic">
     <!--used when Zombies convert the SK-->
     <value>Радуясь вербовке очередного сектанта, секта совершила ошибку: {0}, сектант, был распотрошён и выброшен в больничный коридор! Священное писание секты было найдено рядом с торчащим ножом.</value>
     <value>Ночью сектанты пытались завербовать психа, большего чем они сами, и серийный убийца нарисовал на стенах картину кровью и органами сектанта. {0} мертв(а).</value>
@@ -1536,7 +1536,7 @@
     <!--{0} = Harlot name, {1} = SK's victim name-->
     <value>{0} проник в палату {1}, но таинственный незнакомец уже потрошит внутренности {1}! Серийный убийца решил развлечься с {0}, прежде чем взять его сердце и костюм медсестры к себе в коллекцию!</value>
   </string>
-  <string key="CultConvertWolf">
+  <string key="zoombiesConvertWolf">
     <value>Сектант {0} пошел в палату {1}. И теперь сектант мертв! </value>
   </string>
   <string key="ApprenticeSeerEaten">
@@ -1616,7 +1616,7 @@
     <!-- 0 - mason collegues's name -->
     <value>О, новое имя появилось в голове: {0}! Он важен! Или нет... не важно!</value>
   </string>
-  <string key="ThiefToCult">
+  <string key="ThiefTozoombies">
     <!-- 0 - old Zombie's name -->
     <!-- 1 - new Zombie's name -->
     <value>Что-то случилось с {0} и {1}? Ничего не помню.</value>
@@ -1818,10 +1818,10 @@
   <string key="HunterFellDigger">
     <value>Что-то случилось? Ничего не помню. О, новое имя появилось в голове: {0}! Он важен! Или нет... не важно!</value>
   </string>
-  <string key="CultFell">
+  <string key="zoombiesFell">
     <value>Что-то случилось? Ничего не помню. О, новое имя появилось в голове: {0}! Он важен! Или нет... не важно!</value>
   </string>
-  <string key="CultConvertGraveDigger">
+  <string key="zoombiesConvertGraveDigger">
     <value>{0} пришёл к {1} и теперь мёртв!</value>
   </string>
   <string key="ChemistFell">

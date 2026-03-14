@@ -377,33 +377,33 @@
     <!-- 1 - target name -->
     <value >{0} ha votado convertir a {1}.</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <!-- 0 - Yougest Zombie (killed)'s name' -->
     <!-- 1 - ZombieHunter's name -->
     <value>{0} fue enviado para hacer tu trabajo sucio y convertir a {1}...; sin embargo, ¡era Clancy Wiggums ¡{0} ha sido expulsado de la ciudad!</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - Number of Zombies left -->
     <value>{0} vino a tu casa esta noche para que te unieras a su causa…, pero enterraste tu cuchillo en su pecho. Un sectario ha muerto… ¡Queda(n) {1}!</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>¡Los sectarios te han convertido a la secta del lider! Ahora eres un sectario 👤. Cada noche tendrás ocasión de convertir a otro ciudadano.</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <!-- 0 - Number of Zombies -->
     <value>Sectarios: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <!-- 0 - new Zombie's name -->
     <value>¡{0} se ha unido a la Secta!</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <!-- 0 - Newest Zombie's name -->
     <!-- 1 - target name -->
     <value>{0} fue enviado a hacer tu trabajo sucio y convertir a {1}..., ¡pero no había nadie en casa!</value>
   </string>
-  <string key="CultWins" isgif="true">
+  <string key="zoombiesWins" isgif="true">
     <value >Todos las amenazas a la Secta del Lider han sido eliminadas y los únicos ciudadanos en pie han sido transformados en Sectarios ¡La Secta ha ganado! nananana ¡LIDER!</value>
   </string>
   <string key="HunterVisitDead">
@@ -507,7 +507,7 @@
     <value>Los Magios 👷‍♂️ son son: {0}</value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <!-- 0 - Youngest Zombies name -->
     <value>El miembro más reciente de la secta fue a convertir a {0} a su casa, pero parece ser que alguien llego antes que el.</value>
   </string>
@@ -516,7 +516,7 @@
     <value>Los aliados del Sr.Burns se dirigen a la casa de {0} para expulsar a alguien de la ciudad, pero se encuentran con una figura alta y brillante armada hasta los dientes. Maude Flanders os impide la entrada y volvéis a vuestro cubil derrotados.</value>
   </string>
   <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <!-- 0 - newest  -->
     <!-- 1 - target's name -->
     <value>Enviasteis a {0} para intentar convertir a {1}; sin embargo, su voluntad era demasiado fuerte y fue imposible unirlo a vuestra causa :(</value>
@@ -527,7 +527,7 @@
     <!-- 1 - name -->
     <value>@{1}, un jugador con el nombre {0} ya se ha unido. Por favor, cambia tu nombre para unirte.</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <!-- 0 - target's name -->
     <value>Te escabulliste anoche a la casa de {0} para pasar un buen rato, pero cuando te fuiste, notaste algo extraño: un extraño altar escondido en un cuarto con un brillo extraño… [{0} es un sectario].</value>
   </string>
@@ -621,7 +621,7 @@
 	<value>¡Se acabó el tiempo!</value>
   </string>
   <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
     <value>Eres Milhouse Van Houtten 🏹. Tu deber comenzar el rumor de que dos ciudadanos son pareja. Pero cuidado, si uno de esos dos ciudadanos es expulsado de la ciudad, el otro le acompañara.</value>
   </string>
   <string key="RoleInfoDoppelganger">
@@ -633,7 +633,7 @@
   <string key="RoleInfoSerialKiller">
     <value>Eres Bob Patiño 🔪. Hace poco que escapaste del manicomio local, tu objetivo es que todos los demás mueran (En especial Bart Simpson). Cada noche, puedes añadir un cuerpo a tu colección.</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>Has escuchado falsos rumores por la ciudad de tu relacion con {0}. Si uno de los dos es expulsado,el otro lo acompañara. Si estando vivos los dos, uno de los dos gana, el otro ganará también.</value>
 	<value>¡Los rumores de Milhouse Van Houten te han alcanzado! ¡Sus falsos rumores cuentan que estas locamente enamorado(a) de {0}! Si es expulsado, tú también. Si estáis vivos y uno de los dos gana, ¡los dos ganaréis!</value>
   </string>
@@ -689,12 +689,12 @@
     <!-- 0 - target's name -->
     <value>Quisiste incorporar el cuerpo de {0} para tu colección, ¡pero el Maude Flanders lo protegió! No ha habido muertes esta noche.</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
     <value>Los Sectarios envían a {0} para intentar convertir a {1}, pero en vez de eso, suena un grito y ¡{0} sale saltando por la ventana! {0} ha huido corriendo de la ciudad.</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
     <value>Los Sectarios envían a {0} para intentar convertir a {1}, pero en vez de eso, el cuerpo de {0} sale volando por la ventana, ¡con cuchillos clavados por todo el cuerpo! ¡QUÉ PSICÓPATA! {0} ha muerto.</value>
@@ -719,11 +719,11 @@
     <!-- 1 - mason collegues's name -->
     <value>{0} ha sido expulsado y tú te conviertes en un Magio. Tus compañeros de equipo (si los hay) son: {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <!-- 0 - new Zombie's name -->
     <value>Hugo Simpson (doble) {0} se ha convertido en sectario, ¡igual que tú!</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <!-- 0 - role's name -->
     <!-- 1 - teammates's name -->
     <value>{0} ha sido expulsado y tú te conviertes en sectario. Tus compañeros de equipo (si los hay) son: {1}</value>
@@ -743,25 +743,25 @@
   <string key="AskKill">
     <value>¿A quién quieres matar esta noche?</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <!-- 0 - dead's name -->
-    <!-- 1 - lover's name -->
+    <!-- 1 - crewmate's name -->
     <!-- 2 - roles -->
     <value>Mientras los ciudadanos expulsan de la ciudad a {0}, recuerdan los rumores de Milhouse y para prevenir traidores expulsan tambien a {1}. Ambos han sido expulsados. {2}</value>
   </string>
   <string key="AskDoppelganger">
     <value>¿En quién te quieres convertir si es expulsado?</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>¿Sobre quien quieres difundir falsos rumores?\nEscoge al primer jugador:</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>¿A quién vas a convertie en falsa pareja?\nEscoge al segundo jugador:</value>
   </string>
   <string key="Hunter">
     <value>Moe Szyslak 🎯</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>Milhouse Van Houten 🏹</value>
   </string>
   <string key="SerialKiller">
@@ -774,7 +774,7 @@
     <!-- 0 - target's name -->
     <value>Eres Bart Simpson 👶. Tu Modelo a seguir es {0}</value>
   </string>
-  <string key="LoversWin" isgif="true">
+  <string key="crewmatesWin" isgif="true">
     <value>¡Triunfa el falso amor! ¡Los supuestos amantes han ganado!</value>
   </string>
   <string key="HunterKilledVisiter">
@@ -782,7 +782,7 @@
     <!-- 1 - role -->
     <value> Mientras los aldeanos hacen la ronda diaria, encuentran la casa de {0} vacia. Parece que visito a Moe Szyslak y huyo asustado de la ciudad ! {1}</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>Una figura encapuchada trató de convertirte a su secta, pero tu fe es demasiado fuerte y has resistido a sus oraciones y convicciones.</value>
   </string>
   <string key="AlreadyOnWaitList">
@@ -862,7 +862,7 @@
   <string key="AboutFool">
     <value>A Cletus Spuckler 🃏 se le dice que es un genio. Cuando elija a alguien para estudiar su rol, se le dirá uno al azar.</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>Como sectario 👤, tu objetivo es convertir a todos los demás jugadores (excepto a los aliados del Sr.Burns) a tu secta. Si al final de la partida todos los jugadores vivos son sectarios, la secta del lider gana.</value>
   </string>
   <string key="AboutCH">
@@ -887,7 +887,7 @@
       Los Sectarios no puede convertir a Hugo Simpson (el doble) [pero sí después de cambiar de rol]). Cuidado: Hugo Simpson no podrá ganar si no ha cambiado de rol. Si al finalizar el juego, Hugo sigue siendo el doble, pierde (excepción: amantes).
     </value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>
       🏹 El falso amor está en el aire. Como Milhouse Van Houten, elegirás dos jugadores al principio de la partida para difundir falsos rumores sobre una supuesta relacion entre ellos. Si uno de los dos es expulsado, el otro tambien.
       Nota: Los falsos amantes se conocerán entre sí, pero no sabrán sus roles. Si los falsos amantes son los dos únicos supervivientes, ganarán, independientemente de sus equipos. Si están en distintos equipos (ciudadano + aliado del Sr.Burns) , y un equipo gana (Aliados del Sr.Burns), el falso amante(ciudadano) también ganará.
@@ -984,7 +984,7 @@
     <value>Mostrar</value>
   </string>
   <string key="Hide">
-    <value>Ocultar</value>
+    <value>Ozoombiesar</value>
   </string>
   <!-- Game Mode Choices-->
   <string key="NormalOnly">
@@ -1073,10 +1073,10 @@
   <string key="AllowTannerA">
     <value>Abe Simpson ahora: {0}</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>¿Permitir la secta del Lider?\nActualmente: {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>La secta ahora: {0}</value>
   </string>
   <string key="ThankYou">
@@ -1230,7 +1230,7 @@
   <string key="SerialKillerTeam">
     <value>Equipo de Bob Patiño</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>Equipo de la secta del lider</value>
   </string>
   <string key="TannerTeam">
@@ -1250,14 +1250,14 @@
   <string key="SerialKillerTeamEnd">
     <value>Equipo del Bob Patiño</value>
   </string>
-  <string key="CultTeamEnd">
+  <string key="zoombiesTeamEnd">
     <value>Equipo de la secta del lider</value>
   </string>
   <string key="TannerTeamEnd">
     <value>Equipo de Abe Simpson</value>
   </string>
   
-  <string key="CultConvertWolf">
+  <string key="zoombiesConvertWolf">
     <value>Los Sectarios envían a {0} para intentar convertir a {1}, pero en su lugar, {0} es expulsado de la ciudad. Me pregunto si pensaban que {0} era inexpulsable porque ahora lo esta.</value>
   </string>
   <string key="HarlotFuckedKilledPublic"> <!-- used when Harlot visit's SK's victim, and dies -->
@@ -1276,7 +1276,7 @@
   <string key="ZombieKilled">
     <value>{0} fue apuñalado hasta la muerte con un candelabro al lado de su altar. ¡Bob Patiño ha atacado de nuevo, sin importar la raza, el idioma o la religión! {0} era un sectario.</value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>A la mañana siguiente, los aldeanos se levantaron destrozados al encontrar a Millhouse Van Houten, {0}, dividido en dos. Curiosamente, le faltaba el corazón.</value>
   </string>
   <string key="DrunkKilled">
@@ -1309,11 +1309,11 @@
     <value>Los ciudadanos se despertaron por la mañana y se encontraron los restos del cuerpo de {0}, Clancy Wiggum, cortados en pedazos en un carro al lado del ayuntamiento. Lección aprendida: ¡no hay que visitar a Bob Patiño.</value>
     <value>El cuerpo de {0}, Clancy Wiggum, fue encontrado en el centro de la ciudad cortado en un centenar de piezas. Comprobar si Bob Patiño era un sectario no parece ser una buena idea.</value>
   </string>
-  <string key="CultConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
+  <string key="zoombiesConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
     <value>Aunque parecía que los aliados del Sr.Burns habían decidido quedarse en casa, un sectario decidió visitarlos, siendo demasiado difícil de resistir para ellos.¡{0} Ha sido expulsado de la ciudad!</value>
     <value>Los Sectarios se encontraron con problemas inesperados anoche. Su miembro más reciente, {0}, tuvo la desgracia de visitar a un aliado del Sr.Burns, justo la noche que habían decidido quedarse en casa. Desafortunadamente para la secta, los aliados de Burns no tienen ningún interés en unirse al nuevo movimiento religioso y era una oportunidad que no podían dejar pasar. {0} ha sido expulsado de la ciudad.</value>
   </string>
-  <string key="CultConvertKillerPublic"> <!--used when Zombies convert the SK-->
+  <string key="zoombiesConvertKillerPublic"> <!--used when Zombies convert the SK-->
     <value>Los Sectarios pensaban que tendrían un nuevo miembro en sus filas, pero, ¡estaban equivocados! {0}, un sectario, fue descuartizado y sus restos fueron esparcidos por todo el pueblo! Extrañamente, el libro «santo» estaba junto a un cuchillo, como muestra clara de qué religión es la que manda.</value>
     <value>Anoche, la secta trató de convertir al ciudadano más loco del pueblo. Su miembro más reciente, {0}, trató de convertir a Bob Patiño, y este hizo una nueva obra de arte en la plaza de Jeremias Springfield, exhibiendo todos los órganos internos al los ciudadanos</value>
   </string>
@@ -1402,8 +1402,8 @@
     <!-- {0} = list of people who have joined -->
     <value>{0} se ha(n) unido en los últimos 30 segundos.</value>
   </string>
-  <string key="AllowCult">
-    <value>Permitir culto</value>
+  <string key="Allowzoombies">
+    <value>Permitir zoombieso</value>
   </string>
   <string key="AllowTanner">
     <value>Permitir Veterano</value>
@@ -1636,7 +1636,7 @@
     <!-- 0 - mason collegues's name -->
     <value>Tus compañeros (si los hay) son: {0}</value>
   </string>
-  <string key="ThiefToCult">
+  <string key="ThiefTozoombies">
     <!-- 0 - old Zombie's name -->
     <!-- 1 - new Zombie's name -->
     <value>{0} ya no forma parte de tu equipo, y {1} se ha convertido en Sectario, ¡como tú!</value>

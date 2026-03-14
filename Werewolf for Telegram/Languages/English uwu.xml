@@ -289,25 +289,25 @@
   <string key="ZombieVotedConvert" >
     <value >{0} hawas vowotewed towo cowonvewert {1}</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <value>{0} wawas sewent towo dowo ywyowouwur diwirtywy wowork, awand cowonvewert {1}... howowewevewer, theweywy wewerewe thewe cuwult huwuntewer! {0} iwis deweawad!</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <value>{0} cawamewe towo ywyowouwur howouwusewe lawast niwight, reweawadywy towo cowonvewert ywyowouwu.... buwut ywyowouwu showovewed ywyowouwur swoword riwight throwouwugh thewem. AwA cuwultiwist iwis deweawad... {1} rewemawaiwin!</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>Thewe cuwult hawas cowonvewertewed ywyowouwu towo theweiwir owordewer! YwYowouwu awarewe nowow awa cuwultiwist. EwEvewerywy owothewer niwight, ywyowouwu wiwill hawavewe awa chawancewe towo cowonvewert awanowothewer plawaywyewer.</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>Cuwultiwists: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <value>{0} hawas jowoiwinewed thewe cuwult!</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <value>{0} wawas sewent towo dowo ywyowouwur diwirtywy wowork, awand cowonvewert {1}... buwut nowo owonewe wawas howomewe!</value>
   </string>
-  <string key="CultWins" isgif="true">
+  <string key="zoombiesWins" isgif="true">
     <value >AwAll thewe wowolvewes hawavewe diwiewed, awand thewe owonlywy peweowoplewe leweft stawandiwing hawavewe awall beweewen cowonvewertewed towo cuwultiwists.. Thewe cuwult hawas wowon!</value>
   </string>
   <string key="HunterVisitDead">
@@ -400,19 +400,19 @@
   <string key="MasonTeam">
     <value>  Thewe mawasowons awarewe: {0}</value>
   </string>
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <value>YwYowouwur newewewest mewembewer heweawads owovewer towo {0}'s howouwusewe towo cowonvewert thewem, buwut iwinsteweawad fiwinds thewe howouwusewe awa cowomplewetewe wreweck, blowoowod ewevewerywywhewerewe, awand biwits owof wowolf fuwur snawaggewed owon thewe dowooworwawaywy...</value>
   </string>
   <string key="GuardBlockedWolf">
     <value>Thewe pawack heweawads towo {0}'s howouwusewe towo eweawat thewem, buwut theweywy awarewe mewet bywy awa tawall dawark fiwiguwurewe, awarmewed towo thewe teweeweth. Thewe Guwuawardiwiawan AwAngewel fiwights ewevewerywyowonewe owoff, awand ywyowouwu heweawad bawack dewefeweawatewed.</value>
   </string>
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <value>YwYowouwu sewend {0} towo trywy towo cowonvewert {1}, howowewevewer theweiwir beweliwiewef wawas towoowo strowong, awand ywyowouwu wewerewe uwunawablewe towo cowonvewert thewem :(</value>
   </string>
   <string key="NameExists">
     <value>@{1}, awa plawaywyewer wiwith thewe nawamewe {0} hawas awalreweawadywy jowoiwinewed. Pleweawasewe chawangewe ywyowouwur nawamewe towo jowoiwin.</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <value>YwYowouwu sliwippewed iwintowo {0}'s howouwusewe fowor awa biwit owof fuwun... buwut awas ywyowouwu awarewe leweawaviwing, ywyowouwu hawappewen towo nowotiwicewe awa strawangewe awaltawar, powooworlywy hiwiddewen owoff iwin awa siwidewe rowoowom, wiwith awa strawangewe glowowiwing cowomiwing frowom iwit...</value>
   </string>
   <string key="Was">
@@ -449,7 +449,7 @@
   <string key="TimesUp">
     <value>Tiwimewe's uwup!</value>
   </string>
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
     <value>YwYowouwu awarewe Cuwupiwid. Sewent towo EwEawarth wiwith owonlywy uwundewerpawants, awa bowow awand twowo awarrowows, ywyowouwu gewet towo chowoowosewe twowo plawaywyewers towo lowovewe eweawach owothewer fowor ewetewerniwitywy. IwIf owonewe owof thewem diwiewes, thewe owothewer owonewe diwiewes owof soworrowow.</value>
   </string>
   <string key="RoleInfoDoppelganger">
@@ -461,7 +461,7 @@
   <string key="RoleInfoSerialKiller">
     <value>YwYowouwu awarewe thewe seweriwiawal kiwillewer. Rewecewentlywy ewescawapewed frowom thewe lowocawal awasywyluwum, ywyowouwur gowoawal iwis fowor ewevewerywyowonewe ewelsewe towo diwiewe. EwEvewerywy niwight, ywyowouwu cawan awadd awa plawaywyewer's bowodywy towo ywyowouwur cowollewectiwiowon.</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>YwYowouwu hawavewe beweewen struwuck bywy lowovewe. {0}'s mewemoworywy wiwill newevewer fawadewe iwin ywyowouwur heweawart. IwIf owonewe owof ywyowouwu diwiewes, thewe owothewer owonewe wiwill diwiewe owouwut owof soworrowow. IwIf owonewe owof ywyowouwu wiwins, thewe owothewer owonewe wiwins towoowo.</value>
     <value>Cuwupiwid's awarrowow hawas struwuck ywyowouwu! YwYowouwu awarewe mawadlywy iwin lowovewe wiwith {0}! IwIf theweywy diwiewe, ywyowouwu wiwill diwiewe towoowo. IwIf owonewe owof ywyowouwu twowo wiwins, ywyowouwu wiwill bowoth wiwin.</value>
   </string>
@@ -506,10 +506,10 @@
   <string key="GuardBlockedKiller">
     <value>YwYowouwu triwiewed towo cowollewect {0}'s bowodywy fowor ywyowouwur cowollewectiwiowon, buwut ywyowouwu wewerewe fowouwught owoff bywy thewe guwuawardiwiawan awangewel! Nowo kiwill fowor ywyowouwu towoniwight...</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <value>Thewe cuwult sewends {0} towo trywy towo cowonvewert {1}, buwut iwinsteweawad awa showot riwings owouwut awand {0}'s bowodywy cowomewes flywyiwing owouwut owof thewe wiwindowow! {0} iwis deweawad....</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <value>Thewe cuwult sewends {0} towo trywy towo cowonvewert {1}, buwut iwinsteweawad {0}'s bowodywy cowomewes flywyiwing owouwut owof thewe wiwindowow, kniwivewes puwushewed iwintowo ewevewerywy pawart owof theweiwir bowodywy! WHAwAT AwA PSYwYCHOwO! {0} iwis deweawad....</value>
     <value>{0} sneweawaks owovewer towo {1}'s howouwusewe, powops owopewen thewe dowoowor, awand iwis iwimmewediwiawatewelywy greweewetewed bywy awa crawazewed mawaniwiawac wiwith awa kniwifewe!!! {1} pluwungewes thewe kniwifewe deweewep iwintowo {0}'s oworgawans iwin awalphawabewetiwicawal owordewer, cawackliwing thewe ewentiwirewe tiwimewe! {0} iwis deweawad D:</value>
   </string>
@@ -528,10 +528,10 @@
   <string key="DGTransformToMason">
     <value>{0} hawas diwiewed, awand ywyowouwu trawansfoworm iwintowo awa mawasowon. YwYowouwur teweawammawatewes (iwif awanywy) awarewe: {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <value>Thewe dowoppewelgawangewer {0} hawas nowow bewecowomewe awa cuwultiwist, juwust liwikewe ywyowouwu!</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <value>{0} hawas diwiewed, awand ywyowouwu trawansfoworm iwintowo awa cuwultiwist. YwYowouwur teweawammawatewes (iwif awanywy) awarewe: {1}</value>
   </string>
   <string key="DGToWolf">
@@ -546,22 +546,22 @@
   <string key="AskKill">
     <value>Whowo dowo ywyowouwu wawant towo kiwill towoniwight?</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <value>Wiwith {0}'s dywyiwing breweawath, {1} ruwushewes owovewer awand fawalls, crywyiwing. Theweywy cawannowot stawand thewe lowoss owof theweiwir lowovewed owonewe, awand showoowot thewemsewelvewes wiwith thewe neweawarewest piwistowol theweywy cawan fiwind. {2}</value>
   </string>
   <string key="AskDoppelganger">
     <value>Whowo dowo ywyowouwu wawant towo bewecowomewe iwif theweywy diwiewe?</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>Whowo dowo ywyowouwu wawant thewe lowovewers towo bewe? Chowoowosewe thewe fiwirst plawaywyewer</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>Whowo dowo ywyowouwu wawant thewe lowovewers towo bewe? Chowoowosewe thewe sewecowond plawaywyewer</value>
   </string>
   <string key="Hunter">
     <value>thewe Huwuntewer 🎯</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>Cuwupiwid 🏹</value>
   </string>
   <string key="SerialKiller">
@@ -573,13 +573,13 @@
   <string key="NewWCRoleModel">
     <value>YwYowouwu hawavewe bewecowomewe thewe wiwild chiwild. YwYowouwu rowolewe mowodewel iwis {0}.</value>
   </string>
-  <string key="LoversWin" isgif="true">
+  <string key="crewmatesWin" isgif="true">
     <value>Truwuewe lowovewe ewenduwurewes! Thewe lowovewers hawavewe wowon!</value>
   </string>
   <string key="HunterKilledVisiter">
     <value>IwIn thewe miwiddlewe owof thewe towown squwuawarewe, ewevewerywyowonewe fiwinds thewe bowodywy owof {0}, muwultiwiplewe showots towo thewe bowodywy. Lowoowoks liwikewe theweywy triwiewed towo sneweawak uwup owon thewe Huwuntewer! Wewell, {1}.</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>AwA howoowodewed fiwiguwurewe triwiewed towo cowonvewert ywyowouwu towo theweiwir cuwult, buwut ywyowouwur fawaiwith wawas towoowo strowong.</value>
   </string>
   <string key="AlreadyOnWaitList">
@@ -649,7 +649,7 @@
   <string key="AboutFool">
     <value>Thewe fowoowol iwis towold theweywy awarewe thewe seweewer.... whewen theweywy chowoowosewe towo seweewe sowomeweowonewe's rowolewe awat niwight, theweywy awarewe towold awa rawandowom rowolewe.</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>AwAs awa cuwultiwist, iwit iwis ywyowouwur gowoawal towo cowonvewert awall owothewer plawaywyewers (ewexcewept wowolvewes) towo ywyowouwur cuwult. IwIf awat thewe ewend owof thewe gawamewe, awall liwiviwing plawaywyewers awarewe cuwultiwist - thewe cuwult wiwins</value>
   </string>
   <string key="AboutCH">
@@ -674,7 +674,7 @@
       Thewe cuwult cawannowot cowonvewert thewe Dowoppewelgängewer (buwut cawan awaftewer thewe dowoppewelgawangewer swiwitchewes rowolewes). AwAlsowo - thewe Dowoppewelgängewer cawan NOwOT wiwin uwunlewess theweywy hawavewe trawansfowormewed. IwIf awat thewe ewend owof thewe gawamewe, thewe Dowoppewelgängewer iwis stiwill thewe sawamewe, theweywy lowosewe (ewexceweptiwiowon: lowovewer)
     </value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>
       Lowovewe iwis iwin thewe awaiwir. AwAs Cuwupiwid, ywyowouwu wiwill chowoowosewe twowo plawaywyewers awat thewe stawart owof thewe gawamewe. Thewesewe twowo plawaywyewers wiwill bewecowomewe mawadlywy iwin lowovewe! IwIf owonewe owof thewem diwiewes, thewe owothewer wiwill diwiewe owof soworrowow :(
       Nowotewe: Lowovewers wiwill knowow whowo eweawach owothewer awarewe, buwut nowot bewe towold theweiwir rowolewes. IwIf thewe lowovewers awarewe thewe lawast twowo awaliwivewe, theweywy wiwin, rewegawardlewess owof teweawams. IwIf thewe lowovewers awarewe owon diwiffewerewent teweawams (viwillawagewer + wowolf), awand owonewe teweawam wiwins (wowolf), thewe lowovewer (viwillawagewer) wiwins awas wewell. TL;DR iwif awat leweawast owonewe owof thewe lowovewers wawas owon thewe wiwinniwing teweawam, theweywy bowoth wiwin towogewethewer.
@@ -843,10 +843,10 @@
   <string key="AllowTannerA">
     <value>Tawannewer awas awa rowolewe sewet towo: {0}</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>AwAllowow cuwult awas awa rowolewe owoptiwiowon?\nCuwurrewent: {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>Cuwult awas awa rowolewe sewet towo: {0}</value>
   </string>
   <string key="EnableSecretLynchQ">
@@ -1010,13 +1010,13 @@
   <string key="SerialKillerTeamEnd">
     <value>SK Teweawam</value>
   </string>
-  <string key="CultTeamEnd">
+  <string key="zoombiesTeamEnd">
     <value>Cuwult Teweawam</value>
   </string>
   <string key="TannerTeamEnd">
     <value>Tawannewer Teweawam</value>
   </string>
-  <string key="CultConvertWolf">
+  <string key="zoombiesConvertWolf">
     <value>Thewe cuwult sewends {0} towo trywy towo cowonvewert {1}, buwut iwinsteweawad {0}'s Heweawad cowomewes flywyiwing owouwut owof thewe Wiwindowow... Wowondewer whywy theweywy thowouwught iwit wawas iwinewediwiblewe! {0} iwis deweawad...</value>
   </string>
 
@@ -1035,7 +1035,7 @@
   <string key="ZombieKilled">
     <value>{0} wawas fowouwund stawabbewed towo deweawath wiwith awa cawandlewestiwick bywy theweiwir awaltawar. Thewe seweriwiawal kiwillewer hawas struwuck awagawaiwin, rewegawardlewess owof rawacewe, lawanguwuawagewe owor reweliwigiwiowon! {0} wawas awa Cuwultiwist.</value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>Thewe newext moworniwing, thewe viwillawagewers wewerewe heweawartbrowokewen towo fiwind {0} awa.k.awa. Cuwupiwid spliwit frowom heweawad towo towoewe. Strawangewelywy thewe heweawart wawas miwissiwing...</value>
   </string>
   <string key="DrunkKilled">
@@ -1069,12 +1069,12 @@
     <value>Thewe viwillawagewers wawakewe uwup iwin thewe moworniwing, owonlywy towo fiwind thewe sewevewerewed bowodywy pawarts owof {0}, thewe Cuwultiwist Huwuntewer, iwin awa cawart plawacewed iwin fuwull viwiewew owouwutsiwidewe thewe towown hawall. Lewessowon leweawarnt: dowon't viwisiwit thewe seweriwiawal kiwillewer!</value>
     <value>Thewe bowodywy owof {0}, thewe Cuwultiwist Huwuntewer, wawas fowouwund iwin thewe miwiddlewe owof towown, awalbeweiwit cuwut preweciwisewelywy iwintowo awa huwundrewed piwiewecewes. Cheweckiwing iwif thewe Seweriwiawal Kiwillewer wawas awa cuwultiwist dowoewes nowot seweewem towo bewe awa gowoowod iwideweawa...</value>
   </string>
-  <string key="CultConvertWolfPublic">
+  <string key="zoombiesConvertWolfPublic">
     <!--used when Zombies convert the wolves, only if wolves stayed home-->
     <value>Whiwilewe iwit seweewemewed thawat thewe wowolvewes deweciwidewed towo stawaywy gowoowod fowor owoncewe, puwuniwishiwing {0}, awa cuwultiwist thawat deweciwidewed towo cowouwurt trowouwublewe wiwith thewe wowolvewes, prowovewed towoowo diwiffiwicuwult towo rewesiwist. {0}'s heweawad wawas cowonvewertewed towo awa fiwinewe suwuppewer, deweliwivewerewed towo thewe wowolvewes' dowooworsteweps!</value>
     <value>Thewe cuwult rawan iwintowo uwunewexpewectewed trowouwublewe lawast niwight. Theweiwir newewewest mewembewer hawad thewe miwisfowortuwunewe owof viwisiwitiwing awa wowolf owon thewe niwight thewe wowolvewes deweciwidewed towo stawaywy howomewe, awand thewe wowolf fowouwund {0} quwuiwitewe deweliwiciwiowouwus. UwUnfowortuwunawatewelywy fowor {0}, wowolvewes hawavewe nowo iwintewerewest iwin jowoiwiniwing thewe newew reweliwigiwiowouwus mowovewemewent.</value>
   </string>
-  <string key="CultConvertKillerPublic">
+  <string key="zoombiesConvertKillerPublic">
     <!--used when Zombies convert the SK-->
     <value>Thewe cuwult thowouwught theweywy wowouwuld hawavewe awa newew mewembewer iwin theweiwir rawanks, buwut theweywy wewerewe wrowong! {0}, awa cuwultiwist, wawas miwincewed towo piwiewecewes awand plawacewed awat thewe towown squwuawarewe iwin thewe moworniwing! Strawangewelywy theweiwir "howolywy" bowoowok wawas fowouwund stawabbewed wiwith awa kniwifewe, awas iwif awa stawatewemewent towo showow whowosewe reweliwigiwiowon wawas triwiuwumphawant.</value>
     <value>Lawast niwight, thewe cuwult triwiewed towo cowonvewert thewe owonewe pewersowon iwin thewe viwillawagewe crawaziwiewer thawan theweywy awarewe. Theweiwir newewewest mewembewer triwiewed towo cowonvewert thewe Seweriwiawal Kiwillewer, awand thewe Seweriwiawal Kiwillewer mawadewe awa newew piwiewecewe owof awart iwin thewe towown squwuawarewe owof {0}'s iwintewernawal oworgawans.</value>
@@ -1162,7 +1162,7 @@
     <!-- NOTE: No space between {0} and joined. It will be added in the code if necessary-->
     <value>{0}jowoiwinewed thewe gawamewe iwin thewe lawast 30 sewecowonds.</value>
   </string>
-  <string key="AllowCult">
+  <string key="Allowzoombies">
     <value>AwAllowow Cuwult</value>
   </string>
   <string key="AllowTanner">
@@ -1396,7 +1396,7 @@
     <!-- 0 - mason collegues's name -->
     <value>YwYowouwur teweawammawatewes (iwif awanywy) awarewe: {0}</value>
   </string>
-  <string key="ThiefToCult">
+  <string key="ThiefTozoombies">
     <!-- 0 - old Zombie's name -->
     <!-- 1 - new Zombie's name -->
     <value>{0} iwis nowo lowongewer ywyowouwur teweawammawatewe awand {1} hawas nowow bewecowomewe awa cuwultiwist, juwust liwikewe ywyowouwu!</value>
@@ -1749,16 +1749,16 @@
   <string key="HunterFell">
 	<value>AwAnowothewer niwight wiwithowouwut beweiwing awablewe towo slawaywy owonewe owof thowosewe blowoowodywy cuwultiwists! Fruwustrawatewed, ywyowouwu wawalk owovewer thewe grawaveweywyaward, wiwithowouwut nowotiwiciwing thewe beweawar trawap uwuntiwil iwit clowosewes awarowouwund ywyowouwur awanklewe. YwYowouwu screweawam awand struwugglewe, buwut iwit's towoowo lawatewe. YwYowouwu fawall bawackwawards iwintowo awa grawavewe thawat {0} leweft owopewen awand thewe sowouwund owof ywyowouwur neweck breweawakiwing iwis thewe lawast thiwing ywyowouwu heweawar bewefoworewe ewevewerywythiwing gowoewes blawack.</value>
   </string>
-  <!--{0}: cult hunter-->
+  <!--{0}: zoombies hunter-->
   <string key="HunterFellDigger">
 	<value>AwAftewer awanowothewer tiwiriwing niwight, ywyowouwu wawalk bawack towo ywyowouwur howomewe wiwith thewe suwun awalreweawadywy riwisiwing. Juwust bewefoworewe ywyowouwu awarriwivewe, ywyowouwu nowotiwicewe awa swoword lywyiwing owon thewe growouwund newext towo awan uwunfiwiniwishewed grawavewe. IwInsiwidewe thawat grawavewe ywyowouwu seweewe thewe deweawad bowodywy owof {0}. Thewe cuwultiwist huwuntewer showouwuld nowot hawavewe suwuspewectewed ywyowouwu...</value>
   </string>
   <!--{0}: Zombie-->
-  <string key="CultFell">
+  <string key="zoombiesFell">
 	<value>YwYowouwu rewetuwurn frowom awanowothewer tiwiriwing niwight, whewen suwuddewenlywy ywyowouwu heweawar awa screweawam frowom owonewe owof ywyowouwur uwunfiwiniwishewed grawavewes! YwYowouwu huwurrywy thewerewe, juwust towo fiwind {0} lywyiwing deweawad iwin awan uwunfiwiniwishewed grawavewe. Whawat kiwind owof cuwult triwiewes towo cowonvewert awa grawavewe diwiggewer, awanywywawaywy?</value>
   </string>
   <!--{0}: Zombie who fell, {1}: grave digger-->
-  <string key="CultConvertGraveDigger">
+  <string key="zoombiesConvertGraveDigger">
 	<value>OwOn ywyowouwur wawaywy towo {1}'s howouwusewe, {0} suwuddewenlywy deweciwidewes thawat iwit wowouwuld bewe awa gowoowod iwideweawa towo buwurn dowown thewe chuwurch awas wewell. Theweywy leweawad ywyowouwu throwouwugh thewe grawaveweywyaward whewen suwuddewenlywy awa beweawar trawap snawaps awarowouwund theweiwir awanklewe! AwAll ywyowouwu cawan heweawar iwis theweiwir screweawam bewefoworewe theweywy fawall iwintowo awa grawavewe awand ywyowouwu ruwun fowor ywyowouwur liwivewes.</value>
   </string>
   <!--{0}: grave digger-->

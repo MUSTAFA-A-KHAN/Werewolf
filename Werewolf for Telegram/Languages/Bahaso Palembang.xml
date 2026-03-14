@@ -483,34 +483,34 @@
     <!-- 1 - target name -->
     <value >{0} milih ngehasut {1}.</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
 	<!-- 0 - Yougest Zombie (killed)'s name' -->
     <!-- 1 - ZombieHunter's name -->
     <value>{0} diutus untuk ngehasut {1} .. dengan polosnyo, dem tu dio sadar ternyato {1} Pemburu Pemuja Kerang Ajaib. Nah lajukelah. 💂
 	{0} lah mati!</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
 	<!-- 0 - Youngest Zombie's name -->
     <!-- 1 - Number of Zombies left -->
     <value> {0} ke rumah kau semalem bawa formulir pendaftaran dan macem-macem jenis kerang ajaib.. Ketawo licik, kau langsung ngehunus dio tepat di dadonyo. Sikok Pemuja Kerang Ajaib mati.. {1} t’siso!</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>👤 Pemuja Kerang Ajaib berhasil ngajak kau untuk gabung! BIDIP!! BIDIP!! 🐚. Tiap malem, kau pacak ngajak wong lain untuk gabung pulo’. BIDIP!! BIDIP!!</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
 	<!-- 0 - Number of Zombies -->
     <value>👤 Zombie Pemuja Kerang Ajaib: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
 	<!-- 0 - new Zombie's name -->
     <value>{0} lah gabung dengan Pemuja Kerang Ajaib! 👤 BIDIP!! BIDIP!! </value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
 	<!-- 0 - Newest Zombie's name -->
     <!-- 1 - target name -->
     <value>{0} bawa formulir pendaftaran ke rumah {1}. Sudah ngetuk pintu rumahnyo beberapo jam, kau mutuske untuk ninggalke formulir pendaftaran di bawah pintu rumahnyo.</value>
   </string>
-  <string key="CultWins" >
+  <string key="zoombiesWins" >
     <value >🎉 ~(˘з˘)~~(˘з˘)~~(˘з˘)~ 🎉
 	BIDIP BIDIP!! 👤
 	Galo Serigala lah mati. Wong-wong desa yang t’siso lah jadi Pemuja Kerang Ajaib galo!  
@@ -618,7 +618,7 @@
     <value>  Perkumpulan para Mason adalah: {0}</value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
 	
     <value>Anggota baru kau pegi ke rumah {0} bawa formulir pendaftaran,
       Tapi dio nemuke rumah yang porak poranda dengan darah bececeran, bekas cakaran Serigala di dinding. Caknyo dio lah dimakan duluan samo Serigala.</value>
@@ -629,7 +629,7 @@
 	  Guardian Angel bikin kamu belari takut.</value>
   </string>
   <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
 	<!-- 0 - newest  -->
     <!-- 1 - target's name -->
     <value>Kamu mengutus {0} untuk mengajak {1} bergabung, tetapi iman dia sangat kuat dan tidak tergoyahkan. Dia alergi kerang. 
@@ -643,7 +643,7 @@
     <!-- 1 - name -->
     <value> @{1} , Pemain dengan namo {0} sudah ado yang melok main. Gantilah yo namo kau tu.</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
 	<!-- 0 - target's name -->
     <value>Kau pegi ke rumah {0} untuk kelonan 👄. Dem kau nak balek, kau dak sengajo nyingok kerang besak becahayo di salah sikok kamar. BIDIP! BIDIP!! 🐚</value>
   </string>
@@ -740,8 +740,8 @@
 	<value>Telambat meleh kau!</value>
   </string>
   <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
-    <value>Kamu adalah Cupid 💘. Malaikat kecik dari surgo yang cuma make celano dalem dan sayap kecik nian, dengan panah lope-lope kamu bisa memilih sepasang jomblo untuk jadian. kalau salah sikoknyo mati, cememew nyo jugo akan mati karena jomblo lagi.</value>
+  <string key="RoleInfoRecruiter">
+    <value>Kamu adalah Recruiter 💘. Malaikat kecik dari surgo yang cuma make celano dalem dan sayap kecik nian, dengan panah lope-lope kamu bisa memilih sepasang jomblo untuk jadian. kalau salah sikoknyo mati, cememew nyo jugo akan mati karena jomblo lagi.</value>
   </string>
   <string key="RoleInfoDoppelganger">
     <value>Kamu adalah Doppelgänger 🎭. Kato wong kau biso jadi siapo bae dengan kekuatan samo dengan yang kau pilih. kalu pliha kau mati, kau gantike peran dio.</value>
@@ -752,7 +752,7 @@
   <string key="RoleInfoSerialKiller">
     <value>Kamu adalah Serial Killer 🔪, pembunuh berantai yang galak nonton serial drama korea. Kau seneng jingok mayat wong yang kau bunuh tiap malem, psycho nian kau nih.</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>CIYEEEEEE!!! (ɔ˘˘)˘˘c)❤️ 
 	Inikah namanya cinta? Oh inikah cinta? Cinta pada jumpa pertama... ❤♫♫ Ciyee jadian samo {0} , Tiap malem mekeri dio be, lupo makan lupo minum laju. Kalu nak edop jangan ado yang mati salah sikok dari kamu! Kalau ado yang mati sikoknyo jugo mati takut dikatoi jomblo.</value>
 	<value>CIYEEEEEE!!! (ɔ˘˘)˘˘c)❤️ 
@@ -799,7 +799,7 @@
     <value>(Beberapa menit sebelumnya)🎯
 	{0} megang dado yg penuh darah terus nyampak ke tanah.... Dengan senyum penuh kebencian dio nembak 【{1}】. {2}</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <value> {0} bawa formulir partai kerang ke rumah {1} dibuati kopi samo dibelike martabak dan tibo-tibo {1} nujah 【{0}】 
 	karena dak galak masuk partai, terus dikuliti dan dijadike koleksi.
 	{0} telah mati.. </value>
@@ -843,13 +843,13 @@ Serial Killer Beraksi!! 🔪
 	<!-- 0 - target's name -->
     <value>Kau ke rumah {0} untuk ngambek ginjal, tapi ado malaikat yang jago, lantaklah! Lah kau lawan tapi masih kalah kuat samo malaikat, kau tuh manusio biaso.</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
 	<!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
     <value>Kutil junior {0} ke rumah {1} bawa formulir pendaftaran, tetapi ado bunyi tembakan dan {0} nyampak ke langit! {0} telah mati....
 	┬─┬ ︵ /(.□. \）</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
 	<!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
     <value>Kutil junior {0} ke rumah {1} bawa formulir pendaftaran, tetapi ado bunyi tembakan dan {0} nyampak ke langit! {0} telah mati.....</value>  </string>
@@ -869,11 +869,11 @@ Serial Killer Beraksi!! 🔪
     <!-- 1 - mason collegues's name -->
     <value> {0} lah mati, kau jadi mason 👷. Tim Mason kau ini nah : {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
 	<!-- 0 - new Zombie's name -->
     <value>Si doppelganger {0} lah jadi kutil samo cak kau!</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
 	<!-- 0 - role's name -->
     <!-- 1 - teammates's name -->
     <value>{0} lah mati, kau jadi kutil👤. Tim kutil kau ini nah: {1}</value>
@@ -894,9 +894,9 @@ Serial Killer Beraksi!! 🔪
   <string key="AskKill">
     <value>Siapo yang nak kau bantai malem ini?</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
 	<!-- 0 - dead's name -->
-    <!-- 1 - lover's name -->
+    <!-- 1 - crewmate's name -->
     <!-- 2 - roles -->
     <value>{0} mati di pelukan {1}. Dak tahan ngejomblo lagi, dio milih bunuh diri.💔 {2}</value>
 	<value>{0} mati di pelukan {1}. Banyu mato nganak sungai di pipinyo, dio minum racun laju mati.💔 {2}</value>
@@ -906,17 +906,17 @@ Serial Killer Beraksi!! 🔪
   <string key="AskDoppelganger">
     <value>Kalu dio mati, kau jadi dio, payo pilih nak jadi siapo?</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>Siapo yang nak kau jadike duo sejoli sehidup semati? Pilihlah jomblo pertamo</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>Siapo yang nak kau jadike duo sejoli sehidup semati? Pilihlah jomblo keduo</value>
   </string>
   <string key="Hunter">
     <value>Hunter 🎯</value>
   </string>
-  <string key="Cupid">
-    <value>Cupid 💘</value>
+  <string key="Recruiter">
+    <value>Recruiter 💘</value>
   </string>
   <string key="SerialKiller">
     <value>Serial Killer 🔪</value>
@@ -924,15 +924,15 @@ Serial Killer Beraksi!! 🔪
   <string key="Doppelgänger">
     <value>Doppelgänger 🎭</value>
   </string>
-  <string key="CupidChosen">
-	<!-- 0 - lover's name -->
-    <value>Panah asmara Cupid nancep di hati kau, YUHUUU…. KAU DAK JOMBLO LAGI!! Pasangan kau {0} !  Tapi kalu pasangan kau mati, kau jugo melok mati, Romantis nian oy! Kalu kamu beduo bertahan sampe abes, kamu lah pemenangnyo.</value>
+  <string key="RecruiterChosen">
+	<!-- 0 - crewmate's name -->
+    <value>Panah asmara Recruiter nancep di hati kau, YUHUUU…. KAU DAK JOMBLO LAGI!! Pasangan kau {0} !  Tapi kalu pasangan kau mati, kau jugo melok mati, Romantis nian oy! Kalu kamu beduo bertahan sampe abes, kamu lah pemenangnyo.</value>
   </string>
   <string key="NewWCRoleModel">
 	<!-- 0 - target's name -->
     <value>Kau lah jadi Wild Child 👶.  role model kau {0}</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
     <value>🎉 Cinto Sejati Bertahan Terus!
 	Duo sejoli lah Menang! #LoveWins
 	(ɔ˘˘)˘˘c)❤️ </value>
@@ -944,7 +944,7 @@ Serial Killer Beraksi!! 🔪
     <value>Wong desa bekumpul di depan mayat {0} dengen luko tembak tepat di kepala! 
 	"Peringatan Untuk Siapo Bae yang Nganggu Tedok aku ---Hunter---!" {1}</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>Kau nemuke selembar formulir pendaftaran di bawah pintu, tapi dak jingok siapo siapo di sekitar kau.</value>
   </string>
   <string key="AlreadyOnWaitList">
@@ -1035,7 +1035,7 @@ Serial Killer Beraksi!! 🔪
   <string key="AboutFool">
     <value>Fool meraso dirinyo Seer (Penerawang). Padahal, segalonyo cuma penipuan bae. ┐(ˇ.ˇ")┌ </value>
   </string> 
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>Hidup Kutil Pemuja Kerang Ajaib! Hasut wong supayo pengikut kau betambah banyak, jadi kau menang! </value>
   </string>
   <string key="AboutCH">
@@ -1057,10 +1057,10 @@ Serial Killer Beraksi!! 🔪
     <value> Doppelganger akan memilih pemain lain dan ketika pemain tersebut mati, dia akan menjadi peran tersebut. Zombie tidak dapat menhasut Doppelganger. Jika peran yang dipilih adalah Wild Child dan panutannya sudah mati, kamu akan menjadi serigala.
     </value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>
-      Lope Lope di udara. Cupid akan memilih 2 pemain jomblo untuk dijadikan pasangan (lovers). Mereka akan saling mengetahui nama pasangannya, tapi tidak tahu peran masing-masing. 
-	  Jika lovers pilihanmu bertahan hidup, mereka akan menang. ( ≈ˆ3(¯▾ˆ◦)♥ 
+      Lope Lope di udara. Recruiter akan memilih 2 pemain jomblo untuk dijadikan pasangan (crewmates). Mereka akan saling mengetahui nama pasangannya, tapi tidak tahu peran masing-masing. 
+	  Jika crewmates pilihanmu bertahan hidup, mereka akan menang. ( ≈ˆ3(¯▾ˆ◦)♥ 
     </value>
   </string>
   <string key="AboutHunter">
@@ -1233,10 +1233,10 @@ Serial Killer Beraksi!! 🔪
   <string key="AllowTannerA">
     <value>Pilihan Tanner dalam Peran: {0}</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>Apakah kamu ingin Zombie dalam pilihan peran?\nPengaturan saat ini: {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>Pilihan Zombie dalam Peran: {0}</value>
   </string>
   <string key="ThankYou">
@@ -1384,13 +1384,13 @@ Serial Killer Beraksi!! 🔪
   <string key="SerialKillerTeam">
     <value>Tim SK</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>Tim Kutil</value>
   </string>
   <string key="TannerTeam">
     <value>Tim Tanner</value>
   </string>
-  <string key="CultConvertWolf">
+  <string key="zoombiesConvertWolf">
     <value>Kutil ke {0} untuk ngasut {1}, Tapi malah kepala {0} ditemuke di teras rumah... Gilo nian! {0} Mati...</value>
   </string>
   <string key="HarlotFuckedKilledPublic"> <!-- used when Harlot visit's SK's victim, and dies -->
@@ -1408,8 +1408,8 @@ Serial Killer Beraksi!! 🔪
   <string key="ZombieKilled">
     <value>Warga nemuke bau busuk dari rumah {0}. Dio mati hidungnyo ilang. Serial Killer muncul lagi! {0} adalah Pemuja Kerang 👤.</value>
   </string>
-  <string key="CupidKilled">
-    <value>Karena sakit hati dak dijodohke oleh cupid, {0} alias Cupid 🏹 dibunuh oleh wong yang cemburu dengan panah. Ah cupid sih dak jodohin SK, mati kan. </value>
+  <string key="RecruiterKilled">
+    <value>Karena sakit hati dak dijodohke oleh Recruiter, {0} alias Recruiter 🏹 dibunuh oleh wong yang cemburu dengan panah. Ah Recruiter sih dak jodohin SK, mati kan. </value>
   </string>
   <string key="DrunkKilled">
     <value>Takdirnyo nian {0} mati. Untung {0} mati bukan karena mabok 🍺, tapi karena Serial Killer benci samo wong mabok. </value>
@@ -1441,11 +1441,11 @@ Serial Killer Beraksi!! 🔪
     <value>Sedih nian. Warga nemuke {0} yang dak lain dak bukan Zombie Hunter 💂, jadi korban keji seorang pembunuh malem tadi. Kutil seneng nian caknyo.</value>
     <value>Mayat {0} Zombie Hunter 💂, ditemuke di tengah lapangan dengan pedang di leher. Caknyo dio salah mencurigai wong, bukan Pemuja Kerang yang dio datengi, tapi Serial Killer!</value>
   </string>
-  <string key="CultConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
+  <string key="zoombiesConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
     <value>Tadi malem {0} lagi gawe. Dio ke rumah salah sikok warga untuk ngasut supayo gabung ke perkumpulan Pemuja Kerang 👤. Sayang niat, dak taunyo yang dio ganggu tuh serigala, Serigala bunuh {0} dan memakannyo! Serigala gagal diet.</value>
     <value>Semalem, serigala lagi santai di rumah. Tapi, {0} datang tiba-tiba nganggu. Serigala ngomong ke {0}, "Maaf kami makan wong bukan makan kerang."</value>
   </string>
-  <string key="CultConvertKillerPublic"> <!--used when Zombies convert the SK-->
+  <string key="zoombiesConvertKillerPublic"> <!--used when Zombies convert the SK-->
     <value>Dengan sombong {0}, seorang Pemuja Kerang 👤 ke rumah wong semalam. Pagi ini mayatnyo ditemuke dengan formulir dan kerang di badannyo. Serial Killer dak galak nyembah kerang.</value>
     <value>Kelompok Pemuja Kerang (Zombie) 👤 ngirim anggotanyo untuk pergi ke rumah calon member malem tadi. Dak taunyo, {0} dikirim ke rumah Serial Killer, sokorr.</value>
   </string>

@@ -327,25 +327,25 @@ Traditional Chinese Translated by @meowmeoww, @Cojad.
   <string key="ZombieVotedConvert" >
     <value>{0} 突然想起了 {1} 的名字! </value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <value>{0} 昨晚去了 {1} 的家, 沒想到這樣就死了. </value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <value>{0} 死了! 突然有一個數字在你的腦海中泛現： {1}</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>你的身份好像有些轉變, 你到底現在又是甚麼呢? </value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>你雖然仍然想不起自己的身份, 但你記起 {0} 是很重要的人! </value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <value>突然,  {0} 的名字在你腦海中閃過! </value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <value>{0} 去了 {1} 的家, 卻摸了門釘. </value>
   </string>
-  <string key="CultWins" isgif="true">
+  <string key="zoombiesWins" isgif="true">
     <value>所有狼人都死清光之餘, 餘下的村民也受洗成為教徒 —— #邪教徒勝! </value>
   </string>
   <string key="HunterVisitDead">
@@ -442,21 +442,21 @@ Traditional Chinese Translated by @meowmeoww, @Cojad.
     <value>你雖然仍然想不起自己的身份, 但你記起 {0} 是很重要的人! </value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <value>{0} 已經死了! </value>
   </string>
   <string key="GuardBlockedWolf">
     <value>你昨晚在 {0} 的家做了甚麼呢? 看來你自己也忘了. </value>
   </string>
   <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <value>{0} 昨晚在 {1} 的家做了甚麼呢? 看來你自己也忘了. </value>
   </string>
   <!-- new string May 12 2016-->
   <string key="NameExists">
     <value>@{1}, 已經有一個 {0} 加入了. 請改名後再重新加入! (名字不可重複)</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <value>你雖然仍然想不起自己的身份, 但你記起 {0} 是 邪教徒 👤 ! </value>
   </string>
   <!-- new string May 13 2016-->
@@ -538,7 +538,7 @@ Traditional Chinese Translated by @meowmeoww, @Cojad.
     <value>你知道我最討厭遲到嗎? (時間到!)</value>
   </string>
   <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
     <value>糟糕! 你竟然忘記自己的身份! 但你想起晚上有些事情要處理. </value>
   </string>
   <string key="RoleInfoDoppelganger">
@@ -550,7 +550,7 @@ Traditional Chinese Translated by @meowmeoww, @Cojad.
   <string key="RoleInfoSerialKiller">
     <value>糟糕! 你竟然忘記自己的身份! 但你想起晚上有些事情要處理. </value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>你雖然仍然想不起自己的身份, 但你記起 {0} 是很重要的人! </value>
   </string>
   <string key="HunterLynchedChoice">
@@ -577,7 +577,7 @@ Traditional Chinese Translated by @meowmeoww, @Cojad.
   <string key="HunterKilledFinalShot">
     <value>子彈穿越了 {0} 的身體, 隨著身軀的倒下, {0} 抽出了他的手槍對著 {1} 射出, 只見子彈居然射進了 {1} 的眉心...... 第二具身軀也跟著倒下了...... \n{2}</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <value>{0} 偷偷潛入了 {1} 的家, 打開了門, 歡迎他的卻是一個瘋子拿著一把鋒利匕首!!  {1} 用匕首以寫字的方式劃入 {0} 內臟, 全程還笑得非常的開心! \n{0} 已死...</value>
   </string>
   <string key="HunterShotWolfMulti">
@@ -603,7 +603,7 @@ Traditional Chinese Translated by @meowmeoww, @Cojad.
   <string key="GuardBlockedKiller">
     <value>你昨晚在 {0} 的家做了甚麼呢? 看來你自己也忘了. </value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <value>{0} 昨晚去了 {1} 的家, 沒想到這樣就死了. </value>
   </string>
   <string key="GuardKiller">
@@ -621,10 +621,10 @@ Traditional Chinese Translated by @meowmeoww, @Cojad.
   <string key="DGTransformToMason">
     <value>因為 {0} 的死, 你的身份好像有些轉變, 你到底現在又是甚麼呢? \n你雖然仍然想不起自己的身份, 但你腦海中泛現出某些看來是很重要的人: {1} </value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <value>突然,  {0} 的名字在你腦海中閃過! </value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <value>因為 {0} 的死, 你的身份好像有些轉變, 你到底現在又是甚麼呢? \n你雖然仍然想不起自己的身份, 但你腦海中泛現出某些看來是很重要的人: {1} </value>
   </string>
   <string key="DGToWolf">
@@ -639,22 +639,22 @@ Traditional Chinese Translated by @meowmeoww, @Cojad.
   <string key="AskKill">
     <value>你好像有些事情要做, 你要選擇誰呢? </value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <value>即使 {1} 連自己的身份也忘了, 但 {0} 對他來說卻是如此刻骨銘心; 看到對方吞下最後一口氣時, 忍不衝上前面, 趴在他胸膛放聲大哭. 這樣的哀傷 {1} 顯然無法承受, 他隨手拿起一把匕首插入自己的心臟...... \n{2}</value>
 	  </string>
   <string key="AskDoppelganger">
     <value>你好像有些事情要做, 你要選擇誰呢? </value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>你好像有些事情要做, 你要選擇誰呢? </value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>你好像有些事情要做, 你要選擇誰呢? </value>
   </string>
   <string key="Hunter">
     <value>獵人 🎯</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>邱比特 🏹</value>
   </string>
   <string key="SerialKiller">
@@ -666,13 +666,13 @@ Traditional Chinese Translated by @meowmeoww, @Cojad.
   <string key="NewWCRoleModel">
     <value>你的身份好像有些轉變, 你到底現在又是甚麼呢?  \n你雖然仍然想不起自己的身份, 但你記起 {0} 是很重要的人! </value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
     <value>真愛成為了永恆! #戀人勝</value>
   </string>
   <string key="HunterKilledVisiter">
     <value>在中央廣場 {0} 身中數槍的的屍體散落滿地. 看來他似乎想要偷襲獵人但落下了淒涼的下場.\n{1}</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>你昨晚在家做了甚麼呢? 看來你自己也忘了. </value>
   </string>
   <string key="AlreadyOnWaitList">
@@ -746,7 +746,7 @@ Traditional Chinese Translated by @meowmeoww, @Cojad.
   <string key="AboutFool">
     <value>傻瓜一開始會以為自己是先知, 當看著水晶球, 水晶球會隨機告知這個玩家是任何一個可能的腳色, 而你還相信你真的是先知, 因為你就是個傻瓜.</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>身為一個邪教崇拜者, 你的目標是把除了狼人以外的玩家都轉為邪教分子, 如果最後所有活著的玩家都是邪教徒, 那你就贏了.\nPS. 小心! 不是所有的狼人以外的腳色你都能轉換的喔.</value>
   </string>
   <string key="AboutCH">
@@ -769,7 +769,7 @@ Traditional Chinese Translated by @meowmeoww, @Cojad.
 注意: 如果該玩家變成邪教徒, 你將會繼承他原本的腳色. 其他規則也適用: 如果他是孤兒, 他的偶像死了, 那你也會變成狼人; 不然你會繼承他的偶像.
 邪教徒無法轉換模仿者(除非模仿者已經轉換成別的腳色了). 另外模仿者除非已轉換, 不然不能贏. 如果遊戲結束模仿者還活著就代表輸了(例外: 如果模仿者是情侶)</value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>愛意充滿了小鎮. 身為邱比特, 你將可以選擇兩個玩家成為至死不渝的戀人, 這兩名玩家會瘋狂地愛上彼此. 如果其中一個死了. 另外一個也未因為哀傷過度而死去 :(
 (然後邱比特除了射出愛神箭外...就是個村民)
 注意: 戀人會知道彼此是誰, 但是不知道彼此的身分. 如果戀人是最後兩個活下的腳色則不管他們是甚麼隊伍, 都算戀人獲勝. 如果戀人是不同隊伍(村民+狼), 任何一個隊伍贏了(狼), 那麼 戀人(村民隊伍那位)也贏了.
@@ -951,10 +951,10 @@ Traditional Chinese Translated by @meowmeoww, @Cojad.
   <string key="AllowTannerA">
     <value>已設定: {0} 皮匠角色</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>是否允許 邪教徒 角色?\n目前: {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>已設定: {0} 邪教徒角色</value>
   </string>
   <string key="ThankYou">
@@ -1120,7 +1120,7 @@ GuardEmptyHouse*
   <string key="SerialKillerTeam" deprecated="true">
     <value>殺人魔陣營</value>
   </string>
-  <string key="CultTeam" deprecated="true">
+  <string key="zoombiesTeam" deprecated="true">
     <value>邪教陣營</value>
   </string>
   <string key="TannerTeam" deprecated="true">
@@ -1139,13 +1139,13 @@ GuardEmptyHouse*
   <string key="SerialKillerTeamEnd">
     <value>殺人魔陣營</value>
   </string>
-  <string key="CultTeamEnd">
+  <string key="zoombiesTeamEnd">
     <value>邪教陣營</value>
   </string>
   <string key="TannerTeamEnd">
     <value>皮匠陣營</value>
   </string>
-  <string key="CultConvertWolf">
+  <string key="zoombiesConvertWolf">
     <value>邪教派出了 {0} 去對 {1} 宣教, 但 {0} 的腦袋竟然飛出了窗外... 或許殺人魔也在想這傢伙腦袋有問題不可吃吧!😑\n{0} 已死!</value>
   </string>
   <string key="HarlotFuckedKilledPublic"> <!-- used when Harlot visit's SK's victim, and dies -->
@@ -1163,7 +1163,7 @@ GuardEmptyHouse*
   <string key="ZombieKilled">
     <value>{0} 被發現在被燭台給刺穿而死在聖桌上. 殺人魔再度行動了, 不管是什麼種族, 語言, 宗教都可能成為他的目標! {0} 是邪教徒!</value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>隔日早晨, 村民痛心的發現邱比特 {0} 被從頭到腳分成兩半, 再仔細看了一下內臟都還在唯獨缺了...心臟?!</value>
   </string>
   <string key="DrunkKilled">
@@ -1196,11 +1196,11 @@ GuardEmptyHouse*
     <value>村民早上醒來只見鎮公所前邪教獵人 {0} 的屍體變成數截的放在公所前的一個推車內. 教訓: 千萬別去拜訪殺人魔的家!</value>
     <value>邪教獵人 {0} 被整齊的切割成數百塊大小一致的屍塊陳列在市中心廣場上. 去試探殺人魔是否為邪教徒顯然不是個好主意...</value>
   </string>
-  <string key="CultConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
+  <string key="zoombiesConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
     <value>本來今晚狼人本來不打算出門狩獵乖乖在家, 一個倒楣的邪教徒 {0} 試圖去說服狼人入教, 當獵物自己送上了狼人的門前, 狼人們可不會知道什麼叫做拒絕, 喜滋滋的將門前的獵物變成的今晚的大餐...真是不請自來的美味啊!</value>
     <value>邪教徒昨晚遇到了意料之外麻煩, 他們的新成員 {0} 很不幸地去拜訪了一個決定留在家中的狼人, 狼人發現上門的傢伙皮白肉嫩非常的美味可開心了! 至於什麼真主阿里, 狼人是一點興趣都沒有...</value>
   </string>
-  <string key="CultConvertKillerPublic"> <!--used when Zombies convert the SK-->
+  <string key="zoombiesConvertKillerPublic"> <!--used when Zombies convert the SK-->
     <value>邪教徒們本以為他們即再添一位新成員, 但他們錯了, {0} 被切成肉泥般棄置在中心廣場, 一把刀還插在他們的"聖"書上, 似乎在宣告著誰的信仰才是勝利?</value>
     <value>昨晚, 邪教徒試圖去洗腦小鎮內比他們都還要瘋的傢伙, 他們的新成員 {0} 被派去向殺人魔宣教, 殺人魔又多了一個掛在中心廣場的器官藝術品.</value>
   </string>

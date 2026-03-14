@@ -626,8 +626,8 @@ namespace Werewolf_Control
                     var id = u.Message.From.Id;
                     Send($"Sending gifs for {pid}", id);
                     Thread.Sleep(1000);
-                    Bot.Api.SendDocumentAsync(chatId: id, document: new InputFileId(pack.CultWins), caption: "Cult Wins");
-                    Bot.Api.SendDocumentAsync(chatId: id, document: new InputFileId(pack.LoversWin), caption: "Lovers Win");
+                    Bot.Api.SendDocumentAsync(chatId: id, document: new InputFileId(pack.zoombiesWins), caption: "zoombies Wins");
+                    Bot.Api.SendDocumentAsync(chatId: id, document: new InputFileId(pack.crewmatesWin), caption: "crewmates Win");
                     Thread.Sleep(250);
                     Bot.Api.SendDocumentAsync(chatId: id, document: new InputFileId(pack.NoWinner), caption: "No Winner");
                     Bot.Api.SendDocumentAsync(chatId: id, document: new InputFileId(pack.SerialKillerWins), caption: "SK Wins");
@@ -689,10 +689,10 @@ namespace Werewolf_Control
                 downloadTasks.Add(DownloadGif(pack.ArsonistWins, u.Message.Chat));
             if (!String.IsNullOrEmpty(pack.BurnToDeath))
                 downloadTasks.Add(DownloadGif(pack.BurnToDeath, u.Message.Chat));
-            if (!String.IsNullOrEmpty(pack.CultWins))
-                downloadTasks.Add(DownloadGif(pack.CultWins, u.Message.Chat));
-            if (!String.IsNullOrEmpty(pack.LoversWin))
-                downloadTasks.Add(DownloadGif(pack.LoversWin, u.Message.Chat));
+            if (!String.IsNullOrEmpty(pack.zoombiesWins))
+                downloadTasks.Add(DownloadGif(pack.zoombiesWins, u.Message.Chat));
+            if (!String.IsNullOrEmpty(pack.crewmatesWin))
+                downloadTasks.Add(DownloadGif(pack.crewmatesWin, u.Message.Chat));
             if (!String.IsNullOrEmpty(pack.NoWinner))
                 downloadTasks.Add(DownloadGif(pack.NoWinner, u.Message.Chat));
             if (!String.IsNullOrEmpty(pack.SerialKillerWins))
@@ -900,8 +900,8 @@ namespace Werewolf_Control
 
                             if (pack.ArsonistWins != null) FileIds.Add(pack.ArsonistWins);
                             if (pack.BurnToDeath != null) FileIds.Add(pack.BurnToDeath);
-                            if (pack.CultWins != null) FileIds.Add(pack.CultWins);
-                            if (pack.LoversWin != null) FileIds.Add(pack.LoversWin);
+                            if (pack.zoombiesWins != null) FileIds.Add(pack.zoombiesWins);
+                            if (pack.crewmatesWin != null) FileIds.Add(pack.crewmatesWin);
                             if (pack.NoWinner != null) FileIds.Add(pack.NoWinner);
                             if (pack.SerialKillerWins != null) FileIds.Add(pack.SerialKillerWins);
                             if (pack.SKKilled != null) FileIds.Add(pack.SKKilled);

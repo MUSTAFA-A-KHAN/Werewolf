@@ -390,33 +390,33 @@
     <!-- 1 - target name -->
     <value >نظر {0} اینه که {1} رو معتاد کنید</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <!-- 0 - Yougest Zombie (killed)'s name' -->
     <!-- 1 - ZombieHunter's name -->
     <value>خب {0} رفت که {1} رو معتاد کنه ولی {1} پلیس مبارزه با مواد مخدر بود و کشتش!</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - Number of Zombies left -->
     <value>دیشب {0} اومد معتادت کنه ولی تو زدی کشتیش! {1} باقی مونده</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>تو الان معتاد هستی و هر شب با دوستای معتادت باید یه نفرو معتاد کنین</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <!-- 0 - Number of Zombies -->
     <value>معتاد ها: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <!-- 0 - new Zombie's name -->
     <value>الان {0} معتاد شد</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <!-- 0 - Newest Zombie's name -->
     <!-- 1 - target name -->
     <value>خب  {0} رفت {1} رو معتاد کنه ولی خونه نبود</value>
   </string>
-  <string key="CultWins" isgif="true">
+  <string key="zoombiesWins" isgif="true">
     <value >کل شهر پر شده از بوی مواد!! معتاد ها شهر رو تصرف کردن و برنده شدن</value>
   </string>
   <string key="HunterVisitDead">
@@ -521,7 +521,7 @@
     <value>  شهروندان آگاه دیگه عبارت اند از: {0}</value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <!-- 0 - Youngest Zombies name -->
     <value>معتاد جدید رفت خونه {0} که به اعتیاد دعوتش کنه ولی دید کشته شده</value>
   </string>
@@ -530,7 +530,7 @@
     <value>دیشب مافیا ها رفتن خونه {0} که بکشنش ولی دکتر مداواش کرد</value>
   </string>
   <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <!-- 0 - newest  -->
     <!-- 1 - target's name -->
     <value>دیشب {0} رو فرستادین که به {1} جنس بفروشه و اون رو هم معتاد کنه ولی {1} قبول نکرد</value>
@@ -541,7 +541,7 @@
     <!-- 1 - name -->
     <value>جناب {0} @{1} یه بازیکن هم اسم تو توی بازیه، اسمتو عوض کن تا بتونی وارد بازی بشی</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <!-- 0 - target's name -->
     <value>دیشب که رفتی خونه {0} دیدی که داره مواد میکشه!</value>
   </string>
@@ -637,7 +637,7 @@
   <value>وقتت تموم شد!</value>
   </string>
   <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
     <value>تو عاقد هستی! خطبه عقد دو نفر رو باهم بخون، اونا تا ابد عاشق همدیگه خواهند موند\nاگه یکیشون بمیره، اون یکی هم از غم یارش میمیره و اگه یکیشون تیمش برنده شه، حتی اگه تیمشون متفاوت باشه هردو برنده میشن</value>
   </string>
   <string key="RoleInfoDoppelganger">
@@ -649,7 +649,7 @@
   <string key="RoleInfoSerialKiller">
     <value>تو قاتل زنجیره ای هستی. هر شب یه نفرو میکشی و بدنشو به کلکسیونت اضافه میکنی. هدف تو اینه که همه رو بکشی!</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>تو همسر {0} شدی. اگه یکیتون بمیره اون یکی هم از غمش میمیره</value>
 	<value>عاقد شهر خطبه عقد تو و {0} رو خونده. حالا اگه اون بمیره تو هم از غمش میمیری</value>
   </string>
@@ -685,7 +685,7 @@
     <!-- 2 - target's role -->
     <value>مافیا بازنشسته یعنی {0} آخرین لحظه تفنگشو در آورد و {1} رو کشت.{2}</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <value>معتاد عزیز یعنی {0} رفت خونه ی قاتل زنجیره ای یعنی {1} که معتادش کنه ولی {1} تک تک اعضای بدنشو به ترتیب حروف الفبا برید و گذاشت تو شیشه الکل</value>
 	<value>معتاد عزیز یعنی {0} رفت قاتل زنجیره ای یعنی {1} رو معتاد کنه ولی کشته شد</value>
   </string>
@@ -709,7 +709,7 @@
     <!-- 0 - target's name -->
     <value>رفتی {0} رو به قتل برسونی ولی دکتر اونجا بود نذاشت کاری کنی ، متاسفم</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
     <value>معتاد عزیز یعنی {0} رفت که {1} رو معتاد کنه ولی {1} مافیا بازنشسته بود و با تفنگش زد {0} رو کشت</value>
@@ -733,12 +733,12 @@
     <!-- 1 - mason collegues's name -->
     <value>خب چون وکیل {0} بودی و مرد و اونم شهروند آگاه بود تو هم شهروند آگاه شدی و بقیه شهروندان آگاه عبارت اند از: {1}.</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <!-- 0 - new Zombie's name -->
     <value>وکیل، یعنی {0} هم چون وکالت یکی از معتاد ها رو به عهده داشت الان معتاد شد</value>
   </string>
 
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <!-- 0 - role's name -->
     <!-- 1 - teammates's name -->
     <value>چون {0} مرد و معتاد بود تو هم معتاد شدی. بقیه معتاد ها عبارت اند از: {1}</value>
@@ -760,25 +760,25 @@
   <string key="AskKill">
     <value>کیو میخوای امشب بکشی؟</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <!-- 0 - dead's name -->
-    <!-- 1 - lover's name -->
+    <!-- 1 - crewmate's name -->
     <!-- 2 - roles -->
     <value>با مرگ {0} همسرش یعنی {1} هم خودشو انداخت روی جنازش و انقدر گریه کرد تا مرد. {2}</value>
   </string>
   <string key="AskDoppelganger">
     <value>میخوای وکیل کی بشی؟ اگه بمیره وکالتشو به عهده میگیری و همه چیز به تو میرسه</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>خطبه عقد کیا رو میخوای بخونی؟ نفر اول رو انتخاب کن</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>خطبه عقد کیا رو میخوای بخونی؟ نفر دوم رو انتخاب کن</value>
   </string>
   <string key="Hunter">
     <value>مافیا بازنشسته🎯(🎯)</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>عاقد👨🏻(💘)</value>
   </string>
   <string key="SerialKiller">
@@ -792,7 +792,7 @@
     <!-- 0 - target's name -->
     <value>تو زندانی ای و زندانبانت کسی نیست جز {0}</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
     <value>عاشقا برنده شدن</value>
   </string>
   <string key="HunterKilledVisiter">
@@ -800,7 +800,7 @@
     <!-- 1 - role -->
     <value>خب دیشب {0} رفت خونه مافیا بازنشسته ببینه چه خبره. مافیا بازنشسته هم دخلشو آورد.{1}</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>یه معتاد دیشب اومده بود بهت مواد بده و تو رو هم معتاد کنه ولی تو ازش چیزی نگرفتی</value>
   </string>
   <string key="AlreadyOnWaitList">
@@ -884,7 +884,7 @@
   <string key="AboutFool">
     <value>درواقع، به بازپرس تقلبی گفته میشه که بازپرسه اما استعلام هایی که میگیره به صورت رندوم از نقش های زنده در بازی به اون گفته میشه.</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>تو معتاد هستی، کار تو ترویج اعتیاد هست! وقتی برنده میشی که همه بازیکنای زنده معتاد شن</value>
   </string>
   <string key="AboutCH">
@@ -905,7 +905,7 @@
   <string key="AboutDG">
     <value>تو وکیل هستی ! اول بازی وکالت یک نفر رو قبول میکنی اگه اون بمیره نقششو میگیری و کارشو ادامه میدی اگه اونی که وکالتشو به عهده گرفتی تا اخر بازی نمیره، یعنی تو رو به عنوان وکیل قبول نداشته و در این صورت بازنده بازی هستی!</value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>شما به عنوان عاقد در شب اول بازی خطبه عقد دو نفر رو میخونی، اونا تا اخر بازی به این وصلت پایبند خواهند بود و اگه یکیشون بمیره اون یکی هم از غمش میمیره! اگه یکیشون برنده شه اون یکی هم برنده میشه حتی اگه تو یه تیم دیگه باشه</value>
   </string>
   <string key="AboutHunter">
@@ -1080,10 +1080,10 @@
   <string key="AllowTannerA">
     <value>نقش جوکر: {0}</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>نقش معتاد فعال باشه؟\n حالت فعلی: {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>نقش معتاد: {0}</value>
   </string>
   <string key="ThankYou">
@@ -1247,13 +1247,13 @@
   <string key="SerialKillerTeamEnd">
     <value>گروه قاتل زنجیره ای</value>
   </string>
-  <string key="CultTeamEnd">
+  <string key="zoombiesTeamEnd">
     <value>گروه معتاد</value>
   </string>
   <string key="TannerTeamEnd">
     <value>گروه جوکر</value>
   </string>
-    <string key="CultConvertWolf">
+    <string key="zoombiesConvertWolf">
     <value>دیشب معتاد ها {0} رو به خونه {1} فرستادن که بهش مواد بفروشه، ولی مثل اینکه اون خودش از اعضای تیم مافیا بود و جنازه {0} رو براشون پس فرستاد!</value>
   </string>
   <string key="HarlotFuckedKilledPublic"> <!-- used when Harlot visit's SK's victim, and dies -->
@@ -1272,7 +1272,7 @@
   <string key="ZombieKilled">
     <value>این طور که معلومه قاتل زنجیره ای از اعتیاد و معتادا زیاد خوشش نمیاد! اون دیشب به یکی از معتاد ها یعنی {0} حمله کرد و توی خونه‌ش کشتش...</value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>قاتل سنگدل و بیرحم شهر دیشب عاقد {0} رو به قتل رسوند😕</value>
   </string>
   <string key="DrunkKilled">
@@ -1302,10 +1302,10 @@
   <string key="SerialKillerKilledCH"> <!--used when CH visits SK-->
     <value>پلیس مبارزه با مواد مخدر {0} به خونه قاتل زنجیره ای رفت و داشت خونه رو میگشت تا شاید مواد پیدا کنه، اصولا قاتل خوشش نمیاد کسی خونه‌ش رو بگرده! فردای اون روز اهالی شهر جسد {0} رو پیدا میکنن که با دست‌بند به تابلوی اداره پلیس آویزون شده..</value>
   </string>
-  <string key="CultConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
+  <string key="zoombiesConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
     <value>دیشب {0} رفت که به مافیا ها مواد بفروشه! ولی مافیا ها بهش حمله کردن و جنازه تکه تکه شدشو توی نقاط مختلف شهر پخش کردن!</value>
   </string>
-  <string key="CultConvertKillerPublic"> <!--used when Zombies convert the SK-->
+  <string key="zoombiesConvertKillerPublic"> <!--used when Zombies convert the SK-->
     <value>دیشب معتاد {0} به خونه قاتل زنجیره ای رفت که بهش مواد بده ولی روز بعد همون مواد رو تو معدش پیدا میکنن!</value>
   </string>
   
@@ -1399,7 +1399,7 @@
     <!-- {0} = list of people who have joined -->
     <value>{0} در 30 ثانیه گذشته وارد بازی مافیا شدند </value>
   </string>
-  <string key="AllowCult">
+  <string key="Allowzoombies">
     <value>معتاد</value>
   </string>
   <string key="AllowTanner">
@@ -1636,7 +1636,7 @@
       <!-- 0 - mason collegues's name -->
       <value>هم تیمی های شما(درصورت وجود) عبارت اند از:{0}.</value>
     </string>
-    <string key="ThiefToCult">
+    <string key="ThiefTozoombies">
       <!-- 0 - old Zombie's name -->
       <!-- 1 - new Zombie's name -->
       <value>حاجی {0} دیگه همتیمی شما نیست به جاش {1} معتاد شده دقیقا مثل شماها.</value>
@@ -1997,16 +1997,16 @@
   <string key="HunterFell">
 	<value> یه شب دیگه بدون اینکه بتونید معتادی رو پیدا کنید به خانه برمیگردید، ناامید در قبرستان قدم میزنید و ناگهان به داخل یک قبر میوفتید. شما فریاد میزنید و {0} به سراغ شما میاد اما خیلی دیر شده! </value>
   </string>
-  <!--{0}: cult hunter-->
+  <!--{0}: zoombies hunter-->
   <string key="HunterFellDigger">
 	<value> بعد از یک شب خسته کننده شما به خانه برمیگردید قبل از اینکه وارد خانه شوید اسلحه ای کنار یک قبر میبینید مثل اینکه پلیس مبارزه با مواد مخدر یعنی {0} توی قبر افتاده</value>
   </string>
   <!--{0}: Zombie-->
-  <string key="CultFell">
+  <string key="zoombiesFell">
 	<value> بعد از یک شب خسته کننده در راه خانه صدای فریادی از یک قبر ناتمام خود میشنوید، با عجله به آنجا میروید و {0} را میبینید که در قبر افتاده. آخه کدوم معتادیی میخواد یه قبرکن رو معتاد کنه؟</value>
   </string>
   <!--{0}: Zombie who fell, {1}: grave digger-->
-  <string key="CultConvertGraveDigger">
+  <string key="zoombiesConvertGraveDigger">
 	<value>تو راه خونه {1} ناگهان {0} تصمیم میگیره بره اونور پشت بوته ها مواد بزنه . اما در قبرستان داخل یک قبر افتاد. شما صدای فریاد اون رو قبل از افتادن میشنوید اما برای نجات خودتون فرار میکنید!</value>
   </string>
   <!--{0}: grave digger-->

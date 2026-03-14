@@ -1060,7 +1060,7 @@
 <!-- 1 - target name -->
     <value>{0} has voted to convert {1}</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
 <!-- 0 - Yougest Zombie (killed)'s name' -->
 <!-- 1 - ZombieHunter's name -->
 <!-- 0 - Yougest Zombie (killed)'s name' -->
@@ -1085,7 +1085,7 @@
 <!-- 1 - ZombieHunter's name -->
     <value>خب {0} میخواست {1} رو خون آشام کنه ولی {1} گرگینه بود و کشتش</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
 <!-- 0 - Youngest Zombie's name -->
 <!-- 1 - Number of Zombies left -->
 <!-- 0 - Youngest Zombie's name -->
@@ -1110,10 +1110,10 @@
 <!-- 1 - Number of Zombies left -->
     <value>دیشب {0} خواست خون آشامت کنه ولی تو زدی کشتیش! {1} باقی مونده</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>تو الان خون آشامی هر شب با بقیه یارات باید یه نفر دیگه رو تبدیل کنید</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
 <!-- 0 - Number of Zombies -->
 <!-- 0 - Number of Zombies -->
 <!-- 0 - Number of Zombies -->
@@ -1127,7 +1127,7 @@
 <!-- 0 - Number of Zombies -->
     <value>خون آشام ها {0} هستند</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
 <!-- 0 - new Zombie's name -->
 <!-- 0 - new Zombie's name -->
 <!-- 0 - new Zombie's name -->
@@ -1141,7 +1141,7 @@
 <!-- 0 - new Zombie's name -->
     <value>کلاغ ها خبر رسوندن که {0} خون آشام شد</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
 <!-- 0 - Newest Zombie's name -->
 <!-- 1 - target name -->
 <!-- 0 - Newest Zombie's name -->
@@ -1166,7 +1166,7 @@
 <!-- 1 - target name -->
     <value>خب  {0} میخواست {1} رو تبدیل کنه ولی توی هتل به این بزرگی پیداش نکرد</value>
   </string>
-  <string key="CultWins">
+  <string key="zoombiesWins">
     <value>همه آدما کشته شدن و فقط خون آشام ها موندن،اونا برنده شدن*_*</value>
   </string>
   <string key="HunterVisitDead">
@@ -1392,7 +1392,7 @@
 <!-- new strings May 6 2016-->
     <value>اسکلت ها عبارتند از: {0}</value>
   </string>
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
 <!-- 0 - Youngest Zombies name -->
 <!-- 0 - Youngest Zombies name -->
 <!-- 0 - Youngest Zombies name -->
@@ -1431,7 +1431,7 @@
 <!-- new strings May 9 2016-->
     <value>دیروز آدما به {0} حمله کردن ولی فرزند دراکولا ازش مراقبت کرد</value>
   </string>
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
 <!-- 0 - newest  -->
 <!-- 1 - target's name -->
 <!-- new string May 12 2016-->
@@ -1492,7 +1492,7 @@
 <!-- 1 - name -->
     <value>هیولای گرامی {0} @{1} یه هیولای دیگه هم اسم تو توی هتله، اسمتو عوض کن تا بتونی وارد شی</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
 <!-- 0 - target's name -->
 <!-- new string May 13 2016-->
 <!-- 0 - target's name -->
@@ -1788,7 +1788,7 @@
 <!-- new strings june 10 2016 -->
     <value>خورشید طلوع کرد وقت تمومه</value>
   </string>
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
     <value>تو معجون عشق رو دزدیدی! معجون رو بده به نفر که عاشق هم شن! اگه یکی بمیره اون یکی هم باهاش میره جهنم</value>
   </string>
   <string key="RoleInfoDoppelganger">
@@ -1800,7 +1800,7 @@
   <string key="RoleInfoSerialKiller">
     <value>تو کشیش هستی. هر شب یه نفرو به صلیب میکشی!هدفت اینه کل هیولاها تقدیس بشن</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>تو مثه خر عاشق {0} شدی. اگه یکیتون بمیره اون یکی هم از غمش میمیره</value>
     <value>به تو و {0} معجون عشق خوراندن. حالا اگه اون بمیره تو هم از غمش میمیری</value>
   </string>
@@ -1988,7 +1988,7 @@
 <!-- 0 - target's name -->
     <value>خواستی {0} رو به صلیب بکشی ولی فرزند دراکولا ازش محافظت کرد</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
 <!-- 0 - Youngest Zombie's name -->
 <!-- 1 - target's name -->
 <!-- 0 - Youngest Zombie's name -->
@@ -2013,7 +2013,7 @@
 <!-- 1 - target's name -->
     <value>یکی از خون آشام ها یعنی {0} رفت که {1} رو تبدیل کنه ولی {1} مومیایی بود و با نفرینش {0} رو به جهنم تبعیدکرد</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
 <!-- 0 - Youngest Zombie's name -->
 <!-- 1 - target's name -->
 <!-- 0 - Youngest Zombie's name -->
@@ -2083,7 +2083,7 @@
 <!-- 1 - mason collegues's name -->
     <value>خب {0} پدرت بود و مرد. چون اون اسکلت بود تو هم اسکلت شدی و بقیه اسکلت ها عبارت اند از: {1} </value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
 <!-- 0 - new Zombie's name -->
 <!-- 0 - new Zombie's name -->
 <!-- 0 - new Zombie's name -->
@@ -2097,7 +2097,7 @@
 <!-- 0 - new Zombie's name -->
     <value>بی پدر، یعنی {0} هم چون پسر یکی از اعضای خون آشام ها شد الان به یکی از اونا تبدیل شده</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
 <!-- 0 - role's name -->
 <!-- 1 - teammates's name -->
 <!-- 0 - role's name -->
@@ -2167,55 +2167,55 @@
   <string key="AskKill">
     <value>کیو میخوای امروز به صلیب بکشی؟</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
 <!-- 0 - dead's name -->
-<!-- 1 - lover's name -->
+<!-- 1 - crewmate's name -->
 <!-- 2 - roles -->
 <!-- 0 - dead's name -->
-<!-- 1 - lover's name -->
+<!-- 1 - crewmate's name -->
 <!-- 2 - roles -->
 <!-- 0 - dead's name -->
-<!-- 1 - lover's name -->
+<!-- 1 - crewmate's name -->
 <!-- 2 - roles -->
 <!-- 0 - dead's name -->
-<!-- 1 - lover's name -->
+<!-- 1 - crewmate's name -->
 <!-- 2 - roles -->
 <!-- 0 - dead's name -->
-<!-- 1 - lover's name -->
+<!-- 1 - crewmate's name -->
 <!-- 2 - roles -->
 <!-- 0 - dead's name -->
-<!-- 1 - lover's name -->
+<!-- 1 - crewmate's name -->
 <!-- 2 - roles -->
 <!-- 0 - dead's name -->
-<!-- 1 - lover's name -->
+<!-- 1 - crewmate's name -->
 <!-- 2 - roles -->
 <!-- 0 - dead's name -->
-<!-- 1 - lover's name -->
+<!-- 1 - crewmate's name -->
 <!-- 2 - roles -->
 <!-- 0 - dead's name -->
-<!-- 1 - lover's name -->
+<!-- 1 - crewmate's name -->
 <!-- 2 - roles -->
 <!-- 0 - dead's name -->
-<!-- 1 - lover's name -->
+<!-- 1 - crewmate's name -->
 <!-- 2 - roles -->
 <!-- 0 - dead's name -->
-<!-- 1 - lover's name -->
+<!-- 1 - crewmate's name -->
 <!-- 2 - roles -->
     <value>، با مرگ {0} عشق ابدیش یعنی {1} هم خودشو انداخت روی جنازش و انقدر گریه کرد تا خسته شد و مرد اون {2} بود</value>
   </string>
   <string key="AskDoppelganger">
     <value>میخوای فرزند کی بشی؟؟ اگه بمیره تو نقششو بر عهده میگیری</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>به کیا میخوای معجون عشق بخورونی؟ نفر اول رو انتخاب کن</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>به کیا میخوای معجون عشق بخورونی؟ نفر دوم رو انتخاب کن</value>
   </string>
   <string key="Hunter">
     <value>مومیایی 🎯</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>معجون فروش 🏹</value>
   </string>
   <string key="SerialKiller">
@@ -2238,7 +2238,7 @@
 <!-- 0 - target's name -->
     <value>تو زامبی شدی و هدفت هیولایی نیست جز {0}</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
     <value>عاشقا برنده شدن!!عاشقا همیشهه برنده میشنن*_*</value>
   </string>
   <string key="HunterKilledVisiter">
@@ -2266,7 +2266,7 @@
 <!-- 1 - role -->
     <value>  خب دیشب {0} رف خونه کشیش تا تبدیلش کنه ولی کشیش روش آب مقدس ریخت و خاکستر شد خدا بیامرزتت{1}</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>یه خون آشام دیروز میخواست تو رو هم تبدیل کنه ولی تو هی لگد میزدی نتونست درست تبدیلت کنه</value>
   </string>
   <string key="AlreadyOnWaitList">
@@ -2500,7 +2500,7 @@
   <string key="AboutFool">
     <value>فاز طالع بینی برمیداری!ولی دعا نویسی بیش نیستی</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>تو خون آشامی، هر شب یه نفرو تبدیل میکنی اگه همه بازیکنای زنده، خون آشام بشن تو میبری</value>
   </string>
   <string key="AboutCH">
@@ -2522,7 +2522,7 @@
   <string key="AboutDG">
     <value>تو بی پدری!یکی به عنوان پدر انتخاب میکنی اگه مرد تو جانشینش میشی و قدرتاش بهت منتقل میشه</value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>تو معجون فروشی!میتونی به زور معجون هاتو به مردم بخورونی!مخصوصا معجون عشق </value>
   </string>
   <string key="AboutHunter">
@@ -2736,10 +2736,10 @@
   <string key="AllowTannerA">
     <value>نقش خائن: {0}</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>نقش خون آشام فعال باشه؟\n حالت فعلی: {0}&lt;/</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>نقش خون آشام ها: {0}</value>
   </string>
   <string key="EnableSecretLynchQ">
@@ -2983,13 +2983,13 @@
   <string key="SerialKillerTeamEnd">
     <value>گروه کشیش ها</value>
   </string>
-  <string key="CultTeamEnd">
+  <string key="zoombiesTeamEnd">
     <value>گروه خون آشام</value>
   </string>
   <string key="TannerTeamEnd">
     <value>گروه دراکولا</value>
   </string>
-  <string key="CultConvertWolf">
+  <string key="zoombiesConvertWolf">
     <value>دیشب خون آشام ها {0} رو فرستادن تا {1} روتبدیل کنه، اما  {0} رو دیدن که از پنجره خونه {1} به بیرون پرتاب شده! {0} مرده!</value>
   </string>
   <string key="HarlotFuckedKilledPublic">
@@ -3037,7 +3037,7 @@
   <string key="ZombieKilled">
     <value>دیشب کشیش به خون آشام ها حمله کرد و {0} رو به صلیب کشیئ</value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>دیروز جنازه تیکه پاره شده معجون فروش {0} رو پیدا کردن!با این بدبخت چیکار داشتین با خودش خوش بود دیگه</value>
   </string>
   <string key="DrunkKilled">
@@ -3079,7 +3079,7 @@
 <!--used when CH visits SK-->
     <value>گرگینه {0} دنبال خون آشام ها میگشت که یهو کشیش از پشت درختا اومد کشتش</value>
   </string>
-  <string key="CultConvertWolfPublic">
+  <string key="zoombiesConvertWolfPublic">
 <!--used when Zombies convert the wolves, only if wolves stayed home-->
 <!--used when Zombies convert the wolves, only if wolves stayed home-->
 <!--used when Zombies convert the wolves, only if wolves stayed home-->
@@ -3093,7 +3093,7 @@
 <!--used when Zombies convert the wolves, only if wolves stayed home-->
     <value>دیروز{0} آدما رو تبدیل کنه ولی اونا آب مقدس خورده بودن و کشتنش</value>
   </string>
-  <string key="CultConvertKillerPublic">
+  <string key="zoombiesConvertKillerPublic">
 <!--used when Zombies convert the SK-->
 <!--used when Zombies convert the SK-->
 <!--used when Zombies convert the SK-->
@@ -3340,7 +3340,7 @@
 <!-- NOTE: No space between {0} and joined. It will be added in the code if necessary-->
     <value>{0} 30 ثانیه قبل از بسته شدن درهای هتل ترانسیلوانیا وارد شدند</value>
   </string>
-  <string key="AllowCult">
+  <string key="Allowzoombies">
     <value>خون آشام</value>
   </string>
   <string key="AllowTanner">
@@ -3388,7 +3388,7 @@
     <value>همه</value>
   </string>
   <string key="RandomModeQ">
-    <value>Enable random mode?\nWhen random mode is enabled, Chaos, Secret Lynch, Show Roles on Death, and Allow Cult / Fool / Tanner will be randomly determined everytime someone starts a game.\nCurrent:{0}</value>
+    <value>Enable random mode?\nWhen random mode is enabled, Chaos, Secret Lynch, Show Roles on Death, and Allow zoombies / Fool / Tanner will be randomly determined everytime someone starts a game.\nCurrent:{0}</value>
   </string>
   <string key="RandomModeA">
     <value>وضعیت رندوم مود تنظیم شد : {0}</value>
@@ -3797,7 +3797,7 @@
 <!-- 0 - mason collegues's name -->
     <value>هم تیمی های شما(درصورت وجود) عبارت اند از:{0}</value>
   </string>
-  <string key="ThiefToCult">
+  <string key="ThiefTozoombies">
 <!-- 0 - old Zombie's name -->
 <!-- 1 - new Zombie's name -->
 <!-- 0 - old Zombie's name -->

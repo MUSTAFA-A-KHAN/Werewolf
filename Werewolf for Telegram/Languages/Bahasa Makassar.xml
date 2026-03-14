@@ -265,7 +265,7 @@
   </string>
   <string key="HunterKilledZombie">
     <!-- 0 - victim name -->
-    <value>Ri bangngia balla'na {0} ni pantamai CH. Ka issengangi ammake pattirokanja jari ni bunoi sigang cult hunter !</value>
+    <value>Ri bangngia balla'na {0} ni pantamai CH. Ka issengangi ammake pattirokanja jari ni bunoi sigang zoombies hunter !</value>
   </string>
   <string key="NoAttack" >
     <value>Salama' ngasengi tawwa anne alloa tenaja tau ni lollong parakang ri bangngia.</value>
@@ -374,34 +374,34 @@
     <!-- 1 - target name -->
     <value>{0} anne na pile {1}</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <!-- 0 - Yougest Zombie (killed)'s name' -->
     <!-- 1 - ZombieHunter's name -->
-    <value>{0} ni suro mange ri {1}... mingka sitojenna Cult Hunter na battui. {0} moterang !</value>
+    <value>{0} ni suro mange ri {1}... mingka sitojenna zoombies Hunter na battui. {0} moterang !</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - Number of Zombies left -->
     <value>{0} battu ri balla'nu, mingka anjo battua Zombie. hhhmmm battui tolona mateko iya ni samballe sigang CH. {1} anjo mami Zombie.</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>Ni pantama'ko a'jari Zombie, jai pangngisengangna anrinni. Punna bangngi akkulle ko angkio' poleang tau maraeng antama anjari Zombie.</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <!-- 0 - Number of Zombies -->
     <value>Zombies: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <!-- 0 - new Zombie's name -->
     <value>{0} anjari Zombie.</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <!-- 0 - Newest Zombie's name -->
     <!-- 1 - target name -->
     <value>{0} nu suro mange ri balla'na angkioki {1} amminawang anjari Zombie. Mingka assuluki ammali kopi.</value>
   </string>
-  <string key="CultWins" isgif="true">
-    <value>Mate ngasengmi werewolf, Tau biasayya mami attalasa' mingka amminawang ngasengmi ri Zombie. Ammetai Cult !</value>
+  <string key="zoombiesWins" isgif="true">
+    <value>Mate ngasengmi werewolf, Tau biasayya mami attalasa' mingka amminawang ngasengmi ri Zombie. Ammetai zoombies !</value>
   </string>
   <string key="HunterVisitDead">
     <!-- 0 - target name -->
@@ -505,7 +505,7 @@
     <value>Mason : {0}</value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <!-- 0 - Youngest Zombies name -->
     <value>Mangeko ri balla'na {0} mingka matemi ni kokko' parakang.</value>
   </string>
@@ -514,7 +514,7 @@
     <value>Werewolf mange ri balla' {0} a'boya kanre, mingka nia' tau lompo tinggi attayang anjoreng, sitojenna anjo GA. Siba'ji sigang GA mingka ni betai. Pacce !!!</value>
   </string>
   <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <!-- 0 - newest  -->
     <!-- 1 - target's name -->
     <value>Nu suro {0} mange ri {1}, mingka takkulleai nu kio' na saba' sarroi assambayang.</value>
@@ -525,7 +525,7 @@
     <!-- 1 - name -->
     <value>@{1}, pakarena ammake areng {0} antama riolomi. Sambei arennu punna ero'ko akkarena.</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <!-- 0 - target's name -->
     <value>Antamakko ri balla'na {0} mae a'tinro ri ampi'na, le'banu sigang a'tinro, nia batu na sareangko. Na kulle kapang pangngissengang...</value>
   </string>
@@ -619,8 +619,8 @@
     <value>La'busuki wattuna !</value>
   </string>
   <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
-    <value>Kau Cupid. Cawa-cawaji nu pake kamase, nia' poke nu ta'gala' kulle nu pa'bunting tawwa. Pileko rua tau eroka nu pa'bunting.</value>
+  <string key="RoleInfoRecruiter">
+    <value>Kau Recruiter. Cawa-cawaji nu pake kamase, nia' poke nu ta'gala' kulle nu pa'bunting tawwa. Pileko rua tau eroka nu pa'bunting.</value>
   </string>
   <string key="RoleInfoDoppelganger">
     <value>Kau Doppelgänger. Akkulleko anjari tau maraeng punna anjo tau nu pilea mate.</value>
@@ -631,7 +631,7 @@
   <string key="RoleInfoSerialKiller">
     <value>Kau serial killer. Jangang garring !!! Nu ngai punna mate tawwa. Pa'risiki nyawanu punna tena nu ammuno ta'siallo.</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>Ku pa'buntingko sigang {0}. Katutui pangngainnu, punna mate i kau amminawang tong mate na saba takkulleako tallasa' punna tenai.</value>
     <value>Ku pa'buntingko sigang {0}. Katutui pangngainnu, Punna mate i kau amminawang tong mate na saba takkulleako tallasa' punna tenai.</value>
   </string>
@@ -687,15 +687,15 @@
     <!-- 0 - target's name -->
     <value>Ri bangngia assulukko mae a'boya tau la nu buno. Nu ciniki {0} !!! Ero'mi nu tobo' mingka nia' Guardian Angel ri bokona. Salamaki tawwa tena nu anggappa anne alloa.</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
-    <value>Cult {0} mange ri {1} eroki na kio' antama anjari Zombie, mingka sala tannangi hunter na kio'. {0} ni pasambila assulukang balla' ! {0} mate.</value>
+    <value>zoombies {0} mange ri {1} eroki na kio' antama anjari Zombie, mingka sala tannangi hunter na kio'. {0} ni pasambila assulukang balla' ! {0} mate.</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
-    <value>Cult {0} mange ri {1}, mingka {0} ni patapassaki naung ri tanayya, le'ba'na ni patappasa ni tobo' poleangi sigang {0} ni buno jangang garring.</value>
+    <value>zoombies {0} mange ri {1}, mingka {0} ni patapassaki naung ri tanayya, le'ba'na ni patappasa ni tobo' poleangi sigang {0} ni buno jangang garring.</value>
     <value>{0} na katto pa'ke'bu balla'na {1}. Ta'sungkena pa'ke'bu balla'na {1} na bu'bu'na badi'na nampa na tobo' lantang {0} !!! {0} mate.</value>
   </string>
   <string key="GuardKiller">
@@ -717,14 +717,14 @@
     <!-- 1 - mason collegues's name -->
     <value>{0} moterang, jari kau sambeangi anjari mason. Agangnu (punna' nia') : {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <!-- 0 - new Zombie's name -->
     <value>Doppelganger {0} anjari Zombie singkamma kau !</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <!-- 0 - role's name -->
     <!-- 1 - teammates's name -->
-    <value>{0} moterang, jari kau sambeangi anjari cult. Agangnu (punna' nia') :  {1}</value>
+    <value>{0} moterang, jari kau sambeangi anjari zoombies. Agangnu (punna' nia') :  {1}</value>
   </string>
   <string key="DGToWolf">
     <!-- 0 - DG's name -->
@@ -741,26 +741,26 @@
   <string key="AskKill">
     <value>Nai la nu buno anne bangngia ?</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <!-- 0 - dead's name -->
-    <!-- 1 - lover's name -->
+    <!-- 1 - crewmate's name -->
     <!-- 2 - roles -->
     <value>{0} ammoterangi kamase, {1} kodi pa'kasia'na. Takkullea na tarima mae angngalle badi' nampa na tobo' kalenna. {2}</value>
   </string>
   <string key="AskDoppelganger">
     <value>Nai la nu panjari kalennu punna mate ?</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>Nai la nu pa'bunting ? Pilemi parekang buntingna</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>Nai la nu pa'bunting ? Pilemi parekang buntingna</value>
   </string>
   <string key="Hunter">
     <value>Hunter 🎯</value>
   </string>
-  <string key="Cupid">
-    <value>Cupid 🏹</value>
+  <string key="Recruiter">
+    <value>Recruiter 🏹</value>
   </string>
   <string key="SerialKiller">
     <value>Serial Killer 🔪</value>
@@ -772,7 +772,7 @@
     <!-- 0 - target's name -->
     <value>Kau wild child. Anne tau nu pinawanga {0}</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
     <value>Aleeeeee ammetai bunting berua</value>
   </string>
   <string key="HunterKilledVisiter">
@@ -780,7 +780,7 @@
     <!-- 1 - role -->
     <value>Ri tangngana pa'rasanganga ni gappa {0} mate. Jai bate patte ni gappa ri kalenna. Hunter patteki ka bambala dudu {1}</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>Nia tau angngerang doti mae ri balla'nu. Mingka sarroko assambayang jari takkuleako na taba doti.</value>
   </string>
   <string key="AlreadyOnWaitList">
@@ -864,7 +864,7 @@
   <string key="AboutFool">
     <value>Fool merasa dirinya Seer (Penerawang). Padahal, semuanya tipu belaka.</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>Hidup Pemuja Kerang Kutil Ajaib (Zombie)! Hasut warga agar pengikutmu bertambah banyak, maka kamu menang!</value>
   </string>
   <string key="AboutCH">
@@ -885,8 +885,8 @@
   <string key="AboutDG">
     <value>Doppelganger akan memilih pemain lain dan ketika pemain tersebut mati, dia akan menjadi peran tersebut. Zombie tidak dapat menghasut Doppelganger. Jika peran yang dipilih adalah Wild Child dan panutannya sudah mati, kamu akan menjadi serigala.</value>
   </string>
-  <string key="AboutCupid">
-    <value>Lope Lope di udara. Cupid akan memilih 2 pemain jomblo untuk dijadikan pasangan (lovers). Mereka akan saling mengetahui nama pasangannya, tapi tidak tahu peran masing-masing. Jika lovers pilihanmu bertahan hidup, mereka akan menang.</value>
+  <string key="AboutRecruiter">
+    <value>Lope Lope di udara. Recruiter akan memilih 2 pemain jomblo untuk dijadikan pasangan (crewmates). Mereka akan saling mengetahui nama pasangannya, tapi tidak tahu peran masing-masing. Jika crewmates pilihanmu bertahan hidup, mereka akan menang.</value>
   </string>
   <string key="AboutHunter">
     <value>Hunter memiliki keinginan untuk membalas dendam sangat tinggi. Pemain yang datang ke rumahmu, tak segan kamu bunuh. Jika warga menggantungmu, kamu dapat membunuh satu orang lagi sebelum mati. Setelah serigala menyerangmu, kamu dapat membunuh 1 serigala saat itu juga. Zombie yang berusaha datang untuk menghasutmu memiliki kemungkinan 50% gagal.</value>
@@ -1060,11 +1060,11 @@
   <string key="AllowTannerA">
     <value>Ni pantamaki tanner ri roleka: {0}</value>
   </string>
-  <string key="AllowCultQ">
-    <value>Pantamaki cult a'jari role?\nCurrent: {0}</value>
+  <string key="AllowzoombiesQ">
+    <value>Pantamaki zoombies a'jari role?\nCurrent: {0}</value>
   </string>
-  <string key="AllowCultA">
-    <value>Ni pantamaki cult ri roleka: {0}</value>
+  <string key="AllowzoombiesA">
+    <value>Ni pantamaki zoombies ri roleka: {0}</value>
   </string>
   <string key="ThankYou">
     <value>Salamakki :)</value>
@@ -1214,8 +1214,8 @@
   <string key="SerialKillerTeam" deprecated="true">
     <value>Tim SK</value>
   </string>
-  <string key="CultTeam" deprecated="true">
-    <value>Tim Cult</value>
+  <string key="zoombiesTeam" deprecated="true">
+    <value>Tim zoombies</value>
   </string>
   <string key="TannerTeam" deprecated="true">
     <value>Tim Tanner</value>
@@ -1233,14 +1233,14 @@
   <string key="SerialKillerTeamEnd">
     <value>Tim SK</value>
   </string>
-  <string key="CultTeamEnd">
-    <value>Tim Cult</value>
+  <string key="zoombiesTeamEnd">
+    <value>Tim zoombies</value>
   </string>
   <string key="TannerTeamEnd">
     <value>Tim Tanner</value>
   </string>
-  <string key="CultConvertWolf">
-    <value>Cult na suro {0} mange ri balla'na {1}, mingka tena sallo kammanjo {0} ta'sambila ulunna assulu' battu ri timunganga. Tena na ni sanna-sanna ! {0} mate...</value>
+  <string key="zoombiesConvertWolf">
+    <value>zoombies na suro {0} mange ri balla'na {1}, mingka tena sallo kammanjo {0} ta'sambila ulunna assulu' battu ri timunganga. Tena na ni sanna-sanna ! {0} mate...</value>
   </string>
 
   <string key="HarlotFuckedKilledPublic"> <!-- used when Harlot visit's SK's victim, and dies -->
@@ -1259,7 +1259,7 @@
   <string key="ZombieKilled">
     <value>{0} mate i rate ri passambayangangna. Serial killer ko'biki ammake badi' ! {0} Zombie.</value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>Bari'basa dudu {0} anjo biasayya pa'bunting tawwa mate ni ko'bi sigang Serial Killer.</value>
   </string>
   <string key="DrunkKilled">
@@ -1292,11 +1292,11 @@
     <value>Ri bari'basa'ka nia' ni sipolong kalenna {0}, Zombie Hunter, anjo ni kana teako sambarang tau nu paressa.</value>
     <value>Kalenna {0}, Zombie Hunter, ni gappai tappolong salapang ri tangngana pa'rasanganga. SK pata panggaukang.</value>
   </string>
-  <string key="CultConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
+  <string key="zoombiesConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
     <value>Kajili-jili {0} antama ri balla'na tawwa. Na kana kutaeng tau biasaji pata balla, mingka wolf pata balla. {0} mate a'talaka cera'.</value>
     <value>Ri bangngia {0} ni lollongi sigang wolf. na saba' {0} na kioki amminawang ri pangngissengangna mingka teai anjo wolfka.</value>
   </string>
-  <string key="CultConvertKillerPublic"> <!--used when Zombies convert the SK-->
+  <string key="zoombiesConvertKillerPublic"> <!--used when Zombies convert the SK-->
     <value>Na kanamo Zombie la anggappai agang beru ! {0}, Zombie, mate ri tangngana pa'rasangang na saba' SK la na pantama anjari Zombie.</value>
     <value>Ri bangngia, nia tau la kio' antama anjari Zombie. Mingka tena na issengi angkana SK anjo. {0} tenai pajana sipolong.</value>
   </string>

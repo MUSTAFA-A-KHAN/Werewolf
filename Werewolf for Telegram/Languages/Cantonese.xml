@@ -9,10 +9,10 @@
 	19/05/17	- Update language node details, updates for 4.2
 	01/01/17	- Added String: "HunterKillsWolfEnd", "WolfKillsHunterEnd", "CHKillsZombieEnd", "SecondsAdded", "SecondsRemoved", "CantExtend", "AllowExtendQ", "AllowExtendA", "MaxExtendQ", "MaxExtendA", "WolvesEatDrunkBlockSecondKill"
 	01/01/17	- Fixed String: "AboutAlphaWolf", "AboutDrunk"
-	08/12/16	- Fixed String: "CultConvertSerialKiller", "CupidChosen"
+	08/12/16	- Fixed String: "zoombiesConvertSerialKiller", "RecruiterChosen"
 	05/12/16	- Added String: bunch of strings dated 05/12 and "SetDayTimeQ"
 	29/11/16	- Added String: "HarlotFuckedKilledPublic"
-	21/11/16	- Added String: "CultConvertWolf" string
+	21/11/16	- Added String: "zoombiesConvertWolf" string
 	15/11/16	- Fixed String: "TeamEnd Strings"
 	11/11/16	- Fixed String: "HarlotFuckKillerPublic"
 	09/11/16	- Added String: 6 team strings
@@ -335,25 +335,25 @@
 	<string key="ZombieVotedConvert" >
 		<value>【{0}】想【{1}】信教。</value>
 	</string>
-	<string key="CultConvertZombieHunter">
+	<string key="zoombiesConvertZombieHunter">
 		<value>【{0}】比你叫咗去搵【{1}】信教……但係佢係邪教殺手！ 你搞到【{0}】死咗喇！</value>
 	</string>
-	<string key="ZombieHunterKilledCultVisit">
+	<string key="ZombieHunterKilledzoombiesVisit">
 		<value>【{0}】琴晚去咗你屋企叫你信教，你拎出你把又長又粗又硬嘅寶劍吉佢，一個邪教會員就咁比你吉死咗……仲有【{1}】個！</value>
 	</string>
-	<string key="CultConvertYou">
+	<string key="zoombiesConvertYou">
 		<value>多謝相信綠毛神教~你係新會員！！</value>
 	</string>
-	<string key="CultTeam">
+	<string key="zoombiesTeam">
 		<value>邪教會員：【{0}】</value>
 	</string>
-	<string key="CultJoin">
+	<string key="zoombiesJoin">
 		<value>【{0}】信教了！</value>
 	</string>
-	<string key="CultVisitEmpty">
+	<string key="zoombiesVisitEmpty">
 		<value>【{0}】比你叫咗去傳教，但係【{1}】屋企無人！</value>
 	</string>
-	<string key="CultWins" >
+	<string key="zoombiesWins" >
 		<value>所有狼人死晒，全世界都係邪教會員。\n邪教會員 勝出！</value>
 	</string>
 	<string key="HunterVisitDead">
@@ -450,21 +450,21 @@
 		<value>  共濟會成員：【{0}】</value>
 	</string>
 	<!-- new strings May 6 2016-->
-	<string key="CultTargetDead">
+	<string key="zoombiesTargetDead">
 		<value>你地最新加入嘅會員去【{0}】屋企傳教時，發現果度好似有打鬥過嘅痕跡，周圍都係血，大門亦有幾條狼毛……</value>
 	</string>
 	<string key="GuardBlockedWolf">
 		<value>當狼人想去【{0}】屋企食佢嘅時候，一個黑影出現係狼人面前，守護天使舉起中指，將狼人擊退了！</value>
 	</string>
 	<!-- new strings May 9 2016-->
-	<string key="CultUnableToConvert">
+	<string key="zoombiesUnableToConvert">
 		<value>你派出【{0}】去搵【{1}】信教，但係佢相信聖綠毛。佢信念太強，你無法令佢改信綠毛神sosad！</value>
 	</string>
 	<!-- new string May 12 2016-->
 	<string key="NameExists">
 		<value>@{1}，已經有人叫{0}，唔該你改改個名先入game！</value>
 	</string>
-	<string key="HarlotDiscoverCult">
+	<string key="HarlotDiscoverzoombies">
 		<value>你今晚諗住去【{0}】間屋強姦佢再屈佢叫雞逼佢比錢。當你爽完之後，你發現佢間屋嘅暗角位有個綠毛神神像……</value>
 	</string>
 	<!-- new string May 13 2016-->
@@ -546,7 +546,7 @@
 		<value>你知道我憎人遲到嗎?（時間到！）</value>
 	</string>
 	<!-- new strings june 10 2016 -->
-	<string key="RoleInfoCupid">
+	<string key="RoleInfoRecruiter">
 		<value>你係丘比特。\n遊戲一開始你會揀兩個人變成情侶。如果佢地入面其中一個死咗，另一個都會傷心至死。\n備註：情侶會互相知道另一半係邊個，但唔會知道對方身分。如果情侶係最後兩個存活就贏。</value>
 	</string>
 	<string key="RoleInfoDoppelganger">
@@ -558,7 +558,7 @@
 	<string key="RoleInfoSerialKiller">
 		<value>你係連環殺手。\n你可以殺任何人，但係狼人黎殺你既話，你有20%機會俾佢地食咗，另外80%機會反殺翻佢地其中一隻。</value>
 	</string>
-	<string key="CupidChosen">
+	<string key="RecruiterChosen">
 		<value>你已跌入愛河。你另一半係【{0}】，記住李安納度迪卡比奧曾經講過，You Jump, I Jump。你另一半死咗，你都會死。</value>
 		<value>邱比特嘅箭射中咗你！ 你愛上咗【{0}】！ 你地兩個一係一齊生存到最後，一係就同歸於盡。</value>
 	</string>
@@ -586,7 +586,7 @@
 	<string key="HunterKilledFinalShot">
 		<value>子彈穿過【{0}】嘅身體，【{0}】拎出佢對手槍，對住【{1}】開咗一槍，子彈係【{1}】兩條眼眉中穿過。\n【{2}】</value>
 	</string>
-	<string key="CultConvertSerialKiller">
+	<string key="zoombiesConvertSerialKiller">
 		<value>邪教會員派出【{0}】去【{1}】屋企傳教，點知【{0}】條屍係窗口飛咗落街，身上面d刀痕多到10隻手指都數唔晒！ 條友係唔係有病?\n【{0}】已死……</value>
 	</string>
 	<string key="HunterShotWolfMulti">
@@ -604,7 +604,7 @@
 	<string key="GuardBlockedKiller">
 		<value>你諗住收集【{0}】嘅身體黎完成你幅人體拼圖，但係守護天使嘅出現，令你嘅計劃失敗，你白白浪費咗一晚……</value>
 	</string>
-	<string key="CultConvertHunter">
+	<string key="zoombiesConvertHunter">
 		<value>邪教會員派出【{0}】去【{1}】屋企傳教，行先真係死先，屋企面無啦啦有槍聲，【{0}】條屍係窗口飛咗落街。\n【{0}】已死……</value>
 	</string>
 	<string key="GuardKiller">
@@ -622,10 +622,10 @@
 	<string key="DGTransformToMason">
 		<value>【{0}】已死，你變咗做共濟會成員。你班朋友仔係 （如有） ：【{1}】</value>
 	</string>
-	<string key="DGToCult">
+	<string key="DGTozoombies">
 		<value>分身【{0}】變咗做邪教會員, 就好似你咁！</value>
 	</string>
-	<string key="DGTransformToCult">
+	<string key="DGTransformTozoombies">
 		<value>【{0}】已死，你變咗做邪教會員，你班朋友仔係 （如有） ：【{1}】</value>
 	</string>
 	<string key="DGToWolf">
@@ -640,22 +640,22 @@
 	<string key="AskKill">
 		<value>你今晚想殺邊個?</value>
 	</string>
-	<string key="LoverDied">
+	<string key="crewmateDied">
 		<value>隨著【{0}】吞下最後一啖氣，【{1}】趴咗係佢另一半身上面喊，佢無法承受如此嘅哀傷，於是佢唔係去邊度搵咗把槍返黎..對住自己太陽穴，毫不猶豫咁扣下了板機……\n【{2}】</value>
 	</string>
 	<string key="AskDoppelganger">
 		<value>你希望邊一個村民死咗之後，令自己變成佢呢?</value>
 	</string>
-	<string key="AskCupid1">
+	<string key="AskRecruiter1">
 		<value>你想幫邊個成為戀人? 而家揀男方</value>
 	</string>
-	<string key="AskCupid2">
+	<string key="AskRecruiter2">
 		<value>你想幫邊個成為戀人? 而家揀女方</value>
 	</string>
 	<string key="Hunter">
 		<value>獵人 🎯</value>
 	</string>
-	<string key="Cupid">
+	<string key="Recruiter">
 		<value>丘比特 🏹</value>
 	</string>
 	<string key="SerialKiller">
@@ -667,13 +667,13 @@
 	<string key="NewWCRoleModel">
 		<value>你係新野仔！ 你隻 '替死鬼'係【{0}】</value>
 	</string>
-	<string key="LoversWin">
+	<string key="crewmatesWin">
 		<value>愛是最大權利！ 戀人們勝利！</value>
 	</string>
 	<string key="HunterKilledVisiter">
 		<value>係綠毛村嘅中央【{0}】身中幾槍嘅屍體散落一地，睇黎佢似乎想偷襲獵人但得到咗淒涼嘅下場。\n【{1}】</value>
 	</string>
-	<string key="CultAttempt">
+	<string key="zoombiesAttempt">
 		<value>一個綠毛神教教徒試圖說服你成為佢地一份子，但係你拒絕咗佢地。</value>
 		<!-- New strings 15 June 2016-->
 	</string>
@@ -748,7 +748,7 @@
 	<string key="AboutFool">
 		<value>【白痴仔】系統你同你講你係先知，你每晚都同先知一樣可以「查」一個人嘅身份，不過系統多數都係呃你架喎！</value>
 	</string>
-	<string key="AboutCult">
+	<string key="Aboutzoombies">
 		<value>【邪教會員】成個教會每晚可以揀一個人拉佢入教（除咗狼人同分身），但係啲人如果唔喺屋企就唔會俾你拉入教。入咗教既人會失去原來既身份。邪教殺手／連環殺手會殺咗你。共濟會員、醉酒佬、旁觀者、槍手、叛徒、學徒先知、野仔、白痴仔、邱比特、皮匠一定會俾你拉入教。其他人入教機率︰先知 40%，獵人 50%，被詛咒嘅人 60%，守護天使 60%，偵探 70%，妓女 70%。如果你拉唔倒獵人入教，佢有 50% 會殺咗你。最後最果無晒狼人同連環殺手，而且全村人都入晒教，咁你就贏喇。</value>
 	</string>
 	<string key="AboutCH">
@@ -769,7 +769,7 @@
 	<string key="AboutDG">
 		<value>【分身】喺第一晚可以揀一個目標，若然佢死咗，你就會變咗做佢個身份。如果目標係入咗教嘅共濟會成員，你會變做共濟會成員而唔係邪教會員。分身唔會俾人拉入邪教，要變咗身先得。如果分身喺遊戲結束時仲未變到身，就會輸（除非你嘅戀人贏咗）。</value>
 	</string>
-	<string key="AboutCupid">
+	<string key="AboutRecruiter">
 		<value>【邱比特】喺第一晚可以揀兩個人令佢地變成情侶，佢地其中一個死咗，另一個都會殉情自盡。佢地兩個會互相知道邊個佢嘅愛人，但唔會知道對方嘅身份。如果最後得番戀人生存，不論佢地係咩身份，都淨係佢地獨贏。另外，如果佢地其中一個贏咗，另一個都會贏。（假設一個係狼人一個係村民，無論最後村民贏定狼贏，佢兩個都會一齊贏。）而邱比特自己就跟村民陣營分勝負。
 		</value>
 	</string>
@@ -945,10 +945,10 @@
 	<string key="AllowTannerA">
 		<value>已{0}玩家抽中皮匠</value>
 	</string>
-	<string key="AllowCultQ">
+	<string key="AllowzoombiesQ">
 		<value>准許玩家抽中邪教會員？\n當前設定︰{0}</value>
 	</string>
-	<string key="AllowCultA">
+	<string key="AllowzoombiesA">
 		<value>已{0}玩家抽中邪教會員</value>
 	</string>
 	<string key="ThankYou">
@@ -1101,7 +1101,7 @@
 	<string key="SerialKillerTeam">
 		<value>連殺陣營</value>
 	</string>
-	<string key="CultTeam">
+	<string key="zoombiesTeam">
 		<value>邪教陣營</value>
 	</string>
 	<string key="TannerTeam">
@@ -1119,13 +1119,13 @@
 	<string key="SerialKillerTeamEnd">
 		<value>連殺陣營</value>
 	</string>
-	<string key="CultTeamEnd">
+	<string key="zoombiesTeamEnd">
 		<value>邪教陣營</value>
 	</string>
 	<string key="TannerTeamEnd">
 		<value>皮匠陣營</value>
 	</string>
-	<string key="CultConvertWolf">
+	<string key="zoombiesConvertWolf">
 		<value>邪教會員派出【{0}】去【{1}】屋企傳教，點知下一秒就見到【{0}】個頭俾人咬甩咗飛咗出黎！\n【{0}】已死……</value>
 	</string>
 	<string key="HarlotFuckedKilledPublic">
@@ -1141,7 +1141,7 @@
 	<string key="ZombieKilled">
 		<value>一朝早村民就係邪教教會張神枱上面發現【{0}】俾人用個燭台插死咗。邪教會員【{0}】死咗。</value>
 	</string>
-	<string key="CupidKilled">
+	<string key="RecruiterKilled">
 		<value>天光喇……村民好傷心，佢地發現【{0}】條屍攤咗係廣場中間，但係佢個心臟唔知去咗邊……</value>
 	</string>
 	<string key="DrunkKilled">
@@ -1172,11 +1172,11 @@
 		<!--used when CH visits SK-->
 		<value>尋晚邪教殺手【{0}】明明諗住去滅教，點知原來佢去咗搵連環殺手。村民一起身就見到【{0}】條屍攤咗係村口……大家記住唔好再嘗試去搵連殺喇……</value>
 	</string>
-	<string key="CultConvertWolfPublic">
+	<string key="zoombiesConvertWolfPublic">
 		<!--used when Zombies convert the wolves, only if wolves stayed home-->
 		<value>正當難得今晚狼群想留係屋企抖下，偏偏邪教就揀咗去其中一隻狼間屋度到傳教！ 既然有人送上門狼就當然唔客氣啦。邪教新丁【{0}】就咁就俾狼咬死咗啦。</value>
 	</string>
-	<string key="CultConvertKillerPublic">
+	<string key="zoombiesConvertKillerPublic">
 		<!--used when Zombies convert the SK-->
 		<value>邪教尋晚興致勃勃咁去到一間屋度傳教，點知原來去錯咗連環殺手屋企。村民一起身就發現邪教新丁【{0}】條屍俾人斬碎撒咗係村口。</value>
 	</string>
@@ -1262,7 +1262,7 @@
 		<!-- {0} = list of people who have joined -->
 		<value>{0} 喺過去 30 秒加入咗遊戲。</value>
 	</string>
-	<string key="AllowCult">
+	<string key="Allowzoombies">
 		<value>准許邪教？</value>
 	</string>
 	<string key="AllowTanner">
@@ -1500,7 +1500,7 @@
 		<!-- 0 - mason collegues's name -->
 		<value>你成為了共濟會員，你嘅共濟之友︰【{0}】</value>
 	</string>
-	<string key="ThiefToCult">
+	<string key="ThiefTozoombies">
 		<!-- 0 - old Zombie's name -->
 		<!-- 1 - new Zombie's name -->
 		<value>【{0}】唔再係你嘅同伴，而【{1}】就係你新嘅教友。</value>

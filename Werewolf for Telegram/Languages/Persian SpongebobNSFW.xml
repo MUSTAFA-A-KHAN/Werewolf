@@ -395,33 +395,33 @@
     <value> این {0} میگه بنظرم {1} کیرش راسته و برای اومدن به باشگاه کیرسازی امادس</value>
     <value>خب {0} میگه بیاید {1} رو بیاریم تو باشگاهمون تا دافا براش غش برن</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <!-- 0 - Yougest Zombie (killed)'s name' -->
     <!-- 1 - ZombieHunter's name -->
     <value>خب {0} رفت {1} رو بیاره باشگاه کیرسازیمون ولی کیر کوچولو بود و بخاطر حسادتش به کیرکلفتای باشگاه ما ، زد کشتش</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - Number of Zombies left -->
     <value>سلام کیر کوچولو! دیشب {0} اومد تو رو ببره باشگاه کیرسازی ولی تو از سر حسادت زدی کشتیش! کصکش خان جالبه بدونی {1} کیرساز دیگه تو بیکینی باتم کیری داریم!</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>تو الان عضو کلوپ کیرسازی هستی کصکش. هرشب یه نفرو باید بیاری باشگاه و محصولاتتو بهش بفروشی</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <!-- 0 - Number of Zombies -->
     <value>کیرسازای خوش هیکل عبارتند از {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <!-- 0 - new Zombie's name -->
     <value>تبریک میگم کیرسازا ! {0} عضو کلوپ شد و همیشه ازتون قرصای کیرسازی خرید میکنه و تو دعوت بقیه به باشگاه کمکتون میکنه</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <!-- 0 - Newest Zombie's name -->
     <!-- 1 - target name -->
     <value>{0} رفت تا {1} رو گول بزنه بش قرص کیرسازی بفروشید ولی هرچی زنگ زد کسی باز نکرد</value>
   </string>
-  <string key="CultWins" isgif="true">
+  <string key="zoombiesWins" isgif="true">
     <value>همه کیرساز شدن و کصای بیکینی باتم فقط جذب اونا شدن</value>
     <value> کیرسازا برنده بازی شدن!</value>
     <value> کل بیکینی باتم پر شده از باشگاه های کیرسازی! کیرسازا بردن </value>
@@ -528,7 +528,7 @@
     <value>  کراستی باز های پدوفیلی دیگه عبارت اند از: {0}</value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <!-- 0 - Youngest Zombies name -->
     <value>دیشب عضو جدید باشگاه یعنی {0} کله کیری رفت یکی رو ب باشگاه دعوت کنه ولی دیگه برنگشت</value>
   </string>
@@ -537,7 +537,7 @@
     <value>دیشب اختاپوس ها میخواستن {0} رو کصخل کنن ، ولی خدای دریا با خوندن یه ورد جادویی کاری کرد که اختاپوس ها بعد از یه ساک پرتف فرار کردن</value>
   </string>
   <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <!-- 0 - newest  -->
     <!-- 1 - target's name -->
     <value>دیشب {0} رو فرستادین {1} کصکش رو به باشگاه بیاره ولی ترسید با خوردن این قرصا بگا بره و قبول نکرد</value>
@@ -548,7 +548,7 @@
     <!-- 1 - name -->
     <value>جناب {0} @{1} کصکش  یه بازیکن هم اسم تو توی بازیه، اسمتو عوض کن تا بتونی وارد بازی بشی و برام ساک بزنی</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <!-- 0 - target's name -->
     <value>دیشب با {0} سکس چت کردی ، بنظر میاد که اون یه کیرساز هست چون کیرش خیلی خوش تراش بود.</value>
   </string>
@@ -643,7 +643,7 @@
   <value>بجنب دیگه جقی! وقتت تموم شد!</value>
   </string>
   <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
     <value>تو پرل کص دوزی💘 ، دوستای کیری فیست بهت یه معجون دادن که تو باید اون رو توی کراستی کراب دونفر بریزی ، اگه یکیشون بمیره ، اون یکی هم انقد کراستی کراب نمیخوره تا بمیره</value>
   </string>
   <string key="RoleInfoDoppelganger">
@@ -655,7 +655,7 @@
   <string key="RoleInfoSerialKiller">
     <value>تو پلانکتون حشری هستی🔪 هرشب میری یکی از مشتری های رستوران خرچنگ رو جوری میکنی که اهالی شهر فردا جنازشو با سوراخ پاره پیدا میکنن. هدف تو اینه که همه ی مشتری های خرچنگ رو بگایی تا به فرمول دست پیدا کنی و برنده بشی</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>تو عاشق {0} سکسی شدی. تو هرروز اون رو میکنی و اگه اون بمیره چون دیگه کسی نیست که بکنی ، توعم از تنهایی میمیری. البته اگه توعم اول بمیری برای اون هم همین اتفاق میفته</value>
 	<value>پرل کص دوز معجونش رو  توی غذای تو و {0} زده. حالا اگه اون بمیره تو هم از تنهایی و بی کصی میمیری</value>
   </string>
@@ -691,7 +691,7 @@
     <!-- 2 - target's role -->
     <value>مامور بهداشت یعنی {0} اسکل لحظه اخر یه حکم رو امضا کرد و اون رو به اهالی شهر داد. اون حکم ممنوع الورود کردن {1} بود حالا اون از گرسنگی مرده! {2}</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <value>کیرساز یعنی {0} اوبی رفت خونه {1} که بیارتش به باشگاه ولی پلانکتون حشری اونو جوری گایید که نتونست به خونه برگرده و همونجا مرد. روز بعد پلانکتون گوشت کون اون رو توی رستوران میپخت و به مشتریاش میداد</value>
 	<value>کیرساز یعنی {0} رفت پیش پلانکتون حشری {1} ولی بگا رفت</value>
   </string>
@@ -715,7 +715,7 @@
     <!-- 0 - target's name -->
     <value>رفتی {0} رو بگایی و گوشتشو بدزدی ولی خدای دریا با فن جادویی تورو پرتت کردتو لونت</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
     <value> دیشب کیرساز {0} رفت به‌ {1} قرص کیرسازی بده ولی مامور بهداشت فهمید داره بش جنس تقلبی میفروشه از بیکینی باتم کیری ممنوع الورودش کرد</value>
@@ -739,12 +739,12 @@
     <!-- 1 - mason collegues's name -->
     <value>{0} همزادت بود و تو‌ الان بجاش‌میری سر ملاقات کراستی ‌بازای پدوفیلی، کراستی بازا عبارتند از : {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <!-- 0 - new Zombie's name -->
     <value>همزاد، یعنی {0} هم چون یکی از اعضای باشگاه رو به عنوان مدل انتخاب کرده بود الان کیرساز شد.</value>
   </string>
 
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <!-- 0 - role's name -->
     <!-- 1 - teammates's name -->
     <value>اینجور که معلومه همزادت {0} کیرساز بوده، حالا که مرده تو بجاش میری باشگاه‌کیرسازی و خودتو جای اون میزنی دیوس: {1}</value>
@@ -765,25 +765,25 @@
   <string key="AskKill">
     <value>کیو میخوای امشب بگایی؟</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <!-- 0 - dead's name -->
-    <!-- 1 - lover's name -->
+    <!-- 1 - crewmate's name -->
     <!-- 2 - roles -->
     <value>با بگا رفتن {0} عشق کیریش یعنی {1} هم رفت بالا سر جنازش و انقد جق زد تا بگا رفت. {2}</value>
   </string>
   <string key="AskDoppelganger">
     <value>میخوای همزاد کدوم کصکشی بشی؟ اگه بمیره تو نقششو بر عهده میگیری</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>تو غذای کدوم دونفر میخوای معجون رو بریزی ؟ نفر اول رو انتخاب کن سکسی</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>تو غذای کدوم دونفر میخوای معجون رو بریزی ؟ نفر دوم رو انتخاب کن سکسی</value>
   </string>
   <string key="Hunter">
     <value>مامور بهداشت😷</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>پرل کص دوز💘</value>
   </string>
   <string key="SerialKiller">
@@ -797,7 +797,7 @@
     <!-- 0 - target's name -->
     <value>تو پیرزن کیردوستی👵 و الگوت {0} لاشی هست</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
     <value>عاشقای دیوس برنده شدن</value>
   </string>
   <string key="HunterKilledVisiter">
@@ -805,7 +805,7 @@
     <!-- 1 - role -->
     <value>دیشب کیرساز {0} رفت خونه مامور بهداشت {1} قرص بفروشه ولی ممنوع الورود شد</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>دیشب یه کیرساز تورو خواست به باشگاه ببره ولی گشاد تر ازاین حرفا بودی که قبول کنی</value>
   </string>
   <string key="AlreadyOnWaitList">
@@ -889,7 +889,7 @@
   <string key="AboutFool">
     <value>خانم کص پف پفی 🐡\n بات به خانم کص پف پفی🐡 میگه که مرمیت عنه ولی وقتی ک میخاد ساک بزنه تا نقش بقیه رو بفهمه ، بات ی نقش تصادفی رو بهش میگه</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>کیرساز 👥\n تو کیرسازی👥! هرشب یه جقی رو به باشگاه کیرسازی دعوت میکنی! اگه همه ی بازیکنا کیرساز بشن، تو میبری.</value>
   </string>
   <string key="AboutCH">
@@ -910,7 +910,7 @@
   <string key="AboutDG">
     <value>همزاد کله کیری🎭\n کصکش تو همزاد کله کیری هستی🎭 ، یه نفر رو به عنوان الگوت انتخاب میکنی اگه اون بمیره نقش کیریش به تو میرسه</value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>پرل کص دوز💘\n تو پرل کص دوزی💘 ، دوستای کیری فیست بهت یه معجون دادن که تو باید اون رو توی کراستی کراب دونفر بریزی ، اگه یکیشون بمیره ، اون یکی هم انقد کراستی کراب نمیخوره تا بمیره</value>
   </string>
   <string key="AboutHunter">
@@ -1085,10 +1085,10 @@
   <string key="AllowTannerA">
     <value>نقش نگهبان فرمول کون لق: {0}</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>نقش کیرساز فعال باشه؟\n حالت فعلی: {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>نقش کیرساز: {0}</value>
   </string>
   <string key="ThankYou">
@@ -1241,7 +1241,7 @@
   <string key="SerialKillerTeam">
     <value>گروه پلانکتون حشری</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>گروه کیرسازا</value>
   </string>
   <string key="TannerTeam">
@@ -1259,13 +1259,13 @@
   <string key="SerialKillerTeamEnd">
     <value>گروه پلانکتون حشری</value>
   </string>
-  <string key="CultTeamEnd">
+  <string key="zoombiesTeamEnd">
     <value>گروه کیرسازا</value>
   </string>
   <string key="TannerTeamEnd">
     <value>گروه نگهبان فرمول کون لق</value>
   </string>
-    <string key="CultConvertWolf">
+    <string key="zoombiesConvertWolf">
     <value>دیشب {0} رفت تا {1} بیاره به باشگاه ولی کیرسازا تنها چیزی ک دریافت میکنن کله ی بریده شده ی {1} داخل جعبه پودر‌ پروتئینه، متاسفانه اون یه کصخل رو به باشگاه دعوت کرده بود و بگا رفت</value>
   </string>
   <string key="HarlotFuckedKilledPublic"> <!-- used when Harlot visit's SK's victim, and dies -->
@@ -1284,7 +1284,7 @@
   <string key="ZombieKilled">
     <value>دیشب پلانکتون هوس گوشت کیر کرد و به باشگاه کیرسازی حمله کرد. {0} گاییده شده</value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>صبح روز بعد اهالی بیکینی باتم صدای کیری گریه خرچنگ رو میبینن. دختر خرچنگ یا همون پرل کص دوز{0} دیشب توسط پلانکتون حشری کصش به کونش دوزیده شده بود و همونطور که معجون عشق تو دستش بوده بگا رفته</value>
   </string>
   <string key="DrunkKilled">
@@ -1314,10 +1314,10 @@
   <string key="SerialKillerKilledCH"> <!--used when CH visits SK-->
     <value>کیر کوچولو داشت قدم میزد که یکی از کیرسازا رو بکشه ولی دید که وارد خونه ی پلانکتون شده. پس از کمی گشت و گذار توی خونه یهو احساس میکنه کمرش سنگین شده ولی توجه نمیکنه‌و راه خروجو پیدا میکنه‌و توی راه بوووم. بمب ساعتی پلانکتون میترکه و {0} به آسمون میره. مثل اینکه پلانکتون از کون {0} خوشش نیومده و ترجیح داده بجای کردن اون ، اون رو به هوا بفرسته</value>
   </string>
-  <string key="CultConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
+  <string key="zoombiesConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
     <value>کیرساز {0} میره که کصخلا رو دعوت بده ولی راهی تیمارستان میشه</value>
   </string>
-  <string key="CultConvertKillerPublic"> <!--used when Zombies convert the SK-->
+  <string key="zoombiesConvertKillerPublic"> <!--used when Zombies convert the SK-->
     <value>دیشب کیرساز {0} رفته که یکی رو به باشگاه بیاره ولی فردا ماهی ها میبینن که گوشت کیر کسی به اسم {0} با قیمت هنگفتی به فروش میرسد</value>
   </string>
   
@@ -1408,7 +1408,7 @@
     <!-- {0} = list of people who have joined -->
     <value>{0} در 30 ثانیه اخر بازی جوین شدند و تمایل به لیسیدن کیرم رو دارن.</value>
   </string>
-  <string key="AllowCult">
+  <string key="Allowzoombies">
     <value>کیرساز</value>
   </string>
   <string key="AllowTanner">
@@ -1652,7 +1652,7 @@
       <!-- 0 - mason collegues's name -->
       <value>هم تیمی های پدوفیلی شما(درصورت وجود) عبارت اند از:{0}.</value>
     </string>
-    <string key="ThiefToCult">
+    <string key="ThiefTozoombies">
       <!-- 0 - old Zombie's name -->
       <!-- 1 - new Zombie's name -->
       <value>کصکش {0} دیگه هم‌تیمی شما نیست به جاش {1} فرقه شده دقیقا مثل شماها.</value>
@@ -2011,16 +2011,16 @@
   <string key="HunterFell">
 	<value>ناامید از اینکه امروز کیرسازی رو نکشتی داشتی توی محوطه تیمارستان قدم میزدی. وقتی به خودت اومدی که دیگه دیر شده بود! قبل از اینکه بخوای از اون محوطه خارج شی مسئول تیمارستان {0} گرفتت و توی تیمارستان بستریت کرد!</value>
   </string>
-  <!--{0}: cult hunter-->
+  <!--{0}: zoombies hunter-->
   <string key="HunterFellDigger">
 	<value>تو دیدی که یه جقی داره تو محوطه تیمارستان قدم میزنه، سریع اون رو گرفتی و رو یکی از تخت ها بستری کردی، اما دیدی که اون {0} کیرکوچولوعه!</value>
   </string>
   <!--{0}: Zombie-->
-  <string key="CultFell">
+  <string key="zoombiesFell">
 	<value>کیرساز {0} به تیمارستان اومده بود تا تو رو به باشگاهشون دعوت کنه ولی تو گرفتیش و توی تیمارستان بستریش کردی</value>
   </string>
   <!--{0}: Zombie who fell, {1}: grave digger-->
-  <string key="CultConvertGraveDigger">
+  <string key="zoombiesConvertGraveDigger">
 	<value>دیشب رفتین که {1} رو به باشگاهتون دعوت کنین. {0} اولین نفر پاشو توی محوطه تیمارستان گذاشت و مسئول تیمارستان سریع اون رو بستری کرد! شما بی خایه ها هم بعد از دیدن این صحنه فرار کردین</value>
   </string>
   <!--{0}: grave digger-->

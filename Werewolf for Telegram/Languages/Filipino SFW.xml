@@ -8,7 +8,7 @@
 <!-- Changelog August 15, 2016 by @pierredplatypus
 	1. Corrected several grammar and lexical errors such as 'mukang' to 'mukhang', 'jan' to 'dyan', 'PATAYA' to 'PATAY', 'ilynch' to 'bitayin', 'sakanila' to 'sa kanila', 'pimili' to 'pumili'.
 	2. Changed some role names (Harlot, AppSeer, Gunner)
-	3. Adjusted 'Bibe' to be more related to Cult, adjusted mentions of GA to be more related to Baranggay Tanod. -->
+	3. Adjusted 'Bibe' to be more related to zoombies, adjusted mentions of GA to be more related to Baranggay Tanod. -->
 <!-- Changelog August 17, 2016 by @inhinyerongkuryente
 	1. Updated to new bot lines for /playerlist-->
 <!-- Changelog August 19, 2016 by @inhinyerongkuryente
@@ -412,35 +412,35 @@
     <!-- 1 - target name -->
     <value >Gusto ni {0} irecruit si {1} sa kulto.</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <!-- 0 - Yougest Zombie (killed)'s name' -->
     <!-- 1 - ZombieHunter's name -->
-    <value>Inutusan niyo si {0} para irecruit si {1} bilang initiation. Kaso, Cult Hunter pala siya! Patay na si {0}!</value>
+    <value>Inutusan niyo si {0} para irecruit si {1} bilang initiation. Kaso, zoombies Hunter pala siya! Patay na si {0}!</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - Number of Zombies left -->
     <value>Pumunta si {0} sa bahay mo para irecruit ka sana… Pero sinasaksak mo siya ng espada mo. Namatay na ang isang bibe... {1} nalang ang natitira!</value>
     <value>Pumunta si {0} sa bahay mo para irecruit ka sana… Ngunit ginilitan mo siya ng leeg. May roasted duck ka nang uulamin tonight, oh yeah!... {1} nalang ang natitira!</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>Naging marupok ka at naanib sa Kulto ng Mahiwagang Bibe. Isa ka na ring bibe ngayon. Tuwing makalawang gabi, may pagkakataon ka na magrecruit ng iba pang player.</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <!-- 0 - Number of Zombies -->
     <value>Mga kasapi ng Kulto ng Mahiwagang Bibe: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <!-- 0 - new Zombie's name -->
     <value>Narecruit na sa kulto ng bibe si {0}!</value>
 	<value>Isa na ring bibe si {0}!</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <!-- 0 - Newest Zombie's name -->
     <!-- 1 - target name -->
     <value>Inutusan niyo si {0} pumunta sa bahay ni {1} para irecruit siya... Kaso walang tao sa bahay!</value>
   </string>
-  <string key="CultWins" isgif="true">
+  <string key="zoombiesWins" isgif="true">
     <value>Namatay na ang lahat ng wolves, lahat ng natitirang buhay ay umanib na sa Kulto ng Mahiwagang Bibe. Nanalo ang mga Bibe!</value>
   </string>
   <string key="HunterVisitDead">
@@ -544,7 +544,7 @@
     <value>Ang mga mason ay si/sina: {0}</value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <!-- 0 - Youngest Zombies name -->
     <value>Inutusan niyo ang pinakabagong miyembro para pumunta sa bahay ni {0} upang isanib siya sa Kulto ng Mahiwagang Bibe kaso, pagdating niya ang gulo ng lugar, puro dugo, at may ilang balahibo ng wolf na naiwan sa sahig...</value>
   </string>
@@ -553,7 +553,7 @@
     <value>Pumunta ang tropa ng mga wolf sa bahay ni {0} para kainin siya. Pero may humarang sa kanila na isang nilalang na may vest at pamalo at sipol. Nilabanan silang lahat ng Baranggay Tanod at naitaboy niya ang mga wolf pauwi sa lungga nila.</value>
   </string>
   <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <!-- 0 - newest  -->
     <!-- 1 - target's name -->
     <value>Inutusan niyo si {0} para pumunta sa bahay ni {1} upang isanib siya sa Kulto ng Mahiwagang Bibe. Kaso, hindi siya open minded kaya hindi mo siya narecruit. :(</value>
@@ -565,7 +565,7 @@
     <!-- 1 - name -->
     <value>@{1}, may player nang may pangalan na {0} ang kasali. Palitan mo ang pangalan mo para makasali.</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <!-- 0 - target's name -->
     <value>Pumunta ka sa bahay ni {0} para sa sandaling kaligayahan… Habang paalis ka may napansin kang kakaibang altar na hindi masyadong naitago sa may gilid ng kwarto. Para saan kaya yun?</value>
     <value>Pumunta ka sa bahay ni {0} para sa sandaling kaligayahan… Habang paalis ka may napansin kang rubber ducky at itlog na maalat na pinalibutan ng kandila. Para saan kaya yun?</value>
@@ -662,8 +662,8 @@
     <value>Ubos na oras mo!</value>
   </string>
   <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
-    <value>Ikaw si Kupido (Cupid). Pinadala sa mundo ng naka-diaper lang na may hawak na pana. Pumili ng dalawang player na papanain at sila’y magmamahalan habang buhay (kasi walang forever). Kapag namatay ang isa sakanila, madedepress ng todo yung isa kaya magssuicide nalang siya (baka daw kasi may forever sa kabilang buhay)</value>
+  <string key="RoleInfoRecruiter">
+    <value>Ikaw si Kupido (Recruiter). Pinadala sa mundo ng naka-diaper lang na may hawak na pana. Pumili ng dalawang player na papanain at sila’y magmamahalan habang buhay (kasi walang forever). Kapag namatay ang isa sakanila, madedepress ng todo yung isa kaya magssuicide nalang siya (baka daw kasi may forever sa kabilang buhay)</value>
   </string>
   <string key="RoleInfoDoppelganger">
     <value>Isa kang Transformer. Sabi sa kwento ay Ditto (sa pokemon) daw ang tatay mo, at iguana naman ang nanay mo kaya pwede ka mag transform sa kahit ano. Namana mo ang pinagsamang kapangyarihan ng dalawa. Pumili ka ng isang player. Kapag namatay siya, makukuha mo ang role niya.</value>
@@ -674,8 +674,8 @@
   <string key="RoleInfoSerialKiller">
     <value>Isa kang adik na serial killer. Kakatakas mo lang galing sa Rehab. Kaylangan mapatay mo sila lahat. Tuwing gabi pwede kang pumili ng player na idadagdag mo sa koleksyon mo.</value>
   </string>
-  <string key="CupidChosen">
-<!-- 0 - Lovers name -->
+  <string key="RecruiterChosen">
+<!-- 0 - crewmates name -->
     <value>Pinana ka ni Kupido. Naniniwala kang may forver kayo ni {0}'. Kailangang magsurvive kayong dalawa. Kapag namatay ang isa madedepress ka ng todo kaya magssuicide ka nalang (baka kasi may forever sa kabilang buhay diba?)</value>
   </string>
   <string key="HunterLynchedChoice">
@@ -711,7 +711,7 @@
     <!-- 2 - target's role -->
     <value>Nang maramdaman ni {0} ang tama ng bala sakanya, natumba siya sa lupa ngunit hindi siya pumayag na hindi makaganti at binaril si {1} sa ulo. Patay agad. {2}</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <value>Pumunta si {0} sa bahay ni {1} para irecruit siya. Pero pagbukas niya ng pinto ay isang adik (serial killer) ang kanyang nakita. Sa pag-aakalang isa siyang pulis, tinadtad agad ng saksak si {0} ng adik (serial killer). Patay na si {0}</value>
   </string>
   <string key="HunterShotWolfMulti">
@@ -734,12 +734,12 @@
     <!-- 0 - target's name -->
     <value>Sinubukan mong patayin si {0} para maidagdag siya sa koleksyon mo pero hinarang ka ng baranggay tanod. Wala kang dagdag sa koleksyon ngayon...</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
     <value>Pinadala ng kulto si {0} para ianib sa pananampalataya ng Mahiwagang Bibe si {1}, pero mukang di siya open minded kaya nakita nalang nilang tumalsik ang katawan ni {0} mula sa bintana kasunod ng isang putok ng baril! Patay na si {0}....</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
     <value>Pinadala ng kulto si {0} para irecruit si {1}, pero bigla nalang tumalsik ang katawang puno ng saksak sa iba’t ibang ni {0} sa bintana. Adik talaga yung Serial Killer! Si {0} ay patay na...</value>
@@ -763,11 +763,11 @@
     <!-- 1 - mason colleague's name -->
     <value>Namatay na si {0}, isa ka ang mason ngayon! Ang mga teammate mo (kung meron man) ay: {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <!-- 0 - new Zombie's name -->
     <value>Ang Transformer na si {0} ay isa ng bibe, tulad mo!</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <!-- 0 - role's name -->
     <!-- 1 - teammates's name -->
     <value>Namatay na si {0}, kaya nagtransform ka para maging Bibe. Ang teammates mo (kung meron man) ay: {1}</value>
@@ -787,26 +787,26 @@
   <string key="AskKill">
     <value>Sino ang gusto mong patayin ngayong gabi?</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <!-- 0 - dead's name -->
-    <!-- 1 - lover's name -->
+    <!-- 1 - crewmate's name -->
     <!-- 2 - roles -->
     <value>Nang malaman ni {1} na namatay na ang ka-forever niyang si {0}. Siya ay nadepress hanggang sa nag-suicide na siya. Umaasang may forever sa kabilang buhay. {2}</value>
   </string>
   <string key="AskDoppelganger">
     <value>Sino ang gusto mo maging kapag namatay siya?</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>Sino ang gusto mo magkaron ng kasparks? Piliin ang unang player?</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>Sino ang gusto mo magkaron ng kasparks? Piliin ang pangalawang player?</value>
   </string>
   <string key="Hunter">
     <value>Ang Hunter 🎯</value>
   </string>
-  <string key="Cupid">
-    <value>Cupid 🏹</value>
+  <string key="Recruiter">
+    <value>Recruiter 🏹</value>
   </string>
   <string key="SerialKiller">
     <value>ang Serial Killer 🔪</value>
@@ -814,23 +814,23 @@
   <string key="Doppelgänger">
     <value>Ang Transformer 🎭</value>
   </string>
-  <string key="CupidChosen">
-    <!-- 0 - lover's name -->
+  <string key="RecruiterChosen">
+    <!-- 0 - crewmate's name -->
     <value>Pinana ka ni Kupido! Nakahanap ka ng sparks kay {0}! Kapag namatay siya madedepress ka ng todo at magsusuicide. Kung kayo nalang ang natira, pareho kayong panalo.</value>
   </string>
   <string key="NewWCRoleModel">
     <!-- 0 - target's name -->
     <value>Isa ka ng Batang Hamog. Ang idol mo ay si {0}</value>
   </string>
-  <string key="LoversWin">
-    <value>May forever! Nanalo ang lovers!</value>
+  <string key="crewmatesWin">
+    <value>May forever! Nanalo ang crewmates!</value>
   </string>
   <string key="HunterKilledVisiter">
     <!-- 0 - target's name -->
     <!-- 1 - role -->
     <value>Sa tapat ng baranggay, nagulat ang lahat nang makita ang katawan ni {0}, tadtad ng bala ang katawan. Mukang sinubukan nilang pasukin ang bahay ng Hunter! {1}</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>May dumating na nakaformal na damit at tinatanong ka kung open minded ka daw ba, hindi ka open minded kaya hindi ka narecruit ng kulto.</value>
   </string>
   <string key="AlreadyOnWaitList">
@@ -913,7 +913,7 @@
     <value>Isa kang Fool! Akala mo ikaw si Madam Auring. PERO kapag pumili ka ng player na sisilipin sa gabi, random na role lang ang makukuha mo. So sad :(</value>
     <value>Ang fool ay sinasabihan na siya si Madam Auring… kapag pumili siya ng player na makita sa gabi, bibigyan siya ng random na role. Sad!</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
    <value>Dahil Leader na Bibe ka, ang goal mo ay maisanib lahat ng players (maliban sa wolves) sa iyong Kulto ng Mahiwagang Bibe. Kapag ang natira sa dulo ng laro ay mga bibe, mananalo ang kulto.</value>
   </string>
   <string key="AboutCH">
@@ -936,17 +936,17 @@
   <string key="AboutDG">
     <value>
      Isa kang Transformer. Sabi sa kwento ay Ditto (sa pokemon) daw ang tatay mo, at iguana naman ang nanay mo kaya pwede ka mag transform sa kahit ano. Namana mo ang pinagsamang kapangyarihan ng dalawa. Pumili ka ng isang player. Kapag namatay siya, makukuha mo ang role niya.
-      Note:\n1. Kung ang  napili mong player ay narecruit sa kulto, ang makukuha mo ay ang original nilang role. Kung Batang Hamog siya at naging Werewolf na, magiging wolf ka. Kung hindi, ang makukuha mo ay ang role ng idol niya.\n2. Hindi maaaring irecruit ng kulto ang Transformer (pero pwede kung nakapagpalit na ng role)\n3. Ang Transformer ay HINDI mananalo bukod kung nakapagtransform na. Kung pagtapos ng laro ay Transformer parin siya. Talo parin siya (bukod kapag lover).
+      Note:\n1. Kung ang  napili mong player ay narecruit sa kulto, ang makukuha mo ay ang original nilang role. Kung Batang Hamog siya at naging Werewolf na, magiging wolf ka. Kung hindi, ang makukuha mo ay ang role ng idol niya.\n2. Hindi maaaring irecruit ng kulto ang Transformer (pero pwede kung nakapagpalit na ng role)\n3. Ang Transformer ay HINDI mananalo bukod kung nakapagtransform na. Kung pagtapos ng laro ay Transformer parin siya. Talo parin siya (bukod kapag crewmate).
     </value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>
-      Ikaw si Kupido (Cupid). Pinadala sa mundo ng naka-diaper lang na may hawak na pana. Pumili ng dalawang player na papanain at sila’y magmamahalan habang buhay (kasi walang forever). Kapag namatay ang isa sakanila, madedepress ng todo yung isa kaya magssuicide nalang siya (baka daw kasi may forever sa kabilang buhay).
+      Ikaw si Kupido (Recruiter). Pinadala sa mundo ng naka-diaper lang na may hawak na pana. Pumili ng dalawang player na papanain at sila’y magmamahalan habang buhay (kasi walang forever). Kapag namatay ang isa sakanila, madedepress ng todo yung isa kaya magssuicide nalang siya (baka daw kasi may forever sa kabilang buhay).
       Note:
-1. Malalaman ng lovers kung sino ang isa’t-isa pero hindi ang role nila.
-2. Kung ang Lovers nalang matira sa end ng game. Panalo sila kahit ano pa ang role nila.
-3. Kung ang lovers ay nasa magkaibang team. At nanalo ang isang team, pati ang lover ay mananalo.
-4. Kung ang lovers ay buhay sa pagtatapos ng laro, at isa sakanila ang winning team. Panalo sila pareho.
+1. Malalaman ng crewmates kung sino ang isa’t-isa pero hindi ang role nila.
+2. Kung ang crewmates nalang matira sa end ng game. Panalo sila kahit ano pa ang role nila.
+3. Kung ang crewmates ay nasa magkaibang team. At nanalo ang isang team, pati ang crewmate ay mananalo.
+4. Kung ang crewmates ay buhay sa pagtatapos ng laro, at isa sakanila ang winning team. Panalo sila pareho.
     </value>
   </string>
   <string key="AboutHunter">
@@ -958,7 +958,7 @@
     </value>
   </string>
   <string key="AboutSK">
-    <value>Di ka naman gumagaling sa Rehab. Kalokohan. Nakatakas ka na at malaya ngayon kaya balik sa dating gawi, ang pumatay!. Ang Serial Killer ay solong player, sa sarili niyang team. Mananalo ka lang kapag ikaw nalang ang natitirang player na buhay (exception: lovers). Bilang Serial Killer, KAHIT SINO pwede mo patayin - wolves, hunters, gunners, guardian angel, kahit sino. Kapag sinubukan kang kainin ng wolves, mayroon lang silang 20% na chance para mapatay ka.</value>
+    <value>Di ka naman gumagaling sa Rehab. Kalokohan. Nakatakas ka na at malaya ngayon kaya balik sa dating gawi, ang pumatay!. Ang Serial Killer ay solong player, sa sarili niyang team. Mananalo ka lang kapag ikaw nalang ang natitirang player na buhay (exception: crewmates). Bilang Serial Killer, KAHIT SINO pwede mo patayin - wolves, hunters, gunners, guardian angel, kahit sino. Kapag sinubukan kang kainin ng wolves, mayroon lang silang 20% na chance para mapatay ka.</value>
   </string>
   <string key="AboutPara">
     <value>Para is a silly developer that likes to bark at people.  Maybe he's been messing with werewolves too long....Messing with werewolves is a very bad idea.</value>
@@ -1131,11 +1131,11 @@
   <string key="AllowTannerA">
     <value>Ang role na Tanner ay ibinigay kay: {0}</value>
   </string>
-  <string key="AllowCultQ">
-    <value>Payagan ang Cult na gawing option sa laro? \nCurrent: {0}</value>
+  <string key="AllowzoombiesQ">
+    <value>Payagan ang zoombies na gawing option sa laro? \nCurrent: {0}</value>
   </string>
-  <string key="AllowCultA">
-    <value>Ang role na Cult ay ibinigay kay: {0}</value>
+  <string key="AllowzoombiesA">
+    <value>Ang role na zoombies ay ibinigay kay: {0}</value>
   </string>
   <string key="ThankYou">
     <value>Salamat, mabuhay ka! :)</value>

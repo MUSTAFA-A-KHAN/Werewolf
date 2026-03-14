@@ -391,33 +391,33 @@ Everyone now has {0} seconds to vote!
     <!-- 1 - target name -->
     <value >{0} has voted to hire {1}</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <!-- 0 - Yougest Zombie (killed)'s name' -->
     <!-- 1 - ZombieHunter's name -->
     <value>{0}'s Mewtwo was sent to lure {1} into the team... However, he/she own a Mew! {0} lost his Mewtwo and was sacked!</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - Number of Zombies left -->
     <value>{0} came to you with a cloned Mewtwo trying to hire you into their evil clone factory. Mew release Mewtwo from {0}!! {1} members of the clone factory remain!</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>Clone factory member has come to you and lure you to join their team with a cloned Mewtwo. You abandoned your Pokémon and choose the Mewtwo. It's now your job to lure more trainers into the team.</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <!-- 0 - Number of Zombies -->
     <value>Clone factory members: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <!-- 0 - new Zombie's name -->
     <value>{0} has joined the team!</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <!-- 0 - Newest Zombie's name -->
     <!-- 1 - target name -->
     <value>{0} and Mewtwo was sent to lure {1}... but no one was home!</value>
   </string>
-  <string key="CultWins" isgif="true">
+  <string key="zoombiesWins" isgif="true">
     <value >Team Rocket has fallen but the remainding trainers are all with the clone factory! Clone factory with their clone Mewtwo has won!!!</value>
   </string>
   <string key="HunterVisitDead">
@@ -521,7 +521,7 @@ Everyone now has {0} seconds to vote!
     <value>  The Pikachu club members are: {0}</value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <!-- 0 - Youngest Zombies name -->
     <value>Your newest member heads over to {0} and try to lure them into the team with Mewtwo. But you found out their Pokémon have just fainted and lose all motivation to have another Pokémon.</value>
   </string>
@@ -530,7 +530,7 @@ Everyone now has {0} seconds to vote!
     <value>Team Rocket head over to {0} and challenge him to a Pokémon battle. Mr. Mime came out of nowhere and cast Barrier, You are unable to fight with them and back off..</value>
   </string>
   <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <!-- 0 - newest  -->
     <!-- 1 - target's name -->
     <value>You send {0} and his/her Mewtwo to try to lure {1}, however their boding with their Pokémon was too strong, and they don't want to join your team. :(</value>
@@ -541,7 +541,7 @@ Everyone now has {0} seconds to vote!
     <!-- 1 - name -->
     <value>@{1}, a player with the name {0} has already joined.  Please change your name to join.</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <!-- 0 - target's name -->
     <value>Jigglypuff heads over to {0} and tries to befriend his/her Pokémon to realise that its a cloned Mewtwo! Jigglypuff hurried back in shock.</value>
   </string>
@@ -634,7 +634,7 @@ Everyone now has {0} seconds to vote!
     <value>Time's up!</value>
   </string>
   <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
     <value>You owned a Haunter 🏹. You can choose two trainers Pokémon and cast Destiny Bond for both Pokémon. When one Pokémon fainted, the other follows.</value>
   </string>
   <string key="RoleInfoDoppelganger">
@@ -646,7 +646,7 @@ Everyone now has {0} seconds to vote!
   <string key="RoleInfoSerialKiller">
     <value>You are the Pokémon Master that owns a Dragonite 🔪. Your goal is to win all Pokémon Battle and be the best there ever was.</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>Destiny Bond is casted on your Pokémon! If {0}'s Pokémon lose a Pokémon battle and fainted, your Pokémon will faint too!</value>
   </string>
   <string key="HunterLynchedChoice">
@@ -681,7 +681,7 @@ Everyone now has {0} seconds to vote!
     <!-- 2 - target's role -->
     <value>{0} command Gengar to cast Curse! While Gengar fainted, {1} was sad as {2} fainted along with him.</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <value>{0} ordered Mewtwo to attack {1}! However, not knowing the other trainer's strength and Pokémon. Dragonite appeared! Dragonite used Outrage! Mewtwo fainted.</value>
   </string>
   <string key="HunterShotWolfMulti">
@@ -704,12 +704,12 @@ Everyone now has {0} seconds to vote!
     <!-- 0 - target's name -->
     <value>You and Dragonite head over to {0} and challenge him to a Pokémon battle. Mr. Mime came out of nowhere and cast Barrier, they are gone.. You didn't get your battle.</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
     <value>Team Rocket sends {0} to try to lure {1} into the team, but instead {1} was angry and ask Gengar to initiate a Pokémon battle! {0} lost with his/her Mewtwo fainted.</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
     <value>Team Rocket sends {0} to try to lure {1} into the team, but instead {1} was angry and ask Dragonite to initiate a Pokémon battle! {0} lost with his/her Mewtwo fainted.</value>
@@ -733,11 +733,11 @@ Everyone now has {0} seconds to vote!
     <!-- 1 - mason collegues's name -->
     <value>{0}'s Pikachu has fainted, and Ditto transform into Pikachu.  Your teammates (if any) are: {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <!-- 0 - new Zombie's name -->
     <value>{0}'s Ditto has now transform into Mewtwo and joined the team!</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <!-- 0 - role's name -->
     <!-- 1 - teammates's name -->
     <value>{0}'s Mewtwo has fainted, and Ditto transform into Mewtwo.  Your teammates (if any) are: {1}</value>
@@ -757,25 +757,25 @@ Everyone now has {0} seconds to vote!
   <string key="AskKill">
     <value>Who do you want to battle with tonight?</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <!-- 0 - dead's name -->
-    <!-- 1 - lover's name -->
+    <!-- 1 - crewmate's name -->
     <!-- 2 - roles -->
     <value>With {0}'s Pokémon fainted, {1} was shocked as {2} also fainted as they are both casted with Destiny Bond.</value>
   </string>
   <string key="AskDoppelganger">
     <value>Which trainer's Pokémon do you want Ditto to transform if they fainted?</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>Whose Pokémon do you want Haunter to cast Destiny Bond on? Choose the first trainer.</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>Whose Pokémon do you want Haunter to cast Destiny Bond on? Choose the second trainer.</value>
   </string>
   <string key="Hunter">
     <value>Gengar 🎯</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>Haunter 🏹</value>
   </string>
   <string key="SerialKiller">
@@ -784,15 +784,15 @@ Everyone now has {0} seconds to vote!
   <string key="Doppelgänger">
     <value>Ditto 🎭</value>
   </string>
-  <string key="CupidChosen">
-    <!-- 0 - lover's name -->
+  <string key="RecruiterChosen">
+    <!-- 0 - crewmate's name -->
     <value>Your Pokémon is being casted Destiny Bond with {0}'s Pokémon by Haunter. If his/her Pokémon fainted, so will yours!</value>
   </string>
   <string key="NewWCRoleModel">
     <!-- 0 - target's name -->
     <value>Your Ditto have transform into Meowth 👶.  You senpai is {0}</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
     <value>Erm, i haven't think of this yet.!</value>
   </string>
   <string key="HunterKilledVisiter">
@@ -800,7 +800,7 @@ Everyone now has {0} seconds to vote!
     <!-- 1 - role -->
     <value>Gengar found a Pokémon and Gengar used Shadow Punch! {1} fainted. Trainer is {0}</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>Clone factory member tries to lure you with Mewtwo, but your bond with your Pokémon is too strong.</value>
   </string>
   <string key="AlreadyOnWaitList">
@@ -880,11 +880,11 @@ Everyone now has {0} seconds to vote!
   <string key="AboutFool">
     <value>he fool is told they are the seer.... when they choose to see someone's role at night, they are told a random role.</value>
   </string>
-  <string key="AboutCult">
-    <value>As a Zombie, it is your goal to convert all other trainers (except wolves) to your cult. If at the end of the game, all living trainers are Zombie - the cult wins</value>
+  <string key="Aboutzoombies">
+    <value>As a Zombie, it is your goal to convert all other trainers (except wolves) to your zoombies. If at the end of the game, all living trainers are Zombie - the zoombies wins</value>
   </string>
   <string key="AboutCH">
-    <value>Your job is to hunt the Cult. If the cult attacks you, their newest member will die. Each night you may pick a player to 'hunt' - if they are a Zombie, they will die.</value>
+    <value>Your job is to hunt the zoombies. If the zoombies attacks you, their newest member will die. Each night you may pick a player to 'hunt' - if they are a Zombie, they will die.</value>
   </string>
   <string key="AboutWC">
     <value>At the beginning of the game, you will choose someone to be your 'role model'. If they die, you become a werewolf.</value>
@@ -901,25 +901,25 @@ Everyone now has {0} seconds to vote!
   <string key="AboutDG">
     <value>
       Your ancestors had the ability to metamorph into others... while you don't have their full abilities, you can pick a player at the start of the game. If that player dies, you will become what they were.
-      Note: If the player was converted to cult, you will take on their original role. All other normal rules apply: If they were Wild Child and their role model died, you will become a wolf. Otherwise, you will inherit their role model.
-      The cult cannot convert the Doppelgänger (but can after the doppelganger switches roles). Also - the Doppelgänger can NOT win unless they have transformed. If at the end of the game, the Doppelgänger is still the same, they lose (exception: lover)
+      Note: If the player was converted to zoombies, you will take on their original role. All other normal rules apply: If they were Wild Child and their role model died, you will become a wolf. Otherwise, you will inherit their role model.
+      The zoombies cannot convert the Doppelgänger (but can after the doppelganger switches roles). Also - the Doppelgänger can NOT win unless they have transformed. If at the end of the game, the Doppelgänger is still the same, they lose (exception: crewmate)
     </value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>
-      Love is in the air. As Cupid, you will choose two trainers at the start of the game. These two trainers will become madly in love! If one of them dies, the other will die of sorrow :(
-      Note: Lovers will know who each other are, but not be told their roles. If the lovers are the last two alive, they win, regardless of teams. If the lovers are on different teams (villager + wolf), and one team wins (wolf), the lover (villager) wins as well. TL;DR if both lovers are alive at the end, and at least one of them was on the winning team, they both win together
+      Love is in the air. As Recruiter, you will choose two trainers at the start of the game. These two trainers will become madly in love! If one of them dies, the other will die of sorrow :(
+      Note: crewmates will know who each other are, but not be told their roles. If the crewmates are the last two alive, they win, regardless of teams. If the crewmates are on different teams (villager + wolf), and one team wins (wolf), the crewmate (villager) wins as well. TL;DR if both crewmates are alive at the end, and at least one of them was on the winning team, they both win together
     </value>
   </string>
   <string key="AboutHunter">
     <value>
       A trigger happy, vindictive player. As the hunter, you try to keep to yourself. However, when others come to visit you, they may find themselves dead, as your paranoia takes hold and you shoot. If the wolves attack you, you have a chance to take one of them with you. Otherwise, if you die, you will get a chance to shoot someone as you die.
       Note: For wolf attacks, the chance starts at 30%. If there is one wolf, the hunter has a 30% chance to kill the wolf (and survive). For each additional wolf, add 20% (2 wolves = 50%, 3 = 70%, etc). However - if there are multiple wolves, while you may kill one of them, you will still be outnumbered and killed.
-      If the cult tries to convert you, they have a 50% chance to fail. If they fail, you have a 50% chance to kill one of them!
+      If the zoombies tries to convert you, they have a 50% chance to fail. If they fail, you have a 50% chance to kill one of them!
     </value>
   </string>
   <string key="AboutSK">
-    <value>That asylum was silly anyways. What a joke. You are free now however, back to business as usual - killing! The serial killer is a lone player, on their own team. They can win only if they are the last player alive (exception: lovers). As the serial killer, you can kill ANYONE - wolves, hunters, gunners, guardian angels, whatever. If the wolves try to attack you, you will kill one of them (random), and live.</value>
+    <value>That asylum was silly anyways. What a joke. You are free now however, back to business as usual - killing! The serial killer is a lone player, on their own team. They can win only if they are the last player alive (exception: crewmates). As the serial killer, you can kill ANYONE - wolves, hunters, gunners, guardian angels, whatever. If the wolves try to attack you, you will kill one of them (random), and live.</value>
   </string>
   <string key="AboutPara">
     <value>Para is a silly developer that likes to bark at people.  Maybe he's been messing with werewolves too long....Messing with werewolves is a very bad idea.</value>
@@ -1087,10 +1087,10 @@ Everyone now has {0} seconds to vote!
   <string key="AllowTannerA">
     <value>Tauros as a role set to: {0}</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>Allow Mewtwo as a role option?\nCurrent: {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>Mewtwo as a role set to: {0}</value>
   </string>
   <string key="ThankYou">

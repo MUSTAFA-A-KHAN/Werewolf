@@ -407,33 +407,33 @@ The end of the episode draws near, and the cast gathers to decide who they are g
     <!-- 1 - target name -->
     <value >{0} has managed to convince {1} on the benefits of joining Shocker.</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <!-- 0 - Yougest Zombie (killed)'s name' -->
     <!-- 1 - ZombieHunter's name -->
     <value>{0} approached {1}, only to get struck by a cleverly concealed Engine Blade. {0} got arrested by Kamen Rider Accel!</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - Number of Zombies left -->
     <value>{0} approached you and felt the wrath of the Engine Blade; {1} remain! Clearly that Shocker Grunt was too new!</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>You have joined the ranks of the Shocker Grunts. EEEEEE!</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <!-- 0 - Number of Zombies -->
     <value>Shocker Grunts: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <!-- 0 - new Zombie's name -->
     <value>{0} has become a Shocker Grunt!</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <!-- 0 - Newest Zombie's name -->
     <!-- 1 - target name -->
     <value>{0} was sent to do your dirty work, and recruit {1}... but couldn’t find him.</value>
   </string>
-  <string key="CultWins" isgif="true">
+  <string key="zoombiesWins" isgif="true">
     <value>All the Kaijin have been busted, and the only people left standing are all Shocker Grunts! Who’s the superior combatant now? EEEEEEEEE!</value>
   </string>
   <string key="HunterVisitDead">
@@ -543,7 +543,7 @@ WildChild, Beholder, ApprenticeSeer, Zombie, ZombieHunter-->
     <value> The other Riotroopers are: {0}</value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <!-- 0 - Youngest Zombies name -->
     <value>Your newest Shocker Grunt approaches {0}’s last known location to recruit them, but instead finds the remnants of an intense battle.</value>
   </string>
@@ -552,7 +552,7 @@ WildChild, Beholder, ApprenticeSeer, Zombie, ZombieHunter-->
     <value>{0} is motivated by Kamen Rider Fourze, giving him enough strength to trudge through another episode despite his injuries.</value>
   </string>
   <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <!-- 0 - newest  -->
     <!-- 1 - target's name -->
     <value>You send {0} to spread the good word of Shocker, but {1} was unconvinced.</value>
@@ -565,7 +565,7 @@ WildChild, Beholder, ApprenticeSeer, Zombie, ZombieHunter-->
 
 join.</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <!-- 0 - target's name -->
     <value>You put on some make-up and skip towards {0}, sees him hastily tucking away a gimp mask. What’s going on desu?</value>
     <value>As you end your giggling fit, you hear {0} drag his laughter with a “hehehEEEEEEEEEE!”. Normal people don’t laugh like that!</value>
@@ -666,8 +666,8 @@ join.</value>
     <value>Too slow!</value>
   </string>
   <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
-    <value>You are Kamen Rider Skull (cupid 🏹)! Choose 2 parties to inspire to take up the mantle of Kamen Rider W, the half-and-half Rider!</value>
+  <string key="RoleInfoRecruiter">
+    <value>You are Kamen Rider Skull (Recruiter 🏹)! Choose 2 parties to inspire to take up the mantle of Kamen Rider W, the half-and-half Rider!</value>
   </string>
   <string key="RoleInfoDoppelganger">
     <value>You are the last Roidmude (doppelganger 🎭). You have learnt to imitate someone to blend in, and hopefully remain undiscovered to keep your species alive.</value>
@@ -678,7 +678,7 @@ join.</value>
   <string key="RoleInfoSerialKiller">
     <value>You are Shadowmoon! (serial killer 🔪) You win when nothing’s left standing - Riders, humans and Kaijin alike. If Kaijin attack you, you’ll survive, taking one of them out in the process.</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>You have been irrevocably inspired by Kamen Rider Skull. {0} is your half-and-half partner as Kamen Rider W. Your goal is for both of you to survive. If one of you 
 
 disappears, the other one will no longer be able to function, and is practically fresh meat for Shocker.</value>
@@ -718,7 +718,7 @@ disappears, the other one will no longer be able to function, and is practically
     <!-- 2 - target's role -->
     <value>Dying, {0} falls to the ground.... And pulls a last-minute FinalAttackRide on {1}, who explodes alongside the crafty Kamen Rider Decade! {2}</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
   	<!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
     <value>{0} creeps behind {1}, who anticipates the meeting and takes him out in a single punch.</value>
@@ -744,7 +744,7 @@ disappears, the other one will no longer be able to function, and is practically
     <!-- 0 - target's name -->
     <value>You tried to eliminate {0}, but he withstood your onslaught thanks to a rousing speech by Kamen Rider Fourze, and you slink away to fight another day..</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
     <value>The Shocker Grunts send {0} to try to recruit {1}, but {0} didn’t even realise Kamen Rider Accel was waiting..</value>
@@ -768,11 +768,11 @@ disappears, the other one will no longer be able to function, and is practically
     <!-- 1 - mason collegues's name -->
     <value>{0} has disappeared, and you pick up his belt. Your Riotrooper comrade(s) (if any) is/are: {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <!-- 0 - new Zombie's name -->
     <value>The Roidmude {0} has learnt the ways of Shocker Grunts, and will now spread the good word of Shocker.</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <!-- 0 - role's name -->
     <!-- 1 - teammates's name -->
     <value>{0} has disappeared, and the Roidmude quietly takes his place. Your fellow Shocker Grunts (if any) are: {1}</value>
@@ -793,26 +793,26 @@ disappears, the other one will no longer be able to function, and is practically
   <string key="AskKill">
     <value>Who do you want to attack?</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <!-- 0 - dead's name -->
-    <!-- 1 - lover's name -->
+    <!-- 1 - crewmate's name -->
     <!-- 2 - roles -->
     <value>With {0} ebbing away, {1} rushes over to resuscitate him, to no avail. {1} loses all hope and faith in what he thought was justice. {2}</value>
   </string>
   <string key="AskDoppelganger">
     <value>Who do you want to copy if they get eliminated or defeated?</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>Who do you want to inspire to be half of Kamen Rider W? Choose the first player</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>Who do you want to inspire to half of be Kamen Rider W? Choose the second player</value>
   </string>
   <string key="Hunter">
     <value>Kamen Rider Decade (the Hunter) 🎯</value>
   </string>
-  <string key="Cupid">
-    <value>Kamen Rider Skull (the Cupid) 🏹</value>
+  <string key="Recruiter">
+    <value>Kamen Rider Skull (the Recruiter) 🏹</value>
   </string>
   <string key="SerialKiller">
     <value>Shadowmoon (the Serial Killer) 🔪</value>
@@ -826,7 +826,7 @@ disappears, the other one will no longer be able to function, and is practically
 
 </value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
     <value>Everyone else is dead except Kamen Rider W! They’ll now rebuild the city from scratch, and make their mentor Narumi Sokichi proud.</value>
   </string>
   <string key="HunterKilledVisiter">
@@ -834,7 +834,7 @@ disappears, the other one will no longer be able to function, and is practically
     <!-- 1 - role -->
     <value> A slightly burnt card featuring the image of {0} was found on the ground. Looks like Kamen Rider Decade decided to take them out for the hell of it! {1}</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>A Shocker Grunt attempted to preach to you about the glorious ambitions of Shocker, but their gimp suit turns you waaaaay off.</value>
   </string>
   <string key="AlreadyOnWaitList">
@@ -931,11 +931,11 @@ role and the emoji in front of the string.
   <string key="AboutFool">
     <value>While there are deluded fanboys, you take it one step further.\n \nAs an ambitious cosplayer (Fool)🃏, you’ve pretty much convinced yourself that you’re part of the cast, with self-insertion fanfics and surprisingly immersive costumes.</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>EEEEEEEEE!\n \nGimp suits and masks are your thing, you’re a Shocker Grunt (Zombie) 👤! Time to spread the good word of Shocker!.</value>
   </string>
   <string key="AboutCH">
-    <value>Shocker incidents have been on the rise, and it’s time to take up the Engine Blade.\n \nAs Kamen Rider Accel (Cult Hunter) 💂, you arrest Shocker Grunts as and when you encounter them. HEN… SHIN!</value>
+    <value>Shocker incidents have been on the rise, and it’s time to take up the Engine Blade.\n \nAs Kamen Rider Accel (zoombies Hunter) 💂, you arrest Shocker Grunts as and when you encounter them. HEN… SHIN!</value>
   </string>
   <string key="AboutWC">
     <value>Are humans friends or food?\n \nYou’re Kamen Rider Chalice (Wild Child) 👶.  You live as a Regular Human, but once you witness the death of the humans you’ve made friends with, you vow vengeance on humanity and embrace your Kaijin nature.</value>
@@ -967,12 +967,12 @@ Otherwise, they will inherit their friends.\nThe Shocker Grunts cannot convert y
 role. (exception: you’re half of Kamen Rider W).
     </value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>Now, count up your sins!\n \nKamen Rider Skull 
 
-(Cupid) 🏹 can choose 2 parties to inspire to take up the mantle of Kamen Rider W, the half-and-half Rider!\n \nNote: The chosen ones will know who each other 
+(Recruiter) 🏹 can choose 2 parties to inspire to take up the mantle of Kamen Rider W, the half-and-half Rider!\n \nNote: The chosen ones will know who each other 
 
-is, but not be told their roles. If they are the last two alive, they win, regardless of teams. If they are on different teams (Kaijin + Shocker Grunts), and one team wins (Kaijin), the lover (Shocker Grunt) wins as well. 
+is, but not be told their roles. If they are the last two alive, they win, regardless of teams. If they are on different teams (Kaijin + Shocker Grunts), and one team wins (Kaijin), the crewmate (Shocker Grunt) wins as well. 
 
 TL;DR if both are alive at the end, and at least one of them was on the winning team, they both win 
 
@@ -1168,11 +1168,11 @@ players.\nDefault setting: {0}\nCurrent: {1}</value>
   <string key="AllowTannerA">
     <value>Kamen Rider Ouja (Tanner) as a role set to: {0}</value>
   </string>
-  <string key="AllowCultQ">
-    <value>Allow Shocker Grunt (cult) as a role option?\nCurrent: {0}</value>
+  <string key="AllowzoombiesQ">
+    <value>Allow Shocker Grunt (zoombies) as a role option?\nCurrent: {0}</value>
   </string>
-  <string key="AllowCultA">
-    <value>Shocker Grunt (Cult) as a role set to: {0}</value>
+  <string key="AllowzoombiesA">
+    <value>Shocker Grunt (zoombies) as a role set to: {0}</value>
   </string>
   <string key="ThankYou">
     <value>Thank you, have a good day :)</value>
@@ -1348,7 +1348,7 @@ over your fellow Kaijin (if any) as the Great Leader of Shocker. They are: {1}</
   <string key="SerialKillerTeam">
     <value>Shadowmoon!</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>The Shocker Grunts</value>
   </string>
   <string key="TannerTeam">
@@ -1366,13 +1366,13 @@ over your fellow Kaijin (if any) as the Great Leader of Shocker. They are: {1}</
   <string key="SerialKillerTeamEnd">
     <value>Shadowmoon!</value>
   </string>
-  <string key="CultTeamEnd">
+  <string key="zoombiesTeamEnd">
     <value>The Shocker Grunts</value>
   </string>
   <string key="TannerTeamEnd">
     <value>Kamen Rider Ouja</value>
   </string>
-  <string key="CultConvertWolf">
+  <string key="zoombiesConvertWolf">
     <value>The Shocker Grunts send {0} to try to convert {1}, but {0} was struck in the face for his audacity at approaching a superior agent of Shocker! {0} has been destroyed!</value>
   </string>
   <string key="HarlotFuckedKilledPublic"> <!-- used when Harlot visit's SK's victim, and dies -->
@@ -1390,7 +1390,7 @@ over your fellow Kaijin (if any) as the Great Leader of Shocker. They are: {1}</
   <string key="ZombieKilled">
     <value>{0} tried to convert Shadowmoon, and got dismissed with extreme prejudice (a Rider Punch to the face, to be specific). EEEEE!</value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>Kamen Rider Skull, {0}, has been taken out by Shadowmoon. Kamen Rider W hangs his (their?) head in shame, and picks up Kamen Rider Skull’s damaged hat.</value>
   </string>
   <string key="DrunkKilled">
@@ -1425,14 +1425,14 @@ good tag team with the Kaijins, if they had known!</value>
   <string key="SerialKillerKilledCH"> <!--used when CH visits SK-->
     <value>Kamen Rider Accel, {0}, tried investigating Shadowmoon. As with all Neo-Heisei Riders, his reliance on finicky gadgets has been his undoing, and Shadowmoon gets the jump on him!</value>
   </string>
-  <string key="CultConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed 
+  <string key="zoombiesConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed 
 
 home-->
     <value>The Kaijins were milling about when {0}, the newest Shocker Grunt, 
 
 foolishly approached them. The subsequent beating was explodey and mildly entertaining.</value>
   </string>
-  <string key="CultConvertKillerPublic"> <!--used when Zombies convert the SK-->
+  <string key="zoombiesConvertKillerPublic"> <!--used when Zombies convert the SK-->
     <value>{0} quickly learnt the strength of Shadowmoon the hard way, as {0} lay battered on the ground, his last EEEEEEEE escaping his lips..</value>
   </string>
   <string key="GAGuardedKiller"> <!-- used when GA guards SK -->

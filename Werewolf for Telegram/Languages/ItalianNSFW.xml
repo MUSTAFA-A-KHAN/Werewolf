@@ -337,25 +337,25 @@
 	<string key="ZombieVotedConvert" >
 		<value >{0} vota per convertire {1}</value>
 	</string>
-	<string key="CultConvertZombieHunter">
+	<string key="zoombiesConvertZombieHunter">
 		<value>{0} armato di pentacolo e statuette è andato a convertire {1}… ma era il cacciatore di satanisti. {0} è morto, game over.</value>
 	</string>
-	<string key="ZombieHunterKilledCultVisit">
+	<string key="ZombieHunterKilledzoombiesVisit">
 		<value>{0} è passato a casa tua pronto a convertirti al satanismo. EH! VOLEVA! Velocemente lo affetti per bene con la tua spada. Stasera paté di satanisti!{1}</value>
 	</string>
-	<string key="CultConvertYou">
+	<string key="zoombiesConvertYou">
 		<value>W SATANA! I satanisti ti hanno convertito! Unisciti a loro e convertili tutti. Gotta catch 'em all!</value>
 	</string>
-	<string key="CultTeam">
+	<string key="zoombiesTeam">
 		<value>Satanisti: {0}</value>
 	</string>
-	<string key="CultJoin">
+	<string key="zoombiesJoin">
 		<value>{0} ha aderito alla setta!</value>
 	</string>
-	<string key="CultVisitEmpty">
+	<string key="zoombiesVisitEmpty">
 		<value>{0} era andato a casa di {1} per convertirlo. EH! VOLEVA! Nessuno era in casa.</value>
 	</string>
-	<string key="CultWins" >
+	<string key="zoombiesWins" >
 		<value >I lupi sono morti… ma Satana ha regnato su di noi. Vince la setta. W SATANA</value>
 	</string>
 	<string key="HunterVisitDead">
@@ -451,7 +451,7 @@
 		<value>  Gli altri Massoni sono: {0}</value>
 	</string>
 	<!-- new strings May 6 2016-->
-	<string key="CultTargetDead">
+	<string key="zoombiesTargetDead">
 		<value>Il vostro membro più nuovo si reca a casa di {0} per convertirlo, ma trova invece una casa malmessa, sangue ovunque e ciuffi di peli di lupo sparsi per il corridoio… </value>
 	</string>
 	<string key="GuardBlockedWolf">
@@ -461,7 +461,7 @@
 		<value>Parti tutto convinto verso casa di {0} ma ti si para davanti l'angelo: ti propone di batterlo a Morra Cinese. Lui fa forbici, tu carta. Hai perso.</value>
 	</string>
 	<!-- new strings May 9 2016-->
-	<string key="CultUnableToConvert">
+	<string key="zoombiesUnableToConvert">
 		<value>Spedite {0} per convertire {1}, ma HA UN'AURA POTENTISSIMA! Non siete riusciti a convertirlo.</value>
 	</string>
 	<!-- new string May 12 2016-->
@@ -470,7 +470,7 @@
 		<!-- 1 - name -->
 		<value>@{1}, un giocatore con il nome {0} ti ha battuto sul tempo. Se vuoi partecipare cambia il tuo nome. </value>
 	</string>
-	<string key="HarlotDiscoverCult">
+	<string key="HarlotDiscoverzoombies">
 		<value> Vai a casa di {0} pronto a sbattertelo per benino. Vi divertite tutta la nottata ma durante l'atto non riuscivi a distogliere lo sguardo da quell'altare all'angolo della casa… Con le statuette di Satana… Sapere che stavi scopando un discepolo di Satana tuttavia ti ha eccitata di più.</value>
 	</string>
 	<!-- new string May 13 2016-->
@@ -553,8 +553,8 @@
 		<value>Tempo scaduto! Mia nonna era più veloce… </value>
 	</string>
 	<!--  new strings june 10 2016  -->
-	<string key="RoleInfoCupid">
-		<value>Cupido! Non avevi un cazzo da fare quindi ti sei messo a tirare frecce e far innamorare persone. Scegli due persone e rendile amanti: quando uno dei due amanti muore, l'altro si suiciderà.\n(Mi sa molto di Romeo e Giulietta 'sta cosa)</value>
+	<string key="RoleInfoRecruiter">
+		<value>Recruitero! Non avevi un cazzo da fare quindi ti sei messo a tirare frecce e far innamorare persone. Scegli due persone e rendile amanti: quando uno dei due amanti muore, l'altro si suiciderà.\n(Mi sa molto di Romeo e Giulietta 'sta cosa)</value>
 	</string>
 	<string key="RoleInfoDoppelganger">
 		<value>Sei il Doppelgänger. La leggenda più figa che esista. Sei tipo un Ditto! Scegli una persona, alla sua morte assumerai il suo ruolo. Che figata!</value>
@@ -566,9 +566,9 @@
 		<value>Sei il serial killer, fuggito dal manicomio. Ogni notte puoi uccidere qualcuno per aggiungere i suo corpo alla tua collezione… Sìììì!! *sbava*
 			Sarai contento appena tutti moriranno!</value>
 	</string>
-	<string key="CupidChosen">
-		<value>	Cupido ha scoccato le sue frecce colpendo te e {0}! Ora siete follemente innamorati e non potete più vivere l'uno senza l'altro! Dovete vincere insieme! Se uno dei due muore… l'altro cadrà in depressione e si suiciderà!</value>
-		<value>Ti sei innamorato. Cupido ha scelto te e {0} per stare insieme per sempre. O almeno fino a quando uno dei due non verrà ucciso. In tal caso sarete uniti, sì, ma nella tomba. Non è una cosa bellissima l'amore?</value>
+	<string key="RecruiterChosen">
+		<value>	Recruitero ha scoccato le sue frecce colpendo te e {0}! Ora siete follemente innamorati e non potete più vivere l'uno senza l'altro! Dovete vincere insieme! Se uno dei due muore… l'altro cadrà in depressione e si suiciderà!</value>
+		<value>Ti sei innamorato. Recruitero ha scelto te e {0} per stare insieme per sempre. O almeno fino a quando uno dei due non verrà ucciso. In tal caso sarete uniti, sì, ma nella tomba. Non è una cosa bellissima l'amore?</value>
 	</string>
 	<string key="HunterLynchedChoice">
 		<value>Quei luridi bastardi villici ti hanno preso! Presto sfodera la tua pistola e uccidi qualcuno prima che te la tolgano! VELOCE CAZZO!</value>
@@ -629,7 +629,7 @@
 	<string key="GuardBlockedKiller">
 		<value>Eh! Volevi aggiungere {0} alla collezione dei cadaveri ma ti si para l'angelo custode davanti. Ti sale il folle in testa che neanche Yuno in modalità yandere può tenerti testa. Provi ad accoltellarlo ma è troppo rapido, non riesci. Finché ti stanchi e te ne ritorni al manicomio per riposarti. Non ce l'hai fatta. DANNATO ANGELO!</value>
 	</string>
-	<string key="CultConvertHunter">
+	<string key="zoombiesConvertHunter">
 	  <!-- 0 - Youngest Zombie's name -->
 	  <!-- 1 - target's name -->
 		<value>
@@ -637,7 +637,7 @@
 			Osservate da lontano l'operazione ma ad un certo punto sentite due colpi di pistola e vedete il corpo di {0} volare dalla finestra. È morto.
 		</value>
 	</string>
-	<string key="CultConvertSerialKiller">
+	<string key="zoombiesConvertSerialKiller">
 		<!-- 0 - Youngest Zombie's name -->
 		<!-- 1 - target's name -->
 		<value>
@@ -671,12 +671,12 @@
 			{0} È morto. Ora sei un Massone, gli altri Massoni sono: {1}
 		</value>
 	</string>
-	<string key="DGToCult">
+	<string key="DGTozoombies">
 		<value>
 			Il sosia {0} si è trasformato in un satanista. Ora hai un nuovo compagno con cui scambiare le figurine di Satana.
 		</value>
 	</string>
-	<string key="DGTransformToCult">
+	<string key="DGTransformTozoombies">
 		<value>
 			{0} è morto. Ora sei un satanista. W SATANA! Gli altri satanisti sono: {1}
 		</value>
@@ -699,9 +699,9 @@
 	<string key="AskKill">
 		<value>Chi vuoi assassinare?</value>
 	</string>
-	<string key="LoverDied">
+	<string key="crewmateDied">
 		<!-- 0 - dead's name -->
-	<!-- 1 - lover's name -->
+	<!-- 1 - crewmate's name -->
 	<!-- 2 - roles -->
 		<value>La morte di {0} ha colpito molto la sua anima gemella. {1} entra in depressione ed arriva a far uso di droghe e alcol. Alla fine, muore per overdose dopo aver mischiato meth, Jack Daniel's e qualche altro oppiaceo sconosciuto. {2}</value>
 		<value>Alla vista del corpo del suo amato {0}, {1} si scioglie in lacrime. Letteralmente. Di lui resta solo una pozza di acqua salata. {2}</value>
@@ -709,17 +709,17 @@
 	<string key="AskDoppelganger">
 		<value>Chi vuoi copiare alla sua morte?</value>
 	</string>
-	<string key="AskCupid1">
+	<string key="AskRecruiter1">
 		<value>			Fai innamorare due persone, scegli la prima:</value>
 	</string>
-	<string key="AskCupid2">
+	<string key="AskRecruiter2">
 		<value>			Bravo bimbo! ora scegli la seconda persona:</value>
 	</string>
 	<string key="Hunter">
 		<value>il Cacciatore Urbano 🎯</value>
 	</string>
-	<string key="Cupid">
-		<value>Cupido 🏹</value>
+	<string key="Recruiter">
+		<value>Recruitero 🏹</value>
 	</string>
 	<string key="SerialKiller">
 		<value>il Serial Killer 🔪</value>
@@ -730,14 +730,14 @@
 	<string key="NewWCRoleModel">
 		<value>Ora sei il becchino. Alla morte di {0} diventerai lupo!</value>
 	</string>
-	<string key="LoversWin">
+	<string key="crewmatesWin">
 	<value>Gli amanti hanno vinto! È tempo di festeggiare con una bella scopata!</value>
 	<value>Omnia Vincit Amor. Alla faccia di contadini, lupi e assassini vincono gli amanti!</value>
 	</string>
 	<string key="HunterKilledVisiter">
 	<value>Viene ritrovato nel cassonetto della spazzatura {0} che si ritrova più buchi di uno scolapasta. Ha provato a fare visita al cacciatore urbano! Lo sanno tutti che il cacciatore è un asociale… {1}</value>
 	</string>
-	<string key="CultAttempt">
+	<string key="zoombiesAttempt">
 	<value>Un figuro incappucciato bussa in casa tua raccontandoti qualcosa, voleva portarti con te, saranno sicuramente testimoni di Geova… o Satanisti… Che sono più o meno la stessa cosa. Comunque non ci sono riusciti perché sei figo.</value>
 	</string>
 	<string key="SerialKillerWinsOverpower">
@@ -810,8 +810,8 @@
 	<string key="AboutFool">
 	<value>Un povero Folle che crede di essere il Veggente… Quando sceglie di vedere il ruolo a qualcuno, gli verrà detto un ruolo casuale in partita. Nota: È più utile di quello che sembra, può sapere con esattezza i ruoli che ci sono in partita. Se vedete un ruolo, sarà in partita.</value>
 	</string>
-	<string key="AboutCult">
-	<value>Come Satanista, il tuo obiettivo è convertire tutti gli altri giocatori (tranne i lupi e il killer che non si possono convertire) al tuo culto. Se a fine partita, tutti i giocatori sono Satanisti, vincono. \n Probabilità di convertire i seguenti ruoli: \n Sosia: 0% Finché rimane sosia, è impossibile da convertire \n Veggente 40% Il veggente è il più difficile da convertire \n Angelo 60% Nota: Se protegge qualcuno, non lo troverai in casa \n Maledetto 60% \n Investigatore 70% \n Prostituta 70% Come l'angelo, se non è casa, non potrete convertirla \n Cacciatore 50% Avrai il 50% di convertire il cacciatore. Se fallite, C'è il 50% che vi spari\n Fabbro 75%\n Oracolo 50%\nE ovviamente tutti i lupi (normali, Alpha, Cucciolo e Lycan) sono inconvertibili.</value>
+	<string key="Aboutzoombies">
+	<value>Come Satanista, il tuo obiettivo è convertire tutti gli altri giocatori (tranne i lupi e il killer che non si possono convertire) al tuo zoombieso. Se a fine partita, tutti i giocatori sono Satanisti, vincono. \n Probabilità di convertire i seguenti ruoli: \n Sosia: 0% Finché rimane sosia, è impossibile da convertire \n Veggente 40% Il veggente è il più difficile da convertire \n Angelo 60% Nota: Se protegge qualcuno, non lo troverai in casa \n Maledetto 60% \n Investigatore 70% \n Prostituta 70% Come l'angelo, se non è casa, non potrete convertirla \n Cacciatore 50% Avrai il 50% di convertire il cacciatore. Se fallite, C'è il 50% che vi spari\n Fabbro 75%\n Oracolo 50%\nE ovviamente tutti i lupi (normali, Alpha, Cucciolo e Lycan) sono inconvertibili.</value>
 	</string>
 	<string key="AboutCH">
 	<value>Il tuo lavoro è estirpare i Satanisti. Se ti visitano, ucciderai il loro ultimo membro e saprai quanti satanisti sono rimasti. Ogni notte potrai visitare un giocatore: Se sono satanisti, li ucciderai. Sennò, tornerai a casa, come se nulla fosse successo.</value>
@@ -831,7 +831,7 @@
 	<string key="AboutDG">
 	<value>Puoi scegliere un giocatore a inizio partita, erediti il suo ruolo \n Nota: Se il giocatore viene convertito ai satanisti, prenderai il suo ruolo originale. Tutte le altre regole normali si applicano: se erano bimbi ribelli e il loro modello è morto, diventerai un lupo. Sennò, erediterai il loro modello.\nI satanisti non possono convertire il Sosia (ma possono dopo che il sosia cambia ruolo) E - Il sosia NON può vincere a meno di non essersi trasformato. Se a fine partita, il Sosia non si è trasformato, perde (eccezione: amante).</value>
 	</string>
-	<string key="AboutCupid">
+	<string key="AboutRecruiter">
 	<value>A Inizio partita, sceglie due giocatori. Dopo diventa a tutti gli effetti un normale villico. Questi due diventeranno follemente innamorati e se uno dei due muore, l'altro morirà. Nota: gli amanti sanno chi è l'altro, ma non sanno il loro ruolo. Se gli amanti sono gli ultimi due vivi, loro vincono, indipendentemente dal loro ruolo. Se gli amanti sono di due team diversi (esempio: lupo + villico), e un team vince (esempio: lupi), anche l'amante (esempio: villico) vince. \n TL;DR Se tutti e due gli amanti sono vivi a fine partita, e almeno uno dei due è nel team vincitore, vincono insieme</value>
 	</string>
 	<string key="AboutHunter">
@@ -1006,10 +1006,10 @@
 	<string key="AllowTannerA">
 	<value>Conciatore come ruolo impostato a {0}</value>
 	</string>
-	<string key="AllowCultQ">
+	<string key="AllowzoombiesQ">
 	<value>Ammettere i Satanisti in partita, come ruolo?\nAttualmente: {0}</value>
 	</string>
-	<string key="AllowCultA">
+	<string key="AllowzoombiesA">
 	<value>Satanista come ruolo impostato a {0}</value>
 	</string>
 	<string key="ThankYou">
@@ -1160,7 +1160,7 @@
 	<string key="SerialKillerTeam" deprecated="true">
 	<value>Team Killer</value>
 	</string>
-	<string key="CultTeam" deprecated="true">
+	<string key="zoombiesTeam" deprecated="true">
 	<value>Team Satanisti</value>
 	</string>
 	<string key="TannerTeam" deprecated="true">
@@ -1179,13 +1179,13 @@
 	<string key="SerialKillerTeamEnd">
 	<value>Team Killer</value>
 	</string>
-	<string key="CultTeamEnd">
+	<string key="zoombiesTeamEnd">
 	<value>Team Satanisti</value>
 	</string>
 	<string key="TannerTeamEnd">
 	<value>Team Masochista</value>
 	</string>
-	<string key="CultConvertWolf">
+	<string key="zoombiesConvertWolf">
 	<value>Decidete di convertire {1} ed inviate {0} per la missione ma nemmeno un minuto dopo che è entrato in casa la sua testa esce volando dalla finestra. {0} è morto.</value>
 	</string>
     <string key="HarlotFuckedKilledPublic"><!-- used when Harlot visit's SK's victim, and dies -->
@@ -1202,8 +1202,8 @@
   <string key="ZombieKilled">
     <value>{0} è stato ritrovato accanto al suo altare, con una candela nera nel culo e la statuetta di Satana forzata in gola. Il killer si è divertito con questo satanista… </value>
   </string>
-  <string key="CupidKilled">
-	<value>Il povero Cupido non ha avuto una bella notte: sembra che il killer si sia dilettato a trafiggerlo con le sue stesse frecce… {0} è legato alla fontana e più che ad un umano somiglia ad un puntaspilli ormai.</value>
+  <string key="RecruiterKilled">
+	<value>Il povero Recruitero non ha avuto una bella notte: sembra che il killer si sia dilettato a trafiggerlo con le sue stesse frecce… {0} è legato alla fontana e più che ad un umano somiglia ad un puntaspilli ormai.</value>
   </string>
   <string key="DrunkKilled">
     <value>{0} era ubriaco. Ma ubriaco marcio. Quando il killer l'ha sorpreso stanotte gli ha offerto da bere con il sorriso sulle labbra. Il killer, anche lui con un sorriso sulle labbra, ha accettato la bottiglia per spaccargliela in testa, provvedendo poi alla rimozione di quel che era rimasto del povero fegato di {0}.</value>
@@ -1234,10 +1234,10 @@
   <string key="SerialKillerKilledCH"> <!--used when CH visits SK-->
     <value>Il Cacciatore di Satanisti ha scelto la persona sbagliata da controllare questa notte. Anziché un “pacifico” satanista intento nella sua preghiera alternativa si è trovato di fronte un pazzo psicopatico che gli ha strappato la katana di mano e l'ha usata per tagliarlo in due. {0} è morto.</value>
   </string>
-  <string key="CultConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
+  <string key="zoombiesConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
     <value>I lupi avevano deciso di starsene a casa per questa notte… ma non sono stati lasciati in pace. {0} era andato da uno di loro sperando di poter portare la parola di Satana. Il lupo non ha apprezzato la visita notturna e l'ha sbranato.</value>
   </string>
-  <string key="CultConvertKillerPublic"> <!--used when Zombies convert the SK-->
+  <string key="zoombiesConvertKillerPublic"> <!--used when Zombies convert the SK-->
     <value>Povero {0}. Aveva deciso di dare la sua anima a Satana e sperava di poterne recuperare un'altra per lui questa notte. Ma ha scelto la casa sbagliata e si è trovato davanti un pazzo senz'anima che gli ha strappato il cuore dal petto facendogli incontrare il suo amato Satana anzitempo.</value>
   </string>
   <string key="GAGuardedKiller"><!-- used when GA guards SK -->
@@ -1326,7 +1326,7 @@
     <!-- {0} = list of people who have joined -->
     <value>{0} sono entrati in partita negli ultimi 30 secondi.</value>
   </string>
-  <string key="AllowCult">
+  <string key="Allowzoombies">
     <value>Ammettere i Satanisti</value>
   </string>
   <string key="AllowTanner">
@@ -1570,7 +1570,7 @@
     <!-- 0 - mason collegues's name -->
     <value>I tuoi compari massoni (se ci sono) sono: {0}</value>
   </string>
-  <string key="ThiefToCult">
+  <string key="ThiefTozoombies">
     <!-- 0 - old Zombie's name -->
     <!-- 1 - new Zombie's name -->
     <value>{0} non è più dei vostri, in compenso {1} si è letto il Necronomicon ed è diventato un satanista, proprio come voi!</value>
@@ -1950,16 +1950,16 @@ Scansafatiche… stattene a casa, va'.</value>
   <string key="HunterFell">
   <value>Un’altra notte senza essere riuscito a decapitare nessuno sporco satanista… Frustrato ti scoli qualche shot e inizi a barcollare al cimitero, finché non vedi qualcosa che luccica. È una trappola per orsi che ti si avvinghia al piede e ti fa cadere dentro una fossa, lasciata aperta da {0}… Il “crack” del tuo collo è l’ultima cosa che riesci a sentire.</value>
   </string>
-  <!--{0}: cult hunter-->
+  <!--{0}: zoombies hunter-->
   <string key="HunterFellDigger">
   <value>Un’altra notte di duro lavoro è finita, finalmente. Mentre te ne vai verso casa, noti che in una delle tue botole c’è {0} senza un piede e a collo torto… Ben gli sta! Guai a chi sospetta dello Scavafosse… </value>
   </string>
   <!--{0}: Zombie-->
-  <string key="CultFell">
+  <string key="zoombiesFell">
   <value>Te ne torni a casa da un’altra notte da schifo, quando all’improvviso senti un urlo da una delle tombe che hai lasciato aperte! Accorri di tutta fretta per vedere {0} steso malamente nella fossa. Sto demente voleva convertirti, hahahahahah!</value>
   </string>
   <!--{0}: Zombie who fell, {1}: grave digger-->
-  <string key="CultConvertGraveDigger">
+  <string key="zoombiesConvertGraveDigger">
   <value>Sulla strada per casa di {1}, {0} decide che sarebbe il caso di fare una Disco Inferno alla chiesa. Vi porta attraverso il camposanto, quando una trappola per orsi si avvinghia alla sua caviglia facendolo impazzire dal dolore! Presi dalla strizza decidete di abbandonarlo nella fossa e scappate urlando come bambine, sperando di aver salva la vita. Patetico.</value>
   </string>
   <!--{0}: grave digger-->

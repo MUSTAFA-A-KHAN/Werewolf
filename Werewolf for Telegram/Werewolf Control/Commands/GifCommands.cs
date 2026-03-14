@@ -131,7 +131,7 @@ namespace Werewolf_Control
         public static InlineKeyboardMarkup GetGifMenu(CustomGifData d)
         {
             var m = new Menu(2);
-            var images = new[] { "Villager Eaten", "Lone Wolf Wins", "Wolf Pack Win", "Village Wins", "Tanner Wins", "Cult Wins", "Serial Killer Wins", "Lovers Win", "No Winner", "Normal Start", "Chaos Start", "SK Killed", "Arsonist Wins", "Burn to death" };
+            var images = new[] { "Villager Eaten", "Lone Wolf Wins", "Wolf Pack Win", "Village Wins", "Tanner Wins", "zoombies Wins", "Serial Killer Wins", "crewmates Win", "No Winner", "Normal Start", "Chaos Start", "SK Killed", "Arsonist Wins", "Burn to death" };
             foreach (var img in images)
             {
                 var i = img;
@@ -156,14 +156,14 @@ namespace Werewolf_Control
                         case "Tanner":
                             added = d.TannerWin != null;
                             break;
-                        case "Cult":
-                            added = d.CultWins != null;
+                        case "zoombies":
+                            added = d.zoombiesWins != null;
                             break;
                         case "Serial":
                             added = d.SerialKillerWins != null;
                             break;
-                        case "Lovers":
-                            added = d.LoversWin != null;
+                        case "crewmates":
+                            added = d.crewmatesWin != null;
                             break;
                         case "No":
                             added = d.NoWinner != null;
@@ -223,7 +223,7 @@ namespace Werewolf_Control
                             Bot.Send($"Your current GIF pack has already been {(data.Approved == true ? "" : "dis")}approved! You can't submit it again without any changes!", q.From.Id, customMenu: GetGifMenu(data));
                             return;
                         }
-                        if (new[] { data.CultWins, data.LoversWin, data.NoWinner, data.SerialKillerWins, data.SKKilled, data.StartChaosGame, data.StartGame, data.TannerWin, data.VillagerDieImage, data.VillagersWin, data.WolfWin, data.WolvesWin, data.ArsonistWins, data.BurnToDeath }.All(x => string.IsNullOrEmpty(x)))
+                        if (new[] { data.zoombiesWins, data.crewmatesWin, data.NoWinner, data.SerialKillerWins, data.SKKilled, data.StartChaosGame, data.StartGame, data.TannerWin, data.VillagerDieImage, data.VillagersWin, data.WolfWin, data.WolvesWin, data.ArsonistWins, data.BurnToDeath }.All(x => string.IsNullOrEmpty(x)))
                         {
                             Bot.Send($"Please set at least one GIF before you submit your pack!", q.From.Id, customMenu: GetGifMenu(data));
                             return;
@@ -366,14 +366,14 @@ namespace Werewolf_Control
                     case "Tanner":
                         data.TannerWin = id;
                         break;
-                    case "Cult":
-                        data.CultWins = id;
+                    case "zoombies":
+                        data.zoombiesWins = id;
                         break;
                     case "Serial":
                         data.SerialKillerWins = id;
                         break;
-                    case "Lovers":
-                        data.LoversWin = id;
+                    case "crewmates":
+                        data.crewmatesWin = id;
                         break;
                     case "No":
                         data.NoWinner = id;

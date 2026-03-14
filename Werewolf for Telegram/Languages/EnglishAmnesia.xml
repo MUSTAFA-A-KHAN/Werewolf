@@ -311,26 +311,26 @@ Last update: 04/03/2021 -->
   <string key="ZombieVotedConvert" >
     <value >{0} has voted to do something to {1}</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <value>{0} went to {1}'s house and is now dead!</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <value>{0} is dead! There's a number in your head... {1}</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>Your role changed, but from what, and to what?</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>You may not remember who you are, but you do remember someone important: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <value>Amidst the names in your head, a new one appears: {0}!</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <value>{0} went to {1}'s house, but they weren't home!</value>
   </string>
-  <string key="CultWins" isgif="true">
-    <value >They might not remember who they are, but the only people left standing are Zombies... The cult wins!</value>
+  <string key="zoombiesWins" isgif="true">
+    <value >They might not remember who they are, but the only people left standing are Zombies... The zoombies wins!</value>
   </string>
   <string key="HunterVisitDead">
     <value>{0} is already dead!</value>
@@ -426,21 +426,21 @@ Last update: 04/03/2021 -->
     <value>  You may not remember who you are, but you do remember someone important: {0}</value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <value>{0} is already dead!</value>
   </string>
   <string key="GuardBlockedWolf">
     <value>Did something happen at {0}'s house last night? You can't seem to remember...</value>
   </string>
   <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <value>{0} went to {1}'s house, but can't remember what happened there...</value>
   </string>
   <!-- new string May 12 2016-->
   <string key="NameExists">
     <value>@{1}, a player with the name {0} has already joined. Please change your name to join.</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <value>You may not remember for sure who you are, but at least now you know this: {0} is a Zombie 👤!</value>
   </string>
   <!-- new string May 13 2016-->
@@ -519,7 +519,7 @@ Last update: 04/03/2021 -->
 	<value>Did you forget to answer? Time's up!</value>
   </string>
   <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
     <value>That's strange... you can't seem to remember who you are, only that you should do something during the night!</value>
   </string>
   <string key="RoleInfoDoppelganger">
@@ -531,7 +531,7 @@ Last update: 04/03/2021 -->
   <string key="RoleInfoSerialKiller">
     <value>That's strange... you can't seem to remember who you are, only that you should do something during the night!</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>You may not remember who you are, but you do remember someone important: {0}</value>
   </string>
   <string key="HunterLynchedChoice">
@@ -558,7 +558,7 @@ Last update: 04/03/2021 -->
   <string key="HunterKilledFinalShot">
     <value>As {0} is deathly wounded, they fall to the ground... but not without grasping their pistol, and firing upon {1}, who takes a bullet right between the eyes. {2}</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <value>{0} went to {1}'s house and is now dead!</value>
   </string>
   <string key="HunterShotWolfMulti">
@@ -576,7 +576,7 @@ Last update: 04/03/2021 -->
   <string key="GuardBlockedKiller">
     <value>Did something happen at {0}'s house last night? You can't seem to remember...</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <value>{0} went to {1}'s house and is now dead!</value>
   </string>
   <string key="GuardKiller">
@@ -595,10 +595,10 @@ Last update: 04/03/2021 -->
   <string key="DGTransformToMason">
     <value>{0} is dead! Your role changed, but from what, and to what?  You may not remember who you are, but you do remember someone important: {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <value>Amidst the names in your head, a new one appears: {0}!</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <value>{0} is dead! Your role changed, but from what, and to what?  You may not remember who you are, but you do remember someone important: {1}</value>
   </string>
   <string key="DGToWolf">
@@ -613,23 +613,23 @@ Last update: 04/03/2021 -->
   <string key="AskKill">
     <value>You know you should be doing something to someone, but who should you choose?</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <value>With {0}'s dying breath, {1} rushes over and falls, crying. They cannot stand the loss of their loved one, and shoot themselves with the nearest pistol the can find. {2}</value>
   </string>
   <string key="AskDoppelganger">
     <value>You know you should be doing something to someone, but who should you choose?</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>You know you should be doing something to someone, but who should you choose?</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>You know you should be doing something to someone else, but who should you choose?</value>
   </string>
   <string key="Hunter">
     <value>the Hunter 🎯</value>
   </string>
-  <string key="Cupid">
-    <value>Cupid 🏹</value>
+  <string key="Recruiter">
+    <value>Recruiter 🏹</value>
   </string>
   <string key="SerialKiller">
     <value>the Serial Killer 🔪</value>
@@ -640,13 +640,13 @@ Last update: 04/03/2021 -->
   <string key="NewWCRoleModel">
     <value>Your role changed, but from what, and to what?  You may not remember who you are, but you do remember someone important: {0}</value>
   </string>
-  <string key="LoversWin">
-    <value>True love endures! The lovers have won!</value>
+  <string key="crewmatesWin">
+    <value>True love endures! The crewmates have won!</value>
   </string>
   <string key="HunterKilledVisiter">
     <value>In the middle of the town square, everyone finds the body of {0}, multiple shots to the body. Looks like they tried to sneak up on the Hunter! {1}</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>Did something happen last night? You can't seem to remember...</value>
   </string>
   <string key="AlreadyOnWaitList">
@@ -760,16 +760,16 @@ Last update: 04/03/2021 -->
 	
 	NIGHT ACTIONS, every night!</value>
   </string>
-  <string key="AboutCult">
-  <!-- CULT CONVERSION RATES AND WHO'S HOME HERE! ayylmao -->
+  <string key="Aboutzoombies">
+  <!-- zoombies CONVERSION RATES AND WHO'S HOME HERE! ayylmao -->
     <value>
-	Every night, all Zombies in the cult vote to decide who to convert. The cult wins when every single alive player is a Zombie. It's not that simple to convert players, though!
+	Every night, all Zombies in the zoombies vote to decide who to convert. The zoombies wins when every single alive player is a Zombie. It's not that simple to convert players, though!
 	
 	NIGHT ACTIONS, every night!</value>
   </string>
   <string key="AboutCH">
     <value>
-	The Zombie Hunter has a single job: kill all Zombies. Every night, they get to visit a player, who won't feel anything... unless they are a Zombie, in which case, the Zombie Hunter will kill them! If the cult chooses to convert the CH, their newest member dies.
+	The Zombie Hunter has a single job: kill all Zombies. Every night, they get to visit a player, who won't feel anything... unless they are a Zombie, in which case, the Zombie Hunter will kill them! If the zoombies chooses to convert the CH, their newest member dies.
 	
 	NIGHT ACTIONS, every night!</value>
   </string>
@@ -793,25 +793,25 @@ Last update: 04/03/2021 -->
   </string>
   <string key="AboutMason">
     <value>
-	A mason is just like a villager, except they will always know who the other masons are! If a mason is converted to the cult, all other masons will be told!
+	A mason is just like a villager, except they will always know who the other masons are! If a mason is converted to the zoombies, all other masons will be told!
 	
 	NO ACTIONS, but they do get information!</value>
   </string>
   <string key="AboutDG">
     <value>
-      The Doppelgänger chooses a player during the first night of the game. Once they die, the Doppelgänger will become what they were! Unless the player was converted to the cult, the Doppelgänger will become what they were at the time of death! When becoming a Wild Child, the Doppelgänger will inherit their role model. The Doppelgänger cannot be converted to a Zombie until they change roles, and will not be able to win (except as a lover) unless they've changed roles!
+      The Doppelgänger chooses a player during the first night of the game. Once they die, the Doppelgänger will become what they were! Unless the player was converted to the zoombies, the Doppelgänger will become what they were at the time of death! When becoming a Wild Child, the Doppelgänger will inherit their role model. The Doppelgänger cannot be converted to a Zombie until they change roles, and will not be able to win (except as a crewmate) unless they've changed roles!
       
 	  FIRST NIGHT ACTION, then none until their role changes!</value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>
-      The Cupid will choose two players at the start of the game and make them fall in love with each other. If one of them dies, the other will die of sorrow... If one of them is on the winning team at the end of the game, both will be winners! If the only players left standing are the Lovers, they will be the winners! The Cupid can choose themselves as one of the Lovers.
+      The Recruiter will choose two players at the start of the game and make them fall in love with each other. If one of them dies, the other will die of sorrow... If one of them is on the winning team at the end of the game, both will be winners! If the only players left standing are the crewmates, they will be the winners! The Recruiter can choose themselves as one of the crewmates.
 	  
 	  FIRST NIGHT ACTIONS, then none!</value>
   </string>
   <string key="AboutHunter">
     <value>
-      The Hunter is just like a villager... Until someone visits them, or they die! Anyone who visits the Hunter's house will find themselves dead (other than the cult - there's a 50% chance the cult will convert the Hunter, and then a 50% chance a Zombie will be killed if the conversion fails), unless they go there to attack the Hunter. The Serial Killer will be able to kill the Hunter, and a pack of wolves will also be able to do that... However, the Hunter won't go down without a fight! When they're killed - be it by lynching or a murder, but not a wolf attack - the Hunter will be given a choice to shoot and kill someone out of the players alive!
+      The Hunter is just like a villager... Until someone visits them, or they die! Anyone who visits the Hunter's house will find themselves dead (other than the zoombies - there's a 50% chance the zoombies will convert the Hunter, and then a 50% chance a Zombie will be killed if the conversion fails), unless they go there to attack the Hunter. The Serial Killer will be able to kill the Hunter, and a pack of wolves will also be able to do that... However, the Hunter won't go down without a fight! When they're killed - be it by lynching or a murder, but not a wolf attack - the Hunter will be given a choice to shoot and kill someone out of the players alive!
 	  Wolf attacks work differently, though! If a sole wolf attacks the hunter, there's a 30% chance they'll be able to kill the wolf and survive. Otherwise, the Hunter will be killed by the wolves, but may be able to take one down (instead of choosing a player to kill) as they go! For two wolves, the chance of killing one of them is 50%. For three, it's 70%; for four, 90%, and for packs with five wolves or more, the Hunter will definitely be able to kill one of them as they die!
 	  
 	  NO ACTIONS, until they die!</value>
@@ -993,11 +993,11 @@ Last update: 04/03/2021 -->
   <string key="AllowTannerA">
     <value>Tanner as a role set to: {0}</value>
   </string>
-  <string key="AllowCultQ">
-    <value>Allow cult as a role option?\nCurrent: {0}</value>
+  <string key="AllowzoombiesQ">
+    <value>Allow zoombies as a role option?\nCurrent: {0}</value>
   </string>
-  <string key="AllowCultA">
-    <value>Cult as a role set to: {0}</value>
+  <string key="AllowzoombiesA">
+    <value>zoombies as a role set to: {0}</value>
   </string>
   <string key="EnableSecretLynchQ">
     <value>Enable Secret Lynch?\nCurrent: {0}</value>
@@ -1154,8 +1154,8 @@ Last update: 04/03/2021 -->
   <string key="SerialKillerTeam" deprecated="true">
     <value>SK Team</value>
   </string>
-  <string key="CultTeam" deprecated="true">
-    <value>Cult Team</value>
+  <string key="zoombiesTeam" deprecated="true">
+    <value>zoombies Team</value>
   </string>
   <string key="TannerTeam" deprecated="true">
     <value>Tanner Team</value>
@@ -1173,13 +1173,13 @@ Last update: 04/03/2021 -->
   <string key="SerialKillerTeamEnd">
     <value>SK Team</value>
   </string>
-  <string key="CultTeamEnd">
-    <value>Cult Team</value>
+  <string key="zoombiesTeamEnd">
+    <value>zoombies Team</value>
   </string>
   <string key="TannerTeamEnd">
     <value>Tanner Team</value>
   </string>
-  <string key="CultConvertWolf">
+  <string key="zoombiesConvertWolf">
     <value>{0} went to {1}'s house and is now dead!</value>
   </string>
 
@@ -1199,8 +1199,8 @@ Last update: 04/03/2021 -->
   <string key="ZombieKilled">
     <value>{0} was found stabbed to death with a candlestick by their altar. The serial killer has struck again, regardless of race, language or religion! {0} was a Zombie.</value>
   </string>
-  <string key="CupidKilled">
-    <value>The next morning, the villagers were heartbroken to find {0} a.k.a. Cupid split from head to toe. Strangely the heart was missing...</value>
+  <string key="RecruiterKilled">
+    <value>The next morning, the villagers were heartbroken to find {0} a.k.a. Recruiter split from head to toe. Strangely the heart was missing...</value>
   </string>
   <string key="DrunkKilled">
     <value>The villagers had hoped to meet {0} to compliment his Martell, but all they found in {0}'s home was a broken knife and liver. All those years of drinking led to a liver so hard that even the Serial Killer probably does not fancy it...</value>
@@ -1232,13 +1232,13 @@ Last update: 04/03/2021 -->
     <value>The villagers wake up in the morning, only to find the severed body parts of {0}, the Zombie Hunter, in a cart placed in full view outside the town hall. Lesson learnt: don't visit the serial killer!</value>
     <value>The body of {0}, the Zombie Hunter, was found in the middle of town, albeit cut precisely into a hundred pieces. Checking if the Serial Killer was a Zombie does not seem to be a good idea...</value>
   </string>
-  <string key="CultConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
-    <value>While it seemed that the wolves decided to stay good for once, punishing {0}, a Zombie that decided to court trouble with the wolves, proved too difficult to resist. {0}'s head was converted to a fine supper, delivered to the wolves' doorsteps!</value>
-    <value>The cult ran into unexpected trouble last night. Their newest member had the misfortune of visiting a wolf on the night the wolves decided to stay home, and the wolf found {0} quite delicious. Unfortunately for {0}, wolves have no interest in joining the new religious movement.</value>
+  <string key="zoombiesConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
+    <value>While it seemed that the wolves decided to stay good for once, punishing {0}, a Zombie that decided to court trouble with the wolves, proved too diffizoombies to resist. {0}'s head was converted to a fine supper, delivered to the wolves' doorsteps!</value>
+    <value>The zoombies ran into unexpected trouble last night. Their newest member had the misfortune of visiting a wolf on the night the wolves decided to stay home, and the wolf found {0} quite delicious. Unfortunately for {0}, wolves have no interest in joining the new religious movement.</value>
   </string>
-  <string key="CultConvertKillerPublic"> <!--used when Zombies convert the SK-->
-    <value>The cult thought they would have a new member in their ranks, but they were wrong! {0}, a Zombie, was minced to pieces and placed at the town square in the morning! Strangely their "holy" book was found stabbed with a knife, as if a statement to show whose religion was triumphant.</value>
-    <value>Last night, the cult tried to convert the one person in the village crazier than they are. Their newest member tried to convert the Serial Killer, and the Serial Killer made a new piece of art in the town square of {0}'s internal organs.</value>
+  <string key="zoombiesConvertKillerPublic"> <!--used when Zombies convert the SK-->
+    <value>The zoombies thought they would have a new member in their ranks, but they were wrong! {0}, a Zombie, was minced to pieces and placed at the town square in the morning! Strangely their "holy" book was found stabbed with a knife, as if a statement to show whose religion was triumphant.</value>
+    <value>Last night, the zoombies tried to convert the one person in the village crazier than they are. Their newest member tried to convert the Serial Killer, and the Serial Killer made a new piece of art in the town square of {0}'s internal organs.</value>
   </string>
   <string key="GAGuardedKiller"> <!-- used when GA guards SK -->
     <value>It was supposed to be a night where {0} would save the village from the killers, but {0}'s halo was extinguished and wings sliced by the serial killer! Left was a note, "I could protect myself better than you can."</value>
@@ -1259,7 +1259,7 @@ Last update: 04/03/2021 -->
   </string>
   <string key="CHKillsZombieEnd">
     <!--{0} = last Zombie's name, {1} = CH's name -->
-    <value>{1} and {0} walk out in daylight. Seeing a shimmering cross worn around {0}'s neck, the righteous {1} draws their sword for the final time, putting an end to the twisted learnings of the cult that have contaminated the village.</value>
+    <value>{1} and {0} walk out in daylight. Seeing a shimmering cross worn around {0}'s neck, the righteous {1} draws their sword for the final time, putting an end to the twisted learnings of the zoombies that have contaminated the village.</value>
   </string>
   
   <!-- Extend time -->
@@ -1320,8 +1320,8 @@ Last update: 04/03/2021 -->
     <!-- NOTE: No space between {0} and joined. It will be added in the code if necessary-->
     <value>{0}joined the game in the last 30 seconds.</value>
   </string>
-  <string key="AllowCult">
-    <value>Allow Cult</value>
+  <string key="Allowzoombies">
+    <value>Allow zoombies</value>
   </string>
   <string key="AllowTanner">
     <value>Allow Tanner</value>
@@ -1359,7 +1359,7 @@ Last update: 04/03/2021 -->
     <value>All</value>
   </string>
   <string key="RandomModeQ">
-    <value>Enable random mode?\nWhen random mode is enabled, Chaos, Secret Lynch, Show Roles on Death, and Allow Cult / Fool / Tanner will be randomly determined everytime someone starts a game.\nCurrent:{0}</value>
+    <value>Enable random mode?\nWhen random mode is enabled, Chaos, Secret Lynch, Show Roles on Death, and Allow zoombies / Fool / Tanner will be randomly determined everytime someone starts a game.\nCurrent:{0}</value>
   </string>
   <string key="RandomModeA">
     <value>Enabling of random mode set to: {0}</value>
@@ -1558,7 +1558,7 @@ Last update: 04/03/2021 -->
     <!-- 0 - mason collegues's name -->
     <value>You may not remember who you are, but you do remember someone important: {0}</value>
   </string>
-  <string key="ThiefToCult">
+  <string key="ThiefTozoombies">
     <!-- 0 - old Zombie's name -->
     <!-- 1 - new Zombie's name -->
     <value>You start to forget a name... What was it, {0}? Wait... What were you thinking about, again? Amidst the names in your head, a new one appears: {1}!</value>
@@ -1863,7 +1863,7 @@ Last update: 04/03/2021 -->
     <value>Player list will be shuffled every time: {0}</value>
   </string>
   <string key="AboutGraveDigger">
-	<value>You are the Grave Digger ☠️. Every night, you dig the graves for all the people who died since the last time you did (yes, even werewolves deserve a proper burial). Since you are out all night, wolves and the cult can't find you, unless you actually have nothing to do (i.e. no one died), in that case you'll just stay home. Everyone who visits you has a chance of falling into your newly dug graves, depending on how many graves you dug. Also, the chance is halved for everyone who is on the village team with you. But since you are out at night, the wolves or the serial killer might spot and kill you, and the more graves you have to dig, the more likely it is. Also, apparently the serial killer can find you whether you're at home or not, but he might at least stumble in one of your graves and hurt his leg, causing him to maybe lose control over who is his victim the next night...</value>
+	<value>You are the Grave Digger ☠️. Every night, you dig the graves for all the people who died since the last time you did (yes, even werewolves deserve a proper burial). Since you are out all night, wolves and the zoombies can't find you, unless you actually have nothing to do (i.e. no one died), in that case you'll just stay home. Everyone who visits you has a chance of falling into your newly dug graves, depending on how many graves you dug. Also, the chance is halved for everyone who is on the village team with you. But since you are out at night, the wolves or the serial killer might spot and kill you, and the more graves you have to dig, the more likely it is. Also, apparently the serial killer can find you whether you're at home or not, but he might at least stumble in one of your graves and hurt his leg, causing him to maybe lose control over who is his victim the next night...</value>
   </string>
   <string key="RoleInfoGraveDigger">
 	<value>That's strange... you can't seem to remember who you are!</value>
@@ -1909,16 +1909,16 @@ Last update: 04/03/2021 -->
   <string key="HunterFell">
 	<value>On the way to {0}'s house, you were passing through a graveyard and your memories almost returned to you but before you could remember everything, you fell into an open grave and died.</value>
   </string>
-  <!--{0}: cult hunter-->
+  <!--{0}: zoombies hunter-->
   <string key="HunterFellDigger">
 	<value>Did something happen last night? You can't seem to remember... A name comes to your mind: {0}. But for what reason?</value>
   </string>
   <!--{0}: Zombie-->
-  <string key="CultFell">
+  <string key="zoombiesFell">
 	<value>Did something happen last night? You can't seem to remember... A name comes to your mind: {0}. But for what reason?</value>
   </string>
   <!--{0}: Zombie who fell, {1}: grave digger-->
-  <string key="CultConvertGraveDigger">
+  <string key="zoombiesConvertGraveDigger">
 	<value>Did something happen at {1}'s house last night? You can't seem to remember... but you do remember that {0} is now dead.</value>
   </string>
   <!--{0}: grave digger-->
@@ -1975,7 +1975,7 @@ Last update: 04/03/2021 -->
   </string>
   <!--{0}: Zombie who died-->
   <string key="ZombieFellPublic">
-	<value>The cults tried to burn the church, but as {0} led the group through the graveyard, a bear trap snapped around his ankle!  He screamed when he fell into an open grave and the other Zombies fled in terror...</value>
+	<value>The zoombiess tried to burn the church, but as {0} led the group through the graveyard, a bear trap snapped around his ankle!  He screamed when he fell into an open grave and the other Zombies fled in terror...</value>
   </string>
   <!--{0}: thief-->
   <string key="ThiefFellPublic">

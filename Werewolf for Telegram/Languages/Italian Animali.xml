@@ -331,25 +331,25 @@
   <string key="ZombieVotedConvert" >
     <value >{0} vota per trasformare {1}</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <value>{0} è stato inviato a fare il suo sporco lavoro, per trasformare {1}... ma era il cacciatore di Falchi! {0} è morto!</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <value>{0} ti ha fatto visita la scorsa notte, pronto a trasformarti...  ma l'hai ucciso con un rapido fendente della tua spada. Un falco è morto... {1} rimanenti!</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>Lo stormo ti ha convertito all'ordine dei falchi! Ora sei uno di loro. Ogni notte, avrai la possibilità di trasformare un altro giocatore,  decidi con gli altri o ti bloccano.  </value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>Falchi: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <value>{0} é entrato a far parte dello stormo!</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <value>{0} è stato inviato a fare il suo sporco lavoro, per far visita a {1}... ma nessuno era in casa!</value>
   </string>
-  <string key="CultWins" >
+  <string key="zoombiesWins" >
     <value >Tutti i lupi sono morti, ma tutti i sopravvissuti sono stati trasformati e portati nel nido dei falchi... Il nido ha vinto!</value>
   </string>
   <string key="HunterVisitDead">
@@ -447,21 +447,21 @@
     <value>\nGli altri Pesci sono: {0}</value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <value>Il vostro membro piu' nuovo si reca a casa di {0} per trasformarlo, ma trova invece una casa malmessa, sangue ovunque, e ciuffi di peli di lupo sparsi per il corridoio...</value>
   </string>
   <string key="GuardBlockedWolf">
     <value>Ti introduci nella casa di {0} per mangiarlo, ma improvvisamente incontri un'alta oscura figura, armata fino ai denti. È l'Usignolo. Combattete a lungo ma sei costretto a tornare a casa sconfitto.</value>
   </string>
   <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <value>Spedite {0} per trasformare{1}, ma il suo orgoglio era troppo elevato, non siete riusciti a trasformarlo :(</value>
   </string>
   <!-- new string May 12 2016-->
   <string key="NameExists">
     <value>@{1}, un giocatore con il nome di {0} e' gia' entrato. Per favore cambia il tuo nome per partecipare. </value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <value>Ti rechi a casa di {0} per divertirti un po'... Ma quando stai per uscire, ti accorgi di uno strano nido.. Nascosto malamente, all'angolo della stanza, ed uno strano odore provenire da esso...</value>
   </string>
   <!-- new string May 13 2016-->
@@ -536,7 +536,7 @@
 	<value>È scaduto il tempo!</value>
   </string>
   <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
 	<value>Sei il Ranocchio🏹. Mandato sulla terra con un solo obiettivo, porti sempre con te un arco che ti servirà per unire due persone in un amore unico ed inseparabile, infatti se uno dei due morirà, l'altro farà lo stesso. Vincono se almeno uno dei due vince.</value>
   </string>
   <string key="RoleInfoDoppelganger">
@@ -549,7 +549,7 @@
     <value>Sei il Killer di Animali🔪. Dopo il terribile conflitto sei l'unico uomo che non ha tradito la patria ed é rimasto in vita, sei qua per vendicarti del tuo passato, il tuo obbiettivo é di uccidere tutti gli animali e di rimanere l'unico in vita!(Se ti visita il lupo ha il 20% di ucciderti).</value>
     <value>Sei il killer di Animali🔪. Ogni notte, potrai uccidere qualcuno. Se qualcuno ti visita, lo ucciderai (Il lupo ha comunque il 20% di ucciderti se ti attacca). Vinci solo se sei l'ultimo rimasto in vita. I</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>è successo qualcosa, noti per terra delle gocce d'acqua sembra che il ranocchio sia passato da te e ti abbia legato perennemente a {0}. Il vostro obbiettivo é di rimanere entrambi vivi, se uno di voi due dovesse morire, l'altro si butterà dall'alto colle della campagna per solitudine.</value>
  </string>
   <string key="HunterLynchedChoice">
@@ -576,7 +576,7 @@
   <string key="HunterKilledFinalShot">
     <value>{0} sta per essere ucciso.. Ma non senza portare qualcuno con lui nella tomba. Prende la sua ghianda, la mette in bocca per poi scagliarla contro {1} che muore dissanguato! {2}</value>
   </string> 
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <value>{0} si intrufola nella casa infestata di {1}, ma viene immediatamente accolto dal Killer di Animali! Armato fino al collo, {1}, infilza con un ghigno sul volto il coltello nel corpo di {0} che muore dissanguato subito dopo.</value>
     <value>I Falchi mandano {0} per trasformare {1}, ma invece il corpo di {0} esce volando dalla finestra con coltelli conficcati in ogni parte del corpo! CHE PSICOPATICO! {0} è morto...</value>
  </string>
@@ -595,7 +595,7 @@
   <string key="GuardBlockedKiller">
     <value>Hai provato ad aggiungere il corpo di {0} alla tua collezione, ma invece ti sei scontrato con l'usignolo!  Niente da fare stasera, nottataccia...</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <value>I Falchi mandano {0} per trasformare {1}, ma invece un colpo suona rumoroso e il corpo di {0} esce dalla finestra volando! {0} è morto...</value>
   </string>
   <string key="GuardKiller">
@@ -614,10 +614,10 @@
   <string key="DGTransformToMason">
     <value>{0} è morto, e tu ti trasformi in un Pesce. I tuoi compagni (se presenti) sono: {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <value>Il Camaleonte {0} è ora diventato un Falco, esattamente come te!</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <value>{0} è morto, e tu ti trasformi in un Falco. I tuoi compagni (se presenti) sono: {1}</value>
   </string>
   <string key="DGToWolf">
@@ -632,22 +632,22 @@
   <string key="AskKill">
     <value>Chi vuoi uccidere e cucinare stanotte?</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <value>Con l'ultimo respiro di {0}, {1} accorre per vedere il suo cadavere e fa un casino enorme,  si mette a gridare dal dolore.  Non riesce a sopportare la morte dell'amato, e si spara con la pistola più vicina che trova. {2}</value>
   </string>
   <string key="AskDoppelganger">
     <value>Di chi vuoi prendere in prestito il ruolo quando morirà sotterrato dai lupi?</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>Chi vuoi che siano i due piccioncini? Scegli il primo giocatore</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>Chi vuoi che siano i due piccioncini? Scegli il secondo giocatore</value>
   </string>
   <string key="Hunter">
     <value>Lo Scoiattolo🎯</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>il Ranocchio🏹</value>
   </string>
   <string key="SerialKiller">
@@ -662,10 +662,10 @@
   <string key="HunterKilledVisiter">
     <value>Dentro al fienile viene ritrovato il corpo di {0}, che dopo aver provato ad ucciderle lo Scoiattolo, è stato ucciso a forza di ghiande. {1}</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>Una figura alata ha provato a portarti con se nel suo nido, ma il tuo orgoglio era troppo elevato. </value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
   <value>Il vero amore trionfa! I piccioncini hanno vinto!</value>
   </string>
   <string key="SerialKillerWinsOverpower">
@@ -735,7 +735,7 @@
   <string key="AboutFool">
     <value>una triste Marmotta che crede di essere il Topo.... Quando sceglie di vedere il ruolo a qualcuno, gli verrà detto un ruolo casuale in partita. Nota: È più utile di quello che sembra, può sapere con esattezza i ruoli che ci sono in partita. Se vedete un ruolo, sarà in partita.</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>Come Falco, il tuo obiettivo è trasformare tutti gli altri giocatori (tranne i lupi) e protarli nel tuo nido. Se a fine partita, tutti i giocatori sono Falchi, Vincono. \n Probabilità di convertire i seguenti ruoli: \n Camaleonte: 0% Finchè rimane sosia, è impossibile da convertire \n Topo 40% Il veggente è il più difficile da convertire \n Usignolo 60% Nota: Se protegge qualcuno, non lo troverai in casa \n Gatto rabbioso 60% \n Volpe 70% \n Scimmia evoluta 70% Come l'usignolo, se non è casa, non potrete trasformarla \n Lepre 50% Avrai il 50% di trasformare la Lepre. Se fallite, C'è il 50% che vi uccidi.</value>
   </string>
   <string key="AboutCH">
@@ -756,7 +756,7 @@
   <string key="AboutDG">
     <value>Puoi scegliere un giocatore a inizio partita, erediti il suo ruolo \n Nota: Se il giocatore viene convertito ai falchi, prenderai il suo ruolo originale. Tutte le altre regole normali si applicano: se erano bimbi tristi e il loro modello è morto, diventerai un lupo. Sennò, erediterai il loro modello.\nI falchi non possono convertire il Camaleonte (ma possono dopo che il camaleonte cambia ruolo) E - Il camaleonte NON può vincere a meno che si sono trasformati. Se a fine partita, il camaleonte non si è trasformato, perde (eccezione: amante).</value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>A Inizio partita, sceglie due giocatori. Dopo diventa a tutti gli effetti un normale cagnolino. Questi due diventeranno follemente innamorati e se uno dei due muore, l'altro morirà. Nota: gli amanti sanno chi è l'altro, ma non sanno il loro ruolo. Se gli amanti sono gli ultimi due vivi, loro vincono, indipendemente dal loro ruolo. Se gli amanti sono di due team diversi(esempio: lupo + cane), e un team vince (esempio: lupi), anche l'amante (esempio:cane) vince. \n TL;DR Se tutti e due gli amanti sono vivi a fine partita, e almeno uno dei due è nel team vincitore, vincono insieme</value>
   </string>
   <string key="AboutHunter">
@@ -927,10 +927,10 @@
   <string key="AllowTannerA">
     <value>Cavallo isolato come ruolo impostato a {0}</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>Ammettere i Falchi in partita, come ruolo?\nAttualmente: {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>Falco come ruolo impostato a {0}</value>
   </string>
   <string key="ThankYou">
@@ -1081,7 +1081,7 @@
   <string key="SerialKillerTeam">
     <value>Team Killer</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>Team Falchi</value>
   </string>
   <string key="TannerTeam">
@@ -1099,13 +1099,13 @@
   <string key="SerialKillerTeamEnd">
     <value>Team Killer</value>
   </string>
-  <string key="CultTeamEnd">
+  <string key="zoombiesTeamEnd">
     <value>Team Falchi</value>
   </string>
   <string key="TannerTeamEnd">
     <value>Team Cavallo isolato</value>
   </string>
-  <string key="CultConvertWolf">
+  <string key="zoombiesConvertWolf">
     <value>I falchi hanno mandato {0} per provare a trasformare {1}, ma all'improvviso si vede la testa di {0} volare fuori dalla finestra... Indovinate perchè pensavano fosse immangiabile! {0} è morto...</value>
   </string>
   <string key="HarlotFuckedKilledPublic"> <!-- used when Harlot visit's SK's victim, and dies -->
@@ -1124,8 +1124,8 @@
   <string key="ZombieKilled">
     <value>{0} è stato trovato pugnalato a morte da un candeliere del suo altare. L'umano killer ha colpito ancora, indipendentemente da razza, lingua e forma! {0} era un Falco👤.</value>
   </string>
-  <string key="CupidKilled">
-    <value>Il mattino seguente, i villici furono affranti a trovare {0}, cioè Cupido, tagliato dalla testa ai piedi. Stranamente il cuore non era presente...</value>
+  <string key="RecruiterKilled">
+    <value>Il mattino seguente, i villici furono affranti a trovare {0}, cioè Recruitero, tagliato dalla testa ai piedi. Stranamente il cuore non era presente...</value>
   </string>
   <string key="DrunkKilled">
     <value>I villici speravano di incontrare il campione di bevute {0}, ma {0} fu trovato morto nella propria casa, preso alla sprovvista mentre si ubriacava di notte fonda... Sembra che al Serial Killer non piacciano gli ubriaconi che non fanno nulla tutto il giorno!</value>
@@ -1157,13 +1157,13 @@
     <value>Gli animali si svegliano la mattina, solo per trovare i resti del loro amico {0}, il Cacciatore di Satanisti, in un carro appena fuori il centro della città.. Lezione imparata: non visitare il Killer di animali!</value>
     <value>Il corpo di {0}, il Cacciatore di Satanisti, è stato trovato nel centro della città, tagliato precisamente in tremiladuecentoventiquattro pezzi. Controllare se colui che odia gli animali fosse un falco non sembra una buona idea..</value>
   </string>
-  <string key="CultConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
+  <string key="zoombiesConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
     <value>Sembrava una notte tranquilla, visto che i lupi hanno deciso di rimanere a casa, ma l'unico sfortunato è stato {0}, un falco che ha provato a convertire un lupo. La testa di {0} è stata trasformata in una buona cena a domicilio!</value>
     <value>I falchi hanno incontrato un problema non previsto questa notte. Il loro membro più recente, mandato a fare proseliti, è stato divorato dal lupo che ha visitato. Sfortunatamente per {0}, i lupi non hanno interesse a far parte del loro stormo.</value>
   </string>
-  <string key="CultConvertKillerPublic"> <!--used when Zombies convert the SK-->
+  <string key="zoombiesConvertKillerPublic"> <!--used when Zombies convert the SK-->
     <value>I falchi pensavano di convertire un nuovo membro tra di loro, ma si sbagliavano! {0}, un falco è stato trovato tritato nella piazza centrale! Vicino ad esso, il suo "sacro" libro è stato trovato infilzato da parte a parte da un coltello, come ad indicare quale razza è la dominante.</value>
-    <value>L'ultima notte, i falchi hanno provato a convertire una persona più pazza di loro. Il loro membro più recente ha provato a convertire il Killer di animali, che ha creato una nuova scultura di arte moderna, nella piazza della città, con gli organi interni di {0}.</value>
+    <value>L'ultima notte, i falchi hanno provato a convertire una persona più pazza di loro. Il loro membro più recente ha provato a convertire il Killer di animali, che ha creato una nuova szoombiesura di arte moderna, nella piazza della città, con gli organi interni di {0}.</value>
   </string>
   <string key="GAGuardedKiller"> <!-- used when GA guards SK -->
     <value>Doveva essere una notte tranquilla dove {0} facesse il suo lavoro da protettore della città, ma la gola di {0} è stata tagliata e le ali brutalmente morse dal Killer di animali! Vicino al corpo, una nota "Posso proteggermi meglio di te". Qualcuno ha provato a proteggere il killer, questa notte.</value>
@@ -1251,7 +1251,7 @@
     <!-- {0} = list of people who have joined -->
     <value>{0}si stanno preparando per l'inzio della nuova partita, rimangono 30 secondi!</value>
   </string>
-  <string key="AllowCult">
+  <string key="Allowzoombies">
     <value>Abilita i Falchi</value>
   </string>
   <string key="AllowTanner">
@@ -1486,7 +1486,7 @@
     <!-- 0 - mason collegues's name -->
     <value>I tuoi compagni (se presenti) sono: {0}</value>
   </string>
-  <string key="ThiefToCult">
+  <string key="ThiefTozoombies">
     <!-- 0 - old Zombie's name -->
     <!-- 1 - new Zombie's name -->
     <value>{0} non è più un tuo compagno e {1} è ora divenuto un Falco, esattamente come te!</value>
@@ -1844,16 +1844,16 @@
   <string key="HunterFell">
 	<value>Un'altra notte passata senza riuscire ad uccidere uno dei maledetti Falchi! Disorientato, sbagli strada e cadi in una buca ancora aperta, urli cercando aiuto ma non arriva nessuno. {0} è morto di fame.</value>
   </string>
-  <!--{0}: cult hunter-->
+  <!--{0}: zoombies hunter-->
   <string key="HunterFellDigger">
 	<value>Dopo un'altra notte di duro lavoro, torni nella tua tana. Nei dintorni senti delle urla, ti giri e trovi una fossa ancora aperta da cui fuoriesce una spada, {0} il Cacciatore di Falchi è rimasto in trappola!</value>
   </string>
   <!--{0}: Zombie-->
-  <string key="CultFell">
+  <string key="zoombiesFell">
 	<value>Ritorni a casa dopo una faticosa nottata di lavoro. Durante il tragitto, senti un urlo provenire da dietro di te. Corri sul posto e trovi un mucchio di piume, vedi {0} morto dentro una delle buche. Da quando i falchi provano a trasformare le talpe?</value>
   </string>
   <!--{0}: Zombie who fell, {1}: grave digger-->
-  <string key="CultConvertGraveDigger">
+  <string key="zoombiesConvertGraveDigger">
 	<value>Mentre scegli di trasformare {1}, il tuo amico {0} consiglia di andare a bruciare qualche stalla. Decidete di passare per la via più veloce, cioè il cimitero. Però mentre stavate proseguendo, un'ala ti inizia a far male decidi di scendere, ma così facendo sbatti contro un albero e cadi in una delle tombe!</value>
   </string>
   <!--{0}: grave digger-->

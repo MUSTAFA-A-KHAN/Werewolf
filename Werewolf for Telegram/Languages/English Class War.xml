@@ -377,33 +377,33 @@
     <!-- 1 - target name -->
     <value >{0} has voted to convert {1}</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <!-- 0 - Yougest Zombie (killed)'s name' -->
     <!-- 1 - ZombieHunter's name -->
     <value>{0} was sent to do your dirty work, and convert {1}... however, they were the Act rep! {0} is dead!</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - Number of Zombies left -->
     <value>{0} came to your house last night, ready to convert you....  but you shoved your smashed their phone onto the ground, preventing them from being able to convert more people.  A club member is has been rendered useless... {1} remain!</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>The club has converted you to their order!  You are now part of the club.  Every other night, you will have a chance to convert another player.</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <!-- 0 - Number of Zombies -->
     <value>Club members: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <!-- 0 - new Zombie's name -->
     <value>{0} has joined the club!</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <!-- 0 - Newest Zombie's name -->
     <!-- 1 - target name -->
     <value>{0} was sent to do your dirty work, and convert {1}... but no one was home!</value>
   </string>
-  <string key="CultWins" isgif="true">
+  <string key="zoombiesWins" isgif="true">
     <value >All the teacher's lackeys have died, and the only people left standing have joined the club...  The club has won! The club has become so exclusive that everyone else in the school had been excluded!</value>
   </string>
   <string key="HunterVisitDead">
@@ -508,7 +508,7 @@
     <value>  The gamers are: {0}</value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <!-- 0 - Youngest Zombies name -->
     <value>Your newest member heads over to {0}'s house to convert them, but instead finds the house a complete wreck, blood everywhere, and bits of tutors members notes snagged on the doorway...</value>
   </string>
@@ -517,7 +517,7 @@
     <value>The pack of teacher's lackeys heads to {0}'s house to physically convince them that econs is the best subject in the world, but they are met by a tall dark figure. The class scholar fights everyone off, using all her complex mathematical equations and her excellent grades in all her sciences, she leaves you ashamed at your own pathetic grades. You head back defeated.</value>
   </string>
   <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <!-- 0 - newest  -->
     <!-- 1 - target's name -->
     <value>You send {0} to try to convert {1}, however their belief was too strong they loved the class way too much, and you were unable to convert them :(</value>
@@ -528,7 +528,7 @@
     <!-- 1 - name -->
     <value>@{1}, a player with the name {0} has already joined.  Please change your name to join.</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <!-- 0 - target's name -->
     <value>You slipped into {0}'s house for a bit of recon... but as you are leaving, you happen to notice a room with a strange glowing coming from it, together with vigorous typing...</value>
   </string>
@@ -622,7 +622,7 @@
     <value>Time's up!</value>
   </string>
   <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
     <value>You are the class shit stirrer. You have been given the role of causing trouble within the class by claiming that 2 classmates are in love. You will slowly start to convince the class of the relationship that these two individuals have, making them awkward whenever they meet each other... MUAHAHAHAHA. Sent to Earth with only instagram, an active wifi connection and a brand new phone, you get to choose two players to love each other for eternity (or just ship them together till the end of time). If one of them dies, the other one dies of sorrow (all because you shipped them together, I hope you can sleep at night you shit stirrer). 🏹 </value>
   </string> 
   <string key="RoleInfoDoppelganger">
@@ -634,7 +634,7 @@
   <string key="RoleInfoSerialKiller">
     <value>You are the insane student of the class, the cold blooded killer of yesteryear. Despite being a cold blooded killer, you are excellent at art too, which means all your kills will always be in the form of a grotesque art work. You were driven mad by the exams that were set by the school and now you are out for revenge. Recently escaped from the mental ward, your goal is for everyone else to die. Every night, you can add a classmate's body to your art collection. 🔪 </value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>You have been struck by the shit stirrer's instagram post. {0}'s memory will never fade in your heart (because everyone will continuously tease you about this fake instagram post). If one of you dies, the other one will die out of sorrow. If one of you wins, the other one wins too.</value>
     <value>The shit stirrer's instagram post has struck you! You are not madly in love with {0} but because of the social pressure you have to be! If they die, you will die too. If one of you two wins, you will both win.</value>
   </string>
@@ -690,12 +690,12 @@
     <!-- 0 - target's name -->
     <value>You tried to collect {0}'s body for your art collection, but you were fought off by the class scholar! Clearly you should have studied harder during physics as you would have realized that you would have needed a lot more force to stab through her armour! No kill for you tonight...</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
     <value>The club sends {0} to try to convert {1}, but instead a bomb is heard and {0}'s body comes flying out of the window! {0} is dead... You really should NOT try to convert a guy with a bomb to join your club...</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
     <value>The club sends {0} to try to convert {1}, but instead {0}'s body comes flying out of the window, knives pushed into every part of their body! WHAT A PSYCHO! {0} is dead....</value>
@@ -720,11 +720,11 @@
     <!-- 1 - mason collegues's name -->
     <value>{0} has died, and you transform into a class werewolf gamer.  Your teammates (if any) are: {1}. Now you will be able to escape boring lessons by playing werewolf!</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <!-- 0 - new Zombie's name -->
     <value>The vampire {0} has now become a club member, just like you! What an exclusive vampire!</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <!-- 0 - role's name -->
     <!-- 1 - teammates's name -->
     <value>{0} has died, and you transform into a club member.  Your teammates (if any) are: {1}. </value>
@@ -744,25 +744,25 @@
   <string key="AskKill">
     <value>Who do you want to kill and make an artwork of tonight?</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <!-- 0 - dead's name -->
-    <!-- 1 - lover's name -->
+    <!-- 1 - crewmate's name -->
     <!-- 2 - roles -->
     <value>With {0}'s dying breath, {1} rushes over and falls, crying.  They cannot stand the loss of their loved one, and kill themselves with the nearest penknife they can find. {2}</value>
   </string>
   <string key="AskDoppelganger">
     <value>Whose blood do you want to suck if they die?</value>
   </string>
-  <string key="AskCupid1">
-    <value>Who do you want the lovers to be? Choose the first player</value>
+  <string key="AskRecruiter1">
+    <value>Who do you want the crewmates to be? Choose the first player</value>
   </string>
-  <string key="AskCupid2">
-    <value>Who do you want the lovers to be? Choose the second player</value>
+  <string key="AskRecruiter2">
+    <value>Who do you want the crewmates to be? Choose the second player</value>
   </string>
   <string key="Hunter">
     <value>The guitarist hunter 🎯</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>Shit Stirrer 🏹</value>
   </string>
   <string key="SerialKiller">
@@ -775,15 +775,15 @@
     <!-- 0 - target's name -->
     <value>You have become the star struck one. You role model is {0}.</value>
   </string>
-  <string key="LoversWin">
-    <value>True love endures! The lovers have won!</value>
+  <string key="crewmatesWin">
+    <value>True love endures! The crewmates have won!</value>
   </string>
   <string key="HunterKilledVisiter">
     <!-- 0 - target's name -->
     <!-- 1 - role -->
     <value>In the middle of the town square, everyone finds the body of {0}, missing many body parts from an explosion. Looks like they tried to sneak up on the guitarist! Well, {1}  sure had a blasting good time.</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>A hooded figure tried to convert you to their club, but your faith in your class was too strong. Class camaraderie will always triumph!</value>
   </string>
   <string key="AlreadyOnWaitList">
@@ -867,7 +867,7 @@
   <string key="AboutFool">
     <value>The fool is told they are the all seeing eye.... when they choose to reveal someone's role at night, they are told a random role. Well a mad guess is all it is...</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>As a club member, it is your goal to convert all other players (except wolves) to your club. If at the end of the game, all living players are club members - the club wins</value>
   </string>
   <string key="AboutCH">
@@ -889,13 +889,13 @@
     <value>
       You are the vampire *DUN DUN DUN*... you come from a long line of vampires each of them sucking blood to survive. However in the recent years you have discovered that if you suck the blood of a dying person you will be able to absorb their life power and you can transform into them. You can pick a player at the start of the game and if that player dies, you will become what they were.
       Note: If the player was converted to club, you will take on their original role. All other normal rules apply: If they were star struck and their role model died, you will become the tutor's lackey. Otherwise, you will inherit their role model.
-      The club cannot convert the Doppelgänger (but can after the doppelganger switches roles). Also - the vampire can NOT win unless they have transformed. If at the end of the game, the vampire is still the same, they lose cause you die after starving from the lack of blood. (exception: lover cause love is the strongest force out there. Ha made you cringe)
+      The club cannot convert the Doppelgänger (but can after the doppelganger switches roles). Also - the vampire can NOT win unless they have transformed. If at the end of the game, the vampire is still the same, they lose cause you die after starving from the lack of blood. (exception: crewmate cause love is the strongest force out there. Ha made you cringe)
     </value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>
       Love is in the air. Armed with the world's most hyper active mind and the most lacklustre attitude your aim is to make the life of those shipped together as painful as possible. As the shit stirrer, you will choose two players at the start of the game. These two players will forced to be madly in love! All you use is a single rumour and poof an entire new ship will happen!  If one of them dies, the other will die of sorrow :(
-      Note: Lovers will know who each other are, but not be told their roles. If the lovers are the last two alive, they win, regardless of teams. If the lovers are on different teams (class + tutor's team), and one team wins (tutor's team), the lover (class student) wins as well. TL;DR if at least one of the lovers was on the winning team, they both win together.
+      Note: crewmates will know who each other are, but not be told their roles. If the crewmates are the last two alive, they win, regardless of teams. If the crewmates are on different teams (class + tutor's team), and one team wins (tutor's team), the crewmate (class student) wins as well. TL;DR if at least one of the crewmates was on the winning team, they both win together.
     </value>
   </string>
   <string key="AboutHunter">
@@ -906,7 +906,7 @@
     </value>
   </string>
   <string key="AboutSK">
-    <value>That asylum was silly anyways. What a joke. It's time to rewield your weapons and wreck havoc on the world. Back to business as usual - killing and art! Class killer is a lone player, on their own team. She can win only if they are the last player alive (exception: lovers). As the class killer, you can kill ANYONE - tutor's lackeys, demolitions experts, martial artists, guardians, whatever. If the tutor's lackeys try to attack you, you will kill one of them (random), and live.</value>
+    <value>That asylum was silly anyways. What a joke. It's time to rewield your weapons and wreck havoc on the world. Back to business as usual - killing and art! Class killer is a lone player, on their own team. She can win only if they are the last player alive (exception: crewmates). As the class killer, you can kill ANYONE - tutor's lackeys, demolitions experts, martial artists, guardians, whatever. If the tutor's lackeys try to attack you, you will kill one of them (random), and live.</value>
   </string>
   <string key="AboutPara">
     <value>Para is a silly developer that likes to bark at people.  Maybe he's been messing with tutor's lackeys too long....Messing with tutor's lackeys is a very bad idea.</value>
@@ -1074,10 +1074,10 @@
   <string key="AllowTannerA">
     <value>Happy tanner as a role set to: {0}</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>Allow club as a role option?\nCurrent: {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>club as a role set to: {0}</value>
   </string>
   <string key="EnableSecretLynchQ">
@@ -1236,7 +1236,7 @@
   <string key="SerialKillerTeam" deprecated="true">
     <value>SK Team</value>
   </string>
-  <string key="CultTeam" deprecated="true">
+  <string key="zoombiesTeam" deprecated="true">
     <value>club Team</value>
   </string>
   <string key="TannerTeam" deprecated="true">
@@ -1255,13 +1255,13 @@
   <string key="SerialKillerTeamEnd">
     <value>SK Team</value>
   </string>
-  <string key="CultTeamEnd">
+  <string key="zoombiesTeamEnd">
     <value>club Team</value>
   </string>
   <string key="TannerTeamEnd">
     <value>Tanner Team</value>
   </string>
-  <string key="CultConvertWolf">
+  <string key="zoombiesConvertWolf">
     <value>The club sends {0} to try to convert {1}, but instead {0}'s body comes flying out of the Window... together with a stack of chemistry notes! Looks like he needs to brush up in his Chemical equilibria...{0} is dead...</value>
   </string>
 
@@ -1281,7 +1281,7 @@
   <string key="ZombieKilled">
     <value>{0} was found stabbed to death with a their handphone shoved into their chest playing a classical meldey. Looks like the killer is more refined than we realized... The class killer has struck again, regardless of race, language or religion! {0} was a club member.</value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>The next morning, the class was heartbroken to find {0} a.k.a. shit stirrer split from head to toe. Strangely the heart was missing and on {0} 's instagram page we see a picture of their mutilated body with the hashtage "#art"... </value>
   </string>
   <string key="DrunkKilled">
@@ -1314,11 +1314,11 @@
     <value>The class wakes up in the morning, only to find the severed body parts of {0}, the ACT rep, in a cart placed in full view outside the hall. Lesson learnt: don't visit the class killer!</value>
     <value>The body of {0}, the ACT rep, was found in the middle of class, albeit cut precisely, forming a 27 by 22 artwork of chunks of flesh. Checking if the class killer was a club member does not seem to be a good idea...</value>
   </string>
-  <string key="CultConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
-    <value>While it seemed that the teacher's lackeys decided to stay good for once, punishing {0}, a club member that decided to court trouble with the lackeys, proved too difficult to resist. {0}'s head was converted to a fine punching bag, delivered to the lackeys' doorsteps!</value>
+  <string key="zoombiesConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
+    <value>While it seemed that the teacher's lackeys decided to stay good for once, punishing {0}, a club member that decided to court trouble with the lackeys, proved too diffizoombies to resist. {0}'s head was converted to a fine punching bag, delivered to the lackeys' doorsteps!</value>
     <value>The club ran into unexpected trouble last night. Their newest member had the misfortune of visiting the tutor's lackey on the night the tutor's lackeys decided to stay home, and the tutor's lackey found {0} quite susceptible to physical cohesion after using Book 7: unemployment to whack him senseless. Unfortunately for {0}, teacher's lacheys have no interest in joining the new club movement.</value>
   </string>
-  <string key="CultConvertKillerPublic"> <!--used when Zombies convert the SK-->
+  <string key="zoombiesConvertKillerPublic"> <!--used when Zombies convert the SK-->
     <value>The club thought they would have a new member in their ranks, but they were wrong! {0}, a club member, was minced to pieces and placed at the town square in the morning! Strangely their "holy" book was found stabbed with a knife, as if a statement to show whose religion was triumphant.</value>
     <value>Last night, the club tried to convert the one person in the village crazier than they are. Their newest member tried to convert the class killer, and the class killer made a new piece of art in the town square of {0}'s internal organs.</value>
   </string>
@@ -1401,7 +1401,7 @@
     <!-- NOTE: No space between {0} and joined. It will be added in the code if necessary-->
     <value>{0}joined the game in the last 30 seconds.</value>
   </string>
-  <string key="AllowCult">
+  <string key="Allowzoombies">
     <value>Allow club</value>
   </string>
   <string key="AllowTanner">

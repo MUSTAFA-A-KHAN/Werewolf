@@ -83,7 +83,7 @@ $.extend($.jgrid,{
 	},
 // setcolumns module
 	col : {
-		caption: "Mostrar/ocultar columnes",
+		caption: "Mostrar/ozoombiesar columnes",
 		bSubmit: "Enviar",
 		bCancel: "Cancelar"	
 	},

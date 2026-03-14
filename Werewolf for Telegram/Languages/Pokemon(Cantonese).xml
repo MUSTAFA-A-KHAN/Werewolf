@@ -423,33 +423,33 @@
         <!-- 1 - target name -->
         <value>【{0}】話想化石光線射係【{1}】嘅身上，令佢變做菊石獸</value>
     </string>
-    <string key="CultConvertZombieHunter">
+    <string key="zoombiesConvertZombieHunter">
         <!-- 0 - Yougest Zombie (killed)'s name' -->
         <!-- 1 - ZombieHunter's name -->
         <value>菊石獸 【{0}】想向【{1}】使出化石光線，令【{1}】都變成菊石獸 ...很可惜, 他是你嘅死敵萬年蟲。【{0}】嘅化石光線被反射，令自己化成石頭，碎到一地都係！</value>
     </string>
-    <string key="ZombieHunterKilledCultVisit">
+    <string key="ZombieHunterKilledzoombiesVisit">
         <!-- 0 - Youngest Zombie's name -->
         <!-- 1 - Number of Zombies left -->
         <value>【{0}】嘅菊石獸來將你變做菊石獸，可惜被你嘅萬年蟲用原始之力殺害了，你要消滅嘅螺旋教會還剩下【{1}】個人!</value>
     </string>
-    <string key="CultConvertYou">
+    <string key="zoombiesConvertYou">
         <value>有菊石獸用化石光線令你變成菊石獸。你唔再係之前嘅小精靈，不過你會成為擁有螺旋神力嘅菊石獸教徒，可以在晚上與其他菊石獸商量，決定下次對邊隻小精靈使用化石光線令佢都變成菊石獸。</value>
     </string>
-    <string key="CultTeam">
+    <string key="zoombiesTeam">
         <!-- 0 - Number of Zombies -->
         <value>螺旋神教菊石獸數目: 【{0}】</value>
     </string>
-    <string key="CultJoin">
+    <string key="zoombiesJoin">
         <!-- 0 - new Zombie's name -->
         <value>【{0}】加入了螺旋神教!</value>
     </string>
-    <string key="CultVisitEmpty">
+    <string key="zoombiesVisitEmpty">
         <!-- 0 - Newest Zombie's name -->
         <!-- 1 - target name -->
         <value>菊石獸【{0}】想對【{1}】嘅小精靈使用化石光線...但可惜佢同佢嘅小精靈出咗街!</value>
     </string>
-    <string key="CultWins" isgif="true">
+    <string key="zoombiesWins" isgif="true">
         <value >火箭兵團已經被滅團了，耿鬼、萬年蟲都消失了。依家全場只剩下菊石獸，全世界都祟拜住偉大嘅神奇海縲，God praise helix,係菊石獸們嘅勝利!!!</value>
     </string>
     <string key="HunterVisitDead">
@@ -553,7 +553,7 @@
         <value> 比卡超粉絲會嘅會員有:【{0}】</value>
     </string>
     <!-- new strings May 6 2016-->
-    <string key="CultTargetDead">
+    <string key="zoombiesTargetDead">
         <!-- 0 - Youngest Zombies name -->
         <value>你派出菊石獸【{0}】去使出化石光線，令其他人成為螺旋教徒菊石獸。但今日你發現教派中【{0}】嘅菊石獸竟然莫名其妙失去戰鬥力，仲化成咗碎片！成員少咗一件！</value>
     </string>
@@ -562,7 +562,7 @@
         <value>火箭兵團想抓【{0}】嘅小精靈。可惜幸運蛋一早已設下光牆, 你嘅奸計無法得逞，只好同你嘅隊員重新討論要抓邊只精靈。</value>
     </string>
     <!-- new strings May 9 2016-->
-    <string key="CultUnableToConvert">
+    <string key="zoombiesUnableToConvert">
         <!-- 0 - newest  -->
         <!-- 1 - target's name -->
         <value>你派【{0}】嘅菊石獸向【{1}】發射化石光線,但【{1}】嘅小精靈擁有好勁的牽絆，叫佢避開就避開，仲快過小明上廣州。為免節外生枝，【{0}】只好偃旗息鼓，等下次機會。:(</value>
@@ -573,7 +573,7 @@
         <!-- 1 - name -->
         <value>@【{1}】，你個名同【{0}】撞咗。請你改咗名先入村。你地條條死魚嗰樣已經一樣咁，依加連名都一樣，我點分啊？你改下個名先入村。</value>
     </string>
-    <string key="HarlotDiscoverCult">
+    <string key="HarlotDiscoverzoombies">
         <!-- 0 - target's name -->
         <value>【{0}】嘅紅唇蛙發覺想錫嘅目標竟然是菊石獸，佢唔想自己變成菊石獸，所以帶著驚慌嘅表情趕快跑回家。</value>
     </string>
@@ -671,7 +671,7 @@
         <value>咁撚小事都決定唔到，點可以搞掂你隻小精靈啊！（夠鐘！）</value>
     </string>
     <!-- new strings june 10 2016 -->
-    <string key="RoleInfoCupid">
+    <string key="RoleInfoRecruiter">
         <value>你擁有仙子伊貝🏹. 你可以選擇兩隻你認為好friend嘅小精靈，一旦其中一隻死亡，另一隻也會因為失去摰友而自殺。</value>
     </string>
     <string key="RoleInfoDoppelganger">
@@ -716,7 +716,7 @@
         <!-- 2 - target's role -->
         <value>【{0}】命令小火龍燒死【{1}】既小精靈，【{1}】太傷心，陪著小精靈係熊熊烈火下一齊變成灰燼。【{2}】</value>
     </string>
-    <string key="CultConvertSerialKiller">
+    <string key="zoombiesConvertSerialKiller">
         <value>【{0}】嘅菊石獸向對【{1}】既小精靈使出化石光線! 點知對方一下影潛避開，仲使出影子球反擊。重創【{0}】嘅菊石獸，【{0}】馬上求饒，但只係換來對方連續發射嘅影子球。喺【{0}】嘅菊石獸臨死之前，隱約望到佢個對邪惡而奸狡嘅眼神，聽到佢陰險嘅奸笑聲，佢原來係耿鬼！【{0}】嘅菊石獸失去戰鬥能力！</value>
     </string>
     <string key="HunterShotWolfMulti">
@@ -739,7 +739,7 @@
         <!-- 0 - target's name -->
         <value>你嘅耿鬼諗住去打敗【{0}】嘅小精靈，可惜佢嘅小精靈一早就已經被幸運蛋嘅光牆保護了，唔理你點樣攻擊都好，光牆都將你的攻擊視為無物。你帶著失敗又累的身軀去搵下一場的戰鬥。</value>
     </string>
-    <string key="CultConvertHunter">
+    <string key="zoombiesConvertHunter">
         <!-- 0 - Youngest Zombie's name -->
         <!-- 1 - target's name -->
         <value>【{0}】嘅菊石獸向對【{1}】使出化石光線!但訓練員【{1}】本身就不屑這種無恥嘅行為，他命令小火龍對菊花神教教徒進行暗殺行動。【{0}】就這樣俾小火龍暗殺咗。。。。</value>
@@ -763,11 +763,11 @@
         <!-- 1 - mason collegues's name -->
         <value>【{0}】嘅比卡超失去知覺，而百變怪取代咗佢。比卡超粉絲會嘅成員就是他們: 【{1}】</value>
     </string>
-    <string key="DGToCult">
+    <string key="DGTozoombies">
         <!-- 0 - new Zombie's name -->
         <value>【{0}】嘅百變怪化身成為菊石獸，恭喜你成為螺旋神教嘅門徒。</value>
     </string>
-    <string key="DGTransformToCult">
+    <string key="DGTransformTozoombies">
         <!-- 0 - role's name -->
         <!-- 1 - teammates's name -->
         <value>【{0}】嘅菊石獸係海底洞穴見到D特別嘅海螺，可惜匿埋係一二邊嘅巨牙鯊突然殺出來食咗佢。而你嘅百變怪變咗菊花獸.這些都是你螺旋神教嘅老友記:【{1}】</value>
@@ -787,25 +787,25 @@
     <string key="AskKill">
         <value>耿鬼，你今晚想殺咗邊個嘅小精靈？</value>
     </string>
-    <string key="LoverDied">
+    <string key="crewmateDied">
         <!-- 0 - dead's name -->
-        <!-- 1 - lover's name -->
+        <!-- 1 - crewmate's name -->
         <!-- 2 - roles -->
         <value>隨著訓練員【{0}】嘅小精靈死亡,【{1}】嘅小精靈覺得傷心欲絕，佢無法承受咁大嘅悲痛，所以將自己幻化成為一道光，同愛侶消失係呢個世界。【{2}】</value>
     </string>
     <string key="AskDoppelganger">
         <value>你想你的百變怪，變做同邊個訓練員一樣嘅小精靈？</value>
     </string>
-    <string key="AskCupid1">
+    <string key="AskRecruiter1">
         <value>仙子伊貝，1st ask 請選擇一位你希望他們超越友誼既小精靈訓練員。</value>
     </string>
-    <string key="AskCupid2">
+    <string key="AskRecruiter2">
         <value>仙子伊貝，2nd ask 請選擇另一位你希望他們超越友誼既小精靈訓練員</value>
     </string>
     <string key="Hunter">
         <value>小火龍🎯</value>
     </string>
-    <string key="Cupid">
+    <string key="Recruiter">
         <value>仙子伊貝🏹</value>
     </string>
     <string key="SerialKiller">
@@ -814,8 +814,8 @@
     <string key="Doppelgänger">
         <value>百變怪🎭</value>
     </string>
-    <string key="CupidChosen">
-        <!-- 0 - lover's name -->
+    <string key="RecruiterChosen">
+        <!-- 0 - crewmate's name -->
         <value>你嘅小精靈同【{0}】嘅小精靈中咗仙子伊貝嘅愛神祝福，並願意全心全意嘅愛著他/她。若他/她嘅小精靈死亡，你嘅精靈都會陪佢嘅小精靈一齊告別擂台。</value>
         <value>你嘅精靈視【{0}】嘅小精靈為最重要的同伴，如果【{0}】嘅小精靈唔好彩咁被人殺死或者捉走嘅話，你既小精靈都會處於一樣嘅狀態!</value>
     </string>
@@ -823,7 +823,7 @@
         <!-- 0 - target's name -->
         <value>你嘅百變怪變咗做果然翁👶，你擇嘅對象係【{0}】</value>
     </string>
-    <string key="LoversWin">
+    <string key="crewmatesWin">
         <value>愛是最大權利！【戀人】自私贏！</value>
         <value>完了吧，如無意外，從今開始該好好戀愛！超越友誼嘅2隻小精靈，經歷咗重重嘅困難，終於可以有情人終成眷屬、甜甜蜜蜜咁盡情享受二人世界啦!！</value>
     </string>
@@ -832,7 +832,7 @@
         <!-- 1 - role -->
         <value>你嘅小精靈小火龍，因為任性嘅佢係死之前仲是要噴出佢最後一團火，將【{0}】嘅小精靈燒死咗。【{1}】</value>
     </string>
-    <string key="CultAttempt">
+    <string key="zoombiesAttempt">
         <value>螺旋神教嘗試對你使用化石光線，可惜你嘅小精靈身上散發住異樣嘅光芒將化石光線嚇走咗，所以你無法成為螺旋神教。</value>
     </string>
     <string key="AlreadyOnWaitList">
@@ -915,7 +915,7 @@
     <string key="AboutFool">
         <value>【Fool 白痴仔🃏：小呆獸】\nBot會呃你係富迪，但可惜你唔係，當你用不斷念力睇人地咩精靈時，bot會求奇同你講一種類精靈，但依然會有有可能睇中嘅。</value>
     </string>
-    <string key="AboutCult">
+    <string key="Aboutzoombies">
         <value>【Zombie 邪教魔徒⚰：菊石獸】\n1. 每晚你會使出化石光線，令其他人變成菊石獸，去追隨你成為螺旋神教教徒。(火箭兵團，耿鬼不能變做菊石獸)\n2. 如果啲人夜晚離開咗間屋，你就不能對佢使用化石光線 ，小心唔好入錯耿鬼、化石盔/萬年蟲屋企，佢會反殺其中一隻菊石獸。\n3. 最後如果每個訓練員都加入到螺旋神教，成為    菊石獸 ，所有教徒就會一齊贏。\n4. 變咗做菊石獸嘅人會失去原來嘅身份。\n5. 百變怪唔會被變造菊石獸；另外耿鬼、萬年蟲，會反射化石光線，立刻殺咗其中一隻菊石獸。\n6. 比卡超、爛泥怪、天然雀、小火龍、喵喵怪、尤基納、果然翁、小呆獸、仙子伊貝、皮皮一定會被變成菊石獸。其他人變做菊石獸嘅機率︰富迪 40%，水箭龜50%，果然翁60%，幸福蛋60%，探探鼠70%，紅唇蛙70%。如果水箭龜拒絕咗你，佢有50% 會殺你。
         </value>
     </string>
@@ -941,9 +941,9 @@
             【Doppelgänger 分身🎭：百變怪】\n百變怪能夠輕易模仿任何一個小精靈嘅外表及能力, 你可以選擇一位玩家嘅小精靈, 如果玩家嘅精靈死了/被抓你嘅百變怪就會變成該小精靈。備註：就算原有小精靈死前入咗螺旋神教變成菊石獸，你仍然可以復制真身入教嘅能力。如果真身係果然翁而佢既替死鬼死咗，你就會變成火箭兵團成員。反之，你就要等替死鬼死。除非百變怪變成其他小精靈，否則們螺旋神教是拉不到到百變怪嘅。
         </value>
     </string>
-    <string key="AboutCupid">
+    <string key="AboutRecruiter">
         <value>
-            【Cupid 丘比特🏹：仙子伊貝】\n你能令兩只很親密既小精靈變成超越友情既戀人，佢地入面其中一個死咗，另一個都會傷心至死。\n備註：訓練員會知道相連嘅人是誰，但不會知道相連嘅是什麼小精靈。勝利條件就是雙方都活著，或者至少任何一方所屬嘅身份隊伍勝出，依然可以獲勝。
+            【Recruiter 丘比特🏹：仙子伊貝】\n你能令兩只很親密既小精靈變成超越友情既戀人，佢地入面其中一個死咗，另一個都會傷心至死。\n備註：訓練員會知道相連嘅人是誰，但不會知道相連嘅是什麼小精靈。勝利條件就是雙方都活著，或者至少任何一方所屬嘅身份隊伍勝出，依然可以獲勝。
         </value>
     </string>
     <string key="AboutHunter">
@@ -1121,10 +1121,10 @@
     <string key="AllowTannerA">
         <value>已【{0}】玩家抽中皮皮</value>
     </string>
-    <string key="AllowCultQ">
+    <string key="AllowzoombiesQ">
         <value>允許菊石獸出現在遊戲裡?\n目前: 【{0}】。</value>
     </string>
-    <string key="AllowCultA">
+    <string key="AllowzoombiesA">
         <value>已【{0}】玩家抽中菊石獸</value>
     </string>
     <string key="ThankYou">
@@ -1281,7 +1281,7 @@
     <string key="SerialKillerTeam">
         <value>耿鬼</value>
     </string>
-    <string key="CultTeam">
+    <string key="zoombiesTeam">
         <value>螺旋神教</value>
     </string>
     <string key="TannerTeam">
@@ -1300,13 +1300,13 @@
     <string key="SerialKillerTeamEnd">
         <value>耿鬼</value>
     </string>
-    <string key="CultTeamEnd">
+    <string key="zoombiesTeamEnd">
         <value>螺旋神教</value>
     </string>
     <string key="TannerTeamEnd">
         <value>皮皮</value>
     </string>
-    <string key="CultConvertWolf">
+    <string key="zoombiesConvertWolf">
         <value>螺旋教嘅教徒派【{0}】對【{1}】發射化石光綫，但係【{0}】嘅慘叫聲清楚咁傳入螺旋教教徒嘅耳邊，佢哋明白到呢陣咁淒慘嘅叫聲代表【{0}】 已經俾火箭兵團收服咗啦.
         </value>
     </string>
@@ -1323,7 +1323,7 @@
     <string key="ZombieKilled">
         <value>一朝早,班訓練員見到鯉魚湖岸邊有堆海螺碎片，碎片旁邊仲有很多斷掉的觸手。現場血跡斑斑，卻冇訓練員認得出是誰的傑作。剛巧路徑此地旅行的国际警察默丹憑著其豐富的破案經驗一眼就看出了【{0}】嘅菊石獸係慘遭最近犯下多宗小精靈謀殺案嘅耿鬼毒手。</value>
     </string>
-    <string key="CupidKilled">
+    <string key="RecruiterKilled">
         <value>一天光，訓練員聽到心形橋附近傳出了超高分貝的慘叫聲，就連平時叫極都唔醒嘅卡比獸都嚇到衝出屋企，去看熱鬧。\n黎到橋上，眾人嘅目光都被【{0}】嘅仙子伊貝吸引住，但被吸引嘅原因並唔係仙子伊貝優美嘅姿態。反而係仙子伊貝一雙水晶藍的眼睛變成了什麼也沒有的空洞。\n更慘嘅係佢頭頂和脖子上嘅觸角都被銳爪整傷到面目全非。原來係心存恨意嘅耿鬼唔鍾意見到世上有愛存在，用暗影爪毀掉了仙子伊貝想散播愛的夢想。</value>
     </string>
     <string key="DrunkKilled">
@@ -1354,10 +1354,10 @@
     <string key="SerialKillerKilledCH"> <!--used when CH visits SK-->
         <value>早上的時候，一心想剷除螺旋神教的萬年蟲被訓練員發現掛在路邊的燈柱上，死去的萬年蟲已經扁到好似張紙咁。訓練員亦可以清晰見到【{0}】嘅萬年蟲身上有着被耿鬼攻擊而留下的拳印。萬年蟲無法再繼續完成他的使命，螺旋神教又變得更難阻止啦！</value>
     </string>
-    <string key="CultConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
+    <string key="zoombiesConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
         <value>本來火箭兵團打算留在基地休息一日，點知【{0}】嘅菊石獸自己送上門，打算對火箭兵團的成員使出化石光線。有免費小精靈送上門，火箭兵團當然唔會錯過這個千載難逢的機會。菊石獸還來不及發射化石光線，就被火箭兵團用大師球抓住咗，拎去整糖咯。</value>
     </string>
-    <string key="CultConvertKillerPublic"> <!--used when Zombies convert the SK-->
+    <string key="zoombiesConvertKillerPublic"> <!--used when Zombies convert the SK-->
         <value>尋晚班螺旋神教諗住搵個新教徒入教啦，點知搵錯對象，走咗去耿鬼屋企。耿鬼雙眼發亮，一個迅速移動，手刀落下，將菊石獸劈碎咗。訓練員起身之後，見到村口有【{0}】嘅菊石獸死咗而留下的碎片。</value>
     </string>
     <string key="GAGuardedKiller">
@@ -1442,7 +1442,7 @@
     <!-- {0} = list of people who have joined -->
     <value>{0} 在最後30秒時報名加入了寵物小精靈大賽。</value>
   </string>
-    <string key="AllowCult">
+    <string key="Allowzoombies">
     <value>允許菊石獸</value>
   </string>
   <string key="AllowTanner">

@@ -455,12 +455,12 @@
     <value>{0} wants share their spice mix recipe with {1} so that they could cook delicious vegan treats</value>
     <value>{0} votes to share their vegan lunchbox with {1}</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
 <!-- 0 - Yougest Zombie (killed)'s name' -->
 <!-- 1 - ZombieHunter's name -->
     <value>Today, it was {0}'s turn to inspire one of the staff to become a vegan. However, they chose {1} out of everyone, who was the Butcher Chef 🍖(💂)! Seems like the Butcher rejected their lunchbox offer and even mixed in a bit of meat into {0}'s lunchbox...Finding they have been given meat for lunch, {0} resigned and left in a great rage.</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
 <!-- 0 - Youngest Zombie's name -->
 <!-- 1 - Number of Zombies left -->
     <value>During lunchtime, {0}'s tried to impress you with their vegetable tempura bento 🥑(👤), but you refused them and even snuck in a piece of meat into their lunchbox while they were distracted. Hopefully they will get so angry that they resign from the restaurant! Muahaha! There are {1} Vegan Chefs left.</value>
@@ -468,23 +468,23 @@
     <value>During lunchtime, {0}'s tried to impress you with their pasta primavera 🥑(👤), but you refused them and even snuck in a piece of meat into their lunchbox while they were distracted. Hopefully they will get so angry that they resign from the restaurant! Muahaha! There are {1} Vegans left.</value>
     <value>During lunchtime, {0}'s tried to impress you with their curry broccoli 🥑(👤), but you refused them and even snuck in a piece of meat into their lunchbox while they were distracted. Hopefully they will get so angry that they resign from the restaurant! Muahaha! There are {1} Vegans left.</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>You applied to become a Vegan Chef 🥑(👤) today after you tasted a delicious vegan lunchbox! You will continue to spread veganism in this kitchen by choosing to share your lunchbox with one person per day. You win if everyone in the restaurant turns vegan!</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
 <!-- 0 - Number of Zombies -->
     <value>The other Vegan Chefs 🥑(👤) are: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
 <!-- 0 - new Zombie's name -->
     <value>{0} was very inspired and decided to apply to become a Vegan Chef!</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
 <!-- 0 - Newest Zombie's name -->
 <!-- 1 - target name -->
     <value>{0} tried to share their delicious vegan lunchbox with {1}, but they were nowhere to be found! Were they in the back-alley?</value>
   </string>
-  <string key="CultWins">
+  <string key="zoombiesWins">
     <value>Roasted garbanzo carrot soup, sesame broccolini and tofu salad, Artiste miso risotto.... the restaurant's menu has turned vegan 🥑(👤) too after everyone in the kitchen embraced veganism! Who cares about competitors taking away our 3 Michelin stars? All Hail Kale!</value>
     <value>Mongolian Seitan salad, Colorado Seitan burgers, lentil Seitan Salisburg steak... the restaurant's menu has turned vegan 🥑(👤) too after everyone in the kitchen embraced Seitan-ism! Who cares about competitors taking away our 3 Michelin stars? All Hail Seitan!</value>
   </string>
@@ -595,7 +595,7 @@
   <string key="MasonTeam">
     <value> The Sashimi Chefs are: {0}. So desu ne!</value>
   </string>
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
 <!-- 0 - Youngest Zombies name -->
     <value>You tried to share your delicious vegan lunchbox with {0}, but you learnt that they had left the restaurant.....</value>
   </string>
@@ -603,7 +603,7 @@
 <!-- 0 - target's name -->
     <value>The Talent Poachers were about to invite {0} into the back-alley when they saw the Safety Supervisor ⚠️(👼) get to {0} first. Since it's likely that the Safety Supervisor will give {0} a long lecture, everyone decided to return to their stations and continue "working".</value>
   </string>
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
 <!-- 0 - newest  -->
 <!-- 1 - target's name -->
     <value>{0} tried to share their delicious vegan lunchbox with {1}, but they didn't like it! Maybe you can try to inspire them again on another day~</value>
@@ -613,7 +613,7 @@
 <!-- 1 - name -->
     <value>@{1}, a player with the name {0} has already joined.  Please change your name to join.</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
 <!-- 0 - target's name -->
 <!-- new string May 13 2016-->
     <value>You took {0} into the back-alley for some lunchtime chit-chat, during which you learnt that they had something called "Seitan" for lunch? Isn't that what the Vegan Chefs 🥑(👤) love to eat?</value>
@@ -717,7 +717,7 @@
 <!-- new strings june 10 2016 -->
     <value>Time's up!</value>
   </string>
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
     <value>You are the Barista ☕️(🏹) . Your job is to operate the corner café of the restaurant. Each season, you receive only one shipment of the expensive Hacienda El Roble coffee beans from Colombia. These beans are so rare that only celebrity-class customers would order them. Even you are not allowed to take a sip without paying... However, the restaurant director allows you to brew two cups of this exotic coffee and give them to two of the staff for taste-testing, just for them to give you some feedback. The coffee is so exotic and interesting that these two staff will start researching the art of coffee brewing and work closely together, even leaving the restaurant together if any one decides to leave.</value>
   </string>
   <string key="RoleInfoDoppelganger">
@@ -729,7 +729,7 @@
   <string key="RoleInfoSerialKiller">
     <value>You are the Vengeful Customer ☠️(🔪).  You once got a serious allergy while eating this restaurant's signature seafood dish, but when you were wriggling on the floor with hives spreading across your face, no staff helped you because everyone was busy singing "~Happy Birthday~" to their VIP guest... You came back to take revenge by disguising yourself as a chef and triggering allergic reactions for one staff per day. Surely they will learn to never leave a customer unattended again! MUAHAHAHA</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>You were chosen to taste the rare Hacienda Le Roble coffee prepared by the Barista ☕️(🏹). You and {0} were fascinated by the deep layers of bitterness and the lingering taste of Colombian soil, so much so that you decided to study the art of coffee brewing together. \n\nYour dream is to be alone with {0} and turn this restaurant into your own café! If {0} leaves the restaurant for any reason, you will follow them and together chase your dreams of starting your own café.</value>
   </string>
   <string key="HunterLynchedChoice">
@@ -791,7 +791,7 @@
     <value>{0} was just decorating a plate with some edible flowers when their nose started bleeding uncontrollably. They were soon rushed to the hospital due to a serious intrinsic allergy ☠️(🔪). How could this have happened? {1}</value>
     <value>{0} was just assembling a croquembouche when their hands started trembling uncontrollably. They were soon rushed to the hospital due to a serious intrinsic allergy ☠️(🔪). How could this have happened? {1}</value>
     <value>{0} was just cleaning some ladles when they fainted and fell head first into the sink. They were soon rushed to the hospital due to a serious intrinsic allergy ☠️(🔪). How could this have happened? {1}</value>
-    <value>{0} was just toasting some croutons when they started to wheeze and feel difficulty breathing. They were soon rushed to the hospital due to a a serious intrinsic allergy ☠️(🔪). How could this have happened? {1}</value>
+    <value>{0} was just toasting some croutons when they started to wheeze and feel diffizoombiesy breathing. They were soon rushed to the hospital due to a a serious intrinsic allergy ☠️(🔪). How could this have happened? {1}</value>
   </string>
   <string key="GuardBlockedKiller">
 <!-- 0 - target's name -->
@@ -799,12 +799,12 @@
     <value>You spread some of your allergen powder on your latex gloves and was about to go shake {0}'s hand when you saw them being dragged into the back-alley by the Safety Supervisor ⚠️(👼)! Better luck tomorrow...</value>
     <value>You added some chlorine to {0}'s cup of water watched from afar... just as they were about to drink it, they were stopped by the Safety Supervisor ⚠️(👼) who asked them to only drink fluids in the common room! Better luck tomorrow...</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
 <!-- 0 - Youngest Zombie's name -->
 <!-- 1 - target's name -->
     <value>The Vegan Chef 🥑(👤) {0} tried to inspire {1} to try their vegan lunchbox, in which they did... but gave a lengthy, critical review about the food in it afterwards 🖋(🎯). {0} feels utterly ashamed that despite 5 years of culinary school, that they were unable to appreciate and critique food the way {1} could. {0} resigned immediately and decided to go back to culinary school...</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
 <!-- 0 - Youngest Zombie's name -->
 <!-- 1 - target's name -->
     <value>The Vegan Chef 🥑(👤) {0} tried to share their lunchbox with {1}. What a pleasant surprise when {1} not only accepted their offer, but gave {0} a tasty, 100% vegan nutty bar afterwards! The bar was actually a curse in disguise because after {0} ate it, hives started spreading across their face and they were rushed to hospital immediately ☠️(🔪)!</value>
@@ -828,11 +828,11 @@
 <!-- 1 - mason collegues's name -->
     <value>Because {0} has left the restaurant, you were assigned to replace them as the new full-time Sashimi Chef 🍣(👷), working next to {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
 <!-- 0 - new Zombie's name -->
     <value>The Management Trainee 🙇(🎭) {0} has completed their education and was assigned to be a Vegan Chef just like you!</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
 <!-- 0 - role's name -->
 <!-- 1 - teammates's name -->
     <value>Because {0} has left the restaurant, you were assigned to replace them as the new full-time Vegan Chef 🥑(👤), working next to {1}</value>
@@ -852,25 +852,25 @@
   <string key="AskKill">
     <value>Who do you want to send to the hospital today by triggering an allergic reaction on them?</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
 <!-- 0 - dead's name -->
-<!-- 1 - lover's name -->
+<!-- 1 - crewmate's name -->
 <!-- 2 - roles -->
     <value>Following {0}, {1} decided to resign as well. They were both entranced by the deep flavours of the Hacienda Le Roble coffee that the Barista ☕️(🏹) let them taste, so much so that they would continue to research the wonders of coffee and open a café together. {2}</value>
   </string>
   <string key="AskDoppelganger">
     <value>Which staff's job will you take up when they leave the restaurant?</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>The first cup of Hacienda Le Roble coffee is ready! Who should taste this cup?</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>The second cup of Hacienda Le Roble coffee is ready! Who should taste this cup?</value>
   </string>
   <string key="Hunter">
     <value>the Food Critic 🖋(🎯)</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>the Barista ☕️(🏹)</value>
   </string>
   <string key="SerialKiller">
@@ -883,15 +883,15 @@
 <!-- 0 - target's name -->
     <value>Because the Commis Chef 🧅(👶) has left the restaurant, you were assigned to replace them as the new full-time Commis Chef... which means you are still going to have a mentor (yippee...). Your mentor is {0} and you will join the competitor's restaurant as a Talent Poacher 🍔(🐺) in frustration if they ever leave the restaurant.</value>
   </string>
-  <string key="LoversWin">
-    <value>Could this be? The lucky chefs who had the chance to taste the two cups of Hacienda La Roble coffee ☕️(🏹) found themselves as the only one left standing in this elegantly decorated Michelin 3-star restaurant. Even the Barista who served them the coffee has left. Finally, they can sell the restaurant and open their own café to spread their love of coffee. The coffee-lovers have won!</value>
+  <string key="crewmatesWin">
+    <value>Could this be? The lucky chefs who had the chance to taste the two cups of Hacienda La Roble coffee ☕️(🏹) found themselves as the only one left standing in this elegantly decorated Michelin 3-star restaurant. Even the Barista who served them the coffee has left. Finally, they can sell the restaurant and open their own café to spread their love of coffee. The coffee-crewmates have won!</value>
   </string>
   <string key="HunterKilledVisiter">
 <!-- 0 - target's name -->
 <!-- 1 - role -->
     <value>The staff walk into the common room and find the resignation letter of {0}. It is a detailed and emotional letter where {0} explained how humiliated they felt when they were criticised by their fellow chef for their "terrible work". Could it be that one of the staff is actually a Food Critic 🖋(🎯) in disguise? {1}</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>Someone invited you to try their vegan lunchbox today 🥑(👤), but you didn't feel like trying Seitan, so you turned them down.</value>
     <value>Someone invited you to try their vegan lunchbox today 🥑(👤), but you didn't feel like trying lingonberry jam, so you turned them down.</value>
     <value>Someone invited you to try their vegan lunchbox today 🥑(👤), but you didn't feel like trying chickpea pâté, so you turned them down.</value>
@@ -986,7 +986,7 @@
   <string key="AboutFool">
     <value>You are the Chief of Operations. You work closely with the different departments and every day you need to supervise some staff to ensure they are doing their job... but that doesn't make you the Executive Chef, because you just are not experienced enough to tell chefs apart from each other. You will be able to "guess" a random job position of a staff you supervise every day.</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>You are a Vegan Chef. Your goal is to convert every staff in the restaurant to become a vegan like you. You win when everyone becomes vegan.</value>
   </string>
   <string key="AboutCH">
@@ -1007,7 +1007,7 @@
   <string key="AboutDG">
     <value>You are the Management Trainee. When the restaurant first opens, you can choose a staff whose job you will replace if they leave the restaurant. Vegan Chefs cannot persuade you to try their lunchbox because you are so busy that you never really eat... (banksad)</value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>You are the Barista, responsible for managing the corner café of the restaurant. Each season, you receive a rare shipment of Hacienda Le Roble coffee. You can only give two cups of these coffee for tasting to two staff - the rest are for our VIP customers. These two lucky staff will fall in love with the art of coffee and study about it together. They will dream of opening their own café, so much so that if one of them leaves the restaurant, the other will follow, or if they are the only two left in the restaurant, that they will sell the restaurant to open their own café. At the end of the game, if one of them is on the winning team, the other will win as well!    </value>
   </string>
   <string key="AboutHunter">
@@ -1182,11 +1182,11 @@
   <string key="AllowTannerA">
     <value>Dishwasher (Tanner) as a role set to: {0}</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>Allow Vegan Chef (Zombie) as a role option?\nCurrent: {0}</value>
   </string>
-  <string key="AllowCultA">
-    <value>Cult as a role set to: {0}</value>
+  <string key="AllowzoombiesA">
+    <value>zoombies as a role set to: {0}</value>
   </string>
   <string key="EnableSecretLynchQ">
     <value>Enable Secret Voting?\nCurrent: {0}</value>
@@ -1270,12 +1270,12 @@
     <value>Will you announce that you are planning a special event for tomorrow?</value>
   </string>
   <string key="BlacksmithSpreadSilver">
-    <value>{0} the Event Manager 🎂(⚒) announces that there would be a celebrity wedding tomorrow evening! Everyone is thrilled and worried at the same time, as they know they would have to cook their hearts out tomorrow. There will be so much work that the Talent Poachers 🍔(🐺) would find it difficult to recruit anyone tomorrow.</value>
-    <value>{0} the Event Manager 🎂(⚒) announces that there would be a baby shower event tomorrow evening! Everyone is thrilled and worried at the same time, as they know they would have to cook their hearts out tomorrow. There will be so much work that the Talent Poachers 🍔(🐺) would find it difficult to recruit anyone tomorrow.</value>
-    <value>{0} the Event Manager 🎂(⚒) announces that there would be a special retirement party tomorrow evening! Everyone is thrilled and worried at the same time, as they know they would have to cook their hearts out tomorrow. There will be so much work that the Talent Poachers 🍔(🐺) would find it difficult to recruit anyone tomorrow.</value>
-    <value>{0} the Event Manager 🎂(⚒) announces that the restaurant is celebrating its 25th anniversary tomorrow evening! Everyone is thrilled and worried at the same time, as they know they would have to cook their hearts out tomorrow. There will be so much work that the Talent Poachers 🍔(🐺) would find it difficult to recruit anyone tomorrow.</value>
-    <value>{0} the Event Manager 🎂(⚒) announces that there would be a birthday banquet for the restaurant owner's child tomorrow evening! Everyone is thrilled and worried at the same time, as they know they would have to cook their hearts out tomorrow. There will be so much work that the Talent Poachers 🍔(🐺) would find it difficult to recruit anyone tomorrow.</value>
-    <value>{0} the Event Manager 🎂(⚒) announces that there would be a big international buffet tomorrow evening! Everyone is thrilled and worried at the same time, as they know they would have to cook their hearts out tomorrow. There will be so much work that the Talent Poachers 🍔(🐺) would find it difficult to recruit anyone tomorrow.</value>
+    <value>{0} the Event Manager 🎂(⚒) announces that there would be a celebrity wedding tomorrow evening! Everyone is thrilled and worried at the same time, as they know they would have to cook their hearts out tomorrow. There will be so much work that the Talent Poachers 🍔(🐺) would find it diffizoombies to recruit anyone tomorrow.</value>
+    <value>{0} the Event Manager 🎂(⚒) announces that there would be a baby shower event tomorrow evening! Everyone is thrilled and worried at the same time, as they know they would have to cook their hearts out tomorrow. There will be so much work that the Talent Poachers 🍔(🐺) would find it diffizoombies to recruit anyone tomorrow.</value>
+    <value>{0} the Event Manager 🎂(⚒) announces that there would be a special retirement party tomorrow evening! Everyone is thrilled and worried at the same time, as they know they would have to cook their hearts out tomorrow. There will be so much work that the Talent Poachers 🍔(🐺) would find it diffizoombies to recruit anyone tomorrow.</value>
+    <value>{0} the Event Manager 🎂(⚒) announces that the restaurant is celebrating its 25th anniversary tomorrow evening! Everyone is thrilled and worried at the same time, as they know they would have to cook their hearts out tomorrow. There will be so much work that the Talent Poachers 🍔(🐺) would find it diffizoombies to recruit anyone tomorrow.</value>
+    <value>{0} the Event Manager 🎂(⚒) announces that there would be a birthday banquet for the restaurant owner's child tomorrow evening! Everyone is thrilled and worried at the same time, as they know they would have to cook their hearts out tomorrow. There will be so much work that the Talent Poachers 🍔(🐺) would find it diffizoombies to recruit anyone tomorrow.</value>
+    <value>{0} the Event Manager 🎂(⚒) announces that there would be a big international buffet tomorrow evening! Everyone is thrilled and worried at the same time, as they know they would have to cook their hearts out tomorrow. There will be so much work that the Talent Poachers 🍔(🐺) would find it diffizoombies to recruit anyone tomorrow.</value>
   </string>
   <string key="Mayor">
     <value>Gordon Ramsay 🌟(🎖)</value>
@@ -1363,13 +1363,13 @@
   <string key="SerialKillerTeamEnd">
     <value>Vengeful Customer Team</value>
   </string>
-  <string key="CultTeamEnd">
+  <string key="zoombiesTeamEnd">
     <value>Vegan Team</value>
   </string>
   <string key="TannerTeamEnd">
     <value>Dishwasher Team</value>
   </string>
-  <string key="CultConvertWolf">
+  <string key="zoombiesConvertWolf">
     <value>{0} tried to share their delicious vegan lunchbox with {1}, but soon after they returned - with a big smile in their face. They took off their chef's uniform and left the restaurant immediately!? Maybe they got a new job offer 🍔(🐺) at the competitor's restaurant...</value>
   </string>
   <string key="HarlotFuckedKilledPublic">
@@ -1389,7 +1389,7 @@
   <string key="ZombieKilled">
     <value>{0} was rushed to the hospital today after having their lunchbox. The staff are gossiping and saying that the vegan food found 🥑(👤) in their lunchbox was the cause of the allergy, although some believe that one of the spy chefs are responsible...</value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>{0} the Barista ☕️(🏹) was rushed to the hospital in the middle of the day due to a serious allergic reaction. This puzzles everyone because we all know that {0} only drank coffee and ate tiramisu for their lunches...</value>
     <value>{0} the Barista ☕️(🏹) was rushed to the hospital in the middle of the day due to a serious allergic reaction. This puzzles everyone because we all know that {0} only drank coffee and ate mocha cheesecakes for their lunches...</value>
     <value>{0} the Barista ☕️(🏹) was rushed to the hospital in the middle of the day due to a serious allergic reaction. This puzzles everyone because we all know that {0} only drank coffee and ate chocolate truffles for their lunches...</value>
@@ -1423,11 +1423,11 @@
 <!--used when CH visits SK-->
     <value>The Butcher Chef 🍖(💂) {0} was rushed to the hospital today... their face was covered with a kitchen towel when the paramedics lifted them up because they had an allergic reaction on their face! Some chefs saw that {0} was trying to check the lunchbox of a suspicious chef ☠️(🔪), but as they opened the lunchbox they were sprayed with some weird, acidic substances. This will teach them about messing with other people's food.</value>
   </string>
-  <string key="CultConvertWolfPublic">
+  <string key="zoombiesConvertWolfPublic">
 <!--used when Zombies convert the wolves, only if wolves stayed home-->
     <value>{0} the Vegan Chef 🥑(👤) had resigned from their job today with a big smile on their face. Seems they were invited to a better job position across the street while they were trying to inspire someone 🍔(🐺) to try their vegan lunchbox!</value>
   </string>
-  <string key="CultConvertKillerPublic">
+  <string key="zoombiesConvertKillerPublic">
 <!--used when Zombies convert the SK-->
     <value>{0} the Vegan Chef 🥑(👤) was rushed to hospital today due to an allergic reaction. Their friends saw that they were trying to inspire someone to try their vegan lunchbox, but was slapped in the face afterwards. Soon, the slapped cheek was puffing up and their face started to spasm ☠️(🔪)... and for the rest I would not go into details...</value>
   </string>
@@ -1512,7 +1512,7 @@
 <!-- NOTE: No space between {0} and joined. It will be added in the code if necessary-->
     <value>{0}joined the restaurant in the last 30 seconds.</value>
   </string>
-  <string key="AllowCult">
+  <string key="Allowzoombies">
     <value>Allow Vegan Chef (Zombie)</value>
   </string>
   <string key="AllowTanner">
@@ -1745,7 +1745,7 @@
 <!-- 0 - mason collegues's name -->
     <value>The other Sashimi Chefs (if any) are: {0}</value>
   </string>
-  <string key="ThiefToCult">
+  <string key="ThiefTozoombies">
 <!-- 0 - old Zombie's name -->
 <!-- 1 - new Zombie's name -->
     <value>{0} lost a game of "rock, paper, scissors" to the Busser 🍽(😈) {1} so that {0} is no longer a Vegan Chef while {1} became one!</value>
@@ -2135,8 +2135,8 @@
     <value>You went to {0}'s station and left some of your allergic powder there. A minute later, you saw the Safety Supervisor ⚠️(👼) walk in to clean their station. What are they doing!!! You just wasted today's portion of allergic powder...</value>
   </string>
   <string key="HunterFell">
-<!--{0}: cult hunter-->
-<!--{0}: cult hunter-->
+<!--{0}: zoombies hunter-->
+<!--{0}: zoombies hunter-->
     <value>You tried to check {0}'s lunchbox but was very soon caught by them. They were the HR Manager 😠(☠️)! You are in so much trouble. You have no words to explain what you were doing and they decided that you should be fired.</value>
   </string>
   <string key="HunterFellDigger">
@@ -2144,12 +2144,12 @@
 <!--{0}: Zombie-->
     <value>It was lunchtime and you were about to reheat your lunchbox when you caught {0} taking a peek into it. You suspect that they were one of those pesky spies and confronted them. They were at a loss of words... so busted! You immediately went to tell the restaurant owner that {0} should be fired &gt;:)</value>
   </string>
-  <string key="CultFell">
+  <string key="zoombiesFell">
 <!--{0}: Zombie who fell, {1}: grave digger-->
 <!--{0}: Zombie who fell, {1}: grave digger-->
     <value>Seems {0} tried to visit your office while you were on a toilet break. You came back to find a memo next to your notebook - seems {0} was very interested in that job position in the branch restaurant that you had on the browser of your computer. The memo also said that they would soon submit their resignation letter...</value>
   </string>
-  <string key="CultConvertGraveDigger">
+  <string key="zoombiesConvertGraveDigger">
 <!--{0}: grave digger-->
 <!--{0}: grave digger-->
     <value>You and {0} tried to inspire {1} to try your vegan lunchbox 🥑(👤) today. After some searching, you found {1}'s secretive room at the back of the office. {0} took a peek at {1}'s idle computer screen, gasped loudly, left a memo on their desk and immediately fled the restaurant. What was that for? Did they see an irresistable job offer or something 😠(☠️)?</value>

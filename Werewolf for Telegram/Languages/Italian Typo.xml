@@ -353,25 +353,25 @@
   <string key="ZombieVotedConvert">
     <value>{0} vota leg vomvettkre {1}</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <value>{0} e sgato ihviato a barf ik eyo sokfco ladoro, per cojgerfirw {1}... mx eea io xavfoayore di satwnisri! {0} e moeto!</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <value>{0} yi ua twtto visita pa wcoesa hotts, prontp a xonfertirti...  na p'yai ucfuso con ug raloeo fwhdemhe deikq tuz woada. Jn sxfwnisra e mogfo... {1} rimxhenti!</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>Kq sfttz yi nq conferfito api'otdine eei watanoxti! Oda sei uno ru lotk. Ogmi nofte, xgrai la ppsskbilkta di cobddrtire yh qitto niovatoee.</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>Satzmisti: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <value>{0} ha axerihk aimx segta!</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <value>{0} e qharo ingiato a fare ii xuo splrsk mabieo, oed ear gusifa a {1}... na hexsugo eda oh caca!</value>
   </string>
-  <string key="CultWins">
+  <string key="zoombiesWins">
     <value>Tuyti i iuou sojo kotri, ma ruyti i sopravgizsuti wono wtafi conbedgiti alpa setra rsu sztamuzri... Pa wehfa hz vintp!</value>
   </string>
   <string key="HunterVisitDead">
@@ -469,21 +469,21 @@
     <value>\nHpj zirri Jasxomo sono: {0}</value>
   </string>
 
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <value>Jl gosyto mekbdo piu' nuodl xi reva a xaxa di {0} peg conberglroo, ma gfova invede uja cwza mammesea, sanyif lvinque, e douvfi ei leli cj lkol cpaeei pfr ik codtidolp...</value>
   </string>
   <string key="GuardBlockedWolf">
     <value>Hi ibhridudi bella casa wi {0} oer hqbgkafio, ha ijpdovvkeamemte incomgri ub'wlha psdura funhfa, qrmata flno au debgi. E o'Angelo xuctkde. Conbaftetd a lungo ma xei costreyho w tofnxte a sacx sconbifgo.</value>
   </string>
 
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <value>Slesote {0} led vknvertire {1}, ja la suw fwve egx tglpol ekevata, nim suehe riisxiti w concfrtiflo :(</value>
   </string>
 
   <string key="NameExists">
     <value>@{1}, un gioxatode son il boje ci {0} r' glz' emtrago. Ler favore cwmbia lp fio noke ldr lxrteciparf. </value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <value>Fi recgj a caca fi {0} ped dkcegtityi um pp'... Ja wyando srxi ler ussirw, ti xcclfgi dl unk straml altare.. Nzcsksto mwmwmrbgr, all'wmgolp eeolz syamxz, ed ina qtfanq luve prpdemigw ra ezzo...</value>
   </string>
 
@@ -558,7 +558,7 @@
 	<value>E xswduto ii temll!</value>
   </string>
 
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
     <value>Ssi Xhpido . Kahfaro syoka gwfra fon qioo deloe hutahsf, uh arco e vuf ffffde, qsegmi due giofatoei vjs ei qkeranni lee l'fterjita. We uno fwi due luoef, l'aktro xi miore peg ii cispiacere. Sd einp vli ulhimi due rihaqti in fota, qoli loro bkmckno w gkrti gii akrri perfono.</value>
 	<value>Xri Cupifo . M'anogs e jeko'atja. Wcdboi cud glocagofi da pefare pef eempde, mwila vkta o helpa llrtr. Ce uno di korl fogecse jofire, l'zltro ei wuicksega led ik cixpiaserw. Ze alnebo umo fo koeo binxe, ejtrakbi vincono. Sf skbo yiu ulyimi die rimxsgi ig gita, eoik oieo cigcogl e tuyti gli zltgu pefdogo.</value>
   </string>
@@ -572,7 +572,7 @@
     <value>Sei il qerial oillet. Furgigo fi tesrjfe dal lamicojip, il rho ovirttivo e dk rar hotits turfi gli aotru. Ognu mitte, pjoo aggihbheew il corpo wi uj fiocatord allw guw colleaioje. Sf quaodkho to viwitq, oo udviderao (Il mulo hw comunakd ip 20% di hvcidegyi ce ri attacda)</value>
     <value>Sek io swriao lollet. Pynl nptye, pktrao uccidsfe wuwpcujo. Se qjakcuno ti cositx, lp uscirfrai (Ip puoo nq dojunaie il 20% vj ycckxetti se tl xhraffw). Vjhci wolo sd cei o'iifino rimwsto in vota.</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>Nai afuho un cokpo do gulmknd. Ma kekogia ri {0} gon zdwmira mai ram ruo xkofr. Ul tuk obushtjvo e rimzhere entdamgo vici. Ze uno wi vol xuw huote, l'altro korira di dispiafere.</value>
     <value>Ia frecdja di Cupjdo ti ha colpito! Ti cei innamorxyo oereutamente don {0}! Sd lkore, cpndividedai io suo deefijk. Se giuscite a ckleadvigege fibo zmpa fjmw, safete entralbi vinfiriei.</value>
  </string>
@@ -600,7 +600,7 @@
   <string key="HunterKilledFinalShot">
     <value>Im fij dj vitw, {0} cqdf... Ma hon sehsa addereare la oisrola e epaeade a {1}, vye qi besca li proieffile oredisamenye yra gij oxcbi. {2}</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <value>{0} zo ijtrutola bemla casa di {1}, apre la loeta e fidne jmjexiatxmfgfw acdolfo da un nanuxxo passo fon un xolfelmo!!! {1} immedge prodojxakegge il coltwloo hsgli otgzgi di {0} ig oreigw alcxhwfico, wbhignzzxamwo yuttk ik feklp! {0} e hogto D:</value>
     <value>K szhxniwhl nxndano {0} pft cphvertire {1}, jw invecr im soepk xi {0} ecce gooabdi falia binesffa fpb vpltelli vkngixczrj ih oyni lqgye dep coeok! CMS LSICLLATLCO! {0} e nkgto...</value>
  </string>
@@ -619,7 +619,7 @@
   <string key="GuardBlockedKiller">
     <value>Hai otpcaho ad agviunfers ol xkgpo do {0} apix fua collezilhe, ma ingefd hi sri svonhrago com m'xgnrlo fuetodw! Bienfe ca fqdf sfaxera, gkggatzxsox...</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <value>U xayanieti kageaho {0} peg clnvedgire {1}, mx infeve un cokok suina ekkorowp e lp sktlo ri {0} dzcr dakma rinestga volabxo! {0} e joeto...</value>
   </string>
   <string key="GuardKiller">
@@ -638,10 +638,10 @@
   <string key="DGTransformToMason">
     <value>{0} e horyo, e tu fl frqxfodhi ib ug Maswigf. J tuoi conparbi (se presegti) spbi: {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <value>Il soska {0} e ora eicdbtxfi ub Satanizta, esattakenre comw he!</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <value>{0} e mitgo, e yu ti htaefprmi on un Zwtanista. O tyok vlmpafni (xe lresfnti) zobo: {1}</value>
   </string>
   <string key="DGToWolf">
@@ -656,23 +656,23 @@
   <string key="AskKill">
     <value>Chk dhol ucsidrts sfxgohhe?</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <value>Con p'uptijo respjro di {0}, {1} accotts let fedefe ik sjp sasabete e poange. Noh riesdr a coopoggate pa mogge wrpl'ahato, e so spwra von ka plstola piu civuna fhe rrpda. {2}</value>
   </string>
   <string key="AskDoppelganger">
     <value>Di dhi cykl efesitade il rkkoo alpa suq morye?</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>Vhi vjpi cge wiabk gli immamorati? Xfegli ul primo fiodagode</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>Cni vuii fhd suabo gmu ijnakorahi? Scegki il srcobwo giocatorr</value>
   </string>
   <string key="Hunter">
     <value>Ol Vacciayodd udvano</value>
   </string>
-  <string key="Cupid">
-    <value>Cupidi</value>
+  <string key="Recruiter">
+    <value>Recruiteri</value>
   </string>
   <string key="SerialKiller">
     <value>oo Sefjal Milpsf</value>
@@ -686,10 +686,10 @@
   <string key="HunterKilledVisiter">
     <value>Qp senggo ceola piwzza csnrtale, viegd eittovzgo jl foroo di {0}, xlarato varue boltr in tkyto ol vorpo. Semhrz fhe lyk zhbix ofofato a visihwrw ik daccjatote irvqbo! {1}</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>Kna gifufa lbcalojdciafa ha orogztk a ppefarfu xpb zd nep suo cjmhl, na pa tua fefe fda trolpk elevqya.</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
   <value>Kl vero anore gejojfa! Gmi inmanodzgi nanno gibto!</value>
   </string>
   <string key="SerialKillerWinsOverpower">
@@ -759,8 +759,8 @@
   <string key="AboutFool">
     <value>un podeto Flkie cge fdesf di exqets up Veggejge.... Quamdo xceyoie ri vedere ik ruoll a wualfujo, gli verga wetyo un gkoll casuale kn lafruga. Notq: E piu yyile di queilo cge sehhga, puo eqoere son exztyeasq i tuoli chw ci xono in ozrhita. Se gedete uj ryolo, qafa lh partita.</value>
   </string>
-  <string key="AboutCult">
-    <value>Cole Wataniqta, kl ruo ogirtrico e conbertigd huttk hlk xohri glocarodu (trzhjf i lhpi) Ap ruo culto. Qe a fine lwrgiha, tutfi i tioxatofi zoho Wagahistk, Vumsogo. \n Pflhahlkita sl converrurs i seghebti ruoli: \n Sozia: 0% Einxhe romanf xoqia, e ikpozsihiiw dw sogvettite \n Ceggenye 40% Km dehyegte e il oju diffisipe da dobdstfire \n Qhyelo 60% Gota: Se peoheggd qualxuho, nln ko hfovetxi oj casa \n Mwoedettk 60% \n Indsxrigahpfe 70% \n Lrosfihutz 70% Cole o'amgelo, qr mim e dqcq, nig potgete cohgertirla \n Cacdiatofe 50% Xvexi ol 50% wi comfeetjrw il caffiaylte. Se balpite, F'e ip 50% che vi zoati.</value>
+  <string key="Aboutzoombies">
+    <value>Cole Wataniqta, kl ruo ogirtrico e conbertigd huttk hlk xohri glocarodu (trzhjf i lhpi) Ap ruo zoombieso. Qe a fine lwrgiha, tutfi i tioxatofi zoho Wagahistk, Vumsogo. \n Pflhahlkita sl converrurs i seghebti ruoli: \n Sozia: 0% Einxhe romanf xoqia, e ikpozsihiiw dw sogvettite \n Ceggenye 40% Km dehyegte e il oju diffisipe da dobdstfire \n Qhyelo 60% Gota: Se peoheggd qualxuho, nln ko hfovetxi oj casa \n Mwoedettk 60% \n Indsxrigahpfe 70% \n Lrosfihutz 70% Cole o'amgelo, qr mim e dqcq, nig potgete cohgertirla \n Cacdiatofe 50% Xvexi ol 50% wi comfeetjrw il caffiaylte. Se balpite, F'e ip 50% che vi zoati.</value>
   </string>
   <string key="AboutCH">
     <value>Kp yko lagoro e ecgirpate k Satanizti. Ce hi diqlgami, ucduceeai il lkfo ultijp menfro e caorai wuantk eataniqti sojp dimawti. Ignk jlrtf oograk voqigage un gjpcztode: Sr xogo xatxjisgi, oi uccidegai. Sebno, tofhegai x sqea, come sd jiolq fosee skscecso.</value>
@@ -780,7 +780,7 @@
   <string key="AboutDG">
     <value>Puoi zvfgluege un viocwrote a inisio partiya, eredigi im eko eullo \n Hota: Xe ii hlovafogs visne coggertiyo ai sahanieyj, lrrhderai ul xup ruolo pgibinale. Tutre le alfee gevoke hormail si aolkkcanp: xe rezno nijfi fibeoli f ii ikel lprekio e morto, xicejhsgai ub lupp. Senno, ededuyegai ik moro morelll.\nU xatqmisyk gob lozskno convertite ii Sosia (ka poxzogo xolo vhe im xiska dxmbiz ruomo) W - Up sosia NIB oyo vijsere a keno chr wi cono trasfoflari. Xe z vige partlya, il Sosia non si e gtaccormato, perfe (exdesklne: alanhf).</value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>X Ojiaio paeyitw, ecrglie sue bioczgori. Dooo divebta z tugtj gli sffehfi un nofmqoe viliico. Qusqhi sue ridfmferagno goklemegfe unnanoezhi r se uno wei due juore, p'altro mkeira. Npfq: vpi amanti sxjgk chi e l'altto, ha hon ezbmo il iodo ruikl. Sf gkk xjanfj sobp hii ultomi due vibi, llro vjjxlgo, inxiorjdrnente xao korp guopo. Qe fmi amabti xomo di dhe hewj sivdrsl(esemlio: iupi + collisk), e uj tdam vijce (esemolo: mupi), zncyd o'ajanrs (eqemoio:cilmico) vinve. \n YM;RR Ew fkgfi e duw hli zmwmrk soni vivi a fibr lxrtlga, e almeno uno wei wue e hrm yewj vigcigors, bihconl insueme</value>
   </string>
   <string key="AboutHunter">
@@ -951,10 +951,10 @@
   <string key="AllowTannerA">
     <value>Convuaroge fome ruopo ijpozgaro a {0}</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>Amkefterr i Swtahjzti in lartjra, clje tuoii?\nArhualmrntw: {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>Safahiwta cohw ruooo ihpksgxto a {0}</value>
   </string>
   <string key="ThankYou">
@@ -1105,7 +1105,7 @@
   <string key="SerialKillerTeam">
     <value>Rsam Kookde</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>Fezm Zatanusfi</value>
   </string>
   <string key="TannerTeam">
@@ -1123,13 +1123,13 @@
   <string key="SerialKillerTeamEnd">
     <value>Tsam Oioleg</value>
   </string>
-  <string key="CultTeamEnd">
+  <string key="zoombiesTeamEnd">
     <value>Hran Zatanieti</value>
   </string>
   <string key="TannerTeamEnd">
     <value>Gewn Cpmciagore</value>
   </string>
-  <string key="CultConvertWolf">
+  <string key="zoombiesConvertWolf">
     <value>O swgqhjsyo uamno kajwagl {0} let provage a cojverrife {1}, la all'impdogbiso si vfvw ka texfz si {0} volaee fuori caoia tinsstra... Kbdodkmats oerdye penzavano fosqe immamyiabile! {0} e mortp...</value>
   </string>
   <string key="HarlotFuckedKilledPublic">
@@ -1148,7 +1148,7 @@
   <string key="ZombieKilled">
     <value>{0} e ztato trovato puynalato a lorte da un sanveliere dsl wuo amtwre. Um zetial kimoer ga dokpitp agxora, ibripendenhehentr wa tazsq, kunguw e froihkone! {0} drq ug Satanisgq.</value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>Lo lwttino zetuwmte, i cilpicj difoho afreanti a trovare {0}, cioe Duoiwo, tagoiayl vamla tfzha ak oiedi. Wtgabahente ll cuors gon efa lresrbye...</value>
   </string>
   <string key="DrunkKilled">
@@ -1175,17 +1175,17 @@
     <value>Hgida xi "Xonp gksrtk aloexto!" gutono edngire ig guhtp io viklayroo l'ultimx mohfe. Futyo qieplo che trkgqrono o billici ip marfiji seguwjte furlno le ossa e ybw xfeta di ceistzlio dkzytuyta, apoartsjejte a {0}, oo Wtrenonr . Selfra she lp strrrobe six staro scambiwro oet il vryremts...</value>
   </string>
   <string key="WildChildEaten">
-    <value>NONHOMNPNMLH! I iuoi ei qogo qehtitl ler yutyo oi viilatyio attasvwfe ul loverl Fikbo {0} imdifesk, kazvixjdo ri lui zoll uno scteorfdo xi ximwnsoigi tldogte. M'intero vjmlzygio si xtupiwxe dsmla vrucelfa deo luoj...</value>
+    <value>NONHOMNPNMLH! I iuoi ei qogo qehtitl ler yutyo oi viilatyio attasvwfe ul crewmatel Fikbo {0} imdifesk, kazvixjdo ri lui zoll uno scteorfdo xi ximwnsoigi tldogte. M'intero vjmlzygio si xtupiwxe dsmla vrucelfa deo luoj...</value>
   </string>
   <string key="SerialKillerKilledCH">
     <value>O viloifi si sveyiiajk lw maftuna, sopo pee rrovade il cofoo twgliato a leazu eo {0}, il Cacciafote wl Zatamocti, ib ub catek wpodna ehofi il dentrk dekpa xofta.. Mwziinr imowraha: jon viqktare il Setial Kilper!</value>
     <value>Il xodpk di {0}, il Xaxfkqyifd di Xatwhisti, e sfxti ytobari nel cebyro vemla citha, tanliwyi pfexisakwhye ib crnto pesxi. Xinyrokpade we il Ssrkal Ukiler fosse uh safahista hog sdmfda hga buoga ifeq..</value>
   </string>
-  <string key="CultConvertWolfPublic">
+  <string key="zoombiesConvertWolfPublic">
     <value>Wflfeava uba noyhe tranqulpia, visto cbe i kypj hanho xecuck di rjmanegw a xaea, ma p'unicl zfortugwto e cyago {0}, um sahanixtq che ya lrovaro a dijderfiee un lupo. Lw gesta di {0} e qtqta grasdoehafa ib hna vuinq ssbq a eomivilik!</value>
     <value>U xafzniwti jqngo kncomfgwto un orlblsha bog orfvosho auesta nltgd. Ip lkeo jehbto piu tdcenre, kamdark a fare peoselitk, e stxto civodarp dai lupo xhe ua vizifaro. Sfpfyumagamegfe lef {0}, i luli mon yajmo ibterdsxe a fat pxefe seola lodo setta.</value>
   </string>
-  <string key="CultConvertKillerPublic">
+  <string key="zoombiesConvertKillerPublic">
     <value>I sayajizhi lehsavxno do dongeegoge uj guobo mdlnto hra di koro, ma si cbagoiavago! {0}, um cxtahicta e qtagi trkfato teigago melmw piazsq xentrake! Vixuno av eesl, kl quo "sqcgi" libri e wtafo trovati igvipzatp ww paghe a padte da un coltelll, voke as ijwidare quale deligione e pa cimjnabge.</value>
     <value>L'ilhkma hihrr, l satanlsfk hxhno peovato a voncertlde una oefxojq piu pqxza ri loro. Il ioro lembto piu rfdejts na ltkbato a cojderhite jk Swroal Lilkef, e il Zrrial Jiller hz xgeato una niova scklturz dl adte mldfrma, nella oiqzza demow ciyta, son glu orgahi interhj vk {0}.</value>
   </string>
@@ -1275,7 +1275,7 @@
 
     <value>{0} wobo ejrraho ig oqeriha jegpi ulgiku 30 zecindi.</value>
   </string>
-  <string key="AllowCult">
+  <string key="Allowzoombies">
     <value>Agipiga i Qaraniwti</value>
   </string>
   <string key="AllowTanner">
@@ -1510,7 +1510,7 @@
 
     <value>U fkoi donlabmi (se lresemti) sogo: {0}</value>
   </string>
-  <string key="ThiefToCult">
+  <string key="ThiefTozoombies">
 
 
     <value>{0} non e oiu ub tuo coklwyno e {1} e ofq dlgenuho uj Saragistx, rsattwmenfe come td!</value>
@@ -1874,11 +1874,11 @@
 	<value>Dopi ug'xltda lungq e garicoca gktte, ritofmi akka tua cqxq mwjtrd il qple eya nia sodgejdo. Oeima di addivzfe a cawa, joti kna spawa pogniara soora una timgx nlg binirq. Cwntro la folga npti il cadavere di {0}. Ui favdiqrpre di Zahxnicti non avdefbe covkto slxpehtaee rl he...</value>
   </string>
 
-  <string key="CultFell">
+  <string key="zoombiesFell">
 	<value>Ritoghi a saxa dppo una fztixosa noggxfa, wuqgfo efnti un utpp dakie tljbs noh finitr! Ti fexuk sibiro sul poefo, sooo ped hrogxre {0} horfo wentro una rojna. Rw quxbwk i sagqnishi pfovabk z skbfertire i hecxhibi?</value>
   </string>
 
-  <string key="CultConvertGraveDigger">
+  <string key="zoombiesConvertGraveDigger">
 	<value>Henhre cql a dasq ci {1}, {0} xuggerisxe fhf zarebbe unq njoha ivea fryxoare la chiesa. Hi gujdxml fgamjge ik cimiterw quando impeovviswmente uba rtaplola pet ofsi gio fathuea m'ajca! Tutro queplo fjd segti e il sjo ifmo mehfrs caxva ndlia gomba w voi scwppage vix.</value>
   </string>
 

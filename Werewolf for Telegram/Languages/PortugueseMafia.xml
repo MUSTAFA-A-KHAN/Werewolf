@@ -310,25 +310,25 @@
   <string key="ZombieVotedConvert" >
     <value >{0} votou para converter {1} para a Santa Igreja.</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <value>{0} foi à casa de {1} para convertê-lo a Santa Igreja oferecendo o plano de "evasão fiscal". Mas {0} é o Agente da Receita Federal e o prende por desvio de dinheiro.</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <value>{0} foi preso por tentar oferecer o plano de "evasão fiscal". Seu informante diz que há {1} membros da Santa Igreja.</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>Bem-vindo à Santa Igreja! Esqueça a máfia, esta igreja irá ajudá-lo. Todas as noites, você tem a oportunidade de oferecer a mesma comunhão aos outros jogadores.</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>Membros da Igreja {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <value>{0} é o mais novo membro da Igreja</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <value>{0} foi enviado para a casa de {1} para convertê-lo a Igreja, mas não tinha ninguém em casa...</value>
   </string>
-  <string key="CultWins" isgif="false">
+  <string key="zoombiesWins" isgif="false">
     <value >Nem máfia, nem polícia, Fairview agora é um refúgio para o membros da Santa Igreja!</value>
   </string>
   <string key="HunterVisitDead">
@@ -425,21 +425,21 @@
     <value>Os outros Subchefes que apareceram na reunião com o Poderoso Chefão são {0}</value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <value>{0} estava tentando converter um novo membro para a Igreja, mas ele percebe que uma batida policial estava acontecendo no local e vai embora.</value>
   </string>
   <string key="GuardBlockedWolf">
     <value>A polícia tenta invadir a casa de {0}, mas o arsenal do Segurança ⛑ está bloqueando o caminho. Os policiais não quiseram arriscar e recuaram.</value>
   </string>
   <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <value>{0} tenta converter {1} à Igreja, mas parece que a barganha da igreja não era tão boa assim.</value>
   </string>
   <!-- new string May 12 2016-->
   <string key="NameExists">
     <value>@{1}, um(a) jogador(a) com nome {0} já se juntou à partida.  Por favor mude seu nome para poder entrar no jogo.</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <value>Você vai entregar alguns documentos para {0}! Mas sua curiosidade é mais forte, e você abre o envelope. Havia uma carta do chefe da Santa Igreja!</value>
   </string>
   <!-- new string May 13 2016-->
@@ -517,7 +517,7 @@
 	<value>Tempo esgotado!</value>
   </string>
   <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
     <value>Depois de muito tempo lendo em livros como amaldiçoar duas pessoas, você consegue finalmente preparar a poção! As duas pessoas selecionadas serão obrigadas a tomar a poção. Se um morrer, o outro morre também! Se uma fugir, a outra o acompanhará! Hora da ação, Bruxo 🕯!</value>
   </string>
   <string key="RoleInfoDoppelganger">
@@ -529,7 +529,7 @@
   <string key="RoleInfoSerialKiller">
     <value>Sequestrando pessoas sem exigir resgate algum, você faz isso diariamente apenas para dar umas boas gargalhadas. Arraste alguém para o seu calabouço toda noite! Você adora esse jogo, não é, Sequestrador 💰?</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>Alguém está brincando com os livros de feitiços, e você tirou a sorte grande, ou melhor, o azar, e agora você não consegue viver longe do amor bandido de {0}, e não há uma forma de quebrar esse feitiço.</value>
   </string>
   <string key="HunterLynchedChoice">
@@ -556,7 +556,7 @@
   <string key="HunterKilledFinalShot">
     <value>{0} deixou a cidade em vergonha. Em seu caminho para fora da cidade, ele deixa papéis de contabilidade espalhados pelo caminho, e eles apontam para {1}. {1} também deixou a cidade. {2}</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <value>{0} foi enviado para tentar converter {1}, e não foi visto desde então! É como se ele tivesse sido sequestrado e desapareceu da face da terra!</value>
   </string>
   <string key="HunterShotWolfMulti">
@@ -574,10 +574,10 @@
   <string key="GuardBlockedKiller">
     <value>Você tenta sequestar {0} e adicioná-lo à sua coleção, mas você encontra o segurança com um grande Arsenal guardando a casa. Você repensa e decide recuar dessa vez.</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <value>A Santa Igreja enviou {0} para a casa de {1}! Ao tocar a campainha {0} percebe que o chão se abriu, e ele caiu alçapão abaixo! {0} desapareceu...</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <value>A Santa Igreja enviou {0} para a casa de {1}! {1} parecia estar colaborando até que empurra {0} porão abaixo! {0} foi seqüestrado!</value>
   </string>
   <string key="GuardKiller">
@@ -595,10 +595,10 @@
   <string key="DGTransformToMason">
     <value>{0} não está mais na cidade! Você começa a modificar o ID para ser recebido como um Subchefe da Máfia. Seus companheiros Subchefes da Máfia (se houver) são: {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <value>O Clonador de RG aparece na reunião da Santa Igreja! {0} é o novo membro da igreja.</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <value>{0} não está mais na cidade! Você agora você tem um novo papel: servir à Deus fielmente. Seus amigos Fanáticos Religiosos (se houver) são: {1}</value>
   </string>
   <string key="DGToWolf">
@@ -613,22 +613,22 @@
   <string key="AskKill">
     <value>Quem você deseja adicionar à sua coleção de pessoas sequestradas?</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <value>Com o desaparecimento de {0}, parece que {1}, também amaldiçoado, desaparece misteriosamente. Eles se foram juntos, já que foram amaldiçoados pela tenebrosa Xuxa. {2}</value>
   </string>
   <string key="AskDoppelganger">
     <value>Você deseja clonar o RG de quem?</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>Quem será a primeira pessoa à ser amaldiçoada?</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>Quem deve ser a segunda pessoa à ser amaldiçoada?</value>
   </string>
   <string key="Hunter">
     <value>Tesoureiro da Máfia 💷</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>Bruxo 🕯</value>
   </string>
   <string key="SerialKiller">
@@ -637,19 +637,19 @@
   <string key="Doppelgänger">
     <value>Clonador de RG 📝</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>A Bruxa lançou seu feitiço e agora você e {0} estão amaldiçoados para sempre. Quando você estiver no banho, ele estará lá. Quando você estiver no mercado, ele estará lá. Não importa onde você estiver, ELE ESTARÁ LÁ! HAHAHAHAHAHA!</value>
   </string>
   <string key="NewWCRoleModel">
     <value>À partir de agora você é o Justiceiro 💀. Seu parente é {0}.</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
     <value>Me parece que a maldição da Xuxa foi bem forte! Os Amaldiçoados venceram! Créditos à Xuxa, claro.</value>
   </string>
   <string key="HunterKilledVisiter">
     <value>O jornal está nas bancas! {0} está perdido! Sua última mensagem dizia que ele estava indo para a casa do Tesoureiro da Máfia! {1}</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>Um membro da Igreja Santa tentou te converter ao Lado Santo da Força, mas o seu próprio Lado da Força é mais forte, e você samba na cara do Fanático!</value>
   </string>
   <string key="AlreadyOnWaitList">

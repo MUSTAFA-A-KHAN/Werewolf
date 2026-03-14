@@ -399,25 +399,25 @@ Best played with secret lynch and no role reveal after death. -->
   <string key="ZombieVotedConvert" >
     <value> {0} 話想搞 {1} ！</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <value>到底尋晚 {1} 屋企有冇野發生呢？ {0} 死咗！</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <value> {0} 死咗！一個數字喺你腦海湧現︰{1}。</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>你個身份變咗喎，但係究竟由咩變做咩呢？</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>雖然你唔記得自己係邊個，但係 {0} 似乎係好重要嘅人。</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <value>你腦海之中突然閃出一個新的名字， {0} ！</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <value> {0} 去咗 {1} 屋企，但係屋企冇人！</value>
   </string>
-  <string key="CultWins" isgif="true">
+  <string key="zoombiesWins" isgif="true">
     <value>全部狼死晒，所有活人信晒邪教。 邪教魔徒 贏咗！</value>
   </string>
   <string key="HunterVisitDead">
@@ -514,21 +514,21 @@ Best played with secret lynch and no role reveal after death. -->
     <value>雖然你唔記得自己係邊個，但係 {0} 似乎係好重要嘅人。</value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <value> {0} 已經死咗！</value>
   </string>
   <string key="GuardBlockedWolf">
     <value>到底尋晚 {0} 屋企有冇野發生呢？你好似都唔多記得……</value>
   </string>
   <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <value>到底尋晚 {0} 去咗 {1} 屋企有冇野發生呢？你好似都唔多記得……</value>
   </string>
   <!-- new string May 12 2016-->
   <string key="NameExists">
     <value>@{1}，你個名同 {0} 撞咗。請你改咗名先入村。</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <value>到底尋晚 {0} 屋企有冇野發生呢？你好似都唔多記得……</value>
   </string>
   <!-- new string May 13 2016-->
@@ -615,7 +615,7 @@ Best played with secret lynch and no role reveal after death. -->
 	<value>咁小事都決定唔到，點做大事啊！（夠鐘！）</value>
   </string>
   <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
     <value>好奇怪，你竟然醒唔起自己係邊個，不過你記得你應該係夜晚有啲野搞嘅。</value>
   </string>
   <string key="RoleInfoDoppelganger">
@@ -627,7 +627,7 @@ Best played with secret lynch and no role reveal after death. -->
   <string key="RoleInfoSerialKiller">
     <value>好奇怪，你竟然醒唔起自己係邊個，不過你記得你應該係夜晚有啲野搞嘅。</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>雖然你唔記得自己係邊個，但係 {0} 似乎係好重要嘅人。</value>
   </string>
   <string key="HunterLynchedChoice">
@@ -654,7 +654,7 @@ Best played with secret lynch and no role reveal after death. -->
   <string key="HunterKilledFinalShot">
     <value> {0} 做咗啲野！ {1} 皮已收。\n {2} </value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <value> {0} 去咗 {1} 屋企，跟住死咗！</value>
   </string>
   <string key="HunterShotWolfMulti">
@@ -672,7 +672,7 @@ Best played with secret lynch and no role reveal after death. -->
   <string key="GuardBlockedKiller">
     <value>到底尋晚 {0} 屋企有冇野發生呢？你好似都唔多記得……</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <value>到底尋晚 {0} 屋企有冇野發生呢？ {1} 死咗！</value>
   </string>
   <string key="GuardKiller">
@@ -690,10 +690,10 @@ Best played with secret lynch and no role reveal after death. -->
   <string key="DGTransformToMason">
     <value> {0} 死咗，搞到你個身份變咗喎，但係究竟由咩變做咩呢？雖然你唔記得自己係邊個，但係 {1} 似乎係好重要嘅人。</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <value>你腦海之中突然閃出一個新的名字， {0} ！</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <value> {0} 死咗，搞到你個身份變咗喎，但係究竟由咩變做咩呢？雖然你唔記得自己係邊個，但係 {1} 似乎係好重要嘅人。</value>
   </string>
   <string key="DGToWolf">
@@ -708,22 +708,22 @@ Best played with secret lynch and no role reveal after death. -->
   <string key="AskKill">
     <value>你知道你應該求其搵個人搞下啲野，你對邊個有興趣？</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <value>到底尋晚 {0} 屋企有冇野發生呢？ {1} 都死咗！\n {2} </value>
   </string>
   <string key="AskDoppelganger">
     <value>你知道你應該求其搵個人搞下啲野，你對邊個有興趣？</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>你知道你應該求其搵個人搞下啲野，你對邊個有興趣？</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>你知道你應該求其搵個人搞下啲野，你對邊個有興趣？</value>
   </string>
   <string key="Hunter">
     <value>獵人 🎯</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>邱比特 🏹</value>
   </string>
   <string key="SerialKiller">
@@ -735,14 +735,14 @@ Best played with secret lynch and no role reveal after death. -->
   <string key="NewWCRoleModel">
     <value>你個身份變咗喎，但係究竟由咩變做咩呢？雖然你唔記得自己係邊個，但係 {0} 似乎係好重要嘅人。</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
     <value>愛是最大權利！ 戀人 自私贏！</value>
     <value>完了吧，如無意外，從今開始該好好戀愛！ 戀人 自私贏！</value>
   </string>
   <string key="HunterKilledVisiter">
     <value> {0} 已經死咗！\n {1} </value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>到底尋晚有冇野發生呢？你好似都唔多記得……</value>
   </string>
   <string key="AlreadyOnWaitList">
@@ -817,7 +817,7 @@ Best played with secret lynch and no role reveal after death. -->
   <string key="AboutFool">
     <value>晚晚系列～白痴仔\n每晚都可以查一個人嘅身份，不過好可能係錯。</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>晚晚系列～邪教魔徒\n每晚都可以拉人入教（除左狼人），但係啲人唔係屋企就入唔到教。被入會既人會失去原來既身份。分身唔會入教；邪教殺手／連環殺手，會殺你。共濟、酒鬼、旁觀、槍手、叛徒、學徒先知、野仔、白痴仔、邱比特、皮匠必入教。其他人入教機率︰先知 40%，獵人 50%，被詛 60%，守天 60%，偵探 70%，妓女 70%。如果獵人拒絕咗你，佢有 50% 會殺你。如果最後無晒狼同連殺，而且全村人都信晒教，咁就贏。</value>
   </string>
   <string key="AboutCH">
@@ -840,7 +840,7 @@ Best played with secret lynch and no role reveal after death. -->
       一晚系列～分身\n喺第一晚可以揀一個目標，若然佢死咗，你就會變身做佢。如果目標係入左教嘅共濟，你會變做廢共而唔係邪教魔徒。分身入唔到邪教，要變左身先得。如果分身喺遊戲結束時仲未變到身，就會輸（除非佢嘅戀人贏咗）。
     </value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>
       一晚系列～邱比特\n喺第一晚可以揀兩個人等佢地墮入愛河，其中一個死咗，另一個都會自盡。戀人會知道對方係重要嘅人，但唔會知道對方嘅身份。如果戀人係唯二生存者，佢地就贏，不論佢地係咩身份。另外，如果佢地其中一個贏左，另一個都會贏。（假設一個狼一個係廢村，無論最後村民贏定狼贏，戀人都會贏。）邱比特自己跟村民贏。
     </value>
@@ -1021,10 +1021,10 @@ Best played with secret lynch and no role reveal after death. -->
   <string key="AllowTannerA">
     <value>已{0}玩家抽中皮匠</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>允許玩家抽中邪教魔徒？\n當前設定︰{0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>已{0}玩家抽中邪教魔徒</value>
   </string>
   <string key="ThankYou">
@@ -1181,7 +1181,7 @@ Best played with secret lynch and no role reveal after death. -->
   <string key="SerialKillerTeam" deprecated="true">
     <value>連殺陣營</value>
   </string>
-  <string key="CultTeam" deprecated="true">
+  <string key="zoombiesTeam" deprecated="true">
     <value>邪教陣營</value>
   </string>
   <string key="TannerTeam" deprecated="true">
@@ -1200,13 +1200,13 @@ Best played with secret lynch and no role reveal after death. -->
   <string key="SerialKillerTeamEnd">
     <value>連殺陣營</value>
   </string>
-  <string key="CultTeamEnd">
+  <string key="zoombiesTeamEnd">
     <value>邪教陣營</value>
   </string>
   <string key="TannerTeamEnd">
     <value>皮匠陣營</value>
   </string>
-  <string key="CultConvertWolf">
+  <string key="zoombiesConvertWolf">
     <value>到底尋晚 {1} 屋企有冇野發生呢？ {0} 死咗！</value>
   </string>
   <string key="HarlotFuckedKilledPublic">
@@ -1224,7 +1224,7 @@ Best played with secret lynch and no role reveal after death. -->
   <string key="ZombieKilled">
     <value>  {0} 已經死咗！</value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value> {0} 已經死咗！</value>
   </string>
   <string key="DrunkKilled">
@@ -1254,10 +1254,10 @@ Best played with secret lynch and no role reveal after death. -->
   <string key="SerialKillerKilledCH"> <!--used when CH visits SK-->
     <value> {0} 已經死咗！</value>
   </string>
-  <string key="CultConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
+  <string key="zoombiesConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
     <value> {0} 已經死咗！</value>
   </string>
-  <string key="CultConvertKillerPublic"> <!--used when Zombies convert the SK-->
+  <string key="zoombiesConvertKillerPublic"> <!--used when Zombies convert the SK-->
     <value> {0} 已經死咗！</value>
   </string>
   <string key="GAGuardedKiller"> <!-- used when GA guards SK -->
@@ -1375,7 +1375,7 @@ Best played with secret lynch and no role reveal after death. -->
     <value>喺過去嘅三十秒，呢幾條蛋散加入左遊戲：{0}</value>
   </string>
 	  
-	<string key="AllowCult">
+	<string key="Allowzoombies">
 		<value>角色／邪教魔徒</value>
 	</string>
 	<string key="AllowTanner">
