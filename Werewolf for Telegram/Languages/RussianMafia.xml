@@ -196,13 +196,13 @@
   <string key="AllowTannerA">
     <value>Нынешний статус настройки: {0}.</value>
   </string>
-  <string key="AllowCult">
+  <string key="Allowzoombies">
     <value>Разрешить фанатов ежей</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>Разрешить фракцию «Фанаты ежей», а значит, и роль «Фанат ежей» в игре?\nСтатус настройки: {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <!-- TODO: Вписать кастомные названия ролей в AllowThief, AllowArsonist и BurningOverkill. -->
     <value>Нынешний статус настройки: {0}.</value>
   </string>
@@ -385,7 +385,7 @@
   <string key="Doppelgänger">
     <value>Актёр 🕺 (🎭)</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>Купидон 👼 (🏹)</value>
   </string>
   <string key="Hunter">
@@ -469,7 +469,7 @@
   <string key="AboutAppS">
     <value>Сержант. Подающий надежды сотрудник полиции. Займёт место комиссара после его ухода.</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>Хотите поговорить о ёжиках? Нет, вы хотите поговорить о ёжиках! И сейчас вам расскажут обо всех достоинствах ёжиков! У всех должны быть ёжики! Хочешь себе ёжика? — Спроси у меня, где его взять.</value>
   </string>
   <string key="AboutCH">
@@ -487,7 +487,7 @@
   <string key="AboutDG">
     <value>Актёр. Цель его существования — прожить жизнь за другого человека. Если ему не удастся это сделать — он проиграет.</value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>Купидон. Селянин, который в начале игры соединяет сердца двух игроков;\nесли Купидон не выберет/не успеет выбрать будущих влюблённых, игра сама влюбит двух рандомных игроков;\nесли один из влюблённых выиграет, другой влюблённый тоже выиграет.</value>
   </string>
   <string key="AboutHunter">
@@ -580,7 +580,7 @@
   <string key="RoleInfoDoppelganger">
     <value>Ты актёр. Играть роли других людей — твоё призвание. Неважно, в кого именно придётся перевоплощаться, для тебя нет границ. Выбери игрока, а когда он умрёт, ты присвоишь его жизнь себе.</value>
   </string>
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
     <value>Ты купидон. Сошёл(ла) на землю в одних штанах, с луком и двумя стрелами… Выбери тех двоих, кто будет любить друг друга до скончания века. Если один из них погибнет или будет осуждён, другой последует за ним.</value>
   </string>
   <string key="RoleInfoHunter">
@@ -639,13 +639,13 @@
   <string key="TannerWins" isgif="true">
     <value>О нет! Должник уделал вас всех! Набрав кредитов, он скрылся в тюрьме! Должник победил!</value>
   </string>
-  <string key="CultWins" isgif="true">
+  <string key="zoombiesWins" isgif="true">
     <value>Ми-ми-ми! Теперь у каждого дома живёт милый ксеноморфный ёжик. О нет, это были контролирующие сознание пришельцы! Теперь город полностью захвачен ксеноморфными ежами, и люди поклоняются им как божествам.</value>
   </string>
   <string key="SerialKillerWins" isgif="true">
     <value>Всегда оглядывайтесь и не ходите вечерами в одиночку. Маньяк остался безнаказан!</value>
   </string>
-  <string key="LoversWin" isgif="true">
+  <string key="crewmatesWin" isgif="true">
     <value>Настоящая любовь побеждает! Влюблённые выиграли!</value>
   </string>
   <string key="NoWinner" isgif="true">
@@ -730,10 +730,10 @@
   <string key="AskDoppelganger">
     <value>Чьими делами ты интересуешься и хотел бы продолжить их после его смерти?</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>Кого ты хочешь сделать влюблёнными до скончания века? Выбери первого игрока:</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>Кого ты хочешь сделать влюблёнными до скончания века? Выбери второго игрока:</value>
   </string>
   <string key="AskDetect">
@@ -879,22 +879,22 @@
   <string key="ZombieVotedConvert">
     <value>{0} хочет продать ёжиков и приобщить к бизнесу {1}.</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <value>{0} был отправлен рассказывать о специальных предложениях {1}… Но тот вызвал ОБЭП, и {0} схватили и посадили в тюрьму!</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <value>{0} очень хотел рассказать тебе о вложении средств в выращивание ксеноморфных ежей, но тут нагрянул ОБЭП, и {0} увели… Осталось {1}!</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>Ми-ми-ми! Эти ксеноморфные ёжики такие милые! Все должны узнать о них! А заодно о специальных предложениях ООО «Рога и иголки» по их выращиванию!</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>Опытные коучи с огромным потенциалом, решающие массу различных кейсов в секунду и представляющие новейшую ультрасовременную социально ориентированную нанокомпанию ООО «Рога и иголки»: {0}.</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <value>{0} купил себе ксеноморфного ёжика и хочет всем об этом рассказать!</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <value>Ну что за люди пошли! {0} отправился к {1} рассказывать о высоких технологиях и преимуществах разведения ксеноморфных ежей, но того не оказалось дома!</value>
   </string>
   <string key="HunterVisitDead">
@@ -921,16 +921,16 @@
   <string key="MasonTeam">
     <value>Акционеры ОАО «Иголки и рога»: {0}.</value>
   </string>
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <value>Отправив своего человека к {0}, вы опоздали: мафия нашла его раньше вас.</value>
   </string>
   <string key="GuardBlockedWolf">
     <value>Два выстрела в живот {0} — и вот он валяется на полу в луже крови. Работа выполнена — можно уходить. Но, возвращаясь к дону, ты услышал вой сирен — скорая мчит его в больницу. Похоже, {0} уцелел.</value>
   </string>
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <value>{0} пришел к {1} чтобы рассказывать о достижениях компании, но, к сожалению, у того не хватило средств, чтобы купить себе ёжика.</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <value>Ты проскользнул(а) домой к {0}, чтобы немного повеселиться… но на тебя упала коробка с рекламными листовками про ксеноморфных ёжиков, и ты в ужасе убежал(а) восвояси.</value>
     <value>Ты отправился к {0}, чтобы приятно провести время за фильмами и чаем. После хорошей ночи, выходя из дома, ты заметил(а) маленькие иголки на полу.</value>
   </string>
@@ -950,7 +950,7 @@
   <string key="TimesUp">
     <value>Время вышло!</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>Ты был поражён любовью. {0} навсегда в твоей памяти, и любовь никогда не погаснет в твоём сердце… Ваша цель — выжить! Если один из вас погибнет или будет арестован — другой последует за ним.</value>
   </string>
   <string key="HunterLynchedChoice">
@@ -996,11 +996,11 @@
   <string key="GuardBlockedKiller">
     <value>Ты направился в дом {0}, но увидел за окном у горожанина доктора. Хм-м… Такие свидетели тебе не нужны. Эта ночь прошла для тебя впустую…</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <value>Вдохновлённый тренингами успешных продаж, {0} показал образцы ксеноморфных ёжиков {1}, не зная, что у того аллергия на животных с колючками. Испуганные громким кашлем соседи немедленно прибежали и увидели, как {0} пытается сбежать под шумок. {0} забрал ОБЭП…</value>
     <value>В дом к {1} нагрянул ОБЭП. Похоже, для {0} единственное выгодное предложение — это дать признательные показания!</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <value>«Посмотрите же, до чего милый ёжик. Вы любите животных?» — спросил {0} у жителя 113-й квартиры {1}. «Посмотрите же, до чего милый ножик. Вы любите стальные предметы?» — ответил ему хозяин комнаты.\n{0} нашли мёртвым в подвале этого дома. На остывающем теле пригрелись ёжики…</value>
   </string>
   <string key="GuardKiller">
@@ -1018,10 +1018,10 @@
   <string key="DGTransformToMason">
     <value>{0} погиб, переписав на тебя часть своих акций. Другие акционеры, если такие есть: {1}.</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <value>{0}, актёр, искренне полюбил маленьких ёжиков. Отныне он(а) будет помогать тебе продвигать продукцию в массы.</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <value>{0} перед смертью попросил присмотреть за его ёжиками. Теперь твой долг — ухаживать за ними! Другие любители колючих животных, если есть: {1}.</value>
   </string>
   <string key="DGToWolf">
@@ -1043,7 +1043,7 @@
   <string key="NewWCRoleModel">
     <value>Ты узнал, что у тебя есть довольно близкий родственник среди мафии. Однако твой наставник запретил тебе контактировать с семьёй, и ты сможешь осуществить это только после его смерти. Твой наставник: {0}.</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <value>«Без тебя, {0}, мне не мил белый свет! Я последую за тобой куда угодно — от тюрьмы до самой преисподней! — кричит {1} и рвёт на себе волосы. — Я клянусь тебе, мой самый родной человек, что всегда буду рядом», — говорит {1}. {2}</value>
   </string>
   <string key="SerialKillerWinsOverpower">
@@ -1052,7 +1052,7 @@
   <string key="SKHunterEnd">
     <value>Знаю, знаю, вам было очень интересно, сможет ли Маньяк одолеть Параноика. Дело было так. {0} воткнул шило в спину {1}. {1} всё же успел достать пистолет и выстрелить в {0}. И {0}, и {1} погибли, не дождавшись помощи. Улицы города зловеще пусты. Победителя нет…</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>Кто-то попытался продать тебе чудесного ёжика, но у тебя не хватило денег для приобретения этого милашки!</value>
   </string>
   <string key="RoleModelChosen">
@@ -1102,7 +1102,7 @@
   <string key="SerialKillerTeamEnd">
     <value>Команда маньяков</value>
   </string>
-  <string key="CultTeamEnd">
+  <string key="zoombiesTeamEnd">
     <value>Рабы команды ежей</value>
   </string>
   <string key="TannerTeamEnd">
@@ -1114,7 +1114,7 @@
   <string key="ZombieKilled">
     <value>{0} был закрыт в клетке с голодными ксеноморфными ёжиками и съеден ими заживо. У маньяка очень богатая фантазия!</value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>Утром горожане с ужасом обнаружили расчленённого купидона {0}. Как странно, где же его сердце?..</value>
   </string>
   <string key="DrunkKilled">
@@ -1148,13 +1148,13 @@
     <value>Проснувшись утром, горожане узнали, что {0}, работник ОБЭП, трагически погиб. Никогда не спрашивайте у маньяка про ёжиков.</value>
     <value>Тело {0}, работника ОБЭП, было найдено в городском парке. Не стоило заходить к маньяку в гости и искать у него ксеноморфных ёжиков.</value>
   </string>
-  <string key="CultConvertWolfPublic">
+  <string key="zoombiesConvertWolfPublic">
     <!--used when Zombies convert the wolves, only if wolves stayed home-->
     <value>На этот раз мафиози передумали покупать маленького ёжика, а забрали его у {0} насильно. Фанат ежей бросил любимое дело и переехал в соседний город.</value>
     <value>Отправляясь продавать ёжиков, {0} столкнулся в узком переулке с мафией!</value>
     <value>Отправляясь продавать ёжиков, {0} столкнулся носом к носу с мафией. Мафиози убили фаната, забрав себе всю имевшуюся у него наличность и двух демонстрационных ежей.</value>
   </string>
-  <string key="CultConvertKillerPublic">
+  <string key="zoombiesConvertKillerPublic">
     <!--used when Zombies convert the SK-->
     <value>Радуясь продаже очередного ксеноморфного ёжика, фанаты ежей совершили ошибку: {0}, самый большой любитель ёжиков, талантливый продавец, коуч и бизнес-тренер, пригласил на собеседование человека, фанатеющего вовсе не от миленьких колючих созданий. Говорят, маньяк прошел собеседование и даже купил ёжика, прежде чем убить наставника…</value>
     <value>Фанаты ежей ежедневно засовывали пачки листовок в почтовый ящик маньяка. Конечно, о том, что этот горожанин маньяк, они даже не подозревали. Психопат встретил одного из фанатов и пригласил к себе на беседу о ёжиках. {0} мёртв.</value>
@@ -1187,7 +1187,7 @@
     <!--{0} = Harlot name, {1} = SK's victim name-->
     <value>Куртизанка {0} пришла в квартиру {1}, но какой-то незнакомец уже лежит в постели с {1}! {0} решила не мешать и скорее уйти, однако сделать этого не удалось — Маньяк захотел, чтобы Куртизанка присоединилась к ним и стала новой участницей его смертельной игры!</value>
   </string>
-  <string key="CultConvertWolf">
+  <string key="zoombiesConvertWolf">
     <value>Фанаты ежей отправили {0} продать милого ёжика {1}, однако мафиози не растрогались мимимишностью колючего зверька. {0} сегодня не повезло — мафия до отвала накормила его свинцом.</value>
   </string>
   <string key="ApprenticeSeerEaten">

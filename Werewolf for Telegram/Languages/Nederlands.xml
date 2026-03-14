@@ -2,8 +2,8 @@
 <!-- THIS VERSION IS UP TO DATE AS OF 2016-07-18 20:49MDST -->
 <!--- About commands are still missing -->
 <!--- Last update: 2016-07-20 fixed typos, vakmannen are now Vrijmetselaars -->
-<!--- Last update: 2016-08-21 amor is nu Cupido, /rolelist vertaald, fixed typos -->
-<!--- Last update: 2016-11-04 Update 4.0 (onderaan) toegevoegd. Cult is nu Sekte (cult hunter ook vertaald). Meerdere grammaticale fouten verbeterd, interpunctie, vertalingen en wat zinnen herschreven om ze beter te laten lopen. -->
+<!--- Last update: 2016-08-21 amor is nu Recruitero, /rolelist vertaald, fixed typos -->
+<!--- Last update: 2016-11-04 Update 4.0 (onderaan) toegevoegd. zoombies is nu Sekte (zoombies hunter ook vertaald). Meerdere grammaticale fouten verbeterd, interpunctie, vertalingen en wat zinnen herschreven om ze beter te laten lopen. -->
 <!--- Last update: 2016-11-06 Fout in encoding hersteld. Smileys opnieuw toegevoegd. Nog een paar taalfouten eruit gehaald. -->
 <!--- Last update: 2018-09-18 Alle missende strings toegevoegd en deze file is nu up to date met de engelse file. Isgif en deprecated toegevoegd. Gedaan door @REXOTIUM en @Mipsels-->
 <!--- Last update: 2019-01-04 Fix voor 30 seconde join message. Nieuwe rollen toegevoegd (Troublemaker, chemist en snow wolf). Gedaan door @REXOTIUM -->
@@ -387,33 +387,33 @@
     <!-- 1 - target name -->
     <value>{0} heeft gestemd om {1} in te wijden.</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
 	<!-- 0 - Yougest Zombie (killed)'s name' -->
     <!-- 1 - ZombieHunter's name -->
     <value>{0} was gestuurd om het vuile werk te doen, namelijk {1} inwijden... maar het was de Sektejager 💂! {0} is in een ander leven!</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
 	<!-- 0 - Youngest Zombie's name -->
     <!-- 1 - Number of Zombies left -->
     <value>{0} kwam naar je huis, om je mee te laten doen aan de bloederig rituelen van de Sekte, maar je was goed voorbereid en nu kleeft hun bloed aan je jachtmes. Een Sektelid 👤 is dood... en er blijven {1} over.</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>Jij bent toegetreden tot de Sekte! Vanaf nu houd je je 's nachts bezig met mysterieuze bloedrituelen en probeer je andere spelers te bekeren.</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
 	<!-- 0 - Number of Zombies -->
     <value>Sekteleden: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
 	<!-- 0 - new Zombie's name -->
     <value>{0} heeft het licht gezien!</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
 	<!-- 0 - Newest Zombie's name -->
     <!-- 1 - target name -->
     <value>{0} heeft geprobeerd om {1} te bekeren... maar ze waren niet thuis!</value>
   </string>
-  <string key="CultWins" isgif="true">
+  <string key="zoombiesWins" isgif="true">
     <value >Alle wolven zijn dood... maar iedereen is nu lid van de Sekte! Om dit te vieren dansen zij vanavond bij nieuwe maan rond hun met bloed besmeurde altaar! </value>
   </string>
   <string key="HunterVisitDead">
@@ -520,7 +520,7 @@
     <value>de Vrijmetselaars zijn: {0}</value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
 	<!-- 0 - Youngest Zombies name -->
     <value>Je nieuwste lid gaat naar het huis van {0} om hen het licht te laten zien, maar als ze aankomen, treffen ze een bloedbad aan. Het lichaam van {0} ligt aan flarden gescheurd door de kamer en hier en daar liggen wat plukjes vacht ... </value>
   </string>
@@ -529,7 +529,7 @@
     <value>De roedel heeft besloten om eens bij {0} op visite te gaan... Maar er staat een donker figuur met een erg groot zwaard te wachten. Jullie vallen aan met al je macht, maar de Beschermengel 👼 blijkt iedereen aan te kunnen. Met de staart tussen de poten trekken jullie je snel terug.</value>
   </string>
   <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
 	<!-- 0 - newest  -->
     <!-- 1 - target's name -->
     <value>{0} was erop uitgestuurd om {1} te bekeren, maar hun geloof was te sterk. :(</value>
@@ -540,7 +540,7 @@
     <!-- 1 - name -->
     <value>@{1}, een speler met de naam {0} speelt al mee. Verander je naam a.u.b.</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
 	<!-- 0 - target's name -->
     <value>Je bent het huis van {0} binnengeglipt voor wat plezier... maar als je kleren weer bij elkaar zoekt, hoor je een onnatuurlijk geluid. Je kijkt een klein kamertje binnen en ziet een altaar, waar een onnatuurlijk licht vanaf komt. Een paar tentakels kronkelen eromheen. Je gaat terug naar huis en fantaseert over hoe het zou voelen om daar eens een nachtje mee door te brengen... </value>
   </string>
@@ -632,8 +632,8 @@
     <value>Je tijd is voorbij!</value>
   </string>
   <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
-    <value>Jij bent Cupido 🏹! Kies twee spelers, die verliefd worden op elkaar. Als een van die twee dood gaat, sterft de andere van verdriet!</value>
+  <string key="RoleInfoRecruiter">
+    <value>Jij bent Recruitero 🏹! Kies twee spelers, die verliefd worden op elkaar. Als een van die twee dood gaat, sterft de andere van verdriet!</value>
   </string>
   <string key="RoleInfoDoppelganger">
     <value>Jij bent Dubbelganger 🎭! Kies een speler, als die sterft, erf je hun rol.</value>
@@ -644,9 +644,9 @@
   <string key="RoleInfoSerialKiller">
     <value>Jij bent de Seriemoordenaar 🔪. Kort geleden gevlucht uit het gekkenhuis. De stemmen in je hoofd bevelen je elke nacht iemand af te maken.</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>Je wordt geraakt door de pijl der liefde ❤️. {0}'s naam zal nooit uit je hart verdwijnen (hoe irritant!). Je doel is samen met {0} te overleven. Gaat een van jullie dood, dan sterft de ander van verdriet.</value>
-	<value>Cupido's pijl 🏹 heeft je geraakt! Je houdt heel erg van {0}❤️! Maar let op! Als hij sterft, kun jij niet verder leven. Als jullie allebei overleven, winnen jullie!</value>
+	<value>Recruitero's pijl 🏹 heeft je geraakt! Je houdt heel erg van {0}❤️! Maar let op! Als hij sterft, kun jij niet verder leven. Als jullie allebei overleven, winnen jullie!</value>
   </string>
   <string key="HunterLynchedChoice">
     <value>Het dorp heeft gekozen om je te lynchen! Dit is je laatste kans om iemand met je mee te nemen! Pak je geweer en schiet!</value>
@@ -700,12 +700,12 @@
     <!-- 0 - target's name -->
     <value>Op je weg naar {0}'s huis word je geblindeerd door het felle licht van een Beschermengel 👼!! Droevig ga jij weer naar huis, vannacht mag jij niemand vermoorden :(</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
     <value>De Sekte stuurde {0} om {1} te bekeren, maar nog voordat {0} de wervingsfolder uit zijn binnenzak kon trekken, had de Jager al zijn geweer geladen. KABLAM! R.I.P. {0}</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
     <value>De Sekte leerde vannacht, dat {1} de voorkeur geeft aan eigen rituelen. {0} is dood, zijn lichaam net een speldenkussen: meer messen dan vlees.</value>
@@ -730,11 +730,11 @@
     <!-- 1 - mason collegues's name -->
     <value>{0} ging dood, je bent nu een Vrijmetselaar 👷! Je collega's (als zij bestaan) zijn: {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <!-- 0 - new Zombie's name -->
     <value>Dubbelganger 🎭 {0} is bekeerd tot jullie Sekte! Feestje!</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <!-- 0 - role's name -->
     <!-- 1 - teammates's name -->
     <value>{0} ging dood en jij verandert in een Sektelid 👤! Je collega's (als zij bestaan) zijn: {1}</value>
@@ -754,26 +754,26 @@
   <string key="AskKill">
     <value>Wie wil jij vannacht afmaken?</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <!-- 0 - dead's name -->
-    <!-- 1 - lover's name -->
+    <!-- 1 - crewmate's name -->
     <!-- 2 - roles -->
     <value>Met de laatste ademhaling van {0} valt {1} naast hem neer en huilt. Zij weet zeker dat zij niet zonder {0} ❤️ kan leven, en stort zich van een brug. {2}</value>
   </string>
   <string key="AskDoppelganger">
     <value>Wie wil je worden als hij doodgaat?</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>Wie wil jij dat de Geliefden ❤️ zijn? Kies de eerste speler.</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>Wie wil jij dat de Geliefden ❤️ zijn? Kies de tweede	speler.</value>
   </string>
   <string key="Hunter">
     <value>de Jager 🎯 </value>
   </string>
-  <string key="Cupid">
-    <value>Cupido 🏹 </value>
+  <string key="Recruiter">
+    <value>Recruitero 🏹 </value>
   </string>
   <string key="SerialKiller">
     <value>de Seriemoordenaar 🔪</value>
@@ -785,7 +785,7 @@
     <!-- 0 - target's name -->
     <value>Je wordt het Wilde Kind 👶. Je rolmodel is {0}</value>
   </string>
-  <string key="LoversWin" isgif="true">
+  <string key="crewmatesWin" isgif="true">
     <value>Ware liefde eindigt nooit! De Geliefden ❤️ winnen!</value>
   </string>
   <string key="HunterKilledVisiter">
@@ -793,7 +793,7 @@
     <!-- 1 - role -->
     <value>In het midden van het stadsplein, vinden jullie de lichaam van {0}, vol met kogels! Blijkbaar heeft hij geprobeerd de Jager 🎯 te verrassen! {1}</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>Een gast met een capuchon heeft geprobeerd om je te bekeren, maar je geloof was te sterk!</value>
   </string>
   <string key="AlreadyOnWaitList">
@@ -873,7 +873,7 @@
   <string key="AboutFool">
     <value>Wat een Dwaas 🃏 ben je, als je denkt dat je eigenlijk de Ziener 👳 bent! Je kiest iemand uit om diens rol te bekijken, maar je krijgt willekeurige rollen te zien. Soms klopt het, maar dat is een kwestie van toeval.</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>Je doel is het om iedereen - behalve de wolven 🐺, de Seriemoordenaar 🔪 en de Sektejager 💂 - tot je Sekte te bekeren. Als dat lukt winnen jullie! (Spelers die bekeerd worden verliezen hun oorspronkelijke rol).</value>
   </string>
   <string key="AboutCH">
@@ -894,8 +894,8 @@
   <string key="AboutDG">
     <value>De dood van een medespeler is voor de Dubbelganger 🎭 juist het begin van het spel. Hij neemt dan namelijk de rol van zijn rolmodel over. Als Dubbelganger 🎭 moet je - behalve als jij een van de Geliefden ❤️ bent - van rol veranderen om te winnen!</value>
   </string>
-  <string key="AboutCupid">
-    <value>Liefde is krachtig! Cupido 🏹 kan twee spelers (of zichzelf en een andere speler) kiezen, die verliefd ❤️ op elkaar worden. Hun doel is om samen te overleven. Sterft een van hen, dan sterft de ander ook.</value>
+  <string key="AboutRecruiter">
+    <value>Liefde is krachtig! Recruitero 🏹 kan twee spelers (of zichzelf en een andere speler) kiezen, die verliefd ❤️ op elkaar worden. Hun doel is om samen te overleven. Sterft een van hen, dan sterft de ander ook.</value>
   </string>
   <string key="AboutHunter">
     <value>Sommige mensen denken dat de Jager 🎯 een Amerikaanse Redneck is, want hij heeft altijd een wapen op zak. Als je hem lyncht kan hij uit wraak gaan schieten! Tijdens de nacht ligt zijn wapen onder zijn kussen, hij heeft de kans om een weerwolf 🐺 te doden, als de roedel naar zijn huis komt!</value>
@@ -1068,10 +1068,10 @@
   <string key="AllowTannerA">
     <value>Looier 👺 is nu: {0}</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>Sekte toestaan?\nActueel: {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>Sekte is nu: {0}</value>
   </string>
   <string key="EnableSecretLynchQ">
@@ -1224,7 +1224,7 @@
   <string key="SerialKillerTeam" deprecated="true">
     <value>Seriemoordenaar Team</value>
   </string>
-  <string key="CultTeam" deprecated="true">
+  <string key="zoombiesTeam" deprecated="true">
     <value>Sekte Team</value>
   </string>
   <string key="TannerTeam" deprecated="true">
@@ -1242,13 +1242,13 @@
   <string key="SerialKillerTeamEnd">
     <value>Seriemoordenaar Team</value>
   </string>
-  <string key="CultTeamEnd">
+  <string key="zoombiesTeamEnd">
     <value>Sekte Team</value>
   </string>
   <string key="TannerTeamEnd">
     <value>Looier Team</value>
   </string>
-  <string key="CultConvertWolf">
+  <string key="zoombiesConvertWolf">
     <value>De Sekte stuurt {0} om {1} te bekeren, helaas in plaats daarvan vliegt het hoofd van {0} uit het raam.... Goh, waarom vonden de wolven 🐺 dit oneetbaar? {0} is overleden.</value>
   </string>
   <string key="HarlotFuckedKilledPublic">
@@ -1265,8 +1265,8 @@
   <string key="ZombieKilled">
     <value>{0} ligt naast het altaar met een kandelaar. De seriemoordenaar heeft weer toegeslagen, ongeacht ras, taal of religie! {0} was een sektelid.</value>
   </string>
-  <string key="CupidKilled">
-    <value>Het is ochtend, de burgers doe bedroevende ontdekking dat {0} ook wel bekend als Cupido doormidden gekliefd. Vreemdgenoeg is het hart nergens te bekennen...</value>
+  <string key="RecruiterKilled">
+    <value>Het is ochtend, de burgers doe bedroevende ontdekking dat {0} ook wel bekend als Recruitero doormidden gekliefd. Vreemdgenoeg is het hart nergens te bekennen...</value>
   </string>
   <string key="DrunkKilled">
     <value>Dorpelingen hoopte {0} te treffen en te kunnen complimenteren met zijn nieuwe brouwsel, maar alles wat ze kunnen vinden in {0}'s huis was een gebroken mes en een lever. Al die jaren van drinken hebben geresulteerd in een lever zo hard dat zelfs de seriemoordenaar hem niet aan zijn collectie toe wilde voegen...</value>
@@ -1301,12 +1301,12 @@
     <value>Het dorp ontwaakt en vindt het lichaam van {0}, de sekte jager, uitgeserveerd op een schaal voor het gemeentehuis. Lesje geleerd: Ga niet op bezoek bij de seriemoordenaar!</value>
     <value>Het lichaam van {0}, de sektejager, ligt midden in honderd stukjes midden in het dorp. Controleren of de seriemoordenaar een sektelid is dus geen goed idee...</value>
   </string>
-  <string key="CultConvertWolfPublic">
+  <string key="zoombiesConvertWolfPublic">
     <!--used when Zombies convert the wolves, only if wolves stayed home-->
     <value>Het leek dat de wolven zich koest zouden houden konden ze niet anders dan {0}, een sektelid dat ruzie zocht met de wolven, een lesje leren. {0}'s hoofd werd omgedoopt tot diner toen het bij de wolven aan de deur verscheen!</value>
     <value>De sekte had wat onverwachte complicaties. Hun nieuwste lid had de pech een wolf te bezoeken terwijl de wolven een nachtje thuis bleven, de wolf vondt {0} erg smakelijk. Helaas voor {0}, hebben de wolven geen intresse in een nieuwe religieuze stroming.</value>
   </string>
-  <string key="CultConvertKillerPublic">
+  <string key="zoombiesConvertKillerPublic">
     <!--used when Zombies convert the SK-->
     <value>De sekte dacht een nieuw lid te hebben geworven, maar ze hadden het mis! {0}, een sektelid, is in blokjes gesneden en op het stadhuisplein neer gelegd! Vreemd genoeg is het "heilge" boek doorboord met een mes, haast alsof het een statement was welke religie beter was.</value>
     <value>Afgelopen nacht heeft de sekte geprobeerd iemand te bekeren die nog gekker is dan zij zelf. hun nieuwste lid heeft geprobeerd de Seriemoordenaar te bekeren, en de seriemoordenaar heeft een nieuw kunstwerk aan het dorp toegevoeg {0}'s ingewanden.</value>
@@ -1396,7 +1396,7 @@
     <!-- NOTE: No space between {0} and joined. It will be added in the code if necessary-->
 	<value>In de laatste 30 seconden hebben de volgende spelers zich aangesloten bij het spel: {0}</value>
   </string>
-  <string key="AllowCult">
+  <string key="Allowzoombies">
     <value>Toestaan sekte</value>
   </string>
   <string key="AllowTanner">
@@ -1622,7 +1622,7 @@
     <!-- 0 - mason collegues's name -->
     <value>Je medemetselaars zijn: {0}</value>
   </string>
-  <string key="ThiefToCult">
+  <string key="ThiefTozoombies">
     <!-- 0 - old Zombie's name -->
     <!-- 1 - new Zombie's name -->
     <value>{0} is van zijn/haar geloof gevallen en {1} heeft spontaan het licht gezien!</value>
@@ -1977,16 +1977,16 @@
   <string key="HunterFell">
     <value>Deze nacht alweer geen sekteleden kunnen vinden! Gefrustreerd loop je over het kerkhof naar huis. Als je je gedachten er nou bij had gehad, dan had je dat open graf wel gezien! Met een schreeuw val je in het gat wat {0} vannacht gegraven heeft. De plof die volgt is het laatste geluid wat je produceert voor je de pijp aan Maarten geeft.</value>
   </string>
-  <!--{0}: cult hunter-->
+  <!--{0}: zoombies hunter-->
   <string key="HunterFellDigger">
     <value>In het ochtendgloren loop je terug naar huis. Vlak voor je thuis bent, zie je een glanzend zwaard liggen naast een open graf. Als je je voorover buigt om het zwaard te pakken, zie je in het graf het lichaam van {0} liggen. Schijnbaar wilde de sektejager jou vannacht een bezoekje brengen, maar haalde hij je voordeur niet eens!</value>
   </string>
   <!--{0}: Zombie-->
-  <string key="CultFell">
+  <string key="zoombiesFell">
     <value>Je wil net weer in bed stappen, als je een schreeuw van buiten hoort komen. Snel inspecteer je de omgeving en je vind het lichaam van {0} in een van je open graven liggen. Pffff... wie probeert er dan ook een grafdelver te bekeren?</value>
   </string>
   <!--{0}: Zombie who fell, {1}: grave digger-->
-  <string key="CultConvertGraveDigger">
+  <string key="zoombiesConvertGraveDigger">
     <value>Onderweg naar het huis van {1} besluit de sekteleider ineens dat het cool is om de kerk plat te branden. Terwijl de sekte het kerkhof oversteekt, hoor je een gil en je ziet {0} in een open graf vallen, om hier nooit meer uit op te staan.</value>
   </string>
   <!--{0}: grave digger-->

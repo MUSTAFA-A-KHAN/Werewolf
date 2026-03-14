@@ -394,33 +394,33 @@
     <!-- 1 - target name -->
     <value >{0} telah memilih untuk mengubah {1}</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <!-- 0 - Yougest Zombie (killed)'s name' -->
     <!-- 1 - ZombieHunter's name -->
     <value>{0} dikirim oleh pasukan Eidolon ke rumah {1}... Tetapi, dia adalah Bounty Hunter! {0} mati dan semua hartanya telah dirampas!</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - Number of Zombies left -->
     <value>Malam kemarin, {0} datang kepadamu untuk mengubahmu menjadi Eidolon....  Tetapi, dengan sigap kamu membunuh dan merampas uang dari Enigma!  Eidolon telah mati... {1} tersisa!</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>Kekuatan Enigma berhasil merubahmu menjadi Eidolon!  Setiap malam, kamu bisa mengajak creep lain untuk menjadi pengikut Enigma.</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <!-- 0 - Number of Zombies -->
     <value>Eidolon tersisa: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <!-- 0 - new Zombie's name -->
     <value>{0} berubah menjadi Eidolon, Enigma memiliki pengikut yang lain!</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <!-- 0 - Newest Zombie's name -->
     <!-- 1 - target name -->
     <value>Malam kemarin, {0} datang ke rumah {1} untuk mengubahnya menjadi Eidolon.... Tetapi, ia tak ada dirumah . . . .</value>
   </string>
-  <string key="CultWins" isgif="true">
+  <string key="zoombiesWins" isgif="true">
     <value >Semua penjahat telah mati, creep yang tersisa telah menjadi pengikut Enigma dan berubah menjadi Eidolon. Eidolon telah memenangkan Permainan!</value>
   </string>
   <string key="HunterVisitDead">
@@ -524,7 +524,7 @@
     <value>  Teman Meepomu adalah: {0}</value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <!-- 0 - Youngest Zombies name -->
     <value>Anggota Eidolon terbaru mencoba mengajak {0} bergabung, tapi ia melihat rumah {0} telah hancur berantakan darah dimana-mana,bekas cakar serigala, dan beberapa bulu dari serigala. Targetmu telah dibunuh oleh Lycan!</value>
   </string>
@@ -534,7 +534,7 @@
     <value> Lycan dengan beringar berangkat ke rumah {0} untuk memangsanya, tetapi di depan rumah mereka menemui sosok yang amat sangat menakutkan. Guardian Angel milik Omniknight berhasil mengalahkan pasukan Lycan!</value>
   </string>
   <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <!-- 0 - newest  -->
     <!-- 1 - target's name -->
     <value>Kamu mengutus {0} untuk mengajak {1} bergabung, tetapi sayang creep yang lain tidak membutuhkan emas yang mereka butuhkan adalah kesempatan untuk hidup :(</value>
@@ -545,7 +545,7 @@
     <!-- 1 - name -->
     <value>@{1}, pemain dengan nama {0} telah bergabung.  Zeus bilang "ganti namamu agar bisa bergabung!".</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <!-- 0 - target's name -->
     <value>Kamu mengunjuni rumah {0} untuk penyiksaan malam ini... Setelah puas menyiksa, kamu pulang dan menemukan ruangan berisi emas dan banyak hal aneh . . . .</value>
   </string>
@@ -638,8 +638,8 @@
     <value>Waktu habis!</value>
   </string>
   <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
-    <value>Ogre Magi🏹(Cupid). Kamu ditakdirkan untuk menjadi kembar siam, kamu mempunyai kekuatan untuk mengubah orang lain menjadi kembar siam sepertimu. Setelah kamu memilih 2 orang untuk dikutuk menjadi kembar siam mereka takkan terpisahkan. Jika salah satu dari mereka mati, maka saudara kembarnya pun akan ikut mati bersamanya.</value>
+  <string key="RoleInfoRecruiter">
+    <value>Ogre Magi🏹(Recruiter). Kamu ditakdirkan untuk menjadi kembar siam, kamu mempunyai kekuatan untuk mengubah orang lain menjadi kembar siam sepertimu. Setelah kamu memilih 2 orang untuk dikutuk menjadi kembar siam mereka takkan terpisahkan. Jika salah satu dari mereka mati, maka saudara kembarnya pun akan ikut mati bersamanya.</value>
   </string>
   <string key="RoleInfoDoppelganger">
     <value>Kamu adalah Rubick🎭 (Doppleganger). Kamu memiliki kekuatan untuk mencuri kekuatan milik orang lain. Disaat creep yang kamu pilih mati, kamu akan memiliki kekuatannya dan berubah menjadi dirinya.</value>
@@ -650,7 +650,7 @@
   <string key="RoleInfoSerialKiller">
     <value>Pudge🔪 (Serial Killer).  Dia datang dari tempat dimana pembantaian tidak pernah berhenti makanan sehari-harinya adalah daging segar, ia tak pernah mendapatkan cukup daging segar untuk ia makan. Setiap malam, kamu akan keluar rumah dan berkeliling desa untuk mencari santapanmu.</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>Kamu telah dikutuk oleh Ogre Magi, {0} adalah saudara kembarmu. Jika kamu mati, saudaramu juga akan mati begitupun sebaliknya. . . .</value>
   </string>
   <string key="HunterLynchedChoice">
@@ -685,7 +685,7 @@
     <!-- 2 - target's role -->
     <value>{0} terjatuh ke dan memegang dadanya.... Tapi dengan seluruh kekuatannya ia melemparkan stormhammer kearah {1}. Ia telah mati. {2}</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <value>{0} datang kerumah {1} untuk mengajaknya bergabung, tak lama pintu terbuka lalu {0} ditarik kedalam rumah oleh Pudge. {0} telah mati!</value>
   </string>
   <string key="HunterShotWolfMulti">
@@ -708,12 +708,12 @@
     <!-- 0 - target's name -->
     <value>Kamu mencoba untuk membunuh {0} dan menjadikannya sebagai bahan makan malammu, tetapi Guardian Angel dari Omniknight telah berjaga didepan rumah {0}! Kamu lari ketakutan, tak ada jatah makan malam untukmu hari ini. . .</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
     <value>Eidolon mengutus {0} untuk mengajak {1} bergabung, BOOM sebuah ledakan dari stormhammer dan badan  {0} terlempar keluar rumah! {0} is dead....</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
     <value>Eidolon mengutus {0} untuk mengajak {1} bergabung, tapi saat ia berhasil masuk kedalam rumah tiba-tiba sebuah pisau tertancap didada {0}. PUDGE MEMANG TIDAK WARAS! {0} telah mati....</value>
@@ -738,11 +738,11 @@
     <!-- 1 - mason collegues's name -->
     <value>{0} telah mati, kamu berubah menjadi Meepo.  Temanmu, (jika ada) adalah: {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <!-- 0 - new Zombie's name -->
     <value>Rubick {0} telah berubah menjadi Eidolon, sama sepertimu!</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <!-- 0 - role's name -->
     <!-- 1 - teammates's name -->
     <value>{0} telah mati, kamu berubah menjadi Eidolon.  Temanmu, (jika ada) adalah: {1}</value>
@@ -762,25 +762,25 @@
   <string key="AskKill">
     <value>Siapa yang akan kamu bunuh malam ini?</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <!-- 0 - dead's name -->
-    <!-- 1 - lover's name -->
+    <!-- 1 - crewmate's name -->
     <!-- 2 - roles -->
     <value>{0} telah mati. Tak lama {1} kehilangan kekuatannya. {1} adalah {2}</value>
   </string>
   <string key="AskDoppelganger">
     <value>Siapa yang akan kamu curi?</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>Siapa yang akan kamu kutuk? Pilih pemain pertama!</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>Siapa yang akan kamu kutuk? Pilih pemain kedua!</value>
   </string>
   <string key="Hunter">
     <value>Sven 🎯</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>Ogre Magi 🏹</value>
   </string>
   <string key="SerialKiller">
@@ -789,15 +789,15 @@
   <string key="Doppelgänger">
     <value>Rubick 🎭</value>
   </string>
-  <string key="CupidChosen">
-    <!-- 0 - lover's name -->
+  <string key="RecruiterChosen">
+    <!-- 0 - crewmate's name -->
     <value>Kamu telah dikutuk oleh Ogre Magi! {0} adalah saudara kembarmu.  Jika dia mati, maka kamu akan kehilangan kekuatanmu dan ikut mati bersamanya!</value>
   </string>
   <string key="NewWCRoleModel">
     <!-- 0 - target's name -->
     <value>Kamu telah berubah menjadi Wisp.  Pelindungmu adalah {0}</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
     <value>Kutukan yang menyenangkan! Si kembar siam telah memenangkan permainan ini!</value>
   </string>
   <string key="HunterKilledVisiter">
@@ -805,7 +805,7 @@
     <!-- 1 - role -->
    <value> Didepan rumah Sven, terlihat jasad {0} terbujur lemah, ia mencoba untuk mengganggu Sven malam tadi! {1}</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>A hooded figure tried to convert you to their eidolon, but your faith was too strong.</value>
     <value>Pasukan Eidolon mencoba untuk mengajakmu bergabung! Tetapi, kamu tidak membutuhkan banyak Emas . . .</value>
   </string>
@@ -897,7 +897,7 @@
   <string key="AboutFool">
     <value>Warlock, orang yang sangat ingin menjadi Dark Seer. Tetapi, kekuatannya tidak cukup hebat untuk menjadi Dark Seer.</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>Eidolon pemuja Enigma. Dia mempunyai kekuatan untuk merubah semua creep menjadi clone Eidolon, jika semua creep telah menjadi clone enigma kalian menang.</value>
   </string>
   <string key="AboutCH">
@@ -919,11 +919,11 @@
   <string key="AboutDG">
     <value>
       Your ancestors had the ability to metamorph into others... while you don't have their full abilities, you can pick a player at the start of the game. If that player dies, you will become what they were.
-      Note: If the player was converted to cult, you will take on their original role. All other normal rules apply: If they were Wild Child and their role model died, you will become a wolf. Otherwise, you will inherit their role model.
-      The cult cannot convert the Doppelgänger (but can after the doppelganger switches roles). Also - the Doppelgänger can NOT win unless they have transformed. If at the end of the game, the Doppelgänger is still the same, they lose (exception: lover)
+      Note: If the player was converted to zoombies, you will take on their original role. All other normal rules apply: If they were Wild Child and their role model died, you will become a wolf. Otherwise, you will inherit their role model.
+      The zoombies cannot convert the Doppelgänger (but can after the doppelganger switches roles). Also - the Doppelgänger can NOT win unless they have transformed. If at the end of the game, the Doppelgänger is still the same, they lose (exception: crewmate)
     </value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>
       Cursed conjoined twins, you are willing to curse other 2 players to be the next conjoined twins.
     </value>
@@ -932,11 +932,11 @@
     <value>
       A trigger happy, vindictive player. As the hunter, you try to keep to yourself. However, when others come to visit you, they may find themselves dead, as your paranoia takes hold and you shoot. If the wolves attack you, you have a chance to take one of them with you. Otherwise, if you die, you will get a chance to shoot someone as you die.
       Note: For wolf attacks, the chance starts at 30%. If there is one wolf, the hunter has a 30% chance to kill the wolf (and survive). For each additional wolf, add 20% (2 wolves = 50%, 3 = 70%, etc). However - if there are multiple wolves, while you may kill one of them, you will still be outnumbered and killed.
-      If the cult tries to convert you, they have a 50% chance to fail. If they fail, you have a 50% chance to kill one of them!
+      If the zoombies tries to convert you, they have a 50% chance to fail. If they fail, you have a 50% chance to kill one of them!
     </value>
   </string>
   <string key="AboutSK">
-    <value>That asylum was silly anyways. What a joke. You are free now however, back to business as usual - killing! The serial killer is a lone player, on their own team. They can win only if they are the last player alive (exception: lovers). As the serial killer, you can kill ANYONE - wolves, hunters, gunners, guardian angels, whatever. If the wolves try to attack you, you will kill one of them (random), and live.</value>
+    <value>That asylum was silly anyways. What a joke. You are free now however, back to business as usual - killing! The serial killer is a lone player, on their own team. They can win only if they are the last player alive (exception: crewmates). As the serial killer, you can kill ANYONE - wolves, hunters, gunners, guardian angels, whatever. If the wolves try to attack you, you will kill one of them (random), and live.</value>
   </string>
   <string key="AboutPara">
     <value>Para adalah raja dari para Kultus, ia mengubah kita semua menjadi Werewolf Addict!</value>
@@ -1105,10 +1105,10 @@
   <string key="AllowTannerA">
     <value>Pilihan Tanner dalam Peran: {0}</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>Apakah kamu ingin Eidolon dalam pilihan peran?\nPengaturan saat ini: {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>Pilihan Eidolon dalam Peran: {0}</value>
   </string>
   <string key="ThankYou">

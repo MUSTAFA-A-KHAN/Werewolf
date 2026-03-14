@@ -82,7 +82,7 @@ namespace Werewolf_Node.Models
         public ITeam Team { get; set; } = ITeam.Village;
         //public bool HasNightAction { get; set; } = false;
         //public bool HasDayAction { get; set; } = false;
-        public int DayCult { get; set; } = 0;
+        public int Dayzoombies { get; set; } = 0;
         public long RoleModel { get; set; } = 0;
         [JsonConverter(typeof(StringEnumConverter))]
         public IRole KilledByRole { get; set; }
@@ -96,8 +96,10 @@ namespace Werewolf_Node.Models
         public int StumbledGrave { get; set; } = 0;
         public int MessageId { get; set; }
         public string Name { get; set; }
-        public bool InLove { get; set; } = false;
-        public long LoverId { get; set; } = 0;
+        public bool isRecruited { get; set; } = false;
+        public long crewmateId { get; set; } = 0;
+        public bool CrewmatesWereForced { get; set; } = false;
+        public bool HasSwappedCrew { get; set; } = false;
         public bool Doused { get; set; } = false;
         public bool Burning { get; set; } = false;
         public int DBPlayerId { get; set; } = 0;
@@ -134,9 +136,9 @@ namespace Werewolf_Node.Models
         public bool DoubleKillEnding { get; set; } = false;
         public bool Bitten { get; set; }
         public List<long> CorrectSnooped { get; set; } = new List<long>();
-        public bool SpeedDating { get; set; } = false;
+        public bool DefaultRecruiter { get; set; } = false;
         public int FirstStone { get; set; } = 0;
-        public int CHHuntedCultCount { get; set; } = 0;
+        public int CHHuntedzoombiesCount { get; set; } = 0;
         public int ClumsyCorrectLynchCount { get; set; } = 0;
         public int AlphaConvertCount { get; set; } = 0;
         public int GAGuardWolfCount { get; set; } = 0;
@@ -147,8 +149,8 @@ namespace Werewolf_Node.Models
         public bool StrongestAlpha { get; set; } = false;
         public bool FoolCorrectlySeenBH { get; set; } = false;
         public bool Trustworthy { get; set; } = false;
-        public bool CultLeader { get; set; } = false;
-        public bool ConvertedToCult { get; set; } = false;
+        public bool zoombiesLeader { get; set; } = false;
+        public bool ConvertedTozoombies { get; set; } = false;
         public bool FrozeHarlot { get; set; } = false;
         public int HasCleanedDoused { get; set; } = 0;
         public int HasShotHunterAttacker { get; set; } = 0;
@@ -160,7 +162,7 @@ namespace Werewolf_Node.Models
         public int DonationLevel { get; set; } = 0;
         public bool Founder { get; set; } = false;
         public CustomGifData GifPack { get; set; } = null;
-        public string LoverMsg { get; set; } = null;
+        public string crewmateMsg { get; set; } = null;
         public KillMthd? FinalShotDelay { get; set; } = null;
 
         #endregion
@@ -169,15 +171,15 @@ namespace Werewolf_Node.Models
 
     public enum ITeam
     {
-        Village, Cult, Wolf, Tanner,
-        Neutral, SerialKiller, Lovers, Arsonist,
+        Village, zoombies, Wolf, Tanner,
+        Neutral, SerialKiller, crewmates, Arsonist,
         SKHunter,
         NoOne, Thief
     }
 
     public enum KillMthd
     {
-        None, Lynch, Eat, Shoot, VisitWolf, VisitVictim, GuardWolf, Detected, Flee, Hunt, HunterShot, LoverDied, SerialKilled, HunterCult, GuardKiller, VisitKiller, Idle, Suicide, StealKiller, Chemistry, FallGrave,
+        None, Lynch, Eat, Shoot, VisitWolf, VisitVictim, GuardWolf, Detected, Flee, Hunt, HunterShot, crewmateDied, SerialKilled, Hunterzoombies, GuardKiller, VisitKiller, Idle, Suicide, StealKiller, Chemistry, FallGrave,
         Spotted, Burn, VisitBurning
     }
 }

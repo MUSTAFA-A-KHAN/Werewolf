@@ -378,33 +378,33 @@
     <!-- 1 - target name -->
     <value>{0} telah mengundi untuk menghasut {1}</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <!-- 0 - Yougest Zombie (killed)'s name' -->
     <!-- 1 - ZombieHunter's name -->
     <value>{0} telah dihantar untuk melakukan kerja kotor anda, dan menukar {1} ... walau bagaimanapun, dia adalah Pemburu Zombie! {0} telah mati!</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - Number of Zombies left -->
     <value>{0} datang ke rumah anda malam tadi, bersedia untuk menghasut anda .... tetapi anda menghunus pedang anda dan memancung kepalanya!!! salah seorang Ahli Zombie mati... {1} masih hidup!</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>Ahli Zombie telah berjaya mengubah dan menghasut anda! Anda kini seorang pengamal ajaran sesat. Setiap malam, anda mempunyai peluang untuk mengubah pemain lain.</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <!-- 0 - Number of Zombies -->
     <value>Ahli Zombie adalah : {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <!-- 0 - new Zombie's name -->
     <value>{0} telah menyertai kumpulan ajaran sesat!</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <!-- 0 - Newest Zombie's name -->
     <!-- 1 - target name -->
     <value>{0} telah dihantar untuk melakukan kerja kotor anda, dan bersedia untuk menghasut {1} ... selepas mengetuk pintu beberapa kali, anda mendapati dia tiada di rumah! anda menyelitkan Borang Pendaftaran Memasuki Zombie di bawah pintu rumahnya dan pulang.</value>
   </string>
-  <string key="CultWins" isgif="true">
+  <string key="zoombiesWins" isgif="true">
     <value>Semua serigala telah mati, yang tinggal adalah orang yang mengamalkan ajaran sesat. Zombie menang! 🐚</value>
   </string>
   <string key="HunterVisitDead">
@@ -509,7 +509,7 @@
     <value>  Buruh adalah: {0}</value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <!-- 0 - Youngest Zombies name -->
     <value>Ahli kumpulan terbaru anda telah pergi ke rumah {0} untuk menukar mereka, tetapi sebaliknya mendapati rumah itu hancur, darah berlumuran di merata tempat, dan ada cebisan bulu serigala tersangkut pada pintu, sungguh mencurigakan...</value>
   </string>
@@ -518,7 +518,7 @@
     <value>Kumpulan serigala menuju ke rumah {0} untuk memakan mereka, tetapi mereka bertemu dengan sesuatu lembaga yang misteri, gelap dan tinggi. Dewa Penjaga berlawan dengan team anda semua, dan anda balik dengan kekalahan.</value>
   </string>
   <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <!-- 0 - newest  -->
     <!-- 1 - target's name -->
     <value>Anda menghantar {0} untuk mencuba untuk menukar {1}, namun kepercayaan mereka terlalu kuat, dan anda tidak dapat untuk menukar mereka :(</value>
@@ -529,7 +529,7 @@
     <!-- 1 - name -->
     <value>@{1}, pemain dengan nama {0} telah menyertai. Sila ubah nama anda untuk menyertai.</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <!-- 0 - target's name -->
     <value>Semasa anda hendak meninggalkan rumah {0}, anda mendapati ada sesuatu yang mencurigakan, terdapat cahaya yang pelik datang dari rumahnya...</value>
   </string>
@@ -622,8 +622,8 @@
     <value>Masa Tamat!</value>
   </string>
   <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
-    <value>Anda adalah Cupid 🏹 Dihantar ke bumi dengan hanya seluar dalam, busur dan dua anak panah, pilih dua pemain yang akan suka antara satu sama lain untuk selama-lamanya. Jika salah seorang daripada mereka meninggal dunia, satu lagi meninggal dunia akibat kesedihan.</value>
+  <string key="RoleInfoRecruiter">
+    <value>Anda adalah Recruiter 🏹 Dihantar ke bumi dengan hanya seluar dalam, busur dan dua anak panah, pilih dua pemain yang akan suka antara satu sama lain untuk selama-lamanya. Jika salah seorang daripada mereka meninggal dunia, satu lagi meninggal dunia akibat kesedihan.</value>
   </string>
   <string key="RoleInfoDoppelganger">
     <value>Anda adalah Doppelgänger 🎭 Lagenda mengatakan bahawa nenek moyang anda adalah metamorphs, dan boleh memilih mana-mana bentuk yang mereka mahu. Anda telah mewarisi beberapa kapasiti mereka. Pilih pemain, apabila pemain yang mati, anda akan memainkan peranan mereka.</value>
@@ -634,7 +634,7 @@
   <string key="RoleInfoSerialKiller">
     <value>Anda adalah seorang Pembunuh Bersiri! (Serial Killer)🔪 Baru-baru ini melarikan diri dari rumah sakit mental, matlamat anda adalah untuk semua orang mati. Setiap malam, anda boleh menambah badan pemain untuk koleksi anda.</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>Anda dilamum cinta😍Memori {0} tidak akan pudar dalam hati anda. Jika salah seorang mati, seorang lagi akan mati dalam kesedihan. Jika seorang menang, seorang lagi turut menang.</value>
     <value>Anda dilamum cinta😍Memori {0} tidak akan pudar dalam hati anda. Jika salah seorang mati, seorang lagi akan mati dalam kesedihan. Jika seorang menang, seorang lagi turut menang.</value>
   </string>
@@ -690,12 +690,12 @@
     <!-- 0 - target's name -->
     <value>Anda cuba untuk mengumpul badan {0} untuk koleksi anda, tetapi anda telah dilawan oleh Dewa penjaga! Tiada pembunuhan untuk anda malam ini ...</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
     <value>Pengamal Ajaran Sesat menghantar {0} untuk cuba menhasut {1}, tetapi sebaliknya satu das tembakan dilepaskan dan badan {0} terbang keluar dari tingkap! {0} telah mati ...</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
     <value>Ahli Zombie telah menghantar {0} untuk cuba menukarkan {1}, tetapi jasad {0} terkeluar daripada tingkap, pisau ditusuk keserata tubuh! PSIKO betul! {0} telah mati....</value>
@@ -720,11 +720,11 @@
     <!-- 1 - mason collegues's name -->
     <value>{0} telah meninggal dunia, dan anda bertukar menjadi buruh. Rakan sepasukan anda (jika ada) adalah: {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <!-- 0 - new Zombie's name -->
     <value>Doppelgänger {0} kini telah menjadi Ahli Zombie, sama seperti anda!</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <!-- 0 - role's name -->
     <!-- 1 - teammates's name -->
     <value>{0} telah meninggal dunia, dan anda bertukar menjadi Serigala Jadian. Rakan sepasukan anda (jika ada) adalah: {1}</value>
@@ -744,26 +744,26 @@
   <string key="AskKill">
     <value>Siapa yang anda mahu bunuh malam ini? 💀</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <!-- 0 - dead's name -->
-    <!-- 1 - lover's name -->
+    <!-- 1 - crewmate's name -->
     <!-- 2 - roles -->
     <value>Dengan matinya {0}, {1} bergegas dan rebah, menangis. Mereka tidak dapat menahan dengan kehilangan orang yang tersayang, dan menembak diri sendiri dengan pistol yang terdekat yang boleh dicapai 💔.{2}</value>
   </string>
   <string key="AskDoppelganger">
     <value>Siapa yang anda mahu jadi jika mereka mati? 🎭</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>Siapa yang anda mahu jadikan sweet couple? Pilih pemain pertama 💘</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>Siapa yang anda mahu anda jodohkan? Pilih pemain kedua 💘</value>
   </string>
   <string key="Hunter">
     <value>Pemburu 🎯</value>
   </string>
-  <string key="Cupid">
-    <value>Cupid 🏹</value>
+  <string key="Recruiter">
+    <value>Recruiter 🏹</value>
   </string>
   <string key="SerialKiller">
     <value>Pembunuh Bersiri 🔪</value>
@@ -775,7 +775,7 @@
     <!-- 0 - target's name -->
     <value>Anda telah menjadi Budak Liar. Orang tua angkat anda ialah {0}</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
     <value>Cinta sejati berkekalan! Pasangan berjodohan menang! 💖</value>
   </string>
   <string key="HunterKilledVisiter">
@@ -783,7 +783,7 @@
     <!-- 1 - role -->
     <value>Di tengah-tengah pekan, semua orang mendapati badan {0}, Berdas-das tembakan di badan. Nampaknya mereka cuba untuk menyelinap Pemburu! {1}</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>Seorang yang misteri cuba untuk mengubah anda kepada agama mereka, tetapi iman anda terlalu kuat.</value>
   </string>
   <string key="AlreadyOnWaitList">
@@ -867,7 +867,7 @@
   <string key="AboutFool">
     <value>Sebagai si Bodoh anda  diberitahu mereka sebagai Seer... apabila mereka memilih untuk melihat peranan seseorang pada waktu malam, mereka diberitahu peranan yang rawak.</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>Sebagai Ahli Zombie, matlamat anda adalah untuk menukar semua pemain lain (kecuali serigala) kepada agama anda. Jika pada akhir permainan, semua pemain hidup adalah Ahli Zombie, pengamal ajaran sesat itu akan menang.</value>
   </string>
   <string key="AboutCH">
@@ -888,13 +888,13 @@
   <string key="AboutDG">
     <value>
       Keturunan anda mempunyai kemahiran untuk menukar orang lain ... semasa anda tidak mempunyai kebolehan mereka sepenuhnya, anda boleh mengambil pemain pada permulaan permainan. Jika pemain itu mati, anda akan menjadi apa yang mereka jadi.
-      Nota: Jika pemain itu ditukar kepada Cult, anda akan mengambil peranan asal mereka. Arahan asal sebelum ini dipakai: Jika mereka Kanak-kanak Liar dan role model mereka mati, anda akan menjadi serigala. Jika tidak, anda akan mewarisi role model mereka.
-       Zombie tidak boleh menukar Doppelgänger (tetapi boleh selepas doppelganger beralih peranan). Juga - Doppelgänger TIDAK boleh menang kecuali mereka berubah. Jika pada akhir permainan, Doppelgänger masih tidak berubah, mereka kalah (pengecualian: lover)
+      Nota: Jika pemain itu ditukar kepada zoombies, anda akan mengambil peranan asal mereka. Arahan asal sebelum ini dipakai: Jika mereka Kanak-kanak Liar dan role model mereka mati, anda akan menjadi serigala. Jika tidak, anda akan mewarisi role model mereka.
+       Zombie tidak boleh menukar Doppelgänger (tetapi boleh selepas doppelganger beralih peranan). Juga - Doppelgänger TIDAK boleh menang kecuali mereka berubah. Jika pada akhir permainan, Doppelgänger masih tidak berubah, mereka kalah (pengecualian: crewmate)
     </value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>
-      Anda dilamun cinta. Sebagai Cupid, anda boleh pilih dua pemain pada awal permainan ini. Dua pemain ini akan mabuk cinta! Jika seorang mati, seorang lagi akan mati dalam kesedihan:(
+      Anda dilamun cinta. Sebagai Recruiter, anda boleh pilih dua pemain pada awal permainan ini. Dua pemain ini akan mabuk cinta! Jika seorang mati, seorang lagi akan mati dalam kesedihan:(
       Nota: Kekasih akan tahu satu sama lain, tapi tidak diberi tahu peranan mereka. Jika keduanya hidup, mereka menang, tidak kira pasukan mana. Jika kekasih berada pada pasukan berbeza(orang kampung+serigala), dan satu pasukan menang(serigala), kekasihnya(penduduk kampung) turut menang sekali. TL;DR Jika salah seorang daripada kekasih menang seorang lagi turut menang.
     </value>
   </string>
@@ -906,7 +906,7 @@
     </value>
   </string>
   <string key="AboutSK">
-    <value>Rumah sakit jiwa tu memang gila. Bodoh . Kamu bebas sekarang,tetapi bisnes seperti biasa - membunuh! Pembunuh bersiri adalam pemain berseorangan. Mereka boleh menang apabila hanya mereka dan seorang penduduk kampung yang tinggal (kecuali: lovers). Sebagai pembunuh bersiri,  kamu boleh bunuh SESIAPA sahaja! - Serigala-serigala jadian, pemburu, penembak, Dewa penjaga atau sesiapa sahaja. Jika serigala cuba membunuh kamu, anda akan terus hidup dan membunuh salah satu daripada kumpulan serigala itu secara rawak</value>
+    <value>Rumah sakit jiwa tu memang gila. Bodoh . Kamu bebas sekarang,tetapi bisnes seperti biasa - membunuh! Pembunuh bersiri adalam pemain berseorangan. Mereka boleh menang apabila hanya mereka dan seorang penduduk kampung yang tinggal (kecuali: crewmates). Sebagai pembunuh bersiri,  kamu boleh bunuh SESIAPA sahaja! - Serigala-serigala jadian, pemburu, penembak, Dewa penjaga atau sesiapa sahaja. Jika serigala cuba membunuh kamu, anda akan terus hidup dan membunuh salah satu daripada kumpulan serigala itu secara rawak</value>
   </string>
   <string key="AboutPara">
     <value>Para adalah pemaju pelik yang suja menyalak pada orang lain. Mungkin dia sudah lama bersama dengan Werewolf. Berkawan dengan Werewolf bujanlah satu idea yang baik.
@@ -1072,10 +1072,10 @@ Nota: Para adalah pembuat bot ini.</value>
   <string key="AllowTannerA">
     <value>Tanner sebagai peranan yang ditetapkan untuk: {0}</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>Benarkan Zombie 👤 sebagai pilihan peranan?\nSekarang: {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>Zombie sebagai peranan yang ditetapkan untuk: {0}</value>
   </string>
   <string key="ThankYou">
@@ -1225,7 +1225,7 @@ Nota: Para adalah pembuat bot ini.</value>
   <string key="SerialKillerTeam" deprecated="true">
     <value>Pasukan Pembunuh</value>
   </string>
-  <string key="CultTeam" deprecated="true">
+  <string key="zoombiesTeam" deprecated="true">
     <value>Pasukan Ajaran Sesat</value>
   </string>
   <string key="TannerTeam" deprecated="true">
@@ -1243,13 +1243,13 @@ Nota: Para adalah pembuat bot ini.</value>
   <string key="SerialKillerTeamEnd">
     <value>Pasukan Pembunuh Bersiri</value>
   </string>
-  <string key="CultTeamEnd">
-    <value>Pasukan Cult</value>
+  <string key="zoombiesTeamEnd">
+    <value>Pasukan zoombies</value>
   </string>
   <string key="TannerTeamEnd">
     <value>Pasukan Tanner </value>
   </string>
-  <string key="CultConvertWolf">
+  <string key="zoombiesConvertWolf">
     <value>Ahli Zombie menghantar {0} untuk tukarkan {1}, tetapi kepala {0} terbang keluar daripada tingkap! Semua orang terkejut dan mungkin makanan dia tidak sesuai dimakan! {0} telah mati...</value>
   </string>
   <string key="HarlotFuckedKilledPublic">
@@ -1267,8 +1267,8 @@ Nota: Para adalah pembuat bot ini.</value>
   <string key="ZombieKilled">
     <value>{0} di jumpai ditikam sampai mati dengan batang lilin dekat altar. Pembunuh bersiri melakukan lagi, tanpa mengira agama, bahasa atau bangsa! {0} adalah Pengamal Ajaran Sesat.</value>
   </string>
-  <string key="CupidKilled">
-    <value>Keesokannya, penduduk kampung terkejut apabila cupid {0} a.k.a. telangkai terpisah dari kepala ke kaki. Peliknya jantungnya turut hilang...</value>
+  <string key="RecruiterKilled">
+    <value>Keesokannya, penduduk kampung terkejut apabila Recruiter {0} a.k.a. telangkai terpisah dari kepala ke kaki. Peliknya jantungnya turut hilang...</value>
   </string>
   <string key="DrunkKilled">
     <value>Penduduk kampung berharap dapat berjumpa {0} , tetapi apa mereka jumpa dalam rumah {0} adalah satu pisau rosak yang terlekat di jantung. Tahun yang berlalu, kerana banyak minum telah menyebabkan jantung keras sehingga pisau Pembunuh Bersiri pun tidak tertarik...</value>
@@ -1301,15 +1301,15 @@ Nota: Para adalah pembuat bot ini.</value>
     <value>Penduduk kampung bangun pagi ini, menjumpai sebagai tubuh {0}, Pemburu Ajaran Sesat diletakkan di luar Town Hall. Pengajaran: Jangan melawat pembunuh upahan!</value>
     <value>Jasad {0}, Pemburu Zombie, ditemui ditengah bandar, walaupun di potong dengan tepat dalam 100 bahagian. Memburu Pembunuh Bersiri nampaknya bukan idea yang bijak… </value>
   </string>
-  <string key="CultConvertWolfPublic">
+  <string key="zoombiesConvertWolfPublic">
     <!--used when Zombies convert the wolves, only if wolves stayed home-->
     <value>Walaupun nampak macam serigala mahu menjadi baik, menghukum {0}, seorang pengamal ajaran sesat yang cuba mencari masalah dengan serigala, membuktikan sukar untuk dihalang. Kepala {0} dijadikan makan malam dan dihantar ke rumah serigala.</value>
     <value>Pengamal ajaran sesat mengalami masalah semalam. Terdapat seorang ahli baru bernasib malang melawat serigala dan bermalam, serigala merasakan {0} sangat sedap. Sayangnya untuk {0}, serigala tidak berminat menyertai kumpulan Zombie.</value>
   </string>
-  <string key="CultConvertKillerPublic">
+  <string key="zoombiesConvertKillerPublic">
     <!--used when Zombies convert the SK-->
-    <value>Puak cult ingatkan mereka akan dapat ahli baru mereka silap! {0}, seorang pengamal ajaran sesat, dicincang dan diletakkan di kota pagi ini! Anehnya buku mereka ditetak dengan pisau, sebagai menunjukkan puak mana lebih berkuasa.</value>
-    <value>Semalam, ahli cult cuba untuk ajak Pembunuh Bersiri menyertai mereka. Pembunuh bersiri menghiasi bandar dengan hasil seni organ dalaman {0}.</value>
+    <value>Puak zoombies ingatkan mereka akan dapat ahli baru mereka silap! {0}, seorang pengamal ajaran sesat, dicincang dan diletakkan di kota pagi ini! Anehnya buku mereka ditetak dengan pisau, sebagai menunjukkan puak mana lebih berkuasa.</value>
+    <value>Semalam, ahli zoombies cuba untuk ajak Pembunuh Bersiri menyertai mereka. Pembunuh bersiri menghiasi bandar dengan hasil seni organ dalaman {0}.</value>
   </string>
   <string key="GAGuardedKiller">
     <!-- used when GA guards SK -->
@@ -1395,8 +1395,8 @@ Nota: Para adalah pembuat bot ini.</value>
     <!-- {0} = list of people who have joined -->
     <value>{0} telah menyertai permainan dalam 30 saat yang lalu.</value>
   </string>
-  <string key="AllowCult">
-    <value>Membenarkan Cult</value>
+  <string key="Allowzoombies">
+    <value>Membenarkan zoombies</value>
   </string>
   <string key="AllowTanner">
     <value>Membernarkan Tanner</value>
@@ -1433,7 +1433,7 @@ Nota: Para adalah pembuat bot ini.</value>
     <value>Semua</value>
   </string>
   <string key="RandomModeQ">
-    <value>Enable random mode?\nWhen random mode is enabled, Chaos, Secret Lynch, Show Roles on Death, and Allow Cult / Fool / Tanner will be randomly determined everytime someone starts a game.\nCurrent:{0}</value>
+    <value>Enable random mode?\nWhen random mode is enabled, Chaos, Secret Lynch, Show Roles on Death, and Allow zoombies / Fool / Tanner will be randomly determined everytime someone starts a game.\nCurrent:{0}</value>
   </string>
   <string key="RandomModeA">
     <value>Enabling of random mode set to: {0}</value>
@@ -1634,7 +1634,7 @@ Nota: Para adalah pembuat bot ini.</value>
     <!-- 0 - mason collegues's name -->
     <value>Ahli pasukan anda: {0}</value>
   </string>
-  <string key="ThiefToCult">
+  <string key="ThiefTozoombies">
     <!-- 0 - old Zombie's name -->
     <!-- 1 - new Zombie's name -->
     <value>{0} bukan lagi pasukan anda dan {1} telah menjadi pengamal ajaran sesat seperti anda!</value>
@@ -1991,16 +1991,16 @@ Nota: Para adalah pembuat bot ini.</value>
   <string key="HunterFell">
   <value>Satu malam lagi tanpa dapat membunuh salah satu daripada kumpulan kultus! Kecewa dengan hal itu, anda berjalan di atas tanah perkuburan, tanpa berjaga lalu perangkap mengenai pergelangan kaki anda. Anda menjerit dan berjuang, tetapi sudah terlambat. Anda jatuh ke belakang ke dalam kubur yang {0} terbuka dan bunyi leher anda adalah perkara terakhir yang anda dengar sebelum semuanya menjadi gelap.</value>
   </string>
-  <!--{0}: cult hunter-->
+  <!--{0}: zoombies hunter-->
   <string key="HunterFellDigger">
   <value>Selepas satu malam yang melelahkan, anda kembali ke rumah anda ketika hari semakin senja. Sebelum anda tiba, anda melihat pedang berbaring di atas tanah di sebelah kubur yang belum selesai. Di dalam kubur itu anda melihat mayat yang mati {0}. Pemburu kultus tidak sepatutnya disyaki ...</value>
   </string>
   <!--{0}: Zombie-->
-  <string key="CultFell">
+  <string key="zoombiesFell">
   <value>Anda kembali dari malam yang lain yang melelahkan, apabila tiba-tiba anda mendengar jeritan dari salah satu kubur yang belum selesai digali! Anda bergegas ke sana, hanya untuk mencari {0} terbaring mati di kubur yang belum selesai. Apa jenis kultus yang cuba menukar penggali kubur?</value>
   </string>
   <!--{0}: Zombie who fell, {1}: grave digger-->
-  <string key="CultConvertGraveDigger">
+  <string key="zoombiesConvertGraveDigger">
   <value>Dalam perjalanan ke  rumah {1} , {0} tiba-tiba memutuskan bahawa ia akan menjadi idea yang baik untuk membakar tempat itu juga. Mereka membawa anda melalui tanah perkuburan apabila tiba-tiba perangkap terkena di pergelangan kaki mereka! Apa yang dapat anda dengar adalah jeritan mereka sebelum mereka jatuh ke dalam kubur dan anda berlari untuk nyawa anda.</value>
   </string>
   <!--{0}: grave digger-->

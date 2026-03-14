@@ -377,33 +377,33 @@
     <!-- 1 - target name -->
     <value >{0} ha votado ir a la casa de {1} a venderle cedés del padre Miguel</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <!-- 0 - Yougest Zombie (killed)'s name' -->
     <!-- 1 - ZombieHunter's name -->
     <value>Enviasteis a {0} a vender cedés a casa de {1} mientras os quedabais viendo 13tv, ¡pero era la casa de Yago, que la convenció para que se fuese a Cuenca a plantar  ecohuertos! ¡{0} se ha ido del edificio!</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - Number of Zombies left -->
     <value>{0} fue anoche a tu casa a intentar venderte el último cedé recopilatorio del padre Miguel (con grandes éxitos como "Sombra aquí, Sombra allá; confiésate, confiésate" o "Antes santo que sencillo"), pero rápidamente hiciste uso de tu labia caribeña y la convenciste de mudarse a una ecovivienda y afiliarse al PCPE. Has espantado a una parroquiana, quedan {1}.</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>¡Las parroquianas del padre Miguel te han convencido de ir de casa en casa a vender sus cedés! Ahora eres una más. Cada noche tendrás la oportunidad de convencer a otro vecino de entrar en el negocio.</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <!-- 0 - Number of Zombies -->
     <value>Parroquianas: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <!-- 0 - new Zombie's name -->
     <value>¡{0} se ha unido a la reunión de parroquianas!</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <!-- 0 - Newest Zombie's name -->
     <!-- 1 - target name -->
     <value>Enviasteis a {0} a venderle el último disco del padre Miguel a {1}, ¡pero no estaba en casa!</value>
   </string>
-  <string key="CultWins" isgif="true">
+  <string key="zoombiesWins" isgif="true">
     <value >No queda nadie del clan de los Cuesta en Mirador de Montepinar, y los únicos vecinos que quedan son parroquianas del padre Miguel. ¡ALELUYA! ¡Las parroquianas han ganado!</value>
   </string>
   <string key="HunterVisitDead">
@@ -508,7 +508,7 @@
     <value>  Las lesbis son: {0}</value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <!-- 0 - Youngest Zombies name -->
     <value>La parroquiana que se incorporó al grupo en la última reunión fue ayer a casa de {0} decidida a venderle cedés del padre Miguel, pero, en lugar de eso, se encontró con una nota de Juan Cuesta en la pared con una breve explicación a sus queridos convecinos de la salida de {0} del edificio.</value>
   </string>
@@ -517,7 +517,7 @@
     <value>Los Cuesta fueron ayer a casa de {0} dispuestos a echarlo por no pagar las últimas 10 derramas, pero ahí estaba el Guerra para explicarles que {0} ahora mismo no puede asumir ese pago, pero que tiene un primo con una empresa con la que podrían evadir el pago. Juan se niega y los Cuesta se vuelven a sus casas frustrados.</value>
   </string>
   <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <!-- 0 - newest  -->
     <!-- 1 - target's name -->
     <value>Enviasteis a {0} a vender cedés del padre Miguel a la casa de {1}, pero su tacañismo venció a vuestra insistencia y no pudisteis hacer nada.</value>
@@ -528,7 +528,7 @@
     <!-- 1 - name -->
     <value>@{1}, un jugador con el nombre {0} ya se ha unido. Por favor, cámbiatelo para unirte.</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <!-- 0 - target's name -->
     <value>Fuiste a casa de {0} en busca de diversión, pero seguramente no vuelvas, porque durante el acto puso un disco del padre Miguel.</value>
   </string>
@@ -622,7 +622,7 @@
     <value>¡Se acabó el tiempo! Pero tranquilito, ¿eh?</value>
   </string>
   <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
     <value>Eres Belén. Como conoces bien los chanchullos de Concha con los alquileres, decides ayudar a dos personas a decidirse por alquilar un inmueble. Pero lejos del tuyo, que bastante tienes ya con tu madre y tres amigas.</value>
   </string>
   <string key="RoleInfoDoppelganger">
@@ -634,7 +634,7 @@
   <string key="RoleInfoSerialKiller">
     <value>Eres Concha. La situación en el edificio te está poniendo últimamente muy tensa y crees que sola vivirías mejor. Tu objetivo es ir consiguiendo que todos los vecinos abandonen Desengaño 21. Cada noche podrás elegir a uno al que acosarás hasta hacerlo marchar.</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>Belén, viendo lo mal que la trataron en su día con el alquiler, te ha buscado un compañero de piso. Desde ahora tu destino y el de {0} en el bloque son el mismo. Si echan a uno, el otro no tendrá dinero para el alquiler y se irá también. .</value>
 	<value>¡Belén te ha comido el tarro para que compartas piso con alguien, que te ve muy solo! Desde ahora tu destino está ligado al de {0}. Si echan a uno, el otro no tendrá dinero para el alquiler y se irá también.</value>
   </string>
@@ -670,7 +670,7 @@
     <!-- 2 - target's role -->
     <value>Mientras todos acusan a {0}, este comienza a sacar a la luz sus dotes de jurista, llama rápidamente a la policía y denuncia a {1}, a quien se llevan a los juzgados. {2}</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <value>{0} intentó anoche venderle cedés del padre Miguel a {1}, pero a Concha esas movidas no le van en absoluto y al grito de "¡GOLFA!" {1} empieza a empujar hasta la portería a {0} hasta que la pobre parroquiana decide no volver jamás por ese bloque de locos. {0} ha huido del edificio.</value>
   </string>
   <string key="HunterShotWolfMulti">
@@ -693,12 +693,12 @@
     <!-- 0 - target's name -->
     <value>Intentaste echar del edificio a {0}, pero te encuentras con que el Guerra ya se lo ha llevado al ático. Insistes en golpear la puerta una y otra vez, en vano...</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
     <value>Las parroquianas enviaron a {0} a venderle el último hit del padre Miguel a {1}, pero en lugar de eso, la pobre señora se encontró con Yago, que convenció a {0} de mudarse a una ecovivienda. {0} ya no vive con vosotros.</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
     <value>Las parroquianas envían a {0} a venderle el último hit del padre Miguel a {1}, pero {0} tocó en la casa equivocada y dio a parar con Concha, que, irritada, consigue hacer salir a la parroquiana del edificio para siempre. {0} se ha mudado de edificio.</value>
@@ -722,11 +722,11 @@
     <!-- 1 - mason collegues's name -->
     <value>{0} se ha mudado a Mirador de Montepinar y retomas su papel para la serie. Ahora haces de lesbi. Las otras lesbis son: {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <!-- 0 - new Zombie's name -->
     <value>LQSA, {0}, ha retomado el personaje de una parroquiana, ¡a vender discos juntas!</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <!-- 0 - role's name -->
     <!-- 1 - teammates's name -->
     <value>{0} se ha mudado a Mirador de Montepinar y retomas su papel para la serie. Ahora haces de parroquiana. Venderás discos con: {1}</value>
@@ -746,25 +746,25 @@
   <string key="AskKill">
     <value>¿A quién quieres echar hoy?</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <!-- 0 - dead's name -->
-    <!-- 1 - lover's name -->
+    <!-- 1 - crewmate's name -->
     <!-- 2 - roles -->
     <value>Con la salida de {0}, {1} se queda sin compañero de piso y, desesperado, se busca un apartamento en Mirador de Montepinar. {2}</value>
   </string>
   <string key="AskDoppelganger">
     <value>¿El papel de quién quieres retomar si este se va de la serie?</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>¿A quiénes quieres convencer para que alquilen juntos un piso? Elige al primero.</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>¿A quiénes quieres convencer para que alquilen juntos un piso? Elige al segundo.</value>
   </string>
   <string key="Hunter">
     <value>Fernando 🎯</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>Belén 🏹</value>
   </string>
   <string key="SerialKiller">
@@ -777,7 +777,7 @@
     <!-- 0 - target's name -->
     <value>Has retomado el papel de Rocío. Tu confidente es {0}</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
     <value>¡Los inquilinos ganan!</value>
   </string>
   <string key="HunterKilledVisiter">
@@ -785,7 +785,7 @@
     <!-- 1 - role -->
     <value>Esta mañana lo vecinos ven cómo {0} se va del edificio después de discutir con Fernando. No es nadie... {1}</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>Una octogenaria con canciones del padre Miguel en el walkman intentó ayer venderte un disco, pero tu tacañismo venció.</value>
   </string>
   <string key="AlreadyOnWaitList">
@@ -869,7 +869,7 @@
   <string key="AboutFool">
     <value>Paquito cree que tiene las habilidades radiopáticas de Vicenta... De hecho, está tan trasnochado ¡que se cree Vicenta! Cuando cotillee a alguien, se le dirá un vecino al azar.</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>Como parroquiana, tu objetivo es que todo el mundo acabe escuchando al padre Miguel (salvo los Cuesta). Si al final de la partida, todos los vecinos del edificio son parroquianas, ganarás.</value>
   </string>
   <string key="AboutCH">
@@ -894,7 +894,7 @@
       Las parroquianas no le pueden vender cedés a LQSA (a no ser que esta [penosa] serie asuma otro papel). Además, LQSA no puede ganar a no ser que asuma el papel de alguien. Si al final de la partida sigues siendo la misma patética serie de siempre, perderás (a menos que compartas piso con alguien).
     </value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>
       A ver, golfa resentida. Estás harta de los chanchullos de alquiler de doña Concha, así que has decidido seguir tu vocación y convences a dos vecinos para que compartan piso. Ninguno de los dos tiene ahora mismo demasiado dinero..., así que, si echan a uno del edificio, el otro no podrá permitirse seguir pagando el alquilar y se irá tambien.
       Nota: Los inquilinos sabrán quién es su compañero de piso, pero no el papel que este tiene. Si ambos inquilinos se quedan en el edificio al final de la partida, ganarán como un equipo independiente. Si están en diferentes equipos (vecino corriente + un Cuesta, por ejemplo) y uno de los dos equipos gana, el otro inquilino también ganará.
@@ -989,7 +989,7 @@
     <value>Mostrar</value>
   </string>
   <string key="Hide">
-    <value>Ocultar</value>
+    <value>Ozoombiesar</value>
   </string>
   <!-- Game Mode Choices-->
   <string key="NormalOnly">
@@ -1078,10 +1078,10 @@
   <string key="AllowTannerA">
     <value>Mariano ahora: {0}</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>¿Permitir parroquianas?\nActualmente: {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>Parroquianas ahora: {0}</value>
   </string>
   <string key="ThankYou">
@@ -1187,7 +1187,7 @@
     <value>Los Cuesta te estaban echando el puteo del siglo hasta que Juan, lleno de talante, te convenció con su particular labia de que te unieras a la causa cuestista. Mañana por la noche empezarás a apoyar a los Cuesta.</value>
   </string>
   <string key="BittenTurned">
-    <value>Esta noche has reflexionado con la almohada y te has dado cuenta de que Juan tiene razón: esta nuestra comunidad debe estar unida ante la ofensiva de las nuevas corrientes populistas que ofenden a nuestra cultura democrática de paz y armonía.Desde ahora, apoyarás a los Cuesta.</value>
+    <value>Esta noche has reflexionado con la almohada y te has dado cuenta de que Juan tiene razón: esta nuestra comunidad debe estar unida ante la ofensiva de las nuevas corrientes populistas que ofenden a nuestra zoombiesura democrática de paz y armonía.Desde ahora, apoyarás a los Cuesta.</value>
   </string>
   <string key="AboutMayor">
     <value>Higinio, en el fondo eres un vecino más al que le han encasquetado la difícil tarea de tener que asistir a todas las juntas, pero tienes el poder según los estatutos de que tu voto cuente el doble que el del resto, y se lo harás saber a tus convecinos cuando veas preciso; pero ten cuidado: los Cuesta son muy envidiosos y tratarán de echarte.</value>
@@ -1236,7 +1236,7 @@
   <string key="SerialKillerTeam">
     <value>Equipo de Concha</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>Equipo de las parroquianas</value>
   </string>
   <string key="TannerTeam">
@@ -1254,13 +1254,13 @@
   <string key="SerialKillerTeamEnd">
     <value>Equipo de Concha</value>
   </string>
-  <string key="CultTeamEnd">
+  <string key="zoombiesTeamEnd">
     <value>Equipo de las parroquianas</value>
   </string>
   <string key="TannerTeamEnd">
     <value>Equipo metrosexual de Mariano</value>
   </string>
-  <string key="CultConvertWolf">
+  <string key="zoombiesConvertWolf">
     <value>Las parroquianas envían a {0} a casa de {1} a intentar venderle el último éxito del padre Miguel, pero en lugar de eso {0} sale espantada del bloque, como si le hubiesen dado una charla de hora y media sobre la historia de esta nuestra comunidad. {0} se ha mudado.</value>
   </string>
   <string key="HarlotFuckedKilledPublic"> <!-- used when Harlot visit's SK's victim, and dies -->
@@ -1279,7 +1279,7 @@
   <string key="ZombieKilled">
     <value>Parece que ayer a {0} no le fue nada bien. En un intento por colocarle el último éxito del padre Miguel a la que parecía una entrañable octogenaria, ha quedado espantada por los gritos que esta comenzó a proferirle hasta que decidió huir por patas. {0} era una parroquiana del padre Miguel.</value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>Esta mañana veis a {0} saliendo a trompicones del edificio. «¡Que ya me voy, vieja amargada!» —la oís gritar—. Belén ha abandonado Desengaño 21.</value>
   </string>
   <string key="DrunkKilled">
@@ -1312,11 +1312,11 @@
     <value>Desengaño 21 amanece con la incredulidad de {0}. «¡Tienen que detener el capitalismo salvaje y opresor que esa señora engreída está ostentando!». Lección aprendida: no vayas a casa de doña Concha a calentarle la cabeza con campañas de Greenpeace.</value>
   </string>
     <value>Esta mañana Desengaño 21 amanece con la dulce voz caribeña de {0}, que no deja de soltar improperios sobre lo dañina que es doña Concha, que le ha dejado graves secuelas psicológicas tras hablar con ella anoche. Ir a calentarle la cabeza a doña Concha con campañas de Greenpeace no es una buena idea.</value>
-  <string key="CultConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
+  <string key="zoombiesConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
     <value>Los Cuesta anoche decidieron quedarse en casa a descansar, no había ganas de echar a más vecinos del edificio, pero esto le supuso un mal rato a {0}, una pobre parroquiana del padre Miguel que decidió intentar venderles el último hit a los propietarios del 2º A, que rápidamente la echaron argumentando que la venta ambulante es ilegal y que da una imagen espantosa de la comunidad.</value>
     <value>Las parroquianas del padre Miguel ayer tuvieron la mala idea de tocar en el 2º A, donde estaban los Cuesta cenando. De inmediato, llamaron a la policía para denunciar el flagrante delito de la venta ambulante que {0}, la parroquiana más reciente del séquito del padre Miguel, estaba cometiendo. {0} ha abandonado el edificio.</value>
   </string>
-  <string key="CultConvertKillerPublic"> <!--used when Zombies convert the SK-->
+  <string key="zoombiesConvertKillerPublic"> <!--used when Zombies convert the SK-->
     <value>Las parroquianas del padre Miguel eviaron ayer al miembro más reciente de su grupo de WhatsApp («Antes santas que sencillas») a poner en práctica sus nuevas habilidades de venta ambulante, pero {0} cometió el error de ir a casa de doña Concha, que rápidamente la despechó, lo que ha provocado que salga despavorida del edificio.</value>
     <value>Las parroquianas del padre Miguel eviaron ayer al miembro más reciente de su grupo de WhatsApp («Antes santas que sencillas») a poner en práctica sus nuevas habilidades de venta ambulante, pero {0} cometió el error de ir a casa de doña Concha, que rápidamente la despechó, lo que ha provocado que salga despavorida del edificio.</value>
   </string>
@@ -1405,7 +1405,7 @@
     <!-- {0} = list of people who have joined -->
     <value>{0} se ha(n) unido en los últimos 30 segundos.</value>
   </string>
-  <string key="AllowCult">
+  <string key="Allowzoombies">
     <value>Permitir parroquianas</value>
   </string>
   <string key="AllowTanner">

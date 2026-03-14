@@ -321,25 +321,25 @@
   <string key="ZombieVotedConvert" >
     <value> {0} 希望为 {1} 受洗</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <value> {0} 被派往将 {1} 受洗......可他是邪教捕手~ {0} 已死。</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <value> {0} 昨晚来到你的家，打算为你施洗...可你却你马上拔剑刺穿他的身体。一名邪教徒就此死去 —— 还有 {1} 个邪教徒呢。</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>邪教徒已把你受洗，你现在也是邪教徒了。每天晚上你也有机会展开你的传道工作，选择一名玩家来让他受洗。</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>邪教徒： {0} </value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <value> {0} 已信奉邪教！</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <value> {0} 被派往将 {1} 受洗，但他家没人。</value>
   </string>
-  <string key="CultWins" >
+  <string key="zoombiesWins" >
     <value>所有狼人都死光之余，其他人也受洗成为邪教徒 —— #邪教徒胜！</value>
   </string>
   <string key="HunterVisitDead">
@@ -437,21 +437,21 @@
     <value>其他重症拖延症患者是： {0} </value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <value>你们当中最新的信徒出发去 {0} 的家想给他施洗，却发现屋里一片狼藉、遍布血迹，门边还留有几撮动物的毛发...</value>
   </string>
   <string key="GuardBlockedWolf">
     <value>狼人出发前往 {0} 家想要饱吃一顿，却遇到个身型庞大的黑影，把他家防得滴水不漏。守卫把你们打败了，看来今晚得饿肚子了。</value>
   </string>
   <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <value>你们派出了 {0} 去尝试施洗 {1} ，但他信念坚强，宁死不屈，你们无功而返。</value>
   </string>
   <!-- new string May 12 2016-->
   <string key="NameExists">
     <value>@{1}, 已经有一位 {0} 加入了。请改名后再重新加入！（禁止重名）</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <value>你悄悄溜进了 {0} 的家，度过了一个疯狂的夜晚。就在你准备离开时，你注意到一个没有藏好的祭坛，样子很奇怪，还散发着诡异的光芒...</value>
   </string>
   <!-- new string May 13 2016-->
@@ -531,7 +531,7 @@
   <value>你睡着了？（時间到！）</value>
   </string>
   <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
     <value>你是爱神。只穿着胖次，带着一弓两箭就被送到了地球。你可以用箭射中两个玩家让他们成为情侣。如果一方死去，另一方伤心之下，会自杀殉情。</value>
   </string>
   <string key="RoleInfoDoppelganger">
@@ -543,7 +543,7 @@
   <string key="RoleInfoSerialKiller">
     <value>你是变态杀人狂。最近刚从精神病院逃出来，想要杀死全镇的人。每晚你可以在你的死亡清单上添加一名玩家（包括狼人）。</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>你已陷入爱河， {0} 的微笑和身影一直萦绕在你的脑海里，无法抹去。你一定要努力活着，不然，你死的时候， {0} 也将随你而去。</value>
   </string>
   <string key="HunterLynchedChoice">
@@ -570,7 +570,7 @@
   <string key="HunterKilledFinalShot">
     <value>子弹穿过 {0} 的身体，在倒地前， {0} 还是抽出枪射向 {1} ——正中眉心。{2}</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <value> {0} 偷偷潜入 {1} 的家中，没想到等着他的是手持匕首的变态杀人狂 {1} ！！！杀人狂用匕首干脆利落地划开把 {0} 的脖子，鲜血喷涌而出。他再用匕首顺着身体各个器官的位置依次刺入，边刺边狂笑...\n {0} 因失血过多而死。</value>
   </string>
   <string key="HunterShotWolfMulti">
@@ -594,7 +594,7 @@
   <string key="GuardBlockedKiller">
     <value>你想要收集 {0} 身体来完成你的死亡清单，但守卫的出现，令你的计划泡汤，白白浪费了一晚...</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <value>邪教徒 {0} 被派去给 {1} 受洗，只听一声枪响过后， {0} 的身体从窗户飞了出来！ {0} 死了...</value>
   </string>
   <string key="GuardKiller">
@@ -612,10 +612,10 @@
   <string key="DGTransformToMason">
     <value>你所选择的 {0} 已死，所以你变成了重症拖延症患者。你的队友（如果有的话）是 {1} </value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <value>替身 {0} 已变成邪教徒，就像你一样。</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <value>你所选择的 {0} 已死，所以你变成了邪教徒。你的队友（如果有的话）是 {1} </value>
   </string>
   <string key="DGToWolf">
@@ -630,22 +630,22 @@
   <string key="AskKill">
     <value>今晚你想杀掉谁？</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <value>当看到 {0} 倒在血泊中时， {1} 不敢相信眼前发生的一切，撕吼着急急冲到他身边，可他已经断气... {1} 顿时崩溃了，整个人像被掏空一样，趴在另一半身上恸哭不止。最后他实在无法承受失去另一半的痛苦，找到一把枪自杀了。{2}</value>
   </string>
   <string key="AskDoppelganger">
     <value>你希望哪个玩家死后，自己可以变成他？</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>你想让哪两个玩家成为情侣？请选择第一个玩家</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>你想让哪两个玩家成为情侣？请选择另一个玩家</value>
   </string>
   <string key="Hunter">
     <value>猎人🎯</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>爱神💘</value>
   </string>
   <string key="SerialKiller">
@@ -657,13 +657,13 @@
   <string key="NewWCRoleModel">
     <value>你变为孤儿了。你的偶像是 {0} 。</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
     <value>真爱永存！ #情侣胜！</value>
   </string>
   <string key="HunterKilledVisiter">
     <value>村民们在广场中央发现一具血迹斑斑周身布满枪孔的尸体，正是 {0} ！看来是他偷袭猎人失败被反杀了。{1}</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>一个头戴连帽的人试图说服你成为邪教的一员，但你心念坚定不为所动。</value>
   </string>
     <string key="AlreadyOnWaitList">
@@ -737,7 +737,7 @@
   <string key="AboutFool">
     <value>你认为你是先知，但可惜你不是。当你去看他人的身份时，bot会随便告知你，比如你想看狼人的身份，bot却说他是守卫。</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>你是邪教徒。你可以在晚上施洗一名玩家（除了狼人），让他们成为你的一员。如果所有玩家都失掉了原来的身份受洗成邪教徒，邪教徒就赢了。</value>
   </string>
   <string key="AboutCH">
@@ -762,7 +762,7 @@
       如果你选择的角色在受洗成邪教徒后死亡，你会接替他原有的角色。如果选的是是孤儿，他和偶像死了，你会变成狼人。如果孤儿死了，但他的偶像没死，你会继承孤儿的身份和他的偶像；你在变身前不会被洗成邪教徒，但变身后可以被洗。如果到最后都没有变形，那你就输了（除了你和另外一人是情侣）。
     </value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>
       你是爱神。只穿着胖次，带着一弓两箭就被送到了地球。你可以用箭射中两个玩家让他们成为情侣。他们会知道对方却不知对方的身份。如果一方死去，另一方伤心之下，会自杀殉情。 如果情侣活到最后，情侣就会赢。（无论双方处于的阵营）
     </value>
@@ -944,10 +944,10 @@
   <string key="AllowTannerA">
     <value>现在游戏中{0}出现「恐布分子」</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>允许游戏中出现「邪教徒」?\n当前是：{0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>现在游戏中{0}出现「邪教徒」</value>
   </string>
   <string key="ThankYou">
@@ -1094,7 +1094,7 @@
   <string key="SerialKillerTeam">
     <value>杀手阵营</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>邪教阵营</value>
   </string>
   <string key="TannerTeam">
@@ -1112,13 +1112,13 @@
   <string key="SerialKillerTeamEnd">
     <value>杀手阵营</value>
   </string>
-  <string key="CultTeamEnd">
+  <string key="zoombiesTeamEnd">
     <value>邪教阵营</value>
   </string>
   <string key="TannerTeamEnd">
     <value>恐布 分子阵营</value>
   </string>
-  <string key="CultConvertWolf">
+  <string key="zoombiesConvertWolf">
     <value> {0} 试图让 {1} 受洗，没想到正好见到他变身成为狼人，然后很不幸成为了 {1} 的大餐。</value>
   </string>
   <string key="HarlotFuckedKilledPublic">
@@ -1133,7 +1133,7 @@
   <string key="ZombieKilled">
     <value> {0} 被发现被斩首在了奇怪的祭坛旁边……看来，信邪教得永生是一个骗局。【邪教徒 👤】被谋杀了。</value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>第二天，村民发现爱神的象征 {0} 并没有受到护佑——他同样被杀手肢解了。【爱神 🏹】被谋杀了。</value>
   </string>
   <string key="DrunkKilled">
@@ -1163,10 +1163,10 @@
   <string key="SerialKillerKilledCH"> <!--used when CH visits SK-->
     <value>早上， {0} 的尸体被发现，他平时带着的十字架，反而被刺进了他的太阳穴。。。【邪教捕手 💂】被谋杀了。</value>
   </string>
-  <string key="CultConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
+  <string key="zoombiesConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
     <value>昨天 {0} 试图给狼人讲经，然而狼人所信仰的，只有自己的犬齿。【邪教徒 👤】自作死被吃了。</value>
   </string>
-  <string key="CultConvertKillerPublic"> <!--used when Zombies convert the SK-->
+  <string key="zoombiesConvertKillerPublic"> <!--used when Zombies convert the SK-->
     <value>昨晚 {0} 试图给连环杀手讲经，然而连环杀手觉得很烦，就把他杀了。【邪教徒 👤】被杀了。</value>
   </string>
   <string key="GAGuardedKiller"> <!-- used when GA guards SK -->
@@ -1335,7 +1335,7 @@
     <!-- NOTE: No space between {0} and joined. It will be added in the code if necessary-->
     <value>{0}在最近30秒内加入了游戏</value>
   </string>
-  <string key="AllowCult">
+  <string key="Allowzoombies">
     <value>允许「邪教」</value>
   </string>
   <string key="AllowTanner">
@@ -1648,7 +1648,7 @@
     <!-- 0 - mason collegues's name -->
     <value>你的队友(如果有的话) ： {0}</value>
   </string>
-  <string key="ThiefToCult">
+  <string key="ThiefTozoombies">
     <!-- 0 - old Zombie's name -->
     <!-- 1 - new Zombie's name -->
     <value>{0} 不再是你的队友 而且{1}现在变成了一个 👤邪教徒</value>
@@ -1873,16 +1873,16 @@
   <string key="HunterFell">
 	<value>当你正走近{0}家时，准备调查{0}身份时，突然脚下一空...你跌入了一个未完工的墓穴中，你也失去了意识...</value>
   </string>
-  <!--{0}: cult hunter-->
+  <!--{0}: zoombies hunter-->
   <string key="HunterFellDigger">
 	<value>当你疲惫地回到家时，却突然听到从你未填完的坑中的一声大叫。你连忙过去...却发现{0}正躺在你新挖的墓穴中，很可惜，{0}是邪教捕手</value>
   </string>
   <!--{0}: Zombie-->
-  <string key="CultFell">
+  <string key="zoombiesFell">
 	<value>当你疲惫地回到家时，却突然听到从你未填完的坑中的一声大叫。你连忙过去...却发现{0}正躺在你新挖的墓穴中，幸好，{0}是👤邪教徒</value>
   </string>
   <!--{0}: Zombie who fell, {1}: grave digger-->
-  <string key="CultConvertGraveDigger">
+  <string key="zoombiesConvertGraveDigger">
 	<value>当你们正走近{0}家时，准备施洗{0}时，{1}突然脚下一空，跌入了一个未完工的墓穴中，{1}也失去了意识...</value>
   </string>
   <!--{0}: grave digger-->

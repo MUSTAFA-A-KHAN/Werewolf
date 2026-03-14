@@ -463,27 +463,27 @@
     <value>{0} {1} ni sekta tarkibiga qoshishga ovoz berdi ovoz berdi.</value>
     <value>{0} {1} ni kallasiga g'oyalaringni singdirishga ovoz berdi.</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <value>{0} {1} ning uyiga o'zining isqirt ishini qilishga va bo'ysundirishga kelgandi... Lekin u Sektantlar ovchisi bo'lib chiqdi!  {0} o'ldi!</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <value>{0} tunda sening oldingga, seni bo'ysundirish uchun keldi...  Lekin sen o'z qilichingni olib bo'ynini uzib tashlading!  {0} o'ldi...  Осталось {1}!</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>Sektantlar seni o'z qatorlariga qo'shib olishdi!  Har tunda senda bir o'yinchini bo'ysindirishga imkon bor.</value>
     <value>Sen Sektantlar g'oyasini qabul qilding va ularning qatorlariga qo'shilding!  Har tunda senda bir o'yinchini bo'ysindirishga imkon bor.</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>Sektantlar: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <value>{0} sektaga qo'shildi!</value>
     <value>{0} edni sekta azosi!</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <value>{0} {1} nikiga o'zining isqirt ishini qilish va uni bo'ysundirish uchun yo'llangandi... Lekin uyda hech kim yo'q edi!</value>
   </string>
-  <string key="CultWins">
+  <string key="zoombiesWins">
     <value>Hamma bo'rilar o'lishdi, qolgan barcha o'yinchilar sektantlar edi..  Sektantlar g'olib!</value>
     <value>Bu jangda o'z g'oyalari bilan tinchlikni qulatib Sektantlar g'olib bo'ldi!</value>
   </string>
@@ -584,7 +584,7 @@
   <string key="MasonTeam">
     <value> G'isht teruvchilar: {0}</value>
   </string>
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <value>Sizlar {0} ni uyiga uni yo'ldan urib bo'ysundirish uchun bordinglar, lekin u yerda faqat uy vayronalari ostidagi yotgan o'likni topdinglar. Hamma yerda qon, shuningdek parcha parcha yung qoldig'ilar...</value>
   </string>
   <string key="GuardBlockedWolf">
@@ -592,13 +592,13 @@
     <value>{0} ni uyiga kelding,eshikni oldida Ximoyalovchi Farishta kutib oldi va sen tinchgina surib qolishingni taklif qildi.Sen qarshilik qilding,keyin Farishta seni rasvoyingni chiqardi va sen qochib qolding.</value>
     <value>Sen {0} ning uyiga kelganding,ammo Ximoyalovchi Farishta qo'liga tushib qolding. U bir tushirgandi sen qochib ketding...</value>
   </string>
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <value>Sen {0} ni {1} ni uyiga bo'ysundirish uchun jo'natding, lekin uning irodasi juda kuchli ekan. Sizlar yangi azoni o'z qatorlaringga qo'sha olmadingiz. :(</value>
   </string>
   <string key="NameExists">
     <value>@{1} {0} ismli o'yinchi allaqachon qo'shilgan.Iltimos qo'shilish uchun ismingni o'zgartir.</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <value>Sen {0} ni uyiga xursandchilik qilish uchun kirding...  lekin sen eshikdan kirishda, devordagi yaltiroq narsani choyshab bilan yopilganini ko'rding.Sen g'alati xaykallarni ko'rib uni sektantligini tushungding va asta qcohib ketding...</value>
     <value>Sen {0} ni uyiga uni xursand qilish uchun bording...  Quvnoq tundan so'ng, eshikdan chiqishda, g'alati belgili javonni ko'rding... Uni ochsang qurbonlik haykalchasini qon bilan bulg'anganini ko'rding.U sektant ekan...</value>
   </string>
@@ -680,7 +680,7 @@
     <value>Vaqt tugadi!</value>
   </string>
   <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
     <value>Sen Kupidonsan.  Sen yerga bitta ishton, kamon va ikkita o'q bilan tushding...  Ikki kishini tanla. Bir-biriga sevib zamon tugaganicha birga bo'lishsin.  Agar ulardan biri o'lsa ikkinchisa xam qayg'u alamda o'lib qoladi.</value>
     <value>Sen Kupidonsan.  Sevgi farishtasi. Osmondan odamlar yuragida muhabbat uyg'otish uchun tushgansan. Ikki yolg'iz yuraklarni tanla. Toki zamon tugagunicha bir birni sevib baxtli bo'lishsin. Agar ulardan biri o'lsa ikkinchisa xam qayg'u alamda o'lib qoladi.</value>
   </string>
@@ -696,7 +696,7 @@
     <value>Sen Qotilsan.  Yaqinda sen jinnixonadan qochgansan va seni maqsading hammani o'ldirish. Pichog'ing bo'ri tishidan ham o'tkirroq... Xar tunda sen bitta odamni o'ldirishing mumkin!</value>
     <value>-Alo, bu jinnihonami? \n -Ha! Nima hizmat? \n -331 xona korib yuborsaz! \n -Hop, hozir... Juda g'alati u yerdagi bemor yoqolib qolibdi... \n -Daxshat, qochibman... XA-XA-XAA... \n SEN QOTILSAN. Seni maqsading hammani o'ldirish... Xar tunda sen bitta odamni o'ldirishing mumkin!</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>Sen muhabbat bilan yaralanding.  {0} umrbod seni xotirangda va sevgi hech qachon seni konglingda so'nmaydi...  Sizlarni maqsadingiz tirik qolish!  Agar sizlarni biringiz o'lsangiz ikkinchingiz alam va qayg'udan o'lasiz.</value>
     <value>Ayy... Oyog'imga nimadir sanchildi. Nima bu o'qmi? Boshim aylanayabdi. {0} bu kim bo'ldi. Yuragim men uni sevib qoldim. Men usiz yashay olmayman...SIZLARNI kupidon tanladi. Endi ohiratgacha birgasizlar. Agar sizlarni biringiz o'lsangiz ikkinchingiz alam va qayg'udan o'lasiz. </value>
     <value>Sen do'stlik rishtasi bilan bog'landing.  {0} umrbod yaxshi va yomon kuningda oldingda bo'lguvchi insonga aylandi...  Sizlarni maqsadingiz tirik qolish!  Agar sizlarni biringiz o'lsangiz ikkinchingiz alam va qayg'udan o'lasiz.</value>
@@ -742,10 +742,10 @@
   <string key="GuardBlockedKiller">
     <value>Sen o'z kolleksiyangga {0} ni qo'shmoqchi bo'lding, lekin Ximoyalovchi farishta tomonidan daf qilinding!  Bugun hech kimni o'ldira olmading....</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <value>Sekta {0} ni {1}ni bo'ysundirishga jonatishdi, lekin javob tariqasida o'q ovozi va {0} ning oynadan uchib ketgan tanasini ko'rishdi!  {0} o'ldi....</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <value>Sekta {0} ni {1} ni bo'ysundirishga jonatishid, lekin bir necha daqiqadan so'ng {0} ni tanasiga suqilgan pichoqlar bilan oynadan uchib ketgan o'ligini ko'rishdi! Aqldan ozgan tog'ri kelibdida...  {0} o'ldi....</value>
   </string>
   <string key="GuardKiller">
@@ -764,10 +764,10 @@
   <string key="DGTransformToMason">
     <value>{0} o'ldi, va sen G'isht teruvchiga aylanding! Boshqa g'isht teruvchilar (agar ular bo'lsa): {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <value>{0} (Egizak) Sektantga aylandi, sen kabi!</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <value>{0} o'ldi va sen Sektantga aylanding!  Boshqa Sektantlar (agar ular bo'lsa): {1}</value>
   </string>
   <string key="DGToWolf">
@@ -784,23 +784,23 @@
     <value>Axmoq aholini gumdon qil. Bugun kimni qulatasan?</value>
     <value>Kim bugun pichog'ingdan o'ladi?</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <value>Og'riqli nafas bilan {0} o'layabdi, {1} qo'li bilan yuzlarini yashirib yig'layabdi.  {1} og'riqga chiday olmay, yaqinda turgan pistoletni olib o'zini otib tashladi....  {2}</value>
     <value>{0} ohirgi nafasini olayabdi... {1} yonida turgancha alamli ko'z yoshlarini to'kayabdi.  {1} og'riqga chiday olmay bo'ri uchun atalgan zaharni ichib yubordi... Romeo va Julyettalar ham birga bo'lisha olmagan...{2}</value>
   </string>
   <string key="AskDoppelganger">
     <value>Kimni o'rniga turmoqchisan, u o'lgandan so'ng albatta?</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>Kimni zamon tugaganicha sevdirib qo'ymoqchisan? Birinchi o'yinchini tanla!</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>Kimni zamon tugaganicha sevdirib qo'ymoqchisan? Ikkinchi o'yinchini tanla!</value>
   </string>
   <string key="Hunter">
     <value>Kavboy 🎯</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>Kupidon 🏹</value>
   </string>
   <string key="SerialKiller">
@@ -812,7 +812,7 @@
   <string key="NewWCRoleModel">
     <value>Sen Yovvoyi Bolaga aylanding!  Sening "Namuna-o'yinching": {0}</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
     <value>Xaqiqiy do'stlik g'olib chiqadi!  Do'stlar g'olib!</value>
     <value>Xaqiqiy muhabbat oldida hamma narsa ojiz!  Sevishganlar g'olib!</value>
   </string>
@@ -833,7 +833,7 @@
   <string key="SKHunterEnd">
     <value>Tong otdi va shahar markazida tirik qolgan ikki o'yinchi uchrashayabdi. {0} pichog'ini olib "MEN ENG QUDRATLIMAN" deb {1} ga hujum qildi.  {1} esa pistoletini olib "JAHANNAMINGA QAYT SHAYTON" deb {0} ni to'g'ri ko'kragiga qarab o'q uzdi.Kuchli o'g'riqda {0} "BU HOLI HAMMASI EMAS" deya pichog'ini {1} qorniga suqdi. Ikkisi ham o'ldi... qishloq bo'sh...G'olib yo'q.</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>Kimdir seni o'z sektasiga bo'ysundirmoqchi bo'ldi, lekin seni irodang juda kuchli edi.</value>
   </string>
   <string key="HunterKilledVisiter">
@@ -898,7 +898,7 @@ agar qotilni himoya qilsa, 100% o'ladi)</value>
   <string key="AboutFool">
     <value>Fool - Axmoq (tinch fuqaro, o'yin boshida unga Bashoratchi roli ko'rsatiladi, lekin to'g'ri javoblar o'rniga taxminiy rollar ko'rsatiladi)</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>Zombie - Sektant (o'yinchi, maqsadi bo'rilarni o'ldirib hamma aholini bo'ysundirish)</value>
   </string>
   <string key="AboutCH">
@@ -926,8 +926,8 @@ Agar Egizak hech kimni tanlamasa/ulgurmasa taxminiy o'yinchi tanlanadi;
 Agar Egizak Yovvoyi bola ro'lini olsa uni "Namunasi" u tanlagan odam bolib qoladi;
 Egizakni transformatsiyalanmagan holda bo'ysundirib bo'lmaydi, shuningdek Egizak transformatsiyalanmagan holda yutaolmaydi)</value>
   </string>
-  <string key="AboutCupid">
-    <value>Cupid - Kupidon (tinch fuqaro, o'yin boshida ikki kishini sevdirib qo'yadi;
+  <string key="AboutRecruiter">
+    <value>Recruiter - Kupidon (tinch fuqaro, o'yin boshida ikki kishini sevdirib qo'yadi;
 Agar Kupidon sevishganlarni tanlamasa/ulgurmasa taxminiy qilib tanlanadi;
 Agar sevishganlardan biri g'olib bo'lsa ikkingchisi ham g'olib bo'ladi)</value>
   </string>
@@ -1121,10 +1121,10 @@ Agar qotildan kimdir habar olsa so'zsiz o'ladi)</value>
   <string key="AllowTannerA">
     <value>Sozlama holati: {0}</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value> «Sekta» fraksiyasiga ruhsat berish, demak  «Sektant» roliga ham?\nSozlama holati: {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>Sozlama holati: {0}</value>
   </string>
   <string key="ThankYou">
@@ -1258,7 +1258,7 @@ Agar qotildan kimdir habar olsa so'zsiz o'ladi)</value>
   <string key="SerialKillerTeam">
     <value>Qotillar guruhi</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>Kultistlar guruhi</value>
   </string>
   <string key="TannerTeam">
@@ -1276,7 +1276,7 @@ Agar qotildan kimdir habar olsa so'zsiz o'ladi)</value>
   <string key="SerialKillerTeamEnd">
     <value>Qotillar guruhi</value>
   </string>
-  <string key="CultTeamEnd">
+  <string key="zoombiesTeamEnd">
     <value>Kultistlar guruhi</value>
   </string>
   <string key="TannerTeamEnd">
@@ -1288,7 +1288,7 @@ Agar qotildan kimdir habar olsa so'zsiz o'ladi)</value>
   <string key="ZombieKilled">
     <value>{0} qotilning pichog'iga qarshi altar shamdoni bilan o'lganucha urishibdi. Ammo qotil shayton kabi o'ljasini ushlab boynidan kesib tashadi.Qizil qon yerga oqdi. {0} sektant edi.</value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>Tongda aholi qo'rquv ostida kupidon {0} ning nimtalab tashlangan tanasini topishdi. Qanday qo'rqinchli... yurak yo'q...</value>
   </string>
   <string key="DrunkKilled">
@@ -1322,13 +1322,13 @@ Agar qotildan kimdir habar olsa so'zsiz o'ladi)</value>
     <value>Tongda uyg'onishib, aholi {0}- sektantlar ovchisini o'ligini topishdi. Qotilnikiga bormanglar!</value>
     <value>Sektantlar ovchisi {0} mayda parchalarga bo'lib tashlangan tanasi qishloq markazida topildi. Qotilni sektant emasligini tekshirish shart emasdi.</value>
   </string>
-  <string key="CultConvertWolfPublic">
+  <string key="zoombiesConvertWolfPublic">
     <!--used when Zombies convert the wolves, only if wolves stayed home-->
     <value>Bu safar bo'rilar yaxshi ish qilishga qaror qilishdi va {0} jazolashdi.Sektant bo'rilar tomonidan o'ldirildi.</value>
     <value>Aholini bo'ysundirishga ketishda,sektant {0} bo'rilarga bilan toqnashib qoldi...sektantlar bo'rini yomon ko'rgani kabi bo'rilar ham sektantlarni yomon ko'rishadi.Natija ma'lum... </value>
     <value>Aholini bo'ysundirishga ketishda,sektant {0} bo'rilarga bilan toqnashib qoldi! Bo'rilar sekta yoqtirmaydi,lekin sektantlarni yeyishni yoqtirishadi. Ayniqsa semizginalarini.</value>
   </string>
-  <string key="CultConvertKillerPublic">
+  <string key="zoombiesConvertKillerPublic">
     <!--used when Zombies convert the SK-->
     <value>Sekta boshligi buyurug'iga kora bo'ysundirilish yuz berdi. Lekin sekta xato qildi: sektant {0} tanasi nimtalab tashlanib, shahar markaziga tashlab ketilgandi! Sektaning muqaddas yozuvlari oldida pichoq topildi.</value>
     <value>Tunda, sektantlar tomidan ketgan jinnini bo'ysundirishga harakat qilishdi ammo... ammo... Qotil shahar markazida ularning qoni va organlaridan Mona Lizani rasmini chizib ketdi. {0} o'ldi.</value>
@@ -1388,7 +1388,7 @@ Agar qotildan kimdir habar olsa so'zsiz o'ladi)</value>
     <!--{0} = Harlot name, {1} = SK's victim name-->
     <value>{0} {1} ning uyiga kirib bordi, lekin qandaydir notanish kimsa {1} ichki azolaridan archa yasayotgandi. Qotil hursand bolib {0} sendan archamga bezak yasaman deb rahmsizlik bilan kezuvchini o'ldirdi!</value>
   </string>
-  <string key="CultConvertWolf">
+  <string key="zoombiesConvertWolf">
     <value>Sektantlar {0} ni {1} ni bo'ysundirishga jo'natishdi, lekin {0} ning tishlangan kallasi oynadan uchib chiqdi.Bo'rilar uni yeb bo'lmaydi deb hisoblashdi. {0} o'ldi...</value>
   </string>
   <string key="JoinButton">
@@ -1421,7 +1421,7 @@ Agar qotildan kimdir habar olsa so'zsiz o'ladi)</value>
     <!-- NOTE: No space between {0} and joined. It will be added in the code if necessary-->
     <value>30 sekund davomida qo'shilganlar: {0}.</value>
   </string>
-  <string key="AllowCult">
+  <string key="Allowzoombies">
     <value>Sektaga ruhsat</value>
   </string>
   <string key="AllowTanner">
@@ -1459,7 +1459,7 @@ Agar qotildan kimdir habar olsa so'zsiz o'ladi)</value>
     <value>Barchasi</value>
   </string>
   <string key="RandomModeQ">
-    <value>Barcha sozlamalar taxminiy bo'sinmi?\nWhen random mode is enabled, Chaos, Secret Lynch, Show Roles on Death, and Allow Cult / Fool / Tanner will be randomly determined everytime someone starts a game.\nCurrent:{0}</value>
+    <value>Barcha sozlamalar taxminiy bo'sinmi?\nWhen random mode is enabled, Chaos, Secret Lynch, Show Roles on Death, and Allow zoombies / Fool / Tanner will be randomly determined everytime someone starts a game.\nCurrent:{0}</value>
   </string>
   <string key="RandomModeA">
     <value>Taxminiy o'yin turini tanlashni holati: {0}</value>
@@ -1671,7 +1671,7 @@ Agar qotildan kimdir habar olsa so'zsiz o'ladi)</value>
     <!-- 0 - mason collegues's name -->
     <value>Sizning jamoangiz (Agar ular bo'lsa): {0}</value>
   </string>
-  <string key="ThiefToCult">
+  <string key="ThiefTozoombies">
     <!-- 0 - old Zombie's name -->
     <!-- 1 - new Zombie's name -->
     <value>{0} endilikda sizni sherigingiz emas. {1} esa siz kabi Sektaga aylandi!</value>

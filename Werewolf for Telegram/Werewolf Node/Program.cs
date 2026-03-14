@@ -300,7 +300,7 @@ namespace Werewolf_Node
                                         x.DonationLevel,
                                         IsDead = x.IsDead?"Yes":"No",
                                         x.Name,
-                                        LoverId = g.Players.FirstOrDefault(p => p.Id == x.LoverId)?.Name,
+                                        crewmateId = g.Players.FirstOrDefault(p => p.Id == x.crewmateId)?.Name,
                                         PlayerRole = x.PlayerRole.ToString(),
                                         Team = x.Team.ToString(),
                                         x.Votes,

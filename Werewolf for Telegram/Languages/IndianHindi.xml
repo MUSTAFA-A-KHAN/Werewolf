@@ -209,7 +209,7 @@
     <value>Tum Saampradaayik (Zombie) ho.  Har raat, tum kisi ek kjhiladi ko saampradaayik banane ka chayan kar sakte ho. Agar sabhi players ant me saampradaayik ban jate hai to wo jeet jayenge budbak.</value>
   </string>
   <string key="RoleInfoZombieHunter">
-    <value>Tum Saampradaayik Shikari ho, jo panth (Cult) ko gao ke sabhi hutiyon ko pariwartit hone se bachate ho!  Har raat, tum ek khiladi ko chun sakte ho.  Ahar wo saampradaayikhai to wo marenge bancho. Agar Panth (cult) tumhe marna chahenge to unka sabse naya sadasya marege bhusdi.</value>
+    <value>Tum Saampradaayik Shikari ho, jo panth (zoombies) ko gao ke sabhi hutiyon ko pariwartit hone se bachate ho!  Har raat, tum ek khiladi ko chun sakte ho.  Ahar wo saampradaayikhai to wo marenge bancho. Agar Panth (zoombies) tumhe marna chahenge to unka sabse naya sadasya marege bhusdi.</value>
   </string>
   <string key="LynchTime">
     <!-- 0 - number of seconds -->
@@ -377,33 +377,33 @@
     <!-- 1 - target name -->
     <value >{0} ne {1} ko pariwartan karne ka chayan kiya.</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <!-- 0 - Yougest Zombie (killed)'s name' -->
     <!-- 1 - ZombieHunter's name -->
-    <value>{0} ko tumhara ganda kaam karne ke liye bheja gaya hai, aur {1} ko badalne gaye... magar, vo saampradaayik shikhari (Cult Hunter) nikla! {0} mar gaya!</value>
+    <value>{0} ko tumhara ganda kaam karne ke liye bheja gaya hai, aur {1} ko badalne gaye... magar, vo saampradaayik shikhari (zoombies Hunter) nikla! {0} mar gaya!</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - Number of Zombies left -->
     <value>{{0} tumhare ghar aaya tumhe maarne....  magar tumne ek talwar ghusa di uske sar me.  ek saampradaayik (Zombie) mar chuka hai... {1} bacha hai!</value>
   </string>
-  <string key="CultConvertYou">
-    <value>Panth (Cult) ne tumhe badal diya hai!  tum ab ek saampradaayik (Zombie) ho.  Har doosri raat, tumhe mauka milega doosre khiladi ko apne panth me lene ke liye.</value>
+  <string key="zoombiesConvertYou">
+    <value>Panth (zoombies) ne tumhe badal diya hai!  tum ab ek saampradaayik (Zombie) ho.  Har doosri raat, tumhe mauka milega doosre khiladi ko apne panth me lene ke liye.</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <!-- 0 - Number of Zombies -->
     <value>Saampradaayik: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <!-- 0 - new Zombie's name -->
-    <value>{0} ne Panth (Cult) join kar liya hai/</value>
+    <value>{0} ne Panth (zoombies) join kar liya hai/</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <!-- 0 - Newest Zombie's name -->
     <!-- 1 - target name -->
     <value>{0} ko tumhara ganda kaam karne ke liye bheja gaya, aur {1} ko badalne gaye wo... magar koi ghar pe nai tha!</value>
   </string>
-  <string key="CultWins" isgif="true">
+  <string key="zoombiesWins" isgif="true">
     <value>Sab bhediye mar gaye, aur jo khiladi bache the unko saampradaayik (Zombie) bana diya gaya hai... Panth jeet gaya!</value>
   </string>
   <string key="HunterVisitDead">
@@ -508,7 +508,7 @@
     <value> Mazdoor hain: {0}</value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <!-- 0 - Youngest Zombies name -->
     <value>Tumhara naya gand dost jab {0} ke ghar gaya unko badalne, tab uski gand fat gayi jab usne purje, khun aur bhediye ke kuchh baal wahan dikhe. Aur uski gand fatne ke baad wapas aagaya. </value>
   </string>
@@ -517,7 +517,7 @@
     <value>Bhediye {0} ka ghar use khane jaate hain, aur waha ek lamba kaala-kalutha aadmi ko dekhte hai, jo hathiyarbandd tha. SanrakshakDevdoot ne sabko maar bhagaya, aur tum haar kar laut jaate ho.</value>
   </string>
   <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <!-- 0 - newest  -->
     <!-- 1 - target's name -->
     <value>Tumne {0} ko bheja {1} ko badalne ke liye, lekin unka vishwas bahut jabardast tha, isliye tum usko badal nahi sake :</value>
@@ -528,7 +528,7 @@
     <!-- 1 - name -->
     <value>{1}, {0} ke naam se pahle hi join kar chuka hai. Kripya apna naam change kare join hone ke liye.</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <!-- 0 - target's name -->
     <value>Tum {0} ke ghar gaye thode maze karne ke liye... magar jaise hi tum jaa rhe the, tumne ek moorti dekhi, jise acchi tarah nai chhupaya gaya tha, ek baju ke kamre me, ajeeb si roshni aane lagi vaha se...</value>
   </string>
@@ -622,8 +622,8 @@
     <value>Samay samapt hua!</value>
   </string>
   <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
-    <value>Tum Kaamdev (Cupid) ho. Darti par ek kachchha, ek dhanush aur do teer ke saath bheje gaye ho. Tumhe do khiladiyo ko chunna hoga, jinhe tum janam-janam ke premi banana chate ho. Agar ek marta hai, to dusra bhi dukh se mar jayega.</value>
+  <string key="RoleInfoRecruiter">
+    <value>Tum Kaamdev (Recruiter) ho. Darti par ek kachchha, ek dhanush aur do teer ke saath bheje gaye ho. Tumhe do khiladiyo ko chunna hoga, jinhe tum janam-janam ke premi banana chate ho. Agar ek marta hai, to dusra bhi dukh se mar jayega.</value>
   </string>
   <string key="RoleInfoDoppelganger">
     <value>Tum Judwa (Doppleganger) ho. Legend kehte hai ki tumhare purwaj bhes badalne wale the, aur jo wo chahte the usko chayan kar sakte the. Tumhe unki kuchh shaktiyan wirasat me mili hai. Ek khiladi ko chuno, jab wo khiladi marega, Tum uske role me badal jaoge.</value>
@@ -634,7 +634,7 @@
   <string key="RoleInfoSerialKiller">
     <value>Tum serial killer. Haal hi me tum Asylum se bhaag nikle, tumhara goal hai sabko marne ka. Har raat, tum ek khiladi ka shareer apna collection me rakh sakte.</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>Tum pyaar se maare gaye. {0} ki yaad tumhare dil se kahbhi nahi udegi. Agar tum me se koi ek marta hai, doosra bhi uske gam me mar jayega. Agar ek jeet jata hai to doosra bhi jeet jayega.</value>
     <value>Kaamdevka teer tumko lagta hai! Tum {0} ke pyaar me pagal ho gaye ho! Agar wo mara, tum bhi maroge. Agar dono me se koi ek jeet ta hai to dono jeet jaoge</value>
   </string>
@@ -690,12 +690,12 @@
     <!-- 0 - target's name -->
     <value>Tumne {0} ki shareer ko apne collection me rakhna chaha, lekin devdoot ne tumhari gaand faad daali! Aaj raat kisi ki hatya nahi hui...</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
     <value>Panth ne {0} ko bheja gaya {1} ko badalne ke liye, lekin ek goli chalne ki awaaz aati hai aur {0} ki laash khidki se udte hua bahar girti hai! {0} mar gaya....</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
     <value>Panth ne {0} ko bheja gaya {1} ko badalne ke liye, lekin iske wipreet {0} ka sahreer khidki se udta hua bahar girta hai, uske shareer ke har hisse me chaaku chubhone ke nishaan the! KAISA LUND HAI! {0} mar gaya....</value>
@@ -720,11 +720,11 @@
     <!-- 1 - mason collegues's name -->
     <value>{0} mar gaya, aur tum mazdoor me badal gaye.  Tumhare teammates (agar koi hai) to: {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <!-- 0 - new Zombie's name -->
     <value>Judwa {0} ab tumhari tarah ek saampradaayik ban gaya hai!</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <!-- 0 - role's name -->
     <!-- 1 - teammates's name -->
     <value>{0} mar gaya, aur tum saampradaayik me badal gaye.  Tumhare teammates (agar koi hai) to: {1}</value>
@@ -744,25 +744,25 @@
   <string key="AskKill">
     <value>Kisko maarna chahte ho aaj raat?</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <!-- 0 - dead's name -->
-    <!-- 1 - lover's name -->
+    <!-- 1 - crewmate's name -->
     <!-- 2 - roles -->
     <value>{0} ke antim saanse le raha tha, utne me {1} bhaaga aaya aur gir gaya, rote hue.  Wo apne premi ka maut bardasht nahi kar saka, aur apne aap ko sabse nazdeeki pistol se maar li. {2}</value>
   </string>
   <string key="AskDoppelganger">
     <value>Tum kya banna chahte ho agar koi marta hai to?</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>Tum kise love banana chahte ho? Pahla khiladi chuno</value>
   </string>
-  <string key="AskCupid2">
-    <value>Tum kise lover banana chahte ho? Doosra khiladi chuno</value>
+  <string key="AskRecruiter2">
+    <value>Tum kise crewmate banana chahte ho? Doosra khiladi chuno</value>
   </string>
   <string key="Hunter">
     <value>Shikari 🎯</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>Kaamdev 🏹</value>
   </string>
   <string key="SerialKiller">
@@ -775,7 +775,7 @@
     <!-- 0 - target's name -->
     <value>Tum khatarnaak bachcha ban gaye ho.  Tumhara role model {0} hai.</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
     <value>Sachcha Pyaar chamka! Premiyo ki jeet hui!</value>
   </string>
   <string key="HunterKilledVisiter">
@@ -783,7 +783,7 @@
     <!-- 1 - role -->
     <value>Gao ke chowk ke beech me, sabko {0} ka shareer milta hai, jiske chaaro or goliya lagi thi.  Aisa lagta tha ke wo shikari ki jassi kar raha tha! {1}</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>Ek ajeeb sa chutad ne tumhe panth banana chaha, lekin tumhare mann ki vishwasne uski gaand faad di</value>
   </string>
   <string key="AlreadyOnWaitList">

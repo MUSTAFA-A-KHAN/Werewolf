@@ -381,33 +381,33 @@
     <!-- 1 - target name -->
     <value >نظر {0} اینه که {1} رو به قاتلین بروسلی دعوت کنیم.</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <!-- 0 - Yougest Zombie (killed)'s name' -->
     <!-- 1 - ZombieHunter's name -->
     <value>خب {0} رفت که {1} رو به قاتلین بروسلی دعوت کنه ولی {1} حشمت شاگرد بروسلی بود و جرش داد!</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - Number of Zombies left -->
     <value>دیشب {0} اومد تو رو به قاتلین بروسلی دعوت کنه توام به یاد مرحوم استاد با ضربه اژدها سقطش کردی. {1} قاتل بروسلی دیگر مانده</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>تو قاتل بروسلی 🕴 هستی جز فرقه سامورایی ها هر شب یکیو دعوت می‌کنین تا به قاتلین بروسلی بپیونده ، مواظب باش گیر حشمت نیوفتین. </value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <!-- 0 - Number of Zombies -->
     <value>قاتلین بروسلی : {0} </value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <!-- 0 - new Zombie's name -->
     <value>الان {0} هم یکی از قاتلین بروسلیه.</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <!-- 0 - Newest Zombie's name -->
     <!-- 1 - target name -->
     <value>دیشب {0} رفت که {1} به انجمن قاتلین بروسلی دعوت کنه ولی اصلا خونه نبود پلشت. </value>
   </string>
-  <string key="CultWins" isgif="true">
+  <string key="zoombiesWins" isgif="true">
     <value >قاتلین بروسلی همه جا رو تصاحب کردن. خاک ت سرت حشمت🤦‍♂</value>
   </string>
   <string key="HunterVisitDead">
@@ -512,7 +512,7 @@
     <value>مسافرای تهرانی عبارت اند از : {0} </value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <!-- 0 - Youngest Zombies name -->
     <value>دیشب رفتین {0} به قاتلین بروسلی دعوت کنین ولی دیدین قبلا سقط شده.</value>
   </string>
@@ -521,7 +521,7 @@
     <value>دیشب اراذل میخاستن {0} لخت کنن ولی کریم انجل فراریشون داد. </value>
   </string>
   <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <!-- 0 - newest  -->
     <!-- 1 - target's name -->
     <value>دیشب {0} فرستادین {1} به قاتلین بروسلی دعوت کنه ولی طرف از ارادتمند بروسلی بود گف : گوه نخور. </value>
@@ -532,7 +532,7 @@
     <!-- 1 - name -->
     <value>جناب {0} @{1} یه بازیکن هم اسم تو توی بازیه، اسمتو عوض کن تا بتونی وارد بازی بشی</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <!-- 0 - target's name -->
     <value>دیشب رفتی خونه {0} چتر بندازی پیژامه مرحوم بروسلی رو دیدی.</value>
   </string>
@@ -629,7 +629,7 @@
   <value>وقت تموم شد!</value>
   </string>
   <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
     <value>تو ننه قمری🤶 هستی.دو نفر از اهالی عاشق هم دیگه میکنی وقتی یکیشون سقط شه اون یکیم خودشو به درک واصل میکنه.</value>
   </string>
   <string key="RoleInfoDoppelganger">
@@ -641,7 +641,7 @@
   <string key="RoleInfoSerialKiller">
     <value>تو اسمال قصابی 🔪. هر شب یکی از اهالی میگیری تیکه تیکش میکنی تا گوشتشو تو مغازت بفروشی.</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>تو عاشق {0} شدی. اگه یکیتون بمیره اون یکی هم از غمش میمیره</value>
 	<value>ننه قمر تیرش رو تو قلب تو و {0} زده. حالا اگه اون بمیره تو هم از غمش میمیری! </value>
   </string>
@@ -677,7 +677,7 @@
     <!-- 2 - target's role -->
     <value>ممد {0} آخرین لحظه یه فشنگ حروم {1} کرد اون خاک ت سر {2} </value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <value>دیشب {0} رفت پیش اسمال قصاب {1} دعوتش کنه به قاتلین بروسلی ولی اسمال تیکه تیکش کرد گذاتش ت یخچال قصابی. </value>
 	<value>دیشب {0} رفت پیش اسمال قصاب {1} دعوتش کنه به قاتلین بروسلی ولی اسمال تیکه تیکش کرد گذاتش ت یخچال قصابی. </value>
   </string>
@@ -701,7 +701,7 @@
     <!-- 0 - target's name -->
     <value>رفتی {0} تیکه تیکه کنی ولی کریم انجل هواشو داشت نذاشت. </value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
     <value>دیشب {0} رفت که {1} بیاره تو قاتلین بروسلی ولی {1} ممد کانتر بود یه تیر زد تو پیشونیش</value>
@@ -725,12 +725,12 @@
     <!-- 1 - mason collegues's name -->
     <value>خب گوگولی {0} مرد الان نقشش مال توعه. چون اون مسافر تهرانی بود تو هم مسافر تهرانی شدی و بقیه تهرانی ها عبارت اند از: {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <!-- 0 - new Zombie's name -->
     <value>گوگولی مگولی ، یعنی {0} هم چون یکی از قاتلین بروسلی رو به عنوان مدل انتخاب کرده بود الان قاتل بروسلی شد</value>
   </string>
 
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <!-- 0 - role's name -->
     <!-- 1 - teammates's name -->
     <value>الگوت یعنی {0} مرد و چون قاتل بروسلی بود تو هم قاتل بروسلی شدی. بقیه قاتلای بروسلی عبارت اند از: {1}</value>
@@ -750,25 +750,25 @@
   <string key="AskKill">
     <value>اسمال کی رو میخوای گور ب گور کنی؟ </value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <!-- 0 - dead's name -->
-    <!-- 1 - lover's name -->
+    <!-- 1 - crewmate's name -->
     <!-- 2 - roles -->
     <value>با سقط شدن {0} ، خاطرخاهش {1} خودشو از وسط جر داد و به دیار باقی شتافتیدن گرفت. {2}</value>
   </string>
   <string key="AskDoppelganger">
     <value>میخوای الگوت کی باشه؟ اگ سقط شه نقشش مال توعه! </value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>کیا رو میخوای عاشق همدیگه بکنی؟ نفر اول رو انتخاب کن</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>کیا رو میخوای عاشق همدیگه بکنی؟ نفر دوم رو انتخاب کن</value>
   </string>
   <string key="Hunter">
     <value>محمد کانتر🎯</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>ننه قمری 🤶</value>
   </string>
   <string key="SerialKiller">
@@ -782,7 +782,7 @@
     <!-- 0 - target's name -->
     <value>تو علی کوچولو ای 👶 و بابات کسی نیست جز {0} </value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
     <value>خاطرخواه های خاک بر سر برنده شدن</value>
   </string>
   <string key="HunterKilledVisiter">
@@ -790,7 +790,7 @@
     <!-- 1 - role -->
     <value>این فضول {0} دیشب رفته خونه ممد کانتر ، ممدم یه گوله خالی کرده تو سیراب شیردونش. {1}</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>قاتلای بروسلی دیشب تو رو به انجمن سامورایی دعوت کردن ولی تو بخاطر ارادتت به بروسلی بهشون گفتی : گوه نخورین</value>
   </string>
   <string key="AlreadyOnWaitList">
@@ -874,7 +874,7 @@
   <string key="AboutFool">
     <value>خواهر ناتنی سکینه که خودشو شبیه سکینه کرده، هر شب میره خونه یکی فالگوش وامیسته ولی چون گوشاش نمیشنوه نقش طرفو اشتباهی میفهمه. </value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>تو جز انجمن سامورایی هستی که پشت پرده قتل بروسلی بودین. هر شب میری دعوت یکی از روستایی ها ولی اگه بری دعوت شکار و قاتل و گرگ میمیری.</value>
   </string>
   <string key="AboutCH">
@@ -899,7 +899,7 @@
 اگه به عنوان گوگولی مگولی بمیری میبازی.
     </value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>
 تو ننه قمری...وظیفه تو اینه جوونا رو به هم دیگه برسونی، شب اول دو نفر رو انتخاب میکنی تا خاطرخواه هم دیگه بشن اگه یکیشون بمیره اون یکی هم از غم خودشو سقط میکنه. 
     </value>
@@ -1079,10 +1079,10 @@
   <string key="AllowTannerA">
     <value>نقش منافق: {0}</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>نقش فرقه گرا فعال باشه؟\n حالت فعلی: {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>نقش فرقه گرا: {0}</value>
   </string>
   <string key="ThankYou">
@@ -1234,7 +1234,7 @@
   <string key="SerialKillerTeam">
     <value>گروه قاتل زنجیره ای</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>گروه فرقه</value>
   </string>
   <string key="TannerTeam">
@@ -1252,13 +1252,13 @@
   <string key="SerialKillerTeamEnd">
     <value>گروه قاتل زنجیره ای</value>
   </string>
-  <string key="CultTeamEnd">
+  <string key="zoombiesTeamEnd">
     <value>گروه فرقه</value>
   </string>
   <string key="TannerTeamEnd">
     <value>گروه منافق</value>
   </string>
-    <string key="CultConvertWolf">
+    <string key="zoombiesConvertWolf">
     <value>دیشب قاتلین بروسلی {0} فرستادن تا {1} دعوا کنه به انجمن ولی کله {0} دیدن که از خونه {1} قل خورد اومد بیرون</value>
   </string>
   <string key="HarlotFuckedKilledPublic"> <!-- used when Harlot visit's SK's victim, and dies -->
@@ -1279,7 +1279,7 @@
   <string key="ZombieKilled">
     <value>دیشب اسمال قصاب گوشت {0} فیله کرده. قاتل بروسلی به قتل رسید. </value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>دیشب ننه قمر {0} توسط اسمال آقا غافلگیر شد. دیگه این پیرزن گوشت به تنش نمونده که قصابیش کردی. </value>
   </string>
   <string key="DrunkKilled">
@@ -1309,10 +1309,10 @@
   <string key="SerialKillerKilledCH"> <!--used when CH visits SK-->
     <value>حشمت {0} در ب در دنبال قاتلین بروسلی رسیدن به خونه اسمال.اسمال درو باز کرد گفت:جووون. بیا یه قاتل بروسلی دارم رو پایی میزنه.{0} روحت شاد یادت گرامی. </value>
   </string>
-  <string key="CultConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
+  <string key="zoombiesConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
     <value>دیشب {0} رفت اراذلو به انجمن سامورایی دعوت کنه اراذلم لختش کردن. </value>
   </string>
-  <string key="CultConvertKillerPublic"> <!--used when Zombies convert the SK-->
+  <string key="zoombiesConvertKillerPublic"> <!--used when Zombies convert the SK-->
     <value>دیشب {0} به دنبال یه عضو جدید رفت دم خونه اسمال آقا. صبح فیله قاتل بروسلی تو یخچال قصابی بود. </value>
   </string>
   
@@ -1403,7 +1403,7 @@
     <!-- {0} = list of people who have joined -->
     <value>{0} در 30 ثانیه گذشته جوین شدند </value>
   </string>
-  <string key="AllowCult">
+  <string key="Allowzoombies">
     <value>فرقه</value>
   </string>
   <string key="AllowTanner">
@@ -1646,7 +1646,7 @@
       <!-- 0 - mason collegues's name -->
       <value>هم تیمی های شما(درصورت وجود) عبارت اند از:{0}.</value>
     </string>
-    <string key="ThiefToCult">
+    <string key="ThiefTozoombies">
       <!-- 0 - old Zombie's name -->
       <!-- 1 - new Zombie's name -->
       <value>لپ گلی {0} دیگه همتیمی شما نیست {1} الان شده قاتل بروسلی درست مثل شما ها</value>
@@ -2005,16 +2005,16 @@
   <string key="HunterFell">
 	<value>حشمت خان وقتی دنبال قاتلای بروسلی میگشتی وارد خونه مرده شور {0} شدی، ولی پات گیر کرد و با سر رفتی تو سنگ قبر و مغزت پاچید بیرون. </value>
   </string>
-  <!--{0}: cult hunter-->
+  <!--{0}: zoombies hunter-->
   <string key="HunterFellDigger">
 	<value>صبح که بیدار میشی میبینی جسد حشمت خان {0} افتاده رو سنگ قبر و مغزش پاچیده بیرون. </value>
   </string>
   <!--{0}: Zombie-->
-  <string key="CultFell">
+  <string key="zoombiesFell">
 	<value>دیشب داشتی توی قبرستون قدم میزدی که دیدی یکی رو قبر مش عبدالله نشسته، قاتل بروسلی {0} در همون حالت سکته کرده بود.</value>
   </string>
   <!--{0}: Zombie who fell, {1}: grave digger-->
-  <string key="CultConvertGraveDigger">
+  <string key="zoombiesConvertGraveDigger">
 	<value> دیشب وارد قبرستون شدین تا {0} رو به انجمن سامورایی دعوت کنین که یهو {1} شروع کرد به خندیدن و روی یه سنگ قبر نشست و دیگه تکون نخورد، بقیه شما هم از ترس جونتون فرار کردین. </value>
   </string>
   <!--{0}: grave digger-->

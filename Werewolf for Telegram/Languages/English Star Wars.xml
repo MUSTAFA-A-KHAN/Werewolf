@@ -33,13 +33,13 @@
 /aboutGA - the Guardian Angel 👼 __________________________________________ Chewbacca -> Loyal companion, His presence can scare off the Empire.
 /aboutDetective - the Detective 🕵 _____________________________________________ Jyn Erso -> A spy for the rebellion, she looks for information key to the downfall of the Empire.
 /aboutAppS - the Apprentice Seer 🙇 _________________________________________ BB-8 -> An Astromech, he will access the central computer in place of R2D2 to help his allies. 
-/aboutCult - a Zombie 👤 ____________________________________ A Sith Zombie -> A Zombie who follows a Sith Lord. They are spreading the Dark Side.
+/aboutzoombies - a Zombie 👤 ____________________________________ A Sith Zombie -> A Zombie who follows a Sith Lord. They are spreading the Dark Side.
 /aboutCH - the Zombie Hunter 💂 ______________________________________ Qui Gon Jinn -> A Jedi, in his early days, the hunter of Sith Zombie.
 /aboutWC - the Wild Child 👶 _______________________________________________ Asajj Ventress -> A Nightsister, trained in the Jedi way, but switches to the Dark Side after her role model dies.
 /aboutFool - the Fool 🃏 ____________________________________________ R5D4 aka "Red" -> An Astromech Droid. His systems are faulty, so his information is unreliable.
 /aboutMason - a Mason 👷 ____________________________________ an Ewok -> Ewoks know their fellow Ewoks.
 /aboutDG - the Doppelgänger 🎭 __________________________________ A Changeling -> A shapeshifter, assumes another player's role.
-/aboutCupid - Cupid 🏹 _________________________________________________________ A Jawa -> Attaches restraining bolts to two players, binding them to each other.
+/aboutRecruiter - Recruiter 🏹 _________________________________________________________ A Jawa -> Attaches restraining bolts to two players, binding them to each other.
 /aboutHunter - the Hunter 🎯 _______________________________________________ Baze Malbus -> When he dies, he will fire a heroic shot.
 /aboutSK - the Serial Killer 🔪 ___________________________________________ Darth Vader
 /aboutTanner - the Tanner 👺 ____________________________________ Boba fett
@@ -237,7 +237,7 @@ I will now assign your roles.</value>
     <value>Who is your role model?</value>
   </string>
   <string key="AskConvert">
-    <value>Who do you want to convert to the Sith Cult?</value>
+    <value>Who do you want to convert to the Sith zoombies?</value>
   </string>
   <string key="DiscussWith">
     <!--Leave the leading spaces here please-->
@@ -296,7 +296,7 @@ I will now assign your roles.</value>
     <value >You are a Sith Zombie 👤.  Every night, you may choose a player to convert to a Zombie. If all remaining living players at the end following your Sith Lord, they win.</value>
   </string>
   <string key="RoleInfoZombieHunter" >
-    <value >You are the Jedi Master Qui Gon Jinn 💂, trying to stop the Sith Cult from spreading throughout the universe!  Each night, choose a player.  If they are a Sith Zombie, you kill them. If the Sith Cult tries to convert you, the Cult's newest member dies.</value>
+    <value >You are the Jedi Master Qui Gon Jinn 💂, trying to stop the Sith zoombies from spreading throughout the universe!  Each night, choose a player.  If they are a Sith Zombie, you kill them. If the Sith zoombies tries to convert you, the zoombies's newest member dies.</value>
   </string>
   <string key="LynchTime" >
     <!-- 0 - number of seconds -->
@@ -464,34 +464,34 @@ I will now assign your roles.</value>
     <!-- 1 - target name -->
     <value >{0} has voted to convert {1}</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <!-- 0 - Youngest Zombie (killed)'s name' -->
     <!-- 1 - ZombieHunter's name -->
     <value>{0} was sent to spread your Sith Lord's influence using the dark side of the force, and convert {1}... however, they were Jedi Master Qui Gon Jinn! {0} is dead!</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - Number of Zombies left -->
     <value>{0} came to you, ready to convert you....  but you sliced him in two with your lightsaber.  A Sith Zombie is dead... {1} remain!</value>
   </string>
-  <string key="CultConvertYou">
-    <value>The Sith cult has converted you to their order!  You now follow the dark side and a Sith Lord.  Every night, you will have a chance to convert another player.</value>
+  <string key="zoombiesConvertYou">
+    <value>The Sith zoombies has converted you to their order!  You now follow the dark side and a Sith Lord.  Every night, you will have a chance to convert another player.</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <!-- 0 - Number of Zombies -->
     <value>Sith Zombies: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <!-- 0 - new Zombie's name -->
-    <value>{0} has joined the Sith Cult! The influence of the Dark Side is spreading...</value>
+    <value>{0} has joined the Sith zoombies! The influence of the Dark Side is spreading...</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <!-- 0 - Newest Zombie's name -->
     <!-- 1 - target name -->
     <value>{0} was sent to spread the power of the Dark Side of the force, and convert {1}... however, they were not to be found.</value>
   </string>
-  <string key="CultWins" isgif="true">
-    <value >The powder of the Dark Side is unmistakable. Everyone remaining in the Mos Eisley Cantina have joined the Sith Zombies..  The cult has won!</value>
+  <string key="zoombiesWins" isgif="true">
+    <value >The powder of the Dark Side is unmistakable. Everyone remaining in the Mos Eisley Cantina have joined the Sith Zombies..  The zoombies has won!</value>
   </string>
   <string key="HunterVisitDead">
     <!-- 0 - target name -->
@@ -595,7 +595,7 @@ I will now assign your roles.</value>
     <value>  the Ewok tribe: {0}</value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <!-- 0 - Youngest Zombies name -->
     <value>Your newest member heads over to {0} to convert them, but instead finds the ruthless Stormtroopers...</value>
   </string>
@@ -604,7 +604,7 @@ I will now assign your roles.</value>
     <value>The Empire heads to {0} to kill them, but they are met by a tall dark furry figure.  "AAAAAWWWRRRRRRGWWWRRRR!!!" The Wookie's yell scares everyone away. You head back defeated.</value>
   </string>
   <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <!-- 0 - newest  -->
     <!-- 1 - target's name -->
     <value>You send {0} to try to convert {1}, however their belief was too strong, and you were unable to convert them to the Dark Side :(</value>
@@ -615,7 +615,7 @@ I will now assign your roles.</value>
     <!-- 1 - name -->
     <value>@{1}, a player with the name {0} has already joined.  Please change your name to join.</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <!-- 0 - target's name -->
     <value>You visit {0}'s table... but you leave as soon as you sense traces of the dark side. You get up and leave, noticing the strange red glow of their lightsaber. You sneak away before they can catch you...</value>
   </string>
@@ -658,7 +658,7 @@ I will now assign your roles.</value>
     <value>Time's up!</value>
   </string>
   <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
     <value>You are Jabba the Hutt 🏹.  You may select two prisoners, binding them together for your entertainment.  If one of them dies, the other will be killed as well.</value>
   </string>
   <string key="RoleInfoDoppelganger">
@@ -668,9 +668,9 @@ I will now assign your roles.</value>
     <value>You are Baze Malbus 🎯, a former guardian of the Jedi Temple of Kyber.  You carry a big gun, and if you die, you can choose someone else to kill. If you are blasted by the empire, you have a chance to take a Stormtrooper down, but will not be able to choose a player to kill.</value>
   </string>
   <string key="RoleInfoSerialKiller">
-    <value>You are Darth Vader 🔪.  The Rebels have stolen the plans for the ultimate weapon, the Death Star.  Enraged by this act, you will interrogate and kill anyone who might have information on the whereabouts of the stolen plans.  No one is safe from you, not even the Empire or Sith Cults if they get in your way.</value>
+    <value>You are Darth Vader 🔪.  The Rebels have stolen the plans for the ultimate weapon, the Death Star.  Enraged by this act, you will interrogate and kill anyone who might have information on the whereabouts of the stolen plans.  No one is safe from you, not even the Empire or Sith zoombiess if they get in your way.</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>At the command of Jabba, you are taken and shackled to another prisoner. {0} is shackled on the other end of the chain - you fates are bound together. If one of you dies, the other one will be killed as well. If one of you wins, the other one wins too.</value>
   </string>
   <string key="HunterLynchedChoice">
@@ -725,15 +725,15 @@ I will now assign your roles.</value>
     <!-- 0 - target's name -->
     <value>You wanted to interrogate {0} for information about the stolen Death Star plans. However, {0} was protected by the Wookie Chewbacca.  Chewbacca's roar would draw too much attention right now, so you decide to wait until later.  No kill for you tonight...</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
-    <value>The Sith cult sends {0} to try to convert {1}, but instead a blaster fires and {0}'s body falls to the floor. {0} is dead....</value>
+    <value>The Sith zoombies sends {0} to try to convert {1}, but instead a blaster fires and {0}'s body falls to the floor. {0} is dead....</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
-    <value>The Sith cult sends {0} to try to convert {1}, but Darth Vader has no interest in following a different Sith Lord. Instead , Lord Vader force chokes {0}, leaving {0} is dead...</value>
+    <value>The Sith zoombies sends {0} to try to convert {1}, but Darth Vader has no interest in following a different Sith Lord. Instead , Lord Vader force chokes {0}, leaving {0} is dead...</value>
   </string>
   <string key="GuardKiller">
     <value>You tried to guard Lord Vader, but he showed you the full power of the Dark Side - throwing you against the wall and crushing your throat with the invisible power of the force.  You are dead....</value>
@@ -754,11 +754,11 @@ I will now assign your roles.</value>
     <!-- 1 - mason colleague’s name -->
     <value>{0} has died, and you transform into an Ewok.  Your teammates (if any) are: {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <!-- 0 - new Zombie's name -->
     <value>The Shapeshifter 🎭{0} has now become a Sith Zombie, just like you!</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <!-- 0 - role's name -->
     <!-- 1 - teammates's name -->
     <value>{0} has died, and you transform into a Sith Zombie.  Your teammates (if any) are: {1}</value>
@@ -778,25 +778,25 @@ I will now assign your roles.</value>
   <string key="AskKill">
     <value>You must find those stolen plans. Who will you kill?</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <!-- 0 - dead's name -->
-    <!-- 1 - lover's name -->
+    <!-- 1 - crewmate's name -->
     <!-- 2 - roles -->
     <value>With {0}'s dying breath, the chain around {1}'s throat chokes them, as they desperately try to claw their way free from the shackles that bind them.  But there isn't enough time, {1} dies with their fellow prisoner. {2}</value>
   </string>
   <string key="AskDoppelganger">
     <value>Who do you want to become if they die?</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>Who do you want the prisoners to be? Choose the first player</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>Who do you want the prisoners to be? Choose the second player</value>
   </string>
   <string key="Hunter">
     <value>Baze Malbus 🎯</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>Jabba the Hutt 🏹</value>
   </string>
   <string key="SerialKiller">
@@ -809,7 +809,7 @@ I will now assign your roles.</value>
     <!-- 0 - target's name -->
     <value>You have become Asajj Ventress 👶. You role model is {0}.</value>
   </string>
-  <string key="LoversWin" isgif="true">
+  <string key="crewmatesWin" isgif="true">
     <value>With all others dead, the prisoners manage to escape and have won!</value>
   </string>
   <string key="HunterKilledVisiter">
@@ -817,8 +817,8 @@ I will now assign your roles.</value>
     <!-- 1 - role -->
     <value>In the middle of the cantina, everyone finds the body of {0}, multiple shots to the body. Looks like they tried to sneak up on the heavily armed Baze Malbus! Well, {1}.</value>
   </string>
-  <string key="CultAttempt">
-    <value>A dark figure tried to convert you to their Sith cult, but your faith in the light side of the force was too strong.</value>
+  <string key="zoombiesAttempt">
+    <value>A dark figure tried to convert you to their Sith zoombies, but your faith in the light side of the force was too strong.</value>
   </string>
   <string key="AlreadyOnWaitList">
     <!-- 0 - target's name -->
@@ -875,7 +875,7 @@ I will now assign your roles.</value>
     <value>A Stormtrooper 🐺 \nYou are ground forces of the Empire. You may kill one player each night.\nNote: If you attack the codebreaker DJ, he will join the empire.\nIf you attack Old Ben Kenobi, his sacrafice will buy a night for the rebels to escape your reach (This means you can't attack the following night.) </value>
   </string>
   <string key="AboutHarlot">
-    <value>Aayla Secura 💋 \n You are Aayla Secura, a young Jedi. As you move through the cantina, you may detect the presence of the dark side (50% chance to see Sith cult). But be careful not to run into the Empire or Darth Vader, as they will kill you!</value>
+    <value>Aayla Secura 💋 \n You are Aayla Secura, a young Jedi. As you move through the cantina, you may detect the presence of the dark side (50% chance to see Sith zoombies). But be careful not to run into the Empire or Darth Vader, as they will kill you!</value>
   </string>
   <string key="AboutDrunk">
     <value>Old Ben Kenobi 🍻 \nYou are Old Ben Kenobi (Obi Wan Kenobi), a Jedi Master gifted in the ways of the Force.  Should the Empire strike you down, the stormtroopers will end up checking your robes, wondering where the body went.  Your sacrafice buys time for your allies to survive the empire. </value>
@@ -901,11 +901,11 @@ I will now assign your roles.</value>
   <string key="AboutFool">
     <value>R5-D4 🃏 \nR5-D4 aka Red. An Astromech Droid. Your systems are faulty, so any information you access from the central computer system is unreliable.</value>
   </string>
-  <string key="AboutCult">
-    <value>a Sith Zombie 👤 \nAs a Sith Zombie, it is your goal to spread the power of the Dark Side and convert all other players to your cult. If at the end of the game, all living players are Zombie - the cult wins.  The Empire players have no interest in joining and will kill you if you try to convert them.</value>
+  <string key="Aboutzoombies">
+    <value>a Sith Zombie 👤 \nAs a Sith Zombie, it is your goal to spread the power of the Dark Side and convert all other players to your zoombies. If at the end of the game, all living players are Zombie - the zoombies wins.  The Empire players have no interest in joining and will kill you if you try to convert them.</value>
   </string>
   <string key="AboutCH">
-    <value>Qui Gon Jinn 💂 \nYou are Qui Gon Jinn, a Jedi, and the hunter of Sith Zombies.  If the Sith Cult attacks you, their newest member will die.  Each night you may pick a player to 'hunt' - if they are a Sith Zombie, they will die.</value>
+    <value>Qui Gon Jinn 💂 \nYou are Qui Gon Jinn, a Jedi, and the hunter of Sith Zombies.  If the Sith zoombies attacks you, their newest member will die.  Each night you may pick a player to 'hunt' - if they are a Sith Zombie, they will die.</value>
   </string>
   <string key="AboutWC">
     <value>Assaj Ventress 👶 \nYou are Assaj Ventress. Raised by the Jedi, you turn to the Dark Side when your role model dies.  At the beginning of the game, you will choose someone to be your 'role model'. If they die, you become a stormtrooper.</value>
@@ -921,10 +921,10 @@ I will now assign your roles.</value>
   </string>
   <string key="AboutDG">
     <value>
-      A Changeling 🎭 \nYou are a Shapeshifter, changeling, skin-changer, amorph.  You have have the ability to shift your form, to pose as another.  However, you must wait until they die to assume their form, so not to cause suspicion.  Choose a player, when that player dies, you will take on their role.  If at the end of the game, the Changeling is still the same, they lose (exception: lover)
+      A Changeling 🎭 \nYou are a Shapeshifter, changeling, skin-changer, amorph.  You have have the ability to shift your form, to pose as another.  However, you must wait until they die to assume their form, so not to cause suspicion.  Choose a player, when that player dies, you will take on their role.  If at the end of the game, the Changeling is still the same, they lose (exception: crewmate)
     </value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>
       Jabba the Hutt 🏹 \n You are Jabba the Hutt.  For your own amusement, you will choose two players at the start of the game. These two players will shackled together, and will if one dies, the other is killed as well.
       Note: Prisoners will know who each other are, but not be told their roles. If the prisoners are the last two alive, they win, regardless of teams. If at least one of the prisoners was on the winning team, they both win together.
@@ -934,11 +934,11 @@ I will now assign your roles.</value>
     <value>
       Baze Malbus 🎯 \nYou are Baze Malbus, a former guardian of the Jedi Temple of Kyber.  You carry a big gun, and if you die, you can choose someone else to kill. If you are blasted by the empire, you have a chance to take a Stormtrooper down, but will not be able to choose a player to kill.
       Note: For Empire attacks, the chance starts at 30%. If there is one empire, the Baze has a 30% chance to kill the Empire (and survive). For each additional Empire, add 20% (2 Empire = 50%, 3 = 70%, etc). However - if there are multiple Empire, while you may kill one of them, you will still be outnumbered and killed.
-      If the Sith cult tries to convert you, they have a 50% chance to fail. If they fail, you have a 50% chance to kill one of them!
+      If the Sith zoombies tries to convert you, they have a 50% chance to fail. If they fail, you have a 50% chance to kill one of them!
     </value>
   </string>
   <string key="AboutSK">
-    <value>Darth Vader 🔪 \nYou are Lord Vader. The Death Star plans have been stolen and you will do anything to get them back - killing anyone in your way, even the Empire or the Sith cults.</value>
+    <value>Darth Vader 🔪 \nYou are Lord Vader. The Death Star plans have been stolen and you will do anything to get them back - killing anyone in your way, even the Empire or the Sith zoombiess.</value>
   </string>
   <string key="AboutPara">
     <value>Para is a silly developer that likes to bark at people.  Maybe he's been messing with werewolves too long....Messing with werewolves is a very bad idea.</value>
@@ -1097,11 +1097,11 @@ I will now assign your roles.</value>
   <string key="AllowTannerA">
     <value>Tanner as a role set to: {0}</value>
   </string>
-  <string key="AllowCultQ">
-    <value>Allow cult as a role option?\nCurrent: {0}</value>
+  <string key="AllowzoombiesQ">
+    <value>Allow zoombies as a role option?\nCurrent: {0}</value>
   </string>
-  <string key="AllowCultA">
-    <value>Cult as a role set to: {0}</value>
+  <string key="AllowzoombiesA">
+    <value>zoombies as a role set to: {0}</value>
   </string>
   <string key="EnableSecretLynchQ">
     <value>Enable Secret Lynch?\nCurrent: {0}</value>
@@ -1263,14 +1263,14 @@ I will now assign your roles.</value>
   <string key="SerialKillerTeamEnd">
     <value>Darth Vader</value>
   </string>
-  <string key="CultTeamEnd">
-    <value>Sith Cult Team</value>
+  <string key="zoombiesTeamEnd">
+    <value>Sith zoombies Team</value>
   </string>
   <string key="TannerTeamEnd">
     <value>Boba Fett</value>
   </string>
-  <string key="CultConvertWolf">
-    <value>The Sith Cult sends {0} to try to convert {1}, but instead {0} is blasted by the Stormtroopers.  {0} is dead...</value>
+  <string key="zoombiesConvertWolf">
+    <value>The Sith zoombies sends {0} to try to convert {1}, but instead {0} is blasted by the Stormtroopers.  {0} is dead...</value>
   </string>
 
   <string key="HarlotFuckedKilledPublic">
@@ -1290,7 +1290,7 @@ I will now assign your roles.</value>
   <string key="ZombieKilled">
     <value>{0} was found with a crushed windpipe, crumpled in a pile on the floor.  The cruel Lord Vader will stop at nothing to retrieve the stolen Death Star plans. No one is safe, not even the Sith Zombies!  The power of the Dark Side was not strong enough; {0} is dead.</value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>The disgusting Jabba the Hutt gurgles as he is chokes.  Unable to fight, all {0} can do is flap their tongue around, bulge out their eyes, and die a slow, prolonged, much-deserved asphyxiation death.  We expected him to be choked by one of his prisoners, but this time it appears Darth Vader wanted {0} dead.</value>
   </string>
   <string key="DrunkKilled">
@@ -1321,13 +1321,13 @@ I will now assign your roles.</value>
     <!--used when CH visits SK-->
     <value>The body of Qui Gon Jinn, hunter of the Sith Zombies, is found in the middle of the cantina, albeit cut precisely in two.  No Sith Zombie is powerful enough have killed {0}, this must have been the work of Darth Vader.  The ghost of Qui Gon Jinn will regret having checked to see if Lord Vader was a Zombie...</value>
   </string>
-  <string key="CultConvertWolfPublic">
+  <string key="zoombiesConvertWolfPublic">
     <!--used when Zombies convert the wolves, only if stayed home-->
     <value>The Stormtroopers were to mind their own business for once, staying out of trouble, but the trouble came to them.  They blasted the Sith Zombie {0}.  Stormtroopers have no interest in strange religions.</value>
   </string>
-  <string key="CultConvertKillerPublic">
+  <string key="zoombiesConvertKillerPublic">
     <!--used when Zombies convert the SK-->
-    <value>The Sith Cult thought they would have a new member in their ranks, but they were wrong! {0}, a Sith Zombie, is found lifeless, choked by an unseen hand.  Lord Vader has shown the cult the terrifying power of the dark side.</value>
+    <value>The Sith zoombies thought they would have a new member in their ranks, but they were wrong! {0}, a Sith Zombie, is found lifeless, choked by an unseen hand.  Lord Vader has shown the zoombies the terrifying power of the dark side.</value>
   </string>
   <string key="GAGuardedKiller">
     <!-- used when GA guards SK -->
@@ -1351,7 +1351,7 @@ I will now assign your roles.</value>
   </string>
   <string key="CHKillsZombieEnd">
     <!--{0} = last Zombie's name, {1} = CH's name -->
-    <value>As the last two standing, {1} and {0} turn to face each other. Seeing a the red glow of {0}'s lightsaber, {1} draws their own lightsaber for the final time, putting an end to the twisted learnings of the Sith Cult.  The dark side is not match for a Jedi Master.</value>
+    <value>As the last two standing, {1} and {0} turn to face each other. Seeing a the red glow of {0}'s lightsaber, {1} draws their own lightsaber for the final time, putting an end to the twisted learnings of the Sith zoombies.  The dark side is not match for a Jedi Master.</value>
   </string>
 
   <!-- Extend time -->
@@ -1418,8 +1418,8 @@ I will now assign your roles.</value>
     <!-- NOTE: No space between {0} and joined. It will be added in the code if necessary-->
     <value>{0}joined the game in the last 30 seconds.</value>
   </string>
-  <string key="AllowCult">
-    <value>Allow Sith Cult</value>
+  <string key="Allowzoombies">
+    <value>Allow Sith zoombies</value>
   </string>
   <string key="AllowTanner">
     <value>Allow Tanner</value>
@@ -1457,7 +1457,7 @@ I will now assign your roles.</value>
     <value>All</value>
   </string>
   <string key="RandomModeQ">
-    <value>Enable random mode?\nWhen random mode is enabled, Chaos, Secret Lynch, Show Roles on Death, and Allow Cult / Fool / Tanner will be randomly determined everytime someone starts a game.\nCurrent:{0}</value>
+    <value>Enable random mode?\nWhen random mode is enabled, Chaos, Secret Lynch, Show Roles on Death, and Allow zoombies / Fool / Tanner will be randomly determined everytime someone starts a game.\nCurrent:{0}</value>
   </string>
   <string key="RandomModeA">
     <value>Enabling of random mode set to: {0}</value>
@@ -1654,7 +1654,7 @@ I will now assign your roles.</value>
     <!-- 0 - mason collegues's name -->
     <value>Your small furry ewok clan mates (if any) are: {0}</value>
   </string>
-  <string key="ThiefToCult">
+  <string key="ThiefTozoombies">
     <!-- 0 - old Zombie's name -->
     <!-- 1 - new Zombie's name -->
     <value>{0} is no longer your teammate and {1} has now become a Sith Zombie, just like you!</value>

@@ -383,29 +383,29 @@ variant="Fallout"/>
   <string key="ZombieVotedConvert" >
     <value >{0} vota per rimpiazzare {1}</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
 
     <value>{0} è stato inviato a fare il suo sporco lavoro, per rimpiazzare {1}… ma era il cacciatore di sintetici! {0} è morto!</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
 
     <value>{0} ti ha fatto visita la scorsa notte, pronto a rimpiazzarti….  ma per lui non c'è stato scampo.  Un sintetico eliminato… {1} rimanenti!</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
 
     <value>Alcuni individui ti rapiscono nel bel mezzo della notte. Vedi un uomo uguale a te. Hai capito che ormai per te è finita… verrai rimpiazzato da un robot.</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>Sintetici: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <value>{0} è stato rimpiazzato!</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
 
     <value>{0} è stato inviato a fare il suo sporco lavoro, per far visita a {1}… ma nessuno era in casa!</value>
   </string>
-  <string key="CultWins" >
+  <string key="zoombiesWins" >
 
     <value >Tutti i supermutanti sono morti, ma tutti i sopravvissuti sono tutti sintetici! L'Istituto ha vinto!</value>
   </string>
@@ -512,7 +512,7 @@ variant="Fallout"/>
     <value>  Gli altri Scribi sono: {0}</value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
 
     <value>Il vostro membro piu' nuovo si reca a casa di {0} per rapirlo, ma trova invece una casa malmessa, sangue ovunque, e dei sacchi di carne appesi alle pareti…</value>
   </string>
@@ -521,7 +521,7 @@ variant="Fallout"/>
     <value>Ti introduci nella casa di {0} per ucciderlo, ma un raggio laser ti sfiora la testa. Il Protectron era lì. Dopo un bel po' di tempo fuggi via, sconfitto.</value>
   </string>
   <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
 
     <value>Spedite {0} per rapire {1}, ma ha opposto troppa resistenza e non l'avete preso.</value>
   </string>
@@ -530,7 +530,7 @@ variant="Fallout"/>
 
     <value>@{1}, un giocatore con il nome di {0} è già entrato. Per favore cambia il tuo nome per partecipare. </value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
 
     <value>Ti rechi a casa di {0} per una lezione. Ma ti accorgi che è un robot… meglio non farglielo notare...</value>
   </string>
@@ -623,9 +623,9 @@ variant="Fallout"/>
 	<value>È scaduto il tempo!</value>
   </string>
   <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
 
-    <value>Sei il Pastore (Cupido). Prima della Grande Guerra eri ateo, ma hai avuto un'esperienza premorte dove hai incontrato Dio. Puoi unire due persone a vita, per farle procreare e salvare la specie umana, se uno muore, l'altro si suiciderà…</value>
+    <value>Sei il Pastore (Recruitero). Prima della Grande Guerra eri ateo, ma hai avuto un'esperienza premorte dove hai incontrato Dio. Puoi unire due persone a vita, per farle procreare e salvare la specie umana, se uno muore, l'altro si suiciderà…</value>
   </string>
   <string key="RoleInfoDoppelganger">
 
@@ -639,7 +639,7 @@ variant="Fallout"/>
 
     <value>Sei il terrore della Zona. Il Deathclaw (Serial Killer). Prima eri una lucertola di dieci centimetri, ma alcune operazioni genetiche dell'Enclave ti hanno trasformato in un bestione di 2,5 tonnellate, con artigli affilati e denti altrettanto affilati. Ti sei ribellato e sei fuggito dal tuo recinto. La tua passione è uccidere, e sarai contento quando rimarrai solo.</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
 
     <value>Il Prete ti ha unito a vita con {0}. Dovete sopravvivere insieme, per procreare e ricostruire la specie. Se uno muore, l'altro deve suicidarsi.</value>
 	<value>Il Pastore ha decretato che {0} sarà la tua anima gemella.  Se muore, condividerai il suo destino. Se riuscite a sopravvivere fino alla fine, sarete entrambi vincitori.</value>
@@ -697,11 +697,11 @@ variant="Fallout"/>
 
     <value>Hai provato a dilaniare {0}, ma hai trovato un maledetto Protectron fuori dalla sua casa. Stasera digiuno.</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
 
     <value>I Sintetici inviano {0} per rapire {1}, ma invece un colpo suona rumoroso e a {0} si stacca la testa prima di entrare in casa! {0} è morto…</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
 
     <value>I sintetici mandano {0} per rapire {1}, ma invece il corpo di {0} schizza fuori dalla porta, spezzato a metà. DENTRO QUELLA CASA C'è UN DEATHCLAW!! {0} è morto….</value>
 	<value>{0} si intrufola nella casa di {1}, e si trova davanti un lucertolone. {1} squarta il corpo di {0}, dilaniando ogni organo. {0} è morto.</value>
@@ -722,11 +722,11 @@ variant="Fallout"/>
 
     <value>{0} è morto, e tu prendi tutti i suoi averi e diventi uno Scriba.  I tuoi compagni (se presenti) sono: {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
 
     <value>Il Soldato dell'Enclave {0} è ora diventato un Sintetico, esattamente come te!</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
 
     <value>{0} è morto, e tu ti trasformi in un Sintetico. I tuoi compagni (se presenti) sono: {1}</value>
   </string>
@@ -746,7 +746,7 @@ variant="Fallout"/>
 
     <value>Chi vuoi uccidere stanotte?</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
 
     <value>{0} viene ritrovato dal coniuge, che sussulta e capisce che ormai per lui é finita. {1} si butta dal tetto di casa sua...{2}</value>
   </string>
@@ -754,18 +754,18 @@ variant="Fallout"/>
 
     <value>Cho vuoi rimpiazzare alla morte?</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
 
     <value>Chi vuoi che siano gli sposi? Scegli il primo giocatore:</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
 
     <value>Chi vuoi che siano gli sposi? Scegli il secondo giocatore:</value>
   </string>
   <string key="Hunter">
     <value>La Guardia di Sicurezza👮(🎯)</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>il Pastore✝(🏹)</value>
   </string>
   <string key="SerialKiller">
@@ -782,10 +782,10 @@ variant="Fallout"/>
   <string key="HunterKilledVisiter">
     <value>Al centro della piazza centrale, viene ritrovato il corpo di {0} a cui hanno sparato varie volte in tutto il corpo. Sembra che abbia provato a visitare la Guardia! {1}</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>Ti svegli tutto d'un tratto nel mezzo della notte. Vedi un Sintetico che cerca di pigliarti, ma tu fuggi e sopravvivi.</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
   <value>Il Pastore ha fatto la scelta giusta. La coppia ha vinto.</value>
   </string>
   <string key="SerialKillerWinsOverpower">
@@ -855,7 +855,7 @@ variant="Fallout"/>
   <string key="AboutFool">
     <value>un Gunner Malato che crede di essere il Gunner Spia…. Quando sceglie di vedere il ruolo a qualcuno, gli verrà detto un ruolo casuale in partita. Nota: È più utile di quello che sembra, può sapere con esattezza i ruoli che ci sono in partita. Se vedete un ruolo, sarà in partita.</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>Come Sintetico, il tuo obiettivo è rimpiazzare tutti gli altri giocatori (tranne i supermutanti). Se a fine partita, tutti i giocatori sono Sintetici, Vincono. \n Probabilità di rimpiazzare i seguenti ruoli: \n Ladro di eredità: 0% Finchè rimane ladro, è impossibile da rimpiazzare \n Gunner Spia 40% Il Gunner Spia è il più difficile da rimpiazzare \n Protectron 60% Nota: Se protegge qualcuno, non lo troverai in casa \n Virgil 60% \n Nick Valentine 70% \n Figlio Dell'Atomo70% Come il Protectron, se non è casa, non potrete rimpiazzarlo \n Guardia 50% Avrai il 50% di rimpiazzare la Guardia. Se fallite, c'è il 50% che vi spari.</value>
   </string>
   <string key="AboutCH">
@@ -876,7 +876,7 @@ variant="Fallout"/>
   <string key="AboutDG">
     <value>Puoi scegliere un giocatore a inizio partita, erediti il suo ruolo \n Nota: Se il giocatore viene rimpiazzato dai sintetici, prenderai il suo ruolo originale. Tutte le altre regole normali si applicano: se erano scudieri e il loro maledetto è morto, diventerai un supermutante. Altrimenti erediterai il loro maledetto.\nI sintetici non possono convertire il Ladro (ma possono dopo che il ladro cambia ruolo) E il ladro NON può vincere a meno di non essersi trasformato. Se a fine partita, il ladro non si è trasformato, perde (eccezione: amante).</value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>A inizio partita, sceglie due giocatori. Dopo diventa a tutti gli effetti un normale sopravvissuto. I due da lui scelti diventeranno una coppia e se uno dovesse morire, l'altro si suiciderà. Nota: gli amanti sanno chi è l'altro, ma non sanno il loro ruolo. Se gli amanti sono gli ultimi due vivi, loro vincono, indipendemente dal loro ruolo. Se gli amanti sono di due team diversi (esempio: supermutante + sopravvissuto), e un team vince (esempio: supermutanti), anche l'amante (esempio: sopravvissuto) vince. \n TL;DR Se solo gli amanti sono vivi a fine partita o almeno uno dei due è nel team vincitore vincono insieme.</value>
   </string>
   <string key="AboutHunter">
@@ -1053,10 +1053,10 @@ variant="Fallout"/>
   <string key="AllowTannerA">
     <value>Ghoul come ruolo impostato a {0}</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>Ammettere i Sintetici in partita, come ruolo?\nAttualmente: {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>Sintetico come ruolo impostato a {0}</value>
   </string>
   <string key="ThankYou">

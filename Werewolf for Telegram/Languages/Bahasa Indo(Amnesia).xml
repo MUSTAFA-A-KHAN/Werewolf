@@ -440,25 +440,25 @@
 	<string key="ZombieVotedConvert" >
 		<value >{0} memilih {1}.</value>
 	</string>
-	<string key="CultConvertZombieHunter">
+	<string key="zoombiesConvertZombieHunter">
 		<value>{0} pergi ke rumah {1} dan sekarang mati</value>
 	</string>
-	<string key="ZombieHunterKilledCultVisit">
+	<string key="ZombieHunterKilledzoombiesVisit">
 		<value>{0} telah mati, terpikir sebuah angka {1} dikepalamu!</value>
 	</string>
-	<string key="CultConvertYou">
+	<string key="zoombiesConvertYou">
 		<value>Peranmu telah berubah! Tapi dari apa ke apa?</value>
 	</string>
-	<string key="CultTeam">
+	<string key="zoombiesTeam">
 		<value>Mungkin kamu tidak mengingat siapa dirimu sebenarnya, tapi kamu mengingat orang yang penting: {0}</value>
 	</string>
-	<string key="CultJoin">
+	<string key="zoombiesJoin">
 		<value>Kamu mulai mengenal {0}!</value>
 	</string>
-	<string key="CultVisitEmpty">
+	<string key="zoombiesVisitEmpty">
 		<value>{0} pergi ke rumah {1}, tapi dia sedang tidak di rumah!</value>
 	</string>
-	<string key="CultWins" isgif="true">
+	<string key="zoombiesWins" isgif="true">
 		<value >🎉 ~(˘з˘)~~(˘з˘)~~(˘з˘)~ 🎉
 			BIDIP BIDIP!! 👤
 			Semua serigala telah mati, Warga yang tersisa telah menjadi pemuja kerang ajaib!  
@@ -562,14 +562,14 @@
 		<value>Mungkin kamu tidak mengingat siapa dirimu sebenarnya, tapi kamu mengingat orang yang penting: {0}</value>
 	</string>
 	<!-- new strings May 6 2016-->
-	<string key="CultTargetDead">
+	<string key="zoombiesTargetDead">
 		<value>{0} sudah mati!</value>
 	</string>
 	<string key="GuardBlockedWolf">
 		<value>Apakah terjadi sesuatu di rumah {0} tadi malam? Tetapi, kamu tidak dapat mengingatnya...</value>
 	</string>
 	<!-- new strings May 9 2016-->
-	<string key="CultUnableToConvert">
+	<string key="zoombiesUnableToConvert">
 		<value>Kamu mengutus {0}untuk mengajak {1} bergabung, tetapi tidak ingat apa yg terjadi disana
 		(☉_☉)</value>
 	</string>
@@ -577,7 +577,7 @@
 	<string key="NameExists">
 		<value>@{1}, Pemain dengan nama {0} sudah ada yang ikut main.  Ganti nama kamu ya.</value>
 	</string>
-	<string key="HarlotDiscoverCult">
+	<string key="HarlotDiscoverzoombies">
 		<value>Mungkin kamu tidak mengingat siapa dirimu sebenarnya, tetapi setidaknya kamu mengetahui: {0} adalah seorang Zombie 👤!</value>
 	</string>
 	<!-- new string May 13 2016-->
@@ -659,16 +659,16 @@
 		<value>Jawabanmu terlambat!</value>
 	</string>
 	<!-- new strings june 10 2016 -->
-	<string key="RoleInfoCupid">
+	<string key="RoleInfoRecruiter">
 		<value>Aneh... Kamu tidak ingat sama sekali siapa kamu sebenarnya! Yang jelas, kamu harus melakukan sesuatu di malam hari!</value>
 		<value>Ingatan tentang dirimu mulai melemah akibat teralalu banyak mengkonsumsi micin. Mungkinkah dirimu seorang Serial Killer 🔪?</value>
 		<value>Ingatan tentang dirimu mulai melemah akibat teralalu banyak mengkonsumsi micin. Mungkinkah dirimu seorang Wild Child 👶?</value>
-		<value>Ingatan tentang dirimu mulai melemah akibat teralalu banyak mengkonsumsi micin. Mungkinkah dirimu seorang Cupid 💘?</value>
+		<value>Ingatan tentang dirimu mulai melemah akibat teralalu banyak mengkonsumsi micin. Mungkinkah dirimu seorang Recruiter 💘?</value>
 	</string>
 	<string key="RoleInfoDoppelganger">
 		<value>Aneh... Kamu tidak ingat sama sekali siapa kamu sebenarnya! Yang jelas, kamu harus melakukan sesuatu di malam hari!</value>
 		<value>Ingatan tentang dirimu mulai melemah akibat teralalu banyak mengkonsumsi micin. Mungkinkah dirimu seorang Wild Child 👶?</value>
-		<value>Ingatan tentang dirimu mulai melemah akibat teralalu banyak mengkonsumsi micin. Mungkinkah dirimu seorang Cupid 💘?</value>
+		<value>Ingatan tentang dirimu mulai melemah akibat teralalu banyak mengkonsumsi micin. Mungkinkah dirimu seorang Recruiter 💘?</value>
 		<value>Ingatan tentang dirimu mulai melemah akibat teralalu banyak mengkonsumsi micin. Mungkinkah dirimu seorang Doppelgänger 🎭?</value>
 	</string>
 	<string key="RoleInfoHunter">
@@ -716,7 +716,7 @@
 		<value>(Beberapa menit sebelumnya)🎯
 		{0} tertatih memegang dadanya yang penuh bercak darah lalu terjatuh ke tanah.... Dengan sisa hidupnya ia tersenyum mengarahkan senapannya ke arah kerumunan dan menembak {1}. {2}</value>
 	</string>
-	<string key="CultConvertSerialKiller">
+	<string key="zoombiesConvertSerialKiller">
 		<value>{0} membawa formulir pendaftaran ke rumah {1} dan disambut dengan hangat. Secangkir kopi tersaji dan tiba-tiba {1} menghunus pisau berkali-kali ke dada dan perut {0} hingga mati</value>
 	</string>
 	<string key="HunterShotWolfMulti">
@@ -762,7 +762,7 @@
 	<string key="GuardBlockedKiller">
 		<value>Apa yang terjadi di rumah {0} tadi malam? Sepertinya kamu tidak ingat apapun...</value>
 	</string>
-	<string key="CultConvertHunter">
+	<string key="zoombiesConvertHunter">
 		<value>{0} membawa formulir pendaftaran ke rumah {1} dan disambut dengan hangat. Secangkir kopi tersaji dan tiba-tiba {1} menghunus pisau berkali-kali ke dada dan perut {0} hingga mati</value>
 	</string>
 	<string key="GuardKiller">
@@ -780,10 +780,10 @@
 	<string key="DGTransformToMason">
 		<value>{0} telah mati! Peranmu telah berubah, tapi dari apa ke apa? Mungkin kamu tidak mengingat siapa dirimu sebenarnya, tapi kamu mengingat orang yang penting: {1}.</value>
 	</string>
-	<string key="DGToCult">
+	<string key="DGTozoombies">
 		<value>Kamu mulai mengenal {0}!</value>
 	</string>
-	<string key="DGTransformToCult">
+	<string key="DGTransformTozoombies">
 		<value>{0} telah mati! Peranmu telah berubah, tapi dari apa ke apa? Mungkin kamu tidak mengingat siapa dirimu sebenarnya, tapi kamu mengingat orang yang penting: {1}</value>
 	</string>
 	<string key="DGToWolf">
@@ -798,7 +798,7 @@
 	<string key="AskKill">
 		<value>Kamu seharusnya melakukan sesuatu dengan seseorang, tapi dengan siapa?</value>
 	</string>
-	<string key="LoverDied">
+	<string key="crewmateDied">
 		<value>{0} mati di pelukan {1}. Ngga tahan ngejomblo lagi, dia milih bunuh diri.💔 {2}</value>
 		<value>{0} mati di pelukan {1}. Airmata menganak sungai di pipinya, ia meminum racun lalu mati.💔 {2}</value>
 		<value>{0} mati di pelukan {1}. Terlalu sedih untuk dijalani, ia meminta dewa mencabut nyawanya.💔 
@@ -807,17 +807,17 @@
 	<string key="AskDoppelganger">
 		<value>Kamu seharusnya melakukan sesuatu dengan seseorang, tapi dengan siapa?</value>
 	</string>
-	<string key="AskCupid1">
+	<string key="AskRecruiter1">
 		<value>Kamu seharusnya melakukan sesuatu dengan seseorang, tapi dengan siapa?</value>
 	</string>
-	<string key="AskCupid2">
+	<string key="AskRecruiter2">
 		<value>Kamu seharusnya melakukan sesuatu dengan seseorang, tapi dengan siapa?</value>
 	</string>
 	<string key="Hunter">
 		<value>Hunter 🎯</value>
 	</string>
-	<string key="Cupid">
-		<value>Cupid 🏹</value>
+	<string key="Recruiter">
+		<value>Recruiter 🏹</value>
 	</string>
 	<string key="SerialKiller">
 		<value>Serial Killer 🔪</value>
@@ -825,20 +825,20 @@
 	<string key="Doppelgänger">
 		<value>Doppelgänger 🎭</value>
 	</string>
-	<string key="CupidChosen">
+	<string key="RecruiterChosen">
 		<value>Kamu mungkin tidak ingat kamu siapa, tapi kamu tau seseorang yang penting: {0}</value>
 	</string>
 	<string key="NewWCRoleModel">
 		<value>Peranmu telah berubah, tapi dari apa ke apa?  Kamu mungkin tidak ingat kamu siapa, tapi kamu tau seseorang yang penting: {0}</value>
 	</string>
-	<string key="LoversWin">
+	<string key="crewmatesWin">
 		<value>🎉 Cinta Sejati Selalu Bertahan! \nSepasang kekasih telah Menang! #LoveWins (ɔ˘˘)˘˘c)❤️ </value>
 	</string>
 	<string key="HunterKilledVisiter">
 		<value>Seonggok mayat tersungkur di depan Balai Desa, mereka menatap {0} tewas dengan luka tembak di leher. Sepertinya ia berusaha masuk ke rumah seorang Hunter! {1}</value>
 		<value>Warga berkumpul di depan mayat {0} dengan luka tembak tepat di kepala! \n"Peringatan Bagi Siapa Saja yang Mengganggu Tidurku ---Hunter---!" {1}</value>
 	</string>
-	<string key="CultAttempt">
+	<string key="zoombiesAttempt">
 		<value>Apakah terjadi sesuatu tadi malam? Kamu sepertinya tidak mengingatnya...</value>
 	</string>
 	<string key="AlreadyOnWaitList">
@@ -922,7 +922,7 @@
 	<string key="AboutFool">
 		<value></value>
 	</string> Fool merasa dirinya Seer (Penerawang). Padahal, semuanya tipu belaka. ┐(ˇ.ˇ")┌ 
-	<string key="AboutCult">
+	<string key="Aboutzoombies">
 		<value>Hidup Zombie Pemuja Kerang Ajaib! Hasut warga agar pengikutmu bertambah banyak, maka kamu menang! </value>
 	</string>
 	<string key="AboutCH">
@@ -944,10 +944,10 @@
 		<value> Doppelganger akan memilih pemain lain dan ketika pemain tersebut mati, dia akan menjadi peran tersebut. Zombie tidak dapat menhasut Doppelganger. Jika peran yang dipilih adalah Wild Child dan panutannya sudah mati, kamu akan menjadi serigala.
 		</value>
 	</string>
-	<string key="AboutCupid">
+	<string key="AboutRecruiter">
 		<value>
-			Lope Lope di udara. Cupid akan memilih 2 pemain jomblo untuk dijadikan pasangan (lovers). Mereka akan saling mengetahui nama pasangannya, tapi tidak tahu peran masing-masing. 
-			Jika lovers pilihanmu bertahan hidup, mereka akan menang. ( ≈ˆ3(¯▾ˆ◦)♥ 
+			Lope Lope di udara. Recruiter akan memilih 2 pemain jomblo untuk dijadikan pasangan (crewmates). Mereka akan saling mengetahui nama pasangannya, tapi tidak tahu peran masing-masing. 
+			Jika crewmates pilihanmu bertahan hidup, mereka akan menang. ( ≈ˆ3(¯▾ˆ◦)♥ 
 		</value>
 	</string>
 	<string key="AboutHunter">
@@ -1120,10 +1120,10 @@
 	<string key="AllowTannerA">
 		<value>Pilihan Tanner dalam Peran: {0}</value>
 	</string>
-	<string key="AllowCultQ">
+	<string key="AllowzoombiesQ">
 		<value>Apakah kamu ingin Zombie dalam pilihan peran?\nPengaturan saat ini: {0}</value>
 	</string>
-	<string key="AllowCultA">
+	<string key="AllowzoombiesA">
 		<value>Pilihan Zombie dalam Peran: {0}</value>
 	</string>
 	<string key="ThankYou">
@@ -1295,7 +1295,7 @@
 	<string key="SerialKillerTeam">
 		<value>Tim Serial Killer</value>
 	</string>
-	<string key="CultTeam">
+	<string key="zoombiesTeam">
 		<value>Tim Pemuja Kerang (Zombie)</value>
 	</string>
 	<string key="TannerTeam">
@@ -1313,13 +1313,13 @@
 	<string key="SerialKillerTeamEnd">
 		<value>Tim Serial Killer</value>
 	</string>
-	<string key="CultTeamEnd">
+	<string key="zoombiesTeamEnd">
 		<value>Tim Pemuja Kerang (Zombie)</value>
 	</string>
 	<string key="TannerTeamEnd">
 		<value>Tim Tanner</value>
 	</string>
-	<string key="CultConvertWolf">
+	<string key="zoombiesConvertWolf">
 		<value>Kelompok Pemuja Kerang sepakat mengirim {0} untuk memberikan formulir ke {1}. Astaga! Warga melihat kepala {0} terlempar keluar dari jendela! TIDAK! {0} tewas seketika sambil menggenggam formulir.</value>
 	</string>
 	<string key="HarlotFuckedKilledPublic">
@@ -1335,8 +1335,8 @@
 	<string key="ZombieKilled">
 		<value>Warga menemukan bau tak sedap dari rumah {0}. Ia ditemukan tak bernyawa tanpa hidung. Serial Killer telah beraksi lagi! {0} adalah Pemuja Kerang 👤.</value>
 	</string>
-	<string key="CupidKilled">
-		<value>Karena baper nggak dijodohin oleh cupid, {0} alias Cupid 🏹 dibunuh oleh seseorang karena terbakar cemburu dengan panah di kepala. Ah cupid sih asal jodohin, mati deh. </value>
+	<string key="RecruiterKilled">
+		<value>Karena baper nggak dijodohin oleh Recruiter, {0} alias Recruiter 🏹 dibunuh oleh seseorang karena terbakar cemburu dengan panah di kepala. Ah Recruiter sih asal jodohin, mati deh. </value>
 	</string>
 	<string key="DrunkKilled">
 		<value>Dahla, ini sudah takdir bagi {0} untuk mati. Untung saja {0} mati bukan karena mabuk 🍺, tapi karena Serial Killer ingin mengoleksi organ tubuhmu di rumahnya. </value>
@@ -1368,11 +1368,11 @@
 		<value>Warga desa sedang berkabung. Mereka menemukan {0} seorang Zombie Hunter 💂, menjadi korban keji seorang pembunuh malam tadi. Apalah jadinya warga desa micin ini ketika kehilangan pembasmi Pemuja Kerang? Sedih.</value>
 		<value>Jenazah {0} Zombie Hunter 💂, ditemukan di tengah lapangan dengan pedang tertancap di leher. Sepertinya Ia telah salah mencurigai seseorang, bukan Pemuja Kerang yang ia datangi, namun Serial Killer!</value>
 	</string>
-	<string key="CultConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
+	<string key="zoombiesConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
 		<value>Tadi malam {0} sedang menjalankan tugasnya. Ia pergi ke salah satu rumah seseorang untuk menghasut mereka agar bergabung ke perkumpulan Pemuja Kerang 👤. Sayang sekali, merasa program dietnya terganggu, Serigala membunuh {0} dan memakannya! Serigala gagal diet.</value>
 		<value>Semalam, semua serigala sepakat berkumpul di rumah untuk bersantai. Namun, kedatangan {0} yang tiba-tiba mengganggu mereka. Serigala berkata kepada {0}, "Maaf kami sedang tidak tertarik pada kerang raksasa."</value>
 	</string>
-	<string key="CultConvertKillerPublic"> <!--used when Zombies convert the SK-->
+	<string key="zoombiesConvertKillerPublic"> <!--used when Zombies convert the SK-->
 		<value>Merasa sangat percaya diri {0}, seorang Pemuja Kerang 👤 berkunjung ke rumah seseorang semalam. Pagi ini ia ditemukan tewas tak bernyawa dengan sobekan formulir di sekitar tubuhnya. Serial Killer sepertinya tidak tertarik pada kegiatan pemujaan ini.</value>
 		<value>Kelompok Pemuja Kerang (Zombie) 👤 mengirim anggotanya untuk pergi ke rumah seseorang malam tadi. Tanpa mereka tahu, {0} dikirim ke rumah Serial Killer hanya untuk dijadikan kesenangan keji sang pembunuh.</value>
 	</string>
@@ -1459,8 +1459,8 @@
 		<!-- {0} = list of people who have joined -->
 		<value>{0} telah bergabung dalam game.</value>
 	</string>
-	<string key="AllowCult">
-		<value>Ijinkan Cult</value>
+	<string key="Allowzoombies">
+		<value>Ijinkan zoombies</value>
 	</string>
 	<string key="AllowTanner">
 		<value>Ijinkan Tanner</value>
@@ -1498,7 +1498,7 @@
 		<value>Semua</value>
 	</string>
 	<string key="RandomModeQ">
-		<value>Ijinkan random mode?\nKetika random mode diijinkan, Chaos, Secret Lynch, Tampilkan Peran ketika mati, dan Ijinkan Cult / Fool / Tanner akan ditentukan secara acak setiap kali seseorang memulai permainan.\nPengaturan saat ini:{0}</value>
+		<value>Ijinkan random mode?\nKetika random mode diijinkan, Chaos, Secret Lynch, Tampilkan Peran ketika mati, dan Ijinkan zoombies / Fool / Tanner akan ditentukan secara acak setiap kali seseorang memulai permainan.\nPengaturan saat ini:{0}</value>
 	</string>
 	<string key="RandomModeA">
 		<value>Pengaturan random mode diset menjadi: {0}</value>
@@ -1721,7 +1721,7 @@
 		<!-- 0 - mason collegues's name -->
 		<value>Kamu mulai mengenal {0}!</value>
 	</string>
-	<string key="ThiefToCult">
+	<string key="ThiefTozoombies">
 		<!-- 0 - old Zombie's name -->
 		<!-- 1 - new Zombie's name -->
 		<value>Kamu mulai melupakan {0}? Tunggu... Apa yang sedang kamu pikirkan?\nKamu mulai mengenal {1}!</value>

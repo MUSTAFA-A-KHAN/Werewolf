@@ -854,7 +854,7 @@
 <!-- 1 - target name -->
     <value>{0} has voted to corrupt {1} </value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
 <!-- 0 - Yougest Zombie (killed)'s name' -->
 <!-- 1 - ZombieHunter's name -->
 <!-- 0 - Yougest Zombie (killed)'s name' -->
@@ -873,7 +873,7 @@
 <!-- 1 - ZombieHunter's name -->
     <value>{0} was sent to do your dirty work, and corrupt {1}... however, they were greeted by Nick Fury! {0} is dead! </value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
 <!-- 0 - Youngest Zombie's name -->
 <!-- 1 - Number of Zombies left -->
 <!-- 0 - Youngest Zombie's name -->
@@ -892,10 +892,10 @@
 <!-- 1 - Number of Zombies left -->
     <value>{0} came to your house last night, ready to corrupt you....  but you beat the living bejeezus out of them.  A HYDRA agent is dead... {1} remain! </value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>HYDRA have corrupted and converted you to their order!  You are now a HYDRA agent.  Every other night, you will have a chance to corrupt another player. </value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
 <!-- 0 - Number of Zombies -->
 <!-- 0 - Number of Zombies -->
 <!-- 0 - Number of Zombies -->
@@ -1125,9 +1125,9 @@
 <!-- 0 - Number of Zombies -->
 <!-- 0 - Number of Zombies -->
     <value>HYDRA agents: {0} </value>
-    <value>Cult Team</value>
+    <value>zoombies Team</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
 <!-- 0 - new Zombie's name -->
 <!-- 0 - new Zombie's name -->
 <!-- 0 - new Zombie's name -->
@@ -1138,7 +1138,7 @@
 <!-- 0 - new Zombie's name -->
     <value>{0} has been recruited by HYDRA! </value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
 <!-- 0 - Newest Zombie's name -->
 <!-- 1 - target name -->
 <!-- 0 - Newest Zombie's name -->
@@ -1157,7 +1157,7 @@
 <!-- 1 - target name -->
     <value>{0} was sent to do your dirty work, and corrupt {1}... but no one was home! </value>
   </string>
-  <string key="CultWins">
+  <string key="zoombiesWins">
     <value>Thanos and his Henchmen have been wiped out, and the only people left standing are HYDRA agents...  Hail HYDRA! </value>
   </string>
   <string key="HunterVisitDead">
@@ -1346,7 +1346,7 @@
 <!-- new strings May 6 2016-->
     <value>  The Valkyries are: {0}</value>
   </string>
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
 <!-- 0 - Youngest Zombies name -->
 <!-- 0 - Youngest Zombies name -->
 <!-- 0 - Youngest Zombies name -->
@@ -1376,7 +1376,7 @@
 <!-- new strings May 9 2016-->
     <value>Thanos and his Henchmen head to {0}'s house to murder them, but they are met by a sentient Android with a synthetic vibranium body. Vision fights everyone off, and you head back defeated. </value>
   </string>
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
 <!-- 0 - newest  -->
 <!-- 1 - target's name -->
 <!-- new string May 12 2016-->
@@ -1422,7 +1422,7 @@
 <!-- 1 - name -->
     <value>@{1}, a player with the name {0} has already joined.  Please change your name to join.</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
 <!-- 0 - target's name -->
 <!-- new string May 13 2016-->
 <!-- 0 - target's name -->
@@ -1655,7 +1655,7 @@
 <!-- new strings june 10 2016 -->
     <value>Time's up!</value>
   </string>
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
     <value>You are Mantis 🏹, the empath. You are able to sense people’s hidden feelings and unearth them. You get to ‘ship’ two players to love each other for eternity. If one of them dies, the other one dies of sorrow. </value>
   </string>
   <string key="RoleInfoDoppelganger">
@@ -1667,9 +1667,9 @@
   <string key="RoleInfoSerialKiller">
     <value>You are Hela 🔪, the goddess of Death. You’ve set out to exact vengeance on those who wronged you and often leave a trail of bodies in your wake. You fear no one and your only objective is to destroy everyone else. </value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>You have been struck by love. {0}'s memory will never fade in your heart. If one of you dies, the other one will die out of sorrow. If one of you wins, the other one wins too.</value>
-    <value>Cupid's arrow has struck you! You are madly in love with {0}! If they die, you will die too. If one of you two wins, you will both win.</value>
+    <value>Recruiter's arrow has struck you! You are madly in love with {0}! If they die, you will die too. If one of you two wins, you will both win.</value>
   </string>
   <string key="HunterLynchedChoice">
     <value>You have been mortally wounded! This is your last chance, choose to strike someone down with all your power before you collapse! </value>
@@ -1814,7 +1814,7 @@
 <!-- 0 - target's name -->
     <value>You tried to add {0}'s name to your list of kills, but you were fought off by Vision! No kill for you tonight... </value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
 <!-- 0 - Youngest Zombie's name -->
 <!-- 1 - target's name -->
 <!-- 0 - Youngest Zombie's name -->
@@ -1833,7 +1833,7 @@
 <!-- 1 - target's name -->
     <value>HYDRA sends {0} to try to corrupt {1}, but instead gets savagely beaten up by Nick Fury and {0}'s body comes flying out of the window! {0} is dead... </value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
 <!-- 0 - Youngest Zombie's name -->
 <!-- 1 - target's name -->
 <!-- 0 - Youngest Zombie's name -->
@@ -1900,7 +1900,7 @@
 <!-- 1 - mason collegues's name -->
     <value>{0} has died, and you transform into a Valkyrie.  Your teammates (if any) are: {1} </value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
 <!-- 0 - new Zombie's name -->
 <!-- 0 - new Zombie's name -->
 <!-- 0 - new Zombie's name -->
@@ -1911,7 +1911,7 @@
 <!-- 0 - new Zombie's name -->
     <value>{0} has transformed into a HYDRA agent, just like you! </value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
 <!-- 0 - role's name -->
 <!-- 1 - teammates's name -->
 <!-- 0 - role's name -->
@@ -1966,46 +1966,46 @@
   <string key="AskKill">
     <value>Who do you want to kill tonight?</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
 <!-- 0 - dead's name -->
-<!-- 1 - lover's name -->
+<!-- 1 - crewmate's name -->
 <!-- 2 - roles -->
 <!-- 0 - dead's name -->
-<!-- 1 - lover's name -->
+<!-- 1 - crewmate's name -->
 <!-- 2 - roles -->
 <!-- 0 - dead's name -->
-<!-- 1 - lover's name -->
+<!-- 1 - crewmate's name -->
 <!-- 2 - roles -->
 <!-- 0 - dead's name -->
-<!-- 1 - lover's name -->
+<!-- 1 - crewmate's name -->
 <!-- 2 - roles -->
 <!-- 0 - dead's name -->
-<!-- 1 - lover's name -->
+<!-- 1 - crewmate's name -->
 <!-- 2 - roles -->
 <!-- 0 - dead's name -->
-<!-- 1 - lover's name -->
+<!-- 1 - crewmate's name -->
 <!-- 2 - roles -->
 <!-- 0 - dead's name -->
-<!-- 1 - lover's name -->
+<!-- 1 - crewmate's name -->
 <!-- 2 - roles -->
 <!-- 0 - dead's name -->
-<!-- 1 - lover's name -->
+<!-- 1 - crewmate's name -->
 <!-- 2 - roles -->
     <value>With {0}'s dying breath, {1} rushes over and falls, crying.  They cannot stand the loss of their loved one, and shoot themselves with the nearest pistol they can find. {2}</value>
   </string>
   <string key="AskDoppelganger">
     <value>Who do you want to consume? </value>
   </string>
-  <string key="AskCupid1">
-    <value>Who do you want the lovers to be? Choose the first player</value>
+  <string key="AskRecruiter1">
+    <value>Who do you want the crewmates to be? Choose the first player</value>
   </string>
-  <string key="AskCupid2">
-    <value>Who do you want the lovers to be? Choose the second player</value>
+  <string key="AskRecruiter2">
+    <value>Who do you want the crewmates to be? Choose the second player</value>
   </string>
   <string key="Hunter">
     <value>Thor 🎯</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>Mantis 🏹</value>
   </string>
   <string key="SerialKiller">
@@ -2025,8 +2025,8 @@
 <!-- 0 - target's name -->
     <value>You have become the Hulk. You loved one is {0}. </value>
   </string>
-  <string key="LoversWin">
-    <value>True love endures! The lovers have won!</value>
+  <string key="crewmatesWin">
+    <value>True love endures! The crewmates have won!</value>
   </string>
   <string key="HunterKilledVisiter">
 <!-- 0 - target's name -->
@@ -2047,7 +2047,7 @@
 <!-- 1 - role -->
     <value>In the middle of the city, everyone finds the body of {0}, shocked and burnt to a crisp. Looks like they tried to sneak up on the God of Thunder! Well, {1}. </value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>A HYDRA agent tried to corrupt you, but your morals were too strong. </value>
   </string>
   <string key="AlreadyOnWaitList">
@@ -2216,11 +2216,11 @@
   <string key="AboutFool">
     <value>he fool is told they are the seer.... when they choose to see someone's role at night, they are told a random role.</value>
   </string>
-  <string key="AboutCult">
-    <value>As a Zombie, it is your goal to convert all other players (except wolves) to your cult. If at the end of the game, all living players are Zombie - the cult wins</value>
+  <string key="Aboutzoombies">
+    <value>As a Zombie, it is your goal to convert all other players (except wolves) to your zoombies. If at the end of the game, all living players are Zombie - the zoombies wins</value>
   </string>
   <string key="AboutCH">
-    <value>Your job is to hunt the Cult. If the cult attacks you, their newest member will die. Each night you may pick a player to 'hunt' - if they are a Zombie, they will die.</value>
+    <value>Your job is to hunt the zoombies. If the zoombies attacks you, their newest member will die. Each night you may pick a player to 'hunt' - if they are a Zombie, they will die.</value>
   </string>
   <string key="AboutWC">
     <value>At the beginning of the game, you will choose someone to be your 'role model'. If they die, you become a werewolf.</value>
@@ -2237,25 +2237,25 @@
   <string key="AboutDG">
     <value>
       Your ancestors had the ability to metamorph into others... while you don't have their full abilities, you can pick a player at the start of the game. If that player dies, you will become what they were.
-      Note: If the player was converted to cult, you will take on their original role. All other normal rules apply: If they were Wild Child and their role model died, you will become a wolf. Otherwise, you will inherit their role model.
-      The cult cannot convert the Doppelgänger (but can after the doppelganger switches roles). Also - the Doppelgänger can NOT win unless they have transformed. If at the end of the game, the Doppelgänger is still the same, they lose (exception: lover)
+      Note: If the player was converted to zoombies, you will take on their original role. All other normal rules apply: If they were Wild Child and their role model died, you will become a wolf. Otherwise, you will inherit their role model.
+      The zoombies cannot convert the Doppelgänger (but can after the doppelganger switches roles). Also - the Doppelgänger can NOT win unless they have transformed. If at the end of the game, the Doppelgänger is still the same, they lose (exception: crewmate)
     </value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>
-      Love is in the air. As Cupid, you will choose two players at the start of the game. These two players will become madly in love! If one of them dies, the other will die of sorrow :(
-      Note: Lovers will know who each other are, but not be told their roles. If the lovers are the last two alive, they win, regardless of teams. If the lovers are on different teams (villager + wolf), and one team wins (wolf), the lover (villager) wins as well. TL;DR if at least one of the lovers was on the winning team, they both win together.
+      Love is in the air. As Recruiter, you will choose two players at the start of the game. These two players will become madly in love! If one of them dies, the other will die of sorrow :(
+      Note: crewmates will know who each other are, but not be told their roles. If the crewmates are the last two alive, they win, regardless of teams. If the crewmates are on different teams (villager + wolf), and one team wins (wolf), the crewmate (villager) wins as well. TL;DR if at least one of the crewmates was on the winning team, they both win together.
     </value>
   </string>
   <string key="AboutHunter">
     <value>
       A trigger happy, vindictive player. As the hunter, you try to keep to yourself. However, when others come to visit you, they may find themselves dead, as your paranoia takes hold and you shoot. If the wolves attack you, you have a chance to take one of them with you. Otherwise, if you die, you will get a chance to shoot someone as you die.
       Note: For wolf attacks, the chance starts at 30%. If there is one wolf, the hunter has a 30% chance to kill the wolf (and survive). For each additional wolf, add 20% (2 wolves = 50%, 3 = 70%, etc). However - if there are multiple wolves, while you may kill one of them, you will still be outnumbered and killed.
-      If the cult tries to convert you, they have a 50% chance to fail. If they fail, you have a 50% chance to kill one of them!
+      If the zoombies tries to convert you, they have a 50% chance to fail. If they fail, you have a 50% chance to kill one of them!
     </value>
   </string>
   <string key="AboutSK">
-    <value>That asylum was silly anyways. What a joke. You are free now however, back to business as usual - killing! The serial killer is a lone player, on their own team. They can win only if they are the last player alive (exception: lovers). As the serial killer, you can kill ANYONE - wolves, hunters, gunners, guardian angels, whatever. If the wolves try to attack you, you will kill one of them (random), and live.</value>
+    <value>That asylum was silly anyways. What a joke. You are free now however, back to business as usual - killing! The serial killer is a lone player, on their own team. They can win only if they are the last player alive (exception: crewmates). As the serial killer, you can kill ANYONE - wolves, hunters, gunners, guardian angels, whatever. If the wolves try to attack you, you will kill one of them (random), and live.</value>
   </string>
   <string key="AboutPara">
     <value>Para is a silly developer that likes to bark at people.  Maybe he's been messing with werewolves too long....Messing with werewolves is a very bad idea.</value>
@@ -2448,11 +2448,11 @@
   <string key="AllowTannerA">
     <value>Tanner as a role set to: {0}</value>
   </string>
-  <string key="AllowCultQ">
-    <value>Allow cult as a role option?\nCurrent: {0}</value>
+  <string key="AllowzoombiesQ">
+    <value>Allow zoombies as a role option?\nCurrent: {0}</value>
   </string>
-  <string key="AllowCultA">
-    <value>Cult as a role set to: {0}</value>
+  <string key="AllowzoombiesA">
+    <value>zoombies as a role set to: {0}</value>
   </string>
   <string key="EnableSecretLynchQ">
     <value>Enable Secret Lynch?\nCurrent: {0}</value>
@@ -2673,13 +2673,13 @@
   <string key="SerialKillerTeamEnd">
     <value>SK Team</value>
   </string>
-  <string key="CultTeamEnd">
-    <value>Cult Team</value>
+  <string key="zoombiesTeamEnd">
+    <value>zoombies Team</value>
   </string>
   <string key="TannerTeamEnd">
     <value>Tanner Team</value>
   </string>
-  <string key="CultConvertWolf">
+  <string key="zoombiesConvertWolf">
     <value>HYDRA sends {0} to try to corrupt {1}, but instead {0}'s Head comes flying out of the window... {0} is dead. </value>
   </string>
   <string key="HarlotFuckedKilledPublic">
@@ -2718,7 +2718,7 @@
   <string key="ZombieKilled">
     <value>{0} was found stabbed to death. The goddess of Death has struck again! {0} was a HYDRA agent. </value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>The next morning, the Avengers were heartbroken to find {0} a.k.a. Mantis split from head to toe. Strangely her antennae were missing... </value>
   </string>
   <string key="DrunkKilled">
@@ -2759,7 +2759,7 @@
     <value>The Avengers wake up in the morning, only to find the severed body parts of {0} in full view outside S.H.I.E.L.D. headquarters. Nick Fury has learned his lesson: don't interrogate the goddess of Death! </value>
     <value>The body of {0}, was found in the middle of the streets. The goddess of Death removed Nick Fury's other eye and laughed maniacally as he stumbled onto oncoming traffic... Oof.  </value>
   </string>
-  <string key="CultConvertWolfPublic">
+  <string key="zoombiesConvertWolfPublic">
 <!--used when Zombies convert the wolves, only if wolves stayed home-->
 <!--used when Zombies convert the wolves, only if wolves stayed home-->
 <!--used when Zombies convert the wolves, only if wolves stayed home-->
@@ -2768,10 +2768,10 @@
 <!--used when Zombies convert the wolves, only if wolves stayed home-->
 <!--used when Zombies convert the wolves, only if wolves stayed home-->
 <!--used when Zombies convert the wolves, only if wolves stayed home-->
-    <value>While it seemed that Thanos decided to take a day off, punishing {0}, a HYDRA agent that decided to court trouble, proved too difficult to resist. {0}'s head was used in a friendly game of football by Thanos and his Henchmen! </value>
+    <value>While it seemed that Thanos decided to take a day off, punishing {0}, a HYDRA agent that decided to court trouble, proved too diffizoombies to resist. {0}'s head was used in a friendly game of football by Thanos and his Henchmen! </value>
     <value>HYDRA ran into unexpected trouble last night. Their newest member had the misfortune of visiting Thanos and his Henchmen on their night off. Unfortunately for {0}, neither Thanos nor his Henchmen have any interest in joining a faltering organization. </value>
   </string>
-  <string key="CultConvertKillerPublic">
+  <string key="zoombiesConvertKillerPublic">
 <!--used when Zombies convert the SK-->
 <!--used when Zombies convert the SK-->
 <!--used when Zombies convert the SK-->
@@ -2975,8 +2975,8 @@
 <!-- NOTE: No space between {0} and joined. It will be added in the code if necessary-->
     <value>{0}joined the game in the last 30 seconds.</value>
   </string>
-  <string key="AllowCult">
-    <value>Allow Cult</value>
+  <string key="Allowzoombies">
+    <value>Allow zoombies</value>
   </string>
   <string key="AllowTanner">
     <value>Allow Tanner</value>
@@ -3020,7 +3020,7 @@
     <value>All</value>
   </string>
   <string key="RandomModeQ">
-    <value>Enable random mode?\nWhen random mode is enabled, Chaos, Secret Lynch, Show Roles on Death, and Allow Cult / Fool / Tanner will be randomly determined everytime someone starts a game.\nCurrent:{0}</value>
+    <value>Enable random mode?\nWhen random mode is enabled, Chaos, Secret Lynch, Show Roles on Death, and Allow zoombies / Fool / Tanner will be randomly determined everytime someone starts a game.\nCurrent:{0}</value>
   </string>
   <string key="RandomModeA">
     <value>Enabling of random mode set to: {0}</value>
@@ -3302,7 +3302,7 @@
 <!-- 0 - mason collegues's name -->
     <value>Your fellow Valkyries (if any) are: {0}</value>
   </string>
-  <string key="ThiefToCult">
+  <string key="ThiefTozoombies">
 <!-- 0 - old Zombie's name -->
 <!-- 1 - new Zombie's name -->
 <!-- 0 - old Zombie's name -->
@@ -3675,7 +3675,7 @@
     <value>Player list will be shuffled every time: {0}</value>
   </string>
   <string key="AboutGraveDigger">
-    <value>You are the Grave Digger ☠️. Every night, you dig the graves for all the people who died since the last time you did (yes, even werewolves deserve a proper burial). Since you are out all night, wolves and the cult can't find you, unless you actually have nothing to do (i.e. no one died), in that case you'll just stay home. Everyone who visits you has a chance of falling into your newly dug graves, depending on how many graves you dug. Also, the chance is halved for everyone who is on the village team with you. But since you are out at night, the wolves or the serial killer might spot and kill you, and the more graves you have to dig, the more likely it is. Also, apparently the serial killer can find you whether you're at home or not, but he might at least stumble in one of your graves and hurt his leg, causing him to maybe lose control over who is his victim the next night...</value>
+    <value>You are the Grave Digger ☠️. Every night, you dig the graves for all the people who died since the last time you did (yes, even werewolves deserve a proper burial). Since you are out all night, wolves and the zoombies can't find you, unless you actually have nothing to do (i.e. no one died), in that case you'll just stay home. Everyone who visits you has a chance of falling into your newly dug graves, depending on how many graves you dug. Also, the chance is halved for everyone who is on the village team with you. But since you are out at night, the wolves or the serial killer might spot and kill you, and the more graves you have to dig, the more likely it is. Also, apparently the serial killer can find you whether you're at home or not, but he might at least stumble in one of your graves and hurt his leg, causing him to maybe lose control over who is his victim the next night...</value>
   </string>
   <string key="RoleInfoGraveDigger">
     <value>You are Star Lord, a Guardian of the Galaxy ☠️. You are tasked with protecting the realm against all threats but you also happen to have a few weaknesses. Sometimes, you tend to make questionable decisions without considering the consequences. This can prove to be fatal sometimes, either for yourself or for the ones around you. </value>
@@ -3743,10 +3743,10 @@
     <value>You arrive at {0}'s house, just to see Vision standing in front of it! You try to fight, but you stand no chance. Tonight really was a bad night for you... </value>
   </string>
   <string key="HunterFell">
-<!--{0}: cult hunter-->
-<!--{0}: cult hunter-->
-<!--{0}: cult hunter-->
-<!--{0}: cult hunter-->
+<!--{0}: zoombies hunter-->
+<!--{0}: zoombies hunter-->
+<!--{0}: zoombies hunter-->
+<!--{0}: zoombies hunter-->
     <value>You are on the prowl for potential HYDRA agents as Nick Fury does not rest until his enemies are defeated. You stop by at {0}'s house to have a chat but it seems like he's gone out for dancing lessons. You feel kinda hungry so you help yourself to a snack from Star Lord's fridge... A few bites in, you realize that the food is spoiled and rotten... You start to choke and eventually pass out, never to wake up again... </value>
   </string>
   <string key="HunterFellDigger">
@@ -3756,14 +3756,14 @@
 <!--{0}: Zombie-->
     <value>After another tiring night of breakdancing lessons, you walk back to home to find Nick Fury dead on your floor. Next to him is the casserole you had been meaning to take out of the fridge for the past 2 years. {0} must have eaten it and choked to death. Yikes. You hide away the evidence before you call for an ambulance... </value>
   </string>
-  <string key="CultFell">
+  <string key="zoombiesFell">
 <!--{0}: Zombie who fell, {1}: grave digger-->
 <!--{0}: Zombie who fell, {1}: grave digger-->
 <!--{0}: Zombie who fell, {1}: grave digger-->
 <!--{0}: Zombie who fell, {1}: grave digger-->
     <value>You return from another tiring night of break dancing to see a dead HYDRA agent at your doorstep... The faulty wiring on your doorbell must have electrocuted him. You really need to get that fixed. </value>
   </string>
-  <string key="CultConvertGraveDigger">
+  <string key="zoombiesConvertGraveDigger">
 <!--{0}: grave digger-->
 <!--{0}: grave digger-->
 <!--{0}: grave digger-->

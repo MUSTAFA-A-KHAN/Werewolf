@@ -443,41 +443,41 @@
 -->
     <value>{0} хочет укусить {1}</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <!-- 0 - Yougest Zombie (killed)'s name' -->
 -->
     <!-- 1 - ZombieHunter's name -->
 -->
     <value>Твоя семья отправила новенького вампира, чтобы он укусил {1}, но обратно к вам вернулась только голова {0}. Похоже, вы послали его к Ван Хельсингу...</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <!-- 0 - Youngest Zombie's name -->
 -->
     <!-- 1 - Number of Zombies left -->
 -->
     <value>Сегодня к тебе в дом пришел {0} и, грозно раскрыв свою пасть, полетел на тебя, но ты не растерялся и отрубил его голову. Судя по дневнику убитого, в селе осталось еще {1} вампир(ов) .</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>Сегодня ночью к тебе пришли вампиры и теперь ты один из них.</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <!-- 0 - Number of Zombies -->
 -->
     <value>В селе {0} вампиров </value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <!-- 0 - new Zombie's name -->
 -->
     <value>{0} стал новым вампиром!</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <!-- 0 - Newest Zombie's name -->
 -->
     <!-- 1 - target name -->
 -->
     <value>Вы отправили {0} в дом {1}, но там никого не было. Похоже на сегодня ваша семья осталась без еды...</value>
   </string>
-  <string key="CultWins">
+  <string key="zoombiesWins">
     <value>Кровавая луна поднялась над городом, полностью забитым кровососами. Вампиры победили! </value>
   </string>
   <string key="HunterVisitDead">
@@ -592,7 +592,7 @@
 -->
     <value>  Другие Скелеты: {0}</value>
   </string>
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <!-- 0 - Youngest Zombies name -->
 -->
     <value>Твоя семью отправила {0} чтобы он принес свежей крови, однако он нашел только холодный труп...</value>
@@ -604,7 +604,7 @@
 -->
     <value>Вы приготовились съесть {0}, однако вход в его дом загородила огромная Гаргулья 👼! И ужин отменился и по голове настучали...</value>
   </string>
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <!-- 0 - newest  -->
 -->
     <!-- 1 - target's name -->
@@ -620,7 +620,7 @@
 -->
     <value>@{1}, игрок в костюме {0} уже есть на Хэллоуине. Смени костюм (имя) для присоединения.</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <!-- 0 - target's name -->
 -->
   <!-- new string May 13 2016-->
@@ -733,7 +733,7 @@
 -->
     <value>Время вышло!</value>
   </string>
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
     <value>Вы - Доктор Франкенштейн 🏹! Сумасшедший доктор, способный из двух игроков сделать сиамских близнецов . Они способны победить, убив всех остальных, но если умрет один из них - умрет и второй. </value>
   </string>
   <string key="RoleInfoDoppelganger">
@@ -745,10 +745,10 @@
   <string key="RoleInfoSerialKiller">
     <value>Вы - Джейсон 🔪! Сумасшедший маньяк-убийца в хоккейной маске. Добейся смерти всех селян и ты победишь!</value>
   </string>
-  <string key="CupidChosen">
-    <!-- 0 - lover's name -->
+  <string key="RecruiterChosen">
+    <!-- 0 - crewmate's name -->
 -->
-    <!-- 0 - lover's name -->
+    <!-- 0 - crewmate's name -->
 -->
     <value>Утром ты ужасе проснулся, обнаружив, что ты и {0} - одно целое. Похоже, Доктор Франкенштейн сделал из вас сиамского близнеца. Ваша задача - выжить и победить вместе, но если убьют одного из вас - умрет и второй.</value>
   </string>
@@ -792,7 +792,7 @@
 -->
     <value>{0} истёк кровью, но из последних сил достал револьвер и выстрелил.  Из дула вылетела пуля с написаным на ней именем {1} и прилетела по назначению. {2} мертв. </value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <!-- 0 - Youngest Zombie's name -->
 -->
     <!-- 1 - target's name -->
@@ -828,14 +828,14 @@
 -->
     <value>Заточив свой нож, ты отправился в дом {0}, но встретил там каменную гаргулью, которая хорошенечко тебе наваляла.</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <!-- 0 - Youngest Zombie's name -->
 -->
     <!-- 1 - target's name -->
 -->
     <value>Вы решили отправиться в дом {1}, однако напорослись на Эррона Блэка!Теперь тело {0} похоже на дуршлаг...</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <!-- 0 - Youngest Zombie's name -->
 -->
     <!-- 1 - target's name -->
@@ -871,12 +871,12 @@
 -->
     <value>{0} мертв, и ты вселился в его... Скелет? Да, да, теперь ты скелет! Другие скелеты: {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <!-- 0 - new Zombie's name -->
 -->
     <value>Ваша семья устроила траур по поводу смерти одного из вас..  Но позже к вам вернулся {0} в теле умершего, теперь он - часть вашей семьи !</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <!-- 0 - role's name -->
 -->
     <!-- 1 - teammates's name -->
@@ -901,10 +901,10 @@
   <string key="AskKill">
     <value>Кого ты хочешь убить?</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <!-- 0 - dead's name -->
 -->
-    <!-- 1 - lover's name -->
+    <!-- 1 - crewmate's name -->
 -->
     <!-- 2 - roles -->
 -->
@@ -913,16 +913,16 @@
   <string key="AskDoppelganger">
     <value>В кого ты хочешь вселиться после его смерти?</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>Кто будет первой частью Сиамского Близнеца?</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>Кто будет второй частью Сиамского Близнеца?</value>
   </string>
   <string key="Hunter">
     <value>Эррон Блэк 🎯</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>Доктор Франкенштейн 🏹</value>
   </string>
   <string key="SerialKiller">
@@ -931,10 +931,10 @@
   <string key="Doppelgänger">
     <value>Злой дух 👻</value>
   </string>
-  <string key="CupidChosen">
-    <!-- 0 - lover's name -->
+  <string key="RecruiterChosen">
+    <!-- 0 - crewmate's name -->
 -->
-    <!-- 0 - lover's name -->
+    <!-- 0 - crewmate's name -->
 -->
     <value>Сегодня ты в ужасе проснулся, обнаружив, что ты и {0} - одно целое! Похоже, вы стали жертвой ужасного эксперемента Доктора Франкенштейна. Будьте осторожны: если однго из вас убьют - умрет и второй! </value>
   </string>
@@ -943,7 +943,7 @@
 -->
     <value>{0} погиб и ты впал в бешенство, превратившись в волка!</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
     <value>Похоже, Доктор Франкенштейн просчитался в своих экспериментах! Хотя, возможно так было задумано.. Сиамские близнецы взяли верх! </value>
   </string>
   <string key="HunterKilledVisiter">
@@ -953,7 +953,7 @@
 -->
     <value>Похоже, {0} неудачно решил заскочить в гости к Эррону Блэку... {0} был {1}</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>Ты смутно помнишь сегодняшнюю ночь.. Жуткая боль, мрачная фигура над тобой и вкус чужой крови во рту. Тебе понятно лишь одно - теперь ты вампир!</value>
   </string>
   <string key="AlreadyOnWaitList">
@@ -1044,7 +1044,7 @@
   <string key="AboutFool">
     <value>Вуду способен каждую ночь просматривать роли игроков, при этом он будет узнавать случайную роль, имеющуюся в игре.</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>Цель Вампиров - сделать всех селян Вампирами. Но они должны быть осторожны: Ван Хельсинг ведет на них охоту.</value>
   </string>
   <string key="AboutCH">
@@ -1067,7 +1067,7 @@
       Злой дух способен вселиться в выбранного игрока в случае смерти этого игрока. Но если вселиться до конца игры он не успеет, то проиграет.
     </value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>
       Доктор Франкенштейн, тот, чье ужасное творение стало знаменито на весь мир, продолжает вести свои страшные эксперименты. Он может сделать сиамских близнецов из двух игроков. Но нужно быть осторожнее: они могут захватить власть в селе. Хотя, они уязвимы для атак: умрет один - за ним отправится второй. 
     </value>
@@ -1251,10 +1251,10 @@
   <string key="AllowTannerA">
     <value>Роль Зомби: {0}</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>Включить роль Вампира в игре?\nТекущее значение: {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>Роль Вампира : {0}</value>
   </string>
   <string key="ThankYou">
@@ -1405,13 +1405,13 @@
   <string key="SerialKillerTeamEnd">
     <value>Команда Джейсонов</value>
   </string>
-  <string key="CultTeamEnd">
+  <string key="zoombiesTeamEnd">
     <value>Команда Вампиров</value>
   </string>
   <string key="TannerTeamEnd">
     <value>Команда Зомби</value>
   </string>
-  <string key="CultConvertWolf">
+  <string key="zoombiesConvertWolf">
     <value>Вампиры отправили {0} пить кровь {1}, однако обкусанная голова {0} вылетела из окна - Вервольфы решили, что не стоит есть голову с такими же как у них клыками. {0} мёртв...</value>
   </string>
   <string key="HarlotFuckedKilledPublic">
@@ -1430,7 +1430,7 @@
   <string key="ZombieKilled">
     <value>{0} был связан и брошен умирать от солнечного света. Любой может стать жертвой Джейсона. {0} был вампиром.</value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>Утром селяне с ужасом обнаружили расчленённого доктора Франкенштейна {0}. Как странно, подробные описания экспериментов тоже пропали...</value>
   </string>
   <string key="DrunkKilled">
@@ -1465,14 +1465,14 @@
     <value>Проснувшись утром, жители обнаружили в корзинке с конфетами останки {0}, Ван Хельсинга. Не ходите к Джейсону за сладостями!</value>
     <value>Тело {0}, Ван Хельсинга, знаменитого охотника на вампиров, было найдено в центре села разрезанным на мелкие кусочки. Не стоило проверять, является ли Джейсон кровопийцей.</value>
   </string>
-  <string key="CultConvertWolfPublic">
+  <string key="zoombiesConvertWolfPublic">
     <!--used when Zombies convert the wolves, only if wolves stayed home-->
 -->
     <value>На этот раз вервольфы сделали доброе дело и наказали {0}. Любитель человеческой крови был безжалостно съеден.</value>
     <value>Отправляясь пить кровь селян, {0} столкнулся носом к носу с вервольфом!</value>
     <value>Отправляясь пить кровь селян, {0} столкнулся носом к носу с вервольфом! Вервольфы любит не только кровь, но и мясо. Особенно мясо упитанных вампиров.</value>
   </string>
-  <string key="CultConvertKillerPublic">
+  <string key="zoombiesConvertKillerPublic">
     <!--used when Zombies convert the SK-->
 -->
     <value>Радуясь поимке новой жертвы, вампиры совершили ошибку: {0}, любитель свежей крови, был распотрошён и выставлен на главной площади!</value>
@@ -1578,7 +1578,7 @@
 -->
     <value>{0} пришел на праздник во время последних 30 секунд.</value>
   </string>
-  <string key="AllowCult">
+  <string key="Allowzoombies">
     <value>Разрешить Вампиров</value>
   </string>
   <string key="AllowTanner">

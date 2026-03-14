@@ -387,33 +387,33 @@ Avete {0} secondi per votare!
     <!-- 1 - target name -->
     <value>{0} ha votato per rovinare il Natale a {1} e trasformarlo in un Non-Credente</value>
   </string>
-   <string key="CultConvertZombieHunter">
+   <string key="zoombiesConvertZombieHunter">
     <!-- 0 - Yougest Zombie (killed)'s name' -->
     <!-- 1 - ZombieHunter's name -->
     <value>{0} è stato mandato a fare il lavoro sporco, e cerca di rovinare il Natale a {1}... ma, {1} è lo Spirito del Natale 🎄 (💂)! {0} è morto!</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - Number of Zombies left -->
     <value>{0} è venuto a casa tua la scorsa notte per rovinarti il Natale e trasformarti in un Non-Credente....  Lo infondi così tanto con la magia del Natale, che finisce per morire! Un Non-Credente è morto, ne restano {1}!</value>
   </string>
- <string key="CultConvertYou">
-    <value>I Non-Credenti 👻 (👤) ti hanno convertito nel loro triste culto :( Ora anche tu sei un Non-Credente 👻 (👤). Ogni notte avrete una possibilità di convertire qualcuno al vostro patetico stile di viranti-natalizio.</value>
+ <string key="zoombiesConvertYou">
+    <value>I Non-Credenti 👻 (👤) ti hanno convertito nel loro triste zoombieso :( Ora anche tu sei un Non-Credente 👻 (👤). Ogni notte avrete una possibilità di convertire qualcuno al vostro patetico stile di viranti-natalizio.</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <!-- 0 - Number of Zombies -->
     <value> Non-Credenti: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <!-- 0 - new Zombie's name -->
     <value>{0} si è unito ai Non-Credenti 👻 (👤)!</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <!-- 0 - Newest Zombie's name -->
     <!-- 1 - target name -->
     <value>{0} era il mandante di questa notte, ma non ha trovato {1} a casa!</value>
   </string>
-  <string key="CultWins" isgif="true">
+  <string key="zoombiesWins" isgif="true">
     <value>Tutti i Pupazzi di Neve e Krampus sono morti, e i cittadini rimasti sono stati convertiti in Non-Credenti... I Non-Credenti 👻 (👤) hanno distrutto lo spirito del Natale e vinto!</value>
   </string>
   <string key="HunterVisitDead">
@@ -520,7 +520,7 @@ Avete {0} secondi per votare!
     <value>Gli Omini di Marzapane 🍪 (👷) sono: {0}</value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <!-- 0 - Youngest Zombies name -->
     <value>Il vostro membro più recente si dirige a casa di {0} per trasformarlo in un Non-Credente, ma si trova davanti un corpo congelato e ghiaccio dappertutto.</value>
   </string>
@@ -529,7 +529,7 @@ Avete {0} secondi per votare!
     <value>I Pupazzi di Neve si dirigono a casa di {0} per congelarlo a morte, ma si trovano davanti un'aurea lucente. È il potere dell'Angioletto 👼! I Pupazzi se ne tornano a casa sconfitti.</value>
   </string>
   <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <!-- 0 - newest  -->
     <!-- 1 - target's name -->
     <value>Inviate {0} a casa di {1} per convertirlo, ma la sua fede nel Natale è troppo forte! Non siete riusciti a convertirlo.</value>
@@ -540,7 +540,7 @@ Avete {0} secondi per votare!
     <!-- 1 - name -->
     <value>@{1}, un giocatore con il nome "{0}" è già in gioco. Per favore cambia il tuo nome e premi di nuovo Join per unirti alla celebrazione del Natale!</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <!-- 0 - target's name -->
     <value>Ti intrufoli a casa di {0} per lasciargli delle caramelle e forse qualcosina di più... ma mentre te ne vai, noti nel camino i resti carbonizzati di alcuni festoni... Sei stata a casa di un Non-Credente!</value>
   </string>
@@ -628,7 +628,7 @@ Avete {0} secondi per votare!
 	<value>È scaduto il tempo!</value>
   </string>
  <!-- new strings june 10 2016 -->
-   <string key="RoleInfoCupid">
+   <string key="RoleInfoRecruiter">
     <value>Sei Vischiolina 🧝‍♀️🌿 (🏹). Scegli due giocatori all'inizio del gioco, e li fai baciare. Questi si innamoreranno! Se uno di loro muore, l'altro si suiciderà per la disperazione. Se sono gli ultimi due rimasti in vita, solo loro vincono e tutti gli altri perdono.</value>
   </string>
   <string key="RoleInfoDoppelganger">
@@ -640,7 +640,7 @@ Avete {0} secondi per votare!
   <string key="RoleInfoSerialKiller">
     <value>Sei Krampus 👹 (🔪), pronto a punire gli elfi che si comportano male. Ogni notte sceglierai qualcuno da uccidere. Se i Pupazzi di Neve cercheranno di congelarti, scioglierai uno di loro e vivrai.</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>Ti ritrovi sotto il vischio in compagnia di {0}, vi baciate e tra di voi nasce l'amore. Se uno di voi muore, l'altro si suiciderà per il dolore. Se uno di voi vince, anche l'altro vincerà.</value>
   </string>
   <string key="HunterLynchedChoice">
@@ -695,12 +695,12 @@ Avete {0} secondi per votare!
     <!-- 0 - target's name -->
     <value>Hai cercato di rubare il fegato di {0} per la tua collezione, ma sei stato respinto dall'Angioletto 👼! Niente fegato per te stanotte...</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
     <value>I Non-Credenti 👻 (👤) mandano {0} a convertire {1}, ma all'improvviso si sente uno colpo e il corpo di {0} vola fuori dalla finestra, impalato da un albero di Natale! {0} è morto...</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
      <value>I Non-Credenti 👻 (👤) mandano {0} a convertire {1}, ma all'improvviso si sentono dei rumori e schizzi di sangue e pezzettini del corpo di {0} volano dalla finestra! {0} è morto.</value>
@@ -724,11 +724,11 @@ Avete {0} secondi per votare!
     <!-- 1 - mason collegues's name -->
     <value>{0} è morto, e ti sei trasformato in un Omino di Marzapane 🍪 (👷). I tuoi compagni Omini (se ci sono) sono: {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <!-- 0 - new Zombie's name -->
     <value>Donnola 🦌🎭 (🎭), {0}, è diventato un Non-Credente 👻 (👤), proprio come te!</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <!-- 0 - role's name -->
     <!-- 1 - teammates's name -->
     <value>{0} è morto, e ti sei trasformato in un Non-Credente 👻 (👤). I tuoi compagni (se ci sono) sono: {1}</value>
@@ -748,25 +748,25 @@ Avete {0} secondi per votare!
   <string key="AskKill">
     <value>Chi vuoi uccidere stanotte?</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <!-- 0 - dead's name -->
-    <!-- 1 - lover's name -->
+    <!-- 1 - crewmate's name -->
     <!-- 2 - roles -->
     <value>Con l'ultimo respiro di {0}, {1} accorre per vedere il suo cadavere e piange. Non riesce a sopportare la morte dell'amato, prende la punta dall'albero vicino e la usa per suicidarsi. {2}</value>
 </string>
   <string key="AskDoppelganger">
     <value>Di chi vuoi prendere il posto alla sua morte?</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>Chi vuoi far baciare sotto il vischio? Scegli il primo abitante.</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>Chi vuoi far baciare sotto il vischio? Scegli il secondo abitante.</value>
   </string>
   <string key="Hunter">
     <value>lo Schiaccianoci 💂 (🎯)</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>Vischiolina 🧝‍♀️🌿 (🏹)</value>
   </string>
   <string key="SerialKiller">
@@ -779,7 +779,7 @@ Avete {0} secondi per votare!
     <!-- 0 - target's name -->
     <value>Sei Donato 🦌💥 (👶). Il tuo modello è {0}.</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
     <value>L'amore Natalizio trionfa! Gli Innamorati hanno vinto!</value>
   </string>
   <string key="HunterKilledVisiter">
@@ -787,7 +787,7 @@ Avete {0} secondi per votare!
     <!-- 1 - role -->
       <value>Nel bel mezzo del Polo Nord, i cittadini ritrovano {0}, morto stecchito. Sembra che abbia fatto visita allo Schiaccianoci 💂 (🎯)! Ben fatto, {1}.</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>Un Non-Credente 👻 (👤) ha cercato di farti rinnegare il Natale, ma la tua fede in Babbo Natale era troppo forte.</value>
   </string>
   <string key="AlreadyOnWaitList">
@@ -865,7 +865,7 @@ Avete {0} secondi per votare!
   <string key="AboutFool">
     <value>Sei Jack Skellington 💀 (🃏), talmente emozionato dal Natale da credere di essere Babbo Natale. Ogni notte sceglierai un giocatore e ti verrà rivelato un ruolo casuale! Non saprai di essere Jack!</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>Sei un Non-Credente 👻 (👤), pertanto non credi alla magia del Natale e Babbo Natale! Il tuo obiettivo è convertire tutti gli altri giocatori in Non-Credenti, tranne i Pupazzi di Neve. Se alla fine della partita tutti i giocatori sono Non-Credenti, vincete.</value>
   </string>
   <string key="AboutCH">
@@ -886,7 +886,7 @@ Avete {0} secondi per votare!
   <string key="AboutDG">
     <value>Sei Donnola 🦌🎭 (🎭)! Hai un pizzico di magia in te, che ti farà trasformare in un altro giocatore. Scegli un giocatore all'inizio della partita, se questo muore prenderai il suo posto!</value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>Sei Vischiolina 🧝‍♀️🌿 (🏹). Scegli due giocatori all'inizio del gioco, e li fai baciare. Questi si innamoreranno! Se uno di loro muore, l'altro si suiciderà per la disperazione. Se sono gli ultimi due rimasti in vita, solo loro vincono e tutti gli altri perdono.</value>
   </string>
   <string key="AboutHunter">
@@ -1058,10 +1058,10 @@ Avete {0} secondi per votare!
   <string key="AllowTannerA">
     <value>Ebenezer Scrooge come ruolo impostato a {0}</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>Ammettere i Non-Credenti in partita, come ruolo?\nAttualmente: {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>Non-Credente come ruolo impostato a {0}</value>
   </string>
   <string key="ThankYou">
@@ -1208,7 +1208,7 @@ Avete {0} secondi per votare!
   <string key="SerialKillerTeam" deprecated="true">
     <value>Team Krampus</value>
   </string>
-  <string key="CultTeam" deprecated="true">
+  <string key="zoombiesTeam" deprecated="true">
     <value>Team Non-Credente</value>
   </string>
   <string key="TannerTeam" deprecated="true">
@@ -1226,13 +1226,13 @@ Avete {0} secondi per votare!
   <string key="SerialKillerTeamEnd">
     <value>Team Krampus</value>
   </string>
-  <string key="CultTeamEnd">
+  <string key="zoombiesTeamEnd">
     <value>Team Non-Credenti</value>
   </string>
   <string key="TannerTeamEnd">
     <value>Team Scrooge</value>
   </string>
-  <string key="CultConvertWolf">
+  <string key="zoombiesConvertWolf">
     <value>I Non-Credenti 👻 (👤) mandano {0} per cercare di rovinare il Natale di {1} e trasformarlo in uno di loro, ma {0} si imbatte in un Pupazzo e muore congelato...</value>
   </string>
   <string key="HarlotFuckedKilledPublic">
@@ -1250,7 +1250,7 @@ Avete {0} secondi per votare!
   <string key="ZombieKilled">
     <value>{0} è stat o trovato a faccia in giù nella neve. Krampus ha colpito ancora! Sembra non gli importi che si creda a Babbo Natale o meno. {0} era un Non-Credente 👻 (👤).</value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>Il giorno seguente gli abitanti del Polo Nord si rattristano nell'apprendere che {0}, the Vischiolina 🧝‍♀️🌿 (🏹), è morta. Forse Krampus odia l'amore...</value>
   </string>
   <string key="DrunkKilled">
@@ -1282,13 +1282,13 @@ Avete {0} secondi per votare!
     <!--used when CH visits SK-->
     <value>I cittadini del Polo Nord si svegliano e ritrovano le interiora di {0}, Lo Spirito del Natale 🎄 (💂), sparse per la città. Ha imparato una lezione: mai visitare la casa di Krampus!</value>
   </string>
-  <string key="CultConvertWolfPublic">
+  <string key="zoombiesConvertWolfPublic">
     <!--used when Zombies convert the wolves, only if wolves stayed home-->
     <value>Sembra che i Pupazzi siano rimasti a casa stanotte, ma i Non-Credenti non hanno certo fatto lo stesso, e hanno mandato {0} a fare il lavoro sporco. Peccato che si sia imbattuto in un Pupazzo di Neve! {0} ha cercato di scappare, ma il Pupazzo è stato più veloce. {0} è morto.</value>
   </string>
-  <string key="CultConvertKillerPublic">
+  <string key="zoombiesConvertKillerPublic">
     <!--used when Zombies convert the SK-->
-    <value>La scorsa notte i Non-Credenti pensavano di convertire un cittadino al loro triste culto, peccato che abbiano bussato alla porta sbagliata. Il loro membro più recente si è trovato davanti il temibile Krampus! {0} è morto.</value>
+    <value>La scorsa notte i Non-Credenti pensavano di convertire un cittadino al loro triste zoombieso, peccato che abbiano bussato alla porta sbagliata. Il loro membro più recente si è trovato davanti il temibile Krampus! {0} è morto.</value>
   </string>
   <string key="GAGuardedKiller">
     <!-- used when GA guards SK -->
@@ -1380,7 +1380,7 @@ Avete {0} secondi per votare!
     <!-- {0} = list of people who have joined -->
     <value>{0} hanno deciso di festeggiare il Natale negli ultimi 30 secondi.</value>
   </string>
-  <string key="AllowCult">
+  <string key="Allowzoombies">
     <value>Abilita Non-Credenti</value>
   </string>
   <string key="AllowTanner">
@@ -1486,13 +1486,13 @@ Avete {0} secondi per votare!
     <value>Configurazione Grinch </value>
   </string>
   <string key="RoleInfoWolfMan">
-    <value>Sei lo Scultore ❄️ (👱🌚). Passi giorno e notte tra la neve, per cui attento, Babbo Natale potrebbe scambiarti per un Pupazzo di Neve! Oh no...</value>
+    <value>Sei lo Szoombiesore ❄️ (👱🌚). Passi giorno e notte tra la neve, per cui attento, Babbo Natale potrebbe scambiarti per un Pupazzo di Neve! Oh no...</value>
   </string>
   <string key="WolfMan">
-    <value>Scultore ❄️ (👱🌚)</value>
+    <value>Szoombiesore ❄️ (👱🌚)</value>
   </string>
   <string key="AboutWolfMan">
-    <value>Sei lo Scultore ❄️(👱🌚). Passi giorno e notte tra la neve, per cui attento, Babbo Natale potrebbe scambiarti per un Pupazzo di Neve! Oh no...</value>
+    <value>Sei lo Szoombiesore ❄️(👱🌚). Passi giorno e notte tra la neve, per cui attento, Babbo Natale potrebbe scambiarti per un Pupazzo di Neve! Oh no...</value>
   </string>
   <string key="RoleInfoLycan">
     <value>Sei lo Gnomo 📿 (🐺🌝)! Lavori coi Pupazzi di Neve perché anche tu odi il Natale ma, essendoti travestito da Elfo, Babbo Natale ti scambierà per uno di loro.</value>
@@ -1602,7 +1602,7 @@ Avete {0} secondi per votare!
     <!-- 0 - mason collegues's name -->
     <value>I tuoi compagni di squadra, se ci sono, sono: {0}</value>
   </string>
-  <string key="ThiefToCult">
+  <string key="ThiefTozoombies">
     <!-- 0 - old Zombie's name -->
     <!-- 1 - new Zombie's name -->
     <value>{0} non è più nella tua squadra, mentre {1} è diventato un Non-Credente!</value>
@@ -1840,7 +1840,7 @@ Avete {0} secondi per votare!
   <value>Sforni i biscotti e li confezioni in maniera deliziosa, ma quando ti avvicini alla porta noti che una tempesta si è formata attorno a casa tua. Deve esserci lo zampino di Tormentilla ❄️👸 (🐺☃️)! Per questa notte decidi di rimanere a casa!</value>
   </string>
   <string key="ZombieFrozen">
-  <value>Sei pronto per uscire di casa per convertire qualcuno al tuo triste culto dei Non-Credenti, ma dalla finestra noti che una tempesta di neve si è formata attorno a casa tua. Deve esserci lo zampino di Tormentilla ❄️👸 (🐺☃️)! I tuoi compagni dovranno agire senza di te!</value>
+  <value>Sei pronto per uscire di casa per convertire qualcuno al tuo triste zoombieso dei Non-Credenti, ma dalla finestra noti che una tempesta di neve si è formata attorno a casa tua. Deve esserci lo zampino di Tormentilla ❄️👸 (🐺☃️)! I tuoi compagni dovranno agire senza di te!</value>
   </string>
   <string key="CHFrozen">
   <value>Ti stai preparando per uscire a caccia di Non-Credenti, ma dalla finestra noti che una tempesta di neve si è formata attorno a casa tua. Deve esserci lo zampino di Tormentilla ❄️👸 (🐺☃️)! Per questa notte dovrai stare a casa, ma ehi, puoi contemplare con serenità la bellezza del Natale!</value>
@@ -2002,10 +2002,10 @@ Avete {0} secondi per votare!
   <string key="HunterFellDigger">
   <value>Dopo un'altra notte passata ad aggiustare giocattoli, non vedi l'ora di toccare il letto, ma quando arrivi a casa noti l'albero-giavellotto dello Spirito del Natale, abbandonato in terra come uno dei tuoi giocattoli, accanto al corpo carbonizzato di {0}.</value>
   </string>
-  <string key="CultFell">
+  <string key="zoombiesFell">
   <value>Dopo un'altra notte passata ad aggiustare giocattoli, non vedi l'ora di toccare il letto, ma quando arrivi a casa senti le urla provenire da uno dei caminetti nelle vicinanze! Accorri e rinvieni il corpo ormai senza vita di {0}, accanto ad un giocattolo abbandonato. Che razza di Non-Credenti proverebbe a convertire il Giocattolaio?</value>
   </string>
-  <string key="CultConvertGraveDigger">
+  <string key="zoombiesConvertGraveDigger">
   <value>Mentre vi recavate a casa di {1}, {0} ha pensato fosse una buona idea dare fuoco alla fabbrica di giocattoli del Polo Nord. Peccato che, appena entrato nella fabbrica, {0} sia inciampato in un giocattolo lasciato in terra e abbia dato fuoco solo a se stesso... Il resto di voi, in panico, scappa verso casa.</value>
   </string>
   <string key="ChemistFell">

@@ -14,7 +14,7 @@ namespace Database
     
     public partial class KillMethod
     {
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCalcrewmateridableMethodsInConstructors")]
         public KillMethod()
         {
             this.GameKills = new HashSet<GameKill>();

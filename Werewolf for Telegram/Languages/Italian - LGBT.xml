@@ -340,25 +340,25 @@
   <string key="ZombieVotedConvert" >
     <value >{0} vota per convertire {1}</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <value>{0} è stato inviato a convertire {1}... ma era Il Bestemmiatore 🤬 (💂‍♀️)! {0} fugge via a gambe levate.</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <value>{0} è arrivato pronto a convertirti al buon cristianesimo...  ma l'hai spazzato via con un bestemmione! Un Bigotto 🧟 (👤) è Uscito... {1} rimanenti!</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>I Bigotti 🧟 (👤) ti hanno convertito! Ora sei uno di loro. Ad ogni turno, avrai la possibilità di convertire un altra pecorella smarrita.</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>Bigotti: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <value>{0} è diventato un Bigotto 🧟 (👤)!</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <value>{0} è stato mandato a convertire {1}... ma non è riuscito a trovarlo!</value>
   </string>
-  <string key="CultWins" >
+  <string key="zoombiesWins" >
     <value >Tutti gli Omofobi se ne sono andati, ma la serata è diventata una manifestazione delle Sentinelle in Piedi... I Bigotti 🧟 (👤) hanno vinto!</value>
   </string>
   <string key="HunterVisitDead">
@@ -454,21 +454,21 @@
     <value>  Gli altri Gay Convinti 💅 (👷) sono: {0}</value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <value>L'ultimo convertito si reca da {0} per evangelizzare, ma appena lo raggiunge lo trova in lacrime che corre verso l'uscita...</value>
   </string>
   <string key="GuardBlockedWolf">
     <value>Stai già pregustando l'umiliazione che infliggerai a {0} , ma appena apri bocca ti si para davanti una donzella animata da una furia animale. È La Frociarola 💄 (👼)! Ti conviene ritirarti, se non vuoi uscirne con le ossa spezzate.</value>
   </string>
   <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <value>Spedite {0} per convertire {1}, la sua componente anticristica è troppo alta. Non riuscite a convertirlo :(</value>
   </string>
   <!-- new string May 12 2016-->
   <string key="NameExists">
     <value>@{1}, un giocatore con il nome di {0} è già entrato. Per favore cambia il tuo nome per partecipare. </value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <value>Sei andato da {0} e vi siete divertiti un botto... Ma quando gli hai tolto la maglietta hai notato che aveva appeso al collo un grosso crocifisso. Che sia in realtà un Bigotto 🧟 (👤)?</value>
   </string>
   <!-- new string May 13 2016-->
@@ -543,7 +543,7 @@
 	<value>È scaduto il tempo!</value>
   </string>
   <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
     <value>Sei Grindr 🤳 (🏹)! Tutti ti considerano una semplice app d'incontri al loro servizio, ma non sanno la verità: hai un'anima. Spingi i ragazzi a scriversi fra di loro in modi bizzarri e talvolta incomprensibili (a? p? Io MxM XL) che portano inspiegabilmente alla nascita di amori spesso lunghi poco più di una notte. Puoi scegliere di far innamorare due giocatori: se uno dei due lascerà la serata, l'altro lo seguirà per andare a celebrare l'ammòre.</value>
   </string>
   <string key="RoleInfoDoppelganger">
@@ -555,7 +555,7 @@
   <string key="RoleInfoSerialKiller">
     <value>Sei il Playboy 😏 (🔪)! Bellissimo, scolpito ed esteticamente impeccabile, hai una stima di te che Veronica Ciccone levate. Tutti i gay, sapendo già che non li considereresti, dicono che non ti vorrebbero nemmeno toccare con un dito, ma in realtà sbavano al solo pensiero. Tu questo lo sai e, forte del tuo cuore di ghiaccio, farai fuori una persona ad ogni serata spezzando il cuore ai gay e distruggendo gli omofobi col tuo spropositato ego.</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>Hai avuto un colpo di fulmine sfogliando Grindr 🤳 (🏹)! L'immagine di profilo di {0} non svanirà mai dal tuo cuore. Il tuo obiettivo e di restare entrambi fino a fine serata, così da incontrarvi. Se {0} dovesse andarsene, lo seguirai immediatamente. </value>
     <value>Ti sei innamorato perdutamente del profilo di {0} Su Grindr 🤳 (🏹)! Se se ne andrà, lo seguirai. Se arrivate insieme a fine serata, riuscirete a coronare il sogno di stare in intimità, vincendo la partita.</value>
  </string>
@@ -583,7 +583,7 @@
   <string key="HunterKilledFinalShot">
     <value>Ormai logoratah dentro, {0} decide di andarsene... Ma non senza vomitare tutto ciò che ha dentro contro {1}, che si becca una valanga di negatività e decide di fuggire via. {2}</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <value>{0} si dirige verso {1} per convertirlo ma non sa che quello che si troverà davanti è il Playboy 😏 (🔪). {1} gli dice "Guardati, fai più pena di Katy Perry che tenta di cantare".{0} esce traumatizzato dalla serata.</value>
     <value>I Bigotti 🧟 (👤) mandano {0} per convertire {1}, ma dopo due secondi vedono {0} fuggire di corsa dalla festa. Si dice che il Playboy 😏 (🔪) lo abbia fatto sentire poraccissimo con un solo sguardo. {0} è Uscito...</value>
  </string>
@@ -602,7 +602,7 @@
   <string key="GuardBlockedKiller">
     <value>Hai provato ad aggiungere il cuoricino di {0} alla tua collezione di cuori infranti, ma ti sei scontrato con La Frociarola 💄 (👼)! E sai bene che se c'è lei, il tuo charme perde ogni valore. È andata così.</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <value>I Bigotti 🧟 (👤) mandano {0} a convertire {1}, ma invece un bestemmione risuona rumoroso e {0} esce dalla serata piangendo! {0} è Uscito...</value>
   </string>
   <string key="GuardKiller">
@@ -621,10 +621,10 @@
   <string key="DGTransformToMason">
     <value>{0} è Uscito, e tu diventi un Convinto. I tuoi compagni (se presenti) sono: {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <value>Il Bisessuale 👨‍👩‍👦 (🎭) {0} è ora diventato un Bigotto 🧟 (👤), esattamente come te!</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <value>{0} è Uscito, e tu ti trasformi in un Bigotto 🧟 (👤). I tuoi compagni (se presenti) sono: {1}</value>
   </string>
   <string key="DGToWolf">
@@ -639,22 +639,22 @@
   <string key="AskKill">
     <value>A chi vuoi spezzare il cuore stavolta?</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <value>Mentre {0} fugge via in lacrime, {1} accorre per capire cos'è successo. Non riesce a sopportare l'idea che lui se ne vada, buttando via un amore non ancora nato. Se ne va anche lui a coronare il suo sogno d'amore. {2}</value>
   </string>
   <string key="AskDoppelganger">
     <value>Di chi vuoi copiare il ruolo alla sua uscita?</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>Chi vuoi che siano gli innamorati? Scegli il primo profilo Grindr 🤳 (🏹)</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>Chi vuoi che siano gli innamorati? Scegli il secondo profilo Grindr 🤳 (🏹)</value>
   </string>
   <string key="Hunter">
     <value>La Complessata 😓 (🎯) 🎯</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>Grindr 🤳 (🏹)🏹</value>
   </string>
   <string key="SerialKiller">
@@ -669,10 +669,10 @@
   <string key="HunterKilledVisiter">
     <value>ALl'uscita dal Prisma LGBT Disco, si vede {0} in piena crisi di nervi. Sembra che abbia provato ad infastidire La Complessata 😓 (🎯) . Che errore!! {1}</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>Un losco figuro con un cartello del Family Day ha tentato di convertirti, ma il tuo livello di blasfemia era troppo elevato.</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
   <value>Il vero amore trionfa, ma l'infatuazione su Grindr 🤳 (🏹) di più! Gli innamorati hanno vinto!</value>
   </string>
   <string key="SerialKillerWinsOverpower">
@@ -742,7 +742,7 @@
   <string key="AboutFool">
     <value>È solo una Falsah 🙊 (🃏) che finge di essere La Gaysha 🧞 (👳).... Quando sceglie di vedere il ruolo a qualcuno, gli verrà detto un ruolo casuale presente in serata. Nota: È più utile di quello che sembra, può sapere con esattezza i ruoli che ci sono in serata. Se vede un ruolo, sarà in serata.</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>Come Bigotto 🧟 (👤), il tuo obiettivo è convertire tutti i Gay (non gli Omofobi, che ti somigliano) alla religione. Se a fine serata, tutti i giocatori sono Bigotti, Vincono. \n Probabilità di convertire i seguenti ruoli: \n Bisessuale 👨‍👩‍👦 (🎭): 0% Finché rimane Bisessuale 👨‍👩‍👦 (🎭), è impossibile da convertire \n Gaysha 🧞 (👳) 40% La Gaysha 🧞 (👳) è il più difficile da convertire \n Frociarola 💄 (👼) 60% Nota: Se protegge qualcuno, non la troverai \n Etero Curioso 👀 (😾) 60% \n Riservato 🚪 (🕵️) 70% \n Escort 🔞 (💋) 70% Come La Frociarola 💄 (👼), se è appartato con qualcuno, non potrete convertirlo \n Complessata 😓 (🎯)  50% Avrai il 50% di convertire La Complessata 😓 (🎯) . Se fallite, C'è il 50% che vi si appioppi e vi faccia fuggire.</value>
   </string>
   <string key="AboutCH">
@@ -763,7 +763,7 @@
   <string key="AboutDG">
     <value>Il Bisessuale 👨‍👩‍👦 (🎭) può scegliere un giocatore a inizio serata, ed erediterà il suo ruolo se se ne va. \n Nota: Se il giocatore viene convertito dai Bigotti, prenderai il suo ruolo originale. Tutte le altre regole normali si applicano: se era una Pazzah 🤪 (👶) e il suo modello è Uscito, diventerai un Omofobo. Sennò, erediterai il suo modello.\nI Bigotti 🧟 (👤) non possono convertire il Bisessuale 👨‍👩‍👦 (🎭) (ma possono dopo che il Bisessuale 👨‍👩‍👦 (🎭) cambia ruolo) E - Il Bisessuale 👨‍👩‍👦 (🎭) NON può vincere a meno che si sia trasformato. Se a fine serata, il Bisessuale 👨‍👩‍👦 (🎭) non si è trasformato, perde (eccezione: amante).</value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>Grindr 🤳 (🏹) a inizio serata, sceglie due giocatori. Dopodiché, nonostante sia uno spirito dell'ammooore, si manifesta a tutti gli effetti un normale Gay. Questi due diventeranno follemente innamorati e se uno dei due se ne va, lo farà anche l'altro. Nota: gli amanti sanno chi è l'altro, ma non sanno il loro ruolo. Se gli amanti sono gli ultimi due in serata, loro vincono, indipendemente dal loro ruolo. Se gli amanti sono di due team diversi(esempio: Omofobo + Gay), e un team vince (esempio: Omofobi), anche l'amante (esempio:Gay) vince. \n TL;DR Se tutti e due gli amanti sono nel locale a fine serata, e almeno uno dei due è nel team vincitore, vincono insieme</value>
   </string>
   <string key="AboutHunter">
@@ -934,10 +934,10 @@
   <string key="AllowTannerA">
     <value>Drama Queen 🫖 (👺) come ruolo impostato a {0}</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>Ammettere i Bigotti 🧟 (👤) in serata, come ruolo?\nAttualmente: {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>Bigotto 🧟 (👤) come ruolo impostato a {0}</value>
   </string>
   <string key="ThankYou">
@@ -1098,13 +1098,13 @@
   <string key="SerialKillerTeamEnd">
     <value>Team Playboy 😏 (🔪)</value>
   </string>
-  <string key="CultTeamEnd">
+  <string key="zoombiesTeamEnd">
     <value>Team Bigotti</value>
   </string>
   <string key="TannerTeamEnd">
     <value>Team Drama Queen 🫖 (👺)</value>
   </string>
-  <string key="CultConvertWolf">
+  <string key="zoombiesConvertWolf">
     <value>I Bigotti 🧟 (👤) hanno mandato {0} per provare a convertire {1}, ma in realtà si becca solo un sacco di offese omofobe. {0} è Uscito...</value>
   </string>
   <string key="HarlotFuckedKilledPublic"> <!-- used when Harlot visit's SK's victim, and dies -->
@@ -1123,7 +1123,7 @@
   <string key="ZombieKilled">
     <value>{0} fugge a gambe levate, in preda ad una delusione d'amore. Il Playboy 😏 (🔪) ha colpito ancora, indipendentemente da orientamento sessuale e religione! {0} era un Bigotto 🧟 (👤)👤.</value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>A poco a poco tutti i ragazzi si accorgono che {0}, cioè Grindr 🤳 (🏹), è andato improvvisamente offline, diffondendo terrore fra tutti i gay. {0} è fuori dai giochi. </value>
   </string>
   <string key="DrunkKilled">
@@ -1155,11 +1155,11 @@
   <string key="SerialKillerKilledCH"> <!--used when CH visits SK-->
     <value>Essere un rozzo Bestemmiatore 🤬 (💂‍♀️) non vuol dire per forza essere insensibili al fascino maschile. {0}, il Bestemmiatore 🤬 (💂‍♀️), è andato dal Playboy 😏 (🔪) e c'è rimasto sotto. È fuori dai giochi.</value>
   </string>
-  <string key="CultConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
+  <string key="zoombiesConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
     <value>Sembrava un momento tranquillo, visto che gli Omofobi hanno deciso di non disturbare nessuno. Ma è andata male a {0}, un Bigotto 🧟 (👤) che ha provato a convertire un Omofobo. La testa di {0} è in piena confusione su ciò che è giusto e cosa è sbagliato, e ha deciso di andarsene.</value>
     <value>I Bigotti 🧟 (👤) hanno incontrato un problema non previsto questo turno. Il loro membro più recente, mandato a fare proseliti, è stato verbalmente massacrato dall'Omofobo che ha visitato. Sfortunatamente per {0}, agli Omofobi non frega nulla della religione in questo momento.</value>
   </string>
-  <string key="CultConvertKillerPublic"> <!--used when Zombies convert the SK-->
+  <string key="zoombiesConvertKillerPublic"> <!--used when Zombies convert the SK-->
     <value>I Bigotti 🧟 (👤) pensavano di convertire un nuovo membro tra di loro, ma si sbagliavano! {0}, un Bigotto 🧟 (👤) è andato via mentre si fustigava col cilicio! Si era innamorato del Playboy 😏 (🔪), cosa inammissibile per lui. {0} Scappa via.</value>
   </string>
   <string key="GAGuardedKiller"> <!-- used when GA guards SK -->
@@ -1248,7 +1248,7 @@
     <!-- {0} = list of people who have joined -->
     <value>{0} sono entrati alla serata negli ultimi 30 secondi.</value>
   </string>
-  <string key="AllowCult">
+  <string key="Allowzoombies">
     <value>Includi i Bigotti</value>
   </string>
   <string key="AllowTanner">
@@ -1481,7 +1481,7 @@
     <!-- 0 - mason collegues's name -->
     <value>Le tue ame (se presenti) sono: {0}</value>
   </string>
-  <string key="ThiefToCult">
+  <string key="ThiefTozoombies">
     <!-- 0 - old Zombie's name -->
     <!-- 1 - new Zombie's name -->
     <value>{0} non è più un tuo compagno e {1} è ora divenuto un Bigotto 🧟 (👤), proprio come te!</value>
@@ -1840,16 +1840,16 @@
   <string key="HunterFell">
 	<value>Un altro turno inutile senza riuscire a cacciare uno di questi maledetti Bigotti! Frustrato, corri per il locale, senza accorgerti di essere arrivato all'uscita. Chiedi di rientrare ma non hai la prevendita e {0} non te lo permette. È ora di tornare a casa.</value>
   </string>
-  <!--{0}: cult hunter-->
+  <!--{0}: zoombies hunter-->
   <string key="HunterFellDigger">
 	<value>Torni verso l'uscita e trovi {0} che ti chiede di rientrare nel locale, ma non ha la prevendita e non glielo permetti. Il Bestemmiatore 🤬 (💂‍♀️) non avrebbe dovuto sospettare di te...</value>
   </string>
   <!--{0}: Zombie-->
-  <string key="CultFell">
+  <string key="zoombiesFell">
 	<value>Torni verso l'uscita e trovi {0} che ti chiede di rientrare nel locale, ma non ha la prevendita e non glielo permetti. Da quando i Bigotti 🧟 (👤) provano a convertire il Buttafuori 👮 (☠️)?</value>
   </string>
   <!--{0}: Zombie who fell, {1}: grave digger-->
-  <string key="CultConvertGraveDigger">
+  <string key="zoombiesConvertGraveDigger">
 	<value>Mentre cercate {1}, {0} si dirige verso l'uscita. Ormai è troppo tardi, non può più rientrare e se ne torna a casa.</value>
   </string>
   <!--{0}: grave digger-->

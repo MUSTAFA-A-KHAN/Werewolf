@@ -317,25 +317,25 @@
   <string key="ZombieVotedConvert" >
     <value >{0} votou para converter {1}</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <value>{0} foi enviado(a) para fazer o trabalho sujo e converter {1}... Entretanto, ele era da CCG, e tinha uma maleta com um kagune de tortura especial pra Ghoul! {0} está morto(a)!</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <value>{0} foi à sua casa na noite passada, pronto(a) para te converter....  Mas você tinha uma maleta com um kagune de tortura só pra esse tipo de gente. Um Ghoul está morto... {1} restante(s)!</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>Você foi convertido(a) e agora é um membro da Ghoul. Durante a noite, você poderá tentar converter outros jogadores.</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>Ghouls: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <value>{0} se juntou à Seita!</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <value>{0} foi enviado(a) para fazer o trabalho sujo e converter {1}... Mas ninguém estava em casa!</value>
   </string>
-  <string key="CultWins" isgif="true">
+  <string key="zoombiesWins" isgif="true">
     <value >Todos os ambus morreram e as únicas pessoas sobreviventes são Ghouls..  Os Ghouls venceram! </value>
   </string>
   <string key="HunterVisitDead">
@@ -432,21 +432,21 @@
     <value>  Os personagens secundários são: {0}</value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <value>O mais recente Ghoul corre para a casa de {0} para fazer o trabalho sujo e convertê-lo(a), mas encontra uma bagunça, muito sangue e pedacinhos... Seu alvo ja foi morto</value>
   </string>
   <string key="GuardBlockedWolf">
     <value>A matilha se dirige à casa de {0}, para o banquete, mas lá dá de cara com uma criatura alta, elevada e cercada por luz, armada com uma espada e uma lança. O Anjo sai em defesa do alvo e, após uma luta ao som dos mais variados hits gospel, o lado faminto sai derrotado e foge para casa.</value>
   </string>
   <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <value>{0} foi enviado(a) para fazer o trabalho sujo, mas as crenças de {1} eram fortes de mais para serem corrompidas. :(</value>
   </string>
   <!-- new string May 12 2016-->
   <string key="NameExists">
     <value>@{1}, um(a) otaku com nome {0} já se juntou à partida. Por favor mude seu nome para poder entrar no portal.</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <value>Você dormiu na casa de {0} para se divertir um pouco, mas enquanto saia você notou através de uma porta semiaberta um estranho altar dentro de um quarto....</value>
   </string>
   <!-- new string May 13 2016-->
@@ -522,8 +522,8 @@
 	<value>Tempo esgotado!</value>
   </string>
   <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
-    <value>Você é o Cupido. Enviado à Aldeia de fraldão, com um arco e duas flechas, você pode escolher dois jogadores que irão se amar para toda eternidade. Se um deles morrer, o outro morrerá de tristeza. Depois de unir dois amantes, você pode voltar ao seu papel como Aldeão.</value>
+  <string key="RoleInfoRecruiter">
+    <value>Você é o Recruitero. Enviado à Aldeia de fraldão, com um arco e duas flechas, você pode escolher dois jogadores que irão se amar para toda eternidade. Se um deles morrer, o outro morrerá de tristeza. Depois de unir dois amantes, você pode voltar ao seu papel como Aldeão.</value>
   </string>
   <string key="RoleInfoDoppelganger">
     <value>Você é um Doppelgänger. A Lenda diz que seus ancestrais eram metamorfos, e podiam assumir qualquer forma que quisessem! Escolha um jogador, quando ele morrer você assumirá o papel dele no jogo.</value>
@@ -534,7 +534,7 @@
   <string key="RoleInfoSerialKiller">
     <value>Você é o Serial Killer. Seu time é você mesmo e os outros jogadores não são mais que seus brinquedinhos. Toda noite você pode escolher um jogador para matar e adicionar para sua coleção de corpos.</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>Você foi atingido(a) pela flecha do amor. A memória de {0} nunca deixará seu coração. Seu objetivo é que os dois sobrevivam. Se um de vocês morrer o outro irá até o mundo dos mortos para que ambos continuem juntos.</value>
   </string>
   <string key="HunterLynchedChoice">
@@ -561,7 +561,7 @@
   <string key="HunterKilledFinalShot">
     <value>{0} cai no chão, ferido mortalmente... Mas antes de morrer, ele puxa sua pistola e dá um tiro certeiro em {1}, que cai duro no chão, com um novo orifício na testa. {2}</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <value>{0} entra de fininho na casa de {1}. Assim que entra, ouve uma voz sinistra "Que os jogos começem"! {1} aparece de repente com uma tesoura e começa a cortar {0} criando um lindo retalho para sua coleção. {0} está morta D:</value>
   </string>
   <string key="HunterShotWolfMulti">
@@ -579,10 +579,10 @@
   <string key="GuardBlockedKiller">
     <value>Você foi jogar um joguinho com {0}. Mas chegando lá o Anjo Guardião acabou com sua diversão! Sem brincadeiras essa noite...</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <value>A Seita manda {0} para converter {1}. Chegando lá {0} é recebido com uma bala de três oitão bem no meio dos córneo! {0} tá morta...</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <value>A Seita manda {0} para converter {1}. Chegando lá {0} descobre que era melhor ter ficado em casa rezando. Seu corpo é encontrado aberto na rua, mas com os orgãos revirados. {0} está morta...</value>
   </string>
   <string key="GuardKiller">
@@ -600,10 +600,10 @@
   <string key="DGTransformToMason">
     <value>{0} morreu, e você agora é um maçom.  Seus companheiros (se houver) são: {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <value>O Doppelganger {0} se transformou em um membro da Seita. A Seita ele!</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <value>{0} morreu, aceita que você entrou para a Seita. Seus novos companheiros (se houver) são: {1}</value>
   </string>
   <string key="DGToWolf">
@@ -618,23 +618,23 @@
   <string key="AskKill">
     <value>Quem você quer matar essa noite?</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <value>{0} dá seu último suspiro olhando no fundo dos olhos de seu amado(a), {1}, que segura seu corpo de joelhos. {1} não aguenta a dor, e, com uma faca, perfura o próprio coração... Eles ficarão juntos, mesmo no mundo dos mortos. {2}</value>
   </string>
   <string key="AskDoppelganger">
     <value> Quem você escolherá para se transformar?</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>Quem será o casal? Escolha o primeiro amante.</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>Quem será o casal? Escolha o segundo amante.</value>
   </string>
   <string key="Hunter">
     <value>o Caçador 🎯</value>
   </string>
-  <string key="Cupid">
-    <value>Cupido 🏹</value>
+  <string key="Recruiter">
+    <value>Recruitero 🏹</value>
   </string>
   <string key="SerialKiller">
     <value>o Serial Killer 🔪</value>
@@ -642,20 +642,20 @@
   <string key="Doppelgänger">
     <value>a Doppelgänger 🎭</value>
   </string>
-  <string key="CupidChosen">
-    <value>A flecha do cupido acertou seu coração! Você está apaixonado por {0}!  Se ele(a) morre, você morre também. No final, se ambos estiverem vivos, vocês vencem.</value>
+  <string key="RecruiterChosen">
+    <value>A flecha do Recruitero acertou seu coração! Você está apaixonado por {0}!  Se ele(a) morre, você morre também. No final, se ambos estiverem vivos, vocês vencem.</value>
   </string>
   <string key="NewWCRoleModel">
     <value>Você se tornou a Criança Rebelde.  Seu modelo exemplar é {0}</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
     <value>Os amantes venceram! Queriam o que né? O Amor sempre vence!</value>
   </string>
   <string key="HunterKilledVisiter">
     <value>Quando acordam, vocês encontram {0} largado no meio da praça, parecendo uma peneira por causa dos tiros. Parece que alguém visitou o Caçador e se deu mal! {1}</value>
   </string>
 
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>Alguém bateu na sua porta a noite, "Olá, você tem um minuto para ouvir a palavra da Seita?" Você fecha a porta na cara deles, sua fé é mais forte, mas você se esqueceu de olhar o rosto dele!</value>
   </string>
   <string key="AlreadyOnWaitList">
@@ -729,7 +729,7 @@
   <string key="AboutFool">
     <value>he fool is told they are the seer.... when they choose to see someone's role at night, they are told a random role.</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>Você é um agente da Seita.  Durante a noite, você poderá escolher alguém para converter à Seita. Se todos os jogadores restantes ao final do jogo forem da Seita, ela vence!</value>
   </string>
   <string key="AboutCH">
@@ -752,9 +752,9 @@
      Você é um Doppelgänger. A Lenda diz que seus ancestrais eram metamorfos, e podiam assumir qualquer forma que quisessem! Escolha um jogador, quando ele morrer você assumirá o papel dele no jogo.
     </value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>
-      Você é o Cupido. Enviado à Aldeia de fraldão, com um arco e duas flechas, você pode escolher dois jogadores que irão se amar para toda eternidade. Se um deles morrer, o outro morrerá de tristeza. Depois de unir dois amantes, você pode voltar ao seu papel como Aldeão.
+      Você é o Recruitero. Enviado à Aldeia de fraldão, com um arco e duas flechas, você pode escolher dois jogadores que irão se amar para toda eternidade. Se um deles morrer, o outro morrerá de tristeza. Depois de unir dois amantes, você pode voltar ao seu papel como Aldeão.
     </value>
   </string>
   <string key="AboutHunter">
@@ -936,10 +936,10 @@
   <string key="AllowTannerA">
     <value>Existência do Suicida definida como: {0}</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>Permitir a Seita como um papel possível?\nAtual: {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>Existência da Seita definida como: {0}</value>
   </string>
   <string key="ThankYou">
@@ -1099,8 +1099,8 @@ Talvez você ainda tenha algum resíduo de prata sobrando. Quem sabe? Talvez ele
   <string key="SerialKillerTeam">
     <value>SK Team</value>
   </string>
-  <string key="CultTeam">
-    <value>Cult Team</value>
+  <string key="zoombiesTeam">
+    <value>zoombies Team</value>
   </string>
   <string key="TannerTeam">
     <value>Tanner Team</value>

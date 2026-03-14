@@ -3,7 +3,7 @@
 
     EDIT HISTORY: 
      DECEMBER 8 2016 - Adding new death strings. Fixing some old messages
-     DECEMBER 9 2016 - Removing CultConvertSerialKiller duplication.
+     DECEMBER 9 2016 - Removing zoombiesConvertSerialKiller duplication.
      DECEMBER 26 2016 - Adding some new strings
      DECEMBER 28 2016 - More new strings!
 
@@ -471,36 +471,36 @@
         <!-- 1 - target name -->
         <value>{0} has voted to corrupt {1}</value>
     </string>
-    <string key="CultConvertZombieHunter">
+    <string key="zoombiesConvertZombieHunter">
         <!-- 0 - Yougest Zombie (killed)'s name' -->
         <!-- 1 - ZombieHunter's name -->
         <value>{0} was sent to corrupt {1}... You sent {0} to corrupt Eileen, the Crow?! {0} is dead, what have you done?!</value>
     </string>
-    <string key="ZombieHunterKilledCultVisit">
+    <string key="ZombieHunterKilledzoombiesVisit">
         <!-- 0 - Youngest Zombie's name -->
         <!-- 1 - Number of Zombies left -->
         <value>{0} came to your house last night, ready to corrupt you... Your Mercy Blades were thirsty anyway...\n A corrupted hunter is dead. {1} remain!
         </value>
     </string>
-    <string key="CultConvertYou">
+    <string key="zoombiesConvertYou">
         <value>The covenant of Corrupter Hunters reached you! You are now corrupt, drunk from your bloodlust. Every other night, you will have a chance to corrupt another player.
         </value>
     </string>
-    <string key="CultTeam">
+    <string key="zoombiesTeam">
         <!-- 0 - Number of Zombies -->
         <value>Corrupted ones: {0}</value>
     </string>
-    <string key="CultJoin">
+    <string key="zoombiesJoin">
         <!-- 0 - new Zombie's name -->
         <value>{0} has been corrupted!</value>
     </string>
-    <string key="CultVisitEmpty">
+    <string key="zoombiesVisitEmpty">
         <!-- 0 - Newest Zombie's name -->
         <!-- 1 - target name -->
         <value>{0} was sent to do your dirty work, and corrupt {1}... But {0} was anywhere to be found!
         </value>
     </string>
-    <string isgif="true" key="CultWins">
+    <string isgif="true" key="zoombiesWins">
         <value>All the beasts have died, and the only hunters have been corrupted! No one is now between you and the killing!</value>
 		<value>Who could have known that Blood is so sweet? Congratulations, Corrupted hunters!</value>
     </string>
@@ -617,7 +617,7 @@
         <value>The messengers are: {0}</value>
     </string>
     <!-- new strings May 6 2016-->
-    <string key="CultTargetDead">
+    <string key="zoombiesTargetDead">
         <!-- 0 - Youngest Zombies name -->
         <value>Your newest hunter heads over to where {0} is, only to find {0}'s remains. Someone got there first! You quickly retreat, better safe than sorry.
         </value>
@@ -628,7 +628,7 @@
         </value>
     </string>
     <!-- new strings May 9 2016-->
-    <string key="CultUnableToConvert">
+    <string key="zoombiesUnableToConvert">
         <!-- 0 - newest  -->
         <!-- 1 - target's name -->
         <value>You send {0} to try to corrupt {1}. {1}'s resolve is too powerful, and you aren't able do corrupt them. As you retreat, {1} says that you should never come again.\nYou doubt that they'll have the mental strength to ignore the lust for blood.
@@ -642,7 +642,7 @@
             join.
         </value>
     </string>
-    <string key="HarlotDiscoverCult">
+    <string key="HarlotDiscoverzoombies">
         <!-- 0 - target's name -->
         <value>You slipped into {0}'s house for a bit of fun... It wasn't that bad, but you notice something strange in {0}'s eyes. Were those the feared signs of corruption?
         </value>
@@ -742,7 +742,7 @@
 		<value>Those slow reflexes will kill you someday.</value>
     </string>
     <!-- new strings june 10 2016 -->
-    <string key="RoleInfoCupid">
+    <string key="RoleInfoRecruiter">
         <value>You are the Chapel Dweller (🏹). You will choose two hunters to defend your chapel. If one dies, the other will immediately seek revenge, and die in the process. If they survive together at the end, they will win.
         </value>
     </string>
@@ -755,7 +755,7 @@
     <string key="RoleInfoSerialKiller">
         <value>You are Iosefka (🔪). Actually, you're the EVIL Iosefka. Each night, you can chose a player to experiment on, killing them in the process. You can experiment on ANYONE.</value>
     </string>
-    <string key="CupidChosen">
+    <string key="RecruiterChosen">
         <value>You have been chosen to guard the Oedon Chapel. Your companion is {0}. If one of you dies, the other one will seek revenge, and die in the process. If one of you wins, the other one wins too.
         </value>
     </string>
@@ -823,7 +823,7 @@
         <value>You tried to hunt {0} for your experiments, but upon arriving, you found yourself dealing with two hunters instead! The Good Hunter helps {0} to defeat you, and you run for your life, hoping to catch {0} off-guard someday.
         </value>
     </string>
-    <string key="CultConvertHunter">
+    <string key="zoombiesConvertHunter">
         <!-- 0 - Youngest Zombie's name -->
         <!-- 1 - target's name -->
         <value>The crazed hunters sends {0} to try to corrupt {1}, but {0}'s head comes flying out of the window instead! Someone killed {0}.
@@ -849,12 +849,12 @@
         <value>{0} has died, and you transform into a messenger. Your teammates (if any) are: {1}
         </value>
     </string>
-    <string key="DGToCult">
+    <string key="DGTozoombies">
         <!-- 0 - new Zombie's name -->
         <value>The doppelganger {0} has now become a crazed blood-drunk hunter, just like you!
         </value>
     </string>
-    <string key="DGTransformToCult">
+    <string key="DGTransformTozoombies">
         <!-- 0 - role's name -->
         <!-- 1 - teammates's name -->
         <value>{0} has died, and you transform into a lusftul hunter. Your teammates (if any) are:
@@ -880,9 +880,9 @@
     <string key="AskKill">
         <value>Who do you want to experiment on(KILL :P) tonight?</value>
     </string>
-    <string key="LoverDied">
+    <string key="crewmateDied">
         <!-- 0 - dead's name -->
-        <!-- 1 - lover's name -->
+        <!-- 1 - crewmate's name -->
         <!-- 2 - roles -->
         <value>With {0}'s dying breath, {1} rushes over to help their fellow Chapel protector. But heart is the enemy of wisdom, and {1} can't fight properly. Actually, the only thing that {1} can do is to get themselves killed. Sad, but no much. {2}
         </value>
@@ -890,16 +890,16 @@
     <string key="AskDoppelganger">
         <value>Who do you want to become if they die?</value>
     </string>
-    <string key="AskCupid1">
+    <string key="AskRecruiter1">
         <value>Who do you want your protectors to be? Choose the first player</value>
     </string>
-    <string key="AskCupid2">
+    <string key="AskRecruiter2">
         <value>Who do you want your protectors to be? Choose the second player</value>
     </string>
     <string key="Hunter">
         <value>Gherman, the First Hunter 🎯</value>
     </string>
-    <string key="Cupid">
+    <string key="Recruiter">
         <value>Oedon Chapel Dweller 🏹</value>
     </string>
     <string key="SerialKiller">
@@ -912,7 +912,7 @@
         <!-- 0 - target's name -->
         <value>You have become the Vengeful Hunter, a __wild child__ as some say. Your close friend is {0}</value>
     </string>
-    <string key="LoversWin">
+    <string key="crewmatesWin">
         <value>There is nothing better than a good partner in hunts! Both the Chapel Protectors won against all odds, and accomplished their mission. Another day rises in Yharnam, but they have no more nightmares.
         </value>
     </string>
@@ -921,7 +921,7 @@
         <!-- 1 - role -->
         <value>In the middle of the town square, everyone finds the body of {0}. Their head is found a couple of meters away. Looks like they tried to sneak up on Gherman! {1}</value>
     </string>
-    <string key="CultAttempt">
+    <string key="zoombiesAttempt">
         <value>A hunter shows up in front of you. Erratic behaviour and strange-looking eyes dont leave room for mistakes, it's a crazed and blood-drunk hunter!\nYou have no interest in being corrupted, so you draw your Ludwig's Holy Blade and starts fighting the figure.\nWhen the crazed hunter realizes how strong you are, they run away. You still tries one last shot, but misses. As they get away, you shout - telling them to never come back.
         </value>
     </string>
@@ -1025,7 +1025,7 @@
         <value>The Abandoned Doll is told they are the real Plain Doll.... when they choose to see someone's role at night, they are told a random role.
         </value>
     </string>
-    <string key="AboutCult">
+    <string key="Aboutzoombies">
         <value>As a corrupted hunter, it is your goal to corrupt all other players (except beasts) to your covenant. If at the end of the game, all living players are corrupted - the covenant wins!
         </value>
     </string>
@@ -1055,7 +1055,7 @@
             \nThe corrupted hunters cannot convert the Doppelgänger (but can after the doppelganger switches roles). Also - the Doppelgänger can NOT win unless they have transformed. If at the end of the game, the Doppelgänger is still the same, they lose (exception: fellow Chapel Protector)
         </value>
     </string>
-    <string key="AboutCupid">
+    <string key="AboutRecruiter">
         <value>
             You are the Chapel Dweller. You will choose two hunters to defend your chapel. If one dies, the other will immediately seek revenge, and die in the process. If they survive together at the end, they will win.\n TL;DR if at least one of the protectors was on the winning team, they both win together.
         </value>
@@ -1240,11 +1240,11 @@
     <string key="AllowTannerA">
         <value>Tanner as a role set to: {0}</value>
     </string>
-    <string key="AllowCultQ">
-        <value>Allow cult as a role option?\nCurrent: {0}</value>
+    <string key="AllowzoombiesQ">
+        <value>Allow zoombies as a role option?\nCurrent: {0}</value>
     </string>
-    <string key="AllowCultA">
-        <value>Cult as a role set to: {0}</value>
+    <string key="AllowzoombiesA">
+        <value>zoombies as a role set to: {0}</value>
     </string>
     <string key="ThankYou">
         <value>Thank you, have a good day :)</value>
@@ -1414,7 +1414,7 @@
     <string key="SerialKillerTeam">
         <value>Iosefka's Team</value>
     </string>
-    <string key="CultTeam">
+    <string key="zoombiesTeam">
         <value>Corrupted Covenant Team</value>
     </string>
     <string key="TannerTeam">
@@ -1432,13 +1432,13 @@
     <string key="SerialKillerTeamEnd">
         <value>Iosefka's Team</value>
     </string>
-    <string key="CultTeamEnd">
+    <string key="zoombiesTeamEnd">
         <value>Corrupted Covenant Team</value>
     </string>
     <string key="TannerTeamEnd">
         <value>Moon Presence Team</value>
     </string>
-    <string key="CultConvertWolf">
+    <string key="zoombiesConvertWolf">
         <value>The covenant sends {0} to try to corrupt {1}, but instead... Well...\nLet's say that no one will ever hear again about {0}.\n{0} has been eaten by the beasts.
         </value>
     </string>
@@ -1468,7 +1468,7 @@
         <value>As the hunters gather, {0} isn't among them. Of course not! Iosefka has made another victim. But that's not all. In front of the Church is {0}'s head in a spike. The eyes leave no doubt that {0} was a crazed and corrupted hunter! Seems like Iosefka does a better job than Eileen...
         </value>
     </string>
-    <string key="CupidKilled">
+    <string key="RecruiterKilled">
         <value>No one seems to mind that {0}, the Chapel Dweller, is missing. A strange being that Iosefka surely learned a lot about! No body is found. No blood. No sound made during the night. Iosefka passed even through the Church Guardians.
         </value>
     </string>
@@ -1509,12 +1509,12 @@
         </value>
     </string>
     <string
-        key="CultConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
+        key="zoombiesConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
         <value>A faint smell of bad blood is in the air. The hunters follow it, only to find a corpse with crazed eyes staring at the sky.\n{0} was a corrupted hunter, and had bad luck: the beasts stayed in their lair this night. {0} thought it would be a good idea to corrupt them... Eileen's job becomes easier and easier.</value>
         <value>Ain't this bad luck? Or maybe just silliness? {0}, a corrupted hunter, though it would be a good idea to corrupt a beast! If only they knew...\nOne less on Eileen's list. {0} is dead. (of course)
         </value>
     </string>
-    <string key="CultConvertKillerPublic"> <!--used when Zombies convert the SK-->
+    <string key="zoombiesConvertKillerPublic"> <!--used when Zombies convert the SK-->
         <value>Last night, the crazed-corrupted hunters tried to convert the one person in the village crazier than they are. It seems tht Iosefka enjoyed the visit, since that there is no sign of {0} anymore. Well, no one will ever hear from {0} again. Iosefka sends her regards.
         </value>
     </string>
@@ -1528,7 +1528,7 @@
         <value>Something seems off. {0} is nowhere to be found! When the hunters finally get to the Good Hunter's bell, they find {0}'s corpse thrown over it. It is clear that the Good Hunter tried to help the wrong person last night! {0} is dead.</value>
         <value>The beasts get ready for the night, and didn't expect help to come... In form of a hunter?!\n{0} tries to transform into a beast, but their body isn't strong enough, and {0} dies in the process.</value>
     </string>
-    <string key="CultConvertSerialKiller">
+    <string key="zoombiesConvertSerialKiller">
         <!-- 0 - Youngest Zombie's name -->
         <!-- 1 - target's name -->
         <value>The covenant of crazed hunters sends {0} to try to corrupt {1}. No one will never hear about {0} again. Iosefka has made another victim with her experiments.
@@ -1619,7 +1619,7 @@
         <!-- NOTE: No space between {0} and joined. It will be added in the code if necessary-->
         <value>{0}joined the game in the last 30 seconds.</value>
     </string>
-    <string key="AllowCult">
+    <string key="Allowzoombies">
         <value>Allow Crazed hunters</value>
     </string>
     <string key="AllowTanner">

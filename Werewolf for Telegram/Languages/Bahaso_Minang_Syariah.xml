@@ -426,26 +426,26 @@
     <string key="ZombieVotedConvert" >
       <value > {0} mamiliah maasuang {1}.</value>
     </string>
-    <string key="CultConvertZombieHunter">
+    <string key="zoombiesConvertZombieHunter">
       <value>{0} maasuang {1} jo martabak, kironyo {1} pamburu aliran sasek 💂. {0} diajak tobat tapi ndak namuah.\n"Hai anakku, dirikanlah shalat dan suruhlah (manusia) mengerjakan yang baik dan cegahlah (mereka) dari perbuatan yang mungkar dan bersabarlah terhadap apa yang menimpa kamu. Sesungguhnya yang demikian itu termasuk hal-hal yang diwajibkan (oleh Allah)." [Q.S. Luqman () : 17].\nPamburu aliran sasek lah mancubo maajak ka jalan nan luruih, tapi dicemeeh, {0} dijadian makanan buayo.</value>
     </string>
-    <string key="ZombieHunterKilledCultVisit">
+    <string key="ZombieHunterKilledzoombiesVisit">
       <value>Tadi malam {0} ka rumah Antum mambaok martabak coklat kacang naneh pisang.. Antum ajak nyo mangaji sabanta, tapi caronyo beda, antum sadar nyo pamuja urang bunian. Antum kuruangnyo di dalam sumua baisi buayo.. {1} tasiso!</value>
     </string>
-    <string key="CultConvertYou">
+    <string key="zoombiesConvertYou">
       <value>👤 Antum lah jadi pamuja urang bunian! BIDIP!! BIDIP!! 🐚 Ulululululu !!!. Satiok malam, Antum bausaho maajak yang lain untuak bagabuang. BIDIP!! BIDIP!!
       \nTapi antum harus ingek, “Dan (ingatlah) ketika Luqman berkata kepada anaknya, di waktu ia memberi pelajaran kepadanya: "Hai anakku, janganlah kamu mempersekutukan Allah, Sesungguhnya mempersekutukan (Allah) adalah benar-benar kezaliman yang besar".[Q.S. Luqman: 13]. Tobatlah sabalum talambek.</value>
     </string>
-    <string key="CultTeam">
+    <string key="zoombiesTeam">
       <value>👤 Zombie pamuja Urang Bunian: {0}</value>
     </string>
-    <string key="CultJoin">
+    <string key="zoombiesJoin">
       <value>{0} alah bagabuang jo Pamuja Urang Bunian! 👤 BIDIP!! BIDIP!! </value>
     </string>
-    <string key="CultVisitEmpty">
+    <string key="zoombiesVisitEmpty">
       <value>{0} mambaok martabak coklat kacang ka rumah {1}. Lah ditokok pintu rumahnyo 3 kali, ndak ado yang kalua. Antum tinggaan se martabak di muko pintu.</value>
     </string>
-    <string key="CultWins" >
+    <string key="zoombiesWins" >
       <value >👤 Alhamdulillah sado serigala alah mati, tapi Na'udzubillah masyarakaik nan tasiso alah manjadi pemuja Urang Bunian! SINDIKEK PAMUJA URANG BUNIAN MANANG! ULULULULULU.. BIDIP! BIDIP!</value>
     </string>
     <string key="HunterVisitDead">
@@ -542,7 +542,7 @@
       <value>  Kelompok mason : {0}</value>
     </string>
     <!-- new strings May 6 2016-->
-    <string key="CultTargetDead">
+    <string key="zoombiesTargetDead">
       <value>Innalillahi wainna ilaihi raji'uun.
         \nRumah {0} nan nio antum kunjuangi untuak diajak bagabuang kironyo lah cayia. Bantuaknyo {0} lah dimakan serigala, rancak antum capek-capek baranjak dari tampek tu lai.</value>
     </string>
@@ -550,7 +550,7 @@
       <value>Serigala jo konco-konconyo nio manyantap {0} ka rumahnyo. Kironyo di rumah {0} ado pangajian, talingo Serigala angek, badannyo gata-gata, lambek-lambek Serigala barubah normal tu bagabuang ikuik pangajian.</value>
     </string>
     <!-- new strings May 9 2016-->
-    <string key="CultUnableToConvert">
+    <string key="zoombiesUnableToConvert">
       <value>{0} maumbuak {1} bagabuang, dek imannyo kuek, nyo maraso ajakan antum tu manyimpang, nyo tulak jo caro aluih.</value>
   	<value>Antum manyuruah {0} untuak maumbuak {1} bagabuang, nyo tulak jo argumen-argumennyo, nyo bacoan dalil-dalil nyo. {0} manyarah maajak {1} karano ilmunyo tinggi bana.</value>
     </string>
@@ -558,7 +558,7 @@
     <string key="NameExists">
       <value>【@{1}】, pamain nan mamakai namo {0} alah ado nan ikuik main. Ganti namo Antum yo.</value>
     </string>
-    <string key="HarlotDiscoverCult">
+    <string key="HarlotDiscoverzoombies">
       <value>Masyaallah, mohon ampun kepada Allah, Antum masih jo nio andehoi lai. Antum pai ka rumah {0} untuak andehoi lamak 👄. Pas pulang, nampak tando-tando urang bunian di sabuah ruangan bacahayo. BIDIP! BIDIP!! 🐚</value>
     </string>
     <!-- new string May 13 2016-->
@@ -638,8 +638,8 @@
   	<value>Waktu abis, Antum talambek manjawek !</value>
     </string>
     <!-- new strings june 10 2016 -->
-    <string key="RoleInfoCupid">
-      <value>Antum tu Cupid 💘. Tuyul basayok nan mambaok panah cinto. Piliah 2 urang (buliah tamasuak antum) untuak antum jodohan. Mati surang mati kaduo e, bantuak Om Rom jo Ante Jul.</value>
+    <string key="RoleInfoRecruiter">
+      <value>Antum tu Recruiter 💘. Tuyul basayok nan mambaok panah cinto. Piliah 2 urang (buliah tamasuak antum) untuak antum jodohan. Mati surang mati kaduo e, bantuak Om Rom jo Ante Jul.</value>
     </string>
     <string key="RoleInfoDoppelganger">
       <value>Antum tu Doppelgänger 🎭, Copycat. Urang nan antum piliah bisa antum tiru rolenyo kalau urang tu lah maningga.</value>
@@ -651,7 +651,7 @@
       <value>Antum tu Serial Killer 🔪, pambunuah barantai nan ndak punyo raso ibo. Korban antum patahan tulangnyo ciek-ciek lambek-lambek, antum putuihan jarinyo ciek-ciek, cincang tangannyo saketek-saketek, kuliti rambuik jo kulik kapalonyo sampai marengek, kaki nyo antum kabek, antum putuihan buang ka tabek, baru antum bunuah lambek-lambek.\n
       Ketahuilah yaa ikhwahfillah, "Dan barangsiapa membunuh seorang Mukmin dengan sengaja, maka balasannya ialah jahannam. Ia kekal di dalamnya dan Allah murka kepadanya, dan mengutukinya serta menyediakan azab yang besar baginya."[an-Nisâ`(4) : 93]</value>
     </string>
-    <string key="CupidChosen">
+    <string key="RecruiterChosen">
       <value>Ehem, antum la bapunyo tuuuu, kalau antum maningga, {0} sabagai pasangan antum manyusul antum, baitu pulo sabaliaknyo. Rasulullah s.a.w bersabda, Cintailah kekasihmu sewajarnnya saj, karena bisa saja suatu saat namti ia akan menjadi orang yang kamu benci. Jan berlarut-larut bana antum dalam mancintoi. Patahankan cinto kalian, kalau kalian iduik sampai akhir, kalian manang.</value>
   	<value>Fiuwit♫♫	Antum LAH NDAK JOMBLO LAI!! Pasangan Antum {0}!
       \n“Dan segala sesuatu Kami ciptakan berpasang-pasangan supaya kamu mengingat kebesaran Allah.” [Q.S. Adz Dzariyat (51) : 59]
@@ -688,7 +688,7 @@
       <value>(Babarapo minik sabalunnyo)🎯
   	{0} mamacik dadonyo nan panuah darah, sudah tu jatuah ka tanah.... Di datiak-datiak terakhir angok e, nyo senyum sambia manembak {1} Si {2}</value>
     </string>
-    <string key="CultConvertSerialKiller">
+    <string key="zoombiesConvertSerialKiller">
       <value>“Sesungguhnya orang yang paling durhaka kepada Allah ada tiga: Orang yang membunuh di tanah haram, orang yang membunuh orang yang tidak membunuh, dan orang yang membunuh karena balas dendam jahiliyyah" (HR. Ibnu Hibban)
       \n{0} baniek manyasekkan aqidah {1}, kironyo yang nyo asuik tu Serial Killer.</value>
     </string>
@@ -738,10 +738,10 @@
       "Innamal a'malu binniyat, wainnama likulli amriinmanawa"\n
       “Sesungguhnya setiap amalan tergantung pada niatnya. Dan setiap orang akan mendapatkan balasan sesuai dengan niatnya” (HR. Bukhāri dan Muslim)</value>
     </string>
-    <string key="CultConvertHunter">
+    <string key="zoombiesConvertHunter">
       <value>{0} ka rumah {1} mambaok martabak sabagai paumbuak untuak masuak ka kalompoknyo, tapi, di rumah tu banyak ranjau, kaki {0} mamijak paku, taantuak kapalonyo jo dindiang, kanai iko, taimpok itu, pokoknyo banyaklah. {0} maningga taimpok tahu.</value>
     </string>
-    <string key="CultConvertSerialKiller">
+    <string key="zoombiesConvertSerialKiller">
       <value>Kutil {0} ka rumah {1} mambaok sate untuak maumbuak masuak ka kalompoknyo, {1} senyum ramah, {0} dibaok ka dalam, pintu ditutuik, AAAAAAAA!!! Sate sabungkuih ndak cukuik dek {1} doh, dicucuak-cucuakkan lidi sate ka badan {0}, siap tu {0} dibaka kadijadian dagiang sate.\n
       Na'udzubillah</value>
     </string>
@@ -762,10 +762,10 @@
     <string key="DGTransformToMason">
       <value>{0} alah mati, Antum kini jadi mason 👷. Tim Mason Antum : {1}</value>
     </string>
-    <string key="DGToCult">
+    <string key="DGTozoombies">
       <value>Si {0} (Doppelganger) kini lah jadi Zombie samo jo Antum!</value>
     </string>
-    <string key="DGTransformToCult">
+    <string key="DGTransformTozoombies">
       <value>{0} alah mati, Antum kini jadi Zombie 👤. Antum mamuja urang bunian basamo jo {1}.\n
       Dari Abdullah ia berkata : Saya telah bertanya kepada Rasulullah saw.  dosa apakah yang lebih besar menurut Allah ? Beliau menjawab : “ Engkau menjadikan sekutu bagi Allah padahal Dialah yang menciptakanmu…” (HR. Bukhari dan Muslim )
       </value>
@@ -783,7 +783,7 @@
     <string key="AskKill">
       <value>Astaghfirullah, Siapo juo nan nio Antum bantai malam ko lai ?</value>
     </string>
-    <string key="LoverDied">
+    <string key="crewmateDied">
       <value>{0} mati letoy di bahu {1}. Dak tahanyo manjomblo lai, nyo minum baygon raso tiga roda untuak bunuauh diri..💔 {0} Si {2} lah baputuih aso.\n
       “Tiada suatu bencana pun yang menimpa di bumi dan (tidak pula) pada dirimu sendiri melainkan telah tertulis dalam kitab (Lauhul Mahfuzh) sebelum Kami menciptakannya. Sesungguhnya yang demikian itu adalah mudah bagi Allah. (Kami jelaskan yang demikian itu) supaya kamu jangan berduka cita terhadap apa yang luput dari kamu, dan supaya kamu jangan terlalu gembira terhadap apa yang diberikan-Nya kepadamu. Dan Allah tidak menyukai setiap orang yang sombong lagi membanggakan diri” [Q.S. Al Hadid: 22-23]
       </value>
@@ -796,17 +796,17 @@
     <string key="AskDoppelganger">
       <value>Kok inyo mati, Antum barubah jadi inyo , Sia nan ka Antum piliah ?</value>
     </string>
-    <string key="AskCupid1">
+    <string key="AskRecruiter1">
       <value>Siapo nan nio Antum jadian pasangan saiduik samati ? Tapi tetap ingek, jodoh ditangan Tuhan.</value>
     </string>
-    <string key="AskCupid2">
+    <string key="AskRecruiter2">
       <value>Siapo pasangan untuak urang nan antum piliah tadi ? Ingek yoo, jodoh di tangan Tuhan.</value>
     </string>
     <string key="Hunter">
       <value>Hunter 🎯</value>
     </string>
-    <string key="Cupid">
-      <value>Cupid 💘</value>
+    <string key="Recruiter">
+      <value>Recruiter 💘</value>
     </string>
     <string key="SerialKiller">
       <value>Serial Killer 🔪</value>
@@ -814,13 +814,13 @@
     <string key="Doppelgänger">
       <value>Doppelgänger 🎭</value>
     </string>
-    <string key="CupidChosen">
+    <string key="RecruiterChosen">
       <value>Ko {0}, pasangan nan Antum cari-cari salamo ko. Kok dapek yo tagok kalian baduo, jan sampai jomblo liak!</value>
     </string>
     <string key="NewWCRoleModel">
       <value>Antum alah manjadi Wild Child 👶.  role model Antum tu {0}</value>
     </string>
-    <string key="LoversWin">
+    <string key="crewmatesWin">
       <value>🎉 Kalau yo memang jodoh, Allah ndak ka mamisahan doh. Sapasang pole alah Manang! #CintoSuci Samoga awet yoo</value>
     </string>
     <string key="HunterKilledVisiter">
@@ -828,7 +828,7 @@
       <value>Masyarakaik bakumpua di muko balai nagari mancaliak {0} ({1}) kanai luko tembak tapek di kapalo!\n
       "Den ingekkan, bantuak iko kalau manggaduah den lalok ---Hunter---!"</value>
     </string>
-    <string key="CultAttempt">
+    <string key="zoombiesAttempt">
       <value>Antum mancaliak martabak jo Sate lah bacampua di muko pintu rumah Antum, tapi ndak ado urang surang alah e do.</value>
     </string>
     <string key="AlreadyOnWaitList">
@@ -900,7 +900,7 @@
   <string key="AboutFool">
     <value>Dukun abal-abal, nyo yakin bana kalau inyo dukun, padahal nyo asa takok se.</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>Zombie si pamuja urang bunian, paanuik aliran sasek. Tiok malam maumbuak surang urang pakai martabak untuak saaliran jo inyo. Manang kalau sado alah pamain nan masih iduik jadi pangikuik alirannyo.</value>
   </string>
   <string key="AboutCH">
@@ -922,7 +922,7 @@
     <value>Doppleganger, manduplikat role urang nan nyo piliah di awal pamainan kalau urang nan nyo piliah tu alah mati.
     </value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>
       Mak comblang baso awak ee, nyo manjodohan urang, bisa lo manjodohan inyo jo urang lain. Kalau nan nyo jodohan maningga salah surang, nan surang lai maningga lo dek ndak talok iduik tanpa pasangannyo tu.
     </value>
@@ -1096,10 +1096,10 @@
   <string key="AllowTannerA">
     <value>Piliahan Tanner dalam Peran: {0}</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>Nio Antum mamasuakkan Zombie dalam piliahan peran pamain ?\nPengaturan kini ko : {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>Piliahan Zombie dalam Peran: {0}</value>
   </string>
   <!-- THIS IS ADS

@@ -28,7 +28,7 @@
     Old Man Winter = Sorcerer
     Grýla = Prince
     Rudolph = Mayor
-    Love Reindeer = Cupid
+    Love Reindeer = Recruiter
     Prancer = Doppelganger
     Gnome = Lycan
     Ice Sculpturist = WolfMan
@@ -446,33 +446,33 @@
     <!-- 1 - target name -->
     <value>{0} has voted to turn {1} into a Non-Believer</value>
   </string>
-   <string key="CultConvertZombieHunter">
+   <string key="zoombiesConvertZombieHunter">
     <!-- 0 - Yougest Zombie (killed)'s name' -->
     <!-- 1 - ZombieHunter's name -->
     <value>{0} was sent to do your dirty work, and tried to turn {1} into a Non-Believer... however, {1} is the Spirit of Christmas! {0} is dead!</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - Number of Zombies left -->
     <value>{0} came to your house last night, ready to turn you into a Non-Believer....  you enlightened them so much with your faith in Christmas that they died of it.  A Non-Believer is dead... {1} remain!</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>The Non-Believers 👻 (👤) have turned you to their order!  You are now a Non-Believer as well.  Every other night, you will have a chance to turn another player into a Non-Believer too.</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <!-- 0 - Number of Zombies -->
     <value>Non-Believers: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <!-- 0 - new Zombie's name -->
     <value>{0} has joined the Non-Believers 👻 (👤)!</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <!-- 0 - Newest Zombie's name -->
     <!-- 1 - target name -->
     <value>{0} was sent to do your dirty work, and turn {1} into a Non-Believer... but no one was at home!</value>
   </string>
-  <string key="CultWins" isgif="true">
+  <string key="zoombiesWins" isgif="true">
     <value>All Snowmen and Krampus died, and citizens left standing have all been converted to Non-Believers...  The Non-Believers 👻 (👤) won and destroyed the faith in Christmas completely!</value>
   </string>
   <string key="HunterVisitDead">
@@ -577,7 +577,7 @@
     <value>  The Gingerbread Men 🍞 (👷) are: {0}</value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <!-- 0 - Youngest Zombies name -->
     <value>Your newest member heads over to {0}'s house to turn them into a Non-Believer, but instead finds the house a complete wreck, ice everywhere and some parts of the evil Snowmen were left behind there as a warning...</value>
   </string>
@@ -586,7 +586,7 @@
     <value>The Snowmen head to {0}'s house to freeze them, but they are met by a tall dark figure, armed to the teeth. The Jack Skellington 💀 (👼) fights everyone off, and you head back defeated.</value>
   </string>
   <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <!-- 0 - newest  -->
     <!-- 1 - target's name -->
     <value>You send {0} out with the order to turn {1} into a Non-Believer, however their belief in Christmas are too strong, and you were unable to turn them into one of yours. :(</value>
@@ -597,7 +597,7 @@
     <!-- 1 - name -->
     <value>@{1}, a player with the name {0} has already joined.  Please change your name to join.</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <!-- 0 - target's name -->
     <value>You go to {0}'s house to have some hot cocoa... but as you are leaving, you happen to notice a Xmas sign, poorly hidden off in a side room, with a green glow coming from it...</value>
   </string>
@@ -690,8 +690,8 @@
     <value>Time's up!</value>
   </string>
   <!-- new strings june 10 2016 -->
-   <string key="RoleInfoCupid">
-    <value>You are the Love Reindeer 💘 (🏹). You will choose two players at the start of the game. These 2 players will be madly in love! If one of them dies, the other will die of sadness. Note: Lovers know who they are but not each other’s role. If the lovers are the last 2 alive, they will win regardless of their team. If the lovers are on different teams (Team Santa + Team Frost) and one team wins (Snowman), the lover, (Elf) wins as well. If at least one of the lovers was on the winning team, they both win together.</value>
+   <string key="RoleInfoRecruiter">
+    <value>You are the Love Reindeer 💘 (🏹). You will choose two players at the start of the game. These 2 players will be madly in love! If one of them dies, the other will die of sadness. Note: crewmates know who they are but not each other’s role. If the crewmates are the last 2 alive, they will win regardless of their team. If the crewmates are on different teams (Team Santa + Team Frost) and one team wins (Snowman), the crewmate, (Elf) wins as well. If at least one of the crewmates was on the winning team, they both win together.</value>
   </string>
   <string key="RoleInfoDoppelganger">
     <value>You are Prancer 🌟 (🎭)! You have a little extra Christmas magic in you. You have the ability to turn into other players. You can pick a player at the start of the game. If that player dies, you will become what they were.</value>
@@ -702,7 +702,7 @@
   <string key="RoleInfoSerialKiller">
     <value>Oh you are Krampus 👹 (🔪), here to punish all the children who misbehave. You are on your own team. Each night, you will be able to choose a player to kill. If the Snowmen try to freeze you, you will melt one of them and live.</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>You have been struck by love. {0}'s memory will never fade in your heart. If one of you dies, the other one will die out of sorrow. If one of you wins, the other wins too.</value>
     <value>The arrow of the Love Reindeer has struck you! You are madly in love with {0}! If they die, you will die too. If one of you two wins, you will both win.</value>
   </string>
@@ -758,12 +758,12 @@
     <!-- 0 - target's name -->
     <value>You tried to collect {0}'s liver for your collection, but you were fought off by Jack Skellington 💀 (👼)! No liver for you tonight...</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
     <value>The Non-Believers sent {0} to try to convert {1}, but instead a shot rings out and {0}'s body comes flying out of the window! {0} is dead....</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
      <value>The Non-Believers 👻 (👤) sent {0} out to try to turn {1} into one of them, but instead {0}'s body comes flying out of the window, knives pushed into every part of their body! WHAT A PSYCHO! {0} is dead....Use /nextgame to get notified when the next game is starting</value>
@@ -788,11 +788,11 @@
     <!-- 1 - mason collegues's name -->
     <value>{0} has died, and you transform into a mason.  Your teammates (if any) are: {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <!-- 0 - new Zombie's name -->
     <value>The Prancer 🌟 (🎭) {0} has now become a Non-Believer 👻 (👤), just like you!</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <!-- 0 - role's name -->
     <!-- 1 - teammates's name -->
     <value>{0} has died, so you transform into a Non-Believer 👻 (👤).  Your teammates (if any) are: {1}</value>
@@ -812,25 +812,25 @@
   <string key="AskKill">
     <value>Who do you want to kill tonight?</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <!-- 0 - dead's name -->
-    <!-- 1 - lover's name -->
+    <!-- 1 - crewmate's name -->
     <!-- 2 - roles -->
     <value>With {0}'s dying breath, {1} rushes over and falls, crying.  They cannot stand the loss of their loved one, and shoot themselves with the nearest pistol they can find. {2}</value>
   </string>
   <string key="AskDoppelganger">
     <value>Who do you want to become if they die?</value>
   </string>
-  <string key="AskCupid1">
-    <value>Who do you want the lovers to be? Choose the first player</value>
+  <string key="AskRecruiter1">
+    <value>Who do you want the crewmates to be? Choose the first player</value>
   </string>
-  <string key="AskCupid2">
-    <value>Who do you want the lovers to be? Choose the second player</value>
+  <string key="AskRecruiter2">
+    <value>Who do you want the crewmates to be? Choose the second player</value>
   </string>
   <string key="Hunter">
     <value>the Nutcracker 💂 (🎯)</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>the Love Reindeer 💘 (🏹)</value>
   </string>
   <string key="SerialKiller">
@@ -843,15 +843,15 @@
     <!-- 0 - target's name -->
     <value>You are now Blitzen 🐃 (👶). Your role model is {0}.</value>
   </string>
-  <string key="LoversWin">
-    <value>True love endures! The lovers have won!</value>
+  <string key="crewmatesWin">
+    <value>True love endures! The crewmates have won!</value>
   </string>
   <string key="HunterKilledVisiter">
     <!-- 0 - target's name -->
     <!-- 1 - role -->
     <value>In the middle of the North Pole, everyone finds {0}, with multiple shots to the body. It looks like they tried to sneak up on the Nutcracker 💂 (🎯)! Well done, {1}.</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>A Non-Believer 👻 (👤) tried to make you forget about Christmas, but your faith in Santa was too strong for them.</value>
   </string>
   <string key="AlreadyOnWaitList">
@@ -935,7 +935,7 @@
   <string key="AboutFool">
     <value>The Mall Santa 👳🏼 (🃏) gets told to be the real Santa. When they choose to see someone's role at night, they will be told a random role.</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>You are a Non-Believer 👻 (👤), and you don’t believe in Santa Claus!  *gasp* Your goal is to convert all other players (except Snowmen) into Non-Believers. If at the end of the game, all the living players are Non-Believers, you all win.</value>
   </string>
   <string key="AboutCH">
@@ -957,8 +957,8 @@
     <value>You are the Prancer 🌟 (🎭)! You have a little extra Christmas magic in you. You have the ability to turn into other players. You can pick a player at the start of the game. If that player dies, you will become what they were.
     </value>
   </string>
-  <string key="AboutCupid">
-    <value>You are the Love Reindeer 💘 (🏹), also known as Cupid! You will choose two players at the start of the game. These 2 players will be madly in love! If one of them dies, the other will die of sadness.</value>
+  <string key="AboutRecruiter">
+    <value>You are the Love Reindeer 💘 (🏹), also known as Recruiter! You will choose two players at the start of the game. These 2 players will be madly in love! If one of them dies, the other will die of sadness.</value>
   </string>
   <string key="AboutHunter">
     <value>You are The Nutcracker 💂 (🎯)! Normally you would be spending your time rehearsing for the ballet but there's craziness in the North Pole. If the Snowmen try to freeze you, you have the chance to take one of them down. If you die any other way, you will get a chance to shoot someone as you die.
@@ -1130,10 +1130,10 @@
   <string key="AllowTannerA">
     <value>The Grinch 🤢 (👺) as a role set to: {0}</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>Allow Non-Believers 👻 (👤) as a role option?\nCurrent: {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>Non-Believers 👻 (👤) as a role set to: {0}</value>
   </string>
   <string key="EnableSecretLynchQ">
@@ -1287,7 +1287,7 @@
   <string key="SerialKillerTeam" deprecated="true">
     <value>Team Krampus</value>
   </string>
-  <string key="CultTeam" deprecated="true">
+  <string key="zoombiesTeam" deprecated="true">
     <value>Team Non-Believer</value>
   </string>
   <string key="TannerTeam" deprecated="true">
@@ -1305,13 +1305,13 @@
   <string key="SerialKillerTeamEnd">
     <value>Krampus Team</value>
   </string>
-  <string key="CultTeamEnd">
+  <string key="zoombiesTeamEnd">
     <value>Non-Believer Team</value>
   </string>
   <string key="TannerTeamEnd">
     <value>Grinch Team</value>
   </string>
-  <string key="CultConvertWolf">
+  <string key="zoombiesConvertWolf">
     <value>The Non-Believers 👻 (👤) send out {0} trying to turn {1} into one of them, but {0} met a Snowman and got frozen to death by that Snowman...</value>
   </string>
   <string key="HarlotFuckedKilledPublic">
@@ -1329,7 +1329,7 @@
   <string key="ZombieKilled">
     <value>{0} was found laying down in the deep snow. Krampus has struck again! Guess it doesn’t care if you believe in Santa or not! {0} was a Non-Believer 👻 (👤).</value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>The next morning, the citizens of the North Pole were heartbroken to find {0}, the Love Reindeer 💘 (🏹), laying in the snow. Maybe Krampus has a thing for reindeer hearts…</value>
   </string>
   <string key="DrunkKilled">
@@ -1362,15 +1362,15 @@
     <value>The citizens of the North Pole wake up in the morning, only to find the severed body parts of {0}, the Spirit of Christmas 🎄 (💂), in a cart placed in full view outside the house of Rudolph. Lesson learned: don't visit Krampus!</value>
     <value>The body of {0}, the Spirit of Christmas 🎄 (💂), was found in the middle of town, albeit cut precisely into a hundred pieces. Checking if Krampus was believing on Christmas doesn't seem to be the best idea that {0} had...</value>
   </string>
-  <string key="CultConvertWolfPublic">
+  <string key="zoombiesConvertWolfPublic">
     <!--used when Zombies convert the wolves, only if wolves stayed home-->
     <value>While it seems that the Snowmen took a break this night, the Non-Believers didn't and so went {0} out to do his job and convert another citizen of the North Pole into a Non-Believer, but that wasn't just a Citizen like everyone else, it was a Snowman. {0} tried to escape as fast as possible, but the breath of the Snowman was faster and so anticipated {0} a cold death.</value>
     <value>The last night the Non-Believers tried to turn someone into one of them, but they didn't recognized that someone is there which hates Christmas even more than them. {0} payed that mistake with the life.</value>
   </string>
-  <string key="CultConvertKillerPublic">
+  <string key="zoombiesConvertKillerPublic">
     <!--used when Zombies convert the SK-->
     <value>{0} one of the Non-Believers thought they could get another citizen away from Christmas and the faith in it, but oh no they came into the wrong house and got trapped by Krampus. Next time choose wisely before you try to convert the wrong citizen.</value>
-    <value>Last night, the cult tried to convert the one person in the village crazier than they are. Their newest member tried to convert the Serial Killer, and the Serial Killer made a new piece of art in the town square of {0}'s internal organs.</value>
+    <value>Last night, the zoombies tried to convert the one person in the village crazier than they are. Their newest member tried to convert the Serial Killer, and the Serial Killer made a new piece of art in the town square of {0}'s internal organs.</value>
   </string>
   <string key="GAGuardedKiller">
     <!-- used when GA guards SK -->
@@ -1483,7 +1483,7 @@
     <!-- NOTE: No space between {0} and joined. It will be added in the code if necessary-->
     <value>{0}arrived with the sled.</value>
   </string>  
-  <string key="AllowCult">
+  <string key="Allowzoombies">
     <value>Allow Non-Believers</value>
   </string>
   <string key="AllowTanner">
@@ -1741,7 +1741,7 @@ If the Black Pete or the Nutcracker kills you, they will cry in great grief and 
     <!-- 0 - mason collegues's name -->
     <value>Your teammates (if any) are: {0}</value>
   </string>
-  <string key="ThiefToCult">
+  <string key="ThiefTozoombies">
     <!-- 0 - old Zombie's name -->
     <!-- 1 - new Zombie's name -->
     <value>{0} is no longer your teammate and {1} has now become a Non-Believer, just like you!</value>
@@ -1975,7 +1975,7 @@ If the Black Pete or the Nutcracker kills you, they will cry in great grief and 
   <value>You wanted to protect {0}, the precious person who is in charge of making toys but instead, your bone breaks into pieces when you stepped on some stray nuts and bolts. Maybe you should have consume more calcium.</value>
   </string>
   <string key="GAFellDigger">
-  <value>You had just arrived back at your workshop but was horrified to find a Christmas Lover, {0} the Jack Skellington 💀 (👼) lying in your room after they had accidentally stepped on some of your unfinished toys.</value>
+  <value>You had just arrived back at your workshop but was horrified to find a Christmas crewmate, {0} the Jack Skellington 💀 (👼) lying in your room after they had accidentally stepped on some of your unfinished toys.</value>
   </string>
   <string key="ThiefFell">
   <value>You sneak through the workshop on your way to steal {0}'s role, you stepped on fake fox trap toys and you hurt yourself.</value>
@@ -2064,10 +2064,10 @@ If the Black Pete or the Nutcracker kills you, they will cry in great grief and 
   <string key="HunterFellDigger">
   <value>After another tiring night of repairing toys and looking for new materials to do so, you walk back to your home with the sun already rising. Just before you arrive, you notice a sword lying on the ground next to some unfinished toys and a fireplace already turned off. While looking at the fireplace you can barely distinguish the dead body of {0}. The spirit of Christmas should not have suspected you...</value>
   </string>
-  <string key="CultFell">
+  <string key="zoombiesFell">
   <value>You return from another tiring night of repairing toys and looking for materials to do so, when suddenly you hear a scream from one of your fireplaces near the factory! You hurry there, just to find {0} lying dead in one of them, with some unfinished toys next to them. What kind of non-believer tries to convert Bushy Evergreen, anyway?</value>
   </string>
-  <string key="CultConvertGraveDigger">
+  <string key="zoombiesConvertGraveDigger">
   <value>On your way to {1}'s house, {0} suddenly decides that it would be a good idea to burn down the North’s Pole toy factory. They lead you through the entrance when suddenly they stepped onto some toy parts scattered all over the place! All you can hear is their scream before they fall into a fireplace and you run for your lives.</value>
   </string>
   <string key="ChemistFell">

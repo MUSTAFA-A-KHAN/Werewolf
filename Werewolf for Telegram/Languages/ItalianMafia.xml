@@ -127,7 +127,7 @@
     <value>Chi è il tuo genitore?</value>
   </string>
   <string key="AskConvert">
-    <value>A casa di chi vuoi andare per cercare di convertire al tuo culto di Testimoni di Geova?</value>
+    <value>A casa di chi vuoi andare per cercare di convertire al tuo zoombieso di Testimoni di Geova?</value>
   </string>
   <string key="DiscussWith"><!--Leave the leading spaces here please-->
     <value>  Sii sicuro di discutere con {0}</value>
@@ -178,7 +178,7 @@
     <value>Sei il Sadico (Apprendista Veggente) 🙇. Normalmente, non estrai informazioni da solo, ma se il Torturatore non si trova, verrai assunto per fare il suo lavoro!</value>
   </string>
   <string key="RoleInfoZombie" >
-    <value>Congratulazioni, sei un Testimone di Geova (Satanista) 👤! Vuoi solo che tutti, mafiosi o meno, venerino il tuo Culto. Ora esci e converti queste povere persone!</value>
+    <value>Congratulazioni, sei un Testimone di Geova (Satanista) 👤! Vuoi solo che tutti, mafiosi o meno, venerino il tuo zoombieso. Ora esci e converti queste povere persone!</value>
   </string>
   <string key="RoleInfoZombieHunter" >
     <value>Sei l'Agente Riscossore (Cacciatore di Satanisti) 💂. Sei informato di Testimoni di Geova che non pagano le tasse, che destabilizzano l'economia del paese. Il tuo scopo è arrestarli!</value>
@@ -311,27 +311,27 @@
     <value>Giocatori rimasti vivi, ruolo, e fazione:</value>
   </string>
   <string key="ZombieVotedConvert" >
-    <value >{0} ha votato per convertire {1} al culto dei testimoni di Geova.</value>
+    <value >{0} ha votato per convertire {1} al zoombieso dei testimoni di Geova.</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <value>{0} è stato spedito a casa di {1} per convertirlo e offrirgli il piano per evadere le tasse. Però, era un agente riscossore delle tasse! {0} è stato arrestato per evasione fiscale.</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <value>{0} è stato arrestato per averti offerto un piano per evadere le tasse. Dopo un interrogatorio, ti rivela che aveva {1} complici. </value>
   </string>
-  <string key="CultConvertYou">
-    <value>Benvenuto nel culto dei Testimoni di Geova! Ogni notte, avrai l'opportunità di convertire la stessa possibilità ad altri giocatori.</value>
+  <string key="zoombiesConvertYou">
+    <value>Benvenuto nel zoombieso dei Testimoni di Geova! Ogni notte, avrai l'opportunità di convertire la stessa possibilità ad altri giocatori.</value>
   </string>
-  <string key="CultTeam">
-    <value>Compagni del culto: {0}</value>
+  <string key="zoombiesTeam">
+    <value>Compagni del zoombieso: {0}</value>
   </string>
-  <string key="CultJoin">
-    <value>Dai il benvenuto a {0} al culto!</value>
+  <string key="zoombiesJoin">
+    <value>Dai il benvenuto a {0} al zoombieso!</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <value>{0} è andato a casa di {1}, ma non era a casa!</value>
   </string>
-  <string key="CultWins" isgif="false">
+  <string key="zoombiesWins" isgif="false">
     <value >Tutti i poliziotti sono andati via, e ora questo posto è il rifugio dei testimoni di Geova!</value>
   </string>
   <string key="HunterVisitDead">
@@ -428,21 +428,21 @@
     <value>\nGli altri Caporegime all'incontro con il Padrino sono: {0}</value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
-    <value>{0} ha provato a convertire un nuovo membro al culto, ma trova la casa piena di poliziotti, e se ne va senza farsi vedere... </value>
+  <string key="zoombiesTargetDead">
+    <value>{0} ha provato a convertire un nuovo membro al zoombieso, ma trova la casa piena di poliziotti, e se ne va senza farsi vedere... </value>
   </string>
   <string key="GuardBlockedWolf">
     <value>La polizia vanno a fare un raid a casa di {0}, ma trovano il buttafuori e il suo arsenale fuori casa sua. In preda al panico e non volendo rischiare una sparatoria, i poliziotti si ritirano.</value>
   </string>
   <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
-    <value>{0} prova a convertire {1} al culto, ma viene cacciato da {1}, innervosito!</value>
+  <string key="zoombiesUnableToConvert">
+    <value>{0} prova a convertire {1} al zoombieso, ma viene cacciato da {1}, innervosito!</value>
   </string>
   <!-- new string May 12 2016-->
   <string key="NameExists">
     <value>@{1}, un giocatore con il nome {0} è già in partita.  Per favore cambia il tuo nome per entrare.</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <value>Vai a casa di {0} per dei documenti importanti. La tua curiosità prevale, e dai un'occhiata alle lettere. C'è una lettera dal Capo dei Testimoni di Geova!</value>
   </string>
   <!-- new string May 13 2016-->
@@ -521,8 +521,8 @@
 	<value>Il tempo è scaduto!</value>
   </string>
   <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
-    <value>Sei il Parroco (Cupido) 🏹, il testimone di un sacro matrimonio e amore eterno. Dopo il matrimonio, gli amanti non si separeranno, nè nella vergogna nè in prigione.</value>
+  <string key="RoleInfoRecruiter">
+    <value>Sei il Parroco (Recruitero) 🏹, il testimone di un sacro matrimonio e amore eterno. Dopo il matrimonio, gli amanti non si separeranno, nè nella vergogna nè in prigione.</value>
   </string>
   <string key="RoleInfoDoppelganger">
     <value>Sei il Ladro d'Identità (Sosia) 🎭. Da semplice ladruncolo, ti rendi conto di poter facilmente fregare i tuoi concittadini nel far credere che tu sia chiunque di cui tu abbia la cartà d'identità. Ovviamente, puoi fingerti qualcuno solo quando lui non è presente in città.</value>
@@ -557,7 +557,7 @@
   <string key="HunterKilledFinalShot">
     <value>{0} lascia la città pieno di vergogna. Mentre usciva dalla città, lo vedete premere un pulsante, seguito da una rumorosa esplosione! Sembra che la casa di {1} non esista più. {1} ha lasciato la città. {2}</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <value>{0} è andato a casa di {1}, ma non è stato più visto uscire. Sembra come fosse sparito dalla faccia della terra!</value>
 	<value>I testimoni di Geova mandano {0} a casa di {1}! {1} sembrava cordiale finchè costringe {0} a entrare nella cella frigorifera! {0} è sparito...</value>
   </string>
@@ -576,7 +576,7 @@
   <string key="GuardBlockedKiller">
     <value>Provi ad aggiungere {0} alla tua collezione, ma davanti la sua casa vedi il Buttafuori e il suo Arsenale Mobile. Sei costretto a tornare a casa.</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <value>I testimoni di Geova mandano {0} a casa di {1}! Sfortunatamente, appena il campanello suona, una trappola risucchia {0}! {0} è sparito...</value>
   </string>
   <string key="GuardKiller">
@@ -594,10 +594,10 @@
   <string key="DGTransformToMason">
     <value>{0} non è più in città! Inizi a falsificare la tua identità per essere accolto come Capo. I tuoi compagni (se ci sono) sono: {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <value>Il ladro d'identità si fa vedere in un incontro con i Testimoni di Geova! {0} è ora un Testimone di Geova!</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <value>{0} non è più in città! Inizi a falsificare la tua identità per essere accolto come Testimone di Geova. I tuoi compagni (se ci sono) sono: {1}</value>
   </string>
   <string key="DGToWolf">
@@ -612,22 +612,22 @@
   <string key="AskKill">
     <value>Chi vuoi aggiungere alla tua collezione stanotte?</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <value>Con la sparizione di {0}, sembra che {1} segua lo sposo costituendosi. Se ne vanno insieme, come una bella coppia dovrebbe. {2}</value>
   </string>
   <string key="AskDoppelganger">
     <value>A chi vuoi rubare l'identità?</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>Chi ha giurato amore eterno in Chiesa? Scegli il primo giocatore!</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>Chi ha giurato amore eterno in Chiesa? Scegli il secondo giocatore!</value>
   </string>
   <string key="Hunter">
     <value>l'operaio Edile 🎯</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>il Parroco 🏹</value>
   </string>
   <string key="SerialKiller">
@@ -636,20 +636,20 @@
   <string key="Doppelgänger">
     <value>il Ladro d'Identità 🎭</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>Hai giurato amore eterno a {0}, nel bene e nel male, nella salute e nella malattia. Lo seguirai dovunque andrà, come una vera coppia dovrebbe fare.</value>
 	<value>Hai sposato {0} nella chiesa della città. Non lo abbandonerai, nè in salute nè in malattia.</value>
   </string>
   <string key="NewWCRoleModel">
     <value>Prendi l'identità di un Idealista 👶. Il tuo genitore è {0}.</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
     <value>Il vero amore trionfa! Gli innamorati hanno vinto!</value>
   </string>
   <string key="HunterKilledVisiter">
     <value>Il giornale è appena uscito! {0} non si trova, l'ultima cosa che aveva detto era di visitare la casa dell'Operaio Edile! {1}</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>Un membro dei testimoni di Geova ha provato a convertirti l'ultima notte, ma li cacci, seccato.</value>
   </string>
   <string key="AlreadyOnWaitList">
@@ -719,8 +719,8 @@
   <string key="AboutFool">
     <value>un povero Folle che crede di essere il Veggente.... Quando sceglie di vedere il ruolo a qualcuno, gli verrà detto un ruolo casuale in partita. Nota: È più utile di quello che sembra, può sapere con esattezza i ruoli che ci sono in partita. Se vedete un ruolo, sarà in partita.</value>
   </string>
-  <string key="AboutCult">
-    <value>Come Satanista, il tuo obiettivo è convertire tutti gli altri giocatori (tranne i lupi) Al tuo culto. Se a fine partita, tutti i giocatori sono Satanisti, Vincono. \n Probabilità di convertire i seguenti ruoli: \n Sosia: 0% Finchè rimane sosia, è impossibile da convertire \n Veggente 40% Il veggente è il più difficile da convertire \n Angelo 60% Nota: Se protegge qualcuno, non lo troverai in casa \n Maledetto 60% \n Investigatore 70% \n Prostituta 70% Come l'angelo, se non è casa, non potrete convertirla \n Cacciatore 50% Avrai il 50% di convertire il cacciatore. Se fallite, C'è il 50% che vi spari.</value>
+  <string key="Aboutzoombies">
+    <value>Come Satanista, il tuo obiettivo è convertire tutti gli altri giocatori (tranne i lupi) Al tuo zoombieso. Se a fine partita, tutti i giocatori sono Satanisti, Vincono. \n Probabilità di convertire i seguenti ruoli: \n Sosia: 0% Finchè rimane sosia, è impossibile da convertire \n Veggente 40% Il veggente è il più difficile da convertire \n Angelo 60% Nota: Se protegge qualcuno, non lo troverai in casa \n Maledetto 60% \n Investigatore 70% \n Prostituta 70% Come l'angelo, se non è casa, non potrete convertirla \n Cacciatore 50% Avrai il 50% di convertire il cacciatore. Se fallite, C'è il 50% che vi spari.</value>
   </string>
   <string key="AboutCH">
     <value>Il tuo lavoro è estirpare i Satanisti. Se ti visitano, ucciderai il loro ultimo membro e saprai quanti satanisti sono rimasti. Ogni notte potrai visitare un giocatore: Se sono satanisti, li ucciderai. Sennò, tornerai a casa, come se nulla fosse successo.</value>
@@ -740,7 +740,7 @@
   <string key="AboutDG">
     <value>Puoi scegliere un giocatore a inizio partita, erediti il suo ruolo \n Nota: Se il giocatore viene convertito ai satanisti, prenderai il suo ruolo originale. Tutte le altre regole normali si applicano: se erano bimbi ribelli e il loro modello è morto, diventerai un lupo. Sennò, erediterai il loro modello.\nI satanisti non possono convertire il Sosia (ma possono dopo che il sosia cambia ruolo) E - Il sosia NON può vincere a meno che si sono trasformati. Se a fine partita, il Sosia non si è trasformato, perde (eccezione: amante).</value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>A Inizio partita, sceglie due giocatori. Dopo diventa a tutti gli effetti un normale villico. Questi due diventeranno follemente innamorati e se uno dei due muore, l'altro morirà. Nota: gli amanti sanno chi è l'altro, ma non sanno il loro ruolo. Se gli amanti sono gli ultimi due vivi, loro vincono, indipendemente dal loro ruolo. Se gli amanti sono di due team diversi(esempio: lupo + villico), e un team vince (esempio: lupi), anche l'amante (esempio:villico) vince. \n TL;DR Se tutti e due gli amanti sono vivi a fine partita, e almeno uno dei due è nel team vincitore, vincono insieme</value>
   </string>
   <string key="AboutHunter">
@@ -917,10 +917,10 @@
   <string key="AllowTannerA">
     <value>Conciatore come ruolo impostato a {0}</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>Ammettere i Satanisti in partita, come ruolo?\nAttualmente: {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>Satanista come ruolo impostato a {0}</value>
   </string>
   <string key="ThankYou">
@@ -1077,14 +1077,14 @@
   <string key="SerialKillerTeamEnd">
     <value>Squadra Rapitore</value>
   </string>
-  <string key="CultTeamEnd">
+  <string key="zoombiesTeamEnd">
     <value>La Chiesa di Geova</value>
   </string>
   <string key="TannerTeamEnd">
     <value>Squadra Pazzo Suicida</value>
   </string>
   
-  <string key="CultConvertWolf">
+  <string key="zoombiesConvertWolf">
     <value>{0} va a casa di {1} per offrirgli un piano di evasione delle tasse. Ma {1} è un poliziotto e lo arresta.</value>
   </string>
   <string key="HarlotFuckedKilledPublic"> <!-- used when Harlot visit's SK's victim, and dies -->
@@ -1103,7 +1103,7 @@
   <string key="ZombieKilled">
     <value>Il giornale è appena uscito! Nella pagina 10:  Sparizione Misteriosa di {0}. Di lui rimangono solo alcuni numeri della Torre di Guardia. {0} era un Testimone di Geova 👤 Questa è opera del Sequestratore Seriale. </value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>Il giornale è appena uscito! Nella pagina 2:  Sparizione Misteriosa del Parroco di Fairview. Pare che {0} non tenesse per sè i segreti confidatigli durante confessione e sia stato rapito… è opera del Sequestratore Seriale. </value>
   </string>
   <string key="DrunkKilled">
@@ -1134,10 +1134,10 @@
   <string key="SerialKillerKilledCH"> <!--used when CH visits SK-->
     <value>Il giornale è appena uscito! Nella pagina 9:  Sparizione Misteriosa. {0}, il rispettabilissimo Agente Riscossore ha cercato di far pagare le tasse al Rapitore Seriale ed è stato fatto sparire. </value>
 	</string>
-  <string key="CultConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
-    <value>Il giornale è appena uscito! {0} ha provato a convertire al culto di Geova un poliziotto ed è stato arrestato per aver evaso le tasse!</value>
+  <string key="zoombiesConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
+    <value>Il giornale è appena uscito! {0} ha provato a convertire al zoombieso di Geova un poliziotto ed è stato arrestato per aver evaso le tasse!</value>
 	</string>
-  <string key="CultConvertKillerPublic"> <!--used when Zombies convert the SK-->
+  <string key="zoombiesConvertKillerPublic"> <!--used when Zombies convert the SK-->
     <value>Il giornale è appena uscito! Nella pagina 9:  Sparizione Misteriosa. Il testimone di Geova {0} ha provato a convertire il Sequestratore Seriale questa notte ed è scomparso nel nulla!</value>
   </string>
   <string key="GAGuardedKiller"> <!-- used when GA guards SK -->
@@ -1159,7 +1159,7 @@
   </string>
   <string key="CHKillsZombieEnd">
     <!--{0} = last Zombie's name, {1} = CH's name -->
-    <value>Il giornale è appena uscito! {1} ha arrestato l'ultimo dei Testimoni di Geova per aver usato il suo culto come scusa per evadere le tasse. {0} è stato imprigionato!</value>
+    <value>Il giornale è appena uscito! {1} ha arrestato l'ultimo dei Testimoni di Geova per aver usato il suo zoombieso come scusa per evadere le tasse. {0} è stato imprigionato!</value>
   </string>
 
 <!-- Extend time -->

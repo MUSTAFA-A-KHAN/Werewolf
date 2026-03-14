@@ -72,7 +72,7 @@ namespace Shared
                     rolesToAssign[towolf] = possibleWolves[R.Next(possibleWolves.Count)]; //choose randomly from WolfRoles
                 }
 
-                //cult without CH -> add CH (unless the group REALLY doesn't want it...)
+                //zoombies without CH -> add CH (unless the group REALLY doesn't want it...)
                 if (rolesToAssign.Contains(IRole.Zombie) && !rolesToAssign.Contains(IRole.ZombieHunter)
                     && !disabledRoles.Contains(IRole.ZombieHunter))
                 {
@@ -257,7 +257,7 @@ namespace Shared
                     return allRoles.Count(x => x == IRole.Mason) <= 1 ? 1 : allRoles.Count(x => x == IRole.Mason) + 3; //strength in numbers
                 case IRole.Doppelgänger:
                     return 2;
-                case IRole.Cupid:
+                case IRole.Recruiter:
                     return 2;
                 case IRole.Hunter:
                     return 6;

@@ -311,26 +311,26 @@
   <string key="ZombieVotedConvert" >
     <value >{0} a jeté son dévolu sur {1}</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <value>{0} a été dans la maison de {1} et son âme a maintenant rejoint les profondeurs des ténèbres ! </value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <value>{0} est mort ! Il y a un nombre qui revient sans cesse dans votre tête... {1}</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>Votre rôle a changé, mais qu'est-ce que c'était ? Et qu'êtes vous devenu au final ?</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>Vous ne vous souvenez pas qui vous êtes, mais vous vous souvenez de quelqu'un d'important : {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <value>Au milieu de tous les noms qui sont dans votre tête, un nouveau apparaît un peu plus "Claire"ment : {0}!</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <value>{0} a été dans la maison de {1}, mais il n'était malheureusement pas chez lui !</value>
   </string>
-  <string key="CultWins" >
-    <value >Ils ne semblent pas se souvenir qui ils sont, mais le seul peuple qui reste debout est celui des Zombiees... Les Zombiees gagnent et leur culte connaît un impressionnant succès dans le monde entier!</value>
+  <string key="zoombiesWins" >
+    <value >Ils ne semblent pas se souvenir qui ils sont, mais le seul peuple qui reste debout est celui des Zombiees... Les Zombiees gagnent et leur zoombiese connaît un impressionnant succès dans le monde entier!</value>
   </string>
   <string key="HunterVisitDead">
     <value>{0} est mort d'une mort lente et douloureuse...!</value>
@@ -426,25 +426,25 @@
     <value>Vous ne vous souvenez pas qui vous êtes, mais vous vous souvenez de quelqu'un d'important : {0}</value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <value>{0} est déjà mort !</value>
   </string>
   <string key="GuardBlockedWolf">
     <value>Est-ce qu'il s'est passé quelque chose à la maison de {0} la nuit dernière ? Vous ne semblez pas vous souvenir...</value>
   </string>
  <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <value>{0} a été dans la maison de {1}, mais ne se souvient pas de ce qu'il s'est passé là-bas...</value>
   </string>
 <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <value>{0} a été dans la maison de {1}, mais ne se souvient pas de ce qu'il s'est passé là-bas...</value>
   </string>
   <!-- new string May 12 2016-->
   <string key="NameExists">
     <value>@{1}, un joueur avec ce nom ({0}) a déjà rejoint la partie. Merci de changer votre nom pour rejoindre la partie.</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <value>Vous êtes certain de ne pas savoir qui vous êtes, mais au moins maintenant vous savez que {0} est un Zombiee 👤 !</value>
   </string>
   <!-- new string May 13 2016-->
@@ -522,7 +522,7 @@
 	<value>Pff 🤦 ... Vous avez une chose à penser, c'est répondre ! C'est si compliqué que ça ?</value>
   </string>
   <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
     <value>C'est étrange... Vous ne semblez pas vous souvenir qui vous êtes, seulement que vous devez faire quelque chose durant la nuit !</value>
   </string>
   <string key="RoleInfoDoppelganger">
@@ -534,7 +534,7 @@
   <string key="RoleInfoSerialKiller">
     <value>C'est étrange... Vous ne semblez pas vous souvenir qui vous êtes, seulement que vous devez faire quelque chose durant la nuit !</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>Vous ne semblez pas vous rappeler qui vous êtes, mais vous vous souvenez de quelqu'un d'important : {0}</value>
   </string>
   <string key="HunterLynchedChoice">
@@ -561,7 +561,7 @@
   <string key="HunterKilledFinalShot">
     <value>Touché par balle, {0} s'écroule lamentablement.... mais non sans attraper son fusil et tirer en direction de {1} qui reçoit une balle entre les deux yeux. {2}</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <value>{0} se faufile vers la maison de {1} et est maintenant mort!</value>
   </string>
   <string key="HunterShotWolfMulti">
@@ -579,7 +579,7 @@
   <string key="GuardBlockedKiller">
     <value>S'est-il passé quelque chose chez {0} la nuit dernière ? Vous ne semblez pas vous souvenir...</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <value>{0} se faufile vers la maison de {1} et est maintenant mort!</value>
   </string>
   <string key="GuardKiller">
@@ -594,10 +594,10 @@
   <string key="DGTransformToMason">
     <value>{0} est mort ! Votre rôle a changé... Vous ne semblez pas vous rappeler qui vous êtes, mais vous vous souvenez de quelqu'un d'important : {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <value>Au milieu de tous les noms qui sont dans votre tête, un nouveau apparaît un peu plus "Claire"ment : {0}!</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <value>{0} est mort ! Votre rôle a changé... Vous ne semblez pas vous rappeler qui vous êtes, mais vous vous souvenez de quelqu'un d'important : {1}</value>
   </string>
   <string key="DGToWolf">
@@ -612,23 +612,23 @@
   <string key="AskKill">
     <value>Vous savez que vous devez faire quelque chose à quelqu'un, mais sur qui allez-vous jeter votre dévolu ?</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <value>Alors que {0} rend son dernier souffle, {1} est dans un tel désespoir qu'il s'enfonce une lance par derrière et se transperce le corps pour rejoindre dans la tombe son grand amour {2}</value>
   </string>
   <string key="AskDoppelganger">
     <value>Vous savez que vous devez faire quelque chose à quelqu'un, mais sur qui allez-vous jeter votre dévolu ?</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>Vous savez que vous devez faire quelque chose à quelqu'un, mais sur qui allez-vous jeter votre dévolu ?.</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>Vous savez que vous devez faire quelque chose à quelqu'un d'autre, mais sur qui allez-vous jeter votre dévolu ?</value>
   </string>
   <string key="Hunter">
     <value>le fusiller 🎯</value>
   </string>
-  <string key="Cupid">
-    <value>Cupidon 🏹</value>
+  <string key="Recruiter">
+    <value>Recruiteron 🏹</value>
   </string>
   <string key="SerialKiller">
     <value>le Céréales Killer 🔪</value>
@@ -639,13 +639,13 @@
   <string key="NewWCRoleModel">
     <value>Votre rôle a changé mais vous n'en saurez pas davantage... Cependant un nom apparaît dans votre esprit : {0}</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
     <value>Le grand amour est invincible ! A présent tranquilles, et sans perdre de temps, ils vont chez la Sorcière qui leur conseille sa toute nouvelle méthode de contraception à base de plantes : "La danse de l'utérus"</value>
   </string>
   <string key="HunterKilledVisiter">
     <value>Au milieu de la grand place de la ville, on retrouve le corps de {0}, troué de plusieurs balles. On dirait qu'on a cherché des noises au fusiller! {1}</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>S'est-il passé quelque chose la nuit dernière ? Vous ne semblez pas vous en souvenir...</value>
   </string>
   <string key="AlreadyOnWaitList">
@@ -717,8 +717,8 @@
   <string key="AboutFool">
     <value>Le fou pense être voyant. Mais lorsqu'il dévoile le rôle d'un joueur, il est informé d'un rôle au hasard.</value>
   </string>
-  <string key="AboutCult">
-    <value>En tant que Zombiee, votre but est de convertir tous les autres joueurs (à part les loups) à votre culte. Si tous les joueurs vivants à la fin de la partie font partie du culte, les Zombiees gagnent.</value>
+  <string key="Aboutzoombies">
+    <value>En tant que Zombiee, votre but est de convertir tous les autres joueurs (à part les loups) à votre zoombiese. Si tous les joueurs vivants à la fin de la partie font partie du zoombiese, les Zombiees gagnent.</value>
   </string>
   <string key="AboutCH">
     <value>Votre job est de traquer les Zombiees. S'ils tentent de vous convertir, leur membre le plus récent mourra. De plus, chaque nuit, vous pourrez traquer un joueur et s'il est Zombiee, vous le tuerez.</value>
@@ -738,13 +738,13 @@
   <string key="AboutDG">
     <value>
       Vos ancêtres étaient capable de se metamorphoser en quelqu'un d'autre... Vous n'avez pas cette capacité, mais vous pouvez choisir un joueur en début de partie. S'il vient à mourir, vous prendrez son rôle.
-      Remarque: S'il était converti au culte, vous recevrez son rôle initial. Toutes les autres règles normales s'appliquent : si vous devenez l'enfant sauvage dont le modèle est mort, vous serez loup. S'il n'est pas mort, vous aurez ce même modèle.
+      Remarque: S'il était converti au zoombiese, vous recevrez son rôle initial. Toutes les autres règles normales s'appliquent : si vous devenez l'enfant sauvage dont le modèle est mort, vous serez loup. S'il n'est pas mort, vous aurez ce même modèle.
       Les Zombiees ne peuvent convertir un Doppelgänger qui n'a pas encore repris un rôle. Si le Doppelgänger n'est pas devenu quelqu'un d'autre à la fin de la partie, il perd sauf s'il est l'un des deux amoureux.
     </value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>
-      Il y a de l'amour dans l'air ! En tant que Cupidon, vous pouvez choisir deux joueurs en début de partie. Ils tomberont éperduement amoureux ! Si l'un des deux meurt, l'autre mourra de chagrin. :(
+      Il y a de l'amour dans l'air ! En tant que Recruiteron, vous pouvez choisir deux joueurs en début de partie. Ils tomberont éperduement amoureux ! Si l'un des deux meurt, l'autre mourra de chagrin. :(
       Remarque : Les amoureux savent qui est leur âme soeur mais pas son rôle. S'ils sont les deux derniers survivants, ils gagnent, mais si l'un des deux survit et qu'ils sont d'équipes différentes (ex : loup et franc-maçon), ils gagneront également. 
     </value>
   </string>
@@ -926,10 +926,10 @@
   <string key="AllowTannerA">
     <value>Rôle du fou: {0}</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>Autoriser le rôle de Zombiee ?\nActuel: {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>Rôle de Zombiee : {0}</value>
   </string>
   <string key="ThankYou">
@@ -1083,7 +1083,7 @@
   <string key="SerialKillerTeam">
     <value>Equipe Céréales Killer</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>Equipe Zombiee</value>
   </string>
   <string key="TannerTeam">
@@ -1102,13 +1102,13 @@
   <string key="SerialKillerTeamEnd">
     <value>Equipe Céréales Killer</value>
   </string>
-  <string key="CultTeamEnd">
+  <string key="zoombiesTeamEnd">
     <value>Equipe Zombiee</value>
   </string>
   <string key="TannerTeamEnd">
     <value>Equipe tanneur</value>
   </string>
-  <string key="CultConvertWolf">
+  <string key="zoombiesConvertWolf">
     <value>{0} va chez {1} et est maintenant mort !</value>
   </string>
   <string key="HarlotFuckedKilledPublic"> <!-- used when Harlot visit's SK's victim, and dies -->
@@ -1127,8 +1127,8 @@
   <string key="ZombieKilled">
     <value>{0} est retrouvé poignardé avec un chandelier.. Le céréales killer semble n'avoir que faire de la religion ! {0} était un Zombiee.</value>
   </string>
-  <string key="CupidKilled">
-    <value>Le jour se lève et les villageois découvrent le coeur brisé {0} alias Cupidon, dépecé par un psycopathe collectionneur de doigts de pieds...</value>
+  <string key="RecruiterKilled">
+    <value>Le jour se lève et les villageois découvrent le coeur brisé {0} alias Recruiteron, dépecé par un psycopathe collectionneur de doigts de pieds...</value>
   </string>
   <string key="DrunkKilled">
     <value>Les villageois se rendent chez {0} pour l'apéro, mais ne retrouvent chez lui qu'un grand couteau et un foie complètement cyrrhosé. Il semblerait que des années d'alcoolisme aient sauvé son foie du céréales killer. Le reste en revanche...</value>
@@ -1160,11 +1160,11 @@
     <value>Les villageois se réveillent et retrouvent le corps de {0}, l'inquisiteur, démembré et répandu sur la grand place. Morale de l'histoire : ne pas déranger le céréales killer !</value>
     <value>Le corps de {0}, l'inquisiteur, est retrouvé au milieu du village, découpé en morceaux. Ce n'était pas une bonne idée d'aller voir le céréales killer... Au moins, on sait qu'il n'est pas Zombiee !</value>
   </string>
-  <string key="CultConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
+  <string key="zoombiesConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
     <value>Les loups ont fait une bonne action cette nuit, en dévorant le Zombiee {0}. Il a été converti en délicieux repas... cuisson ? Saignant !</value>
     <value>Les Zombiees ont fait face à l'innatendu cette nuit. Leur plus jeune membre a rendu visite à un loup, qui l'a trouvé fort apétissant. Malheureusement pour {0}, les loups ne sont pas très interessés pour rejoindre la secte à la mode.</value>
   </string>
-  <string key="CultConvertKillerPublic"> <!--used when Zombies convert the SK-->
+  <string key="zoombiesConvertKillerPublic"> <!--used when Zombies convert the SK-->
     <value>Les Zombiees souhaitaient agrandir leur confrérie, mais ils ont échoué. {0} est retrouvé mort, criblé de coups de couteaux. Mmmhh.... Le céréales killer ne semble pas intéressé par la religion.</value>
     <value>Cette nuit, les Zombiees ont trouvé encore plus fou qu'eux ! Leur membre le plus jeune, parti convertir le céréales killer, n'est jamais revenu. Repose en paix, {0}.</value>
   </string>

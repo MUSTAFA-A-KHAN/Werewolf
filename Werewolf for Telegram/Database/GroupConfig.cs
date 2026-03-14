@@ -16,8 +16,8 @@ namespace Database
         AllowTanner = 1,
         [Editable(true), Question("fool"), DefaultValue(true), ConfigGroup(ConfigGroup.RoleConfig)]
         AllowFool = 2,
-        [Editable(true), Question("cult"), DefaultValue(true), ConfigGroup(ConfigGroup.RoleConfig)]
-        AllowCult = 4,
+        [Editable(true), Question("zoombies"), DefaultValue(true), ConfigGroup(ConfigGroup.RoleConfig)]
+        Allowzoombies = 4,
         [Editable(true), Question("secretlynch", SettingQuestion.YesNo), DefaultValue(false), ConfigGroup(ConfigGroup.Mechanics)]
         EnableSecretLynch = 8,
         [Editable(true), Question("randommode", SettingQuestion.YesNo), DefaultValue(false), ConfigGroup(ConfigGroup.Mechanics)] //WAIT WHAT IS THIS? Shhhhhhhhh

@@ -313,25 +313,25 @@
   <string key="ZombieVotedConvert" >
     <value>【{0}】希望去找【{1}】</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <value>【{0}】今天晚上去找了【{1}】，然后音讯全无……</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <value>【{0}】死了！，一个新的数字【{1}】浮现在你的脑海中。</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>你的身份变了，但你原来是谁？你现在又是谁？</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>你记得【{0}】这名字，却不知道你自己是谁。</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <value>你又想到了【{0}】这名字，但还是不知道自己是谁。</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <value>【{0}】去了【{1}】家，但是他家里好像没人……</value>
   </string>
-  <string key="CultWins" >
+  <string key="zoombiesWins" >
     <value>所有狼人都死光之余，其他人也受洗成为邪教徒 —— #邪教徒胜！</value>
   </string>
   <string key="HunterVisitDead">
@@ -428,21 +428,21 @@
     <value>>你记得【{0}】这名字，却不知道你自己是谁。</value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <value>【{0}】死了！</value>
   </string>
   <string key="GuardBlockedWolf">
     <value>你觉得自己曾经去过【{0}】家，但是想不起来做过什么了……</value>
   </string>
   <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <value>【{0}】去过【{1}】家，但是他想不起来做过什么了……</value>
   </string>
   <!-- new string May 12 2016-->
   <string key="NameExists">
     <value>@{1}，已经有一位【{0}】加入了。请改名后再重新加入！（禁止重名）</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <value>你觉得自己曾经去过【{0}】家，但是想不起来做过什么了，只是依稀记得自己看到过一个没有藏好的祭坛，样子很奇怪，还散发着诡异的光芒……</value>
   </string>
   <!-- new string May 13 2016-->
@@ -522,7 +522,7 @@
         <value>你睡着了？（時间到！）</value>
   </string>
   <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
     <value>奇怪……你突然想不起来自己是谁了，不过你还记得你晚上有事情要做。</value>
   </string>
   <string key="RoleInfoDoppelganger">
@@ -534,7 +534,7 @@
   <string key="RoleInfoSerialKiller">
     <value>奇怪……你突然想不起来自己是谁了，不过你还记得你晚上有事情要做。</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>你记得【{0}】这名字，却不知道自己是谁。</value>
   </string>
   <string key="HunterLynchedChoice">
@@ -561,7 +561,7 @@
   <string key="HunterKilledFinalShot">
     <value>子弹穿过【{0}】的身体，在倒地前，【{0}】还是抽出枪射向【{1}】——正中眉心。{2}</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <value>【{0}】偷偷潜入【{1}】的家中，没想到等着他的是手持匕首的变态杀人魔【{1}】！！！杀人魔用匕首干脆利落地划开把【{0}】的脖子，鲜血喷涌而出。他再用匕首顺着身体各个器官的位置依次刺入，边刺边狂笑……\n【{0}】因失血过多而死。</value>
   </string>
   <string key="HunterShotWolfMulti">
@@ -585,10 +585,10 @@
   <string key="GuardBlockedKiller">
     <value>你觉得你曾经去过【{0}】家，但是想不起来你做过什么了……</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <value>【{0}】今天晚上去找【{1}】了，然后音讯全无……</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <value>【{0}】今天晚上去找【{1}】了，然后音讯全无……</value>
   </string>
   <string key="GuardKiller">
@@ -606,10 +606,10 @@
   <string key="DGTransformToMason">
     <value>【{0}】死了 ，你的身份也变了。\n你又回想起来【{1}】这名字，但你原来是谁？你现在又是谁？</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <value>你记得【{0}】这名字，却不知道你自己是谁。</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <value>【{0}】死了 ，你的身份也变了。\n你又回想起来【{1}】这名字，但你原来是谁？你现在又是谁？</value>
   </string>
   <string key="DGToWolf">
@@ -624,22 +624,22 @@
   <string key="AskKill">
     <value>你觉得你该去找其他人，但你该找谁呢？</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <value>当看到【{0}】倒在血泊中时，【{1}】不敢相信眼前发生的一切，撕吼着急急冲到他身边，可他已经断气……【{1}】顿时崩溃了，趴在另一半身上恸哭不止。最后他实在无法承受失去另一半的痛苦，找到一把枪自杀了。{2}</value>
   </string>
   <string key="AskDoppelganger">
     <value>你觉得你应该去找其他人，但你该找谁呢？</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>你觉得你应该去找其他人，但你该找谁呢？</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>你觉得你应该去找其他人，但你该找谁呢？</value>
   </string>
   <string key="Hunter">
     <value>猎人🎯</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>丘比特💘</value>
   </string>
   <string key="SerialKiller">
@@ -648,19 +648,19 @@
   <string key="Doppelgänger">
     <value>替身🎭</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>你记得【{0}】这名字，却不知道你自己是谁。</value>
   </string>
   <string key="NewWCRoleModel">
     <value>你好像变了。\n你又回想起来【{0}】这名字，但你原来是谁？你现在又是谁？</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
     <value>真爱永存！ #情侣胜！</value>
   </string>
   <string key="HunterKilledVisiter">
     <value>村民们在广场中央发现一具血迹斑斑周身布满枪孔的尸体，正是【{0}】！看来是他偷袭猎人失败被反杀了。{1}</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>昨晚发生了什么？想不起来惹……</value>
   </string>
     <string key="AlreadyOnWaitList">
@@ -734,7 +734,7 @@
   <string key="AboutFool">
     <value>你认为你是先知，但可惜你不是。当你去看他人的身份时，bot会随便告知你，比如你想看狼人的身份，bot却说他是守护天使。</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>你是邪教徒。你可以在晚上施洗一名玩家（除了狼人），让他们成为你的一员。如果所有玩家都失掉了原来的身份受洗成邪教徒，邪教徒就赢了。</value>
   </string>
   <string key="AboutCH">
@@ -759,7 +759,7 @@
       如果你选择的角色在受洗成邪教徒后死亡，你会接替他原有的角色。如果选的是是孤儿，他和偶像死了，你会变成狼人。如果孤儿死了，但他的偶像没死，你会继承孤儿的身份和他的偶像；你在变身前不会被洗成邪教徒，但变身后可以被洗。如果到最后都没有变形，那你就输了（除了你和另外一人是情侣）。
     </value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>
       你是丘比特。只穿着胖次，带着一弓两箭就被送到了地球。你可以用箭射中两个玩家让他们成为情侣。他们会知道对方却不知对方的身份。如果一方死去，另一方伤心之下，会自杀殉情。 如果情侣活到最后，情侣就会赢。（无论双方处于的阵营）
     </value>
@@ -941,10 +941,10 @@
   <string key="AllowTannerA">
     <value>现在游戏中{0}出现皮匠</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>允许游戏中出现邪教徒?\n当前是：{0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>现在游戏中{0}出现邪教徒</value>
   </string>
   <string key="ThankYou">

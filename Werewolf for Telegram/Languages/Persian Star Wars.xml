@@ -469,40 +469,40 @@
     <value>👈نظر {0} اینه که {1} رو جمهوری طلب کنید!
 </value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <!-- 0 - Yougest Zombie (killed)'s name' -->
     <!-- 1 - ZombieHunter's name -->
     <value>😿اوه؛ {0} رفت که {1} رو جمهوری طلب کنه ولی {1} بوبا فت بود و کشتش!
 </value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - Number of Zombies left -->
     <value>😁هه، {0} اومد تو رو جمهوری طلب کنه ولی تو کشتیش مزدور! {1} باقی مونده!
 </value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>🤗الان تو یه جمهوری طلب هستی و باید هرشب با یار هات برین و بقیه رو هم جمهوری طلب کنید!
 </value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <!-- 0 - Number of Zombies -->
     <value>👥جمهوری طلبان ها: {0}
 
 </value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <!-- 0 - new Zombie's name -->
     <value>😄ایول، الان {0} هم جمهوری طلبه!
 </value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <!-- 0 - Newest Zombie's name -->
     <!-- 1 - target name -->
     <value>😦خب {0} رفت خونه {1} تا باهاش حرف بزنه و به گروه جمهوری طلبان دعوتش کنه ولی اون خونه نبود!
 </value>
   </string>
-  <string key="CultWins">
+  <string key="zoombiesWins">
     <value>😍 همه سیت ها مردن و فقط جمهوری طلبان باقی موندن؛ ملکه آمیدالا و طرفدارانش برنده شدن! 😍
 </value>
   </string>
@@ -619,7 +619,7 @@
     <value>👈بقیه خلبان ها عبارتند از: {0}
 </value>
   </string>
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <!-- 0 - Youngest Zombies name -->
     <value>🙀جمهوری طلب جدید رفت خونه {0} که جمهوری طلبش کنه ولی مرده بود!
 </value>
@@ -630,7 +630,7 @@
     <value>😽دیشب سیت ها به خونه {0} حمله کردن ولی چیوباکا با شجاعت ازش دفاع کرد و فراری شون داد!
 </value>
   </string>
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <!-- 0 - newest  -->
     <!-- 1 - target's name -->
   <!-- new string May 12 2016-->
@@ -642,7 +642,7 @@
     <!-- 1 - name -->
     <value>جناب {0} @{1} یه بازیکن هم اسم تو توی بازیه، اسمتو عوض کن تا بتونی وارد بازی بشی</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <!-- 0 - target's name -->
   <!-- new string May 13 2016-->
     <value>😪دیشب که رفتی با {0} مذاکره کنی دیدی داره به نفع جمهوری طلبان نقشه میکشه!
@@ -740,7 +740,7 @@
   <!-- new strings june 10 2016 -->
     <value>وقت تموم شد!</value>
   </string>
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
     <value>تو الهه عشقی! تیرتو بزن تو قلب دو نفر که عاشق همدیگه بشن! اگه یکی بمیره اون یکی هم از عشق یارش میمیره</value>
   </string>
   <string key="RoleInfoDoppelganger">
@@ -753,8 +753,8 @@
   <string key="RoleInfoSerialKiller">
     <value>😜تو دارت سیدیوس، امپراتور روانی کهکشان هستی. هدف تو اینه که هرشب یکی رو با قدرت صاعقه ات جزغاله کنی تا همه بمیرن و تو قدرت مطلق بشی؛ در این راه حتی زیردست های خودت رو هم میکشی و به کسی رحم نداری!</value>
   </string>
-  <string key="CupidChosen">
-    <!-- 0 - lover's name -->
+  <string key="RecruiterChosen">
+    <!-- 0 - crewmate's name -->
     <value>تو عاشق {0} شدی. اگه یکیتون بمیره اون یکی هم از غمش میمیره</value>
   </string>
   <string key="HunterLynchedChoice">
@@ -791,7 +791,7 @@
     <!-- 2 - target's role -->
     <value>💢هان سولو یعنی {0} آخرین لحظه تفنگشو در آورد و {1} رو کشت! {2}</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
     <value>📛جمهوری طلب عزیز یعنی {0} رفت خونه دارت سیدیوس یعنی {1} که جمهوری طلبش کنه ولی {1} که خودش امپراتور بود اینقدر عصبانی شد که با قدرت صاعقه وحشتناکش {0} تا سر مرگ شکنجه داد و بعد تک تک اعضای بدنشو به ترتیب حروف الفبا برید و گذاشت تو شیشه الکل😐
@@ -820,7 +820,7 @@
     <value>😐رفتی {0} رو با صاعقه ت کباب کنی ولی چیوباکای نره غولو دیدی و ترسیدی!
 </value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
     <value>🔱جمهوری طلب عزیز رفت که {0} رو به گروه جمهوری طلبان دعوت کنه ولی {1} هان سولو بود و اونو کشت!</value>
@@ -849,12 +849,12 @@
     <value>👻کسی که ازش خوشت اومده بود یعنی {0} مرده و چون خلبان بوده الان تو هم خلبان هستی؛ بقیه خلبان ها عبارتند از: {1}
 </value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <!-- 0 - new Zombie's name -->
     <value>❇️روح هولوگرامی که از تو خوشش اومد بود یعنی {0} مثل خودت خلبان شد!
 </value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <!-- 0 - role's name -->
     <!-- 1 - teammates's name -->
     <value>👻کسی که ازش خوشت اومده بود یعنی {0} مرده و چون جمهوی طلب بوده الان تو هم جمهوی طلب هستی؛ بقیه جمهوری طلبان عبارتند از: {1}
@@ -880,9 +880,9 @@
     <value>💀کی رو میخوای امشب با صاعقه ات به فنا بدی؟
 </value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <!-- 0 - dead's name -->
-    <!-- 1 - lover's name -->
+    <!-- 1 - crewmate's name -->
     <!-- 2 - roles -->
     <value>با مرگ {0} عشق ابدیش یعنی {1} هم خودشو انداخت روی جنازش و انقدر گریه کرد تا مرد. {2}</value>
   </string>
@@ -890,16 +890,16 @@
     <value>🤔میخوای کی رو به عنوان جسم ات انتخاب کنی؟ اگه بمیره تو وظیفه شو به عهده میگیری!
 </value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>کیا رو میخوای عاشق همدیگه بکنی؟ نفر اول رو انتخاب کن</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>کیا رو میخوای عاشق همدیگه بکنی؟ نفر دوم رو انتخاب کن</value>
   </string>
   <string key="Hunter">
     <value>هان سولو👮</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>الهه عشق💘</value>
   </string>
   <string key="SerialKiller">
@@ -912,7 +912,7 @@
     <!-- 0 - target's name -->
     <value>💙تو لوک اسکای واکر هستی و شخص محبوب ات کسی نیست جز {0}</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
     <value>💛 عاشق ها برنده شدند! این است قدرت عشق =) 💚
 </value>
   </string>
@@ -923,7 +923,7 @@
 
 </value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>یه فرقه گرا دیشب میخواست تو رو هم فرقه گرا کنه ولی ایمانت قوی تر از این حرفا بود که گولشو بخوری</value>
   </string>
   <string key="AlreadyOnWaitList">
@@ -1007,7 +1007,7 @@
   <string key="AboutFool">
     <value>به احمق گفته میشه که پیشگوئه اما وقتی سعی میکنه نقش یه نفر رو بفهمه یه نقش به صورت تصادفی بهش گفته میشه</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>به عنوان رییس فرقه هدف شما آینه که همه ی بازیکن(بجز گرگ ها) به تو ایمان بیارند وقتی برنده میشی که همه ی روستایی های زنده عضو فرقه ی تو باشن</value>
   </string>
   <string key="AboutCH">
@@ -1032,7 +1032,7 @@
 یک همزاد تا قبل از اینکه جای کسی رو بگیره نمیتونه برنده بازی باشه!مگر اینکه عاشق باشه
     </value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>
       عشق در زندگی جریان داره! به عنوان الهه ی عشق در ابتدای بازی دو نفر رو انتخاب میکنی و اون دو نفر دیوانه وار عاشق هم میشن💕اگه یکی از عاشقا بمیره اون یکی هم از غمش میمیره اگه تو آخر بازی یکی از عاشقا برنده بشه آون یکی هم به طور اتوماتیک برنده حساب میشه حتی اگه توی تیم مخالف باشه!(مثال:گرگ و روستایی)
     </value>
@@ -1209,10 +1209,10 @@
   <string key="AllowTannerA">
     <value>نقش خائن: {0}</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>نقش فرقه گرا فعال باشه؟\n حالت فعلی: {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>نقش فرقه گرا: {0}</value>
   </string>
   <string key="ThankYou">
@@ -1388,13 +1388,13 @@
   <string key="SerialKillerTeamEnd">
     <value>گروه قاتل زنجیره ای</value>
   </string>
-  <string key="CultTeamEnd">
+  <string key="zoombiesTeamEnd">
     <value>گروه فرقه</value>
   </string>
   <string key="TannerTeamEnd">
     <value>گروه منافق</value>
   </string>
-  <string key="CultConvertWolf">
+  <string key="zoombiesConvertWolf">
     <value>دیشب فرقه گراها {0} رو فرستادن تا {1} رو به فرقه دعوت کنه، اما سَر {0} رو دیدن که از پنجره خونه {1} به بیرون پرتاب شده! {0} مرده!</value>
   </string>
   <string key="HarlotFuckedKilledPublic">
@@ -1413,7 +1413,7 @@
   <string key="ZombieKilled">
     <value>دیشب قاتل زنجیره ای به فرقه گراها حمله کرد و {0} رو به قتل رسوند!</value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>صبح روز بعد روستایی ها جنازه {0} رو پیدا کردن! دیگه توی روستا خبری از عشق نخواهد بود! الهه عشق مرده!</value>
   </string>
   <string key="DrunkKilled">
@@ -1443,10 +1443,10 @@
   <string key="SerialKillerKilledCH">
     <value>شکارچی {0} مشغول پیداکردن رئیس فرقه بود زمانی که داشت توی جنگل دنبال ردی از رئیس فرقه میگشت قاتل زنجیره ای بهش حمله میکنه و میکشتش!</value>
   </string>
-  <string key="CultConvertWolfPublic">
+  <string key="zoombiesConvertWolfPublic">
     <value>دیشب {0} رفت که گرگارو دعوت کنه به فرقه! ولی گرگا بهش حمله کردن و جنازه تکه تکه شدشو توی نقاط مختلف روستا ول کردن!</value>
   </string>
-  <string key="CultConvertKillerPublic">
+  <string key="zoombiesConvertKillerPublic">
     <value>شب قبل فرقه گرا ها میخواستن یک عضو جدید رو به فرقه دعوت کنن، {0} مامور شد که یکی رو به فرقه دعوت کنه، اما دیگه خبری از {0} نشد! صبح روز بعد اعضای فرقه جنازه {0} رو جلوی در خونه رئیس فرقه پیدا میکنن! قاتل زنجیره ای {0} رو کشته!</value>
   </string>
   <string key="GAGuardedKiller">
@@ -1531,8 +1531,8 @@
     <!-- {0} = list of people who have joined -->
     <value>{0} در 30 ثانیه آخر سوار شدند </value>
   </string>
-  <string key="AllowCult">
-    <value>Allow Cult</value>
+  <string key="Allowzoombies">
+    <value>Allow zoombies</value>
   </string>
   <string key="AllowTanner">
     <value>Allow Tanner</value>

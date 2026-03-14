@@ -28,11 +28,11 @@
   <string key="AboutClumsy">
     <value>Ets el maldestre 🤕. Potser no hauries d'haver pres tant d'alcohol per esmorzar. No veus res de res. Vols dir que pots votar per la persona que vols? (Tens un 50% de probabilitats de votar per algú aleatori.)</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>Com a sectari 👤, el teu objectiu és convertir tots els altres jugadors (excepte els llops) a la secta. Si al final de la partida tots els jugadors vius són sectaris, la secta guanya.</value>
   </string>
-  <string key="AboutCupid">
-    <value>L'amor ho impregna tot. Com a Cupido 🏹, triaràs dos jugadors al començament de la partida, que s'enamoraran bojament! Si un mor, l'altre morirà de pena 😢\nNota: els amants saben qui és l'altre, però no saben el seu rol. Si els dos amants són els últims dos jugadors, guanyen. Si els amants eren a equips diferents (vilatà + llop) i un equip guanya (llop), l'amant (vilatà) també guanya. En resum, si un dels dos amants és de l'equip guanyador, guanyen tots dos.</value>
+  <string key="AboutRecruiter">
+    <value>L'amor ho impregna tot. Com a Recruitero 🏹, triaràs dos jugadors al començament de la partida, que s'enamoraran bojament! Si un mor, l'altre morirà de pena 😢\nNota: els amants saben qui és l'altre, però no saben el seu rol. Si els dos amants són els últims dos jugadors, guanyen. Si els amants eren a equips diferents (vilatà + llop) i un equip guanya (llop), l'amant (vilatà) també guanya. En resum, si un dels dos amants és de l'equip guanyador, guanyen tots dos.</value>
   </string>
   <string key="AboutCursed">
     <value>Com a maleït 😾, ets un vilatà normal... fins que els llops et matin. Quan ho facin, et convertiràs en un llop com ells! Llavors podràs començar a caçar durant la nit... 😂</value>
@@ -151,13 +151,13 @@
   <string key="AllowArsonistQ">
     <value>Vols permetre el piròman? Actual: {0}</value>
   </string>
-  <string key="AllowCult">
+  <string key="Allowzoombies">
     <value>Permet la secta</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>Sectari com a rol definit a: {0}</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>Vols permetre ser sectari com a opció de rol?\nActual: {0}</value>
   </string>
   <string key="AllowExtend">
@@ -271,10 +271,10 @@
   <string key="AskConvert">
     <value>Qui vols convertir a la secta?</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>Qui vols que siguin els enamorats? Tria el primer jugador.</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>Qui vols que siguin els enamorats? Tria el segon jugador.</value>
   </string>
   <string key="AskDetect">
@@ -464,40 +464,40 @@
   <string key="CountPlayersRemain">
     <value>Jugadors restants: {0}.</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>Una figura encaputxada ha provat de convertir-te a la seva secta, però la teva fe és massa forta.</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <value>{0} havia de fer la feina bruta, i convertir {1}... però era el caçador de sectaris! {0} ha mort!</value>
   </string>
-  <string key="CultConvertGraveDigger">
+  <string key="zoombiesConvertGraveDigger">
     <value>De camí a la casa de {1}, {0} decideix de sobte que seria bona idea cremar l'església. Et porta pel cementiri quan, de sobte, un parany li envolta el peu! L'únic que sents és el seu crit mentre cau a una tomba i corres cames ajudeu-me.</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <value>La secta envia {0} per a mirar de convertir {1}, però se sent un tret d'escopeta i el cos de {0} surt volant per la finestra! {0} ha mort...</value>
   </string>
-  <string key="CultConvertKillerPublic">
+  <string key="zoombiesConvertKillerPublic">
     <value>La secta pensava que tindria un nou membre entre les seves files, però s'equivocava! {0}, un sectari, ha aparegut aquest matí a trossos a la plaça de la vila! Curiosament, el seu llibre sagrat ha aparegut apunyalat amb un ganivet, com si fos una mostra de quina religió ha triomfat.</value>
     <value>La nit passada, la secta ha provat de convertir l'única persona de la vila més boja que els seus membres. El seu membre més nou ha mirat de convertir l'assassí en sèrie, i l'assassí en sèrie ha fet una nova obra d'art amb els òrgans de {0} a la plaça de la vila.</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <value>La secta envia {0} per a mirar de convertir {1}, però el cos de {0} surt volant per la finestra, ple de ganivets pertot arreu! QUIN PSICÒPATA! {0} ha mort...</value>
     <value>{0} es cola a la casa de {1}, obre la porta i es troba immediatament un boig assassí amb un ganivet!!! {1} clava el ganivet als òrgans de {0} seguint l'ordre alfabètic, rient com un boig! {0} ha mort... 😮</value>
   </string>
-  <string key="CultConvertWolf">
+  <string key="zoombiesConvertWolf">
     <value>La secta envia {0} per a mirar de convertir {1}, però en lloc d'això, el cap de {0} surt volant per la finestra... Em demano per què han pensat que no era comestible! {0} ha mort...</value>
   </string>
-  <string key="CultConvertWolfPublic">
+  <string key="zoombiesConvertWolfPublic">
     <value>Tot i que semblava que els llops havien decidit ser bons per una vegada, era difícil resistir-se a castigar {0}, un sectari que havia decidit cercar problemes amb els llops. El cap de {0} s'ha convertit en un bon sopar, amb lliurament al domicili dels llops!</value>
     <value>Aquesta nit, la secta s'ha trobat problemes inesperats. El seu membre més nou ha tingut la mala sort de visitar un llop durant la nit en què els llops han decidit romandre a casa, i el llop ha trobat que {0} feia força bona pinta. Malauradament per a {0}, els llops no tenen gens d'interès a unir-se al nou moviment religiós.</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>T'han convertit a la secta! Ara ets sectari. Cada nit, tindràs l'oportunitat de convertir un altre jugador.</value>
   </string>
-  <string key="CultFell">
+  <string key="zoombiesFell">
     <value>Retornes d'una altra nit cansada, quan de sobte sents un crit que prové d'una de les teves tombes inacabades! T'afanyes a anar-hi, i hi trobes el cadàver de {0} dins la tomba inacabada. Però quina mena de secta prova de convertir un enterramorts?</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <value>{0} ha vingut a casa teva aquesta nit, amb la intenció de convertir-te... però l'has travessat amb l'espasa. Un sectari ha mort... Restants: {1}!</value>
   </string>
   <string key="Zombie">
@@ -524,36 +524,36 @@
   <string key="ZombieVotedConvert">
     <value>{0} ha votat convertir {1}.</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <value>{0} s'ha unit a la secta!</value>
   </string>
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <value>El membre més recent de la secta mira de convertir {0} visitant casa seva, però es troba una autèntica ruïna, sang pertot arreu i pèls de llop al costat del portal...</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>Sectaris: {0}</value>
   </string>
-  <string key="CultTeamEnd">
+  <string key="zoombiesTeamEnd">
     <value>Equip de la secta</value>
   </string>
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <value>Heu enviat {0} per a mirar de convertir {1}, però la fe d'aquesta persona era massa forta i no heu pogut convertir-la ☹️</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <value>{0} havia de fer la feina bruta, i convertir {1}... però a casa no hi havia ningú!</value>
   </string>
-  <string key="CultWins" isgif="true">
+  <string key="zoombiesWins" isgif="true">
     <value>Tots els llops han mort, i l'única gent que resta viva ha estat convertida a la secta... Ha guanyat la secta!</value>
   </string>
-  <string key="Cupid">
-    <value>en Cupido 🏹</value>
+  <string key="Recruiter">
+    <value>en Recruitero 🏹</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>Has estat tocat per l'amor. Els records de {0} no s'esborraran mai del teu cor. Si un dels dos mor, l'altre morirà de pena. Si un dels dos guanya, tots dos guanyeu.</value>
-    <value>La fletxa d'en Cupido t'ha tocat! T'has enamorat bojament de {0}! Si un dels dos mor, l'altre morirà de pena. Si un dels dos guanya, tots dos guanyeu.</value>
+    <value>La fletxa d'en Recruitero t'ha tocat! T'has enamorat bojament de {0}! Si un dels dos mor, l'altre morirà de pena. Si un dels dos guanya, tots dos guanyeu.</value>
   </string>
-  <string key="CupidKilled">
-    <value>L'endemà al matí, als vilatans se'ls va partir el cor en trobar {0}, que també rebia el sobrenom de "Cupido", amb el cos partit per la meitat de dalt a baix. Curiosament, el cor no hi era...</value>
+  <string key="RecruiterKilled">
+    <value>L'endemà al matí, als vilatans se'ls va partir el cor en trobar {0}, que també rebia el sobrenom de "Recruitero", amb el cos partit per la meitat de dalt a baix. Curiosament, el cor no hi era...</value>
   </string>
   <string key="Cursed">
     <value>el maleït 😾</value>
@@ -612,7 +612,7 @@
   <string key="DetectiveSnoop">
     <value>En tafanejar, has descobert que {0} és {1}.</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <value>El doppelgänger {0} s'ha convertit en sectari, com tu!</value>
   </string>
   <string key="DGToMason">
@@ -630,7 +630,7 @@
   <string key="DGTransformToAlphaWithSnow">
     <value>{0} ha mort, i tu et transformes en el llop alfa. Els teus companys d'equip són: {1} i el llop de les neus {2}</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <value>{0} ha mort, i tu et transformes en sectari. Els teus companys (si n'hi ha) són: {1}</value>
   </string>
   <string key="DGTransformToLycan">
@@ -838,7 +838,7 @@
   <string key="Harlot">
     <value>la prostituta 💋</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <value>T'has colat a la casa de {0} per a divertir-te una mica... però quan ja te n'anaves, t'adones que hi ha un altar estrany, mal amagat en una habitació, que desprèn una brillantor sospitosa...</value>
   </string>
   <string key="HarlotEaten">
@@ -956,7 +956,7 @@
     <value>{0} treu la seva pistola i mira la multitud... però no pot decidir a qui disparar. Accepta el seu destí i mor a la forca...</value>
   </string>
   <string key="HunterSkipChoiceShot">
-    <value>Mentre {0} jeu a terra, respirant amb dificultat... no pot decidir a qui disparar i accepta el seu destí.</value>
+    <value>Mentre {0} jeu a terra, respirant amb difizoombiesat... no pot decidir a qui disparar i accepta el seu destí.</value>
   </string>
   <string key="HunterVisitDead">
     <value>Has provat de caçar {0}, però ja havia mort!</value>
@@ -1000,10 +1000,10 @@
   <string key="Lost">
     <value>Ha perdut</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <value>Amb l'últim sospir de {0}, {1} corre i cau al seu costat, plorant. No pot suportar la pèrdua de la persona que estima i es dispara amb la primera pistola que troba. {2}</value>
   </string>
-  <string key="LoversWin" isgif="true">
+  <string key="crewmatesWin" isgif="true">
     <value>El veritable amor triomfa! Els amants han guanyat!</value>
   </string>
   <string key="Lycan">
@@ -1279,8 +1279,8 @@
   <string key="RoleInfoZombieHunter">
     <value>Ets el caçador de sectaris 💂, i mires d'evitar que la secta de la vila converteixi tothom! Cada nit pots triar un jugador. Si és sectari, mor. Si la secta prova de convertir-te, el membre més recent de la secta mor.</value>
   </string>
-  <string key="RoleInfoCupid">
-    <value>Ets en Cupido 🏹. Enviat a la Terra només amb uns calçotets, un arc i dues fletxes, has de triar dos jugadors perquè s'estimin per tota l'eternitat. Si un mor, l'altre morirà de pena.</value>
+  <string key="RoleInfoRecruiter">
+    <value>Ets en Recruitero 🏹. Enviat a la Terra només amb uns calçotets, un arc i dues fletxes, has de triar dos jugadors perquè s'estimin per tota l'eternitat. Si un mor, l'altre morirà de pena.</value>
   </string>
   <string key="RoleInfoCursed">
     <value>Ets el maleït 😾. Ara mateix ets un vilatà, però si els llops decideixen matar-te, et convertiràs en un llop.</value>
@@ -1656,7 +1656,7 @@
   <string key="ThiefTeamEnd">
     <value>Equip del lladre</value>
   </string>
-  <string key="ThiefToCult">
+  <string key="ThiefTozoombies">
     <value>{0} ja no és el teu company, i {1} ara és un sectari, com tu!</value>
   </string>
   <string key="ThiefToMason">

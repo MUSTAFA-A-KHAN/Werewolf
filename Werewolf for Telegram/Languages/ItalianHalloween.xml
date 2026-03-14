@@ -332,29 +332,29 @@
   <string key="ZombieVotedConvert" >
     <value >{0} vota per attaccare {1}</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
 
     <value>Siete andati tutti a casa di {1}, pronto per lo snack notturno.. Ma esso si è rivelato un allenato cacciatore di Vampiri! {0} è stato ucciso nello scontro!</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
 
     <value>Ti svegli nel cuore della notte, percependo la presenza di vampiri vicino. Presto, tutti i vampiri del posto si riuniscono fuori casa tua. Armato di paletto di frassino, colpisci {0} dritto nel cuore, uccidendolo. {1} vampiri sono rimasti in città!</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
 
     <value>Vieni svegliati nel cuore della notte da un prurito nel collo, poi un altro e un altro ancora.. Alla fine della notte, non ti accorgi più della mancanza di sangue, e il clan ti accoglie come uno di loro!</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>Vampiri: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <value>{0} è stato un magnifico spuntino, e adesso, un tuo compagno!</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
 
     <value>Fate visita a {1}, ma la casa era vuota! {0}, il membro più recente, non fa che lamentarsi di sete di sangue!</value>
   </string>
-  <string key="CultWins" >
+  <string key="zoombiesWins" >
 
     <value >Tutti le minacce sono sparite, ma tutti i sopravvissuti fanno ora parte del clan di vampiri! I vampiri hanno vinto!</value>
   </string>
@@ -458,7 +458,7 @@
     <value>\nGli altri alieni sono: {0}</value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
 
     <value>Vi recate nella tana di {0} per banchettare, ma sentite rumori di lotta provenire da lì... Ve ne andate senza cena, stanotte</value>
   </string>
@@ -467,7 +467,7 @@
     <value>Ti introduci nella casa di {0} per sbranarlo, ma il Gargoyle👼 proteggeva l'ingresso, senza possibilità di entrata. Dopo una dura lotta, torni a casa, sconfitto.</value>
   </string>
   <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <value>Andate a casa di {0} per un bello snack notturno, e anche {1}, il membro più nuovo e goloso, se ne torna sazio a casa. Siete riusciti a mantenerlo vivo, quindi potrete ripassare, se volete</value>
   </string>
   <!-- new string May 12 2016-->
@@ -475,7 +475,7 @@
 
     <value>{1}, un giocatore con il nome di {0} e' gia' entrato. Per favore cambia il tuo nome per partecipare. </value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
 
     <value>Ti rechi a casa di {0} per divertirti un po'... Ma durante il rapporto, ti morde violentemente... Quel morso ti ha fatto veramente male... </value>
   </string>
@@ -568,7 +568,7 @@
 	<value>È scaduto il tempo!</value>
   </string>
   <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
 
     <value>Sei la Fata dell'Amore🏹! Sei carina, sei romantica, sei pronta a fare qualche Marachella! I tuoi poteri sono limitati, ma con un po' di impegno, riuscirai a collegare le anime di due mostri.. Si sentiranno felici a vicenda, ma moriranno in caso di morte del partner!</value>
   </string>
@@ -584,7 +584,7 @@
 
     <value>Sei il Chupacabra 🔪. Mentre gli altri mostri osano solo mangiare carne morta, a te piace fresca, ancora viva.. Sei così furtivo che la maggior parte non si accorgerà nemmeno della tua presenza, finchè non sarà troppo tardi...</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
 
     <value>All'improvviso, ti inizi a chiedere cosa starà facendo {0}. Non riesci a levartelo dalla testa! Sei colpito da un grande desiderio, quasi un bisogno, di vedere {0} felice, e non riesci nemmeno cosa potrebbe succedere se morisse. Che sia questo.... l'Amore?</value>
 
@@ -642,11 +642,11 @@
 
     <value>Sei andato davanti alla tana di {0}, ma un Gargoyle👼 ti ha impedito di entrare e di nutrirti di {0}! Dopo un lungo scontro te ne torni a casa, sconfitto...</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
 
     <value>I vampiri vanno a casa di {1}, per banchettare sul suo corpo! Ma {1}, un grosso Yeti, si difende uccidendo {0}. Gli altri vampiri scappano, in preda al panico....</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
 
     <value>Vi intrufolate nella casa di {1}, pronti a succhiargli il sangue. Ma sembra che {1} voglia fare lo stesso con voi! Nella confusione, scappate a gambe levate, ma {0} è stato ucciso!</value>
 
@@ -668,11 +668,11 @@
 
     <value>{0} è morto, e tu ti trasformi in un Alieno.  I tuoi compagni (se presenti) sono: {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
 
     <value>Il Mutaforma🎭 {0} è ora diventato un Vampiro, esattamente come te!</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
 
     <value>{0} è morto, e tu ti trasformi in un Vampiro. I tuoi compagni (se presenti) sono: {1}</value>
   </string>
@@ -692,7 +692,7 @@
 
     <value>Di chi vuoi nutrirti, stanotte?</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
 
     <value>{0} muore di una causa ovvia, ciò che non si riesce a spiegare è {1}, morto esattamente allo stesso momento. {2}</value>
   </string>
@@ -700,18 +700,18 @@
 
     <value>A chi vuoi rubare il ruolo, appena muore?</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
 
     <value>Chi vuoi che siano gli innamorati? Scegli il primo giocatore</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
 
     <value>Chi vuoi che siano gli innamorati? Scegli il secondo giocatore</value>
   </string>
   <string key="Hunter">
     <value>Lo Yeti🎯</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>La fata dell'Amore🏹</value>
   </string>
   <string key="SerialKiller">
@@ -727,10 +727,10 @@
   <string key="HunterKilledVisiter">
     <value>Al centro della piazza centrale, viene ritrovato il corpo di {0}, ucciso violentemente! Sembra che lui abbia provato a visitare lo Yeti! {1}</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>L'ultima notte i vampiri ti hanno visitato, prosciugandoti gran parte del tuo sangue. Fortunatamente, non ti sei trasformato in uno di loro!</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
   <value>Nemmeno la fata dell'Amore poteva prevedere un finale così! Gli innamorati sono sopravvissuti, e che coppia singolare! Congratulazioni agli innamorati!</value>
   </string>
   <string key="SerialKillerWinsOverpower">
@@ -800,8 +800,8 @@
   <string key="AboutFool">
     <value>un povero Folle che crede di essere il Veggente.... Quando sceglie di vedere il ruolo a qualcuno, gli verrà detto un ruolo casuale in partita. Nota: È più utile di quello che sembra, può sapere con esattezza i ruoli che ci sono in partita. Se vedete un ruolo, sarà in partita.</value>
   </string>
-  <string key="AboutCult">
-    <value>Come Satanista, il tuo obiettivo è convertire tutti gli altri giocatori (tranne i lupi) Al tuo culto. Se a fine partita, tutti i giocatori sono Satanisti, Vincono. \n Probabilità di convertire i seguenti ruoli: \n Mutaforma🎭: 0% Finchè rimane Mutaforma🎭, è impossibile da convertire \n Veggente 40% Il veggente è il più difficile da convertire \n Angelo 60% Nota: Se protegge qualcuno, non lo troverai in casa \n Maledetto 60% \n Investigatore 70% \n Prostituta 70% Come l'angelo, se non è casa, non potrete convertirla \n Cacciatore 50% Avrai il 50% di convertire il cacciatore. Se fallite, C'è il 50% che vi spari.</value>
+  <string key="Aboutzoombies">
+    <value>Come Satanista, il tuo obiettivo è convertire tutti gli altri giocatori (tranne i lupi) Al tuo zoombieso. Se a fine partita, tutti i giocatori sono Satanisti, Vincono. \n Probabilità di convertire i seguenti ruoli: \n Mutaforma🎭: 0% Finchè rimane Mutaforma🎭, è impossibile da convertire \n Veggente 40% Il veggente è il più difficile da convertire \n Angelo 60% Nota: Se protegge qualcuno, non lo troverai in casa \n Maledetto 60% \n Investigatore 70% \n Prostituta 70% Come l'angelo, se non è casa, non potrete convertirla \n Cacciatore 50% Avrai il 50% di convertire il cacciatore. Se fallite, C'è il 50% che vi spari.</value>
   </string>
   <string key="AboutCH">
     <value>Il tuo lavoro è estirpare i Satanisti. Se ti visitano, ucciderai il loro ultimo membro e saprai quanti satanisti sono rimasti. Ogni notte potrai visitare un giocatore: Se sono satanisti, li ucciderai. Sennò, tornerai a casa, come se nulla fosse successo.</value>
@@ -821,7 +821,7 @@
   <string key="AboutDG">
     <value>Puoi scegliere un giocatore a inizio partita, erediti il suo ruolo \n Nota: Se il giocatore viene convertito ai satanisti, prenderai il suo ruolo originale. Tutte le altre regole normali si applicano: se erano bimbi ribelli e il loro modello è morto, diventerai un lupo. Sennò, erediterai il loro modello.\nI satanisti non possono convertire il Mutaforma🎭 (ma possono dopo che il Mutaforma🎭 cambia ruolo) E - Il Mutaforma🎭 NON può vincere a meno che si sono trasformati. Se a fine partita, il Mutaforma🎭 non si è trasformato, perde (eccezione: amante).</value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>A Inizio partita, sceglie due giocatori. Dopo diventa a tutti gli effetti un normale villico. Questi due diventeranno follemente innamorati e se uno dei due muore, l'altro morirà. Nota: gli amanti sanno chi è l'altro, ma non sanno il loro ruolo. Se gli amanti sono gli ultimi due vivi, loro vincono, indipendemente dal loro ruolo. Se gli amanti sono di due team diversi(esempio: lupo + villico), e un team vince (esempio: lupi), anche l'amante (esempio:villico) vince. \n TL;DR Se tutti e due gli amanti sono vivi a fine partita, e almeno uno dei due è nel team vincitore, vincono insieme</value>
   </string>
   <string key="AboutHunter">
@@ -998,10 +998,10 @@
   <string key="AllowTannerA">
     <value>Conciatore come ruolo impostato a {0}</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>Ammettere i Satanisti in partita, come ruolo?\nAttualmente: {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>Satanista come ruolo impostato a {0}</value>
   </string>
   <string key="ThankYou">

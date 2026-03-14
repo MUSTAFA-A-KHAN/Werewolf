@@ -381,33 +381,33 @@
 		<!-- 1 - target name -->
 		<value>{0} ได้โหวตเพื่อให้ล่อลวง {1}</value>
 	</string>
-	<string key="CultConvertZombieHunter">
+	<string key="zoombiesConvertZombieHunter">
 	    <!-- 0 - Yougest Zombie (killed)'s name' -->
 		<!-- 1 - ZombieHunter's name -->
 		<value>{0} ได้ส่งคุณไปทำงานสกปรก และได้พยายามล่อลวง {1}... แต่โชคชะตาเล่นตลก เขาดันเป็นนักล่าลัทธินอกรีต! {0} ตายซะแล้ว!</value>
 	</string>
-	<string key="ZombieHunterKilledCultVisit">
+	<string key="ZombieHunterKilledzoombiesVisit">
 	    <!-- 0 - Youngest Zombie's name -->
 		<!-- 1 - Number of Zombies left -->
 		<value>{0} มาที่บ้านคุณเมื่อคืนนี้และพร้อมที่จะล่อลวงคุณ แต่คุณเผลอฆ่าเขาโดยไม่ได้ตั้งใจ พวกบ้าลัทธิตายไปอีกหนึ่ง ตอนนี้เหลืออีก {1}!</value>
 	</string>
-	<string key="CultConvertYou">
+	<string key="zoombiesConvertYou">
 		<value>พวกคลั่งลัทธิได้ล่อลวงคุณสำเร็จ! ตอนนี้คุณเป็นพวกคลั่งลัทธิเหมือนกัน ทุก ๆ คืนคุณสามารถล่อลวงคนอื่นมาคลั่งลัทธิได้เหมือนกันนะ</value>
 	</string>
-	<string key="CultTeam">
+	<string key="zoombiesTeam">
 	    <!-- 0 - Number of Zombies -->
 		<value>ทีมคลั่งลัทธิ: {0}</value>
 	</string>
-	<string key="CultJoin">
+	<string key="zoombiesJoin">
 	    <!-- 0 - new Zombie's name -->
 		<value>{0} ได้เข้าร่วมลัทธิ!</value>
 	</string>
-	<string key="CultVisitEmpty">
+	<string key="zoombiesVisitEmpty">
 	    <!-- 0 - Newest Zombie's name -->
 		<!-- 1 - target name -->
 		<value>{0} ได้ส่งคุณไปทำงานสกปรก และได้พยายามล่อลวง {1}... แต่ดันไม่มีใครอยู่บ้าน!</value>
 	</string>
-	<string key="CultWins" isgif="true">
+	<string key="zoombiesWins" isgif="true">
 		<value>หมาป่าทุกตัวตายหมดแล้ว และทุกคนที่เหลืออยู่คือลัทธิแห่งความสุข ดูเหมือนชัยชนะจะตกเป็นของลัทธิ!</value>
 	</string>
 	<string key="HunterVisitDead">
@@ -512,7 +512,7 @@
 		<value>  เมสันมี: {0}</value>
 	</string>
 	 <!-- new strings May 6 2016-->
-	<string key="CultTargetDead">
+	<string key="zoombiesTargetDead">
 	    <!-- 0 - Youngest Zombies name -->
 		<value>สมาชิกใหม่ของคุณตรงไปที่บ้านของ {0} เพื่อโน้มน้าว แต่สิ่งแรกที่พบคือเลือดจำนวนมาก และขนของหมาป่า</value>
 	</string>
@@ -521,7 +521,7 @@
 		<value>ฝูงหมาป่าได้ตรงไปที่บ้านของ {0} เพื่ออาหารอันโอชะ แต่น่าเสียดายเทวดาผู้พิทักษ์ปกป้องเขาอยู่และคุณก็ต้องล่าถอยไป</value>
 	</string>
 	<!-- new strings May 9 2016-->
-	<string key="CultUnableToConvert">
+	<string key="zoombiesUnableToConvert">
 	    <!-- 0 - newest  -->
 		<!-- 1 - target's name -->
 		<value>คุณส่ง {0} เพื่อโน้มนาว {1} ยังไงก็ตามดูเหมือนความเชื่อของเขาจะสูงเกินไป คุณชักชวนเขาไม่สำเร็จนะ :(</value>
@@ -532,7 +532,7 @@
 		<!-- 1 - name -->
 		<value>@{1}, ผู้เล่นชื่อ {0} ได้เข้าร่วมแล้ว ดูเหมือนจะมีชื่อซ้ำให้เลือกชื่ออื่นนะ</value>
 	</string>
-	<string key="HarlotDiscoverCult">
+	<string key="HarlotDiscoverzoombies">
 	    <!-- 0 - target's name -->
 		<value>คุณได้เข้าไปที่บ้านของ {0} เพื่อหาความสุขนิดหน่อย… แต่คุณก็ออกไปหลังจากที่เห็นอะไรแปลกๆ อีกมุมห้องนึง พวกเขากำลังบูชาอะไรบางอย่างที่มัน... ไม่ใช่... เรื่องปกติแน่ๆ</value>
 	</string>
@@ -626,7 +626,7 @@
 		<value>หมดเวลา!</value>
 	</string>
 	<!-- new strings june 10 2016 -->
-	<string key="RoleInfoCupid">
+	<string key="RoleInfoRecruiter">
 		<value>คุณเป็นกามเทพ ถูกส่งมาบนโลกมีเพียงแค่กางเกงใน และธนูกับลูกธนูเพียงสองดอก คุณต้องเลือกผู้เล่นสองคนเพื่อทำให้เขารักกันตลอดกาล ถ้าคนนึงตายไปอีกคนนึงก็จะตายตามไปเพราะความเศร้า</value>
 	</string>
 	<string key="RoleInfoDoppelganger">
@@ -638,7 +638,7 @@
 	<string key="RoleInfoSerialKiller">
 		<value>คุณเป็นฆาตกรต่อเนื่องที่เพิ่งลี้ภัยมา เป้าหมายของคุณคือให้ทุกคนตาย ในทุก ๆ คืนคุณจะสามารถเก็บศพมาใส่ในคอลเล็คชั่นศพของของคุณได้</value>
 	</string>
-	<string key="CupidChosen">
+	<string key="RecruiterChosen">
 		<value>คุณถูกความรักปักหัวเข่า เอ๊ย! หัวใจ!! ความทรงจำกับ {0} จะไม่มีวันเลือนหายไปจากใจคุณ เป้าหมายของคุณคือให้คุณทั้งคู่รอดตาย ถ้าใครคนใดคนหนึ่งตาย อีกคนหนึ่งจะตรอมใจตายตาม ถ้าใครคนใดคนหนึ่งชนะ อีกคนก็จะชนะด้วย</value>
 		<value>คุณถูกความรักปักหัวเข่า เอ๊ย! หัวใจ!! คุณตกหลุมรัก {0} อย่างงอหัวไม่ขึ้น! ถ้าเขาตาย คุณก็จะตรอมใจตายไปด้วย แต่ถ้าใครคนใดคนหนึ่งชนะ คุณก็จะชนะไปด้วย</value>
 	</string>
@@ -694,12 +694,12 @@
 	    <!-- 0 - target's name -->
 		<value>คุณพยายามจะเก็บร่างของ {0} มาใส่คอลเล็คชั่นสะสมของคุณ แต่เทวดาฟันน้ำนมปกป้องไว้ได้! อดเลย</value>
 	</string>
-	<string key="CultConvertHunter">
+	<string key="zoombiesConvertHunter">
 	    <!-- 0 - Youngest Zombie's name -->
 		<!-- 1 - target's name -->
 		<value>กลุ่มลัทธิส่ง {0} เพื่อพยายามชักชวน {1} ให้เข้าพวก แต่เสียงปืนกลับดังขึ้น ร่างของ {0} ปลิวออกมาจากหน้าต่าง! {0} ตาย....</value>
 	</string>
-	<string key="CultConvertSerialKiller">
+	<string key="zoombiesConvertSerialKiller">
 	    <!-- 0 - Youngest Zombie's name -->
 		<!-- 1 - target's name -->
 		<value>กลุ่มลัทธิส่ง {0} เพื่อพยายามชักชวน {1} แต่ร่างของ {0} กลับลอยออกมานอกหน้าต่างพร้อมมีดปักอยู่ทุกส่วนของร่างกาย! นี่มันโรคจิตชัดๆ!!!! {0} ตาย....</value>
@@ -724,11 +724,11 @@
 		<!-- 1 - mason collegues's name -->
 		<value>{0} ได้ตายลงและคุณได้กลายร่างเป็นเมสัน เพื่อนร่วมทีม (ถ้ามี) ของคุณคือ: {1}</value>
 	</string>
-	<string key="DGToCult">
+	<string key="DGTozoombies">
 	    <!-- 0 - new Zombie's name -->
 		<value>ตอนนี้ doppelganger {0} ได้กลายเป็นพวกคลั่งลัทธิ… เหมือนกับคุณ!</value>
 	</string>
-	<string key="DGTransformToCult">
+	<string key="DGTransformTozoombies">
 	    <!-- 0 - role's name -->
 		<!-- 1 - teammates's name -->
 		<value>{0} ได้ตายลง และคุณได้กลายร่างเป็นพวกคลั่งลัทธิ เพื่อร่วมทีม (ถ้ามี) ของคุณคือ: {1}</value>
@@ -748,25 +748,25 @@
 	<string key="AskKill">
 		<value>ใครที่คุณต้องการฆ่าคืนนี้?</value>
 	</string>
-	<string key="LoverDied">
+	<string key="crewmateDied">
 	    <!-- 0 - dead's name -->
-		<!-- 1 - lover's name -->
+		<!-- 1 - crewmate's name -->
 		<!-- 2 - roles -->
 		<value>ด้วยลมหายใจสุดท้ายของ {0} เราเห็น {1} วิ่งร้องไห้หายไป เขาคงทนไม่ได้ที่เห็นคนที่รักต้องจากไปเราพบเขาอีกทีตอนที่เขายิงตัวตาย…. {2}</value>
 	</string>
 	<string key="AskDoppelganger">
 		<value>คุณต้องการจะเป็นใครถ้าเขาตาย?</value>
 	</string>
-	<string key="AskCupid1">
+	<string key="AskRecruiter1">
 		<value>คุณต้องการให้ใครรักกัน? เลือกผู้เล่นคนแรกเลย</value>
 	</string>
-	<string key="AskCupid2">
+	<string key="AskRecruiter2">
 		<value>คุณต้องการให้ใครรักกัน? เลือกผู้เล่นคนที่สอง</value>
 	</string>
 	<string key="Hunter">
 		<value>นักล่า 🎯</value>
 	</string>
-	<string key="Cupid">
+	<string key="Recruiter">
 		<value>กามเทพ 🏹</value>
 	</string>
 	<string key="SerialKiller">
@@ -779,7 +779,7 @@
 	    <!-- 0 - target's name -->
 		<value>คุณได้เป็นรุ่นน้อง รุ่นพี่ของคุณคือ {0}</value>
 	</string>
-	<string key="LoversWin">
+	<string key="crewmatesWin">
 		<value>ความรักชนะทุกสิ่ง! ชัยชนะครั้งนี้จึงตกเป็นของคู่รัก!</value>
 	</string>
 	<string key="HunterKilledVisiter">
@@ -787,7 +787,7 @@
 		<!-- 1 - role -->
 		<value>ณ ใจกลางจัตุรัสกลางเมือง, ทุกคนได้พบศพของ {0}, ถูกยิงเข้าที่ลำตัวเป็นจำนวนหลายนัดด้วยกัน ดูเหมือนว่าพวกเขาพยายามที่จะย่องหนีจากนักล่า {1}</value>
 	</string>
-	<string key="CultAttempt">
+	<string key="zoombiesAttempt">
 		<value>เหล่าชาวลัทธิได้พยายามหลอกล่อคุณเข้าเป็นส่วนหนึ่งกับพวกเขา แต่จิตใจของคุณนั้นเข้มแข็งพอที่จะต่อต้าน</value>
 	</string>
 	<string key="AlreadyOnWaitList">
@@ -875,7 +875,7 @@
 	<string key="AboutFool">
 		<value>คุณคือคนโง่ ตั้งแต่เริ่มเกมคุณจะนึกว่าคุณคือหมอดู... เมื่อคุณเลือกดูบทบาทของผู้เล่นใด คุณจะได้รับคำตอบแบบสุ่ม.</value>
 	</string>
-	<string key="AboutCult">
+	<string key="Aboutzoombies">
 		<value>คุณคือพวกคลั่งลัทธิ เป้าหมายของคุณคือชักชวนผู้เล่นทุกคน (ยกเว้นเจ้าพวกหมาป่า) ให้มาเข้าลัทธิของคุณให้ได้ ถ้าหากเกมจบลงแล้วผู้เล่นที่เหลืออยู่ทุกคนอยู่ในลัทธิของคุณ ลัทธิของคุณจะชนะ</value>
 	</string>
 	<string key="AboutCH">
@@ -899,7 +899,7 @@
 	หมายเหตุ: ถ้าหากผู้เล่นคนดังกล่าวได้เข้าลัทธิไป คุณจะรับเพียงอาชีพเดิมของผู้เล่นคนนั้น ส่วนกฏข้ออื่นยังคงมีผลดังนี้: ถ้าเขาเคยเป็นรุ่นน้องและเซมไปของพวกเขาถูกฆ่าตาย คุณจะกลายเป็นมนุษย์หมาป่าไปแทน มิเช่นนั้น คุณก็จะได้อาชีพแบบเซมไปของพวกเขามาแทน
     Doppelgänger ไม่สามารถเข้าร่วมลัทธิได้ (แต่ได้หลังจากที่ doppelganger เปลี่ยนอาชีพ) คำเตือน: Doppelgänger จะไม่สามารถชนะเกมได้หากไม่ได้กลายร่าง ถ้า Doppelgänger ยังไม่เปลี่ยนอาชีพและยังอยู่จนถึงเกมจบ เขาจะแพ้ทันที (นอกเสียจากว่าคุณจะเป็น ”คู่รัก”)</value>
 	</string>
-	<string key="AboutCupid">
+	<string key="AboutRecruiter">
 		<value>
 	คุณคือกามเทพ ตั้งแต่เริ่มเกมคุณสามารถเลือกผู้เล่นได้ 2 คน ผู้เล่นทั้งคู่จะกลายเป็น ”คู่รัก”! หากหนึ่งในคู่รักเสียชีวิตลง ผู้เล่นอีกคนจะตรอมใจตายตามไปด้วย :(
     Note: คู่รักจะรู้ว่าใครคือใคร แต่ไม่สามารถรู้อาชีพของอีกฝ่ายได้ หากคู่รักทั้งคู่มีชีวิตอยู่ถึงจบเกม ทั้งคู่จะเป็นผู้ชนะ ไม่ว่าจะอยู่ฝ่ายใด หากคู่รักอยู่คนละฝ่าย(ชาวบ้าน+หมาป่า) และคนหนึ่งชนะ(หมาป่า) คู่รักอีกท่าน(ชาวบ้าน) ก็จะชนะด้วย ถึงแม้จะอยู่กันคนละฝ่าย #LOVEWINS
@@ -1081,10 +1081,10 @@
 	<string key="AllowTannerA">
 		<value>อาชีพคนขวางโลกถูกตั้งเป็น: {0}</value>
 	</string>
-	<string key="AllowCultQ">
+	<string key="AllowzoombiesQ">
 		<value>อนุญาตให้มีอาชีพพวกคลั่งลัทธิหรือไม่?\nปัจจุบัน: {0}</value>
 	</string>
-	<string key="AllowCultA">
+	<string key="AllowzoombiesA">
 		<value>อาชีพพวกคลั่งลัทธิถูกตั้งเป็น: {0}</value>
 	</string>
 	<string key="EnableSecretLynchQ">
@@ -1242,7 +1242,7 @@
 	<string key="SerialKillerTeam" deprecated="true">
 		<value>ฆาตกรต่อเนื่อง</value>
 	</string>
-	<string key="CultTeam" deprecated="true">
+	<string key="zoombiesTeam" deprecated="true">
 		<value>พวกคลั่งลัทธิ</value>
 	</string>
 	<string key="TannerTeam" deprecated="true">
@@ -1261,13 +1261,13 @@
 	<string key="SerialKillerTeamEnd">
 		<value>ฆาตกรต่อเนื่อง</value>
 	</string>
-	<string key="CultTeamEnd">
+	<string key="zoombiesTeamEnd">
 		<value>พวกคลั่งลัทธิ</value>
 	</string>
 	<string key="TannerTeamEnd">
 		<value>ไอ้ศูนย์กลางจักรวาล</value>
 	</string>
-	<string key="CultConvertWolf">
+	<string key="zoombiesConvertWolf">
 		<value>พวกคลั่งลัทธิได้ส่ง {0} ไปชักชวน {1} มาเข้าร่วม แต่กลายเป็นว่าหัวของ {0} กลับลอยละลิ่วออกมาทางหน้าต่างแทน... สงสัยจัง ทำไมมันกินไม่ได้นะ... {0} ตายแล้ว</value>
 	</string>
 	
@@ -1288,7 +1288,7 @@
 	<string key="ZombieKilled">
 		<value>ร่างของ {0} ถูกพบพร้อมกับธูปเทียนดอกไม้สำหรับทำพิธีกรรม ฆาตกรต่อเนื่องล่าเหยื่อของเขาอีกครั้ง ไม่ว่าเหยื่อจะนับถืออะไรก็ตาม {0} เป็นพวกคลั่งลัทธิ</value>
 	</string>
-	<string key="CupidKilled">
+	<string key="RecruiterKilled">
 		<value>รุ่งเช้าวันนี้ เหล่าชาวบ้านแทบใจสลาย เมื่อพบว่า {0} กามเทพของพวกเขา ถูกแยกส่วนออกเป็นชิ้นๆ กระจายไปทั่วบริเวณ เเต่น่าแปลกที่ชิ้นส่วนเหล่านั้น ไม่พบหัวใจอยู่เลย...</value>
 	</string>
 	<string key="DrunkKilled">
@@ -1322,12 +1322,12 @@
 		<value>ชาวบ้านตื่นขึ้นมาในตอนเช้า พบเศษชื้นส่วนของ นักล่าพวกนอกรีต {0} กระจายเต็มกลางเมือง (บทเรียนนี้สอนให้รู้ว่า: อย่าไปเยี่ยมบ้านฆาตกรต่อเนื่อง!)</value>
 		<value>ร่างของนักล่าพวกนอกรีต {0} ถูกพบกระจายหลายร้อยชื้นอยู่ที่ใจกลางเมือง ดูเหมือนการเชิญชวนฆาตกรต่อเนื่องมาเข้าลัทธิ จะไม่ใช่ความคิดที่ดีนัก...</value>
 	</string>
-	<string key="CultConvertWolfPublic">
+	<string key="zoombiesConvertWolfPublic">
 	    <!--used when Zombies convert the wolves, only if wolves stayed home-->
 		<value>ดูเหมือนแค่มนุษย์จะไม่พอเสียแล้ว {0} อยากจะลองเผยแพร่ลัทธิไปยังเหล่าหมาป่าดูบ้าง แต่ว่าหมาป่ามองเขาเป็นอาหารแสนอร่อยแทน อ่า...อาหารส่งฟรีถึงบ้าน ดีจริงที่คืนนี้ไม่ได้ออกจากบ้านซะก่อน!</value>
 		<value>สมาชิกใหม่ไฟแรง อยากหาสมาชิกเข้ากลุ่มให้มากขึ้น จึงลองเชิญชวนหมาป่าเข้าลัทธิ ซึ่งเจ้าตัวก็อยู่บ้านพอดี กลิ่นหอมของหมูกระทะที่ติดเสื้อ {0} จากอาหารเย็น ทำให้เจ้าบ้านทนหิวไม่ไหว.... ต้องขอขอบคุณสำหรับความทุ่มเทของ {0} ที่สุดท้ายหมาป่าก็ไม่ได้มีความสนใจเข้าร่วมลัทธิใดๆ</value>
 	</string>
-	<string key="CultConvertKillerPublic">
+	<string key="zoombiesConvertKillerPublic">
 	    <!--used when Zombies convert the SK-->
 		<value>กลุ่มลัทธิคิดว่า พวกเขากำลังจะได้สมาชิกมาเพิ่ม แต่ผิดแล้วละ! สมาชิก {0} โดนสับละเอียดกองไว้กลางหมู่บ้าน   น่าแปลก ที่มีคัมภีร์โดนมีดปักตกอยู่ด้วย ราวกับจะบอกว่า ความเชื่อไหนเหนือกว่า</value>
 		<value>เมื่อคืน กลุ่มลัทธิพยายามจะโน้มน้าวให้ใครคนหนึ่งที่บ้ากว่าพวกเขาให้มาเข้าร่วม   สมาชิกน้องใหม่พยายามชักชวนฆาตกรต่อเนื่อง แล้วก็กลายเป็นงานศิลปะชิ้นใหม่กลางหมู่บ้าน โดยฆาตกรรังสรรค์จากเครื่องในของ {0} </value>
@@ -1413,7 +1413,7 @@
 		<!-- NOTE: No space between {0} and joined. It will be added in the code if necessary-->
 		<value>{0} เข้าร่วมเกมใน 30 วินาทีนี้</value>
 	</string>
-	<string key="AllowCult">
+	<string key="Allowzoombies">
 		<value>อนุญาตให้มีลัทธิในเกม</value>
 	</string>
 	<string key="AllowTanner">
@@ -1651,7 +1651,7 @@
 	<!-- 0 - mason collegues's name -->
 		<value>เพื่อนร่วมทีม (ถ้ามี) ของคุณคือ: {0}</value>
 	</string>
-	<string key="ThiefToCult">
+	<string key="ThiefTozoombies">
 	<!-- 0 - old Zombie's name -->
     <!-- 1 - new Zombie's name -->
 		<value>{0} โดนขโมยใบอนุญาตเข้าลัทธิ และ {1} ได้มาคลั่งลัทธิเหมือนกับคุณ!</value>
@@ -2008,16 +2008,16 @@
 	<string key="HunterFell">
 		<value>เป็นอีกคืนที่พิฆาตเจ้าพวกคลั่งลัทธิไม่ได้เลยสักคน! ด้วยความหงุดหงิด คุณเลยย่ำต๊อกอยู่แถวๆสุสาน โดยไม่ได้สังเกตว่ามีกับดักอยู่ด้วย จนกระทั่งมันงับข้อเท้าเข้าให้ คุณกรีดร้องและพยายามดิ้นให้หลุด แต่สายไปเสียแล้ว คุณหงายหลังร่วงลงไปในหลุมศพของ {0} ที่ยังไม่กลบ และเสียงสุดท้ายที่ได้ยินคือเสียงคอของคุณที่หักดังกร๊อบ แล้วทุกอย่างก็มืดลง</value>
 	</string>
-	<!--{0}: cult hunter-->
+	<!--{0}: zoombies hunter-->
 	<string key="HunterFellDigger">
 		<value>หลังจากคืนที่เหนื่อยล้าอีกคืนหนึ่ง คุณเดินกลับบ้านในตอนพระอาทิตย์เบิกฟ้าแล้ว แต่ก่อนที่จะถึงบ้าน คุณสังเกตเห็นดาบตกอยู่บนพื้นข้างๆหลุมศพที่คุณยังไม่ได้จัดการกลบ ในหลุมนั้น คุณพบร่างของ {0} นอนอยู่ นักล่าพวกคลั่งลัทธิไม่น่ามาสงสัยคุณเลย...</value>
 	</string>
 	<!--{0}: Zombie-->
-	<string key="CultFell">
+	<string key="zoombiesFell">
 		<value>คุณกำลังกลับจากการทำงานที่แสนเหน็ดเหนื่อยอีกคืน ตอนนั้นเอง คุณได้ยินเสียงกรีดร้องดังขึ้นมาจากหลุมศพที่ยังฝังไม่เ่สร็จหลุมหนึ่ง คุณเร่งรุดไปที่นั่น แล้วพบ {0} นอนตายอยู่ในนั้น จะว่าไป ลัทธิบ้าบออะไรกันนะ ถึงพยายามชักชวนสัปเหร่อให้มาเป็นพวก</value>
 	</string>
 	<!--{0}: Zombie who fell, {1}: grave digger-->
-	<string key="CultConvertGraveDigger">
+	<string key="zoombiesConvertGraveDigger">
 		<value>ในขณะที่กำลังไปบ้านของ {1} {0} คิดว่า มันเป็นความคิดที่ดีที่จะเผาโบสถ์ด้วยซะเลย เขาพาคุณเดินผ่านสุสานเพื่อไปเผา ทันใดนั้น กับดักก็ทำงาน!   สิ่งที่คุณได้ยินต่อมา คือ เสียงกรีดร้องของเขาก่อนที่จะร่วงลงไปในหลุม   คุณรีบโกยอ้าวหนีเอาตัวรอด</value>
 	</string>
 	<!--{0}: grave digger-->

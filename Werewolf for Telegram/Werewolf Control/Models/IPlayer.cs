@@ -47,7 +47,7 @@ namespace Werewolf_Control.Models
 
         public bool Fled { get; set; } = false;
         public ITeam Team { get; set; } = ITeam.Village;
-        public int DayCult { get; set; } = 0;
+        public int Dayzoombies { get; set; } = 0;
         public int RoleModel { get; set; } = 0;
         public bool DiedFromWolf { get; set; } = false;
         public bool DiedFromKiller { get; set; } = false;
@@ -55,8 +55,10 @@ namespace Werewolf_Control.Models
         public bool DiedFromLove { get; set; } = false;
         public string Name { get; set; }
         public IRole OriginalRole { get; set; }
-        public bool InLove { get; set; } = false;
-        public int LoverId { get; set; } = 0;
+        public bool isRecruited { get; set; } = false;
+        public int crewmateId { get; set; } = 0;
+        public bool CrewmatesWereForced { get; set; } = false;
+         public bool HasSwappedCrew { get; set; } = false;
         public int DBPlayerId { get; set; } = 0;
         public int DBGamePlayerId { get; set; } = 0;
         public DateTime TimeDied { get; set; } = DateTime.MaxValue;
@@ -65,15 +67,15 @@ namespace Werewolf_Control.Models
 
     public enum ITeam
     {
-        Village, Cult, Wolf, Tanner,
-        Neutral, SerialKiller, Lovers,
+        Village, zoombies, Wolf, Tanner,
+        Neutral, SerialKiller, crewmates,
         SKHunter,
         NoOne
     }
 
     public enum KillMthd
     {
-        None, Lynch, Eat, Shoot, VisitWolf, VisitVictim, GuardWolf, Detected, Flee, Hunt, HunterShot, LoverDied, SerialKilled, HunterCult, GuardKiller, VisitKiller, Idle, Suicide, StealKiller, Chemistry, FallGrave,
+        None, Lynch, Eat, Shoot, VisitWolf, VisitVictim, GuardWolf, Detected, Flee, Hunt, HunterShot, crewmateDied, SerialKilled, Hunterzoombies, GuardKiller, VisitKiller, Idle, Suicide, StealKiller, Chemistry, FallGrave,
         Spotted, Burn, VisitBurning
     }
 
@@ -98,8 +100,8 @@ namespace Werewolf_Control.Models
         Hunt,
         HunterKill,
         SerialKill,
-        Lover1,
-        Lover2,
+        crewmate1,
+        crewmate2,
         Mayor,
         SpreadSilver,
         Kill2,

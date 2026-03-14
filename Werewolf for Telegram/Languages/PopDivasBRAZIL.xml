@@ -460,41 +460,41 @@
 -->
     <value>{0} votou para converter {1}</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <!-- 0 - Yougest Zombie (killed)'s name' -->
 -->
     <!-- 1 - ZombieHunter's name -->
 -->
     <value>{0} foi enviado(a) para fazer o trabalho sujo e converter {1}... Entretanto, ele era o Kanye West, e tinha uma câmara de tortura especial pra o Squad! {0} está morto(a)!</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <!-- 0 - Youngest Zombie's name -->
 -->
     <!-- 1 - Number of Zombies left -->
 -->
     <value>{0} foi à sua casa na noite passada, pronto(a) para te converter....  Mas você tinha uma câmara de tortura à base de lives da Selena Gomez só pra esse tipo de gente. Um membro do Squad está morto... {1} restante(s)!</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>Você foi convertido(a) e agora é um membro do Squad de Taylor Swift! Durante a noite, você poderá tentar converter outras cantoras.</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <!-- 0 - Number of Zombies -->
 -->
     <value>Membros do Squad de Taylor Swift: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <!-- 0 - new Zombie's name -->
 -->
     <value>{0} se juntou ao Squad de Taylor Swift!</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <!-- 0 - Newest Zombie's name -->
 -->
     <!-- 1 - taZombieme -->
 -->
     <value>{0} foi enviado(a) para fazer o trabalho sujo e converter {1}... Mas ninguém estava no estúdio!</value>
   </string>Zombie
-  <string key="CultWins">
+  <string key="zoombiesWins">
     <value>Todos as sedentas morreram e as únicas pessoas sobreviventes pertencem ao Squad de Taylor Swift...  O Squad venceu! PARABÉNS TAYLOR SWIFT, VOCÊ ESTÁ FELIZ?</value>
   </string>
   <string key="HunterVisitDead">
@@ -615,7 +615,7 @@
   <!-- new strings May 6 2016-->
     <value>  As exs do Justin Bieber são são: {0}</value>
   </string>
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <!-- 0 - Youngest Zombies name -->
 -->
     <value>O membro mais recente do Squad corre para a casa de {0} para fazer o trabalho sujo e convertê-lo(a), mas encontra uma bagunça, looks rasgados e prêmios quebrados... Seu alvo fracassou!</value>
@@ -628,7 +628,7 @@
   <!-- new strings May 9 2016-->
     <value>As sedentas se dirigem à casa de {0}, para tramar mais um fracasso, mas lá dá de cara com uma criatura alta, elevada e cercada por luz, armada com uma voz estrondosa. A Christina Aguileira dá um berro em defesa do alvo e, após uma luta ao som dos mais variados hits, o lado faminto sai derrotado e foge para casa.</value>
   </string>
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <!-- 0 - newest  -->
 -->
     <!-- 1 - target's name -->
@@ -645,7 +645,7 @@
 -->
     <value>@{1}, um(a) jogador(a) com nome {0} já se juntou à partida. Por favor mude seu nome para poder entrar no jogo.</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <!-- 0 - target's name -->
 -->
   <!-- new string May 13 2016-->
@@ -761,7 +761,7 @@
   <!-- new strings june 10 2016 -->
     <value>O tempo acabou e choca a todos. </value>
   </string>
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
     <value>Você é a Mariah Carey. Enviado a Billboard com um arco e duas flechas, você pode escolher duas divas que irão se amar para toda eternidade. Se um deles morrer, o outro morrerá de tristeza. Depois de unir dois amantes, você pode voltar ao seu papel como Katy Perry.</value>
   </string>
   <string key="RoleInfoDoppelganger">
@@ -773,7 +773,7 @@
   <string key="RoleInfoSerialKiller">
     <value>Você é a Beyoncé. Seu time é você mesmo e as outras divas não são mais que seus brinquedinhos. Toda noite você pode escolher alguma diva para assassinar e adicionar para sua coleção de corpos. Você quer, Jay-Z?</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>Você foi atingido(a) pela flecha do amor. A baladinha de {0} nunca deixará seu coração. Seu objetivo é que os dois hitem. Se um de vocês fracassarem o outro irá junto!</value>
     <value>A flecha da Mariah Carey acertou seu coração! Você está apaixonado por {0}!  Se ele(a) fracassar, você fracassa também. No final, se ambos estiverem no topo da Billboard, vocês vencem.</value>
   </string>
@@ -844,14 +844,14 @@
 -->
     <value>Você foi assassinar {0}. Mas chegando lá a Christina Aguileira deu um berro estrondoso! Sem derrubar aviões essa noite...</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <!-- 0 - Youngest Zombie's name -->
 -->
     <!-- 1 - target's name -->
 -->
     <value>O Squad de Taylor Swift manda {0} para converter {1}. Chegando lá {0} é recebida com uma dança mortal ao som de La Tortura! {0} tá morta...</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <!-- 0 - Youngest Zombie's name -->
 -->
     <!-- 1 - target's name -->
@@ -882,12 +882,12 @@
 -->
     <value>{0} morreu, e você agora é a Selena Gomez.  Seus insta seguidores (se houver) são: {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <!-- 0 - new Zombie's name -->
 -->
     <value>A Iggy Azalea{0} se transformou em um membro do Squad de Taylor Swift. Obriga logo a participar do clipe de Bad Blood!</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <!-- 0 - role's name -->
 -->
     <!-- 1 - teammates's name -->
@@ -912,10 +912,10 @@
   <string key="AskKill">
     <value>Quem você quer fracassar essa noite?</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <!-- 0 - dead's name -->
 -->
-    <!-- 1 - lover's name -->
+    <!-- 1 - crewmate's name -->
 -->
     <!-- 2 - roles -->
 -->
@@ -924,16 +924,16 @@
   <string key="AskDoppelganger">
     <value> Quem você escolherá para se transformar?</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>Quem será o casal? Escolha o primeiro amante.</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>Quem será o casal? Escolha o segundo amante.</value>
   </string>
   <string key="Hunter">
     <value>a Shakira 🎯</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>a Mariah Carey 🏹</value>
   </string>
   <string key="SerialKiller">
@@ -947,7 +947,7 @@
 -->
     <value>Você se tornou o Justin Bieber.  Seu modelo exemplar é {0}</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
     <value>Os amantes hitaram! Queriam o que né? O que Mariah Carey uniu ao som de We Belong Together nenhum chart separa!</value>
   </string>
   <string key="HunterKilledVisiter">
@@ -957,7 +957,7 @@
 -->
     <value>Quando acordam, vocês encontram {0} morta no meio do palco ao de Beautiful Liar. Parece que alguém visitou a Shakira e se deu mal! {1}</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>Alguém bateu na sua porta a noite, "Olá, você tem um minuto para ouvir o 1989? Aceitamos cartão de crédito, cheque e boleto bancário." Você manda tomar no cu e diz que está entrando em contato com Kanye West e fecha a porta na cara, mas você se esqueceu de olhar o rosto dele!</value>
   </string>
   <string key="AlreadyOnWaitList">
@@ -1053,7 +1053,7 @@
   <string key="AboutFool">
     <value>Ele é o Mark Ronson! TROUXA.</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>Você é a Cut-Throat. Durante a noite, você poderá escolher alguém para converter ao Squad de Taylor Swift e participar de Bad Blood. Se todos as divas restantes ao final do show forem do Squad, vocês vencem!</value>
   </string>
   <string key="AboutCH">
@@ -1075,7 +1075,7 @@
     <value>Você é a Iggy Azalea. A Lenda diz que seus ancestrais eram metamorfos, e podiam copiar qualquer diva que quisessem! Escolha um jogador e quando o mesmo morrer, você plagiará suas músicas se tornando ele na Bilboard.
     </value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>Você é a Mariah Carey. Enviado a Billboard com um arco e duas flechas, você pode escolher duas divas que irão se amar para toda eternidade. Se um deles morrer, o outro morrerá de tristeza. Depois de unir dois amantes, você pode voltar ao seu papel como Katy Perry.
     </value>
   </string>
@@ -1260,10 +1260,10 @@
   <string key="AllowTannerA">
     <value>Existência do Suicida definida como: {0}</value>
   </string>Zombie
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>Permitir a Seita como um papel possível?\nAtual: {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>Existência da Seita definida como: {0}</value>
   </string>
   <string key="ThankYou">
@@ -1431,7 +1431,7 @@
   <string key="SerialKillerTeam">
     <value>Beyhive</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <!-- 0 - Number of Zombies -->
 -->
     <value>Swifties: {0}</value>
@@ -1451,13 +1451,13 @@
   <string key="SerialKillerTeamEnd">
     <value>Beyhive</value>
   </string>
-  <string key="CultTeamEnd">
+  <string key="zoombiesTeamEnd">
     <value>Swifties</value>
   </string>
   <string key="TannerTeamEnd">
     <value>Pacto Suicida</value>
   </string>
-  <string key="CultConvertWolf">
+  <string key="zoombiesConvertWolf">
     <value>O Squad de Taylor Swift envia {0} para tentar converter {1}, mas em vez disso, a sua conta bancária é blqueada. {0} está morto...</value>
   </string>
   <string key="HarlotFuckedKilledPublic">
@@ -1477,7 +1477,7 @@
   <string key="ZombieKilled">
     <value>De manhã todos encontram {0} ensanguentada ao meio de posters da Taylor Swift. A Beyoncé não paga boleto e toda diva é bem-vinda para sua diversão! O Squad de Taylor Swift sentir falta de {0}...</value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>Os aldeões ficam de coração partido ao encontrar {0}, a Mariah Carey, morta. Estranho o fato de seu coração estar faltando, obviamente obra da Beyoncé.</value>
   </string>
   <string key="DrunkKilled">
@@ -1507,11 +1507,11 @@
   <string key="SerialKillerKilledCH">
     <value>O fracasso de The Life of Pablo na Billboard é permanente! {0}, o Kanye West, escreveu o diss a pessoa errada. A Beyoncé o convidou para sua casa e ele nunca mais saiu... Tá feliz, Jay-Z?</value>
   </string>
-  <string key="CultConvertWolfPublic">
+  <string key="zoombiesConvertWolfPublic">
     <value>Péssima escolha do Squad de Taylor Swift ao visitar uma sedenta que decidiu ficar em casa durante a noite. {0} está morta, foi convertido em um belo feat. para as sedentas, que não são muito interessados em músicas sem conceito.</value>
     <value>Mais uma vez o Squad de Taylor Swift se meteu onde não devia. A {0}, membro da seita, tentou converter uma sedenta noite passada! E flopou feio, flopou rude e agora está morta como a carreira de Christina Aguileira.</value>
   </string>
-  <string key="CultConvertKillerPublic">
+  <string key="zoombiesConvertKillerPublic">
     <value>Ontem a noite o Squad de Taylor Swift decidiu visitar a única pessoa mais estranha do que elas mesmas, a Beyoncé, e por causa disso, o cobrador do boleto, {0}, serviu para ser escravizado e morto por Beyoncé para trabalhar na Ivy Park.</value>
   </string>
   <string key="GAGuardedKiller">

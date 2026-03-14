@@ -326,28 +326,28 @@
     <value>{0}\n{1}</value>
     <value>{1}\n{0}</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <value>{0}\n{1}</value>
     <value>{1}\n{0}</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <value>{0}\n{1}</value>
     <value>{1}\n{0}</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>⁣</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>{0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <value>{0}</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <value>{0}\n{1}</value>
     <value>{1}\n{0}</value>
   </string>
-  <string key="CultWins" isgif="true">
+  <string key="zoombiesWins" isgif="true">
     <value>/startgame\n/startchaos</value>
   </string>
   <string key="HunterVisitDead">
@@ -445,14 +445,14 @@
     <value>{0}</value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <value>{0}</value>
   </string>
   <string key="GuardBlockedWolf">
     <value>{0}</value>
   </string>
   <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <value>{0}\n{1}</value>
     <value>{1}\n{0}</value>
   </string>
@@ -460,7 +460,7 @@
   <string key="NameExists">
     <value>@{1}\nx{0}</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <value>{0}</value>
   </string>
   <!-- new string May 13 2016-->
@@ -538,7 +538,7 @@
 	<value>⁣</value>
   </string>
   <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
     <value>⁣</value>
   </string>
   <string key="RoleInfoDoppelganger">
@@ -550,7 +550,7 @@
   <string key="RoleInfoSerialKiller">
     <value>⁣</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>{0}</value>
   </string>
   <string key="HunterLynchedChoice">
@@ -579,7 +579,7 @@
     <value>{0}\n{1}\n{2}</value>
     <value>{1}\n{0}\n{2}</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <value>{0}\n{1}</value>
     <value>{1}\n{0}</value>
   </string>
@@ -598,7 +598,7 @@
   <string key="GuardBlockedKiller">
     <value>{0}</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <value>{0}\n{1}</value>
     <value>{1}\n{0}</value>
   </string>
@@ -614,10 +614,10 @@
   <string key="DGTransformToMason">
     <value>{0}\n{1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <value>{0}</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <value>{0}\n{1}</value>
   </string>
   <string key="DGToWolf">
@@ -632,23 +632,23 @@
   <string key="AskKill">
     <value>⁣</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <value>{0}\n{1}\n{2}</value>
     <value>{1}\n{0}\n{2}</value>
   </string>
   <string key="AskDoppelganger">
     <value>⁣</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>⁣</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>⁣</value>
   </string>
   <string key="Hunter">
     <value>🎯</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>🏹</value>
   </string>
   <string key="SerialKiller">
@@ -660,14 +660,14 @@
   <string key="NewWCRoleModel">
     <value>{0}</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
     <value>/startgame\n/startchaos</value>
   </string>
   <string key="HunterKilledVisiter">
     <value>{0}\n{1}</value>
     <value>{1}\n{0}</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>⁣</value>
   </string>
   <string key="AlreadyOnWaitList">
@@ -741,7 +741,7 @@
   <string key="AboutFool">
     <value>⁣</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>⁣</value>
   </string>
   <string key="AboutCH">
@@ -762,7 +762,7 @@
   <string key="AboutDG">
     <value>⁣</value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>⁣</value>
   </string>
   <string key="AboutHunter">
@@ -940,10 +940,10 @@
   <string key="AllowTannerA">
     <value>Set to: {0}</value>
   </string>
-  <string key="AllowCultQ">
-    <value>Allow cult?\nCurrent: {0}</value>
+  <string key="AllowzoombiesQ">
+    <value>Allow zoombies?\nCurrent: {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>Set to: {0}</value>
   </string>
   <string key="ThankYou">
@@ -1095,8 +1095,8 @@
   <string key="SerialKillerTeam" deprecated="true">
     <value>SK Team</value>
   </string>
-  <string key="CultTeam" deprecated="true">
-    <value>Cult Team</value>
+  <string key="zoombiesTeam" deprecated="true">
+    <value>zoombies Team</value>
   </string>
   <string key="TannerTeam" deprecated="true">
     <value>Tanner Team</value>
@@ -1114,13 +1114,13 @@
   <string key="SerialKillerTeamEnd">
     <value>SK Team</value>
   </string>
-  <string key="CultTeamEnd">
-    <value>Cult Team</value>
+  <string key="zoombiesTeamEnd">
+    <value>zoombies Team</value>
   </string>
   <string key="TannerTeamEnd">
     <value>Tanner Team</value>
   </string>
-  <string key="CultConvertWolf">
+  <string key="zoombiesConvertWolf">
     <value>{0}\n{1}</value>
     <value>{1}\n{0}</value>
   </string>
@@ -1142,7 +1142,7 @@
   <string key="ZombieKilled">
     <value>{0}</value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>{0}</value>
   </string>
   <string key="DrunkKilled">
@@ -1172,10 +1172,10 @@
   <string key="SerialKillerKilledCH"> <!--used when CH visits SK-->
     <value>{0}</value>
   </string>
-  <string key="CultConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
+  <string key="zoombiesConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
     <value>{0}</value>
   </string>
-  <string key="CultConvertKillerPublic"> <!--used when Zombies convert the SK-->
+  <string key="zoombiesConvertKillerPublic"> <!--used when Zombies convert the SK-->
     <value>{0}</value>
   </string>
   <string key="GAGuardedKiller"> <!-- used when GA guards SK -->
@@ -1268,8 +1268,8 @@
     <!-- {0} = list of people who have joined -->
     <value>{0}</value>
   </string>
-    <string key="AllowCult">
-    <value>Allow Cult</value>
+    <string key="Allowzoombies">
+    <value>Allow zoombies</value>
   </string>
   <string key="AllowTanner">
     <value>Allow Tanner</value>
@@ -1307,7 +1307,7 @@
     <value>All</value>
   </string>
   <string key="RandomModeQ">
-    <value>Enable random mode?\nWhen random mode is enabled, Chaos, Secret Lynch, Show Roles on Death, and Allow Cult / Fool / Tanner will be randomly determined everytime someone starts a game.\nCurrent:{0}</value>
+    <value>Enable random mode?\nWhen random mode is enabled, Chaos, Secret Lynch, Show Roles on Death, and Allow zoombies / Fool / Tanner will be randomly determined everytime someone starts a game.\nCurrent:{0}</value>
   </string>
   <string key="RandomModeA">
     <value>Enabling of random mode set to: {0}</value>
@@ -1506,7 +1506,7 @@
     <!-- 0 - mason collegues's name -->
     <value>{0}</value>
   </string>
-  <string key="ThiefToCult">
+  <string key="ThiefTozoombies">
     <!-- 0 - old Zombie's name -->
     <!-- 1 - new Zombie's name -->
     <value>{0}\n{1}</value>
@@ -1893,16 +1893,16 @@
   <string key="HunterFell">
 	<value>{0}</value>
   </string>
-  <!--{0}: cult hunter-->
+  <!--{0}: zoombies hunter-->
   <string key="HunterFellDigger">
 	<value>{0}</value>
   </string>
   <!--{0}: Zombie-->
-  <string key="CultFell">
+  <string key="zoombiesFell">
 	<value>{0}</value>
   </string>
   <!--{0}: Zombie who fell, {1}: grave digger-->
-  <string key="CultConvertGraveDigger">
+  <string key="zoombiesConvertGraveDigger">
 	<value>{0}\n{1}</value>
 	<value>{1}\n{0}</value>
   </string>

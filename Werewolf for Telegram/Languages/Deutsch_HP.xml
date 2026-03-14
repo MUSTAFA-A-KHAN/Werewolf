@@ -555,42 +555,42 @@
     <value>{0} will sich von den Gefühlen und Erfahrungen von {1} ernähren.</value>
     <value>{0} will aus der Seele von {1} einen weiteren Dementor erschaffen.</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <!-- {0} - Yougest Zombie (killed)'s name' -->
     <!-- {1} - ZombieHunter's name -->
     <value>In dieser Nacht war es die Aufgabe von {0}, {1} zu küssen. Leider war dies Remus Lupin 💂 und hat einen mächtigen Wolfs-Patronus heraufbeschworen, der zu stark für {0} war. Er/Sie ist nun endgültig von uns gegangen.</value>
     <value>Heute sollte {0} die Seele von {1} aussaugen. Leider war dies bei Remus Lupin 💂 nicht so einfach möglich, denn er hat {0} mit einem Patronuszauber zerstört.</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <!-- {0} - Youngest Zombie's name -->
     <!-- {1} - Number of Zombies left -->
     <value>{0} 👤 wollte sich von deinen positiven Gefühlen ernähren. Doch zum Glück weißt du, dass man einen Dementor mit einem Patronus zerstören kann. {1} Dementoren sind noch übrig.</value>
     <value>{0} 👤 wollte dich küssen. Doch zum Glück hast du einen mächtigen Patronus gezaubert und {0} zerstört. {1} Dementoren sind noch am Leben.</value>
     <value>{0} war ein Dementor 👤, der aus dir einen weiteren erschaffen wollte. Naja, da hat er/sie nicht mit deinem Wolfs-Patronus gerechnet, der ihn/sie direkt eliminiert hat. Es leben noch {1} Dementoren.</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>Ein Dementor 👤 hat dich geküsst. In der Angststimmung hat sich ein neuer Dementor aus deiner Seele gebildet</value>
     <value>Ein Dementor 👤 hat deine Seele aus dir herausgezogen. Es ist kalt und eisig hier. Deshalb verwandelst du dich langsam, aber sicher in einen weiteren Dementoren.</value>
     <value>Ein Dementor 👤 hat dich erfolgreich angegriffen. In dieser dunklen, kalten Stimmung wirst du nun selbst zu einem Dementor.</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <!-- {0} - Number of Zombies -->
     <value>Dementoren: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <!-- {0} - new Zombie's name -->
     <value>{0} ist ein weiterer Dementor!</value>
     <value>Ihr könnt euch über einen weiteren Dementoren in Form von {0} freuen.</value>
     <value>Auch wenn es eine eiskalte und ängstliche Feier wird: {0} ist nun ebenfalls ein Dementor.</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <!-- {0} - Newest Zombie's name -->
     <!-- {1} - target name -->
     <value>{0} wurde gesendet, um {1} zu küssen, aber er/sie war nicht aufzufinden.</value>
     <value>{0} findet das Bett von {1} verlassen vor, keine Spur einer menschlichen Seele, die von euch ausgesaugt werden könnte.</value>
     <value>Der neueste Dementor, {0}, sollte {1} in Angst und Schrecken versetzen. Daraus wurde aber nichts, da er/sie nicht zu finden war.</value>
   </string>
-  <string key="CultWins" isgif="true">
+  <string key="zoombiesWins" isgif="true">
     <value>Die Todesser starben, alle anderen Lebenden wurden zu Dementoren. Die Dementoren haben gewonnen!</value>
     <value>Nur noch Dementoren übrig? Na, dann haben die wohl gewonnen!</value>
     <value>Es wird kalt in der Zaubererwelt. Eiskalt. Alles Positive verschwindet. Die Sorgen regieren die Welt. Denn die Dementoren haben das Spiel gewonnen!</value>
@@ -711,7 +711,7 @@
     <!-- {0} - dead man's name -->
     <value>Zum Tagesbeginn werden die Leichen 🐺 in der großen Halle gezählt. Doch wer ist denn {0}? Rote Haare - das kann doch nur ein Weasley 👷 sein...</value>
     <value>{0} wird tot neben einem Ford Anglia und der peitschenden Weide aufgefunden. Das war aber sicher nur ein Zufall, denn man sieht, dass er/sie durch einen Fluch 🐺 gestorben ist. Ein Weasley 👷 ist tot.</value>
-    <value>Rote Haare, hässlicher Wollpullover - nichts gegen die Werke von Molly, aber man erkennt doch eindeutig, dass es sich bei der gerade gefundenen Leiche 🐺 {0} um einen Weasley 👷 handeln muss.</value>
+    <value>Rote Haare, hässlicher Wollpulcrewmate - nichts gegen die Werke von Molly, aber man erkennt doch eindeutig, dass es sich bei der gerade gefundenen Leiche 🐺 {0} um einen Weasley 👷 handeln muss.</value>
   </string>
   <string key="MasonTeam">
     <value>Du weißt genau, wer auf der Küchenuhr im Fuchsbau steht: {0}</value>
@@ -719,7 +719,7 @@
     <value>Die anderen Weasleys sind: {0}</value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <!-- {0} - Youngest Zombies name -->
     <value>Ihr wolltet bei {0} einen neuen Dementor entstehen lassen, doch es wurde nur eine Leiche 🐺 gefunden...</value>
     <value>Ihr wolltet euch von den positiven Gedanken von {0} ernähren, allerdings gab es diese gar nicht mehr. {0} ist bereits tot 🐺.</value>
@@ -732,7 +732,7 @@
     <value>Lily Potter 👼 scheint heute Nacht {0} zu beschützen. Da habt ihr euch wohl den falschen Zauberer für den Todesfluch ausgesucht...</value>
   </string>
   <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <!-- {0} - newest  -->
     <!-- {1} - target's name -->
     <value>{0} wurde losgeschickt, um einen weiteren Dementor entstehen zu lassen. Jedoch hatte {1} scheinbar zu viel positive Energie, sodass {0} alleine zurückkehrt.</value>
@@ -745,7 +745,7 @@
     <!-- {1} - name -->
     <value>@{1}, ein Zauberer mit dem Namen {0} ist bereits beigetreten. Die einzigen, die an so einer verwirrenden Runde Spaß hätten, wären Fred und George... Könntest du für die anderen deinen Namen ändern, um beizutreten?</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <!-- {0} - target's name -->
     <value>Du besuchst {0} in dieser Nacht. Doch irgendwie ist es unter seiner/ihrer Decke erstaunlich kalt. Richtig, richtig eiskalt sogar. Und du fühlst dich nun so unglaublich schwach und gebrochen. Komisch, woher kommt das nur?</value>
     <value>Bei {0} wirst du direkt unglaublich traurig und herzlos. Er/Sie scheint ein Dementor 👤 zu sein...</value>
@@ -801,7 +801,7 @@
     <value>Hast du etwa verschlafen? Hoffen wir mal, dass du morgen schneller auf deinem Besen bist, denn die heutige Abstimmung ist bereits vorbei.</value>
   </string>
   <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
     <value>Du bist Madam Puddifoot 🏹. In deinem kleinen Café dekorierst du extra viel auf kitschig-romantische Art, dass du dir schon sicher bist, dass sich deine nächsten beiden Gäste direkt ineinander verlieben werden.</value>
     <value>Du bist Madame Puddifoot 🏹. Romilda hat dir etwas von ihrem Liebestrank abgegeben, den du heimlich in den Tee deiner Teehaus-Gäste schüttest.</value>
     <value>In einer kleinen, süßen Seitenstraße in Hogsmeade befindet sich dein schnuckeliges Café, Madam Puddifoot 🏹! Du schmückst dort gerne nach deinem Belieben und hoffst, dass du dadurch die Entstehung der ein oder anderen Liebe etwas vorantreiben kannst.</value>
@@ -821,7 +821,7 @@
     <value>Du bist Gellert Grindelwald 🔪. Du bist vernarrt in die Heiligtümer des Todes und hättest sie am liebsten alle in deinem Besitz. Ein Blutschwur, den du mit deinem besten Freund Albus, sind dir Zweikämpfe mit ihm verboten, doch als in einem Dreikampf mit ihm und seinem Bruder Aberforth deren Schwester Adriana um's Leben kam, trennten sich eure Wege und du wurdest zum gefährlichsten Zauberer überhaupt.</value>
     <value>Mit der Schweiz hast du zwar nicht so viel am Hut, du bist allerdings trotzdem Grindelwald 🔪. Dunkle Magie fasziniert dich so sehr, dass du dich in den USA auf die Suche nach einem Obscurus machtest. Du hoffst, dadurch noch mächtiger und grausamer zu werden, sodass dir die ganze Zaubererwelt unterliegen wird.</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>Dir wurde in Madam Puddifoots Café ein Liebestrank untergejubelt. Jetzt bist du unsterblich in {0} verliebt ❤. Euer Ziel ist, dass ihr beide überlebt. Falls einer von euch stirbt, wird sich der andere sofort einen Todestrank hinunterkippen, denn die Vorstellung, voneinander getrennt zu sein, haltet ihr nicht mehr aus. Gewinnt einer von euch, gewinnt ihr beide. Aber am liebsten möchtet ihr natürlich zu zweit gewinnen!</value>
     <value>Du hast dich unsterblich in {0} verliebt ❤. Die Deko in Madam Puddifoots Café hat da sicher dazu beigetragen. Nun ja, ihr könnt es euch nun nicht mehr vorstellen, alleine zu sein. Ihr habt deshalb einen unbrechbaren Schwur geschlossen, dass ihr nicht ohne einander leben wollt. Nun ja - was das bedeutet, wenn doch einer von euch sterben sollte, ist ja wohl klar...</value>
     <value>{0} scheint es dir vollkommen angetan zu haben ❤. Nach dem ersten Treffen in Madam Puddifoots Café wart gemeinsam auf dem Weihnachtsball und seitdem seid ihr nicht mehr auseinander zu bekommen. Wenn einer von euch nicht mehr sein sollte, so wird der andere versuchen, den Stein der Auferstehung zu nutzen. Doch da dies nicht die erwünschte Erfüllung mit sich bringt, wird nichts am Selbstmord vorbeiführen, der euch schlussendlich wieder vereinen wird.</value>
@@ -901,12 +901,12 @@
     <value>Lily Potter 👼 hat sich mit ihrer Liebe zwischen dich und dein Opfer {0} geworfen. Somit wirst du heute Nacht niemanden loswerden können.</value>
     <value>Immer diese mütterliche Liebe. Dein Fluch auf {0} scheint keine Wirkung zu haben, zu stark ist Lilys 👼 Schutz.</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <!-- {0} - Youngest Zombie's name -->
     <!-- {1} - target's name -->
     <value>Die Dementoren senden {0}, um aus der Fröhlichkeit von {1} weitere Dementoren entstehen zu lassen. Doch stattdessen erkennt man einen silbrig leuchtenden Patronus in Form eines Hundes. Sirius 🎯 scheint den Dementor vernichtet zu haben! {0} ist tot...</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <!-- {0} - Youngest Zombie's name -->
     <!-- {1} - target's name -->
     <value>{0} schleicht durchs Schloss, um {1} zu suchen. Doch bevor er/sie gefunden wird, scheint es einen Angriff eines Obscurus zu geben. Scheinbar habt ihr versucht, Gellert Grindelwald 🔪 zu besuchen, dessen Obscurus-Begleiter euch nicht so sehr mochte. {0} ist tot.</value>
@@ -934,11 +934,11 @@
     <!-- {1} - mason collegues's name -->
     <value>{0} ist gestorben und du verwandelst dich in einen rothaarigen Zauberer, der im Fuchsbau lebt. Du bist jetzt also einer der Weasleys 👷. Deine Familie (falls vorhanden) besteht aus: {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <!-- {0} - new Zombie's name -->
     <value>Tonks 🎭 ({0}) hat sich euch Dementoren zu sehr genähert. Um nicht aufzufallen, hat sie sich ebenso in einen Dementor verwandelt. Doch in Ermangelung ihrer positiven Gedanken kann sie sich nun nicht mehr zurückverwandeln, sie bleibt nun dauerhaft ein Dementor.</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <!-- {0} - role's name -->
     <!-- {1} - teammates's name -->
     <value>{0} ist gestorben. In dieser negativen Energie verwandelst du dich direkt ebenfalls in einen Dementor 👤, um seinen/ihren Platz einzunehmen, und kannst dich nun nicht mehr zurückverwandeln. Deine Mit-Dementoren sind (falls vorhanden): {1}</value>
@@ -963,9 +963,9 @@
     <value>Wen möchtest du heute Nacht töten?</value>
     <value>Wer soll heute die grünen Funken aus deinem Zauberstab abbekommen und sterben?</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <!-- {0} - dead's name -->
-    <!-- {1} - lover's name -->
+    <!-- {1} - crewmate's name -->
     <!-- {2} - roles -->
     <value>Mit dem sterbenden Atemzug von {0} eilt {1} herbei und fällt weinend auf die Knie. Er/Sie kann den Tod seines/r Geliebten ❤ nicht ertragen und verflucht sich mit dem nächsten aufzutreibenden Zauberstab. {2}.</value>
     <value>Als die Lebensgeister aus {0} weichen, ertönt ein spitzer Schrei und {1} stolpert mit tränenüberströmtem Gesicht durch die Masse der Leute. Er/Sie beugt sich über den leblosen Körper und ehrt dessen Anblick mit einer liebevollen Geste ❤ zum letzten Mal.\nOhne mit der Wimper zu zucken, zieht er/sie ein kleines Fläschchen aus der Tasche - doch darin scheint sich kein flüssiges Glück befunden zu haben. Mit der Aufnahme des letzten Tropfens des Todestranks sackt {1} zusammen. Heute gab es zwei Tote in Hogwarts. {2}.</value>
@@ -974,12 +974,12 @@
     <value>In wen möchtest du dich verwandeln, wenn er/sie stirbt?</value>
     <value>Die Frage der Fragen: Wen möchtest du nach dessen Tod vertreten?</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>Wer sollen die Liebenden ❤ sein? Setz den ersten Zauberer direkt an den extra hübsch mit Herzen dekorierten Tisch!</value>
     <value>Wen möchtest du in deinem Café gerne verlieben? ❤ Wähle den ersten Zauberer:</value>
     <value>Wähle einen Zauberer, der sich an deinen Liebestisch setzen soll! ❤</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>Wer sollen die Liebenden ❤ sein? Setz zweiten Zauberer doch an den hübsch dekorierten Tisch dazu, dann ergibt sich alles Weitere von alleine!</value>
     <value>Wen möchtest du in deinem Café gerne verlieben? ❤ Wähle den zweiten Zauberer:</value>
     <value>Wähle den Zauberer, der sich mit an deinen Liebestisch setzen soll! ❤</value>
@@ -987,7 +987,7 @@
   <string key="Hunter">
     <value>Sirius Black 🎯</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>Madam Puddifoot 🏹</value>
   </string>
   <string key="SerialKiller">
@@ -1000,7 +1000,7 @@
     <!-- {0} - target's name -->
     <value>Du bist Nagini 👶. Dein Vorbild ist {0}.</value>
   </string>
-  <string key="LoversWin" isgif="true">
+  <string key="crewmatesWin" isgif="true">
     <value>Wahre Liebe hält am längsten! Die Liebenden haben gewonnen!</value>
     <value>Die letzten beiden Überlebenden sind die Liebenden. Sie fallen sich erleichtert in die Arme und genießen für einen Moment nur die Stille, bevor sie durch das verlassene Schloss nach Hogsmeade schlendern.</value>
     <value>Die Liebe hat gewonnen! Es muss schön sein, endlich nicht mehr in Schrecken zu leben - sich unbedrängt zu küssen, nachdem man einen Horkrux in der Kammer des Schreckens getötet hat - oh, ich glaube ich verwechsle etwas - nachdem man alle anderen Zauberer getötet hat! Lebt zusammen in Frieden, bis dass der Tod euch scheidet...</value>
@@ -1011,7 +1011,7 @@
     <value>Mitten auf dem Schlossgelände findet ihr den Körper von {0}, total verkohlt. Sieht so aus, als hätte er versucht, sich an Sirius Black 🎯 anzuschleichen, der scheinbar ein Höllenfeuer als Schutz heraufbeschworen hat. {1}.</value>
     <value>Ihr findet {0} totgebissen auf dem Boden. Scheinbar hat sich Sirius Black 🎯, verwandelt als Tatze, nicht so recht mit dem ungebetenen Besuch anfreunden können. Naja, {1}.</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>Ein verschleierter Dementor 👤 versuchte, dich deiner positiven Gedanken zu berauben, doch du bist stark geblieben!</value>
     <value>Ein Dementor 👤 versuchte, sich von deiner Positivität zu ernähren, doch dich kriegt so schnell nichts unter! Jetzt aber schnell eine Tafel Schokolade! 🍫</value>
     <value>Du spürst heute Nacht eisige Kälte. Es scheint so, als wären Dementoren 👤 unterwegs. Zum Glück hast du direkt einen Patronus heraufbeschworen!</value>
@@ -1103,7 +1103,7 @@
   <string key="AboutFool">
     <value>Du bist Sybill Trelawney 🃏. Du denkst, du wärst eine gute Wahrsagerin, doch in Wahrheit siehst du eigentlich überall den Grimm und sagst Tode voraus, die nicht so wirklich stimmen. Deine Prophezeiungen sind jedoch von enormer Wichtigkeit, aber die haben nichts mehr mit dem aktuellen Spiel zu tun...! Da du von dir selbst sehr überzeugt bist, denkst du auch, du könntest so gut wahrsagen wie Firenze - Du weißt zu Beginn nicht einmal, dass du gar nicht er bist. Deine Wahrsagungen, die eigentlich daraus bestehen, die Rollen von Zauberern zu erfahren, bestehen hier aus anderen, sich noch im Spiel befindlichen Rollen. Dabei unterscheidest du nicht zwischen den verschiedenen Todesser-Rollen, kannst aber auch Peter Pettigrew erkennen, sollte er sich im Spiel befinden - etwas, was du Firenze voraushast!</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>Du bist ein Dementor 👤, ein Wesen, das aus Angst entsteht. Du ernährst dich von den schönen Gefühlen der Mitmenschen und kannst ihnen die schlimmste Strafe der Zaubererwelt zufügen: den Kuss eines Dementors. Dies saugt dem Opfer die Seele aus und gilt als schlimmer als der Tod. Durch die dadurch entstehende Angstatmosphäre kannst du in deinem Opfer einen neuen Dementor entstehen lassen, solange es schwach genug ist. Du gewinnst, wenn nur noch Dementoren am Leben sind.</value>
   </string>
   <string key="AboutCH">
@@ -1124,7 +1124,7 @@
   <string key="AboutDG">
     <value>Du bist Nymphadora Vulpecula Tonks 🎭, am liebsten nur Tonks genannt. Als Metamorphmagus kannst du deine Gestalt beliebig ändern. Um das Ganze aber nicht zu kompliziert zu machen, belassen wir es aber bei einem Mal pro Spiel, ja? Als Hufflepuff bist du immer hilfsbereit und bei allen beliebt, trotz deiner trotzigen Art. Am Anfang jedes Schuljahres wählst du einen Zauberer aus, in dessen Rolle du schlüpfst, falls dieser sterben sollte. Falls du bis zum Ende des Spiels noch nicht verwandelt sein solltest, verlierst du - denn auch wenn du an sich lieb bist, möchtest du deine Verwandlungsfähigkeit auf jeden Fall nutzen!</value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>Du bist Madam Puddifoot 🏹, die Besitzerin des süßen schnuckeligen Cafés in Hogsmeade. Du dekorierst einen deiner Tische immer auf eine besonders kitschig-romantische Art, wodurch du schon so einige Liebespaare mitentstehen lassen hast. Manchmal hilfst du hier auch mit etwas Amortentia nach. Du wählst zwei Zauberer zu Beginn des Spiels, die du gemeinsam an den Tisch setzt. Diese werden dann nur noch gemeinsam auftreten. Stirbst einer, so bringt sich der andere aus Liebeskummer um. Sollten nur noch die beiden am Ende leben, so gewinnen sie gemeinsam, auch in unterschiedlichen Teams. Wenn mindestens einer der Liebenden am Ende gewinnen, gewinnt der/die andere automatisch auch.</value>
   </string>
   <string key="AboutHunter">
@@ -1287,10 +1287,10 @@
   <string key="AllowTannerA">
     <value>Neue Einstellung für den Dolores Umbridge 👺: {0}</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>Willst du Dementoren 👤 zulassen?\nAktuell: {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>Neue Einstellung für Dementoren 👤: {0}</value>
   </string>
   <string key="EnableSecretLynchQ">
@@ -1481,13 +1481,13 @@ Weißbuchenholz, 12 ¾ Zoll, Drachenherzfaser. So weißt du auch, welche Zaubers
   <string key="SerialKillerTeamEnd">
     <value>Team Grindelwald</value>
   </string>
-  <string key="CultTeamEnd">
+  <string key="zoombiesTeamEnd">
     <value>Team Dementoren</value>
   </string>
   <string key="TannerTeamEnd">
     <value>Team Umbridge</value>
   </string>
-  <string key="CultConvertWolf">
+  <string key="zoombiesConvertWolf">
     <value>Ihr entsendet in dieser Nacht {0}, um bei {1} einen weiteren Dementor zu erzeugen. In der Hoffnung, dass dies eine einfache Aufgabe ist, der selbst euer neuestes Mitglied gewachsen ist, habt ihr aber nicht mit diesem Resultat gerechnet: Ihr müsst am nächsten Morgen sehen, wie das Dorf die Leiche von {0} entdeckt, die reglos auf dem Boden liegt. Euch sofort klar ist, was passiert sein muss. Ihr solltet euch in Zukunft wohl besser von den Todessern 🐺 fernhalten...</value>
     <value>Es scheint so, als hättet ihr eueren neuesten Dementor {0} auf direktem Wege zu den Todessern 🐺 geschickt. Zumindest ist {1} wohl ein solcher, denn er/sie war gar nicht gut auf {0} zu sprechen. Und anstatt, dass diese/r die positive Energie eingesammelt hat, um aus der resultierenden Negativität einen neuen Dementor zu erschaffen, ist er/sie nun tot.</value>
   </string>
@@ -1511,7 +1511,7 @@ Weißbuchenholz, 12 ¾ Zoll, Drachenherzfaser. So weißt du auch, welche Zaubers
     <value>Ihr findet {0}, der tot am großen See auf dem Schlossgelände liegt. Viel erkennt man allerdings nicht mehr, denn es scheint so, als hätte er/sie sowieso nur noch aus Angst und Schrecken bestanden. Anscheinend hat Gellert Grindelwald 🔪 den Dementor besiegt 👤.</value>
     <value>Eine düstere, unheimlich wirkende Gestalt liegt tot vor dem verbotenen Wald. Ihr erkennt, dass es sich dabei um {0} handelt. Diese/r scheint wohl ein Dementor 👤 gewesen zu sein, der auf brutalste Weise von Grindelwald 🔪 vernichtet wurde.</value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>Madam Puddifoot 🏹 ist tot vor ihrem Café in Hogsmeade aufgefunden worden. Auch {0} scheint von Grindelwald 🔪 heimgesucht worden zu sein...</value>
     <value>Gellert Grindelwald 🔪 macht wohl vor niemandem Halt, so auch nicht vor {0}. Auch wenn Madam Puddifoot 🏹 eigentlich den ganzen Tag damit verbringt, ihr Café romantisch zu schmücken, und eigentlich niemandem etwas zuleide tun möchte, scheint sie das neueste Opfer des grausamen Bösewichts geworden zu sein. Vielleicht hat er auch einfach die Kraft seiner Magie an ihr testen wollen?r </value>
   </string>
@@ -1556,12 +1556,12 @@ Weißbuchenholz, 12 ¾ Zoll, Drachenherzfaser. So weißt du auch, welche Zaubers
     <value>Als das Dorf erwacht, findet man {0}, Remus Lupin 💂, zerstückelt vor dem großen See. Er scheint gerade noch einen Patronus heraufbeschworen zu haben, als er von Grindelwald 🔪 und dessen Obscurus überrascht wurde, der ihn in tausend Einzelteile teilte.</value>
     <value>Freut euch, wenn ihr ein Dementoren seid. Remus Lupin 💂 ({0}) ist tot 🔪! Da scheint Grindelwald dem Meister des Patronus-Zaubers aus dem Weg geschafft zu haben.</value>
   </string>
-  <string key="CultConvertWolfPublic">
+  <string key="zoombiesConvertWolfPublic">
     <!--used when Zombies convert the wolves, only if wolves stayed home-->
     <value>Eigentlich wollten die Todesser 🐺 letzte Nacht eine kleine Party feiern. Als mit {0} ein Dementor 👤 hereinplatzte, hatte diese/r keine Chance, das zu überstehen...</value>
     <value>Die Dementoren 👤 wollten heute Nacht wohl die positive Energie eines Todessers 🐺 nutzen, um aus diesem einen neuen Dementor entstehen zu lassen. Das hat wohl nicht so gut geklappt, denn {0} liegt nun tot auf dem Boden, über ihm erstrahlt das dunkle Mal.</value>
   </string>
-  <string key="CultConvertKillerPublic">
+  <string key="zoombiesConvertKillerPublic">
     <!--used when Zombies convert the SK-->
     <value>Eigentlich wollte Grindelwald 🔪 letzte Nacht nicht unbedingt so viel töten. Aber wenn mit {0} ein Dementor 👤 hereinplatzt, dann lässt er sich die Möglichkeit auch nicht einfach entgehen...
 
@@ -1668,7 +1668,7 @@ Weißbuchenholz, 12 ¾ Zoll, Drachenherzfaser. So weißt du auch, welche Zaubers
     <value>{0} kam/en in den letzten 30s in die Winkelgasse, um einzukaufen.</value>
     <value>{0} hat/haben sich in den letzten 30s einen Zauberstab ausgesucht - bzw. andersrum!</value>
   </string>
-  <string key="AllowCult">
+  <string key="Allowzoombies">
     <value>Dementoren/Kult erlauben</value>
   </string>
   <string key="AllowTanner">
@@ -1908,7 +1908,7 @@ Weißbuchenholz, 12 ¾ Zoll, Drachenherzfaser. So weißt du auch, welche Zaubers
     <!-- {0} - mason collegues's name -->
     <value>Zu den Weasleys gehören (falls vorhanden) außer dir: {0}</value>
   </string>
-  <string key="ThiefToCult">
+  <string key="ThiefTozoombies">
     <!-- {0} - old Zombie's name -->
     <!-- {1} - new Zombie's name -->
     <value>{0} ist nun kein Dementor mehr. {1} hat dessen Rolle eingenommen.</value>
@@ -2297,14 +2297,14 @@ Weißbuchenholz, 12 ¾ Zoll, Drachenherzfaser. So weißt du auch, welche Zaubers
 	<value>Nachdem {0} ja kein Dementor ist, versuchst du es, schnell zurück zu deinem Bett zu gelangen - der Weg ist nämlich ganz schön weit. Die Hütte von {0} ist schließlich im Freien. Doch auf dem Rückweg fällst du leider in eines der Gräber, das Hagrid ☠️ in seinem Vorgarten gegraben hat. Den Sturz auf den Hinterkopf überlebst du leider nicht...</value>
   </string>
   <string key="HunterFellDigger">
-	<!--{0}: cult hunter-->
+	<!--{0}: zoombies hunter-->
 	<value>Du willst gerade das Grab vollenden, das du die ganze Nacht gegraben hast. Jedoch sieht das irgendwie komisch aus - es scheint bereits gefüllt zu sein? Wie kommt {0} denn hierhin? Er/Sie scheint tot zu sein...</value>
   </string>
-  <string key="CultFell">
+  <string key="zoombiesFell">
 	<!--{0}: Zombie-->
 	<value>Du willst gerade das Grab vollenden, das du die ganze Nacht gegraben hast. Jedoch sieht das irgendwie komisch aus - es scheint bereits gefüllt zu sein? Wie kommt {0} denn hierhin? Er/Sie scheint tot zu sein...</value>
   </string>
-  <string key="CultConvertGraveDigger">
+  <string key="zoombiesConvertGraveDigger">
 	<!--{0}: Zombie who fell, {1}: grave digger-->
 	<value>Auf dem Weg zu {1} schwebt {0} entschlossen voran über das Schlossgelände. Doch irgendwas scheint dort komisch zu sein. Hagrid ☠️ steht vor seiner Hütte und spielt mit Norbert, seinem norwegischen Stachelbuckel-Baby, der in einem seiner Gräber herumtanzt. Schon ein süßer Anblick. {1} schwebt in eines der offenen Gräber, als im selben Moment ein Patronus herbeischwebt und ihn/sie für immer im Grab begräbt. Wer hat Hagrid denn diesen Patronus geschickt?</value>
   </string>

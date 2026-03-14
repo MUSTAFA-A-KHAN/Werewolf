@@ -221,7 +221,7 @@
   <string key="RoleInfoHunter">
     <value>Dat is vreemd... Je kunt je niet herinneren wie je bent!</value>
   </string>
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
     <value>Dat is vreemd... Je kunt je niet herinneren wie je bent, alleen dat je 's nachts iets moet doen!</value>
   </string>
   <string key="RoleInfoSerialKiller">
@@ -418,33 +418,33 @@
     <!-- 1 - target name -->
     <value >{0} heeft gestemd om iets te doen bij {1}</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
 	<!-- 0 - Yougest Zombie (killed)'s name' -->
     <!-- 1 - ZombieHunter's name -->
     <value>{0} ging naar {1} toe en nu is {0} dood!</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
 	<!-- 0 - Youngest Zombie's name -->
     <!-- 1 - Number of Zombies left -->
     <value>{0} is dood! Er spookt een nummer door je hoofd... {1}</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>Je rol is veranderd, maar van wat, en naar wat?</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
 	<!-- 0 - Number of Zombies -->
     <value>Je mag dan vergeten zijn wie jij bent, maar je herinnert je wel een belangrijk nummer: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
 	<!-- 0 - new Zombie's name -->
     <value>Te midden van alle namen in je hoofd verschijnt er een nieuwe: {0}!</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
 	<!-- 0 - Newest Zombie's name -->
     <!-- 1 - target name -->
     <value>{0} ging naar {1} toe, maar was blijkbaar vergeten dat {1} niet thuis was!</value>
   </string>
-  <string key="CultWins" isgif="true">
+  <string key="zoombiesWins" isgif="true">
     <value>Ze mogen dan vergeten zijn wie ze zijn, maar de enige nog levende dorpsbewoners zijn sekteleden... De sekte wint!</value>
   </string>
   <string key="HunterVisitDead">
@@ -468,7 +468,7 @@
     <!-- 1 - teamate's names -->
     <value>{0} is dood! Je rol is veranderd, maar van wat, en naar wat? Je mag dan vergeten zijn wie jij bent, maar je herinnert je wel een belangrijk iemand: {1}</value>
   </string>
-  <!-- Villager, Drunk, Harlot, Seer, Traitor, GuardianAngel, Detective, Wolf, Cursed, Gunner, Tanner, Fool, WildChild, Beholder, ApprenticeSeer, Zombie, ZombieHunter, Hunter, Cupid, SerialKiller, Doppelgänger, Mason-->
+  <!-- Villager, Drunk, Harlot, Seer, Traitor, GuardianAngel, Detective, Wolf, Cursed, Gunner, Tanner, Fool, WildChild, Beholder, ApprenticeSeer, Zombie, ZombieHunter, Hunter, Recruiter, SerialKiller, Doppelgänger, Mason-->
   <string key="Villager">
     <value>een Burger 👱</value>
   </string>
@@ -523,8 +523,8 @@
   <string key="Hunter">
     <value>de Jager 🎯</value>
   </string>
-  <string key="Cupid">
-    <value>Cupido 🏹</value>
+  <string key="Recruiter">
+    <value>Recruitero 🏹</value>
   </string>
   <string key="SerialKiller">
     <value>de Seriemoordenaar 🔪</value>
@@ -577,19 +577,19 @@
   <string key="MasonTeam">
     <value> Je mag dan vergeten zijn wie jij bent, maar je herinnert je wel een belangrijk iemand: {0}</value>
   </string>
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <value>{0} is al dood!</value>
   </string>
   <string key="GuardBlockedWolf">
     <value>Is er iets gebeurd bij {0} thuis vannacht? Je kunt het je niet herinneren...</value>
   </string>
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <value>{0} ging naar {1} toe, maar kan zich niet herinneren wat er is gebeurd...</value>
   </string>
   <string key="NameExists">
     <value>@{1}, een speler met de naam {0} speelt al mee. Verander je naam alsjeblieft</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <value>Je mag dan vergeten zijn wie jij bent, maar je weet in ieder geval dit: {0} is a Zombie 👤!</value>
   </string>
   <string key="Was">
@@ -663,7 +663,7 @@
   <string key="TimesUp">
     <value>Ben je vergeten te antwoorden? Je tijd is om!</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>Je mag dan vergeten zijn wie jij bent, maar je herinnert je wel een belangrijk iemand: {0}</value>
   </string>
   <string key="HunterLynchedChoice">
@@ -698,7 +698,7 @@
     <!-- 2 - target's role -->
     <value>Terwijl {0} op de grond valt trekt hij zijn geweer en schiet op {1}, die nog eventjes verrast kijkt en dan ook neerstort. {2}</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <value>{0} ging naar {1} toe en nu is {0} dood!</value>
   </string>
   <string key="HunterShotWolfMulti">
@@ -721,7 +721,7 @@
 	<!-- 0 - target's name -->
     <value>Is er iets gebeurd bij {0} thuis vannacht? Je kunt het je niet herinneren...</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <value>{0} ging naar {1} toe en nu is {0} dood!</value>
   </string>
   <string key="GuardKiller">
@@ -739,10 +739,10 @@
   <string key="DGTransformToMason">
     <value>{0} is dood! Je rol is veranderd, maar van wat, en naar wat? Je mag dan vergeten zijn wie jij bent, maar je herinnert je wel een belangrijk iemand: {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <value>Te midden van alle namen in je hoofd verschijnt er een nieuwe: {0}!</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <value>{0} is dood! Je rol is veranderd, maar van wat, en naar wat? Je mag dan vergeten zijn wie jij bent, maar je herinnert je wel een belangrijk iemand: {1}</value>
   </string>
   <string key="DGToWolf">
@@ -757,28 +757,28 @@
   <string key="AskKill">
     <value>Je weet dat je iets moet doen met iemand, maar wie moet je kiezen?</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <value>Met de laatste ademhaling van {0} valt {1} naast hem neer en huilt. Zij weet zeker dat zij niet zonder {0} ❤️ kan leven, en stort zich van een brug. {2}</value>
   </string>
   <string key="AskDoppelganger">
     <value>Je weet dat je iets moet doen met iemand, maar wie moet je kiezen?</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>Je weet dat je iets moet doen met iemand, maar wie moet je kiezen?</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>Je weet dat je iets moet doen met iemand anders, maar wie moet je kiezen?</value>
   </string>
   <string key="NewWCRoleModel">
     <value>Je rol is veranderd, maar van wat, en naar wat? Je mag dan vergeten zijn wie jij bent, maar je herinnert je wel een belangrijk iemand: {0}</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
     <value>Ware liefde eindigt nooit! De Geliefden ❤️ winnen!</value>
   </string>
   <string key="HunterKilledVisiter">
     <value>In het midden van het stadsplein, vinden jullie de lichaam van {0}, vol met kogels! Blijkbaar heeft hij geprobeerd de Jager 🎯 te verrassen! {1}</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>Is er iets gebeurd vannacht? Je kunt het je niet herinneren...</value>
   </string>
   <string key="AlreadyOnWaitList">
@@ -848,7 +848,7 @@
   <string key="AboutFool">
     <value>Wat een Dwaas 🃏 ben je, als je denkt dat je eigenlijk de Ziener 👳 bent! Je kiest iemand uit om diens rol te bekijken, maar je krijgt willekeurige rollen te zien. Soms klopt het, maar dat is een kwestie van toeval.</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>Je doel is het om iedereen - behalve de wolven 🐺, de Seriemoordenaar 🔪 en de Sektejager 💂 - tot je Sekte te bekeren. Als dat lukt winnen jullie! (Spelers die bekeerd worden verliezen hun oorspronkelijke rol).</value>
   </string>
   <string key="AboutCH">
@@ -872,9 +872,9 @@
       Als Dubbelganger 🎭 moet je - behalve als jij een van de Geliefden ❤️ bent - van rol veranderen om te winnen!
     </value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>
-      Liefde is krachtig! Cupido 🏹 kan twee spelers (of zichzelf en een andere speler) kiezen, die verliefd ❤️ op elkaar worden.
+      Liefde is krachtig! Recruitero 🏹 kan twee spelers (of zichzelf en een andere speler) kiezen, die verliefd ❤️ op elkaar worden.
       Hun doel is om samen te overleven. Sterft een van hen, dan sterft de ander ook.
     </value>
   </string>
@@ -1069,10 +1069,10 @@
   <string key="AllowTannerA">
     <value>Looier 👺 is nu: {0}</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>Sekte toestaan?\nActueel: {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>Sekte is nu: {0}</value>
   </string>
   <string key="ThankYou">
@@ -1143,7 +1143,7 @@
   <string key="SerialKillerTeam" deprecated="true">
     <value>SM Team</value>
   </string>
-  <string key="CultTeam" deprecated="true">
+  <string key="zoombiesTeam" deprecated="true">
     <value>Sekte Team</value>
   </string>
   <string key="TannerTeam" deprecated="true">
@@ -1161,7 +1161,7 @@
   <string key="SerialKillerTeamEnd">
     <value>SM Team</value>
   </string>
-  <string key="CultTeamEnd">
+  <string key="zoombiesTeamEnd">
     <value>Sekte Team</value>
   </string>
   <string key="TannerTeamEnd">
@@ -1185,7 +1185,7 @@
     <!-- 1 - teammates's name -->
     <value>{0} is dood! Je rol is veranderd, maar van wat, en naar wat? Je mag dan vergeten zijn wie jij bent, maar je herinnert je wel een belangrijk iemand: {1}</value>
   </string>
-  <string key="CultConvertWolf">
+  <string key="zoombiesConvertWolf">
     <value>{0} ging naar {1} toe en nu is {0} dood!</value>
   </string>
   <string key="HarlotFuckedKilledPublic">
@@ -1203,8 +1203,8 @@
   <string key="ZombieKilled">
     <value>{0} werd doodgestoken gevonden voor zijn altaar. De seriemoordenaar heeft weer toegeslagen, ongeacht ras, taal of religie! {0} was een Sektelid.</value>
   </string>
-  <string key="CupidKilled">
-    <value>De volgende morgen werd {0}'s lichaam gevonden, raar genoeg zonder hart. Blijkbaar heeft de seriemoordenaar weer toegeslagen. Cupido is dood.</value>
+  <string key="RecruiterKilled">
+    <value>De volgende morgen werd {0}'s lichaam gevonden, raar genoeg zonder hart. Blijkbaar heeft de seriemoordenaar weer toegeslagen. Recruitero is dood.</value>
   </string>
   <string key="DrunkKilled">
     <value>Iedereen was op zoek naar {0} want hij bleek niet in het café te zijn. Bij {0} thuis werd het gruwelijke noodlot duidelijk, de seriemoordenaar had weer toegeslagen. De Dronkenman is dood.</value>
@@ -1320,7 +1320,7 @@
     <!-- NOTE: No space between {0} and joined. It will be added in the code if necessary-->
 	<value>In de afgelopen 30 seconden zijn deze mensen vergeten wie ze zijn... {0}</value>
   </string>
-  <string key="AllowCult">
+  <string key="Allowzoombies">
     <value>Sekte toestaan</value>
   </string>
   <string key="AllowTanner">
@@ -1474,11 +1474,11 @@
 	<value>Iedereen word langzaam wakker. Buiten worden lichaamsdelen van {0}, de sektejager, gevonden in een wagen geparkeerd voor het stadhuis. Een les is er vandaag geleerd: Ga niet op bezoek bij de seriemoordenaar!</value>
     <value>Het lichaam van {0}, de sektejager, word gevonden in het midden van het dorp, in honderd kleine stukjes gesneden. Kijken of de seriemoordenaar een sektelid is, is blijkbaar geen goed idee...</value>
   </string>
-  <string key="CultConvertWolfPublic">
+  <string key="zoombiesConvertWolfPublic">
     <!--used when Zombies convert the wolves, only if wolves stayed home-->
     <value>Het zit de sekte niet mee. Ze zijn hun nieuwste lid, {0}, verloren aan de weerwolven toen ze vannacht een wolf wilde bekeren. Blijkbaar hebben ze geen interesse</value>
   </string>
-  <string key="CultConvertKillerPublic">
+  <string key="zoombiesConvertKillerPublic">
     <!--used when Zombies convert the SK-->
     <value>De sekte heeft vannacht geprobeerd de seriemoordenaar toe te voegen aan hun gezelschap maar het enige wat er is gebeurd is dat {0} is toegevoegd aan zijn killcount.</value>
   </string>
@@ -1566,7 +1566,7 @@
     <!-- 0 - mason collegues's name -->
     <value>Je mag dan vergeten zijn wie jij bent, maar je herinnert je wel een belangrijk iemand: {0}</value>
   </string>
-  <string key="ThiefToCult">
+  <string key="ThiefTozoombies">
     <!-- 0 - old Zombie's name -->
     <!-- 1 - new Zombie's name -->
     <value>{0} naam verdwijnt uit je geheugen en te midden van alle namen in je hoofd verschijnt er een nieuwe: {1}!</value>
@@ -1921,16 +1921,16 @@
   <string key="HunterFell">
 	<value>Terwijl je over de begraafplaats liep, op weg naar {0}'s huis begonnen je herinneren terug te komen, maar voor je je alles kon herinneren ben je in een graf gevallen en gestorven.</value>
   </string>
-  <!--{0}: cult hunter-->
+  <!--{0}: zoombies hunter-->
   <string key="HunterFellDigger">
 	<value>Is er iets gebeurd vannacht? Je kunt het je niet herinneren... Maar je moet wel steeds aan {0} denken, maar waarom?</value>
   </string>
   <!--{0}: Zombie-->
-  <string key="CultFell">
+  <string key="zoombiesFell">
 	<value>Is er iets gebeurd vannacht? Je kunt het je niet herinneren... Maar je moet wel steeds aan {0} denken, maar waarom?</value>
   </string>
   <!--{0}: Zombie who fell, {1}: grave digger-->
-  <string key="CultConvertGraveDigger">
+  <string key="zoombiesConvertGraveDigger">
 	<value>Is er iets gebeurd bij {1} thuis vannacht? Je kunt het je niet herinneren... Maar je weet wel dat {0} nu dood is.</value>
   </string>
   <!--{0}: grave digger-->

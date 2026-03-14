@@ -382,33 +382,33 @@
     <!-- 1 - target name -->
     <value >نظر{0} این بید که {1} رو با سواد وکنیم</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <!-- 0 - Yougest Zombie (killed)'s name' -->
     <!-- 1 - ZombieHunter's name -->
     <value>کیانوش تو هیچ چیز نوفهمی {0} ورفت سحرناز{1} رو با سواد وکنه ولی سحرناز وزد با چاقو وکشتش</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - Number of Zombies left -->
     <value>دیشب { این شمپت{0} میومد تو رو با سواد وکنه تو با خنجرت وکشتیش .{1} تا باسواد دیگه ومونده</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>خب تو باسواد شده بیدی جیگر از فردا با بقیه برین همه رو با سواد وکنید</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <!-- 0 - Number of Zombies -->
     <value>باسواد ها:{0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <!-- 0 - new Zombie's name -->
     <value>خب {0} با سواد وشد</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <!-- 0 - Newest Zombie's name -->
     <!-- 1 - target name -->
     <value>ای شمپت {0} رفت خونه {1} با سوادش وکنه ولی خونه نبید</value>
   </string>
-  <string key="CultWins" isgif="true">
+  <string key="zoombiesWins" isgif="true">
     <value >خب بی سوادا نفله وشدن حالا همه با سوادن و بردیم وریم شهر</value>
   </string>
   <string key="HunterVisitDead">
@@ -513,7 +513,7 @@
     <value>  نخود کار های دیگه اینا بیدن:{0}</value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <!-- 0 - Youngest Zombies name -->
     <value>تازه با سواد شده {0}رفت یکیو با سواد وکنه ولی دید نفله شده بید</value>
   </string>
@@ -522,7 +522,7 @@
     <value>دیشب  بالا برره ایا رفتن {0} رو وزنن نفله وکنن ولی دکتر جکول نجاتش وداد</value>
   </string>
   <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <!-- 0 - newest  -->
     <!-- 1 - target's name -->
     <value>دیشب {0} ورفت {1} رو باسواد وکنه ولی {1} هیچ چیز نوفهمید</value>
@@ -533,7 +533,7 @@
     <!-- 1 - name -->
     <value>خو این یعنی چی؟{0} این اسم وامونده رو عوض وکن تا بازی  وکنیم{1}</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <!-- 0 - target's name -->
     <value>دیشب رفتی خونه {0} براش از خودت شعر در و کردی ولی هی ایراد وگرفت ازت فکر کنم با سواد شده بید</value>
   </string>
@@ -628,7 +628,7 @@
   <value>وقت تموم وشد</value>
   </string>
   <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
     <value>ها تو لیلون دماغ بیدی ورفتی شهر دماغته عمل وکردی حالا خوشگل شده بیدی وتونی دوتا عاشق وکنی اگه یکی از عشقا ومیره اون یکی هم ورپره</value>
   </string>
   <string key="RoleInfoDoppelganger">
@@ -640,7 +640,7 @@
   <string key="RoleInfoSerialKiller">
     <value>تو غووووووول برره بیدی تو هیچ چیز نوفهمی تو فقط وزنی ملت رو نفله وکنی باید همه رو نفله وکنی تا وبری</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>هوای برره چه شاعرانه شده بید تو عاشق {0} وشدی لیلون کار خودشو وکرد ه  اگه {0} ومیره تو هم از غمش ومیری</value>
 	<value>این لیلون ورپریده تو رو عاشق {0} وکرده .اگه ومیره تو هم از غمش ومیری اگه زنده ومونه با هم تا اخر عمر تو برره زندگی در وکنید بچه دار وشید</value>
   </string>
@@ -676,7 +676,7 @@
     <!-- 2 - target's role -->
     <value>یاور طغرل {0} تو یه لحظه هفتیرشو وکشید و یه تیر تو پای این نامرد{1} وزد{2}</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <value>ها این باسواد بدبخت{0} ورفت {1} رو باسواد وکنه ولی {1} غووووول بید غول هیچیز نوفهمه جوری با مشت وزد تو سر{0} که در جا نفله وشد</value>
 	<value>ها خو تو چرا هیچیز نوفهمی؟{0} ها این{1} غوووووله غول درس نوفهمه  وزد نفله ات وکرد</value>
   </string>
@@ -700,7 +700,7 @@
     <!-- 0 - target's name -->
     <value>خواستی {0} وکشی ولی دکتر جکول امپول بهت زد طرف فرار وکرد</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
     <value>ها این باسواده{0} ورفت یاور طغرل رو باسواد وکنه یاور طغرل {1} اولش راه ویومد ولی توی جدول ضرب اعصابش خورد وشت با تیر زد{0} رو نفله وکرد</value>
@@ -724,12 +724,12 @@
     <!-- 1 - mason collegues's name -->
     <value>ها خرزو خان همزادت{0} یه  نخودکار بید  حالا تو هم نخود کار وشدی بقیه نخود کارا اینا هستن:{1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <!-- 0 - new Zombie's name -->
     <value>خرزو خان{0} چون یه باسواد رو انتخاب کرده بید الان باسواد وشده</value>
   </string>
 
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <!-- 0 - role's name -->
     <!-- 1 - teammates's name -->
     <value>خرزوخان 🎭 همزادت{0} چون یه با سواد بید تو هم الان باسواد بیدی بقیه با سوادا:{1}</value>
@@ -749,25 +749,25 @@
   <string key="AskKill">
     <value>کیو وخوای له وکنی؟</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <!-- 0 - dead's name -->
-    <!-- 1 - lover's name -->
+    <!-- 1 - crewmate's name -->
     <!-- 2 - roles -->
     <value>ای بیچاره{0} ومرد{1} در حالی که وخوند {0} رو کشتن هی هی😭 خینشو ریختن هی هی😭 اینقدر ناله وزد تا ومرد.{2}</value>
   </string>
   <string key="AskDoppelganger">
     <value>ها خرزوخان 🎭یکیو انتخاب وکن اگه نفله وشه تو وری جاش کیو انتخاب وکنی؟</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>لیلون کیا رو وخوای عاشق وکنی؟ اولیشو انتخاب وکن</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>لیلون دومین نفری که وخوای عاشق وکنی کی بید؟</value>
   </string>
   <string key="Hunter">
     <value>یاور طغرل 👮</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>لیلون 💘</value>
   </string>
   <string key="SerialKiller">
@@ -781,7 +781,7 @@
     <!-- 0 - target's name -->
     <value>تو ببری خان بیدی الگوتم این بید{0}</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
     <value>عاشقا برنده وشدن</value>
   </string>
   <string key="HunterKilledVisiter">
@@ -789,7 +789,7 @@
     <!-- 1 - role -->
     <value>دیشب {0} ورفت فضولی اونم خونه یاور طغرل!!{1}</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>یه باسواد اومد تو رو هم با سواد کنه ولی تو هیچ چیز نوفهمیدی و بیرونش وکردی</value>
   </string>
   <string key="AlreadyOnWaitList">
@@ -873,7 +873,7 @@
   <string key="AboutFool">
     <value>به احمق گفته میشه که پیشگوئه اما وقتی سعی میکنه نقش یه نفر رو بفهمه یه نقش به صورت تصادفی بهش گفته میشه</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>به عنوان رییس فرقه هدف شما آینه که همه ی بازیکن های باقی مونده به تو ایمان بیارند وقتی برنده میشی که همه ی روستایی های زنده عضو فرقه ی تو باشن.</value>
   </string>
   <string key="AboutCH">
@@ -898,7 +898,7 @@
 یک همزاد تا قبل از اینکه جای کسی رو بگیره نمیتونه برنده بازی باشه!مگر اینکه عاشق باشه
     </value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>
       عشق در زندگی جریان داره! به عنوان الهه ی عشق در ابتدای بازی دو نفر رو انتخاب میکنی و اون دو نفر دیوانه وار عاشق هم میشن💕اگه یکی از عاشقا بمیره اون یکی هم از غمش میمیره اگه تو آخر بازی یکی از عاشقا برنده بشه آون یکی هم به طور اتوماتیک برنده حساب میشه حتی اگه توی تیم مخالف باشه!(مثال:گرگ و روستایی)
     </value>
@@ -1078,10 +1078,10 @@
   <string key="AllowTannerA">
     <value>نقش توریست:{0}</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>نقش باسواد  فعال باشه؟\n حالت فعلی: {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>نقش باسواد:{0}</value>
   </string>
   <string key="ThankYou">
@@ -1233,7 +1233,7 @@
   <string key="SerialKillerTeam">
     <value>گروه غوول برره</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>گروه باسواد ها</value>
   </string>
   <string key="TannerTeam">
@@ -1251,13 +1251,13 @@
   <string key="SerialKillerTeamEnd">
     <value>گروه غووول برره</value>
   </string>
-  <string key="CultTeamEnd">
+  <string key="zoombiesTeamEnd">
     <value>گروه باسواد ها</value>
   </string>
   <string key="TannerTeamEnd">
     <value>گروه توریست</value>
   </string>
-    <string key="CultConvertWolf">
+    <string key="zoombiesConvertWolf">
     <value>دیشب{0}رفت یه بالا برره ای رو باسواد وکنه اما{1} خیلی نفهم بید با چماغ وزد شتکش وکرد.{0} نفله وشد</value>
   </string>
   <string key="HarlotFuckedKilledPublic"> <!-- used when Harlot visit's SK's victim, and dies -->
@@ -1276,7 +1276,7 @@
   <string key="ZombieKilled">
     <value>ای {0} که تازه باسواد شده بید داشت کتاب تاریخ برره رو ومیخوند که غووول برره اومد خود و کتابشو نصف وکرد😑</value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>صب وشد یه نخود کار داشت میرفت سر مزرعه که یهو دماغ لیلون رو بین درختا ودید😳{0} به دست غوووول نفله شده بید.😔مردم وبینن لیلون روی دستش خالکوبی وکرده برای شیر فرهاد😔 بالو پروم بودی اما الان دلت پیش غریبه ها وله😔</value>
   </string>
   <string key="DrunkKilled">
@@ -1306,11 +1306,11 @@
   <string key="SerialKillerKilledCH"> <!--used when CH visits SK-->
     <value>سحر ناز 💂🏾‍♀️نصف شب داشت دنبال کیانوش ومیگشت.که تو کوچه غوووول برره 🔪🔪رو وبینه {0} میاد خودشو چس وکنه برای غووول خنجر وکشه غووول هم وزنه نفله اش وکنه </value>
   </string>
-  <string key="CultConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
+  <string key="zoombiesConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
     <value>ای{0} بدبخت وره یه بالا برره ای ابله رو با سواد وکنه اما بالا برره ایا با چماق تا وخوره وزدنش
     {0} نفله شده بید</value>
   </string>
-  <string key="CultConvertKillerPublic"> <!--used when Zombies convert the SK-->
+  <string key="zoombiesConvertKillerPublic"> <!--used when Zombies convert the SK-->
     <value>دیشب کیانوش وخواست یه نفر دیگه رو هم با سواد وکنه {0} وفرستاد که بهش درس وده اما این کیانوش نوفهمه که غوووول با سواد نوشه{0} نفله وشد</value>
   </string>
   
@@ -1400,7 +1400,7 @@
     <!-- {0} = list of people who have joined -->
     <value>{0} در 30 ثانیه اخر سوار گاری وشدن</value>
   </string>
-  <string key="AllowCult">
+  <string key="Allowzoombies">
     <value>باسواد</value>
   </string>
   <string key="AllowTanner">
@@ -1649,7 +1649,7 @@
               <!-- 0 - mason collegues's name -->
               <value>هم تیمی های شما(درصورت وجود) عبارت اند از:{0}.</value>
             </string>
-            <string key="ThiefToCult">
+            <string key="ThiefTozoombies">
               <!-- 0 - old Zombie's name -->
               <!-- 1 - new Zombie's name -->
               <value>این {0} دیگه همتیمی شما نبید به جاش {1} باسواد وشده دقیقا مثل شماها.</value>

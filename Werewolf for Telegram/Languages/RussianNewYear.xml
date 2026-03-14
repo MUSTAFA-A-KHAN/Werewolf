@@ -226,13 +226,13 @@
   <string key="AllowTannerA">
     <value>Нынешний статус настройки: {0}.</value>
   </string>
-  <string key="AllowCult">
+  <string key="Allowzoombies">
     <value>Разрешить секту</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>Разрешить фракцию «Секта», а значит, и роль «Сектант» в игре?\nСтатус настройки: {0}.</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>Нынешний статус настройки: {0}.</value>
   </string>
   <string key="ShowRolesEndQ">
@@ -429,7 +429,7 @@
   <string key="Doppelgänger">
     <value>Повторюшка — дядя хрюшка 🐷 (🎭)</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>Человек-паук 🕸 (🏹)</value>
   </string>
   <string key="Hunter">
@@ -525,7 +525,7 @@
   <string key="AboutAppS">
     <value>Ты — маленький помощник Санты. Помогаешь паковать подарки в мешок и украшаешь их ленточками с бантиками. Если вдруг Санту обидят, ты будешь его заменять</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>Ты — игрок в Werewolf! Твоя задача — завлечь как можно больше ребят в эту чудную игру! Но опасайся завуча, она следит за тобой, чтобы отобрать телефон!</value>
   </string>
   <string key="AboutCH">
@@ -543,7 +543,7 @@
   <string key="AboutDG">
     <value>Своя голова-то есть на плечах? Только и можешь, что повторять за всеми. Смотришь на других ребят, и тебе хочется быть точь-в-точь, как они. Ты повторюшка — дядя хрюшка. Выбери игрока, а когда он(а) уйдёт, ты будешь подражать ему.</value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>Ты Человек-Паук. Твоё поистине любимое развлечение — склеивать двоих клейкой паутиной. Вот уж забавно потом наблюдать за этими двумя, которые ничего не могут сделать друг без друга! :D</value>
   </string>
   <string key="AboutHunter">
@@ -651,7 +651,7 @@
   <string key="RoleInfoDoppelganger">
     <value>Своя голова-то есть на плечах? Только и можешь, что повторять за всеми. Смотришь на других ребят, и тебе хочется быть точь-в-точь, как они. Ты повторюшка — дядя хрюшка. Выбери игрока, а когда он(а) уйдёт, ты будешь подражать ему.</value>
   </string>
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
     <value>Ты Человек-Паук. Твоё поистине любимое развлечение — склеивать двоих клейкой паутиной. Вот уж забавно потом наблюдать за этими двумя, которые ничего не могут сделать друг без друга! :D</value>
   </string>
   <string key="RoleInfoHunter">
@@ -714,13 +714,13 @@
   <string key="TannerWins" isgif="true">
     <value>Во-оу, кажется, школоблогер добился своего… Теперь ему можно со спокойной душой записывать влоги!</value>
   </string>
-  <string key="CultWins" isgif="true">
+  <string key="zoombiesWins" isgif="true">
     <value>Все взрослые давно за дверью, а детки, которые остались на празднике, уткнулись в телефоны и играют в Werewolf. Им теперь не до праздника!</value>
   </string>
   <string key="SerialKillerWins" isgif="true">
     <value>Последним оставшимся на празднике оказался Крампус! Кажется, он выиграл!</value>
   </string>
-  <string key="LoversWin" isgif="true">
+  <string key="crewmatesWin" isgif="true">
     <value>Настоящая дружба побеждает! Друзья выиграли!</value>
   </string>
   <string key="NoWinner" isgif="true">
@@ -822,10 +822,10 @@
   <string key="AskDoppelganger">
     <value>Кому ты хочешь подражать после того, как он уйдет?</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>Забавы ради, кого ты хочешь склеить? Выбери первого игрока:</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>Кого ты хочешь склеить паутиной? Выбери второго игрока:</value>
   </string>
   <string key="AskDetect">
@@ -982,23 +982,23 @@
   <string key="ZombieVotedConvert">
     <value>{0} проголосовал(а), чтобы пригласить в игру {1}.</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <value>{0} был отправлен зазывать {1} в очень крутую игру… Ой, это оказался завуч. {0} вытурили с позором!</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <value>{0} подошел к тебе с телефоном в руке и уже хотел показать экран с игрой… Ты возмущен(а). Какая дерзость! Звать в игру завуча! Ты прогнал(а) прочь {0}. А свой гаджет он получит только через родителей! Осталось {1} игроков!</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>Игроки в Werewolf добрались и до тебя! Хм-м, постойте-ка, а ведь и правда интересная игра! Ты вступил в их ряды.</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>Игроки в Werewolf: {0}</value>
     <value>Команда задротов: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <value>{0} присоединился(ась) к игрокам!</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <value>{0} был отправлен, чтобы незаметно подкрасться к {1} и показать эту клевую игру… Но на месте никого не оказалось.</value>
   </string>
   <string key="HunterVisitDead">
@@ -1025,17 +1025,17 @@
   <string key="MasonTeam">
     <value>Эльфы: {0}.</value>
   </string>
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <value>Ваш новейший участник направился к ели, чтобы найти {0}, но, обойдя всё вокруг, так и не нашел его. Вероятно, ребёнка уже прогнали…</value>
   </string>
   <string key="GuardBlockedWolf">
     <value>Ты направился(лась) к {0}, чтобы обидеть ребенка, но увидел, как Святой Николай дарит ему шоколадного зайчика. Испугавшись, что тебя заметят, ты ушёл, чтобы не испытывать судьбу.</value>
     <value>Рядом с {0} стоял Святой Николай! Он уже было доставал шоколадку, как вдруг боковым зрением заметил что-то неладное… Ты понял, что лучше с этим не шутить и аккуратно удалился.</value>
   </string>
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <value>Ты отправил {0}, чтобы завербовать {1} в игру, но кто бы знал, какое это чадо вредное! Получив отказ, он вернулся ни с чем. :(</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <value>Ты взяла за ручку {0}, чтобы немного потанцевать… Но кое-что тебе не давало покоя. В течение всего хоровода ребёнок постоянно держал в руках телефон. Кажется, ты нашла задрота в Werewolf…</value>
     <value>Ты отправилась к {0}, чтобы взять его (её) за ручку. После довольно веселого хоровода ты поняла, что малыш всё время был чем-то отвлечен. Ты замечаешь, что он пытается спрятать телефон в карман…</value>
   </string>
@@ -1055,7 +1055,7 @@
   <string key="TimesUp">
     <value>Время вышло!</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>Вот ведь незадача! Тебе склеили паутиной с {0}, и теперь вам нужно везде держаться вместе! Ваша цель — не дать друга в обиду! Если одного из вас обидят и прогонят, второй уйдёт следом.</value>
   </string>
   <string key="HunterLynchedChoice">
@@ -1098,10 +1098,10 @@
   <string key="GuardBlockedKiller">
     <value>Ты попытался схватить {0}, чтобы засунуть его в мешок, но встретил своего главного врага — Святого Николая. Он заметил тебя, когда держал подарок для малыша, и прогнал прочь!</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <value>Игроки Werewolf отправили {0} чтобы пригласить {1}, в игру, но поздно поняли, что это завуч… С криками и воплями он(она) прогнала {0} вон!</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <value>Игроки в Werewolf отправили {0}, чтобы скинуть линк на игру {1}, а он оказался Крампусом, накидывающем свой грязный мешок на голову {0}! Неудача… {0} обиделся.</value>
   </string>
   <string key="GuardKiller">
@@ -1119,10 +1119,10 @@
   <string key="DGTransformToMason">
     <value>{0} ушёл, и ты стал эльфом! Другие эльфы (если такие есть): {1}.</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <value>{0} (повторюшка — дядя хрюшка) стал теперь игроком в Werewolf, прямо как ты!</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <value>{0} ушёл, и ты стал игроком в Werewolf! Другие игроки (если такие есть): {1}</value>
   </string>
   <string key="DGToWolf">
@@ -1140,7 +1140,7 @@
   <string key="NewWCRoleModel">
     <value>Ты стал Ябедой-Корябедой! Вот на кого ты наябедничал: {0}.</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <value>Увидев, как обижают лучшего друга {0}, {1} тут же старается поддержать его, но всё тщетно, малыша уже обидели, и поэтому оба ребёнка уходят с праздника, злые и надутые. {2}</value>
   </string>
   <string key="SerialKillerWinsOverpower">
@@ -1149,7 +1149,7 @@
   <string key="SKHunterEnd">
     <value>В конце праздника оставшиеся ребята устраивают баттл стихов у ёлки. {0} рассказывает стих про «бороду из ваты», {1} молчит. Очередь доходит до {1}, и он затягивает «Однажды в студёную зимнюю пору». {0} кривится и произносит «Раунд». {0} пожимает руку {1}. Но оба уходят с праздника расстроенными: стих Бэтмена не признали лучшим, а у Крампуса в мешке закончились угольки…</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>Кто-то хотел позвать тебя в игру Werewolf, но ты слишком верен духу Нового года и не отзываешься на подобные приглашения.</value>
   </string>
   <string key="HunterKilledVisiter">
@@ -1202,7 +1202,7 @@
   <string key="SerialKillerTeamEnd">
     <value>Команда Крампусов</value>
   </string>
-  <string key="CultTeamEnd">
+  <string key="zoombiesTeamEnd">
     <value>Команда игроков в Werewolf</value>
   </string>
   <string key="TannerTeamEnd">
@@ -1214,7 +1214,7 @@
   <string key="ZombieKilled">
     <value>{0} был очень сильно обижен, ведь его телефон разбили вдребезги! Крампус не любит непослушных детей, особенно тех, кто целыми днями сидит в телефоне! {0} был игроком в Werewolf.</value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>После хоровода все заметили непонятные черные следы рядом с местом {0}. Ой… да это же сажа… Не стоило раздражать Крампуса паутиной.</value>
   </string>
   <string key="DrunkKilled">
@@ -1246,12 +1246,12 @@
     <value>Все поняли, что {0} больше не будет празднике. Завуча не любит даже Крампус…</value>
     <value>Никто не может найти {0}… По ошибке Крампус забрал совсем не ребёнка. Удивительно, что такой довольно… кхм… не худенький завуч поместился в его мешок…</value>
   </string>
-  <string key="CultConvertWolfPublic">
+  <string key="zoombiesConvertWolfPublic">
     <value>В этот раз взрослые приняли верное решение и обидели {0}. Он был игроком в Werewolf.</value>
     <value>Игроки в Werewolf думали, что сейчас уже смогут сыграть каточку с {0}, но им оказался взрослый, не любящий такие игры.</value>
     <value>В очередной раз направляясь кидать линк на игру, {0} столкнулся нос к носу со взрослым! Но у него есть более важные дела, чем какие-то там игры! Задрота обидеть, например…</value>
   </string>
-  <string key="CultConvertKillerPublic">
+  <string key="zoombiesConvertKillerPublic">
     <value>Радуясь вербовке очередного ребёнка, задроты совершили ошибку: {0}, игрок в Werewolf, был схвачен за шкирку и засунут в мешок! Ибо нечего здесь порядок нарушать!</value>
     <value>Во время хоровода игроки в Werewolf подошли к одному из гостей, чтобы показать, насколько крута эта игрушка! А Крампус в ответ показал одному из них, насколько круты его угольки… {0} обиделся.</value>
   </string>
@@ -1276,7 +1276,7 @@
   <string key="HarlotFuckedKilledPublic">
     <value>{0} взяла за руку {1}, но какой-то незнакомец потянул {1} к себе в мешок! Крампус подержал Снегурочку {0} за обе ладошки, прежде чем отправить к себе в мешок!</value>
   </string>
-  <string key="CultConvertWolf">
+  <string key="zoombiesConvertWolf">
     <value>Задрот {0} попытался научить {1} игре в Werewolf, однако тот оказался руинером и троллем. {0} не смог научить его несложным правилам. {0} обиделся и ушёл…</value>
   </string>
   <string key="ApprenticeSeerEaten">

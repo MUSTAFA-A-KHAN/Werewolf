@@ -155,7 +155,7 @@
     <value>Chi è la tua fonte di ispirazione?</value>
   </string>
   <string key="AskConvert">
-    <value>A chi vuoi tagliare gambe e braccia e convertire al tuo culto?</value>
+    <value>A chi vuoi tagliare gambe e braccia e convertire al tuo zoombieso?</value>
   </string>
   <string key="DiscussWith"><!--Leave the leading spaces here please-->
     <value>  Sii sicuro di discutere con {0}</value>
@@ -352,25 +352,25 @@
   <string key="ZombieVotedConvert" >
     <value>{0} vota per tagliare gli arti a{1}</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <value>{0} è stato inviato a fare il suo sporco lavoro, per tagliare tutti gli arti a {1}... ma era Biancaneve💂! {0} è morto!</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <value>{0} ti ha fatto visita la scorsa notte, pronto a tagliare i tuoi lunghi arti per renderli piccini picciò...  Ma l'hai ucciso con un rapido fendente della tua spada. Un Nano 👤  è morto... {1} rimanenti!</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>I Nani 👤  ti hanno tagliato tutti gli arti! Ora sei uno di loro. Ogni notte, avrai la possibilità di fare a pezzettini mani e piedi di un altro giocatore.</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>I Nani 👤 sono: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <value>{0} è diventato un Nano 👤 !</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <value>{0} è stato inviato a fare il suo sporco lavoro, per far visita a {1}... ma nessuno era in casa!</value>
   </string>
-  <string key="CultWins" >
+  <string key="zoombiesWins" >
     <value>Tutte le iene sono morte, ma a tutti i sopravvissuti sono stati tagliati gli arti... I Nani 👤  hanno vinto!</value>
   </string>
   <string key="HunterVisitDead">
@@ -466,21 +466,21 @@
     <value>\nGli altri Bambini Sperduti sono: {0}</value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <value>Il vostro Nano 👤  più basso si reca a casa di {0} per tagliargli gli arti, ma trova invece una casa malmessa, sangue ovunque, e ciuffi di peli di iena sparsi per il corridoio...</value>
   </string>
   <string key="GuardBlockedWolf">
     <value>Ti introduci nella casa di {0} per mangiarlo, ma improvvisamente incontri un'alta oscura figura, che esce da una lampada ed ha dei bracciali dorati ai polsi. È il Genio 👼 . Combattete a lungo ma sei costretto a tornare a casa sconfitto.</value>
   </string>
   <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <value>Spedite il piccolissimo {0} per tagliare gli arti a {1}, ma il suo letto era troppo alto, non siete riusciti ad arrampicarvi :(</value>
   </string>
   <!-- new string May 12 2016-->
   <string key="NameExists">
     <value>@{1}, un giocatore con il nome di {0} è già entrato. Per favore cambia il tuo nome per partecipare. </value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <value>Ti rechi a casa di {0} per divertirti un po'... Ma quando stai per uscire, ti accorgi dell'esistenza di protesi per gambe e braccia di legno. Sono nascoste malamente, all'angolo della stanza, ed una strano canto Ehi-Ho Ehi-Ho Ehi-Ho provenire da esso...</value>
   </string>
   <!-- new string May 13 2016-->
@@ -555,7 +555,7 @@
 	<value>È scaduto il tempo!</value>
   </string>
   <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
     <value>Urca urca trillullero, sei Robin Hood 🏹! Un mago delle frecce, le scocchi a destra e a manca per diffondere l’amore. Se facendolo riesci a racimolare anche du’ soldi per i poveri, ancora meglio. All’inizio del gioco scegli due giocatori da legare per sempre, nella vita o nella morte. Se uno di loro dovesse morire, l'altro si suiciderà per il dispiacere. Se almeno uno di loro vince, entrambi vincono. Se sono gli ultimi due rimasti in vita, solo loro vincono e tutti gli altri perdono.</value>
   </string>
   <string key="RoleInfoDoppelganger">
@@ -567,7 +567,7 @@
   <string key="RoleInfoSerialKiller">
     <value>Sei la Regina di Cuori 🔪.Ogni notte potrai tagliare la testa a qualcuno e poi usarla per giocare a cricket. Se qualcuno ti visita, lo ucciderai (la iena ha comunque il 20% di ucciderti se ti attacca). Vinci solo se sei l'ultimo rimasto in vita.</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>Hai avuto un colpo di fulmine. Che sia il principe azzurro? La memoria di {0} non svanirà mai dal tuo cuore. Il tuo obiettivo è rimanere entrambi vivi. Se uno di voi due muore, l'altro morirà di dispiacere.</value>
     <value>La freccia di Robin Hood🏹 ti ha colpito! Ti sei innamorato perdutamente di {0}! Se muore, condividerai il suo destino. Se riuscite a sopravvivere fino alla fine, sarete entrambi vincitori.</value>
  </string>
@@ -595,7 +595,7 @@
   <string key="HunterKilledFinalShot">
     <value>In fin di vita, {0} cade... Ma non senza afferrare il suo arco e scagliare una freccia a {1}, che se la becca precisamente tra gli occhi. {2}</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <value>{0} si intrufola nella casa di {1}, apre la porta e viene immediatamente accolto da una pazza con un coltello!!! {1} immerge profondamente il coltello negli organi di {0} in ordine alfabetico, sghignazzando tutto il tempo, e alla fine gli taglia la testa! {0} è morto D:</value>
     <value>I Nani 👤  mandano {0} per tagliare gli arti a {1}, ma invece il corpo di {0} esce volando dalla finestra con coltelli conficcati in ogni parte del corpo, e la testa lo segue a ruota! CHE PSICOPATICO! {0} è morto...</value>
  </string>
@@ -614,7 +614,7 @@
   <string key="GuardBlockedKiller">
     <value>Hai provato a tagliare la testa a {0} per aggiungerla alla tua collezione, ma invece ti sei scontrato con il Genio angelo 👼. Niente da fare stasera, nottataccia...</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <value>I Nani 👤  mandano {0} per tagliare gli arti a {1}, ma invece un colpo suona rumoroso e il cortissimo corpo di {0} esce dalla finestra volando! {0} è morto...</value>
   </string>
   <string key="GuardKiller">
@@ -633,10 +633,10 @@
   <string key="DGTransformToMason">
     <value>{0} è morto, e tu ti trasformi in un Bambino Sperduto👷. I tuoi compagni (se presenti) sono: {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <value>Dory🐠 {0} è ora diventata un Nano 👤 , esattamente come te!</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <value>{0} è morto, e tu ti trasformi in un Nano 👤 . I tuoi compagni (se presenti) sono: {1}</value>
   </string>
   <string key="DGToWolf">
@@ -651,22 +651,22 @@
   <string key="AskKill">
     <value>A chi vuoi tagliare la testa stanotte?</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <value>Con l'ultimo respiro di {0}, {1} accorre per vedere il suo cadavere e piange. Non riesce a sopportare la morte dell'amato, e si spara con la pistola più vicina che trova. {2}</value>
   </string>
   <string key="AskDoppelganger">
     <value>Di chi vuoi ereditare il ruolo alla sua morte?</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>Chi vuoi che siano gli innamorati? Scegli il primo giocatore a cui lanciare la tua freccia</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>Chi vuoi che siano gli innamorati? Scegli il secondo giocatore a cui lanciare la tua freccia</value>
   </string>
   <string key="Hunter">
     <value>Merida 🎯</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>Robin Hood 🏹</value>
   </string>
   <string key="SerialKiller">
@@ -681,10 +681,10 @@
   <string key="HunterKilledVisiter">
     <value>Al centro della piazza centrale, viene ritrovato il corpo di {0}, sparato varie volte in tutto il suo piccolo corpo. Sembra che lui abbia provato a visitare Biancaneve💂! {1}</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>Una piccola ma inquietante figura ha provato a tagliarti gambe e braccia ma il tuo letto era troppo alto e non è riuscita a salire.</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
   <value>Il vero amore trionfa! Gli innamorati hanno vinto!</value>
   </string>
   <string key="SerialKillerWinsOverpower">
@@ -753,7 +753,7 @@
   <string key="AboutFool">
     <value>Kronk un pazzerello che si crede di essere Merlino👳.... Quando sceglie di vedere il ruolo a qualcuno, gli verrà detto un ruolo casuale in partita. Nota: È più utile di quello che sembra, può sapere con esattezza i ruoli che ci sono in partita. Se vedete un ruolo, sarà in partita.</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>Come Nano 👤 , il tuo obiettivo è tagliare gli arti di tutti gli altri giocatori (tranne le iene) per farli diventare piccoli come te, e a quel punto non avranno altra scelta che unirsi alla setta di Nani 👤 .. Se a fine partita, tutti i giocatori sono Nani 👤 , vincono. Probabilità di convertire i seguenti ruoli: Dory: 0% finché rimane Dory, è impossibile da convertire \n Merlino👳 40% Merlino👳 è il più difficile da convertire \n Genio 60% Nota: Se protegge qualcuno, non lo troverai in casa \n Elsa😾 60% \n Belle 70% \n Megara 70% Come il Genio, se non è casa, non potrete convertirla \n Merida 50% Avrai il 50% di convertire Merida. Se fallite, C'è il 50% che vi spari.</value>
   </string>
   <string key="AboutCH">
@@ -774,7 +774,7 @@
   <string key="AboutDG">
     <value>Puoi scegliere un giocatore a inizio partita, erediti il suo ruolo \n Nota: Se il giocatore viene trasformato in un Nano 👤  prenderai il suo ruolo originale. Tutte le altre regole normali si applicano: se erano Simba👶 e il loro modello è morto, diventerai una Iena. Sennò, erediterai il loro modello.\n I Nani 👤  non possono trasformare Dory (ma possono dopo che Dory cambia ruolo) E - Dory NON può vincere a meno che si sia trasformata. Se a fine partita, Dory non si è trasformata, perde (eccezione: amante).</value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>A Inizio partita, sceglie due giocatori. Dopo diventa a tutti gli effetti una normale Principessa. Questi due diventeranno follemente innamorati e se uno dei due muore, l'altro morirà. Nota: gli amanti sanno chi è l'altro, ma non sanno il loro ruolo. Se gli amanti sono gli ultimi due vivi, loro vincono, indipendentemente dal loro ruolo. Se gli amanti sono di due team diversi(esempio: iena + principessa), e un team vince (esempio: iene), anche l'amante (esempio: principessa) vince. \n TL;DR Se tutti e due gli amanti sono vivi a fine partita, e almeno uno dei due è nel team vincitore, vincono insieme</value>
   </string>
   <string key="AboutHunter">
@@ -945,10 +945,10 @@
   <string key="AllowTannerA">
     <value>Quasimodo come ruolo impostato a {0}</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>Ammettere i Nani 👤  in partita, come ruolo?\nAttualmente: {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>Nani 👤  come ruolo impostato a {0}</value>
   </string>
   <string key="ThankYou">
@@ -1109,13 +1109,13 @@
   <string key="SerialKillerTeamEnd">
     <value>Team Regina di Cuori</value>
   </string>
-  <string key="CultTeamEnd">
+  <string key="zoombiesTeamEnd">
     <value>Team Nani</value>
   </string>
   <string key="TannerTeamEnd">
     <value>Team Quasimodo</value>
   </string>
-  <string key="CultConvertWolf">
+  <string key="zoombiesConvertWolf">
     <value>I Nani 👤  hanno mandato {0} per provare a convertire {1}, ma all'improvviso si vede la piccola testa di {0} volare fuori dalla finestra... Indovinate perché pensavano fosse inconvertibile! {0} è morto...</value>
   </string>
   <string key="HarlotFuckedKilledPublic"> <!-- used when Harlot visit's SK's victim, and dies -->
@@ -1134,7 +1134,7 @@
   <string key="ZombieKilled">
     <value>{0} è stato trovato con la testa tagliata. La Regina di Cuori 🔪 ha colpito ancora, indipendentemente da colore, tipo di mazzo e altezza{0} era un Nano 👤 .</value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>Il mattino seguente, le Principesse furono affrante a trovare {0}, cioè Robin Hood 🏹, tagliato a pezzettini. Stranamente la sua testa non era presente...</value>
   </string>
   <string key="DrunkKilled">
@@ -1166,12 +1166,12 @@
     <value>Le Principesse si svegliano la mattina, solo per trovare il corpo di {0}, Biancaneve💂, decapitato e tagliato a pezzi in un carro appena fuori il centro del villaggio incantato.. Lezione imparata: non visitare la Regina di Cuori 🔪.</value>
     <value>Il corpo di {0}, Biancaneve💂 è stato trovato nel centro del villaggio incantato, tagliato precisamente in cento pezzi. Controllare se l' altissima Regina di Cuori 🔪  fosse un Nano 👤  non sembra più una buona idea..</value>
   </string>
-  <string key="CultConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
+  <string key="zoombiesConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
     <value>Sembrava una notte tranquilla, visto che le iene avevano deciso di rimanere a casa, ma l'unico sfortunato è stato {0}, un Nano 👤  che ha provato a tagliare le zampe una iena. La testa di {0} è stata trasformata in una buona cena a domicilio!</value>
     <value>I Nani 👤  hanno incontrato un problema non previsto questa notte. Il loro membro più recente, mandato a tagliare gambe, è stato divorato dalla iena che ha visitato. Sfortunatamente per {0}, le iene non hanno interesse a far parte della loro setta di piccoletti.</value>
   </string>
-  <string key="CultConvertKillerPublic"> <!--used when Zombies convert the SK-->
-    <value>L'ultima notte, i Nani 👤  hanno provato a convertire una persona più pazza di loro. Il loro membro più recente ha provato a infilarsi sotto la gonna e tagliare le gambe della Regina di Cuori 🔪 , e la Regina di Cuori ha creato una nuova scultura di arte moderna, nella piazza della città, con la testa di {0}.</value>
+  <string key="zoombiesConvertKillerPublic"> <!--used when Zombies convert the SK-->
+    <value>L'ultima notte, i Nani 👤  hanno provato a convertire una persona più pazza di loro. Il loro membro più recente ha provato a infilarsi sotto la gonna e tagliare le gambe della Regina di Cuori 🔪 , e la Regina di Cuori ha creato una nuova szoombiesura di arte moderna, nella piazza della città, con la testa di {0}.</value>
   </string>
   <string key="GAGuardedKiller"> <!-- used when GA guards SK -->
     <value>Doveva essere una notte tranquilla dove {0} faceva il suo lavoro da protettore della città, ma la lampada di {0} è misteriosamente sparita. La testa è stata brutalmente tagliata via dalla Regina di Cuori! Vicino al corpo, una nota "Le tue battute non facevano ridere". Qualcuno ha provato a proteggere la Regina di Cuori 🔪 , questa notte.</value>
@@ -1258,7 +1258,7 @@
     <!-- {0} = list of people who have joined -->
     <value>{0} sono entrati in partita negli ultimi 30 secondi.</value>
   </string>
-  <string key="AllowCult">
+  <string key="Allowzoombies">
     <value>Abilita i Nani</value>
   </string>
   <string key="AllowTanner">
@@ -1485,7 +1485,7 @@
     <!-- 0 - mason collegues's name -->
     <value>I tuoi compagni (se presenti) sono: {0}</value>
   </string>
-  <string key="ThiefToCult">
+  <string key="ThiefTozoombies">
     <!-- 0 - old Zombie's name -->
     <!-- 1 - new Zombie's name -->
     <value>{0} non è più un tuo compagno e {1} è ora divenuto un piccolissimo Nano 👤 , esattamente come te!</value>
@@ -1839,16 +1839,16 @@
   <string key="HunterFell">
 	<value>Un'altra notte inutile senza riuscire a uccidere uno di questi maledetti Nani 👤 ! Frustrato, corri freneticamente attraverso il cimitero,  senza accorgerti della trappola per orsi. Urli e ti dimeni, ma è troppo tardi. Cadi all'indietro su una buca che {0} non ha richiuso e il suono del tuo collo rompersi è l'ultima cosa che senti prima che tutto diventi nero.</value>
   </string>
-  <!--{0}: cult hunter-->
+  <!--{0}: zoombies hunter-->
   <string key="HunterFellDigger">
 	<value>Dopo un'altra lunga e faticosa notte, ritorni alla tua casa mentre il sole sta già sorgendo. Prima di arrivare a casa, noti una spada poggiata sopra una tomba non finita. Dentro la tomba noti il cadavere di {0}. Bianca Neve non avrebbe dovuto sospettare di te...</value>
   </string>
   <!--{0}: Zombie-->
-  <string key="CultFell">
+  <string key="zoombiesFell">
 	<value>Ritorni a casa dopo una faticosa nottata, quando senti un urlo dalle buche non finite! Ti rechi subito sul posto, solo per trovare {0} morto dentro una buca. Da quando i Nani 👤provano a convertire i cercatori d'oro?</value>
   </string>
   <!--{0}: Zombie who fell, {1}: grave digger-->
-  <string key="CultConvertGraveDigger">
+  <string key="zoombiesConvertGraveDigger">
 	<value>Mentre vai a casa di {1}, {0} suggerisce che sarebbe una buona idea bruciare la chiesa. Ti guidano tramite il cimitero quando improvvisamente una trappola per orsi gli cattura l'anca! Tutto quello che senti è il suo urlo mentre casca nella buca e voi scappate via.</value>
   </string>
   <!--{0}: grave digger-->

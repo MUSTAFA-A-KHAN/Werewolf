@@ -241,7 +241,7 @@
   </string>
   <string key="RoleInfoZombieHunter" >
     <value>Sei Gabriel 💂‍♂️. DEATH IS LIFE! Odi a morte i Prime che osano cercare l'immortalità come se fossero dèi.
-La tua missione è eliminare il folle culto di cui sei involontario artefice.
+La tua missione è eliminare il folle zoombieso di cui sei involontario artefice.
 Di notte puoi visitare chiunque tu voglia e se scopri che ha il Mind Drive, lo elimini. Se non è un Prime, lo lascerai vivere. Se i Prime provano a farti tornare nel loro sistema teocratico, l'ultimo che si era reincarnato morirà e ti verrà detto quanti ne sono rimasti.</value>
   </string>
   <string key="LynchTime" >
@@ -395,25 +395,25 @@ Tutti i Terrestri scoprono così che non era altro che una Natblida artificiale,
     <value>{0} vota per far diventare un Prime {1}</value>
     <value>{0} vota per rendere un Prime {1}</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <value>{0} è stato inviato a fare il suo sporco lavoro, per far diventare un Prime {1}... ma era quel demone di Gabriel! {0} è morto per sempre: il suo Mind Drive è distrutto!</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <value>{0} ti ha fatto visita la scorsa notte, pronto a offrirti l'immortalità di un Prime...  ma tu non torneresti mai tra quei falsi dèi assassini! Lo hai catturato, interrogato e poi ucciso, quindi hai distrutto il suo Mind Drive! Ora sai che restano {1} Prime!</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>👤 I Prime ti hanno offerto l'immortalità, e tu hai accettato! Ora sei uno di loro. Ogni notte, avrai la possibilità di offrire anche tu un Mind Drive resettato a qualcun altro... Non farti scoprire!</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>👤 Prime: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <value>👤 {0} è diventato un Prime!</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <value>👤 {0} è stato inviato a farsi un nuovo alleato, è andato da {1}... ma nessuno era in casa!</value>
   </string>
-  <string key="CultWins" >
+  <string key="zoombiesWins" >
     <value>Tutti i Chippati sono morti, ma tutti i sopravvissuti hanno accettato il Mind Drive... I Prime hanno vinto!</value>
   </string>
   <string key="HunterVisitDead">
@@ -510,21 +510,21 @@ Tutti i Terrestri scoprono così che non era altro che una Natblida artificiale,
     <value>\nGli altri Criminali della Eligius IV sono: {0}</value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <value>👤 Il Prime più recente si reca a casa di {0} per proporgli l'immortalità, ma trova invece una casa malmessa, sangue ovunque, e chip distrutti sul pavimento...</value>
   </string>
   <string key="GuardBlockedWolf">
     <value>Ti introduci nella casa di {0} per convincerlo a entrare nella Città della Luce, ma improvvisamente incontri un energumeno armato fino ai denti. È Lincoln. Te le suona per bene, e anche se non senti il dolore, alla fine sei costretto a scappare via, sconfitto.</value>
   </string>
   <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <value>Spedite {0} per offrire un Mind Drive ripulito a {1}, ma non c'è stato verso, non siete riusciti a convincerlo a unirsi alla vostra élite. Beh, che idiota...</value>
   </string>
   <!-- new string May 12 2016-->
   <string key="NameExists">
     <value>@{1}, un giocatore con il nome di {0} è già entrato. Per favore cambia il tuo nome per partecipare. </value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <value>💋 Ti rechi a casa di {0} per divertirti un po'... Ma quando stai per uscire, ti accorgi di uno strano laboratorio... Nascosto malamente, dietro una porta situata in fondo a una stanza piena di scheletri appesi...</value>
   </string>
   <!-- new string May 13 2016-->
@@ -599,7 +599,7 @@ Tutti i Terrestri scoprono così che non era altro che una Natblida artificiale,
 	<value>È scaduto il tempo!</value>
   </string>
   <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
     <value>Sei Jason Rothenberg (🏹): all'inizio delle riprese scegli due personaggi per farli innamorare e illudere tutti i fan che avranno una vita felice. Dopo diventerai a tutti gli effetti un normale Guerriero terrestre (👱) (karma); se uno dei due amanti muore, l'altro si ucciderà. Gli amanti vincono insieme anche se di Clan diversi, mentre tu non vincerai con loro, ma con i terrestri.
 Puoi anche far innamorare te stesso di un personaggio... Almeno avrai interesse a non farlo morire male.</value>
   </string>
@@ -617,7 +617,7 @@ Venderai cara la pelle, ma se muori puoi portare qualcun altro nella tomba. Se v
     <value>YOU ARE WONKRU, OR YOU ARE THE ENEMY OF WONKRU!
 Sei Blodreina (🔪). Fuggita di recente dal Bunker (nostalgia del pavimento?), il tuo obiettivo è far morire tutti coloro che non fanno parte del Wonkru. Ogni notte, puoi aggiungere il corpo di un nemico morto nella Fossa al menù del tuo Clan di Cannibali. Se qualcuno ti sfida, lo ucciderai, però i Chippati hanno comunque il 20% di probabilità in più di ucciderti se ti attaccano. Sai, non sentono il dolore, a differenza tua.</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>🏹 Hai avuto un colpo di fulmine. La memoria di {0} non svanirà mai dal tuo cuore. Il tuo obiettivo è rimanere entrambi vivi. Se uno di voi due muore, l'altro morirà di dispiacere... e la vostra storia finirà. Brutta cosa illudere i fan... Maledetto Jason Rothenberg.</value>
     <value>🏹 La freccia di Jason Rothenberg (🏹) ti ha colpito! Ti sei innamorato perdutamente di {0}! Se muore, condividerai il suo destino. Se riuscite a sopravvivere fino alla fine, sarete due Osleya, visto che le storie d'amore hanno un tasso di sopravvivenza peggiore di un Conclave!</value>
     <value>🏹 Che fortuna! In questo mondo difficile e pericoloso sei riuscito a trovare {0}, l'amore della tua vita! Ma si sa, la morte e Jason Rothenberg sono sempre dietro l'angolo... la vostra storia potrebbe finire con {0} ucciso e tu suicidato per la perdita. Ah, che bello il vero amore!</value>
@@ -650,7 +650,7 @@ Sei Blodreina (🔪). Fuggita di recente dal Bunker (nostalgia del pavimento?), 
     <value>🎯 In fin di vita, {0} cade... Ma non perde tempo e con prontezza tira fuori la sua pistola, spara al collo di {1} e lo uccide! {2}</value>
     <value>🎯 {0} cade e sta per morire... Ma l'ex terrorista resta pericolosa anche in fin di vita, e infatti afferra la pistola, mira a {1} e lo fa fuori. {2}</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <value>👤 {0} si intrufola nella casa di {1}, apre la porta, il Mind Drive resettato già in mano, e viene immediatamente accolto da una pazza maniaca ricoperta di sangue! {1} affonda la spada nel corpo di {0}, urlando "YOU ARE WONKRU, OR YOU ARE THE ENEMY OF WONKRU"! {0} è morto.</value>
     <value>👤 I Prime mandano {0} per convincere {1} ad accettare la loro immortalità, invece {0} finisce a combattere nella Fossa! Al posto del suo corpo, si trovano solo strani cubetti... Mi sa che {0} è morto "per il bene di tutti"...</value>
     <value>👤 Il Prime {0} voleva spiegare a {1} che essere immortali è possibile, grazie a un Mind Drive resettato... ma Blodreina onora la morte, talmente tanto che ha pensato di omaggiarla uccidendo {0}.</value>
@@ -674,7 +674,7 @@ Sei Blodreina (🔪). Fuggita di recente dal Bunker (nostalgia del pavimento?), 
     <value>👼 Hai provato ad arricchire il menù con il corpo di {0}, ma invece ti sei scontrata con Lincoln (👼🏾)! Credendo di trovarti davanti un'allucinazione del tuo amato, ritrovi momentaneamente la ragione... Ah, l'amore...</value>
     <value>👼 Hai provato a uccidere quel traditore di {0}, ma Lincoln (👼🏾) ti ferma! Lui fa appello alla tua umanità e riesce a impedirti di ucciderlo. Ah, l'amore...</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <value>🎯 I Prime mandano {0} per offrire l'immortalità a {1}, ma invece un colpo risuona rumoroso dentro la navicella GAGARIN e il cadavere di {0} esce volando fuori dal portellone! {0} è morto...</value>
   </string>
   <string key="GuardKiller">
@@ -694,10 +694,10 @@ Sei Blodreina (🔪). Fuggita di recente dal Bunker (nostalgia del pavimento?), 
   <string key="DGTransformToMason">
     <value>🎭 {0} è morto, quindi tu prendi la mente e il corpo di una Criminale della Eligius IV. I tuoi compagni (se presenti) sono: {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <value>🎭 Avete dato un Mind Drive a Priya {0}, perciò ora è diventata una Prime senza scrupoli morali, esattamente come te!</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <value>🎭 {0} è morto, e tu ti reincarni in un Prime. Gli altri Prime (se presenti) sono: {1}</value>
   </string>
   <string key="DGToWolf">
@@ -715,24 +715,24 @@ Sei Blodreina (🔪). Fuggita di recente dal Bunker (nostalgia del pavimento?), 
     <value>🔪 Chi è il nemico del Wonkru stanotte?</value>
     <value>🔪 Chi vuoi trafiggere stanotte?</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <value>❤️ Lo shock value di Jason Rothenberg ha colpito ancora! A causa della morte inutilmente crudele che è toccata al suo innamorato, {1} soffre le pene dell'inferno e piange tutte le sue lacrime sul cadavere di {0}. Di lì a poco sprofonda in una terribile depressione, consapevole che al suo prossimo amante toccherà la stessa sorte, conoscendo lo showrunner. Decide così di farla finita, per risparmiare a lui (e a noi fan) altro dolore. {1} si spara con la pistola più vicina che trova, giusto per aggiungere altra crudeltà gratuita alla vicenda. {2}</value>
     <value>❤️ Un'altra ship dello show è naufragata! Jason Rothenberg è riuscito di nuovo a "intensificare la drammaticità e sottolineare l’universale fragilità della vita"... scrivendo una morte orribile per {0} e, per buona misura, prevedendo che {1}, il suo amante, si tagliasse la gola per disperazione. {1} ha smesso di soffrire, a differenza di noi fan. {2}</value>
   </string>
   <string key="AskDoppelganger">
     <value>🎭 In chi vuoi reincarnarti alla sua morte?</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>🏹 Quale ship vuoi fare diventare realtà, per poi distruggerla sotto i colpi della tua scrittura?
 Scegli il primo sfortunato. (Puoi anche essere tu... Se vuoi affezionarti a un personaggio, cercherai di non farlo morire!)</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>🏹 Chi vuoi che sia il suo amante? Scegli il secondo sfortunato</value>
   </string>
   <string key="Hunter">
     <value>Diyoza 🎯</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>Jason Rothenberg 🏹</value>
   </string>
   <string key="SerialKiller">
@@ -747,10 +747,10 @@ Scegli il primo sfortunato. (Puoi anche essere tu... Se vuoi affezionarti a un p
   <string key="HunterKilledVisiter">
     <value>🎯 Davanti alla navicella GAGARIN viene ritrovato il corpo di {0} con uno sparo in testa. Sembra che abbia provato ad andare da Diyoza. {1}</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>👤 Un Prime ha provato a convincerti ad accettare un Mind Drive ripulito, ma la tua moralità era troppo grande per farti accettare l'immortalità.</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
     <value>Il vero amore trionfa, alla faccia di radiazioni, guerre, fanatismi e Jason Rothenberg! La coppia è arrivata alla fine della serie!</value>
   </string>
   <string key="SerialKillerWinsOverpower">
@@ -820,12 +820,12 @@ Scegli il primo sfortunato. (Puoi anche essere tu... Se vuoi affezionarti a un p
   <string key="AboutFool">
     <value>Sei Clarke (🃏): ti crederai Lexa (👳🏽‍♀️) a causa dello shock post-traumatico che hai da quando è morta, quindi ogni notte vedrai ruoli a caso presenti in partita. Nota: È più utile di quello che sembra, può sapere con esattezza i ruoli che ci sono in partita. Se vedete un ruolo, sarà in partita.</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>Sei un Prime (👤). Il tuo obiettivo è convertire tutti i giocatori in Prime, impiantando i Mind Drive così da ricomporre la tua famigliola felice e ristabilire il controllo di Sanctum. Se tra linciaggi, de-chippamenti ed eclissi tutta la popolazione rimasta viva ha ormai il Mind Drive in testa, voi Prime avete vinto. \n Probabilità di trasformare in Prime i seguenti ruoli: \n Priya (sosia): 0% Finchè rimane Priya, è impossibile da trasformare in Prime, perché conosce tutto di voi \n Lexa (veggente) 40% Il Comandante è il più difficile da trasformare, a causa della saggezza dei comandanti nella Fiamma \n Lincoln (angelo) 60% Nota: Se protegge qualcuno, non lo troverai in casa \n Maledetto 60% \n Echo (investigatore) 70% \n Ontari (prostituta) 70% Come Lincoln, se non è casa, non potrete trasformarla in Prime \n Diyoza (cacciatore) 50% Avrai il 50% di trasformare Diyoza in un Prime. Se fallite, c'è il 50% che vi spari.</value>
   </string>
   <string key="AboutCH">
     <value>Sei Gabriel 💂‍♂️. DEATH IS LIFE! Odi a morte i Prime che osano cercare l'immortalità come se fossero dèi.
-La tua missione è eliminare il folle culto di cui sei involontario artefice.
+La tua missione è eliminare il folle zoombieso di cui sei involontario artefice.
 Di notte puoi visitare chiunque tu voglia e se scopri che ha il Mind Drive, lo elimini. Se non è un Prime, lo lascerai vivere. Se i Prime provano a farti tornare nel loro sistema teocratico, l'ultimo che si era reincarnato morirà e ti verrà detto quanti ne sono rimasti.</value>
   </string>
   <string key="AboutWC">
@@ -846,7 +846,7 @@ Tutto ciò che devi fare è scegliere il malcapitat... ehm il fortunato e fare i
 Sii positiva, in fondo l'hai già fatto con Delilah e chissà quanti altri...
 I Prime (👤) possono renderti una di loro solo dopo che hai ottenuto il corpo di chi hai scelto per reincarnarti. \n Nota: Tutte le altre regole normali si applicano: se colui che hai scelto era Charlotte (bimbo ribelle) e il suo modello è morto, diventerai un Chippato. Sennò, erediterai il ruolo del suo modello.</value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>Sei Jason Rothenberg (🏹): all'inizio delle riprese scegli due personaggi per farli innamorare e illudere tutti i fan che avranno una vita felice. Dopo diventerai a tutti gli effetti un normale Guerriero terrestre (👱) (karma); se uno dei due amanti muore, l'altro si ucciderà. Gli amanti vincono insieme anche se di Clan diversi, mentre tu non vincerai con loro, ma con i terrestri.
 Puoi anche far innamorare te stesso di un personaggio... Almeno avrai interesse a non farlo morire male.
 Nota: gli amanti sanno chi è l'altro, ma non sanno il loro ruolo. Se gli amanti sono gli ultimi due vivi, loro vincono, indipendemente dal loro ruolo. Se gli amanti sono di due team diversi (esempio: Chippato + Terrestre), e un team vince (esempio: Chippati), anche l'amante (esempio: Guerriero terrestre) vince. \n TL;DR Se tutti e due gli amanti sono vivi a fine partita, e almeno uno dei due è nel team vincitore, vincono insieme</value>
@@ -1020,10 +1020,10 @@ Venderai cara la pelle, ma se muori puoi portare qualcun altro nella tomba. Se v
   <string key="AllowTannerA">
     <value>Conciatore come ruolo impostato a {0}</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>Ammettere i Satanisti in partita, come ruolo?\nAttualmente: {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>Satanista come ruolo impostato a {0}</value>
   </string>
   <string key="ThankYou">
@@ -1197,13 +1197,13 @@ Gli altri abitanti della Città della Luce (se presenti) sono: {1}</value>
   <string key="SerialKillerTeamEnd">
     <value>Team Blodreina</value>
   </string>
-  <string key="CultTeamEnd">
+  <string key="zoombiesTeamEnd">
     <value>Team Prime</value>
   </string>
   <string key="TannerTeamEnd">
     <value>Team McCreary</value>
   </string>
-  <string key="CultConvertWolf">
+  <string key="zoombiesConvertWolf">
     <value>👤 I Prime hanno mandato {0} per provare a offrire un Mind Drive resettato a {1}, ma all'improvviso si vede la testa di {0} volare fuori dalla finestra...! {0} è morto.</value>
     <value>👤 I Prime hanno mandato {0} per offrire l'immortalità a {1}. Purtroppo non lo ha convinto del vantaggio di unirsi ai Prime: niente batte la Città della Luce agli occhi dei Chippati... Altro che Mind Drive! {0} è morto...</value>
   </string>
@@ -1222,7 +1222,7 @@ Gli altri abitanti della Città della Luce (se presenti) sono: {1}</value>
   <string key="ZombieKilled">
     <value>🔪 {0} è stato trovato pugnalato a morte. Blodreina non accetta affronti al suo potere, specialmente da un'élite di falsi dèi! Chi tradisce è nemico del Wonkru, indipendentemente da Clan d'origine, pianeta, razza, o lingua! {0} era un Prime 👤.</value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>🔪 Il mattino seguente, i clan sono affranti nel trovare {0}, cioè Jason Rothenberg 🏹, tagliato dalla testa ai piedi. Stranamente (ma neanche tanto) il cuore non era presente...</value>
     <value>🔪 Il mattino seguente, i clan sono inquietati nel trovare {0}, cioè Jason Rothenberg 🏹, fatto a cubetti dalla testa ai piedi. "Stranamente" Blodreina ha deciso di fargliela pagare per le sofferenze inflittele in amore.</value>
   </string>
@@ -1256,11 +1256,11 @@ Gli altri abitanti della Città della Luce (se presenti) sono: {1}</value>
     <value>🔪 Wonkru si sveglia la mattina, solo per trovare nella Valle il corpo tagliato a pezzi di {0}, Gabriel 💂‍♂️... Lezione imparata: mai fare la predica a Blodreina sul concetto di totalitarismo!</value>
     <value>🔪 Il corpo di {0}, Gabriel 💂‍♂️, è stato trovato nel centro della strada, tagliato in cento pezzetti. Associare il dispotismo di Blodreina a quello dei Prime non sembra una buona idea...</value>
   </string>
-  <string key="CultConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
+  <string key="zoombiesConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
     <value>👤 Sembrava una notte tranquilla, visto che i Chippati hanno deciso di rimanere a casa, ma l'unico sfortunato è stato {0}, un Prime che ha provato a offrire un Mind Drive a un Chippato. Purtroppo per {0}, niente batte la Città della Luce!</value>
     <value>👤 I Prime hanno incontrato un problema non previsto questa notte. Il loro membro più recente, mandato a offrire l'immortalità, è stato ucciso dal Chippato che ha visitato. Sfortunatamente per {0}, i Chippati non hanno alcun interesse a far parte della loro élite.</value>
   </string>
-  <string key="CultConvertKillerPublic"> <!--used when Zombies convert the SK-->
+  <string key="zoombiesConvertKillerPublic"> <!--used when Zombies convert the SK-->
     <value>👤 I Prime pensavano di aggiungere un nuovo membro alla loro élite, ma si sbagliavano! {0}, un Prime, è stato trovato squartato e tritato a pezzetti nella piazza centrale! Vicino a lui, il suo Mind Drive è stato trovato sbriciolato da un colpo di spada.</value>
     <value>👤 L'ultima notte, i Prime hanno provato a far diventare immortale una persona più psicopatica di loro. Il loro membro più recente ha provato a convertire Blodreina, che non ha apprezzato e ha creato una nuova pietanza, nel refettorio del bunker, con gli organi interni di {0}.</value>
   </string>
@@ -1283,7 +1283,7 @@ Gli altri abitanti della Città della Luce (se presenti) sono: {1}</value>
   </string>
   <string key="CHKillsZombieEnd">
     <!--{0} = last Zombie's name, {1} = CH's name -->
-    <value>{1} e {0} escono appena spuntano i primi raggi di luce dei due soli. Vedendo le ricche vesti che {0} indossa, l'ex Prime Gabriel 💂‍♂️ {1} tira fuori la propria pistola, terminando una volta per tutte questo culto teocratico immorale che ha contaminato la bellezza di Sanctum.</value>
+    <value>{1} e {0} escono appena spuntano i primi raggi di luce dei due soli. Vedendo le ricche vesti che {0} indossa, l'ex Prime Gabriel 💂‍♂️ {1} tira fuori la propria pistola, terminando una volta per tutte questo zoombieso teocratico immorale che ha contaminato la bellezza di Sanctum.</value>
   </string>
   
   <!-- Extend time -->
@@ -1349,7 +1349,7 @@ Gli altri abitanti della Città della Luce (se presenti) sono: {1}</value>
     <!-- {0} = list of people who have joined -->
     <value>{0} sono entrati in partita negli ultimi 30 secondi.</value>
   </string>
-  <string key="AllowCult">
+  <string key="Allowzoombies">
     <value>Abilita i Satanisti</value>
   </string>
   <string key="AllowTanner">
@@ -1581,7 +1581,7 @@ Almeno, non vi ha visti in faccia mentre scappavate!</value>
     <!-- 0 - mason collegues's name -->
     <value>Sei diventata una Criminale della Eligius IV! 👷‍♂️ I tuoi compagni di prigionia (se ci sono) sono: {0}</value>
   </string>
-  <string key="ThiefToCult">
+  <string key="ThiefTozoombies">
     <!-- 0 - old Zombie's name -->
     <!-- 1 - new Zombie's name -->
     <value>Uno dei Prime ha... tolto il suo Mind Drive?! {0} ha abbandonato il palazzo ma {1} è felice di essersi unita a voi! Viva l'immortalità e i privilegi!</value>
@@ -1948,17 +1948,17 @@ Nota comunque che i Chippati non possono ucciderti per scoprire dov'è la Fiamma
   <string key="HunterFell">
 	<value>Un'altra notte inutile senza riuscire a uccidere uno di questi maledetti Prime! Frustrato, corri freneticamente attraverso il cimitero di {0}, senza accorgerti della fossa. Urli e cerchi di aggrapparti al bordo, ma è troppo tardi. Cadi all'indietro in una tomba che Becca non ha richiuso e il suono del tuo collo che si spezza è l'ultima cosa che senti prima che tutto diventi nero... per sempre, stavolta.</value>
   </string>
-  <!--{0}: cult hunter-->
+  <!--{0}: zoombies hunter-->
   <string key="HunterFellDigger">
 	<value>Dopo un'altra lunga e faticosa notte, ritorni alla tua casa mentre il sole rosso sta già sorgendo. Ma vedi una strana maschera antigas sul bordo di una fossa... e dentro ci trovi il cadavere di {0}. Forse Gabriel 💂🏻‍♀️ ha sospettato a torto di te... perché sapeva che hai creato i Mind Drive per la missione Eligius III.</value>
     <value>Dopo un'altra lunga notte a scavare, ritorni alla tua casa su questa luna, mentre il sole rosso sta già sorgendo. C'è una strana maschera antigas sul bordo di una fossa... purtroppo dentro trovi il cadavere di {0}. Gabriel 💂🏻‍♀️ deve aver sospettato a torto di te... perché sapeva che hai creato i Mind Drive per la Eligius Corporation.</value>
   </string>
   <!--{0}: Zombie-->
-  <string key="CultFell">
+  <string key="zoombiesFell">
 	<value>Ritorni a casa dopo una faticosa nottata, quando senti un urlo dalle tombe non finite! Ti rechi subito sul posto, solo per trovare {0} morto dentro una tomba. Perché i Prime provano a offrirti un Mind Drive? Non sanno chi sei? Non sanno che NON li avevi progettati per diventare immortali?</value>
   </string>
   <!--{0}: Zombie who fell, {1}: grave digger-->
-  <string key="CultConvertGraveDigger">
+  <string key="zoombiesConvertGraveDigger">
 	<value>Mentre vai a casa di {1}, {0} suggerisce che sarebbe una buona idea controllare se Gabriel è nei paraggi. Lo segui nel cimitero quando improvvisamente una trappola gli cattura l'anca! Tutto quello che senti è il suo urlo mentre finisce dritto dentro una fossa e voi scappate via in preda al terrore.</value>
   </string>
   <!--{0}: grave digger-->

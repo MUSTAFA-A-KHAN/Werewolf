@@ -323,22 +323,22 @@
   <string key="ZombieVotedConvert" >
     <value >{0} votou para converter {1}</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <value>{0} foi enviado para converter {1}... Entretanto, ela era Arya Stark, e estava com Agulha esperando por um Homem sem Rosto! {0} está morto(a)!</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <value>{0} foi à sua casa na noite passada, pronto para te converter....  Mas você pegou Agulha ferozmente. Um membro dos Homens sem Rosto está morto... {1} restante(s)!</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>Você foi convertido e agora é um Homem sem Rosto.  Durante a noite, você poderá tentar converter outras pessoas.</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <value>{0} se juntou aos Homens sem Rosto!</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <value>{0} foi enviado para converter {1}... Mas ninguém estava em casa!</value>
   </string>
-  <string key="CultWins">
+  <string key="zoombiesWins">
     <value >Todos os Lannister morreram e as únicas pessoas sobreviventes pertencem aos Homens sem Rosto..  Viva ao Deus de Muitas Faces!</value>
   </string>
   <string key="HunterVisitDead">
@@ -435,21 +435,21 @@
     <value>  Os patrulheiros são: {0}</value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <value>O membro mais recente dos Homens sem Rosto corre atrás de {0} para convertê-lo, mas encontra apenas seu corpo sem vida...</value>
   </string>
   <string key="GuardBlockedWolf">
     <value>O exército se dirige à casa de {0}, mas lá dá de cara com Catelyn Tully pronta para protegê-lo. Como não sabiam se estava nas ordem de Lorde Tywin matar Catelyn, o exército retorna a Rochedo Casterly.</value>
   </string>
   <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <value>{0} foi enviado(a) para converter {1}, mas sua fé era forte demais para deixar seus deuses.</value>
   </string>
   <!-- new string May 12 2016-->
   <string key="NameExists">
     <value>@{1}, um(a) jogador(a) com nome {0} já se juntou à partida. Por favor mude seu nome para poder entrar no jogo.</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <value>Você visitou {0}, mas enquanto saía você notou através de uma porta semiaberta paredes cheias de rostos....</value>
   </string>
   <!-- new string May 13 2016-->
@@ -536,7 +536,7 @@
 	<value>Tempo esgotado!</value>
   </string>
   <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
     <value>Você é Sansa Stark. Acreditando no amor e em contos de fada, você pode escolher dois jogadores que irão se amar para toda eternidade. Se um deles morrer, o outro morrerá de tristeza.</value>
   </string>
   <string key="RoleInfoDoppelganger">
@@ -548,7 +548,7 @@
   <string key="RoleInfoSerialKiller">
     <value>Você é Petyr Baelish. Seu time é você mesmo e os outros jogadores não são mais que seus brinquedinhos. Toda noite você pode escolher um jogador para matar e assim ganhando cada vez mais poder.</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>Você foi escolhido pela Sansa, e a memória de {0} nunca deixará seu coração. Se um de vocês morrer, o outro irá até o mundo dos mortos para que ambos continuem juntos. Se o lado de um de vocês vencer, ambos vencem. Mas, se ambos forem os únicos vivos no final da partida, o casal sai vitorioso e todos os demais jogadores são derrotados.</value>
   </string>
   <string key="HunterLynchedChoice">
@@ -590,10 +590,10 @@
   <string key="GuardBlockedKiller">
     <value>Você foi matar {0}. Mas chegando lá se depara com sua amada Cat, e foge antes que ela o veja!</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <value>Os Homens sem Rosto mandam {0} para converter {1}. Chegando lá {0} é recebido com as mordidas de Vento Cinzento! {0} está morto.</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <value>Os Homens sem Rosto mandam {0} para converter {1}. Chegando lá {0} percebe que se tratava de Petyr Baelish e descobre os planos de Mindinho... {0} está morto</value>
   </string>
   <string key="GuardKiller">
@@ -611,10 +611,10 @@
   <string key="DGTransformToMason">
     <value>{0} morreu, e você agora é um Patrulheiro da noite.  Seus companheiros (se houver) são: {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <value>Jaqen H'ghar {0} retorna a Casa do Preto e Branco como mais um dos Homens sem Rosto.</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <value>{0} morreu, e você retorna a Casa do Preto e Branco. Seus novos companheiros (se houver) são: {1}</value>
   </string>
   <string key="DGToWolf">
@@ -629,22 +629,22 @@
   <string key="AskKill">
     <value>Quem você quer matar essa noite?</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <value>{0} dá seu último suspiro olhando no fundo dos olhos de seu amor, {1}, que segura seu corpo de joelhos. {1} não aguenta a dor, e, com uma faca, perfura o próprio coração... Eles ficarão juntos, mesmo no mundo dos mortos. {2}</value>
   </string>
   <string key="AskDoppelganger">
     <value> Quem você quer ter o rosto após sua morte?</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>Quem será o casal? Escolha o primeiro amante.</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>Quem será o casal? Escolha o segundo amante.</value>
   </string>
   <string key="Hunter">
     <value>Robb Stark 🎯</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>Sansa Stark 🏹</value>
   </string>
   <string key="SerialKiller">
@@ -656,14 +656,14 @@
   <string key="NewWCRoleModel">
     <value>Você se tornou Joffrey Baratheon.  Seu Cão de Caça é {0}</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
     <value>Os amantes venceram! Queriam o que né? O Amor sempre vence!</value>
   </string>
   <string key="HunterKilledVisiter">
     <value>Quando acordam, vocês encontram {0} devorado por Vento Cinzento. Parece que alguém visitou Robb Stark e se deu mal! {1}</value>
   </string>
 
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>Alguém tenta lhe converter para os Homens sem Rosto, mas sua fé nos seus deuses é mais forte.</value>
   </string>
   <string key="AlreadyOnWaitList">
@@ -735,7 +735,7 @@
   <string key="AboutFool">
     <value>O Theon Greyjoy jura que ser um Stark... mas quando ele escolhe ver alguém à noite, recebe um papel aleatório.</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>Você é um Homem sem Rosto.  Vindo da Cidade Livre de Bravos, você poderá escolher alguém para levar a Casa do Preto e Branco. Se todos os jogadores restantes ao final do jogo forem Homens sem Rosto, vocês vencem!</value>
   </string>
   <string key="AboutCH">
@@ -760,7 +760,7 @@
       Os Homens sem Rosto não podem converter o Jaqen (isso só pode acontecer após Jaqen se transformar em outro personagem). Além disso, o Jaqen jamais vencerá se não tiver se transformado. Se, no fim da partida, ele ainda estiver em sua forma original, ela perde (exceção: se o Jaqen for escolhido pela Sansa e o time do seu amor vencer).
     </value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>
       Você é Sansa Stark. Acreditando no amor e em contos de fada, você pode escolher dois jogadores que irão se amar para toda eternidade. Se um deles morrer, o outro morrerá de tristeza.
     ATENÇÃO: Os amantes não serão informados sobre os personagens um do outro. Se os amantes forem os dois únicos vivos no fim, eles vencem, independentemente de seus papéis. Se os amantes estiverem em times diferentes (exemplo: Lannisters e westerosis), e um dos times vence (como o dos Lannisters), o amante (westerosi) vence junto. Ou seja, se pelo menos um dos amantes estiver no time vencedor, ambos vencem juntos.
@@ -947,11 +947,11 @@
   <string key="AllowTannerA">
     <value>Existência do Suicida definida como: {0}</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>Permitir a Seita como um papel possível?
   Atual: {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>Existência da Seita definida como: {0}</value>
   </string>
   <string key="EnableSecretLynchQ">
@@ -1110,13 +1110,13 @@
 - <string key="SerialKillerTeamEnd">
   <value>Time Mindinho</value> 
   </string>
-- <string key="CultTeamEnd">
+- <string key="zoombiesTeamEnd">
   <value>Time dos Homens sem Rosto</value> 
   </string>
 - <string key="TannerTeamEnd">
   <value>Time Tommen Baratheon</value> 
   </string>
-  - <string key="CultConvertWolf">
+  - <string key="zoombiesConvertWolf">
   <value>Os Homens sem Rosto enviam {0} para tentar converter {1}, mas em vez disso, a sua cabeça é jogada pela janela. {0} está morto...</value> 
   </string>
  <string key="HarlotFuckedKilledPublic">
@@ -1132,7 +1132,7 @@
   <string key="ZombieKilled">
     <value>De manhã todos encontram {0} morto. O Mindinho não se importa com religião, todos são brinquedinhos para ele! Os Homens sem Rosto vão sentir falta de {0}...</value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>Todos ficam de coração partido ao encontrar {0}, Sansa Stark, morta. Uma triste obra do Mindinho.</value>
   </string>
   <string key="DrunkKilled">
@@ -1162,10 +1162,10 @@
   <string key="SerialKillerKilledCH"> <!--used when CH visits SK-->
     <value>Westeros acordou essa manhã só para encontrar um corpo morto na Baixada das Pulgas. {0}, Arya Stark, visitou a pessoa errada. O Mindinho utilizou a própria Agulha para o seu serviço.</value>
   </string>
-  <string key="CultConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
+  <string key="zoombiesConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
     <value>Péssima escolha dos Homens sem Rosto ao visitar um Lannister que decidiu ficar em casa durante a noite. {0} está morto.</value>
   </string>
-  <string key="CultConvertKillerPublic"> <!--used when Zombies convert the SK-->
+  <string key="zoombiesConvertKillerPublic"> <!--used when Zombies convert the SK-->
     <value>Ontem a noite o Homens sem Rosto decidiram visitar a única pessoa mais estranha do que eles, o Mindinho, e por causa disso, {0} foi morto.</value>
   </string>
   <string key="GAGuardedKiller">
@@ -1236,7 +1236,7 @@
     <!-- {0} = list of people who have joined -->
     <value>Quem se juntou à partida nos últimos 30 segundos: {0}.</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
 	<value>Seus companheiros são: {0}</value>
   </string>
   <string key="WolfTeam">
@@ -1260,7 +1260,7 @@
   <string key="MustReplySmite">
     <value>Você precisa usar o comando smite como resposta ao usuário que quer aniquilar</value>
 	</string>
-	  <string key="AllowCult">
+	  <string key="Allowzoombies">
     <value>Permitir Homens sem Rosto</value>
   </string>
   <string key="AllowTanner">

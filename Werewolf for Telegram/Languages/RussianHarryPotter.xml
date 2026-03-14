@@ -228,13 +228,13 @@
   <string key="AllowTannerA">
     <value>Нынешний статус настройки: {0}.</value>
   </string>
-  <string key="AllowCult">
+  <string key="Allowzoombies">
     <value>Разрешить дементоров</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>Разрешить в игре роль «Дементор» (Сектант)?\nСтатус настройки: {0}.</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>Нынешний статус настройки: {0}.</value>
   </string>
   <string key="AllowThief">
@@ -535,7 +535,7 @@
   <string key="Doppelgänger">
     <value>Нимфадора Тонкс 🎭</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>Флёр Делакур 🏹</value>
   </string>
   <string key="Hunter">
@@ -658,7 +658,7 @@
   <string key="AboutAppS">
     <value>Ты Джинни Уизли 🙇, ученица курса Прорицания, сражающаяся за Хогвартс. Если Сивиллы Трелони не станет, ты займёшь её место.</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>Ты один из дементоров 👤. Под покровом ночи выбери жертву, подари самый лучший (и последний) поцелуй в её жизни, а затем позови в ваши ряды. Если к концу игры останутся только одни дементоры, то Хогвартс полностью перейдет под ваш контроль.</value>
   </string>
   <string key="AboutCH">
@@ -676,7 +676,7 @@
   <string key="AboutDG">
     <value>Ты Нимфадора Тонкс 🎭, метаморф, способная изменять свой внешний вид без использования заклинаний или зелий. Реши, кто из волшебников Хогвартса настолько важен, чтобы взять на себя его роль после смерти.</value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>Ух, до чего же тебе нравится романтика! Ты — Флёр Делакур 🏹 и должна указать на двух избранных, чьи судьбы переплетутся. Да так сильно, что стоит только одному из них отбросить коньки, как второй тут же летит к нему в могилу обниматься, не в силах покинуть ловушку.</value>
   </string>
   <string key="AboutHunter">
@@ -804,7 +804,7 @@
   <string key="RoleInfoDoppelganger">
     <value>Ты Нимфадора Тонкс 🎭, метаморф, способная изменять свой облик без использования заклинаний или зелий. Реши, кто из волшебников важен настолько, чтобы стать его двойником после смерти.</value>
   </string>
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
     <value>Ты Флёр Делакур 🏹, внучка вейлы. Даже не желая того, ты безо всякой «Амортенции» заставляешь окружающих влюбляться друг в друга. Приглядись, кто на этот раз невзначай попал под твои чары? Жаль бедняг: если одного убьют, второй умрёт от горя.</value>
   </string>
   <string key="RoleInfoHunter">
@@ -922,7 +922,7 @@
     <value>Бузинная палочка с Михеем Грегоровичем 👺 уплыла в недосягаемый Азкабан. Война приостановлена на неопределённый срок.</value>
     <value>Секреты мастера Михея Грегоровича 👺 теперь надёжно укрыты в Азкабане. А без них ситуация патовая.</value>
   </string>
-  <string key="CultWins" isgif="true">
+  <string key="zoombiesWins" isgif="true">
     <value>Волшебников не осталось, одни дементоры 👤. Хогвартс теперь принадлежит им!</value>
   </string>
   <string key="SerialKillerWins" isgif="true">
@@ -930,7 +930,7 @@
     <value>Геллерт Грин-де-Вальд 🔪 расстроен — все живые игрушки закончились. Пора искать новые.</value>
     <value>Ну вот, никого не осталось. А у Геллерта Грин-де-Вальда 🔪 ещё столько идей, как скоротать вечер за резьбой по коже!</value>
   </string>
-  <string key="LoversWin" isgif="true">
+  <string key="crewmatesWin" isgif="true">
     <value>Истинная любовь побеждает! Разве не мило?</value>
   </string>
   <string key="NoWinner" isgif="true">
@@ -1049,10 +1049,10 @@
   <string key="AskDoppelganger">
     <value>Чей облик ты хочешь принять?</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>Кого твоя романтичная душа жаждет свести в пару? Выбери первую жертву.</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>Кто попадёт под твои вейловские чары и на весь учебный год окажется в любовной лихорадке? Выбери вторую жертву.</value>
   </string>
   <string key="AskDetect">
@@ -1215,22 +1215,22 @@
   <string key="ZombieVotedConvert">
     <value>{0} проголосовал, чтобы обратить {1} в дементора.</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <value>{0} был послан, чтобы выпить душу и обратить {1} в дементора… Однако жертвой оказался Римус Люпин 💂, отлично умеющий противостоять дементорам! {0} вернулся в Азкабан.</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <value>{0} заглянул к тебе этой ночью, желая выпить твою душу и заменить тебя, но ты-то умеешь постоять за себя! Один из дементоров 👤 вернулся в Азкабан…\nДементоров осталось: {1}.</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>Ты получил поцелуй смерти дементора 👤 и был превращён в одного из них. Теперь по ночам ты со своими новыми собратьями тоже будешь дарить поцелуи смерти другим волшебникам и увеличивать армию дементоров…</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>Дементоры: {0}.</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <value>{0} получил поцелуй смерти и стал дементором!</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <value>{0} был послан подарить поцелуй смерти {1}, но никого не нашёл в спальне…</value>
   </string>
   <string key="HunterVisitDead">
@@ -1260,16 +1260,16 @@
   <string key="MasonTeam">
     <value>В Отряд Дамблдора входят: {0}.</value>
   </string>
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <value>Дементор направляется в спальню {0}, чтобы выпить душу и сделать его одним из своих, но натыкается на беспорядок, кровь и осколки… Генеральный план под угрозой — цель кем-то убита!</value>
   </string>
   <string key="GuardBlockedWolf">
     <value>{0} должен был сегодня стать жертвой вылазки Пожирателей смерти, но им на пути встало сияющее благородное существо, вооружённое мечом и палочкой. Лили Поттер 👼 сегодня на страже, и после боя, полного световых эффектов, Пожиратели возвращаются в свои спальни ни с чем.</value>
   </string>
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <value>{0} был отправлен поглотить сущность {1}, но Патронус жертвы оказался слишком силён.</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <value>{0} у себя в комнате, и вы самозабвенно целуетесь… Но с этим поцелуем что-то не так! Твоя энергия стремительно утекает, словно ты лишаешься души. По возвращении в Выручай-комнату ты решаешь съесть шоколадную лягушку…</value>
   </string>
   <string key="Was">
@@ -1293,7 +1293,7 @@
   <string key="TimesUp">
     <value>Время вышло!</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>{0} сводит тебя с ума одним своим существованием. Ты готов забыть, как дышать, от случайного соприкосновения. Вы всегда будете вместе, в жизни и в смерти. Если твоя половинка умрёт или отправится в Азкабан, ты не раздумывая последуешь за ней.</value>
   </string>
   <string key="HunterLynchedChoice">
@@ -1338,10 +1338,10 @@
   <string key="GuardBlockedKiller">
     <value>{0} — неплохой выбор, чтобы развлечься этой ночью. Но мерзкая Лили Поттер 👼 обломала все планы. Сегодня придётся скучать…</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <value>Дементоры посылают {0} выпить душу {1} поцелуем и обратить его. Прибыв на место, {0} напарывается на «Экспеллиармус», а следом и на «Сектумсемпру», метко пущенные недрогнувшей рукой. {0} мёртв…</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <value>{0} пробирается к выбранной спальне, открывает дверь и натыкается на сумасшедшего маньяка с ножом! {1}, сопя от радости, пытается ножом проинспектировать органы новой игрушки в алфавитном порядке. {0}, будучи дементором 👤, невредим, но, испугавшись Грин-де-Вальда 🔪, решает от греха подальше вернуться в Азкабан.</value>
   </string>
   <string key="GuardKiller">
@@ -1359,10 +1359,10 @@
   <string key="DGTransformToMason">
     <value>{0} умер, и ты становишься бойцом Отряда Дамблдора 👷. Твои соратники (если есть): {1}.</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <value>{0}, Нимфадора Тонкс 🎭, стала дементором.</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <value>{0} умер, и ты принимаешь свою судьбу и присоединяешься к дементорам 👤. Твои новые соратники (если есть): {1}.</value>
   </string>
   <string key="DGToWolf">
@@ -1404,7 +1404,7 @@
   <string key="NewDGRoleModel">
     <value>Ты стала Нимфадорой Тонкс! Когда {0} умрёт, ты получишь его роль.</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <value>{0} испускает последний вздох на коленях своей половинки. {1} ловит прощальный взгляд, но расставание невыносимо. Решительное «Авада Кедавра», направленное в себя, объединяет две души на небесах. {2}</value>
   </string>
   <string key="SerialKillerWinsOverpower">
@@ -1413,7 +1413,7 @@
   <string key="SKHunterEnd">
     <value>Солнце встаёт из-за горизонта. {0} и {1} — единственные выжившие. {0} с улыбочкой предлагает повеселиться. {1} молниеносно выхватывает палочку и бросает «Сектумсемпра». {0} не остаётся в долгу, отвечая «Авада Кедавра». Два трупа. Победу праздновать некому.</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>Посреди ночи ты внезапно чувствуешь тоску, опустошённость, как будто счастье исчезло навсегда. Ты вызываешь Патронуса, и чувство утихает.</value>
   </string>
   <string key="HunterKilledVisiter">
@@ -1467,7 +1467,7 @@
   <string key="SerialKillerTeamEnd">
     <value>Команда Грин-де-Вальда</value>
   </string>
-  <string key="CultTeamEnd">
+  <string key="zoombiesTeamEnd">
     <value>Команда дементоров</value>
   </string>
   <string key="TannerTeamEnd">
@@ -1480,7 +1480,7 @@
     <value>Все чувствуют себя немного счастливее. {0}, дементор 👤, в ужасе удрал в Азкабан. Геллерт Грин-де-Вальд 🔪 своими чёрными фантазиями напугал бедного дементора до глубины его (несуществующей) души!</value>
     <value>Все чувствуют себя немного счастливее. {0}, дементор 👤, в ужасе удрал в Азкабан. Геллер Грин-де-Вальд 🔪 своими чёрными фантазиями до основания потряс воображение бедного дементора (неужели оно у них есть?)!</value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>Утро в Хогвартсе началось с шока. Флёр Делакур 🏹, {0}, найдена мёртвой. Возможно, её красоте и популярности многие завидовали, но той расправы, которую учинил над ней Геллерт Грин-де-Вальд 🔪, она не заслужила.</value>
   </string>
   <string key="DrunkKilled">
@@ -1511,10 +1511,10 @@
   <string key="SerialKillerKilledCH">
     <value>Римус Люпин 💂, {0}, возможно, был умным человеком, но даже гений не застрахован от вероятности стать жертвой «шалостей» Геллерта Грин-де-Вальда 🔪. Спальня Люпина была взломана и выкрашена в цвета его факультета. Как вы догадались, кровью.</value>
   </string>
-  <string key="CultConvertWolfPublic">
+  <string key="zoombiesConvertWolfPublic">
     <value>Волан-де-Морт, похоже, хорошо обучил своих последователей! Несмотря на выходной от убийств, Пожиратели смерти 🐺 всё равно остались начеку. {0}, бедный дементор 👤, думал, что сможет поймать отдыхающего Пожирателя смерти, но получилось наоборот — его вышвырнули обратно в Азкабан.</value>
   </string>
-  <string key="CultConvertKillerPublic">
+  <string key="zoombiesConvertKillerPublic">
     <value>Дементоры 👤 попытались применить к Геллерту Грин-де-Вальду 🔪 свой поцелуй, однако {0}, новичок, был так напуган жестокими шалостями волшебника, что сбежал в Азкабан!</value>
   </string>
   <string key="GAGuardedKiller">
@@ -1538,7 +1538,7 @@
   <string key="HarlotFuckedKilledPublic">
     <value>{0} проскальзывает в комнату {1} с зажатым в руке бутыльком сыворотки правды, вот только находит Геллерта Грин-де-Вальда 🔪, который подбрасывает её заклинанием в воздух и несколько раз хорошенько прикладывает о стену! Грин-де-Вальд улыбается Чжоу Чанг 💋, {0}, прежде чем заставить присоединиться к своей маленькой «вечеринке»!</value>
   </string>
-  <string key="CultConvertWolf">
+  <string key="zoombiesConvertWolf">
     <value>Дементоры посылают {0}, чтобы одарить поцелуем {1}, но {0} исчезает. Вероятно, изгнан в Азкабан Пожирателями смерти.</value>
   </string>
   <string key="ApprenticeSeerEaten">
@@ -1600,7 +1600,7 @@
   <string key="ThiefTransformToMason">
     <value>Желая в совершенстве овладеть Защитой от Тёмных Искусств, ты присоединилась к Отряду Дамблдора 👷. Твои соратники (если есть): {0}.</value>
   </string>
-  <string key="ThiefToCult">
+  <string key="ThiefTozoombies">
     <value>Странно, {0} больше не твой соратник, зато {1} стал, как и ты, бездушным существом, которое жаждет чужих жизней.</value>
   </string>
   <string key="ThiefToWolf">
@@ -1788,10 +1788,10 @@
   <string key="HunterFellDigger">
     <value>Твои труды по подготовке прекрасной ловушки на дементоров пошли прахом. И зачем болван {0} Римус Люпин туда свалился?</value>
   </string>
-  <string key="CultFell">
+  <string key="zoombiesFell">
     <value>Ночь огласилась истошным криком — твоя ловушка по отправке Пожирателей смерти за Завесу сработала, но попался в неё почему-то дементор {0}.</value>
   </string>
-  <string key="CultConvertGraveDigger">
+  <string key="zoombiesConvertGraveDigger">
     <value>Вы решили провернуть рискованную операцию — поцелуем смерти переманить на свою сторону Пивза, {1}, но возле его логова {0} попал в ловушку, провалившись на ту сторону бытия, и операцию пришлось отложить.</value>
   </string>
   <string key="ChemistFell">

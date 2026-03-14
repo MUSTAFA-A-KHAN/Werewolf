@@ -88,7 +88,7 @@ namespace Werewolf_Control.Helpers
         //            return 3 + (allRoles.Count(x => x == IRole.Mason)); //strength in numbers
         //        case IRole.Doppelgänger:
         //            return 4;
-        //        case IRole.Cupid:
+        //        case IRole.Recruiter:
         //            return 2;
         //        case IRole.Hunter:
         //            return 6;
@@ -127,7 +127,7 @@ namespace Werewolf_Control.Helpers
         {
             var input = m.Text;
             if (String.IsNullOrEmpty(input)) return new[] { "", "" };
-            // ReSharper disable StringIndexOfIsCultureSpecific.1  -- It's a space, I don't care about culture.
+            // ReSharper disable StringIndexOfIsCultureSpecific.1  -- It's a space, I don't care about Culture.
             var result = input.Contains(" ") ? new[] { input.Substring(1, input.IndexOf(" ")).Trim(), input.Substring(input.IndexOf(" ") + 1) } : new[] { input.Substring(1).Trim(), null };
             result[0] = result[0].Replace("@" + Bot.Me.Username, "");
             return result;

@@ -375,33 +375,33 @@
     <!-- 1 - target name -->
     <value >{0} ha votado por robarle su sombra a {1}.</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <!-- 0 - Yougest Zombie (killed)'s name' -->
     <!-- 1 - ZombieHunter's name -->
     <value>{0} fue enviado para hacer tu trabajo sucio y robarle la sombra a {1}...; sin embargo, ¡se trataba de Luffy ¡{0} fue obligado a tragar sal y ha sido derrotado!</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - Number of Zombies left -->
     <value>{0} vino a tu campamento esta noche para robarte la sombra… pero lo encerraste en una torikago y le hiciste comer sal. Un zombie de Gekko Moria ha sido derrotado… ¡Queda(n) {1}!</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>¡Los zombies de Gekko Moria te han robado la sombra! Has sido zombificado y ahora eres uno de ellos 👤. Cada noche tendrás ocasión de robarle la sombra a otro pirata.</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <!-- 0 - Number of Zombies -->
     <value>Zombies de Gekko Moria: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <!-- 0 - new Zombie's name -->
     <value>¡{0} se ha unido al ejercito de Moria!</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <!-- 0 - Newest Zombie's name -->
     <!-- 1 - target name -->
     <value>{0} fue enviado a hacer tu trabajo sucio y robsrle la sombra a {1}... ¡pero no había nadie en el campamento!</value>
   </string>
-  <string key="CultWins" isgif="true">
+  <string key="zoombiesWins" isgif="true">
     <value >Todos las amenazas al ejecito de Gekko Moria han sido eliminadas y los únicos piratas en pie han sido transformados en zombies ¡Thiller Bark ha ganado!</value>
   </string>
   <string key="HunterVisitDead">
@@ -505,7 +505,7 @@
     <value>Miembros de la Franky Family👷‍♂️: {0}</value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <!-- 0 - Youngest Zombies name -->
     <value>El miembro más reciente del ejercito de Gekko Moria fue a robarle su sombra a {0}, pero parece ser que alguien llego antes que el.</value>
   </string>
@@ -514,7 +514,7 @@
     <value>Los piratas de Kurohige se dirigen al campamento de {0} para derrotarlo, pero se encuentran con un muro enorme de fuego. Portgas D. Ace les impide el paso.</value>
   </string>
   <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <!-- 0 - newest  -->
     <!-- 1 - target's name -->
     <value>Enviaste a {0} para intentar robarle su sombra a {1}; sin embargo, era demasiado fuerte y fue imposible unirlo al ejercito de Gekko Moria :(</value>
@@ -525,7 +525,7 @@
     <!-- 1 - name -->
     <value>@{1}, un pirata con el nombre {0} ya se ha unido. Por favor, cambia tu nombre para unirte.</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <!-- 0 - target's name -->
     <value>Te escabulliste anoche al campamento de {0} para pasar robarle sus tesoros, pero notaste que solo habia carteles de busqueda de cierto Shichibukai… [{0} es un zombie de Gekko Moria].</value>
   </string>
@@ -619,7 +619,7 @@
 	<value>¡Se acabó el tiempo!</value>
   </string>
   <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
     <value>Eres Sanji 🏹. Eres todo un cabellero con las chicas. Ademas puedes aliar a dos personas durante la busqueda del One Piece, si una es derrotada la otra tambien lo sera. Pero si una gana la otra persona tambien ganara.</value>
   </string>
   <string key="RoleInfoDoppelganger">
@@ -631,7 +631,7 @@
   <string key="RoleInfoSerialKiller">
     <value>Eres Donquixote Doflamingo 🔪. Hace poco que escapaste de Impel Down, tu objetivo es que todos los demás mueran. Cada noche, puedes usar la Ito Ito no mi para eliminar a alguien.</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>Has formado una alianza con {0}. Si uno de los dos es derrotado, el otro lo tambien lo sera. Si estando vivos los dos, uno de los dos encuentra el One Piece, el otro lo encontrara también.</value>
 	<value>Has formado una alianza con {0}. Si uno de los dos es derrotado, el otro lo tambien lo sera. Si estando vivos los dos, uno de los dos encuentra el One Piece, el otro lo encontrara también.</value>
   </string>
@@ -687,12 +687,12 @@
     <!-- 0 - target's name -->
     <value>Quisiste usar la Ito Ito no mi con {0}, ¡pero Ace lo protegió! Y no has podido asesinarlo.</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
     <value>Los zombies de Gekko Moria envían a {0} para intentar robarle la sombra a {1}, sin embargo fueron recibidos por Roronoa Zoro y {0} acaba siendo derrotado. {0} ha sido obligado a comer sal.</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
     <value>Los zombies de Gekko Moria envían a {0} para intentar robarle su sombra a {1}, pero en vez de eso, el cuerpo de {0} sale volando por la isla, ¡con hilos disperos por todo el cuerpo! ¡QUÉ PSICÓPATA! {0} ha muerto.</value>
@@ -717,11 +717,11 @@
     <!-- 1 - mason collegues's name -->
     <value>{0} ha sido derrotado y tú te conviertes en un miembro de la Franky Family. Tus compañeros de desmantelamiento (si los hay) son: {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <!-- 0 - new Zombie's name -->
     <value>Mr. 2 {0} se ha convertido en zombie de Gekko Moria, ¡igual que tú!</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <!-- 0 - role's name -->
     <!-- 1 - teammates's name -->
     <value>{0} ha sido derrotado y tú te conviertes en zombie de Gekko Moria. Tus compañeros (si los hay) son: {1}</value>
@@ -741,25 +741,25 @@
   <string key="AskKill">
     <value>¿A quién quieres matar esta noche?</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <!-- 0 - dead's name -->
-    <!-- 1 - lover's name -->
+    <!-- 1 - crewmate's name -->
     <!-- 2 - roles -->
     <value>Mientras los piratas ven que {0} ha sido derrotado, descubren que tiene una alianza con {1}. Por lo tanto, ambos han sido derrotados. {2}</value>
   </string>
   <string key="AskDoppelganger">
     <value>¿A quien suplantar si es derrotado?</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>¿Quienes quieren que formen una alianza?\nEscoge al primer pirata:</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>¿Quienes quieren que formen una alianza?\nEscoge al segundo pirata:</value>
   </string>
   <string key="Hunter">
     <value>Roronoa Zoro 🎯</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>Sanji 🏹</value>
   </string>
   <string key="SerialKiller">
@@ -772,7 +772,7 @@
     <!-- 0 - target's name -->
     <value>Eres Van Augur 👶. Tu señal es {0}</value>
   </string>
-  <string key="LoversWin" isgif="true">
+  <string key="crewmatesWin" isgif="true">
     <value>¡Triunfa la alianza pirata! ¡Los aliados han ganado!</value>
   </string>
   <string key="HunterKilledVisiter">
@@ -780,7 +780,7 @@
     <!-- 1 - role -->
     <value> Mientras los piratas recorren la isla, encuentran el campamento de {0} vacio. Parece que visito a Roronoa Zoro y fue derrotado. {1}</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>Una fiYami putrefacta trató de robarte tu sombra, pero tu fuerza es demasiada y has sobrevivido al ataque.</value>
   </string>
   <string key="AlreadyOnWaitList">
@@ -860,7 +860,7 @@
   <string key="AboutFool">
     <value>Chopper 🃏 tiene un excelente olfato, sin embargo ultimamente ha comido demasiado algodon de azucar, cuando elija a alguien para investigarlo se confundira de persona.</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>Como zombie de Gekko Moria 👤, tu objetivo es robarle la sombra a todos los demas piratas (excepto a los piratas de Kurohige). Si al final de la aventura todos los piratas en pie son zombies, Thiller Bark gana.</value>
   </string>
   <string key="AboutCH">
@@ -881,7 +881,7 @@
   <string key="AboutDG">
     <value>🎭 Tienes el poder de la Mane Mane no mi. Podras suplantar a un pirata cuando este sea derrotado.</value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>
       🏹 Eres todo un caballero con las damas y ademas formas alianzas piratas (como los demas Vinsmoke), si un miembro de dicha alianza es derrotado , el otra tambien lo sera. Pero si uno gana la otra persona tambien ganara. </value>
   </string>
@@ -971,7 +971,7 @@
     <value>Mostrar</value>
   </string>
   <string key="Hide">
-    <value>Ocultar</value>
+    <value>Ozoombiesar</value>
   </string>
   <!-- Game Mode Choices-->
   <string key="NormalOnly">
@@ -1060,10 +1060,10 @@
   <string key="AllowTannerA">
     <value>Pandaman ahora: {0}</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>¿Permitir zombies de Gekko Moria?\nActualmente: {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>Zombies de Gekko Moria ahora: {0}</value>
   </string>
   <string key="ThankYou">
@@ -1217,7 +1217,7 @@
   <string key="SerialKillerTeam">
     <value>Equipo de Doflamingo</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>Equipo de Gekko Moria</value>
   </string>
   <string key="TannerTeam">
@@ -1237,14 +1237,14 @@
   <string key="SerialKillerTeamEnd">
     <value>Equipo de Doflamingo</value>
   </string>
-  <string key="CultTeamEnd">
+  <string key="zoombiesTeamEnd">
     <value>Equipo de Gekko Moria</value>
   </string>
   <string key="TannerTeamEnd">
     <value>Equipo de Pandaman</value>
   </string>
   
-  <string key="CultConvertWolf">
+  <string key="zoombiesConvertWolf">
     <value>Los zombies de Gekko Moria envían a {0} para intentar robarle su sombra a {1}, pero en su lugar, {0} es absorbido por la Yami Yami no mi.</value>
   </string>
   <string key="HarlotFuckedKilledPublic"> <!-- used when Harlot visit's SK's victim, and dies -->
@@ -1262,7 +1262,7 @@
   <string key="ZombieKilled">
     <value>{0} fue destazado en varios pedazos mientras veia un cartel de Gekko Moria. ¡Doflamingo ha atacado de nuevo! {0} era un zombie de Gekko Moria.</value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>A la mañana siguiente, los piratas encuentran decenas de cigarrillos dispersos en todo el lugar, parece que Sanji fue atacado por Doflamingo, {0} ha sido derrotado por Donquixote Doflamingo.</value>
   </string>
   <string key="DrunkKilled">
@@ -1295,11 +1295,11 @@
     <value>El sombrero de paja de Luffy aparece tirado en medio de la isla, al parecer esta rodeado de hilos de la Ito Ito no mi {0}. Lección aprendida: ¡no hay que invitar a Doflamingo a ser tu nakama.</value>
     <value>El sombrero de paja de Luffy aparece tirado en medio de la isla, al parecer esta rodeado de hilos de la Ito Ito no mi {0}. Lección aprendida: ¡no hay que invitar a Doflamingo a ser tu nakama.</value>
   </string>
-  <string key="CultConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
+  <string key="zoombiesConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
     <value>Aunque parecía que los piratas de Kurohige habían decidido quedarse en su campamento, un zombie de Gekko Moria decidió visitarlos. ¡{0} Ha sido absorbido por la Yami Yami no mi!</value>
     <value>Aunque parecía que los piratas de Kurohige habían decidido quedarse en su campamento, un zombie de Gekko Moria decidió visitarlos. ¡{0} Ha sido absorbido por la Yami Yami no mi!</value>
   </string>
-  <string key="CultConvertKillerPublic"> <!--used when Zombies convert the SK-->
+  <string key="zoombiesConvertKillerPublic"> <!--used when Zombies convert the SK-->
     <value>Al parecer los zombies de Gekko Moria intentaron tener una nueva sombra entre sus filas, pero, ¡estaban equivocados! {0}, un zombie de Gekko Moria, fue descuartizado y sus restos fueron esparcidos por toda la isla!</value>
     <value>Al parecer los zombies de Gekko Moria intentaron tener una nueva sombra entre sus filas, pero, ¡estaban equivocados! {0}, un zombie de Gekko Moria, fue descuartizado y sus restos fueron esparcidos por toda la isla!</value>
   </string>
@@ -1388,7 +1388,7 @@
     <!-- {0} = list of people who have joined -->
     <value>{0} se ha(n) subido al barco en los últimos 30 segundos.</value>
   </string>
-  <string key="AllowCult">
+  <string key="Allowzoombies">
     <value>Permitir zombies de Gekko Moria</value>
   </string>
   <string key="AllowTanner">
@@ -1623,7 +1623,7 @@
     <!-- 0 - mason collegues's name -->
     <value>Tus compañeros desmanteladores (si los hay) son: {0}</value>
   </string>
-  <string key="ThiefToCult">
+  <string key="ThiefTozoombies">
     <!-- 0 - old Zombie's name -->
     <!-- 1 - new Zombie's name -->
     <value>{0} ha recuperado su sombra, y {1} se ha convertido en un zombie de Gekko Moria, ¡como tú!</value>

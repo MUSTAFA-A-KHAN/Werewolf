@@ -206,7 +206,7 @@
     <value >You are Vivi 🙇, the Apprentice seer, a replacement for (real) Robin. If the (real) Robin dies, you will be able to eat the Flower-Flower Fruit and gain the skill of Ojos Fleur. Need help? > /aboutAppS</value>
   </string>
   <string key="RoleInfoZombie" >
-    <value >You are from the team of the mighty Yonkou 👤. Every night, you may choose a player to brainwash them to join Team Yonkou. If all remaining living players at the end are part of Team Yonkou, you win. Need help? > /aboutCult</value>
+    <value >You are from the team of the mighty Yonkou 👤. Every night, you may choose a player to brainwash them to join Team Yonkou. If all remaining living players at the end are part of Team Yonkou, you win. Need help? > /aboutzoombies</value>
   </string>
   <string key="RoleInfoZombieHunter" >
     <value >You are our very own future Pirate King Monkey D. Luffy 💂, trying to take on every pirate from Team Yonkou from brainwashing others! Each night, choose a player. If they are from Team Yonkou, they die. If the Team Yonkou tries to brainwash you, the team's newest member dies from the wrath of your Gomu Gomu no Kong Gun. Need help? > /aboutCH</value>
@@ -242,7 +242,7 @@
   </string>
   <string key="GuardianEaten" >
     <!-- 0 - victim name -->
-    <value >Marines found our cute Chopper 👼! Do you think they will let the 100 Beli cotton lover go? NO! The marines doesn’t care about your bounty! The 100 Beli {0} is down.</value>
+    <value >Marines found our cute Chopper 👼! Do you think they will let the 100 Beli cotton crewmate go? NO! The marines doesn’t care about your bounty! The 100 Beli {0} is down.</value>
   </string>
   <string key="GunnerEaten" >
     <!-- 0 - victim name -->
@@ -376,33 +376,33 @@
     <!-- 1 - target name -->
     <value >{0} has voted to recruit {1} into Team Yonkou as the pirate is strong and worthy of our title.</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <!-- 0 - Yougest Zombie (killed)'s name' -->
     <!-- 1 - ZombieHunter's name -->
     <value>{0} was sent to recruit {1} into Yonkou... however, that person turns out to be none other than…. the future pirate king! Noone dares to oppose THE pirate king (even if it’s in the future). {0} is dead!</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - Number of Zombies left -->
     <value>{0} came to your ship last night, ready to recruit you into Yonkou.... But little did they know, your goal is Pirate King, not just Yonkou. Threatening your crew’s life if you don’t join them, you didn’t hesitate to bring them down in the name of protecting your nakama.  {1} remain!</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>The Yonkou has recruit you to their order! You are now a part of Yonkou, the strongest pirate of the sea. Every other night, you and your team can recruit more strong pirates into Yonkou.</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <!-- 0 - Number of Zombies -->
     <value>Yonkou - Members: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <!-- 0 - new Zombie's name -->
     <value>{0} has joined the Yonkou!</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <!-- 0 - Newest Zombie's name -->
     <!-- 1 - target name -->
     <value>{0} was sent to recruit {1}... but their ship is not found!</value>
   </string>
-  <string key="CultWins" isgif="true">
+  <string key="zoombiesWins" isgif="true">
     <value >All the marines have died, and the only people left standing have all been recruited to join Yonkou..  The Yonkous has won!</value>
   </string>
   <string key="HunterVisitDead">
@@ -506,7 +506,7 @@
     <value>  The masons are: {0}</value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <!-- 0 - Youngest Zombies name -->
     <value>Your newest member heads over to {0}'s ship to recruit them to join Yonkou, but instead finds the ship a complete wreck, blood everywhere, and bits and pieces of marine uniform scattered around...</value>
   </string>
@@ -515,7 +515,7 @@
     <value>The marine fleet heads to {0}'s ship to capture them, but they meet a cute little soft toy (Or is it?). Oh wait, suddenly the soft toy turns into gigantic monster berserkly destroying all your fleet. From the tip from a navy minion, you understand that the very monster that is attacking your ship is Chopper and you stand no chance against him, for he has used the Rumble ball. Chopper, the savior angel fights each marine off, and you head back defeated.</value>
   </string>
   <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <!-- 0 - newest  -->
     <!-- 1 - target's name -->
     <value>You send {0} to try to brainwash {1} to make them believe into your ideals, however their haki (will power) was too strong, and you were unable to brainwash them :( GG….</value>
@@ -526,7 +526,7 @@
     <!-- 1 - name -->
     <value>@{1}, a player with the name {0} has already joined.  Please change your name to join.</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <!-- 0 - target's name -->
     <value>You slipped into {0}'s ship to bring out the kleptomaniac in you and have some fun stealing things... But as you entered, you hear a scared voice of a servant who is preparing for the dinner of Big Mom (i.e. A human sacrifice - WTFFFF, cos no candy). Shortly later, you hear a thunderous laugh “MAMAMAMMAMAMA” from far away. You decide not to mess up with a Yonkou without reinforcements. You quietly slip away from the ship.</value>
   </string>
@@ -621,8 +621,8 @@
     <value>Time's up!</value>
   </string>
   <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
-    <value>You are one of the Worst Generation pirate, Trafalgar D. Water Law 🏹. Using your Ope Ope no Mi, you are able to cast Personality Transplant Surgery (only one chance) and swap the heart between two pirates and the swapped hearts belongs to them for eternity, as you have no plans to swap them back. If one of them dies, the other one dies of sorrow for their own heart is dead.. Need help? > /aboutCupid</value>
+  <string key="RoleInfoRecruiter">
+    <value>You are one of the Worst Generation pirate, Trafalgar D. Water Law 🏹. Using your Ope Ope no Mi, you are able to cast Personality Transplant Surgery (only one chance) and swap the heart between two pirates and the swapped hearts belongs to them for eternity, as you have no plans to swap them back. If one of them dies, the other one dies of sorrow for their own heart is dead.. Need help? > /aboutRecruiter</value>
   </string>
   <string key="RoleInfoDoppelganger">
     <value>You are the Bentham, alias Mr. 2 Bon Kurei 🎭, previously an agent from Baroque works. With the Mane Mane no Mi (Imitation devil fruit) you could choose any form you wanted. However for this game, you can only choose one person to imitate. Choose a player, when that player is dead / captured, you will take on their role.</value>
@@ -633,7 +633,7 @@
   <string key="RoleInfoSerialKiller">
     <value>You are the Blackbeard, Marshall D. Teach 🔪. You are extremely power hungry and greedy, and your goal is to become the most powerful pirate on earth. Your hobby is to collect all the devil fruits -- so you don’t hesitate to kill people in a moment’s notice. Every night, you visit one player to kill them and collect their devil fruit to your collection.</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>You have been struck by Law-e. {0}'s memory will never fade in your heart, for both of your hearts have just been swapped. Your goal is for both of you to survive. If one of you dies, the other one will die out of sorrow, for their own heart is gone forever.</value>
   </string>
   <string key="HunterLynchedChoice">
@@ -668,7 +668,7 @@
     <!-- 2 - target's role -->
     <value>Dying, {0} falls to the sea.... but not without grasping their katana, and firing upon {1}, who gets slashed that cuts them into two equally split halves. {2}</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <value>{0} sneaks over to {1}'s ship, pops open the door, and is immediately greeted by a crazed maniac with darkness surrounded by him!!! Run, for this is the fearful “Yami-Yami no mi (Darkness devil fruit), only you cannot run away!!!!! {1} makes gesture and {0} gets gravitated into the darkness forever gone. Whereas Blackbeard like a maniac, has been cackling the entire time - ZEHAHAHAHAHAHA! {0} is dead D:</value>
   </string>
   <string key="HunterShotWolfMulti">
@@ -691,12 +691,12 @@
     <!-- 0 - target's name -->
     <value>You tried to collect {0}'s devil fruit for your collection, but you were fought off by the guardian angel! No kill for you tonight...</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
     <value>The Yonkou sends {0} to try to convert {1}, but instead a body flies out of one of the ships and {0}'s body comes flying out, with one clean slash and blood all over! {0} is dead....</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
     <value>The Yonkou sends {0} to try to convert {1}, but instead a {0}'s dark body comes back in a parcel, as a warning! HOW RUTHLESS CAN BLACKBEARD GET! {0} is dead....</value>
@@ -720,11 +720,11 @@
     <!-- 1 - mason collegues's name -->
     <value>{0} has died, and you are invited to join Baroque works as a secret agent. Your teammate agents (if any) are: {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <!-- 0 - new Zombie's name -->
     <value>Bon Kurei, {0} has now joined Team Yonkou (Say what?!)!</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <!-- 0 - role's name -->
     <!-- 1 - teammates's name -->
     <value>{0} has died, and you join team yonkou for protection. Your teammates (if any) are: {1}</value>
@@ -744,25 +744,25 @@
   <string key="AskKill">
     <value>Who do you want to kill tonight?</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <!-- 0 - dead's name -->
-    <!-- 1 - lover's name -->
+    <!-- 1 - crewmate's name -->
     <!-- 2 - roles -->
     <value>With {0}'s dying breath, {1} rushes over and falls, crying for their own heart has stopped. They cannot stand the loss of their lovely heart, and go fall down into the sea. {2}</value>
   </string>
   <string key="AskDoppelganger">
     <value>Who do you want to become if they die/captured?</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>Who do you want to swap the hearts? Choose the first player</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>The second pirate to swap the heart? Choose the second player</value>
   </string>
   <string key="Hunter">
     <value>Zoro, the Pirate Hunter 🎯</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>Trafalgar D. Water Law 🏹</value>
   </string>
   <string key="SerialKiller">
@@ -771,15 +771,15 @@
   <string key="Doppelgänger">
     <value> Bon Kurei, Mr. 2 🎭</value>
   </string>
-  <string key="CupidChosen">
-    <!-- 0 - lover's name -->
+  <string key="RecruiterChosen">
+    <!-- 0 - crewmate's name -->
     <value>Law has just striked you both with his “人格移植手術 Jinkaku Ishoku Shujutsu” AKA the Personality transplant surgery (on top of swapping your hearts)! Your bodies and hearts are now aligned with {0}! If they die, you will die too. If you both make it to the end, you will both win.</value>
   </string>
   <string key="NewWCRoleModel">
     <!-- 0 - target's name -->
     <value>You are Coby, the wild young pirate. Who do you think kidnapped you? {0}</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
     <value>All those efforts just to survive with the swapped hearts, have finally paid off! The accidental couple wins!</value>
   </string>
   <string key="HunterKilledVisiter">
@@ -787,7 +787,7 @@
     <!-- 1 - role -->
     <value>In the street near the shipping dock, everyone finds the body of {0}, multiple slashes to the body.  Looks like they tried to sneak up on the Pirate Hunter! How foolish! {1}</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>A hooded figure tried to convert you to Team Yonkou, but your haki (willpower) was too strong for them to handle</value>
   </string>
   <string key="AlreadyOnWaitList">
@@ -867,11 +867,11 @@
   <string key="AboutFool">
     <value>he fool is told they are the seer.... when they choose to see someone's role at night, they are told a random role.</value>
   </string>
-  <string key="AboutCult">
-    <value>As a Zombie, it is your goal to convert all other players (except wolves) to your cult. If at the end of the game, all living players are Zombie - the cult wins</value>
+  <string key="Aboutzoombies">
+    <value>As a Zombie, it is your goal to convert all other players (except wolves) to your zoombies. If at the end of the game, all living players are Zombie - the zoombies wins</value>
   </string>
   <string key="AboutCH">
-    <value>Your job is to hunt the Cult. If the cult attacks you, their newest member will die. Each night you may pick a player to 'hunt' - if they are a Zombie, they will die.</value>
+    <value>Your job is to hunt the zoombies. If the zoombies attacks you, their newest member will die. Each night you may pick a player to 'hunt' - if they are a Zombie, they will die.</value>
   </string>
   <string key="AboutWC">
     <value>At the beginning of the game, you will choose someone to be your 'role model'. If they die, you become a werewolf.</value>
@@ -888,25 +888,25 @@
   <string key="AboutDG">
     <value>
       Your ancestors had the ability to metamorph into others... while you don't have their full abilities, you can pick a player at the start of the game. If that player dies, you will become what they were.
-      Note: If the player was converted to cult, you will take on their original role. All other normal rules apply: If they were Wild Child and their role model died, you will become a wolf. Otherwise, you will inherit their role model.
-      The cult cannot convert the Doppelgänger (but can after the doppelganger switches roles). Also - the Doppelgänger can NOT win unless they have transformed. If at the end of the game, the Doppelgänger is still the same, they lose (exception: lover)
+      Note: If the player was converted to zoombies, you will take on their original role. All other normal rules apply: If they were Wild Child and their role model died, you will become a wolf. Otherwise, you will inherit their role model.
+      The zoombies cannot convert the Doppelgänger (but can after the doppelganger switches roles). Also - the Doppelgänger can NOT win unless they have transformed. If at the end of the game, the Doppelgänger is still the same, they lose (exception: crewmate)
     </value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>
-      Love is in the air. As Cupid, you will choose two players at the start of the game. These two players will become madly in love! If one of them dies, the other will die of sorrow :(
-      Note: Lovers will know who each other are, but not be told their roles. If the lovers are the last two alive, they win, regardless of teams. If the lovers are on different teams (villager + wolf), and one team wins (wolf), the lover (villager) wins as well. TL;DR if both lovers are alive at the end, and at least one of them was on the winning team, they both win together
+      Love is in the air. As Recruiter, you will choose two players at the start of the game. These two players will become madly in love! If one of them dies, the other will die of sorrow :(
+      Note: crewmates will know who each other are, but not be told their roles. If the crewmates are the last two alive, they win, regardless of teams. If the crewmates are on different teams (villager + wolf), and one team wins (wolf), the crewmate (villager) wins as well. TL;DR if both crewmates are alive at the end, and at least one of them was on the winning team, they both win together
     </value>
   </string>
   <string key="AboutHunter">
     <value>
       A trigger happy, vindictive player. As the hunter, you try to keep to yourself. However, when others come to visit you, they may find themselves dead, as your paranoia takes hold and you shoot. If the wolves attack you, you have a chance to take one of them with you. Otherwise, if you die, you will get a chance to shoot someone as you die.
       Note: For wolf attacks, the chance starts at 30%. If there is one wolf, the hunter has a 30% chance to kill the wolf (and survive). For each additional wolf, add 20% (2 wolves = 50%, 3 = 70%, etc). However - if there are multiple wolves, while you may kill one of them, you will still be outnumbered and killed.
-      If the cult tries to convert you, they have a 50% chance to fail. If they fail, you have a 50% chance to kill one of them!
+      If the zoombies tries to convert you, they have a 50% chance to fail. If they fail, you have a 50% chance to kill one of them!
     </value>
   </string>
   <string key="AboutSK">
-    <value>That asylum was silly anyways. What a joke. You are free now however, back to business as usual - killing! The serial killer is a lone player, on their own team. They can win only if they are the last player alive (exception: lovers). As the serial killer, you can kill ANYONE - wolves, hunters, gunners, guardian angels, whatever. If the wolves try to attack you, you will kill one of them (random), and live.</value>
+    <value>That asylum was silly anyways. What a joke. You are free now however, back to business as usual - killing! The serial killer is a lone player, on their own team. They can win only if they are the last player alive (exception: crewmates). As the serial killer, you can kill ANYONE - wolves, hunters, gunners, guardian angels, whatever. If the wolves try to attack you, you will kill one of them (random), and live.</value>
   </string>
   <string key="AboutPara">
     <value>Para is a silly developer that likes to bark at people. Maybe he's been messing with marines too long....Messing with marines is a very bad idea.</value>
@@ -1077,10 +1077,10 @@
   <string key="AllowTannerA">
     <value>Shirahoshi as a role set to: {0}</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>Allow Team Yonkou as a role option?\nCurrent: {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>Team Yonkou as a role set to: {0}</value>
   </string>
   <string key="ThankYou">

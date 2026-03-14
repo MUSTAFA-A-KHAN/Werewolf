@@ -265,7 +265,7 @@
   <string key="LynchTime" >
     <!-- 0 - number of seconds -->
     <value>
-      El ocaso de acerca es hora de irse a dormir, pero... Antes... Habéis preparado una hoguera, sospecháis que entre vosotros hay un humano y debe ser eliminado. Tenéis {0} para decidir antes de que el sol se oculte por completo. ¿Quién creéis que el humano infiltrado?
+      El ocaso de acerca es hora de irse a dormir, pero... Antes... Habéis preparado una hoguera, sospecháis que entre vosotros hay un humano y debe ser eliminado. Tenéis {0} para decidir antes de que el sol se ozoombiese por completo. ¿Quién creéis que el humano infiltrado?
     </value>
   </string>
   <string key="DayTime" >
@@ -447,34 +447,34 @@
     <!-- 1 - target name -->
     <value >A {0} le parece más apetitoso el cuello de {1}.</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <!-- 0 - Yougest Zombie (killed)'s name' -->
     <!-- 1 - ZombieHunter's name -->
     <value>Habéis decidido ir a la casa de {1} y alimentaros de su deliciosa sangre... Pero justo cuando {0} le iba a hincar el diente el cuerpo se gira y le clava una estaca en el corazón. Es lo que suele pasar cuando intentas morder a un cazador de vampiros, {0} muere en el acto.</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - Number of Zombies left -->
     <value>Tu instinto de cazador te dice que hay vampiros cerca... Sin dudarlo un momento coges tu estaca y entras en batalla dispuesto a cargarte a todos ellos, pero son demasiado rápidos y escapan. Al menos pudiste matar a {0}. Quedan {1} vampiros.</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>Mientras dormías notaste un picotazo en el cuello... y otro, y otro y otro. 
 	Al amanecer tu corazón ya no tiene nada que bombear y sientes unas incontrolables ganas de beber sangre. Te has convertido en un vampiro.</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <!-- 0 - Number of Zombies -->
     <value>Vampiros: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <!-- 0 - new Zombie's name -->
     <value>La sangre de {0} estaba deliciosa, no habéis dejado ni una gota. Ahora {0} es uno de los vuestros.</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <!-- 0 - Newest Zombie's name -->
     <!-- 1 - target name -->
     <value>Decidisteis ir a casa de {1}, pero no había nadie... {0} se quedó sin cena.</value>
   </string>
-  <string key="CultWins" >
+  <string key="zoombiesWins" >
     <value>Los únicos supervivientes que quedan en el pueblo son vampiros. Ahora ellos dominan el pueblo. ¡El clan de Drácula gana!</value>
   </string>
   <string key="HunterVisitDead">
@@ -583,7 +583,7 @@
     <value>Tu equipo de investigación es: {0}</value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <!-- 0 - Youngest Zombies name -->
     <value>La primera noche de {0}, que por fin va a probar sangre fresca, se ve truncada por los humanos que se han adelantado a los vampiros. Solo queda el cadáver de su víctima y sangre que no se puede beber...</value>
   </string>
@@ -592,7 +592,7 @@
     <value>Teníais muchas ganas de acabar con {0} de una vez, pero cuando llegasteis a la guarida una gran sombra estaba protegiendo en la puerta. Aunque os pusisteis los disfraces para que os dejara pasar, os advirtió de que solo lo haría si respondíais sus acertijos. Pobres de vosotros, la inteligencia no es vuestro fuerte. Esta noche os quedáis sin víctimas.</value>
   </string>
   <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <!-- 0 - newest  -->
     <!-- 1 - target's name -->
     <value>Enviasteis a {0}, el más nuevo del clan a la casa de {1}, para que probase la sangre fresca por primera vez, pero es tan inexperto que despertó al monstruo y tuvo que escapar, dejando sangre suficiente en su cuerpo como para que pueda seguir viviendo.</value>
@@ -603,7 +603,7 @@
     <!-- 1 - name -->
     <value>@{1}, un jugador con el nombre {0} ya se ha unido. Por favor, cambia tu nombre para unirte.</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <!-- 0 - target's name -->
     <value>Fuiste a seducir a {0}, pero te diste cuenta de que él solo quería chuparte la sangre. Tú no conseguiste nada de él, ni él de ti, peor ahora sabes que {0} es un vampiro.</value>
   </string>
@@ -696,8 +696,8 @@
 	<value>¡Se acabó el tiempo!</value>
   </string>
   <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
-    <value>Eres Cupido. Enviado a la Tierra con solo tu ropa interior, un arco y dos flechas, debes elegir a dos jugadores que se amarán por la eternidad. Si uno muere, el otro morirá de pena.</value>
+  <string key="RoleInfoRecruiter">
+    <value>Eres Recruitero. Enviado a la Tierra con solo tu ropa interior, un arco y dos flechas, debes elegir a dos jugadores que se amarán por la eternidad. Si uno muere, el otro morirá de pena.</value>
   </string>
   <string key="RoleInfoDoppelganger">
     <value>Eres un Demonio. Te dedicas a vivir entre los monstruos en Halloween Town, ya que el monstruo que te vendió su alma vive aquí. En cuanto muera, su alma será tuya y podrás poseer su cuerpo. [Eres el doppelgänger]. </value>
@@ -708,9 +708,9 @@
   <string key="RoleInfoSerialKiller">
     <value>Eres el Chupacabra 🔪!! Mientras la mayor parte de los monstruos de Halloween Town sólo se atreven a comer cadáveres putrefactos tú prefieres que la comida esté fresca y que mueran cuando termines de cenar. Eres realmente cauteloso y la mayoría no tienen ni la oportunidad de luchar, pero... si eliges a la víctima equivocada, ten cuidado... porque nadie te cubre las espaldas.</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>Has sido golpeado por el amor. El recuerdo de {0} nunca desaparecerá de tu corazón. Si uno de los dos muere, el otro morirá de pena. Si estando vivos los dos, uno de los dos gana, el otro ganará también.</value>
-	<value>¡Las flechas de Cupido te han alcanzado! ¡Estás locamente enamorado(a) de {0}! Si muere, tú también. Si estáis vivos y uno de los dos gana, ¡los dos ganaréis!</value>
+	<value>¡Las flechas de Recruitero te han alcanzado! ¡Estás locamente enamorado(a) de {0}! Si muere, tú también. Si estáis vivos y uno de los dos gana, ¡los dos ganaréis!</value>
   </string>
   <string key="HunterLynchedChoice">
     <value>¡Los monstruos sospechan de ti y te llevan a la hoguera! Como acto desesperado coges tu arco y una flecha... rápido ¿A quién quieres disparar?</value>
@@ -764,12 +764,12 @@
     <!-- 0 - target's name -->
     <value>Deseoso de tener un buen aperitivo, vas a la guarida de {0}. Sin embargo, una enorme esfinge te pide que resuelvas unos acertijos para asegurarse de que no eres humano. ¿Qué se cree? ¡Claro que no eres humano! Desgraciadamente, como chupacabras tampoco tienes ni zorra de adivinanzas. Esta noche vas a pasar mucha hambre.</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
     <value>{1} se había hecho una pequeña herida entrenando, lo que atrajo a {0} que no pudo resistir el aroma de su sangre.  Pero resultó ser el centauro, que nunca baja la guardia y menos en horas de descanso. Sin dudarlo lanzó una flecha a su visitante matándolo en el acto.</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
     <value>{0} fue a casa de {1} dispuesto a beber toda sangre y dejarle seco, pero resultó que quien estaba en el menú del día era él. El chupacabras fue más rápido y se lo comió tan rápido que solo le sirvió de pequeño aperitivo. {0} ha muerto. 
@@ -794,11 +794,11 @@
     <!-- 1 - mason collegues's name -->
     <value>{0} ha muerto y tú tomas su alma y posees su cuerpo. Tus compañeros de equipo son: {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <!-- 0 - new Zombie's name -->
     <value>{0}, un demonio, ha tomado el cuerpo de un Zombiea y se ha convertido en uno de vosotros.</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <!-- 0 - role's name -->
     <!-- 1 - teammates's name -->
     <value>{0} ha muerto y tú tomas su alma y posees su cuerpo. Tus compañeros de equipo son: {1}</value>
@@ -818,26 +818,26 @@
   <string key="AskKill">
     <value>¿A quién te quieres comer esta noche?</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <!-- 0 - dead's name -->
-    <!-- 1 - lover's name -->
+    <!-- 1 - crewmate's name -->
     <!-- 2 - roles -->
     <value>Con el último aliento de {0}, su amado(a), {1}, se derrumba y se echa a llorar desconsoladamente. En un golpe de locura, no puede soportar su muerte y se dispara con la primera pistola que encuentra. {2}</value>
   </string>
   <string key="AskDoppelganger">
     <value>Alguien por accidente te ha invocado, el precio a pagar es su alma y él no lo sabe... pobrecito. ¿Quién te ha invocado?</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>¿A quiénes quieres convertir en amantes?\nEscoge al primer jugador:</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>¿A quiénes quieres convertir en amantes?\nEscoge al segundo jugador:</value>
   </string>
   <string key="Hunter">
     <value>el centauro 🎯</value>
   </string>
-  <string key="Cupid">
-    <value>Cupido 🏹</value>
+  <string key="Recruiter">
+    <value>Recruitero 🏹</value>
   </string>
   <string key="SerialKiller">
     <value>el Chupacabras 🔪</value>
@@ -849,7 +849,7 @@
     <!-- 0 - target's name -->
     <value>Eres un niño disfrazado. Tu mejor amigo es {0}.</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
     <value>¡Triunfa el amor verdadero! ¡Los amantes han ganado!</value>
   </string>
   <string key="HunterKilledVisiter">
@@ -857,7 +857,7 @@
     <!-- 1 - role -->
     <value>En medio de la plaza de la ciudad, encuentran el cuerpo de {0}, con una flecha en el pecho. Parece ser que intentó acercarse sigilosamente al centauro. {1}</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>Mientras dormías alguien te mordió en el cuello para dejarte seco como una pasa, pero parecía novato ya que comía lento y pudiste reaccionar a tiempo y obligaste a huir al vampiro. ¡Buen trabajo!</value>
   </string>
   <string key="AlreadyOnWaitList">
@@ -937,11 +937,11 @@
   <string key="AboutFool">
     <value>Al necio se le dice que es la vidente. Cuando elija a alguien para adivinar su rol, se le dirá uno al azar.</value>
   </string>
-  <string key="AboutCult">
-    <value>Como Zombiea, tu objetivo es convertir a todos los demás jugadores (excepto a los hombres lobo) a tu culto. Si al final de la partida todos los jugadores vivos son Zombieas, el culto gana.</value>
+  <string key="Aboutzoombies">
+    <value>Como Zombiea, tu objetivo es convertir a todos los demás jugadores (excepto a los hombres lobo) a tu zoombieso. Si al final de la partida todos los jugadores vivos son Zombieas, el zoombieso gana.</value>
   </string>
   <string key="AboutCH">
-    <value>Tu trabajo es acabar con el Culto. Si un Zombiea te ataca, su miembro más reciente morirá. Cada noche escogerás a que jugador vas a «cazar»; si es Zombiea, morirá.</value>
+    <value>Tu trabajo es acabar con el zoombieso. Si un Zombiea te ataca, su miembro más reciente morirá. Cada noche escogerás a que jugador vas a «cazar»; si es Zombiea, morirá.</value>
   </string>
   <string key="AboutWC">
     <value>Al principio del juego, elegirás a alguien para ser tu «modelo a seguir». Si lo matan, te convertirás en hombre lobo.</value>
@@ -958,13 +958,13 @@
   <string key="AboutDG">
     <value>
       Tus ancestros tenían la habilidad de transformarse en otros. Aunque no tengas las mismas habilidades, puedes escoger a alguien al principio de la partida. Si ese jugador muere, tomarás su rol.
-      Nota: Si el jugador se convierte al Culto, obtendrás su rol original. Para los demás se aplicarán las reglas normales: si era el niño salvaje y su modelo a seguir está muerto, te convertirás en hombre lobo. Si no, heredarás su modelo a seguir.
-      El Culto no puede convertir al doppelgänger (el doble [pero sí después de cambiar de rol]). Cuidado: El doppelgänger no podrá ganar si no ha cambiado de rol. Si al finalizar el juego, el doppelgänger sigue siendo el doble, pierde (excepción: amantes).
+      Nota: Si el jugador se convierte al zoombieso, obtendrás su rol original. Para los demás se aplicarán las reglas normales: si era el niño salvaje y su modelo a seguir está muerto, te convertirás en hombre lobo. Si no, heredarás su modelo a seguir.
+      El zoombieso no puede convertir al doppelgänger (el doble [pero sí después de cambiar de rol]). Cuidado: El doppelgänger no podrá ganar si no ha cambiado de rol. Si al finalizar el juego, el doppelgänger sigue siendo el doble, pierde (excepción: amantes).
     </value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>
-      El amor está en el aire. Como Cupido, elegirás dos jugadores al principio de la partida. ¡Esos dos se enamorarán locamente! Si uno muere, el otro morirá de pena :_(
+      El amor está en el aire. Como Recruitero, elegirás dos jugadores al principio de la partida. ¡Esos dos se enamorarán locamente! Si uno muere, el otro morirá de pena :_(
       Nota: Los amantes se conocerán entre sí, pero no sabrán sus roles. Si los amantes son los dos únicos supervivientes, ganarán, independientemente de sus equipos. Si están en distintos equipos (aldeano + hombre lobo), y un equipo gana (hombre lobo), el amante (aldeano) también ganará.
 	  Si, estando vivos los dos, al menos uno de los amantes está en el equipo ganador, ganarán ambos.
     </value>
@@ -1059,7 +1059,7 @@
     <value>Mostrar</value>
   </string>
   <string key="Hide">
-    <value>Ocultar</value>
+    <value>Ozoombiesar</value>
   </string>
   <!-- Game Mode Choices-->
   <string key="NormalOnly">
@@ -1148,11 +1148,11 @@
   <string key="AllowTannerA">
     <value>El veterano ahora: {0}</value>
   </string>
-  <string key="AllowCultQ">
-    <value>¿Permitir culto?\nActualmente: {0}</value>
+  <string key="AllowzoombiesQ">
+    <value>¿Permitir zoombieso?\nActualmente: {0}</value>
   </string>
-  <string key="AllowCultA">
-    <value>El culto ahora: {0}</value>
+  <string key="AllowzoombiesA">
+    <value>El zoombieso ahora: {0}</value>
   </string>
   <string key="ThankYou">
     <value>Gracias, que tengas un buen día :)</value>
@@ -1200,7 +1200,7 @@
     <value>Eres una Moira. Las moiras son diosas del destino a través de los hilos de la vida de los hombres. Tus poderes sobre el destino te permiten elegir a un jugador para percibir su rol cada noche.[Eres la hechicera 🔮]</value>
   </string>
   <string key="RoleInfoBlacksmith">
-    <value>Eres el Cerco Mágico. Causas temor a los humanos y los alejas durante la noche. Cuando te enfadas sacas tus profundas raíces y atacas a las personas, tu intención no es matarlas ni ocultarlas para siempre en tu interior, tan sólo las golpeas para alejarlas de Halloween Town, en raras ocasiones has causado la pérdida de uno de estos seres.[Eres el herrero 🛠]</value>
+    <value>Eres el Cerco Mágico. Causas temor a los humanos y los alejas durante la noche. Cuando te enfadas sacas tus profundas raíces y atacas a las personas, tu intención no es matarlas ni ozoombiesarlas para siempre en tu interior, tan sólo las golpeas para alejarlas de Halloween Town, en raras ocasiones has causado la pérdida de uno de estos seres.[Eres el herrero 🛠]</value>
   </string>
   <string key="RoleInfoAlphaWolf">
     <value>Eres un caza fantasma. Eres un profesional de cazar todas las criaturas paranormales que puedan atentar contra la humanidad, en especial los fantasmas. Tienes una escuela en la que adiestras a cualquier fanático del mundo sobrenatural que se muestre fiel a la causa, ¡aunque sea un monstruo mismo! Mientras muestre arrepentimiento de sus actos de asustar humanos y quiera perseguir a sus camaradas rondadores de inocentes humanos. Por las noches sales a cazar a estas criaturas, así que podrás elegir a qué habitante de Halloween Town liquidar.[Eres el lobo alfa ⚡️] Dale a /AboutAlphaWolf  para saber más sobre los caza fantasmas</value>
@@ -1305,8 +1305,8 @@
   <string key="SerialKillerTeam">
     <value>Equipo del asesino</value>
   </string>
-  <string key="CultTeam">
-    <value>Equipo del Culto</value>
+  <string key="zoombiesTeam">
+    <value>Equipo del zoombieso</value>
   </string>
   <string key="TannerTeam">
     <value>Equipo del veterano</value>
@@ -1325,14 +1325,14 @@
   <string key="SerialKillerTeamEnd">
     <value>Equipo del asesino</value>
   </string>
-  <string key="CultTeamEnd">
-    <value>Equipo del Culto</value>
+  <string key="zoombiesTeamEnd">
+    <value>Equipo del zoombieso</value>
   </string>
   <string key="TannerTeamEnd">
     <value>Equipo del veterano</value>
   </string>
   
-  <string key="CultConvertWolf">
+  <string key="zoombiesConvertWolf">
     <value>Justo cuando {0} muerde el cuello de {1} dispuesto a comer su ración de hoy aparece una garra directa al pecho y le saca el corazón. No te metas con los hombres lobo.</value>
   </string>
   <string key="HarlotFuckedKilledPublic"> <!-- used when Harlot visit's SK's victim, and dies -->
@@ -1351,8 +1351,8 @@
   <string key="ZombieKilled">
     <value>{0} se disponía a ir a por su cena de esta noche, pero no sabía que él estaba en otro menú, al abrir la puerta para salir se encuentra con una figura pequeñita y antes de poder decir nada se le abalanza al cuello y muere. El chupacabras es más rápido y esta noche a disfrutado de un menú especial. {0} era un vampiro.</value>
   </string>
-  <string key="CupidKilled">
-    <value>A la mañana siguiente, los aldeanos se levantaron destrozados al encontrar a Cupido, {0}, dividido en dos. Curiosamente, le faltaba el corazón.</value>
+  <string key="RecruiterKilled">
+    <value>A la mañana siguiente, los aldeanos se levantaron destrozados al encontrar a Recruitero, {0}, dividido en dos. Curiosamente, le faltaba el corazón.</value>
   </string>
   <string key="DrunkKilled">
     <value>Ibais a celebrar que no había muerto nadie al bar. Pero...¿QUÉ HA PASADO? El chupacabras quiso tomarse una cervecita y las vísceras de {0}. Le supo tan rico, que hasta dejó propina.</value>
@@ -1383,10 +1383,10 @@
   <string key="SerialKillerKilledCH"> <!--used when CH visits SK-->
     <value>El cuerpo de {0}, el cazador de vampiros fue encontrado en el centro de la ciudad cortado en un centenar de piezas. Comprobar si el chupacabras era un vampiro no parece ser una buena idea.</value>
   </string>
-  <string key="CultConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
+  <string key="zoombiesConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
     <value>Los vampiros se encontraron con una sorpresa anoche. Su miembro más reciente, {0}, tuvo la desgracia de visitar a un humano, justo la noche que los humanos habían decidido no atacar. Desafortunadamente para el joven vampiro, los humanos no dudaron en cargárselo en cuanto le vieron. {0} ha muerto.</value>
   </string>
-  <string key="CultConvertKillerPublic"> <!--used when Zombies convert the SK-->
+  <string key="zoombiesConvertKillerPublic"> <!--used when Zombies convert the SK-->
     <value>Anoche, los vampiros intentaron atacar al monstruo incorrecto. Su miembro más reciente, {0}, trató de alimentarse del chupacabras, y este hizo una nueva obra de arte en la plaza del pueblo, exhibiendo todos los órganos internos al pueblo.{0} ha muerto.</value>
   </string>
   <string key="GAGuardedKiller"> <!-- used when GA guards SK -->
@@ -1473,8 +1473,8 @@
     <!-- {0} = list of people who have joined -->
     <value>{0}se ha(n) unido en los últimos 30 segundos.</value>
   </string>
-  <string key="AllowCult">
-    <value>Permitir culto</value>
+  <string key="Allowzoombies">
+    <value>Permitir zoombieso</value>
   </string>
   <string key="AllowTanner">
     <value>Permitir veterano</value>

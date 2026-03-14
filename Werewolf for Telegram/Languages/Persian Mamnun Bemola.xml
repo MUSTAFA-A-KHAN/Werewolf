@@ -382,33 +382,33 @@
     <!-- 1 - target name -->
     <value > نظر {0} اینه که {1} رو ممنون کنید بمولا</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <!-- 0 - Yougest Zombie (killed)'s name' -->
     <!-- 1 - ZombieHunter's name -->
     <value>خب {0} رفت که {1} رو به فرقه مولایی دعوت کنه ولی {1} شکارچی ممنون بود و ممنونش کرد!</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - Number of Zombies left -->
     <value>دیشب {0} اومد به فرقه  مولایی دعوتت کنه ولی تو زدی ممنونش! {1} باقی مونده</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>تو الان عضو فرقه مولایی هستی و هر شب با بقیه یارات باید یه نفرو به فرقه  مولایی خودتون ممنون کنین</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <!-- 0 - Number of Zombies -->
     <value>فرقه مولایی ها: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <!-- 0 - new Zombie's name -->
     <value>الان {0} عضو فرقه مولایی شد</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <!-- 0 - Newest Zombie's name -->
     <!-- 1 - target name -->
     <value>خب  {0} رفت {1} رو به فرقه مولایی ممنون کنه ولی خونه نبود</value>
   </string>
-  <string key="CultWins" isgif="true">
+  <string key="zoombiesWins" isgif="true">
     <value >کل روستا پر شده از افراد فرقه مولایی ها!! فرقه مولایی ها ممنون شدن</value>
   </string>
   <string key="HunterVisitDead">
@@ -513,7 +513,7 @@
     <value>  فراممنون های دیگه عبارت اند از: {0}</value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <!-- 0 - Youngest Zombies name -->
     <value>عضو جدید فرقه رفت خونه {0} که به راه مولا هدایتش کنه ولی دید ممنون شده</value>
   </string>
@@ -522,7 +522,7 @@
     <value>دیشب گرگای مولایی رفتن خونه {0} که ممنونش کنن ولی فرشته ممنونی مثل مرد ممنونش میکرد</value>
   </string>
   <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <!-- 0 - newest  -->
     <!-- 1 - target's name -->
     <value>دیشب {0} رو فرستادین که {1} رو به فرقه مولایی اضافه کنه ولی ممنون شد و قبول نکرد</value>
@@ -533,7 +533,7 @@
     <!-- 1 - name -->
     <value>جناب {0} @{1} یه بازیکن هم اسم تو توی بازیه، اسمتو عوض کن تا بتونی وارد بازی بشی</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <!-- 0 - target's name -->
     <value>دیشب که رفتی خونه {0} دیدی که داره عبادت مولایی میکنه!</value>
   </string>
@@ -630,7 +630,7 @@
   <value>وقت تموم شد!</value>
   </string>
   <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
     <value>تو الهه ممنونی! تیرتو بزن تو قلب دو نفر که ممنون همدیگه بشن! اگه یکی ممنون بشه اون یکی هم ازممنون یارش ممنون میشه</value>
   </string>
   <string key="RoleInfoDoppelganger">
@@ -642,7 +642,7 @@
   <string key="RoleInfoSerialKiller">
     <value>تو قاتل مولایی هستی. هر شب یه نفرو ممنون میکنی و بدنشو به کلکسیونت ممنون میکنی. هدف تو اینه که همه روممنون کنی!</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>تو ممنون {0} شدی. اگه یکیتون ممنون بشه اون یکی هم از غمش ممنون میشه</value>
 	<value>الهه عشق تو رو ممنون {0} کرده. حالا اگه اون ممنون بشه تو هم از غمش ممنون میشی</value>
   </string>
@@ -678,7 +678,7 @@
     <!-- 2 - target's role -->
     <value>کلانتر یعنی {0} آخرین لحظه تفنگشو در آورد و {1} رو کشت. {2}</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <value>فرقه گرای مولایی  یعنی {0} رفت خونه ی قاتل مولایی یعنی {1} که به دین مولا دعوتش کنه ولی {1}ولی قاتل مولایی خیلی خیلی ممنونش کرد</value>
 	<value>فرقه گرای مولایی یعنی {0} رفت قاتل مولایی یعنی {1} رو به دین مولایی دعوت کنه ولی ممنون شد</value>
   </string>
@@ -702,7 +702,7 @@
     <!-- 0 - target's name -->
     <value>رفتی {0} رو ممنون کنی ولی فرشته ممنون جلوی کار مولاییتو گرفت</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
     <value>فرقه گرای مولایی یعنی {0} رفت که {1} رو به دین مولایی دعوت کنه ولی {1} کلانتر بود و با تفنگش زد {0} رو ممنون کرد</value>
@@ -726,12 +726,12 @@
     <!-- 1 - mason collegues's name -->
     <value>خب {0} همزادممنونت بود و ممنون شد. چون اون فراممون بود تو هم فراممون شدی و بقیه فراممون ها عبارت اند از: {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <!-- 0 - new Zombie's name -->
     <value>همزادممنون، یعنی {0} هم چون یکی از اعضای فرقه مولایی رو به عنوان مدل ممنون کرده بود الان فرقه مولایی شد.</value>
   </string>
 
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <!-- 0 - role's name -->
     <!-- 1 - teammates's name -->
     <value>همزادممنونت یعنی {0} ممنون شد و چون فرقه مولایی بود تو هم فرقه مولایی شدی. بقیه فرقه مولایی ها عبارت اند از: {1}</value>
@@ -751,25 +751,25 @@
   <string key="AskKill">
     <value>کیو میخوای امشب ممنون کنی؟</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <!-- 0 - dead's name -->
-    <!-- 1 - lover's name -->
+    <!-- 1 - crewmate's name -->
     <!-- 2 - roles -->
     <value>با ممنون شدن {0} عشق ممنونش یعنی {1} هم خودشو انداخت روی جنازش و انقدر ممنون کرد تا ممنون شد. {2}</value>
   </string>
   <string key="AskDoppelganger">
     <value>میخوای همزاد ممنون کی بشی؟ اگه ممنون شه تو نقششو بر عهده میگیری</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>کیا رو میخوای عاشق ممنون بکنی؟ نفر اول رو ممنون کن</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>کیا رو میخوای عاشق ممنون بکنی؟ نفر دوم رو ممنون کن</value>
   </string>
   <string key="Hunter">
     <value>کلانتر ممنون🎯</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>الهه ممنون💘</value>
   </string>
   <string key="SerialKiller">
@@ -783,7 +783,7 @@
     <!-- 0 - target's name -->
     <value>تو بچه مولایی ای و ممنونت کسی نیست جز {0}</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
     <value>ممنونا برنده شدن</value>
   </string>
   <string key="HunterKilledVisiter">
@@ -791,7 +791,7 @@
     <!-- 1 - role -->
     <value>خب دیشب {0} رف خونه کلانتر فضولی کنه. کلانتر هم ممنونش کرد. {1}</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>یه فرقه مولایی دیشب تورو به فرقه مولایی دعوت کرد ولی تو گفتی نه ممنون اهلش نیستم</value>
   </string>
   <string key="AlreadyOnWaitList">
@@ -875,7 +875,7 @@
   <string key="AboutFool">
     <value>به احمق گفته میشه که پیشگوئه اما وقتی سعی میکنه نقش یه نفر رو بفهمه یه نقش به صورت تصادفی بهش گفته میشه</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>به عنوان رییس فرقه هدف شما آینه که همه ی بازیکن های باقی مونده به تو ایمان بیارند وقتی برنده میشی که همه ی روستایی های زنده عضو فرقه ی تو باشن.</value>
   </string>
   <string key="AboutCH">
@@ -900,7 +900,7 @@
 یک همزاد تا قبل از اینکه جای کسی رو بگیره نمیتونه برنده بازی باشه!مگر اینکه عاشق باشه
     </value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>
       عشق در زندگی جریان داره! به عنوان الهه ی عشق در ابتدای بازی دو نفر رو ممنون میکنی و اون دو نفر دیوانه وار عاشق هم میشن💕اگه یکی از عاشقا بمیره اون یکی هم از غمش میمیره اگه تو آخر بازی یکی از عاشقا برنده بشه اون یکی هم به طور اتوماتیک برنده حساب میشه حتی اگه توی تیم مخالف باشه!(مثال:گرگ و روستایی)
     </value>
@@ -1080,10 +1080,10 @@
   <string key="AllowTannerA">
     <value>نقش منافق: {0}</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>نقش فرقه گرا فعال باشه؟\n حالت فعلی: {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>نقش فرقه گرا: {0}</value>
   </string>
   <string key="ThankYou">
@@ -1235,7 +1235,7 @@
   <string key="SerialKillerTeam">
     <value>گروه قاتل زنجیره ای</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>گروه فرقه</value>
   </string>
   <string key="TannerTeam">
@@ -1253,13 +1253,13 @@
   <string key="SerialKillerTeamEnd">
     <value>گروه قاتل زنجیره ای</value>
   </string>
-  <string key="CultTeamEnd">
+  <string key="zoombiesTeamEnd">
     <value>گروه فرقه</value>
   </string>
   <string key="TannerTeamEnd">
     <value>گروه منافق</value>
   </string>
-    <string key="CultConvertWolf">
+    <string key="zoombiesConvertWolf">
     <value>دیشب فرقه گراها {0} رو فرستادن تا {1} رو به دین مولا دعوت کنه، اما سَر {0} رو دیدن که از پنجره خونه {1} به بیرون پرتاب شده! {0} ممنون شده!</value>
   </string>
   <string key="HarlotFuckedKilledPublic"> <!-- used when Harlot visit's SK's victim, and dies -->
@@ -1280,7 +1280,7 @@
   <string key="ZombieKilled">
     <value>دیشب مولایی به فرقه های مولایی حمله کرد و {0} رو ممنون کرد!</value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>صبح روز بعد روستایی ها جنازه {0} رو پیدا کردن! دیگه توی روستا خبری از عشق نخواهد بود! الهه ممنون ممنون شده!</value>
   </string>
   <string key="DrunkKilled">
@@ -1310,10 +1310,10 @@
   <string key="SerialKillerKilledCH"> <!--used when CH visits SK-->
     <value>شکارچی ممنون {0} مشغول پیداکردن فرقه های مولایی بود اما درست زمانی که داشت توی جنگل قدم میزد قاتل مولایی بهش حمله میکنه و ممنونش میکنه!</value>
   </string>
-  <string key="CultConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
+  <string key="zoombiesConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
     <value>دیشب {0} رفت که گرگای مولایی رو به دین مولا دعوت کنه! ولی گرگای مولایی بهش حمله کردن و ممنونش کردن!</value>
   </string>
-  <string key="CultConvertKillerPublic"> <!--used when Zombies convert the SK-->
+  <string key="zoombiesConvertKillerPublic"> <!--used when Zombies convert the SK-->
     <value>شب قبل فرقه گرا ها میخواستن یک عضو جدید رو به دین مولا دعوت کنن، {0} مامور شد که یکی رو به دین مولا دعوت کنه، اما دیگه خبری از {0} نشد! صبح روز بعد فرقه های مولایی جنازه {0} رو توی روستا پیدا میکنند! قاتل مولایی {0} رو ممنون کرده!</value>
   </string>
   
@@ -1404,7 +1404,7 @@
     <!-- {0} = list of people who have joined -->
     <value>{0} در 30 ثانیه گذشته ممنون شدند </value>
   </string>
-  <string key="AllowCult">
+  <string key="Allowzoombies">
     <value>فرقه</value>
   </string>
   <string key="AllowTanner">
@@ -1647,7 +1647,7 @@
       <!-- 0 - mason collegues's name -->
       <value>هم تیمی های شما(درصورت وجود) عبارت اند از:{0}.</value>
     </string>
-    <string key="ThiefToCult">
+    <string key="ThiefTozoombies">
       <!-- 0 - old Zombie's name -->
       <!-- 1 - new Zombie's name -->
       <value>حاجی {0} دیگه همتیمی شما نیست به جاش {1} فرقه مولایی شده دقیقا مثل شماها.</value>
@@ -2006,16 +2006,16 @@
   <string key="HunterFell">
 	<value> یه شب دیگه بدون اینکه بتونید فرقه ای شکار کنید به خانه برمیگردید، ناامید در قبرستان قدم میزنید و ناگهان به داخل یک قبر میوفتید. شما فریاد میزنید و {0} به سراغ شما میاد اما خیلی ممنون شده! </value>
   </string>
-  <!--{0}: cult hunter-->
+  <!--{0}: zoombies hunter-->
   <string key="HunterFellDigger">
 	<value> بعد از یک شب خسته کننده شما به خانه برمیگردید قبل از اینکه وارد خانه شوید شمشیری کنار یک قبر میبینید مثل اینکه شکارچی ممنون یعنی {0} توی قبر افتاده</value>
   </string>
   <!--{0}: Zombie-->
-  <string key="CultFell">
+  <string key="zoombiesFell">
 	<value> بعد از یک شب خسته کننده در راه خانه صدای فریادی از یک قبر ناتمام خود میشنوید، با عجله به آنجا میروید و {0} را میبینید که در قبر افتاده. آخه کدوم فرقه گرایی میخواد یه گورکن مولایی رو تبدیل کنه؟</value>
   </string>
   <!--{0}: Zombie who fell, {1}: grave digger-->
-  <string key="CultConvertGraveDigger">
+  <string key="zoombiesConvertGraveDigger">
 	<value> در راه خانه {1} ناگهان {0} تصمیم میگیرد به سراغ یک کلیسا برود. اما در قبرستان داخل یک قبر افتاد. شما صدای فریاد او را قبل از افتادن میشنوید اما برای نجات خود ممنون میکند! </value>
   </string>
   <!--{0}: grave digger-->

@@ -521,33 +521,33 @@
     <!-- 1 - target name -->
     <value>{0} will {1} bekehra.</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <!-- 0 - Youngest Zombie (killed)'s name -->
     <!-- 1 - ZombieHunter's name -->
     <value>Heit Nachd musst {0} a neies Mitglied zom Kult bekehra. Des Glück war wohl ed ganz auf eirer Seite, weil {1} als Kultjäger 💂 wohl so ziemlich das unglücklichste Ziel darstellte. Drom geits jetzt laedr koe neues Mitglied, sondern zom Tod von eierm neuschda Mitglied, {0}, der jetzt vom Kultjägr vrschdocha worra isch.</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - Number of Zombies left -->
     <value>{0} war heit Nachd bei dir ond war sich sicher, er ked di heit Nachd zom Kult bekehra. Zom Glück merksch du was der vorhot ond nemmsch sofort dae Messer ond schdichsch an ab. An Kultist 👤 isch dod... {1} lebad no!</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>Dr Besuch vomma Kultisten hot di total durchnanderbrochd; dir isch klar worra, dass bloß dr Kult a richdiga Religion isch, ond dass du ao an Kultist 👤 sae mussch. Äll Nachd derfsch du dir mit de andere Kultisten oen aus, der dann der nächschde en eierm Kult werra soll.</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <!-- 0 - Number of Zombies -->
     <value>Kultisten: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <!-- 0 - new Zombie's name -->
     <value>{0} isch jetzt em Kult!</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <!-- 0 - Newest Zombie's name -->
     <!-- 1 - target name -->
     <value>{0} isch gschickt worra zom {1} bekehra... aber koener war dahoem!</value>
   </string>
-  <string key="CultWins" isgif="true">
+  <string key="zoombiesWins" isgif="true">
     <value>Die baeße send gschdorba, älle andre send zu Kultisten bekehrt worra... Dr Kult hot gwonna!</value>
   </string>
   <string key="HunterVisitDead">
@@ -651,7 +651,7 @@
     <value> Pass bloß uff, dass du daene neie Freind ed ausversäha vrdächdigsch. Nommol, hier ischd Mitgliederlischde: {0}</value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <!-- Nicht implementiert? * -->
     <!-- 0 - Youngest Zombies name -->
     <value>Eier neischdes Mitglied isch zu {0} ganga, zom da Kult vergrößra, aber des Haus war dodal he, vill Bluad, ond Fäda von amma Wolfasfell 🐺 vor dr Dier...</value>
@@ -661,7 +661,7 @@
     <value>Eier Horde isch zu {0} ghetzd, 'S Obendessa wär ferdig, aber no sehad ihr an großa hella Schoe, des machd eich Angschd! Dr Schutzengel 👼 hot eich älle abgwehrt ond ihr gangad hongrig zruck.</value>
   </string>
   <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <!-- 0 - newest -->
     <!-- 1 - target's name -->
     <value>{0} isch losgschickd worra, zom {1} bekehra, aber laedr war dr Glauba von {1} z'schdark ond so kommd {0}, ohne äbbes gmachd zom han, wieder hoem. :(</value>
@@ -672,7 +672,7 @@
     <!-- 1 - name --><!--   Ich habe diesen String absichtlich hochdeutsch gelassen, da es seehr wichtig ist, dass jeder ihn verstehen kann.   -->
     <value>@{1}, ein Spieler mit dem Namen {0} ist bereits beigetreten. Bitte ändere deinen Namen, um beizutreten.</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <!-- 0 - target's name -->
     <value>Du bisch ens Haus von {0} ganga ond hosch vill Schbass ghed... Abr grad wo du ganga willsch, siehsch du emma Nebaraom em Donkla an komischa hella Altar 👤 ...</value>
   </string>
@@ -768,7 +768,7 @@
     <value>Dia Zeit isch om!</value>
   </string>
   <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
     <value>Du bisch Amor 🏹. Mit Windla ond ma Boga ond zwoe Pfeile bwaffnet, fliagsch du nondr zur Erde. Wähl zwoe Spialr aus, di mo sich saumäßig ennenondr vorliaba sollad. Wenn oener von denne Vorliabte sterba duat, brengt si dr andre wegem Liabeskommer au om.</value>
     <value>Du bisch dr Amor. Mit denne stylische Flügelschuh fliagsch dorch da Hemmel ond feuersch Pfeile auf oschuldige Passanta, die sich no dodal ennenandr vrliabad ond uf offner Stroß übranander herfallad. Wenn du wissdesch wie oft des Problemla geit...</value>
   </string>
@@ -783,7 +783,7 @@
     <value>Du bisch dr Serienmörder 🔪. Als du a Kend warsch, hosch du em Garda dide Viacher gsammelt. Heit sammelsch Lebra, legsch se ae ond stellsch se en darm Regal aus. Andre Leit fendets womeglich eklig, abr dir machds Schbass.</value>
     <value>Du bisch dr Serienmörder 🔪. Seid arra fehlgschlagna Hirn-OP übrkommd di emmer nachts s Bedürfnis, mit ma großa Küchemessr aufd Stroß zom laufa ond da nächschdbesta Typsi aufzomschlitza, zom sae Blut saufa. Dass du dabai emmer d Leber metnemmsch, liagt wohl an daener Kleptomanie.</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>Du wurdesch von dr Liebe ❤ troffa. Dia Erinnrung an {0} wird nemme aus daem Herz verblassa. Euer Zial isch, dass ihr boede überleba dend. Wenn aber oener von eich schdirbd, no ko dr andre au nemme leba... Aber zom Glück gewinnsch du jetzt au mit daem Partner saem Team :3</value>
     <value>Du hosch di granadamäßig en {0} vrliebt ❤. Nix ond neamerd ko eich trenna! Eddamol dr Dod: Wenn oenr von eich schdirbd, no wird dr andre sich grad amol selber ombringa. Aber, koe Sorg, Des hot ao äbbes guads: egal ob lebend odr dod, du gwennsch emmer mit {0} mit :3</value>
   </string>
@@ -824,7 +824,7 @@
     <!-- 2 - target's role -->
     <value>Schlemm vrletzd ond dabei, saene ledschde Atemzüge zom nema, fällt {0} auf da Boda... aber ed ohne noch saener Pischdol 🎯 zom greifa ond {1} zom vrschießa, der direkt zwischa de Auga troffa wird. {2}</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <value>Dr Kultischdt 👤 {0} schleichd zom Haus von {1}, schdeigt nae - ond wird direkt vomma Wahnsinniga mit amma Messer 🔪 begrüßt!!! En alphabetischer Reihafolge schdichd {1} mit saem Messr d Organe von {0} ab - {0} isch jetz dod...</value>
     <value>Dr Kult 👤 schickd {0} zom {1} konvertiera, abr schdattdessa dass boede zrickkommad, flieagd dr Körper von {0} ausam Fenschdr, mit Messer 🔪 in jedem oenzelna Organ! WAS FERRAN PSYCHO! {0} isch dod...</value>
   </string>
@@ -848,7 +848,7 @@
     <!-- 0 - target's name -->
     <value>Du wolldesch zwar {0}'s Leber en dae Sammlung aufnemma, do war bloß laedr der Schutzengel 👼, der di abgwehrd hot! Heit Nacht hosch hald Pech ghed - 'S Leba isch koe Schlotzer :/</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
     <value>Dr Kult schickd {0} zom {1} konvertiera, aber s isch es ganz so glaofa, wie ihr des denkd häddad: Ma herd an Schuss 🎯, Kurz drauf kommt dr Körpr von {0} ausam Fenschdr gfloga! {0} isch dod...</value>
@@ -874,11 +874,11 @@
     <!-- 1 - mason collegues's name -->
     <value>{0} isch gschdorba ond du vrwandelsch di in an Freimaurer 👷. Daene Kamrada send (wenns oene geit): {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <!-- 0 - new Zombie's name -->
     <value>Dr Doppelgänger 🎭 {0} isch zom Kultisten worra, grad wie du selber!</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <!-- 0 - role's name -->
     <!-- 1 - teammates's name -->
     <value>{0} isch gschddorba ond du vrwandelsch di in an Kultisten 👤. Daene Briadr ond Schweschdra send (wenns oene geit): {1}</value>
@@ -902,25 +902,25 @@
     <value>Wen brengsch heit Nachd omd Ecke?</value>
     <value>Wen willsch heit Nachd aufschlitza?</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <!-- 0 - dead's name -->
-    <!-- 1 - lover's name -->
+    <!-- 1 - crewmate's name -->
     <!-- 2 - roles -->
     <value>Mit am letschda Atemhauch von {0} rennt {1} her ond fälld em brella auf saene Knie. {1} ko den Tod ed vrtraga, weil {0} ond {1} sich ewige Liebe ❤ gschwora hend und drom vrschießt {1} sich selbr mit dr nägschtbeschda Knarre. {2}</value>
   </string>
   <string key="AskDoppelganger">
     <value>Wer mechtsch werra, wenn dui Person schdirbt?</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>Wer sollad die Schätzla ❤ sei? Wähl ammol oen:</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>Wer sollad die Schätzla ❤ sei? Wähl ammol da andra:</value>
   </string>
   <string key="Hunter">
     <value>dr Jäger 🎯</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>Amor 🏹</value>
   </string>
   <string key="SerialKiller">
@@ -933,7 +933,7 @@
     <!-- 0 - target's name -->
     <value>Du bisch des wilde Kind 👶. Dae Vorbild isch {0}.</value>
   </string>
-  <string key="LoversWin" isgif="true">
+  <string key="crewmatesWin" isgif="true">
     <value>Wahra Liebe hält dr immer! Die Liebende hend gwonna!</value>
   </string>
   <string key="HunterKilledVisiter">
@@ -941,7 +941,7 @@
     <!-- 1 - role -->
     <value>Midda em Zentrum von eierm Dörfle fendad ihr da Körper von {0}, von Schüsse durchlöcherd. Sieht so aus, wie wenn {0} versucht hätt, sich an da Jäger 🎯 ozomschleicha! Satz mit X: Des war wohl nix - {1}</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>A komisch verschleierda Gschdald wolld, dass du bei saem Kult 👤 mitmachsch, aber daen Gaeschd war zu schdark.</value>
   </string>
   <string key="AlreadyOnWaitList">
@@ -1032,7 +1032,7 @@
 	Zwar liebenswürdig, aber auch gefährlich, auf deine eigene Weise: weil du es nicht besser weißt, behauptest du, der Seher zu sein - dabei sind die Rollen, die dir angezeigt werden, komplett zufällig! Vielleicht hättest du damals bei Professor Trelawney doch besser aufpassen sollen...
 	Etwas hast du dem Seher aber voraus: du siehst den Verräter auch als solchen - während ein richtiger Wahrsager sich bei diesem nur zwischen Wolf und Dorfbewohner irren kann! Die einzelnen Wölfe kannst du aber leider nicht voneinander unterscheiden... :/</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>Du bist ein Kultist 👤 - fashiontechninsch vielleicht nicht ganz auf der Höhe, trotzdem - oder vielleicht gerade deshalb? - bist du relativ erfolgreich: jede Nacht kannst du einen Spieler aussuchen, den du zu deinem Kult bekehren willst; und das ist auch dein Lebensmotto: das ganze Dorf zu bekehren. Wenn am Ende nur noch Kultisten überleben, gewinnt ihr! Aber nicht immer hast du Glück - manche Bewohner sind schwerer zu bekehren als Andere...</value>
   </string>
   <string key="AboutCH">
@@ -1058,7 +1058,7 @@
 	\nSollten Kultisten im Dorf verkehren, haben sie keine Möglichkeit, den Doppelgänger zu bekehren, bevor er sich nicht verwandelt hat. Außerdem verliert der Kult ein Mitglied, sollte der vom Doppelgänger Kopierte Kultist gewesen sein: der Doppelgänger nimmt dann die urprüngliche Rolle des Toten ein.
 	\nAls Doppelgänger ist es dir ganz wichtig, dass das Dorf erkennt, wie gut du deine Profession beherrscht: solange du dich nicht verwandelt hast, kannst du das Spiel auch nicht gewinnen! Wenn das Spiel vorbei ist, und du noch du bist... verlierst du.</value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>
       Es knistert, aber gewaltig! Dabei hast du deinen Job als Elektriker doch eigentlich an den Nagel gehangen - deine neue Berufskleidung ist zwar etwas seltsam, aber wer möchte nicht gern von Luft und Liebe leben? Also: deine Berufung als Amor 🏹 ist es, zwei Pfeile abzuschießen: die beiden Bewohner, die von ihnen getroffen werden, werden sich unsterblich ineinander verlieben, unfähig, ohne den jeweils anderen zu überleben: sollte einer von beiden sterben, wird sich der Andere aus Kummer das Leben nehmen... Je nachdem, wie geschickt dein Händchen ist, kann daraus ein großes Hochzeitsfest oder ein Killerpärchen entstehen!
 	  Wichtig: die Liebenden wissen zwar voneinander, bekommen die Rollen des jeweils Anderen jedoch nicht mitgeteilt. Sie gewinnen, wenn mindestens einer von ihnen im gewinnenden Team ist - sollten die Beiden es schaffen, als die letzten Beiden am Leben zu sein, gewinnen sie als Paar (Herzchen-Emoji hier evtl?)
@@ -1240,10 +1240,10 @@
   <string key="AllowTannerA">
     <value>dr Gerber isch jetzd {0}</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>Willsch du da Kult em Schbial erlauba?\nEm Moment: {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>dr Kult isch jetzd {0}</value>
   </string>
   <string key="EnableSecretLynchQ">
@@ -1412,13 +1412,13 @@
   <string key="SerialKillerTeamEnd">
     <value>Team Vrruckd</value>
   </string>
-  <string key="CultTeamEnd">
+  <string key="zoombiesTeamEnd">
     <value>Team kultig</value>
   </string>
   <string key="TannerTeamEnd">
     <value>Team Gerber</value>
   </string>
-  <string key="CultConvertWolf">
+  <string key="zoombiesConvertWolf">
 	<value>Dr Kult hot {0} losgschickt zom {1} bekehra, aber schdattdessa kommt {0}'s Kopf ausam Fenschdr gfloga! Abtrennd!</value>
   </string>
   <string key="HarlotFuckedKilledPublic">
@@ -1435,7 +1435,7 @@
   <string key="ZombieKilled">
     <value>Ihr fendat {0}, der mitam Kerzaleichder von saem oigena Altar 👤 erschdocha worra sae muss. Dass am Serienmörder 🔪 Herkunft, Beruf ond Religion von saene Opfer grad egal send, hen ihr zwar scho gwisst, aber worom er dui Nachd koe Messer dabeighet hot, des vrschdohd doch koener...</value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>D Liebe isch dod... Oder wenigschdens ihr Schdellvrtretr uff dr Erde 🏹: obwohl {0} saen Boga no en dr Hand hot, hot der am nix gega da schdarka Serienmörder 🔪 gholfa. Komisch: Des Herz isch am sauber raustrennt worra... Vielleicht war des jo des was dem Vrruckda d ganza Zeit gfehld hot?!</value>
     <value>Scho mo se aufwachad, fühlad sich älle Dorfbewohner dodal lieblos. Zerschd moenad se, des sei bloß Aebildung, aber no fendet ma Amor 🏹, vom Kopf bis and Fiaß aufgschlitzt, vor dr Kirch... Aus irgendma Grond fehlt {0} ao s Herz. 🔪</value>
   </string>
@@ -1472,14 +1472,14 @@
     <value>Mos Dorf aufwacht, fendet ma {0}, da Kultjäger 💂 zerschdücklt en ra Kischde vorm Rathaus. War wohl koe guada Idee, nachts zom Serienmörder 🔪 zom ganga ond an noch saener Spiritualität zom froga...</value>
     <value>Dr Körper von {0}, am Kultjäger 💂 isch dodal verschdümmeld aufam Altar von dr Kirch gfonda worra. Da Serienmörder 🔪 fer an Kultist zom halda war ganz klar saen letschder Fehler...</value>
   </string>
-  <string key="CultConvertWolfPublic">
+  <string key="zoombiesConvertWolfPublic">
 	<!-- used when Zombies convert the wolves, only if wolves stayed home -->
-	<!-- <value>The cult ran into unexpected trouble last night. Their newest member had the misfortune of visiting a wolf on the night the wolves decided to stay home, and the wolf found {0} quite delicious. Unfortunately for {0}, wolves have no interest in joining the new religious movement.</value> -->
+	<!-- <value>The zoombies ran into unexpected trouble last night. Their newest member had the misfortune of visiting a wolf on the night the wolves decided to stay home, and the wolf found {0} quite delicious. Unfortunately for {0}, wolves have no interest in joining the new religious movement.</value> -->
     <value>Aegendlich hend d Wölfe 🐺 letzsch Nachd jo gar koen ogreifa wella - abr wer ko scho wiederschdanda, wenn d Lieferong frei Haus kommd?! Richtig: koner. Des hot {0} am oegna Leib gschbürd, ao saen Glaube hot den Kultisten 👤 ed vor de Zähne von de Wölfe bschütza kenna...</value>
   </string>
-  <string key="CultConvertKillerPublic">
+  <string key="zoombiesConvertKillerPublic">
 	<!-- used when Zombies convert the SK -->
-    <!-- <value>The cult thought they would have a new member in their ranks, but they were wrong! {0}, a Zombie, was minced to pieces and placed at the town square in the morning! Strangely their "holy" book was found stabbed with a knife, as if a statement to show whose religion was triumphant.</value> -->
+    <!-- <value>The zoombies thought they would have a new member in their ranks, but they were wrong! {0}, a Zombie, was minced to pieces and placed at the town square in the morning! Strangely their "holy" book was found stabbed with a knife, as if a statement to show whose religion was triumphant.</value> -->
     <value>Was ferran Fehler... Dr Kult 👤 hot letzsch Nachd d oiziga Person em ganza Dorf bsuachd, die no vrruckdr ischt, als dr Kult selber. Dodafür hend älle Bewohner heit a komischs Kunschdwerk, des aus {0}'s henige Organe beschdohd, voram Rathaus oglotza. Velleichd jetz ed dr Gschmack von jedem... aber am Serienmörder 🔪 gfällds.</value>
   </string>
   <string key="GAGuardedKiller">
@@ -1567,7 +1567,7 @@
     <!-- NOTE: No space between {0} and joined. It will be added in the code if necessary-->
     <value>{0} schbielad seid de letschde 30 Sekonda ao mit.</value>
   </string>
-  <string key="AllowCult">
+  <string key="Allowzoombies">
     <value>Kult erlaoba</value>
   </string>
   <string key="AllowTanner">
@@ -1798,7 +1798,7 @@
     <!-- 0 - mason collegues's name -->
     <value>Daene Teampartner send (wenn's oene geit): {0}</value>
   </string>
-  <string key="ThiefToCult">
+  <string key="ThiefTozoombies">
     <!-- 0 - old Zombie's name -->
     <!-- 1 - new Zombie's name -->
     <value>{0} isch nemme em Kult, abr dodafür isch {1} jetzd an Kultist, grad so wie du!</value>

@@ -309,25 +309,25 @@
   <string key="ZombieVotedConvert">
     <value>{0} votou em chamar {1} pra Caixa Baixa.</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <value>{0} foi mandado pra tentar chamar {1} pra Caixa Baixa... mas porra! Era o Neguinho! {0} morreu!</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <value>{0} veio pra tua casa tentando de chamar pra Caixa Baixa... filho da puta! Tu atirou no moleque. Agora só falta {1}!</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>Agora tu é um moleque da Caixa Baixa! A cada noite tu pode chamar alguém pra tua gangue.</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>Caixa Baixa: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <value>{0} é o novo moleque da Caixa Baixa!</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <value>{0} foi atrás de {1} pra falar sobre a Caixa Baixa... mas não tinha ninguém em casa!</value>
   </string>
-  <string key="CultWins">
+  <string key="zoombiesWins">
     <value>Todos os traficantes morreram... sem o tráfico para atrapalhar, a Caixa Baixa assume o domínio da Cidade de Deus!</value>
   </string>
   <string key="HunterVisitDead">
@@ -420,19 +420,19 @@
   <string key="MasonTeam">
     <value>  Esses penetras são: {0}</value>
   </string>
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <value>Tu manda alguém pra casa de {0} pra chamar pra Caixa Baixa... mas o que tu encontra é só uma perna. Os traficantes chegaram antes de tu.</value>
   </string>
   <string key="GuardBlockedWolf">
     <value>O bando vai pra casa de {0} pra passar ele, mas no meio do caminho alguém se pergunta se isso é mesmo certo. A prece de alguém fez o pessoal mudar de ideia.</value>
   </string>
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <value>Você manda {0} chamar {1} pra Caixa Baixa, mas ele achou que eram só um grupo de moleques e foi embora. Filho da puta!</value>
   </string>
   <string key="NameExists">
     <value>@{1}, um jogador com o apelido {0} já tá na Cidade de Deus. Troca ele pra nóis não confundir.</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <value>Vocês trocam uma ideia esperta e acaba indo pra casa de {0}... mas quando tu vai embora, tu encontra um pedaço de papel com nome e número de um dos moleques da Caixa Baixa... eu hein.</value>
   </string>
   <string key="Was">
@@ -505,7 +505,7 @@
   <string key="TimesUp">
     <value>Perdeu tua chance!</value>
   </string>
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
     <value>Tu é o Funkeiro! Você conhece todo mundo da Cidade de Deus e pode escolher apresentar duas pessoas. Esses dois vão tar tão na fita um do outro que se um morrer, o outro vai morrer de desgosto.</value>
   </string>
   <string key="RoleInfoDoppelganger">
@@ -517,7 +517,7 @@
   <string key="RoleInfoSerialKiller">
     <value>Tu é o Cabeleira. Quando tu tentou sair dessa vida na Cidade de Deus, tu acabou morto. Mas agora tu voltou com sangue nos olhos pra matar todo mundo desse lugar. Não deixa sobrar ninguém.</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>Antes de tu chegar na CDD, o funkeiro te apresentou a {0}. E agora tu tá amarrado demais pra viver sem. Fiquem de olho um no outro.</value>
     <value>O funkeiro botou {0} na tua fita! Tu tá pagando paixão pra caralho. Se o outro morrer, tu morre também. Mas sobrevivendo no final os dois ganham.</value>
   </string>
@@ -560,10 +560,10 @@
   <string key="GuardBlockedKiller">
     <value>Tu tentou puxar {0} pro inferno também, mas as preces do Alicate te seguraram!</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <value>A Caixa Baixa manda {0} ir atrás de {1}, mas Cenoura não dá mole e o corpo de {0} sai voando pela janela, depois de um tiro de .12. {0} já era.</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <value>A Caixa Baixa manda {0} ir atrás de {1}, mas o corpo de {0} cai com os tiros do revólver do Cabeleira! {0} já era.</value>
     <value>{0} chega na casa de {1} mas não esperava encontrar o Cabeleira! {1} atira na cabeça de {0} antes que possa fugir. {0} já era!</value>
   </string>
@@ -582,10 +582,10 @@
   <string key="DGTransformToMason">
     <value>{0} morreu, e tu assumiu a reportagem dele pro jornal.  Os outros jornalistas (se tiver) são: {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <value>O Paulista {0} agora é membro da Caixa Baixa!</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <value>{0} morreu, e tu agora é membro da Caixa Baixa. Teus parceiros (se tu tiver algum) são: {1}</value>
   </string>
   <string key="DGToWolf">
@@ -600,22 +600,22 @@
   <string key="AskKill">
     <value>Quem tu quer passar agora?</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <value>Com a morte de {0}, {1} fica triste demais. Pega a arma que tem guardada no armário de dá um tiro na própria cabeça. Que vacilo. {2}</value>
   </string>
   <string key="AskDoppelganger">
     <value>Tu quer assumir o lugar de quem quando morrerem?</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>Qual casal tu quer formar? Escolhe aí alguém</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>E pra quem tu quer apresentar? Escolhe aí.</value>
   </string>
   <string key="Hunter">
     <value>o Cenoura 🎯</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>o Funkeiro 🏹</value>
   </string>
   <string key="SerialKiller">
@@ -627,13 +627,13 @@
   <string key="NewWCRoleModel">
     <value>Tu se tornou o Otto. Teu pai agora é {0}</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
     <value>Esse negócio de violência não tá com nada, eles são hippie de coração, Paz e amor. O casal ganhou!</value>
   </string>
   <string key="HunterKilledVisiter">
     <value>No meio da CDD tá o corpo de {0}, todo furado. Parece que alguém tentou passar o Cenoura! {1}</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>Um moleque da Caixa Baixa veio falar contigo, mas tu sabe que eles enchem o cu de maconha e só falam merda.</value>
   </string>
   <string key="AlreadyOnWaitList">
@@ -702,7 +702,7 @@
   <string key="AboutFool">
     <value>he fool is told they are the seer.... when they choose to see someone's role at night, they are told a random role.</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>Você é um agente da Seita.  Durante a noite, você poderá escolher alguém para converter à Seita. Se todos os jogadores restantes ao final do jogo forem da Seita, ela vence!</value>
   </string>
   <string key="AboutCH">
@@ -725,9 +725,9 @@
      Você é um Doppelgänger. A Lenda diz que seus ancestrais eram metamorfos, e podiam assumir qualquer forma que quisessem! Escolha um jogador, quando ele morrer você assumirá o papel dele no jogo.
     </value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>
-      Você é o Cupido. Enviado à Aldeia de fraldão, com um arco e duas flechas, você pode escolher dois jogadores que irão se amar para toda eternidade. Se um deles morrer, o outro morrerá de tristeza. Depois de unir dois amantes, você pode voltar ao seu papel como Aldeão.
+      Você é o Recruitero. Enviado à Aldeia de fraldão, com um arco e duas flechas, você pode escolher dois jogadores que irão se amar para toda eternidade. Se um deles morrer, o outro morrerá de tristeza. Depois de unir dois amantes, você pode voltar ao seu papel como Aldeão.
     </value>
   </string>
   <string key="AboutHunter">
@@ -897,11 +897,11 @@
   <string key="AllowTannerA">
     <value>Tanner as a role set to: {0}</value>
   </string>
-  <string key="AllowCultQ">
-    <value>Allow cult as a role option?\nCurrent: {0}</value>
+  <string key="AllowzoombiesQ">
+    <value>Allow zoombies as a role option?\nCurrent: {0}</value>
   </string>
-  <string key="AllowCultA">
-    <value>Cult as a role set to: {0}</value>
+  <string key="AllowzoombiesA">
+    <value>zoombies as a role set to: {0}</value>
   </string>
   <string key="ThankYou">
     <value>Thank you, have a good day :)</value>
@@ -1046,7 +1046,7 @@
   <string key="SerialKillerTeam">
     <value>Time Serial Killer</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>Time da Seita {0}</value>
   </string>
   <string key="TannerTeam">
@@ -1064,13 +1064,13 @@
   <string key="SerialKillerTeamEnd">
     <value>Time Serial Killer</value>
   </string>
-  <string key="CultTeamEnd">
+  <string key="zoombiesTeamEnd">
     <value>Time da Seita</value>
   </string>
   <string key="TannerTeamEnd">
     <value>Time Suicida</value>
   </string>
-  <string key="CultConvertWolf">
+  <string key="zoombiesConvertWolf">
     <value>O caixa branca {0} tentou converter {1}, mas {0} acabou morrendo... Affz, vocês tentaram converter um Traficante. {0} está morto...</value>
   </string>
   <string key="HarlotFuckedKilledPublic">
@@ -1085,7 +1085,7 @@
   <string key="ZombieKilled">
     <value>{0}, um muleque da Caixa Branca, foi encontrado morto na sede da Caixa Branca .O cabeleira ataca novamente independente de classe social,cor ou gangue.{0} era um Garoto da Caixa Branca.</value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>Na manhã seguinte, os moradores acordam com o coração partido ao encontrar {0}, o funkeiro morto e com marcas de facada da cabeça aos pés. Porém estava sem seu radim. Parece que o cabeleira curtia uns funk ...</value>
   </string>
   <string key="DrunkKilled">
@@ -1115,10 +1115,10 @@
   <string key="SerialKillerKilledCH">
     <value>A comunidade acorda assustada encontrando o corpo de Neguinho com os braços amarrados. {0} visitou a pessoa errada. O Cabeleira utilizou todas as armas do Neguinho, ao mesmo tempo.</value>
   </string>
-  <string key="CultConvertWolfPublic">
+  <string key="zoombiesConvertWolfPublic">
     <value>Péssima escolha da Caixa Branca ao querer chamar para sua gangue um traficante que estava em casa. {0} foi encontrado esfaqueado em frente a Sede dos Caixa Branca.</value>
   </string>
-  <string key="CultConvertKillerPublic">
+  <string key="zoombiesConvertKillerPublic">
     <value>Ontem a noite os Caixa Branca quiseram chamar para sua gangue o Cabeleira, e por causa disso, os órgãos de {0} foram encontrados sendo vendidos na feira livre de Domingo</value>
   </string>
   <string key="GAGuardedKiller">
@@ -1188,7 +1188,7 @@
   <string key="DeletedFromWaitList">
     <value>Você saiu da lista de espera do grupo {0}.</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>Os muleque da Caixa Branca são: {0}</value>
   </string>
   <string key="WolfTeam">
@@ -1227,7 +1227,7 @@
   <string key="AllowTanner">
     <value>Permitir o Secretário de Segurança do Rio de Janeiro </value>
   </string>
-  <string key="AllowCult">
+  <string key="Allowzoombies">
     <value>Permitir Caixa Branca</value>
   </string>
   <string key="HaveJoined">

@@ -183,7 +183,7 @@
 		<value>Você é Aprendiz de Vidente 🙇, e joga pela Aldeia. Você ainda não tem permissão para usar a bola de cristal... Ainda. Vidente morreu, sua bola acendeu. Saiba mais: /aboutAppS</value>
 	</string>
 	<string key="RoleInfoZombie">
-		<value>Você é Integrante da Seita 👤. Durante a noite, você poderá escolher alguém para converter à Seita. Se todos os jogadores restantes ao final do jogo forem Integrantes, a Seita vence! Saiba mais: /aboutCult</value>
+		<value>Você é Integrante da Seita 👤. Durante a noite, você poderá escolher alguém para converter à Seita. Se todos os jogadores restantes ao final do jogo forem Integrantes, a Seita vence! Saiba mais: /aboutzoombies</value>
 	</string>
 	<string key="RoleInfoZombieHunter">
 		<value>A Seita está tentando converter todo mundo, e você, Agente da Inquisição 💂, deve proteger a Aldeia!  Durante a noite você poderá escolher alguém para inquirir. Se for da Seita, a pessoa morre. Caso a Seita tente te converter, o membro mais recente morre. Mas cuidado: se você tentar inquirir um Serial Killer, quem morre é você! Saiba mais: /aboutCH</value>
@@ -315,25 +315,25 @@
 	<string key="ZombieVotedConvert">
 		<value>{0} votou para converter {1}</value>
 	</string>
-	<string key="CultConvertZombieHunter">
+	<string key="zoombiesConvertZombieHunter">
 		<value>A Seita enviou {0} para fazer o trabalho sujo e converter {1}... Mas seu integrante nunca voltou, porque {1} era Agente da Inquisição, e tinha uma câmara de tortura especial pra Seita!</value>
 	</string>
-	<string key="ZombieHunterKilledCultVisit">
+	<string key="ZombieHunterKilledzoombiesVisit">
 		<value>{0} foi à sua casa para te converter... Mas você tinha uma câmara de tortura só pra esse tipo de gente. Um Integrante da Seita morreu! Ainda falta {1}.</value>
 	</string>
-	<string key="CultConvertYou">
+	<string key="zoombiesConvertYou">
 		<value>Agora você faz parte da Seita. Durante a noite, tentará espalhar a palavra da Seita na Aldeia.</value>
 	</string>
-	<string key="CultTeam">
+	<string key="zoombiesTeam">
 		<value>Seus companheiros são: {0}</value>
 	</string>
-	<string key="CultJoin">
+	<string key="zoombiesJoin">
 		<value>{0} entrou pra Seita!</value>
 	</string>
-	<string key="CultVisitEmpty">
+	<string key="zoombiesVisitEmpty">
 		<value>{0} foi sorrateiramente tentar converter {1}... Mas não tinha ninguém em casa!</value>
 	</string>
-	<string key="CultWins" isgif="true">
+	<string key="zoombiesWins" isgif="true">
 		<value>Todos foram convertidos! A Seita venceu e a Aldeia se fu...</value>
 	</string>
 	<string key="HunterVisitDead">
@@ -426,19 +426,19 @@
 	<string key="MasonTeam">
 		<value>\nOs maçons são: {0}</value>
 	</string>
-	<string key="CultTargetDead">
+	<string key="zoombiesTargetDead">
 		<value>O integrante mais novo da Seita bate na porta da casa de {0}, mas, olhando pela janela, vê seu corpo sem vida. Seu alvo morreu!</value>
 	</string>
 	<string key="GuardBlockedWolf">
 		<value>A alcateia se dirige à casa de {0} para o banquete, mas encontra na porta uma criatura celestial, cercada de luz e com uma espada. Um Anjo da Guarda sai em defesa do seu alvo, e, após uma longa luta cheia de músicas gospeis, vocês voltam pra casa com o rabo entre as pernas.</value>
 	</string>
-	<string key="CultUnableToConvert">
+	<string key="zoombiesUnableToConvert">
 		<value>{0} foi à casa de {1} para falar sobre a Seita, mas sua fé era forte demais para ser corrompida.</value>
 	</string>
 	<string key="NameExists">
 		<value>@{1}, alguém com o nome {0} já se juntou à partida. Por favor mude seu nome para poder entrar no jogo.</value>
 	</string>
-	<string key="HarlotDiscoverCult">
+	<string key="HarlotDiscoverzoombies">
 		<value>Ao sair de fininho da casa de {0}, você nota através de uma porta semiaberta um altar estranho dentro de um quarto...</value>
 	</string>
 	<string key="Was">
@@ -475,8 +475,8 @@
 	<string key="TimesUp">
 		<value>Tempo esgotado!</value>
 	</string>
-	<string key="RoleInfoCupid">
-		<value>Você é Cupido 🏹. Sempre gostou de criar casais, mas só te restaram duas flechas, exatamente o suficiente para formar um casal. Você pode escolher dois jogadores que irão se amar para toda eternidade. Se um deles morrer, o outro morrerá de tristeza. Saiba mais: /aboutCupid</value>
+	<string key="RoleInfoRecruiter">
+		<value>Você é Recruitero 🏹. Sempre gostou de criar casais, mas só te restaram duas flechas, exatamente o suficiente para formar um casal. Você pode escolher dois jogadores que irão se amar para toda eternidade. Se um deles morrer, o outro morrerá de tristeza. Saiba mais: /aboutRecruiter</value>
 	</string>
 	<string key="RoleInfoDoppelganger">
 		<value>Você é Doppelgänger 🎭. Diz a lenda que seus ancestrais eram metamorfos, e podiam assumir qualquer forma que quisessem! Escolha uma pessoa, e quando ela morrer você assumirá seu papel no jogo. Saiba mais: /aboutDG</value>
@@ -487,8 +487,8 @@
 	<string key="RoleInfoSerialKiller">
 		<value>Você é Serial Killer 🔪. Como todo mundo, você gosta de guardar lembrancinhas das suas melhores experiências. Ou, no caso, guardar a orelha direita das pessoas que matou. Toda noite, você pode escolher uma pessoa para adicionar à coleção. Saiba mais: /aboutSK</value>
 	</string>
-	<string key="CupidChosen">
-		<value>Como o amor é lindo! A memória de {0} nunca deixará seu coração. Seu objetivo é que os dois sobrevivam. Se um de vocês morrer, o outro irá até o mundo dos mortos para que ambos continuem juntos. Saiba mais: /aboutCupid</value>
+	<string key="RecruiterChosen">
+		<value>Como o amor é lindo! A memória de {0} nunca deixará seu coração. Seu objetivo é que os dois sobrevivam. Se um de vocês morrer, o outro irá até o mundo dos mortos para que ambos continuem juntos. Saiba mais: /aboutRecruiter</value>
 	</string>
 	<string key="HunterLynchedChoice">
 		<value>A aldeia vai te enforcar! Mas você ainda tem uma oportunidade de atirar em alguém.</value>
@@ -529,10 +529,10 @@
 	<string key="GuardBlockedKiller">
 		<value>{0} com certeza teria sido uma ótima adição à sua coleção, mas infelizmente não foi hoje que isso aconteceu. Um Anjo da Guarda barrou sua entrada na casa, e não saiu de lá nem com reza braba...</value>
 	</string>
-	<string key="CultConvertHunter">
+	<string key="zoombiesConvertHunter">
 		<value>A Seita manda {0} para converter {1}, que estava de vigília e retribuiu as batidas na porta com tiros! {0} morreu!</value>
 	</string>
-	<string key="CultConvertSerialKiller">
+	<string key="zoombiesConvertSerialKiller">
 		<value>A Seita manda {0} para converter {1}. Chegando lá, {0} descobre que não foi uma boa ideia... Seu corpo é encontrado aberto, sem os órgãos nem uma das orelhas. {0} morreu!</value>
 	</string>
 	<string key="GuardKiller">
@@ -550,10 +550,10 @@
 	<string key="DGTransformToMason">
 		<value>{0} morreu, e você agora é Maçom. Seus companheiros (se houver) são: {1}</value>
 	</string>
-	<string key="DGToCult">
+	<string key="DGTozoombies">
 		<value>{0}, que era Doppelgänger, virou Integrante da Seita, assim como você!</value>
 	</string>
-	<string key="DGTransformToCult">
+	<string key="DGTransformTozoombies">
 		<value>{0} morreu, e você, seguindo seu exemplo, vira Integrante da Seita. Seus companheiros (se houver) são: {1}</value>
 	</string>
 	<string key="DGToWolf">
@@ -568,23 +568,23 @@
 	<string key="AskKill">
 		<value>Quem você gostaria de matar essa noite?</value>
 	</string>
-	<string key="LoverDied">
+	<string key="crewmateDied">
 		<value>{0} dá seu último suspiro olhando no fundo dos olhos de seu amor, {1}, que segura seu corpo de joelhos. {1} não aguenta a dor, e, com uma faca, perfura o próprio coração... O casal ficará junto, mesmo no mundo dos mortos. {2}</value>
 	</string>
 	<string key="AskDoppelganger">
 		<value>Em quem você quer se transformar?</value>
 	</string>
-	<string key="AskCupid1">
+	<string key="AskRecruiter1">
 		<value>Quem será o casal? Escolha a primeira pessoa.</value>
 	</string>
-	<string key="AskCupid2">
+	<string key="AskRecruiter2">
 		<value>Quem será o casal? Escolha a segunda pessoa.</value>
 	</string>
 	<string key="Hunter">
 		<value>Sentinela 🎯</value>
 	</string>
-	<string key="Cupid">
-		<value>Cupido 🏹</value>
+	<string key="Recruiter">
+		<value>Recruitero 🏹</value>
 	</string>
 	<string key="SerialKiller">
 		<value>Serial Killer 🔪</value>
@@ -595,13 +595,13 @@
 	<string key="NewWCRoleModel">
 		<value>Você virou uma Criança Rebelde. Seu modelo é {0}.</value>
 	</string>
-	<string key="LoversWin" isgif="true">
+	<string key="crewmatesWin" isgif="true">
 		<value>Como o amor é lindo! O casal venceu!</value>
 	</string>
 	<string key="HunterKilledVisiter">
 		<value>Opa! Parece que {0} estava no lugar errado na hora errada. A Sentinela estava bem pistola noite passada, e pistola foi a última coisa que {0} viu após tentar espalhar a palavra da Seita. {1}</value>
 	</string>
-	<string key="CultAttempt">
+	<string key="zoombiesAttempt">
 		<value>Durante a noite, você escuta batidas na sua porta. Quando a abre, um indivíduo de capuz pergunta: "Você gostaria de se tornar parte da Seita?" Você fecha a porta na cara da pessoa. Sua fé é mais forte.</value>
 	</string>
 	<string key="AlreadyOnWaitList">
@@ -681,7 +681,7 @@ A notícia boa é que, se houver um Lobisomem Alfa ⚡️ (/aboutAlphaWolf) na s
 	<string key="AboutFool">
 		<value>Um Trouxa 🃏 acha que é Vidente 👳 (/aboutSeer), e até o bot fala isso pra ele... Mas os resultados das visões são aleatórios! Quando um Trouxa tenta ver o papel de uma pessoa, o papel visto é aleatório dentre todos os papéis atualmente no jogo. As exceções são que um Trouxa nunca vai ver ninguém como Vidente ou como Trouxa. Além disso, assim como Videntes, um Trouxa não sabe distinguir tipos diferentes de Lobisomem 🐺⚡️🐶.\n\nÉ sempre importante descobrir se você é um Vidente real ou apenas um Trouxa, e tem vários jeitos. O mais importante é que, se houve um Confidente 👁 no jogo, ele saberá quem é o Vidente real, e provavelmente vai enviar uma mensagem para ele. Confidentes não sabem quem é Trouxa, apenas quem é Vidente. Outro jeito de descobrir é vendo a mesma pessoa duas vezes, pois ambas vão ter um resultado aleatório. Se os dois papéis resultantes forem diferentes, e mudar de um para o outro for impossível, você já sabe que é Trouxa. O problema é que mesmo se os papéis forem iguais, ainda existe uma probabilidade de que você seja Trouxa, além de azarado. O último jeito é vendo o papel de uma pessoa antes dela morrer. Se você tiver essa sorte, e o papel visto for diferente do papel mostrado quando a pessoa morreu, já sabe que é Trouxa.\n\nMesmo se você for Trouxa, não é o fim do mundo! Trouxas também são importantes para a Aldeia... isso porque os papéis vistos podem não pertencer às pessoas que viu, mas com certeza pertencem a alguém no jogo. Por isso, Trouxas são indispensáveis para a Aldeia saber que inimigos tem, mesmo sem saber quem são. Além disso, Videntes enxergam um Traíra 🖕 como Lobisomem ou Aldeão 👱, mas Trouxas conseguem ver (a pessoa errada com) o papel de Traíra, sabendo assim que o papel existe no jogo.\n\nChances de conversão para a Seita 👥: 100%\n\nTime: Aldeia</value>
 	</string>
-	<string key="AboutCult">
+	<string key="Aboutzoombies">
 		<value>O objetivo de um Integrante da Seita 👤 é converter todos os jogadores vivos à Seita 👥. Para isso, a cada noite os Integrantes da Seita votam para decidir quem vão converter naquela noite. Apenas o Integrante mais novo vai à casa da pessoa escolhida, e, assim, é ele que sofre as consequências de ter escolhido a pessoa errada. Alguns papéis são difíceis de converter, outros podem matar suas visitas...\n\n
 Chances de converter um papel para a Seita:\n
 Alquimista ⚒: 75%\n
@@ -722,8 +722,8 @@ Atacar um Maçom significa se livrar de quem está gerenciando a Aldeia. Por um 
 	<string key="AboutDG">
 		<value>O objetivo de um Doppelgänger 🎭 é se transformar em alguém. No começo do jogo, um Doppelgänger pode escolher uma pessoa para ser seu exemplo. Quando ela morrer, o Doppelgänger se transforma no papel dela!\n\nNormalmente, um Doppelgänger se transforma no papel original de uma pessoa, ou seja, a infecção de um Lobisomem Alfa ⚡️ ou a conversão para a Seita 👥 não influenciam na hora de um Doppelgänger se transformar. A exceção é que, se o papel original for Infiel 😾, Traíra 🖕, ou Criança Rebelde 👶, e a pessoa tiver se transformado em Lobisomem 🐺 (mesmo se foi pela mordida de um Alfa), o Doppelgänger também se transformará em Lobisomem. Além disso, se o papel original da pessoa for Aprendiz de Vidente 🙇, e ela não tiver sido transformada em Lobisomem, um Doppelgänger pega o papel que ela tinha na hora da morte (ou seja, Aprendiz de Vidente, Vidente 👳, ou Integrante da Seita 👤).\n\nChances de conversão para a Seita 👥: 0% (se ainda não tiver se transformado)\n\nTime: Neutro. Um Doppelgänger ganha se tiver se transformado, e perde se morreu sem se transformar.</value>
 	</string>
-	<string key="AboutCupid">
-		<value>Um Cupido 🏹 pode, durante a primeira noite do jogo, escolher duas pessoas para formar um Casal. Por mais que seja possível se escolher, é mais seguro formar o Casal com duas outras pessoas. Grupos diferentes podem ter regras diferentes em relação à lealdade de um Cupido, mas, segundo o jogo, sua lealdade é com a Aldeia e não com o Casal formado.\n\nChances de conversão para a Seita 👥: 100%\n\nTime: Aldeia
+	<string key="AboutRecruiter">
+		<value>Um Recruitero 🏹 pode, durante a primeira noite do jogo, escolher duas pessoas para formar um Casal. Por mais que seja possível se escolher, é mais seguro formar o Casal com duas outras pessoas. Grupos diferentes podem ter regras diferentes em relação à lealdade de um Recruitero, mas, segundo o jogo, sua lealdade é com a Aldeia e não com o Casal formado.\n\nChances de conversão para a Seita 👥: 100%\n\nTime: Aldeia
 \n\n
 Um Casal ❤️ continua com seus papéis originais, mas o amor muda tudo. Se um dos dois morrer, o outro não aguenta a dor de perder sua alma gêmea e morre junto. O lado bom é que se, no final do jogo, uma pessoa do Casal estiver no time vitorioso, a outra também ganha junto, independente do seu time. O Casal pode escolher pra que time vai jogar: o time de uma das pessoas, o time da outra, ou o próprio Casal (alguns grupos não autorizam jogar pelo Casal). Jogando pelo Casal, o objetivo final é serem os únicos sobreviventes da Aldeia. Quando isso acontece, o Casal ganha, todos os outros perdem, e o jogo acaba com um final especial!</value>
 	</string>
@@ -899,11 +899,11 @@ Atual: {0}</value>
 	<string key="AllowTannerA">
 		<value>Existência de Suicida definida como: {0}</value>
 	</string>
-	<string key="AllowCultQ">
+	<string key="AllowzoombiesQ">
 		<value>Permitir a existência da Seita em partidas?
 Atual: {0}</value>
 	</string>
-	<string key="AllowCultA">
+	<string key="AllowzoombiesA">
 		<value>Existência da Seita definida como: {0}</value>
 	</string>
 	<string key="EnableSecretLynchQ">
@@ -1053,13 +1053,13 @@ Atual: {0}</value>
 	<string key="SerialKillerTeamEnd">
 		<value>Serial Killer</value>
 	</string>
-	<string key="CultTeamEnd">
+	<string key="zoombiesTeamEnd">
 		<value>Seita</value>
 	</string>
 	<string key="TannerTeamEnd">
 		<value>Suicida</value>
 	</string>
-	<string key="CultConvertWolf">
+	<string key="zoombiesConvertWolf">
 		<value>A Seita envia {0} para tentar converter {1}, mas seus ossos descarnados são jogados pela janela. {0} morreu!</value>
 	</string>
 	<string key="HarlotFuckedKilledPublic">
@@ -1074,8 +1074,8 @@ Atual: {0}</value>
 	<string key="ZombieKilled">
 		<value>Parece que Serial Killers não gostam de religião, visto que {0} está com uma vela no lugar de sua orelha direta e em cima de um candelabro, sangrando... A Seita perdeu um membro.</value>
 	</string>
-	<string key="CupidKilled">
-		<value>O amor na Vila acabou com a morte de {0}, Cupido. Seu corpo é encontrado sem sua orelha direta, que foi arrancada com a sua flecha por um Serial Killer...</value>
+	<string key="RecruiterKilled">
+		<value>O amor na Vila acabou com a morte de {0}, Recruitero. Seu corpo é encontrado sem sua orelha direta, que foi arrancada com a sua flecha por um Serial Killer...</value>
 	</string>
 	<string key="DrunkKilled">
 		<value>{0}, que era Bebum, teve seu fígado retirado cirurgicamente e colocado em uma garrafa de pinga. Sua orelha direita também foi retirada habilmente, mas vai saber onde ela está...</value>
@@ -1104,10 +1104,10 @@ Atual: {0}</value>
 	<string key="SerialKillerKilledCH">
 		<value>{0}, que era Agente da Inquisição, escolheu a pessoa errada para interrogar. Seu corpo é encontrado sem vida e sem a orelha direita...</value>
 	</string>
-	<string key="CultConvertWolfPublic">
+	<string key="zoombiesConvertWolfPublic">
 		<value>Péssima escolha da Seita visitar um Lobisomem que decidiu ficar em casa durante a noite. {0} virou uma bela refeição pros Lobisomens, que não se interessam muito por movimentos religiosos.</value>
 	</string>
-	<string key="CultConvertKillerPublic">
+	<string key="zoombiesConvertKillerPublic">
 		<value>A Seita fez uma péssima decisão ao tentar converter um Serial Killer. O corpo de {0} é encontrado com uma vela dentro de sua boca e outra no que sobrou do ouvido...</value>
 	</string>
 	<string key="GAGuardedKiller">
@@ -1177,7 +1177,7 @@ Atual: {1}</value>
 	<string key="HaveJoined">
 		<value>Mais gente se juntou à partida nesses últimos 30 segundos! Deem as boas vindas a {0}</value>
 	</string>
-	<string key="AllowCult">
+	<string key="Allowzoombies">
 		<value>Permitir Seita</value>
 	</string>
 	<string key="AllowTanner">
@@ -1410,7 +1410,7 @@ Atual: {1}</value>
     <!-- 0 - mason collegues's name -->
     <value>Seus companheiros (se houver) são: {0}</value>
   </string>
-	<string key="ThiefToCult">
+	<string key="ThiefTozoombies">
     <!-- 0 - old Zombie's name -->
     <!-- 1 - new Zombie's name -->
     <value>{0} não é mais seu companheiro, e {1} agora se tornou um integrande da Seita, igualzinho a você!</value>
@@ -1761,16 +1761,16 @@ Atual: {1}</value>
   <string key="HunterFell">
 	<value>Outra noite sem poder matar um daqueles Zombieas sangrentos! Frustrado, você caminha sobre o cemitério, sem perceber a armadilha do urso até que ela se feche ao redor do seu tornozelo. Você grita e luta, mas é tarde demais. Você cai para trás em uma cova que foi deixada aberta por {0} e o som de seu pescoço quebrando é a última coisa que você ouve antes que tudo fique preto.</value>
   </string>
-  <!--{0}: cult hunter-->
+  <!--{0}: zoombies hunter-->
   <string key="HunterFellDigger">
 	<value>Depois de outra noite cansativa, você volta para sua casa com o sol já nascendo. Pouco antes de você chegar, você percebe uma espada caída no chão ao lado de um túmulo inacabado. Dentro desse túmulo, você vê o cadáver de {0}. O Agente da Inquisição 💂 não irá mais encher o seu saco...</value>
   </string>
   <!--{0}: Zombie-->
-  <string key="CultFell">
+  <string key="zoombiesFell">
 	<value>Você volta de outra noite cansativa, quando de repente ouve um grito de uma de suas sepulturas inacabadas! Você corre para lá e encontra o cadáver fresco de {0}. Que tipo de Seita tenta converter um coveiro, afinal?</value>
   </string>
   <!--{0}: Zombie who fell, {1}: grave digger-->
-  <string key="CultConvertGraveDigger">
+  <string key="zoombiesConvertGraveDigger">
 	<value>No caminho para a casa de {1}, {0} decide subitamente que seria uma boa ideia incendiar a igreja também. Caminhando através do cemitério, de repente, uma armadilha de urso prende o tornozelo de {0}! Tudo que você pode ouvir é seu grito antes que {0} caia em uma cova e você corra como se não houvesse amanhã.</value>
   </string>
   <!--{0}: grave digger-->

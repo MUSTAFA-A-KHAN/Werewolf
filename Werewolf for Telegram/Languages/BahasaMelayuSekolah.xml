@@ -377,33 +377,33 @@
     <!-- 1 - target name -->
     <value >{0} telah memilih untuk mengajak {1} ponteng kelas</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <!-- 0 - Yougest Zombie (killed)'s name' -->
     <!-- 1 - ZombieHunter's name -->
     <value>Kumpulan Kaki Ponteng menghantar ahli baru mereka {0} untuk mengajak {1} ponteng sekolah...kwajaa budak-budak ni, Cikgu Disiplin nak diajak ponteng!! Memang nak mampus la kan, akhirnya {0} telah dirotan sampai tercirit lalu dibuang sekolah!! Padan dengan muka kau!!</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - Number of Zombies left -->
     <value>{0} came to your house last night, ready to convert you....  but you shoved your sword right through them.  A Zombie is dead... {1} remain!</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>Geng budak ponteng sekolah telah berjaya mengubah dan menghasut anda untuk ponteng kelas pada hari ini. Anda kini seorang Budak ponteng. Setiap hari, anda perlu mencari seorang pelajar untuk ponteng kelas bersama😈 (lagi ramai lagi bagus HAHAH)</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <!-- 0 - Number of Zombies -->
     <value>Geng ponteng: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <!-- 0 - new Zombie's name -->
     <value>{0} telah menyertai geng ponteng!</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <!-- 0 - Newest Zombie's name -->
     <!-- 1 - target name -->
     <value>Kumpulan Kaki Ponteng menghantar ahli baru mereka {0} ke kelas {1} untuk mengajak ponteng kelas skali, malangnya kelas kosong sebab semua pelajar pergi rombongan sambil belajar. 🤦</value>
   </string>
-  <string key="CultWins" isgif="true">
+  <string key="zoombiesWins" isgif="true">
     <value >Semua Pembuli, Virus dan warga sekolah telah dibuang, yang tinggal adalah murid yang suka ponteng sekolah. Kaki Ponteng menang! 👤👻💀🎉</value>
   </string>
   <string key="HunterVisitDead">
@@ -509,7 +509,7 @@
     <value>Jika terdapat Ahli Jawatan Kuasa yang lain anda akan mengetahuinya. Ahli Jawatan Kuasa adalah : {0}</value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <!-- 0 - Youngest Zombies name -->
     <value>Kumpulan Kaki Ponteng menghantar ahli baru {0} untuk mengajak pelajar lain ponteng kelas sekali, tetapi telah dibuli dengan teruk sehingga berbuih mulut. Pembuli pun tak suka ponteng kelas tau, padan muka kau!!</value>
   </string>
@@ -518,7 +518,7 @@
     <value>Kumpulan Pembuli menuju ke kelas {0} untuk membuli, tetapi mereka terserempak dengan susuk tubuh yang sasa berpakaian uniform dalam keadaan gelap. Penngawal Keselamatan sedang berjaga dan menghalau sambil merotan semua, anda lari lintang pukang balik dengan hampa.</value>
   </string>
   <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <!-- 0 - newest  -->
     <!-- 1 - target's name -->
     <value>Anda telah menghantar {0} untuk menghasut dan mengajak {1} bagi menyertai Geng Ponteng Kelas, namun minat mereka untuk belajar terlalu kuat. Tiada ahli baru untuk kumpulan anda hari ini.🤢</value>
@@ -529,7 +529,7 @@
     <!-- 1 - name -->
     <value>@{1} Pelajar yang bernama {0} telah masuk ke Sekolah . Sila tukar nama anda😚</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <!-- 0 - target's name -->
     <value>Anda pergi berjumpa dengan {0} untuk membuat kutipan duit kelas. Apabila semua selesai dan anda ingin beredar, anda terhidu bau asap rokok yang kuat dan anda merasakan ada sesuatu yang tidak kena.🤔</value>
   </string>
@@ -623,7 +623,7 @@
     <value>Masa sudah tamat😫</value>
   </string>
   <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
     <value>Anda adalah Mat Bunga🏹 yang bersekolah di SMK Budakgiler official, anda sangat berpengalaman dalam menjodohkan pelajar lelaki dan perempuan. Sila target dua pelajar untuk menjadi kekasih dan suka antara satu sama lain selama-lamanya. Jika salah seorang pelajar tersebut dibuang sekolah, satu lagi akan turut berhenti sekolah berikutan kesedihan yang melampau🤣</value>
   </string>
   <string key="RoleInfoDoppelganger">
@@ -635,7 +635,7 @@
   <string key="RoleInfoSerialKiller">
     <value>Anda seorang Penculik!🔪 anda menyamar menjadi staf Sekolah Budakgiler Official. Setiap hari, anda boleh menculik seorang pelajar yang anda inginkan.</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>Anda dilamum cinta monyet 💙😍 Memori {0} tidak akan pudar dalam hati anda. Jika salah seorang dibuang sekolah, seorang lagi akan turut bersedih dan tidak akan hadir ke sekolah. Jika seorang lulus, seorang lagi turut lulus bersama-sama.</value>
     <value>Mat Bunga 🏹 berjaya membuat anda bercinta lagi bersama {0}. Kesetiaan anda terlalu kuat sehinggakan kalau pasangan anda dibuang sekolah, anda pun turut bersedih dan tidak hadir kesekolah. Sekiranya pasangan anda lulus, anda juga akan turut lulus bersama-sama. 💑</value>
   </string>
@@ -691,12 +691,12 @@
     <!-- 0 - target's name -->
     <value>Penculikan anda gagal pada malam ini! Pelajar yang bernama {0} sedang diawasi oleh Pengawal Keselamatan Sekolah yang amat digeruni oleh para pelajar dan semua warga sekolah💀 Anda terpaksa membatalkan hasrat anda untuk menculik hari ini :')</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
     <value>Geng Ponteng Kelas memberi tugasan kepada budak baru {0} untuk mengajak {1} ponteng bersama👻 tetapi {0} telah dibelasah dengan teruk sampai pecah bibir! {0} pengsan di tempat kejadian☠️</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
     <value>Geng Pelajar Ponteng memberi tugasan kepada budak baru {0} untuk mengajak {1} ponteng kelas Cikgu Mia yang membosankan pada hari ini di stor sekolah dan berjanji untuk berjumpa di sana bersama geng baru, namun {0} tidak muncul jua! Budak baru ponteng telah diculik🌝</value>
@@ -721,11 +721,11 @@
     <!-- 1 - mason collegues's name -->
     <value>Idola anda {0} telah dibuang sekolah. Sekarang anda telah menggantikan tempatnya menjadi Ahli Jawatan Kuasa. Ahli AJK ; {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <!-- 0 - new Zombie's name -->
     <value>{0} si Peniru telah menjadi ahli kumpulan Kaki Ponteng sekolah seperti anda, welcome to the club new member😈</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <!-- 0 - role's name -->
     <!-- 1 - teammates's name -->
     <value>{0} adalah Idola anda dan telah dibuang sekolah. Sekarang anda telah menjadi Kaki Ponteng sekolah. Rakan-rakan anda : {1}</value>
@@ -745,25 +745,25 @@
   <string key="AskKill">
     <value>Siapakah pelajar yang akan anda culik malam ini😈?</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <!-- 0 - dead's name -->
-    <!-- 1 - lover's name -->
+    <!-- 1 - crewmate's name -->
     <!-- 2 - roles -->
     <value>Apabila {0} telah dibuang sekolah, {1} menangis dan tidak hadir ke sekolah kerana terlalu sedih. Dia tidak boleh belajar dengan ketiadaan orang yang tersayang, lalu terus menghantar surat untuk berhenti sekolah 💔.{2}</value>
   </string>
   <string key="AskDoppelganger">
     <value>Pelajar manakah yang anda ingin pilih untuk menjadi idola anda dan meniru segala perwatakannya apabila dia tiada nanti?</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>Siapakah anda ingin jadikan sebagai pasangan yang bahagia? Pilih murid yang pertama😎</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>Siapakah anda ingin jadikan sebagai pasangan yang bahagia? Pilih murid yang kedua🤠</value>
   </string>
   <string key="Hunter">
     <value>Budak Taekwando🎯</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>Mat bunga 🏹</value>
   </string>
   <string key="SerialKiller">
@@ -776,7 +776,7 @@
     <!-- 0 - target's name -->
     <value>Anda telah menjadi pelajar yang pemalas menyiapkan kerja sekolah!🤢 Pelajar yang menyiapkan kerja sekolah anda ialah ; {0}</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
     <value>Cinta monyet berkekalan sehingga tamat sekolah! Pasangan murid ini telah lulus dengan cemerlang! 💙</value>
   </string>
   <string key="HunterKilledVisiter">
@@ -784,7 +784,7 @@
     <!-- 1 - role -->
     <value>Kelibat {0} telah hilang dari pandangan usai sahaja waktu rehat telah tamat, nota daripada penculik telah ditinggalkan di atas meja cikgu tersebut. “Merotan aku nampaknya bukan idea yang bijak”💀 *evil laugh! {1}</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>Kaki Ponteng sekolah cuba untuk mengajak anda menyertai mereka, namun minat anda untuk belajar terlalu kuat, dan anda tidak berminat untuk ponteng sekolah.😊</value>
   </string>
   <string key="AlreadyOnWaitList">
@@ -868,11 +868,11 @@
   <string key="AboutFool">
     <value>he fool is told they are the seer.... when they choose to see someone's role at night, they are told a random role.</value>
   </string>
-  <string key="AboutCult">
-    <value>As a Zombie, it is your goal to convert all other players (except wolves) to your cult. If at the end of the game, all living players are Zombie - the cult wins</value>
+  <string key="Aboutzoombies">
+    <value>As a Zombie, it is your goal to convert all other players (except wolves) to your zoombies. If at the end of the game, all living players are Zombie - the zoombies wins</value>
   </string>
   <string key="AboutCH">
-    <value>Your job is to hunt the Cult. If the cult attacks you, their newest member will die. Each night you may pick a player to 'hunt' - if they are a Zombie, they will die.</value>
+    <value>Your job is to hunt the zoombies. If the zoombies attacks you, their newest member will die. Each night you may pick a player to 'hunt' - if they are a Zombie, they will die.</value>
   </string>
   <string key="AboutWC">
     <value>At the beginning of the game, you will choose someone to be your 'role model'. If they die, you become a werewolf.</value>
@@ -889,25 +889,25 @@
   <string key="AboutDG">
     <value>
       Your ancestors had the ability to metamorph into others... while you don't have their full abilities, you can pick a player at the start of the game. If that player dies, you will become what they were.
-      Note: If the player was converted to cult, you will take on their original role. All other normal rules apply: If they were Wild Child and their role model died, you will become a wolf. Otherwise, you will inherit their role model.
-      The cult cannot convert the Doppelgänger (but can after the doppelganger switches roles). Also - the Doppelgänger can NOT win unless they have transformed. If at the end of the game, the Doppelgänger is still the same, they lose (exception: lover)
+      Note: If the player was converted to zoombies, you will take on their original role. All other normal rules apply: If they were Wild Child and their role model died, you will become a wolf. Otherwise, you will inherit their role model.
+      The zoombies cannot convert the Doppelgänger (but can after the doppelganger switches roles). Also - the Doppelgänger can NOT win unless they have transformed. If at the end of the game, the Doppelgänger is still the same, they lose (exception: crewmate)
     </value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>
-      Love is in the air. As Cupid, you will choose two players at the start of the game. These two players will become madly in love! If one of them dies, the other will die of sorrow :(
-      Note: Lovers will know who each other are, but not be told their roles. If the lovers are the last two alive, they win, regardless of teams. If the lovers are on different teams (villager + wolf), and one team wins (wolf), the lover (villager) wins as well. TL;DR if at least one of the lovers was on the winning team, they both win together.
+      Love is in the air. As Recruiter, you will choose two players at the start of the game. These two players will become madly in love! If one of them dies, the other will die of sorrow :(
+      Note: crewmates will know who each other are, but not be told their roles. If the crewmates are the last two alive, they win, regardless of teams. If the crewmates are on different teams (villager + wolf), and one team wins (wolf), the crewmate (villager) wins as well. TL;DR if at least one of the crewmates was on the winning team, they both win together.
     </value>
   </string>
   <string key="AboutHunter">
     <value>
       A trigger happy, vindictive player. As the hunter, you try to keep to yourself. However, when others come to visit you, they may find themselves dead, as your paranoia takes hold and you shoot. If the wolves attack you, you have a chance to take one of them with you. Otherwise, if you die, you will get a chance to shoot someone as you die.
       Note: For wolf attacks, the chance starts at 30%. If there is one wolf, the hunter has a 30% chance to kill the wolf (and survive). For each additional wolf, add 20% (2 wolves = 50%, 3 = 70%, etc). However - if there are multiple wolves, while you may kill one of them, you will still be outnumbered and killed.
-      If the cult tries to convert you, they have a 50% chance to fail. If they fail, you have a 50% chance to kill one of them!
+      If the zoombies tries to convert you, they have a 50% chance to fail. If they fail, you have a 50% chance to kill one of them!
     </value>
   </string>
   <string key="AboutSK">
-    <value>That asylum was silly anyways. What a joke. You are free now however, back to business as usual - killing! The serial killer is a lone player, on their own team. They can win only if they are the last player alive (exception: lovers). As the serial killer, you can kill ANYONE - wolves, hunters, gunners, guardian angels, whatever. If the wolves try to attack you, you will kill one of them (random), and live.</value>
+    <value>That asylum was silly anyways. What a joke. You are free now however, back to business as usual - killing! The serial killer is a lone player, on their own team. They can win only if they are the last player alive (exception: crewmates). As the serial killer, you can kill ANYONE - wolves, hunters, gunners, guardian angels, whatever. If the wolves try to attack you, you will kill one of them (random), and live.</value>
   </string>
   <string key="AboutPara">
     <value>Para is a silly developer that likes to bark at people.  Maybe he's been messing with werewolves too long....Messing with werewolves is a very bad idea.</value>
@@ -1075,11 +1075,11 @@
   <string key="AllowTannerA">
     <value>Tanner as a role set to: {0}</value>
   </string>
-  <string key="AllowCultQ">
-    <value>Allow cult as a role option?\nCurrent: {0}</value>
+  <string key="AllowzoombiesQ">
+    <value>Allow zoombies as a role option?\nCurrent: {0}</value>
   </string>
-  <string key="AllowCultA">
-    <value>Cult as a role set to: {0}</value>
+  <string key="AllowzoombiesA">
+    <value>zoombies as a role set to: {0}</value>
   </string>
   <string key="EnableSecretLynchQ">
     <value>Enable Secret Lynch?\nCurrent: {0}</value>
@@ -1238,8 +1238,8 @@
   <string key="SerialKillerTeam" deprecated="true">
     <value>SK Team</value>
   </string>
-  <string key="CultTeam" deprecated="true">
-    <value>Cult Team</value>
+  <string key="zoombiesTeam" deprecated="true">
+    <value>zoombies Team</value>
   </string>
   <string key="TannerTeam" deprecated="true">
     <value>Tanner Team</value>
@@ -1257,13 +1257,13 @@
   <string key="SerialKillerTeamEnd">
     <value>SK Team</value>
   </string>
-  <string key="CultTeamEnd">
-    <value>Cult Team</value>
+  <string key="zoombiesTeamEnd">
+    <value>zoombies Team</value>
   </string>
   <string key="TannerTeamEnd">
     <value>Tanner Team</value>
   </string>
-  <string key="CultConvertWolf">
+  <string key="zoombiesConvertWolf">
     <value>Kumpulan Kaki Ponteng menghantar ahli baru {0} untuk mengajak {1} ponteng kelas sekali, tetapi malang tidak berbau kerana dia telah dibuli dengan teruk sehingga berbuih mulut!! {0} telah pengsan dan tidak sedarkan diri...</value>
   </string>
 
@@ -1283,7 +1283,7 @@
   <string key="ZombieKilled">
     <value>{0} telah hilang selepas waktu rehat tamat dengan kesan stor yang bersepah serta ubat botol pelali yang ditinggalkan oleh Penculik! {0} adalah Kaki Ponteng👤</value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>Seperti biasa Mat Bunga akan mencari pasangan pelajar untuk dijadikan kekasih pada pagi ini. {0} menuju ke kantin sekolah untuk menjalankan misi “Cinta monyet Ekspress” tiba-tiba penculik mengorak langkah untuk menculiknya dalam perjalanan Mat Bunga🏹 telah hilang!</value>
   </string>
   <string key="DrunkKilled">
@@ -1316,11 +1316,11 @@
     <value>Kelibat {0} Cikgu Disiplin, telah hilang dari pandangan usai sahaja waktu rehat telah tamat. Nampaknya {0} mengesyaki seseorang adalah Kaki Ponteng pagi tadi lalu mengekorinya untuk merotan pelajar tersebut, tetapi secara tiba-tiba Guru Disiplin💂‍♀ itu hilang! Tips ; “Jangan cuba merotan Penculik💀” *gelak jahat</value>
     <value>Rotan milik {0} yang patah dijumpai di dalam bilik muzik Sekolah ! Guru Disiplin yang garang itu telah hilang💀 nampaknya {0} tersilap langkah! merotan penculik adalah bukan satu idea yang bijak🤢</value>
   </string>
-  <string key="CultConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
+  <string key="zoombiesConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
     <value>Apabila semua kembali ke kelas masing-masing, Pembuli pun seakan-akan malas untuk membuli, tiba-tiba {0} salah seorang dari Kaki Ponteng cuba untuk mengajak si Pembuli untuk ponteng sekolah sekali namun {0} telah dibuli balik dengan teruk sehingga masuk ICU...silap la kacau orang yang tengah tiada mood!</value>
     <value>Kaki ponteng sekolah menghadapi masalah besar apabila mereka cuba untuk mengajak si Pembuli untuk join mereka tetapi {0} telah dibuli. Malang bagi {0}, Pembuli memang tidak sama sekali minat untuk join pakatan mereka.</value>
   </string>
-  <string key="CultConvertKillerPublic"> <!--used when Zombies convert the SK-->
+  <string key="zoombiesConvertKillerPublic"> <!--used when Zombies convert the SK-->
     <value>{0} dilaporkan hilang hari ini! Penculik mula menculik pelajar yang suka ponteng kelas💀 {0} adalah Kaki Ponteng👤</value>
     <value>Geng Kaki ponteng kelas cikgu MiaRose cuba untuk menambah ahli, tapi mereka silap! {0} Kaki Ponteng telah diculik semalam! Nota kecil ditinggalkan khas untuk Geng mereka “Kalau taknak kena culik sila berhenti daripada ponteng kelas!”💀</value>
   </string>
@@ -1403,8 +1403,8 @@
     <!-- NOTE: No space between {0} and joined. It will be added in the code if necessary-->
     <value>{0} telah masuk Sekolah 30 saat yang lalu.</value>
   </string>
-  <string key="AllowCult">
-    <value>Membenarkan Cult</value>
+  <string key="Allowzoombies">
+    <value>Membenarkan zoombies</value>
   </string>
   <string key="AllowTanner">
     <value>Membenarkan Tanner</value>
@@ -1441,7 +1441,7 @@
     <value>Semua</value>
   </string>
   <string key="RandomModeQ">
-    <value>Membenarkan mod rawak?\nBila mod rawak di benarkan, rawak, undian rahsia, tunjukkan peranan selepas mati, membenarkan cult/fool/ tanner akan di tentukan secara rawak apabila seseorang memulakan permainan.\nSekarang:{0}</value>
+    <value>Membenarkan mod rawak?\nBila mod rawak di benarkan, rawak, undian rahsia, tunjukkan peranan selepas mati, membenarkan zoombies/fool/ tanner akan di tentukan secara rawak apabila seseorang memulakan permainan.\nSekarang:{0}</value>
   </string>
   <string key="RandomModeA">
     <value>Mod rawak di set ke: {0}</value>

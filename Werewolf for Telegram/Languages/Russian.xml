@@ -260,13 +260,13 @@
   <string key="AllowTannerA">
     <value>Нынешний статус настройки: {0}.</value>
   </string>
-  <string key="AllowCult">
+  <string key="Allowzoombies">
     <value>Разрешить секту</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>Разрешить фракцию «Секта», а значит, и роль «Сектант» в игре?\nСтатус настройки: {0}.</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>Нынешний статус настройки: {0}.</value>
   </string>
   <string key="AllowThief">
@@ -579,7 +579,7 @@
   <string key="Doppelgänger">
     <value>Двойник 🎭</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>Купидон 🏹</value>
   </string>
   <string key="Hunter">
@@ -709,7 +709,7 @@
   <string key="AboutAppS">
     <value>Apprentice Seer — Ученик Провидца (селянин, который после смерти Провидца становится новым Провидцем).</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>Zombie — Сектант (игрок, цель которого — это завербовать всех селян и убить всех волков).</value>
   </string>
   <string key="AboutCH">
@@ -727,8 +727,8 @@
   <string key="AboutDG">
     <value>Doppelgänger — Двойник (селянин, который в начале игры выбирает игрока, чью роль возьмёт себе после его смерти;\nесли Двойник не выберет/не успеет выбрать игрока, роль которого Двойник возьмёт, игра сделает это сама, выбрав рандомного игрока;\nесли Двойник получит роль Дикого Ребёнка, «примером для подражания» первому станет игрок, которого выбрал второй;\nДвойника нельзя завербовать нетрансформированным, также Двойник не может выиграть, если он не трансформировался).</value>
   </string>
-  <string key="AboutCupid">
-    <value>Cupid — Купидон (селянин, который в начале игры соединяет сердца двух игроков;\nесли Купидон не выберет/не успеет выбрать будущих влюблённых, игра сама влюбит двух рандомных игроков;\nесли один из влюблённых выиграет, другой влюблённый тоже выиграет).</value>
+  <string key="AboutRecruiter">
+    <value>Recruiter — Купидон (селянин, который в начале игры соединяет сердца двух игроков;\nесли Купидон не выберет/не успеет выбрать будущих влюблённых, игра сама влюбит двух рандомных игроков;\nесли один из влюблённых выиграет, другой влюблённый тоже выиграет).</value>
   </string>
   <string key="AboutHunter">
     <value>Hunter — Ковбой (селянин, который может при нападении волка с 30&#8239;% шансом убить волка;\nпри смерти Ковбой может забрать жизнь любого игрока;\nесли на Ковбоя нападёт бóльшее, чем один, количество волков, за каждого волка к шансу убийства прибавляется по 20&#8239;%, в этом случае Ковбой убьёт рандомного волка;\nесли секта попытается завербовать Ковбоя, есть 50&#8239;% шанс, что секта не сможет завербовать Ковбоя, в этом случае у Ковбоя есть 50&#8239;% шанс убить последнего завербованного Сектанта).</value>
@@ -878,7 +878,7 @@
   <string key="RoleInfoDoppelganger">
     <value>Ты двойник. Легенда гласит, что твоими предками были метаморфы, способные выбирать любую форму бытия, какую только пожелали… Ты унаследовал(а) часть их способностей! Выбери игрока, а когда он(а) умрёт, ты встанешь на его(её) место.</value>
   </string>
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
     <value>Ты купидон. Сошёл(ла) на землю в одних штанах, с луком и двумя стрелами… Выбери тех двоих, кто будет любить друг друга до скончания века. Если один из них погибнет, другой умрёт от печали.</value>
   </string>
   <string key="RoleInfoHunter">
@@ -986,13 +986,13 @@
   <string key="TannerWins" isgif="true">
     <value>О нет! Вы линчевали Самоубийцу! Он выиграл игру…</value>
   </string>
-  <string key="CultWins" isgif="true">
+  <string key="zoombiesWins" isgif="true">
     <value>Все волки умерли, а единственные оставшиеся люди были завербованы в секту. Сектанты выиграли!</value>
   </string>
   <string key="SerialKillerWins" isgif="true">
     <value>Последним оставшимся в живых стал Серийный Убийца! Кажется, он(а) выиграл(а)!</value>
   </string>
-  <string key="LoversWin" isgif="true">
+  <string key="crewmatesWin" isgif="true">
     <value>Настоящая любовь побеждает! Влюблённые выиграли!</value>
   </string>
   <string key="NoWinner" isgif="true">
@@ -1117,10 +1117,10 @@
   <string key="AskDoppelganger">
     <value>Чьё место ты хочешь занять после его смерти?</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>Кого ты хочешь сделать влюблёнными до скончания века? Выбери первого игрока:</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>Кого ты хочешь сделать влюблёнными до скончания века? Выбери второго игрока:</value>
   </string>
   <string key="AskDetect">
@@ -1292,23 +1292,23 @@
   <string key="ZombieVotedConvert">
     <value>{0} проголосовал(а), чтобы завербовать {1}.</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <value>{0} был отправлен делать твою грязную работёнку и вербовать {1}… Но это был Охотник на Сектантов! {0} мёртв!</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <value>{0} пришёл ночью в твой дом, готовый тебя завербовать… Но ты всадил меч ему в шею! {0} мёртв… Осталось {1}!</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>Сектанты завербовали тебя в свои ряды! Каждую ночь у тебя будет шанс завербовать одного игрока.</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>Сектанты: {0}.</value>
     <value>Команда культистов: {0}.</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <value>{0} присоединился(ась) к секте!</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <value>{0} был отправлен делать твою грязную работёнку и вербовать {1}… Но дома никого не было!</value>
   </string>
   <string key="HunterVisitDead">
@@ -1338,7 +1338,7 @@
   <string key="MasonTeam">
     <value>Каменщики: {0}.</value>
   </string>
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <value>Ваш новейший участник направился к дому {0}, чтобы завербовать его(её), но он(а) нашёл(ла) мёртвое тело в развалинах дома. К кровавому пятну прилип клочок шерсти…</value>
   </string>
   <string key="GuardBlockedWolf">
@@ -1346,10 +1346,10 @@
     <value>У дверей дома {0} тебя встретил Ангел-Хранитель и вежливо попросил свалить. Ты отказался(лась), потому Ангелу-Хранителю пришлось надавать тебе лещей. Ты убежал(а) с позором.</value>
     <value>Ты пришёл(ла) к дому {0}, но попался(лась) Ангелу-Хранителю. Тот дал тебе по щам, и тебе пришлось уйти ни с чем…</value>
   </string>
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <value>Ты отправил {0}, чтобы завербовать {1}, но, к сожалению, его(её) вера была слишком сильна. Вам не удалось привести нового члена в свои ряды. :(</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <value>Ты проскользнул домой к {0}, чтобы немного повеселиться… Выходя от него, ты заметил(а) какое-то сверкание, исходящее из-под покрывала у стены. Кажется, ты нашёл(ла) алтарь сектанта…</value>
     <value>Ты отправился к {0}, чтобы развлечь его(её)… После приятной ночи, выходя из дома, ты заметил(а) странные знаки на двери… Приоткрыв её, ты нашёл(ла) жертвенник, облитый кровью и слезами жертв…</value>
   </string>
@@ -1369,7 +1369,7 @@
   <string key="TimesUp">
     <value>Время вышло!</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>Ты был поражён любовью. {0} навсегда в твоей памяти, и любовь никогда не погаснет в твоём сердце… Ваша цель — выжить! Если один из вас погибнет, то другой умрёт от печали и тоски.</value>
   </string>
   <string key="HunterLynchedChoice">
@@ -1412,10 +1412,10 @@
   <string key="GuardBlockedKiller">
     <value>Ты попытался добавить к себе в коллекцию тело {0}, но был отбит Ангелом-Хранителем! Сегодняшная ночь прошла для тебя впустую…</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <value>Секта отправила {0} попробовать завербовать {1}, но в ответ они услышали выстрел и заметили тело {0}, вылетающее из окна! {0} мёртв…</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <value>Секта отправила {0} завербовать к себе {1}, но через пару минут сектанты увидели вылетающее из окна тело {0}, забитое ножами! Вот же псих попался… {0} мёртв…</value>
   </string>
   <string key="GuardKiller">
@@ -1433,10 +1433,10 @@
   <string key="DGTransformToMason">
     <value>{0} умер, и ты стал Каменщиком! Другие Каменщики (если такие есть): {1}.</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <value>{0} (Двойник) стал теперь Сектантом, прямо как ты!</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <value>{0} умер, и ты стал Сектантом! Другие Сектанты (если такие есть): {1}.</value>
   </string>
   <string key="DGToWolf">
@@ -1479,7 +1479,7 @@
     <!-- 0 - target's name -->
     <value>Ты стал Двойником! Когда {0} умрёт, ты получишь его(её) роль.</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <value>Бросив взгляд на мёртвое тело {0}, {1} падает на колени и рыдает. {1}, не выдерживая боли, хватает ближайший пистолет и стреляет в себя… {2}</value>
   </string>
   <string key="SerialKillerWinsOverpower">
@@ -1488,7 +1488,7 @@
   <string key="SKHunterEnd">
     <value>Настаёт утро, и на главной площади деревни встречаются двое оставшихся жителей. {0} достаёт нож и нападает на {1}. {1} достаёт свой пистолет и выстреливает прямо в лицо {0}, после чего {0} падает, глубоко вонзая нож в {1}. Оба мертвы, деревня пуста, победителя нет.</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>Кто-то попытался завербовать тебя в свою секту, но твоя воля была слишком сильна.</value>
   </string>
   <string key="HunterKilledVisiter">
@@ -1546,7 +1546,7 @@
   <string key="SerialKillerTeamEnd">
     <value>Команда Серийных Убийц</value>
   </string>
-  <string key="CultTeamEnd">
+  <string key="zoombiesTeamEnd">
     <value>Команда Культистов</value>
   </string>
   <string key="TannerTeamEnd">
@@ -1558,7 +1558,7 @@
   <string key="ZombieKilled">
     <value>{0} был забит до смерти подсвечником с алтаря. Любой может стать жертвой маньяка. {0} был сектантом.</value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>Утром селяне с ужасом обнаружили расчленённого купидона {0}. Как странно, где же его сердце?..</value>
   </string>
   <string key="DrunkKilled">
@@ -1592,13 +1592,13 @@
     <value>Проснувшись утром, селяне увидели останки {0}, охотника на секту. Не ходите к серийному убийце!</value>
     <value>Тело {0}, охотника на секту, было найдено в центре села разрезанным на мелкие кусочки. Не стоило проверять, является ли сектантом серийный убийца.</value>
   </string>
-  <string key="CultConvertWolfPublic">
+  <string key="zoombiesConvertWolfPublic">
     <!--used when Zombies convert the wolves, only if wolves stayed home-->
     <value>На этот раз волки решили поступить верно и наказали {0}. Культист был съеден волками.</value>
     <value>Отправляясь вербовать селян, {0} столкнулся нос к носу с волком!</value>
     <value>Отправляясь вербовать селян, {0} столкнулся нос к носу с волком! Волки не любят секты, зато любят сектантов. Особенно упитанных.</value>
   </string>
-  <string key="CultConvertKillerPublic">
+  <string key="zoombiesConvertKillerPublic">
     <!--used when Zombies convert the SK-->
     <value>Радуясь вербовке очередного сектанта, секта совершила ошибку: {0}, сектант, был распотрошён и выставлен на главной площади! Священное писание секты было найдено рядом с торчащим ножом.</value>
     <value>Ночью сектанты пытались завербовать психа большего, чем они сами, и серийный убийца нарисовал на площади картину кровью и органами сектанта. {0} мёртв.</value>
@@ -1631,7 +1631,7 @@
     <!--{0} = Harlot name, {1} = SK's victim name-->
     <value>{0} проник в дом {1}, но какой-то незнакомец уже потрошит внутренности {1}! Серийный убийца решил развлечься с {0}, прежде чем взять его сердце к себе в коллекцию!</value>
   </string>
-  <string key="CultConvertWolf">
+  <string key="zoombiesConvertWolf">
     <value>Сектанты отправили {0} завербовать {1}, однако обкусанная голова {0} вылетела из окна — волки решили, что она несъедобна. {0} мёртв…</value>
   </string>
   <string key="ApprenticeSeerEaten">
@@ -1708,7 +1708,7 @@
     <!-- 0 - mason collegues' name -->
     <value>Твоя команда (если существует): {0}.</value>
   </string>
-  <string key="ThiefToCult">
+  <string key="ThiefTozoombies">
     <!-- 0 - old Zombie's name -->
     <!-- 1 - new Zombie's name -->
     <value>Странно, {0} больше не сектант, а {1} пришел на собрание секты.</value>
@@ -1913,14 +1913,14 @@
     <value>Грёбаные сектанты, сейчас всех порешаю! Ай! {0} выкопал могилу, куда ты так неосторожно упал и сломал шею.</value>
   </string>
   <string key="HunterFellDigger">
-    <!--{0}: cult hunter-->
+    <!--{0}: zoombies hunter-->
     <value>После очередной трудовой ночи в свежей могиле оказался {0}. Ну и болван этот охотник на секту.</value>
   </string>
-  <string key="CultFell">
+  <string key="zoombiesFell">
     <!--{0}: Zombie-->
     <value>Не успела закончится ночь, как опять кто-то истошно вопил на кладбище. Это сектант {0} зачем-то неудачно спрыгнул в могилу.</value>
   </string>
-  <string key="CultConvertGraveDigger">
+  <string key="zoombiesConvertGraveDigger">
     <!--{0}: Zombie who fell, {1}: grave digger-->
     <value>Вы решили завербовать {1}, но {0} решил зачем-то покопаться в песочнице. На пути туда {0} поскользнулся и упал в какую-то яму, сломав себе шею.</value>
   </string>

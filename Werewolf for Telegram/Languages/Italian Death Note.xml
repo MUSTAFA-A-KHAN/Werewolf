@@ -124,7 +124,7 @@
     <value>Chi è la tua fonte di ispirazione?</value>
   </string>
    <string key="AskConvert">
-    <value>Chi vuoi convertire al tuo culto?</value>
+    <value>Chi vuoi convertire al tuo zoombieso?</value>
   </string>
   <string key="DiscussWith"><!--Leave the leading spaces here please-->
     <value>  Sii sicuro di discutere con {0}</value>
@@ -179,7 +179,7 @@
     <value>Sei lo Shinigami! Anche se non sei un vero Dio della morte, la tua veste è un travestimento impeccabile e il tuo obbiettivo è far entrare tutti i membri della partita all'interno del tuo gruppo di Shinigami, ma attento, Mello potrebbe scoprirvi!</value>
   </string>
   <string key="RoleInfoZombieHunter">
-    <value>Sei Mello! Sei uno dei più talentuosi orfani della Wammy's House, ed hai delle capacità intuitive estremamente elevate. Ogni notte puoi scegliere una persona da visitare, se quest'ultima si rivelerà uno "Shinigami" la ucciderai senza pietà. Ricorda, anche se uno Shinigami cercasse di farti entrare nel suo culto terminerai la sua vita.</value>
+    <value>Sei Mello! Sei uno dei più talentuosi orfani della Wammy's House, ed hai delle capacità intuitive estremamente elevate. Ogni notte puoi scegliere una persona da visitare, se quest'ultima si rivelerà uno "Shinigami" la ucciderai senza pietà. Ricorda, anche se uno Shinigami cercasse di farti entrare nel suo zoombieso terminerai la sua vita.</value>
   </string>
   <string key="LynchTime">
     <value>Il crepuscolo si avvicina inesorabile. Con l'ombra dei Kira e dei suoi alleati che incombe minacciosa, i popolani si accingono a decretare chi sarà giustiziato questa sera...\nOgnuno ha {0} secondi per votare!</value>
@@ -307,25 +307,25 @@
   <string key="ZombieVotedConvert" >
     <value >{0} vota per convertire {1}</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <value>{0} è stato inviato a fare il suo sporco lavoro, per convertire {1}... ma era Mello! {0} è morto!</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <value>{0} ti ha fatto visita la scorsa notte, pronto a convertirti...  ma l'hai ucciso a colpi di pistola. Uno Shinigami è morto... {1} rimanenti!</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>Gli Shinigami ti hanno fatto diventare uno di loro! Ogni notte, avrai la possibilità di convertire un altro giocatore.</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>Shinigami: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <value>{0} è diventato uno Shinigami!</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <value>{0} è stato inviato a fare il suo sporco lavoro, per far visita a {1}... ma nessuno era in casa!</value>
   </string>
-  <string key="CultWins" >
+  <string key="zoombiesWins" >
     <value >Kira e i suoi alleati sono morti, ma tutti i sopravvissuti sono diventati Shinigami... Gli Shinigami hanno vinto!</value>
   </string>
   <string key="HunterVisitDead">
@@ -420,21 +420,21 @@
     <value>  Gli altri Agenti del SPK sono: {0}</value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <value>Il vostro membro piu' nuovo si reca a casa di {0} per convertirlo, ma trova invece una casa malmessa e sangue ovunque...</value>
   </string>
   <string key="GuardBlockedWolf">
     <value>Ti introduci nella casa di {0} per rubargli i documenti, ma improvvisamente incontri un'alta oscura figura, armata fino ai denti. È Jeaoulus. Combattete a lungo ma sei costretto a tornare a casa sconfitto.</value>
   </string>
   <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <value>Spedite {0} per convertire {1}, ma la sua fede era troppo elevata, non siete riusciti a convertirlo :(</value>
   </string>
     <!-- new string May 12 2016-->
   <string key="NameExists">
     <value>@{1}, un giocatore con il nome di {0} e' gia' entrato. Per favore cambia il tuo nome per partecipare. </value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <value>Ti rechi a casa di {0} per fare un po' di domande... Ma quando stai per uscire, ti accorgi di uno strano altare.. Nascosto malamente, all'angolo della stanza, ed una strana luce provenire da esso...</value>
   </string>
   <!-- new string May 13 2016-->
@@ -508,7 +508,7 @@
 	<value>È scaduto il tempo!</value>
   </string>
   <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
     <value>Sei Rem! Sceso sulla terra per dare aiuto a Misa, potrai scegliere due mortali che si ameranno per l'eternità. Se uno dei due muore, l'altro perirà dalla tristezza... dopotutto, è questo il prezzo da pagare per conoscere il vero amore...</value>
   </string>
   <string key="RoleInfoDoppelganger">
@@ -520,9 +520,9 @@
   <string key="RoleInfoSerialKiller">
     <value>Sei Higuchi Kyousuke! Hai anche tu un Death Note proprio come Kira! Ma tu hai idee diverse rispetto a lui e, soprattutto, hai molte informazioni che Kira non ha dalla tua parte! Non solo userai il Death Note per il tuo interesse personale ma se Kira dovesse cercare di giustiziarti tu, servendoti del tuo nome falso in qualsiasi databese, non morirai ma ucciderai chiunque cerchi di giustiziarti!</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>Hai avuto un colpo di fulmine. La memoria di {0} non svanirà mai dal tuo cuore. Il tuo obiettivo è rimanere entrambi vivi. Se uno di voi due muore, l'altro morirà di dispiacere.</value>
-    <value>La freccia di Cupido ti ha colpito! Ti sei innamorato perdutamente con {0}! Se muore, condividerai il suo destino. Se riuscite a sopravvivere fino alla fine, sarete entrambi vincitori.</value>
+    <value>La freccia di Recruitero ti ha colpito! Ti sei innamorato perdutamente con {0}! Se muore, condividerai il suo destino. Se riuscite a sopravvivere fino alla fine, sarete entrambi vincitori.</value>
  </string>
   <string key="HunterLynchedChoice">
     <value>I popolani hanno deciso di giustiziarti! Questa è la tua ultima possibilità, scegli qualcuno da uccidere come ultimo desiderio!</value>
@@ -548,7 +548,7 @@
   <string key="HunterKilledFinalShot">
     <value>In fin di vita, {0} cade... Ma non senza afferrare la pistola e sparare a {1}, che si becca il proiettile precisamente tra gli occhi. {2}</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <value>Gli Shinigami mandano {0} per convertire {1}, ma invece il corpo di {0} esce volando dalla finestra con coltelli conficcati in ogni parte del corpo! CHE PSICOPATICO! {0} è morto...</value>
  </string>
   <string key="HunterShotWolfMulti">
@@ -566,7 +566,7 @@
   <string key="GuardBlockedKiller">
     <value>Hai provato ad aggiungere il corpo di {0} alla tua collezione, ma invece ti sei scontrato con Jeaoulus! Niente da fare stasera, nottataccia...</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <value>Gli Shinigami mandano {0} per convertire {1}, ma invece un colpo suona rumoroso e il corpo di {0} esce dalla finestra volando! {0} è morto...</value>
   </string>
   <string key="GuardKiller">
@@ -584,10 +584,10 @@
   <string key="DGTransformToMason">
     <value>{0} è morto, e tu ti trasformi in un Agente del SPK. I tuoi compagni (se presenti) sono: {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <value>Chak {0} è ora diventato uno Shinigami, esattamente come te!</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <value>{0} è morto, e tu ti trasformi in uno Shinigami. I tuoi compagni (se presenti) sono: {1}</value>
   </string>
   <string key="DGToWolf">
@@ -602,22 +602,22 @@
    <string key="AskKill">
     <value>Chi vuoi uccidere stanotte?</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <value>Con l'ultimo respiro di {0}, {1} accorre per vedere il suo cadavere e piange. Non riesce a sopportare la morte dell'amato, e si spara con la pistola più vicina che trova. {2}</value>
   </string>
   <string key="AskDoppelganger">
     <value>Di chi vuoi ereditare il ruolo alla sua morte?</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>Chi vuoi che siano gli innamorati? Scegli il primo giocatore</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>Chi vuoi che siano gli innamorati? Scegli il secondo giocatore</value>
   </string>
   <string key="Hunter">
     <value>Hirokazu Ukita🎯</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>Rem🏹</value>
   </string>
   <string key="SerialKiller">
@@ -632,10 +632,10 @@
   <string key="HunterKilledVisiter">
     <value>Al centro della piazza centrale, viene ritrovato il corpo di {0}, sparato varie volte in tutto il corpo. Sembra che lui abbia provato a visitare Hirokazu! {1}</value>
   </string>
-  <string key="CultAttempt">
-    <value>Una figura incappucciata ha provato a portarti con se nel suo culto, ma la tua fede era troppo elevata.</value>
+  <string key="zoombiesAttempt">
+    <value>Una figura incappucciata ha provato a portarti con se nel suo zoombieso, ma la tua fede era troppo elevata.</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
   <value>Il vero amore trionfa! Gli innamorati hanno vinto!</value>
   </string>
   <string key="SerialKillerWinsOverpower">
@@ -705,8 +705,8 @@
   <string key="AboutFool">
     <value>un povero Folle che crede di essere il Veggente.... Quando sceglie di vedere il ruolo a qualcuno, gli verrà detto un ruolo casuale in partita. Nota: È più utile di quello che sembra, può sapere con esattezza i ruoli che ci sono in partita. Se vedete un ruolo, sarà in partita.</value>
   </string>
-  <string key="AboutCult">
-    <value>Come Satanista, il tuo obiettivo è convertire tutti gli altri giocatori (tranne i lupi) Al tuo culto. Se a fine partita, tutti i giocatori sono Satanisti, Vincono. \n Probabilità di convertire i seguenti ruoli: \n Sosia: 0% Finchè rimane sosia, è impossibile da convertire \n Veggente 40% Il veggente è il più difficile da convertire \n Angelo 60% Nota: Se protegge qualcuno, non lo troverai in casa \n Maledetto 60% \n Investigatore 70% \n Prostituta 70% Come l'angelo, se non è casa, non potrete convertirla \n Cacciatore 50% Avrai il 50% di convertire il cacciatore. Se fallite, C'è il 50% che vi spari.</value>
+  <string key="Aboutzoombies">
+    <value>Come Satanista, il tuo obiettivo è convertire tutti gli altri giocatori (tranne i lupi) Al tuo zoombieso. Se a fine partita, tutti i giocatori sono Satanisti, Vincono. \n Probabilità di convertire i seguenti ruoli: \n Sosia: 0% Finchè rimane sosia, è impossibile da convertire \n Veggente 40% Il veggente è il più difficile da convertire \n Angelo 60% Nota: Se protegge qualcuno, non lo troverai in casa \n Maledetto 60% \n Investigatore 70% \n Prostituta 70% Come l'angelo, se non è casa, non potrete convertirla \n Cacciatore 50% Avrai il 50% di convertire il cacciatore. Se fallite, C'è il 50% che vi spari.</value>
   </string>
   <string key="AboutCH">
     <value>Il tuo lavoro è estirpare i Satanisti. Se ti visitano, ucciderai il loro ultimo membro e saprai quanti satanisti sono rimasti. Ogni notte potrai visitare un giocatore: Se sono satanisti, li ucciderai. Sennò, tornerai a casa, come se nulla fosse successo.</value>
@@ -726,7 +726,7 @@
   <string key="AboutDG">
     <value>Puoi scegliere un giocatore a inizio partita, erediti il suo ruolo \n Nota: Se il giocatore viene convertito ai satanisti, prenderai il suo ruolo originale. Tutte le altre regole normali si applicano: se erano bimbi ribelli e il loro modello è morto, diventerai un lupo. Sennò, erediterai il loro modello.\nI satanisti non possono convertire il Sosia (ma possono dopo che il sosia cambia ruolo) E - Il sosia NON può vincere a meno che si sono trasformati. Se a fine partita, il Sosia non si è trasformato, perde (eccezione: amante).</value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>A Inizio partita, sceglie due giocatori. Dopo diventa a tutti gli effetti un normale villico. Questi due diventeranno follemente innamorati e se uno dei due muore, l'altro morirà. Nota: gli amanti sanno chi è l'altro, ma non sanno il loro ruolo. Se gli amanti sono gli ultimi due vivi, loro vincono, indipendemente dal loro ruolo. Se gli amanti sono di due team diversi(esempio: lupo + villico), e un team vince (esempio: lupi), anche l'amante (esempio:villico) vince. \n TL;DR Se tutti e due gli amanti sono vivi a fine partita, e almeno uno dei due è nel team vincitore, vincono insieme</value>
   </string>
   <string key="AboutHunter">
@@ -897,10 +897,10 @@
   <string key="AllowTannerA">
     <value>Conciatore come ruolo impostato a {0}</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>Ammettere i Satanisti in partita, come ruolo?\nAttualmente: {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>Satanista come ruolo impostato a {0}</value>
   </string>
   <string key="ThankYou">
@@ -1050,7 +1050,7 @@
   <string key="SerialKillerTeam">
     <value>Team Killer</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>Team Satanisti</value>
   </string>
   <string key="TannerTeam">
@@ -1068,13 +1068,13 @@
   <string key="SerialKillerTeamEnd">
     <value>Team Killer</value>
   </string>
-  <string key="CultTeamEnd">
+  <string key="zoombiesTeamEnd">
     <value>Team Satanisti</value>
   </string>
   <string key="TannerTeamEnd">
     <value>Team Conciatore</value>
   </string>
-  <string key="CultConvertWolf">
+  <string key="zoombiesConvertWolf">
     <value>Gli Shinigamihanno mandato {0} per provare a convertire {1}, ma all'improvviso si vede la testa di {0} volare fuori dalla finestra... Indovinate perchè pensavano fosse immangiabile! {0} è morto...</value>
   </string>
   <string key="HarlotFuckedKilledPublic"> <!-- used when Harlot visit's SK's victim, and dies -->
@@ -1093,7 +1093,7 @@
   <string key="ZombieKilled">
     <value>Higuchi Kyosuke ha colpito ancora! E questa volta ha ucciso uno Shinigami! Sembra proprio che non si faccia scrupoli...  {0} era uno Shinigami!</value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>Rem è tornato nel mondo degli shinigami, Higuchi Kyosuke ha colpito di nuovo! {0} era Rem!</value>
   </string>
   <string key="DrunkKilled">
@@ -1123,10 +1123,10 @@
   <string key="SerialKillerKilledCH"> <!--used when CH visits SK-->
     <value>Oggi Mello ha fatto un errore madornale, il suo obbiettivo era naturalmente quello di uccidere gli shinigami, però oggi ha visitato Higuchi Kyosuke, il quale lo ha punito senza pietà, ponendo fine alla sua vita. {0} era Mello!</value>
   </string>
-  <string key="CultConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
-    <value>Oggi gli shinigami credevano di poter convertire Kira e farlo entrare nel proprio culto, che sciocchi! Naturalmente il corpo di {0} è stato trovato senza vita al centro di una strada deserta di Tokyo. {0} era uno Shinigami!</value>
+  <string key="zoombiesConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
+    <value>Oggi gli shinigami credevano di poter convertire Kira e farlo entrare nel proprio zoombieso, che sciocchi! Naturalmente il corpo di {0} è stato trovato senza vita al centro di una strada deserta di Tokyo. {0} era uno Shinigami!</value>
   </string>
-  <string key="CultConvertKillerPublic"> <!--used when Zombies convert the SK-->
+  <string key="zoombiesConvertKillerPublic"> <!--used when Zombies convert the SK-->
     <value>Oggi gli shinigami hanno cercato di convertire Higuchi Kyosuke, banalmente {0} viene ucciso senza pietà dal presidente della Yotsuba. {0} era uno Shinigami!</value>
   </string>
   <string key="GAGuardedKiller"> <!-- used when GA guards SK -->
@@ -1214,8 +1214,8 @@
     <!-- {0} = list of people who have joined -->
     <value>{0} sono entrati in partita negli ultimi 30 secondi.</value>
   </string>
-  <string key="AllowCult">
-    <value>Allow Cult</value>
+  <string key="Allowzoombies">
+    <value>Allow zoombies</value>
   </string>
   <string key="AllowTanner">
     <value>Allow Tanner</value>
@@ -1446,7 +1446,7 @@
     <!-- 0 - mason collegues's name -->
     <value>Your teammates (if any) are: {0}</value>
   </string>
-  <string key="ThiefToCult">
+  <string key="ThiefTozoombies">
     <!-- 0 - old Zombie's name -->
     <!-- 1 - new Zombie's name -->
     <value>{0} is no longer your teammate and {1} has now become a Zombie, just like you!</value>

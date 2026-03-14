@@ -603,13 +603,13 @@ namespace Werewolf_Control.Helpers
         {
             var masterStrings = master.Descendants("string");
 
-            //check for CultConvertSerialKiller & CupidChosen duplication
-            var dup = file.Doc.Descendants("string").Count(x => x.Attribute("key").Value == "CultConvertSerialKiller");
+            //check for zoombiesConvertSerialKiller & RecruiterChosen duplication
+            var dup = file.Doc.Descendants("string").Count(x => x.Attribute("key").Value == "zoombiesConvertSerialKiller");
             if (dup > 1)
-                fileErrors.Add(new LanguageError(file.FileName, "CultConvertSerialKiller", "CultConvertSerialKiller duplication", ErrorLevel.DuplicatedString));
-            dup = file.Doc.Descendants("string").Count(x => x.Attribute("key").Value == "CupidChosen");
+                fileErrors.Add(new LanguageError(file.FileName, "zoombiesConvertSerialKiller", "zoombiesConvertSerialKiller duplication", ErrorLevel.DuplicatedString));
+            dup = file.Doc.Descendants("string").Count(x => x.Attribute("key").Value == "RecruiterChosen");
             if (dup > 1)
-                fileErrors.Add(new LanguageError(file.FileName, "CupidChosen", "CupidChosen duplication", ErrorLevel.DuplicatedString));
+                fileErrors.Add(new LanguageError(file.FileName, "RecruiterChosen", "RecruiterChosen duplication", ErrorLevel.DuplicatedString));
 
             foreach (var str in masterStrings)
             {

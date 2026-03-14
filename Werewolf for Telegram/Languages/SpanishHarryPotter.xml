@@ -220,19 +220,19 @@ Sin embargo, si intentas encantar a un Mortífago, o alguien que está siendo at
     <value>Jugadores restantes, roles y facción:</value>
   </string><string key="ZombieVotedConvert">
     <value>{0} ha votado para dar el beso de la muerte y reemplazar a {1} por un dementor.</value>
-  </string><string key="CultConvertZombieHunter">
+  </string><string key="zoombiesConvertZombieHunter">
     <value>{0} fue enviado para dar el beso de la muerte y reemplazar {1} por un Dementor... Sin embargo, ¡Él era Remus Lupin, y tenía una gran manera de alejar a los Dementores! Regresó a Azkabán. </value>
-  </string><string key="ZombieHunterKilledCultVisit">
+  </string><string key="ZombieHunterKilledzoombiesVisit">
     <value>{0} fue a su oficina la noche pasada, listo para dar el beso de la muerte y sustituirlo... Pero usted tenía una gran manera de protegerse. Uno de los Dementores regresó a Azkabán... {1} restante (s)!</value>
-  </string><string key="CultConvertYou">
+  </string><string key="zoombiesConvertYou">
     <value>Usted recibió el beso de la muerte de un Dementor y fue reemplazado por uno de ellos. Durante la noche, puedes intentar dar el beso de la muerte y sustituir a otros magos..</value>
-  </string><string key="CultTeam">
+  </string><string key="zoombiesTeam">
     <value>Dementores: {0}</value>
-  </string><string key="CultJoin">
+  </string><string key="zoombiesJoin">
     <value>{0} ¡Recibió el beso de la muerte y fue substituido por un Dementor!</value>
-  </string><string key="CultVisitEmpty">
+  </string><string key="zoombiesVisitEmpty">
     <value>{0} fue enviado para dar el beso de la muerte y sustituir a {1}... Pero él no estaba en su dormitorio.</value>
-  </string><string key="CultWins" isgif="true">
+  </string><string key="zoombiesWins" isgif="true">
     <value>Todos los Magos murieron y los únicos sobrevivientes son los Dementores ... ¡Los Dementores vencieron!</value>
   </string><string key="HunterVisitDead">
     <value>Usted fue a investigar a {0}, ¡Pero al llegar allí se encontró sólo con los sentimientos de tristeza y soledad!</value>
@@ -294,15 +294,15 @@ Sin embargo, si intentas encantar a un Mortífago, o alguien que está siendo at
     <value>A medida que todos se levantan durante la mañana, el cuerpo de {0} se encuentra cerca de la Sala de los Menesteres, con su varita sobre el pecho, partida al medio y un cuaderno de anotaciones con algunos hechizos. Uno de los miembros del Ejército ha muerto.</value>
   </string><string key="MasonTeam">
     <value>El Ejército de Dumbledore es formado por: {0}</value>
-  </string><!-- new strings May 6 2016--><string key="CultTargetDead">
+  </string><!-- new strings May 6 2016--><string key="zoombiesTargetDead">
     <value>El miembro más reciente de los Dementores corre a la habitación de {0} para dar el beso de la muerte y sustituirlo por un Dementor, pero encuentra en cambio desorden, mucha sangre y pedazos... ¡Su objetivo ha sido asesinado!</value>
   </string><string key="GuardBlockedWolf">
     <value>Los Mortífagos se dirigen al cuarto de {0}, para el ataque, pero allí se encuentran con una criatura alta, elevada y rodeada por luz, armada con una espada y una varita. Lily Potter sale en defensa del objetivo y, tras una lucha repleta de efectos de luz, vuelven derrotados a casa.</value>
-  </string><!-- new strings May 9 2016--><string key="CultUnableToConvert">
+  </string><!-- new strings May 9 2016--><string key="zoombiesUnableToConvert">
     <value>{0} ha sido enviado/a para dar el golpe de gracia y reemplazar {1} por un dementor, pero su Patronus era demasiado fuerte. :(</value>
   </string><!-- new string May 12 2016--><string key="NameExists">
     <value>@{1} un/a mago/bruja con el nombre {0} ya se ha unido a la batalla. Por favor cambie su nombre para poder entrar en Hogwarts.</value>
-  </string><string key="HarlotDiscoverCult">
+  </string><string key="HarlotDiscoverzoombies">
     <value>Usted fue al dormitorio de {0} para besarse un poco, pero al llegar usted sintió una sensación de vacío, como si su alma dejara su cuerpo. En la vuelta a la Sala de los Menesteres usted decide comer un sapo de chocolate...</value>
   </string><!-- new string May 13 2016--><string key="Was">
     <value> era </value>
@@ -351,7 +351,7 @@ Sin embargo, si intentas encantar a un Mortífago, o alguien que está siendo at
     <value>¡El Profesor de Adivinación no está presente en la escuela!</value>
   </string><string key="TimesUp">
     <value>¡Tiempo agotado!</value>
-  </string><!-- new strings june 10 2016 --><string key="RoleInfoCupid">
+  </string><!-- new strings june 10 2016 --><string key="RoleInfoRecruiter">
     <value>Usted es Luna Lovegood. Enviada a Hogwarts con sus gafas spectrespecs y la poción de la amortentia, usted podrá elegir dos Magos que se amen por el resto del año escolar. Si uno de ellos muere, el otro morirá de tristeza. Después de unir dos pichones, usted puede volver a seguir su vida como un simple Mago.</value>
   </string><string key="RoleInfoDoppelganger">
     <value>Usted es Nymphadora Tonks, una metamorfomaga, capaz de modificar su propia apariencia sin el uso de hechizos o pociones. Escoge a un mago y cuando este muere asumes el papel de él en Hogwarts.</value>
@@ -359,7 +359,7 @@ Sin embargo, si intentas encantar a un Mortífago, o alguien que está siendo at
     <value>¡Eres Harry Potter! Su varita es su amante y está con ella todo el tiempo, hasta duerme con ella. Si mueres, puedes elegir a un mago para matar. Y si los Mortífagos te visitan la noche, no eres alguien que aceptaría morir sin luchar, pero en la oscuridad, no puedes escoger a quién matar.</value>
   </string><string key="RoleInfoSerialKiller">
     <value>Usted es Gellert Grindelwald, usted está solo y los otros magos no son más que sus juguetes. Cada noche usted puede elegir un jugador para lanzar un Avda Kedavra y añadir a su colección de cuerpos.</value>
-  </string><string key="CupidChosen">
+  </string><string key="RecruiterChosen">
     <value>¡¡El amor está en el aire!! Usted fue hechizado. La cara de {0} no sale de su cabeza. Su objetivo ahora es la supervivencia de los dos. Si uno de ustedes es muerto o enviado a Azkabán, el otro lo va a acompañar, para que puedan estar juntos.</value>
     <value>¡¡El amor está en el aire!! Usted fue hechizado. La cara de {0} no sale de su cabeza. Su objetivo ahora es la supervivencia de los dos. Si uno de ustedes es muerto o enviado a Azkabán, el otro lo va a acompañar, para que puedan estar juntos.</value>
   </string><string key="HunterLynchedChoice">
@@ -388,11 +388,11 @@ Sin embargo, si intentas encantar a un Mortífago, o alguien que está siendo at
     <value>Parece una noche normal, pero ¿Donde está {0}? Los alumnos se reúnen en la habitación de {0}, y encuentran su cuerpo en la bañera llena de sangre con sus órganos flotando... Gellert Grindelwald se ha divertido esta noche... {1}</value>
   </string><string key="GuardBlockedKiller">
     <value>Usted fue a divertirse un poco con {0}. ¡Pero llegando allí, Lily Potter acabó con su diversión! Sin bromas esa noche...</value>
-  </string><string key="CultConvertHunter">
+  </string><string key="zoombiesConvertHunter">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
     <value>Los Dementores mandan a {0} para dar el beso de la muerte y sustituir {1} por un Dementor. Llegando allí {0} es recibido con ¡Un Avda Kedavra bien en el pecho! {0} está muerto...</value>
-  </string><string key="CultConvertSerialKiller">
+  </string><string key="zoombiesConvertSerialKiller">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
     <value>Los Dementores mandan a {0} para dar el beso de la muerte y sustituir {1} por un Dementor. Al llegar allí descubre que fue una pérdida de tiempo, sólo siente odio y furia, sin tener nada que hacer {0} regresó a su cuarto...</value>
@@ -407,9 +407,9 @@ Sin embargo, si intentas encantar a un Mortífago, o alguien que está siendo at
     <value>{0}, Nymphadora Tonks, ahora se ha convertido en un miembro del Ejército de Dumbledore, ¡Así como usted!</value>
   </string><string key="DGTransformToMason">
     <value>{0} murió, y ahora es un miembro del Ejército de Dumbledore. Sus compañeros (si los hay) son: {1}</value>
-  </string><string key="DGToCult">
+  </string><string key="DGTozoombies">
     <value>{0}, Nymphadora Tonks fue sustituida por un Dementor.</value>
-  </string><string key="DGTransformToCult">
+  </string><string key="DGTransformTozoombies">
     <value>{0} muerto, acepte que usted se unió a los dementores. Sus nuevos compañeros (si los hay) son: {1}</value>
   </string><string key="DGToWolf">
     <value>Nymphadora Tonks {0} se convirtió en un Mortífago, ¡Uno más para el clan!</value>
@@ -419,17 +419,17 @@ Sin embargo, si intentas encantar a un Mortífago, o alguien que está siendo at
     <value>¡El único sobreviviente fue Gellert Grindelwald! Se ha divertido mucho con esta broma, porque no hay diversión mejor que vencer, en especial cuando eso ¡Implica matar a todos ustedes!</value>
   </string><string key="AskKill">
     <value>¿A quién quieres matar esta noche?</value>
-  </string><string key="LoverDied">
+  </string><string key="crewmateDied">
     <value>{0} da su último suspiro mirando en el fondo de los ojos de su amado, {1}, que sostiene su cuerpo de rodillas. {1} no puede soportar el dolor, y con una varita lanza un Avada Kedavra en sí mismo... Ellos estarán juntos incluso en el mundo de los muertos. {2}</value>
   </string><string key="AskDoppelganger">
     <value>¿En quién quieres transformarte?</value>
-  </string><string key="AskCupid1">
+  </string><string key="AskRecruiter1">
     <value>¿Quién será la pareja? Elige el primer amante.</value>
-  </string><string key="AskCupid2">
+  </string><string key="AskRecruiter2">
     <value>¿Quién será la pareja? Elige el segundo amante.</value>
   </string><string key="Hunter">
     <value>Harry Potter  🎯</value>
-  </string><string key="Cupid">
+  </string><string key="Recruiter">
     <value>Luna Lovegood 🏹</value>
   </string><string key="SerialKiller">
     <value>Gellert Grindelwald 🔪</value>
@@ -437,11 +437,11 @@ Sin embargo, si intentas encantar a un Mortífago, o alguien que está siendo at
     <value>Nymphadora Tonks 🎭</value>
   </string><string key="NewWCRoleModel">
     <value>Usted se convirtió en Draco Malfoy. Tu ejemplo a seguir es {0}</value>
-  </string><string key="LoversWin">
+  </string><string key="crewmatesWin">
     <value>¡Los amantes vencieron! ¿Querían eso no? ¡El amor siempre gana!</value>
   </string><string key="HunterKilledVisiter">
     <value>Cuando despiertan, encuentran a {0} muerto en medio de la Gran Sala, totalmente demacrado debido al Sectumsempra. ¡Parece que alguien visitó a Harry Potter y le salió mal! {1}</value>
-  </string><string key="CultAttempt">
+  </string><string key="zoombiesAttempt">
     <value>En medio de la noche te sientes una tristeza, un vacío, como si tu felicidad se desbaneciera. Usted utiliza su patronus, y está protegido.</value>
   </string><string key="AlreadyOnWaitList">
     <value>Ya está en la lista de espera para {0}</value>
@@ -497,7 +497,7 @@ Sin embargo, si intentas encantar a un Mortífago, o alguien que está siendo at
     <value>Usted es Severus Snape, ¡Su equipo es usted mismo! Si vas a Azkaban, ganas automáticamente, solo. ¡Sé egoísta!</value>
   </string><string key="AboutFool">
     <value>Argus Filch dice que es un mago... Cuando hace un hechizo, nada sucede.</value>
-  </string><string key="AboutCult">
+  </string><string key="Aboutzoombies">
     <value>Usted es uno de los Dementores. Durante la noche, podrás elegir a alguien para dar el beso de la muerte y reemplazarlo por un Dementor. Si todos los jugadores restantes al final del juego son reemplazados por Dementores, ¡Ellos vencen!</value>
   </string><string key="AboutCH">
     <value>Los Dementores están en Hogwarts tratando de aspirar toda la felicidad y esparcir el miedo y la tristeza, y usted, Remus Lupin, ¡Debe defender la escuela! Durante la noche podrás usar el hechizo patronus para investigar un Mago. Si él (a) es un Dementor, él/ella muere. Si los dementores te atacan, el Dementor más débil morirá.</value>
@@ -511,7 +511,7 @@ Sin embargo, si intentas encantar a un Mortífago, o alguien que está siendo at
     <value>Usted es un miembro del Ejército de Dumbledore, una sociedad secreta de Magos que se reunieron para ayudar a Hogwarts contra ataques de Mortífagos. Si hay otros del Ejército, usted sabrá su nombre. De lo contrario, usted será un simple mago.</value>
   </string><string key="AboutDG">
     <value>Usted es Nymphadora Tonks, una metamorfomaga, capaz de modificar su propia apariencia sin el uso de hechizos o pociones. Escoge a un mago y cuando este muere asumes el papel de él en Hogwarts.</value>
-  </string><string key="AboutCupid">
+  </string><string key="AboutRecruiter">
     <value>Usted es Luna Lovegood. Enviada a Hogwarts con sus gafas spectrespecs y la poción de la amortentia, usted podrá elegir dos Magos que se amen por el resto del año escolar. Si uno de ellos muere, el otro morirá de tristeza. Después de unir dos pichones, usted puede volver a seguir su vida como un simple Mago.</value>
   </string><string key="AboutHunter">
     <value>¡Eres Harry Potter! Su varita es su amante y está con ella todo el tiempo, hasta duerme con ella. Si mueres, puedes elegir a un mago para matar. Y si los Mortífagos te visitan la noche, no eres alguien que aceptaría morir sin luchar, pero en la oscuridad, no puedes escoger a quién matar.</value>
@@ -626,9 +626,9 @@ Sin embargo, si intentas encantar a un Mortífago, o alguien que está siendo at
     <value>¿Permitir al veterano?\nActual: {0}</value>
   </string><string key="AllowTannerA">
     <value>Existencia del veterano definida como: {0}</value>
-  </string><string key="AllowCultQ">
+  </string><string key="AllowzoombiesQ">
     <value>¿Permitir a los Dementores?\nActual: {0}</value>
-  </string><string key="AllowCultA">
+  </string><string key="AllowzoombiesA">
     <value>Existencia de Dementores definida como: {0}</value>
   </string><string key="ThankYou">
     <value>¡Gracias y tenga un buen juego!</value>
@@ -730,7 +730,7 @@ Sin embargo, si intentas encantar a un Mortífago, o alguien que está siendo at
     <value>Tiempo de los Mortífagos</value>
   </string><string key="SerialKillerTeam">
     <value>Tiempo de Gellert Grindelwald</value>
-  </string><string key="CultTeam">
+  </string><string key="zoombiesTeam">
     <value>Tiempo de los Dementores</value>
   </string><string key="TannerTeam">
     <value>Tiempo del veterano</value>
@@ -747,12 +747,12 @@ Sin embargo, si intentas encantar a un Mortífago, o alguien que está siendo at
 - <string key="SerialKillerTeamEnd">
     <value>Tiempo de Gellert Grindelwald</value>
   </string>
-- <string key="CultTeamEnd">
+- <string key="zoombiesTeamEnd">
     <value>Tiempo de los Dementores</value>
   </string>
 - <string key="TannerTeamEnd">
     <value>Tiempo del veterano</value>
-  </string><string key="CultConvertWolf">
+  </string><string key="zoombiesConvertWolf">
     <value>Los Dementores envían a {0} para dar el beso de la muerte a {1} y substituirlo por un Dementor, pero en su lugar, no siente nada {0} regresó a su lugar de descanso...</value>
   </string><string key="ApprenticeSeerEaten">
     <value>Hogwarts despierta y encuentra el cuerpo de Firenze todo ensangrentado, es un día triste en la escuela... ¡{0} murió!</value>
@@ -760,7 +760,7 @@ Sin embargo, si intentas encantar a un Mortífago, o alguien que está siendo at
     <value>Parece que {0}, Minerva McGonagall, tuvo mucha mala suerte. Se encontraron marcas de hechizos en su cuerpo. Y varias varitas desaparecieron, ¡Gellert Grindelwald tuvo su fiesta!</value>
   </string><string key="ZombieKilled">
     <value>Por la mañana todos encuentran el manto de {0}. Gellert Grindelwald no le importa detalles como la raza, ¡Todos son experimentos para él! Los dementores perdieron a {0}...</value>
-  </string><string key="CupidKilled">
+  </string><string key="RecruiterKilled">
     <value>Los magos encuentran el corazón de {0} partido en dos, Luna Lovegood está muerta. Es extraño el hecho de que falte su corazón, claramente una obra macabra más de Gellert Grindelwald.</value>
   </string><string key="DrunkKilled">
     <value>{0}, el maestro pociones tenía su bilis removida y depositada en una caldera de pociones. Obviamente un experimento más que Gellert Grindelwald debe haber adorado.</value>
@@ -781,10 +781,10 @@ Sin embargo, si intentas encantar a un Mortífago, o alguien que está siendo at
   </string><string key="SerialKillerKilledCH">
     <!--used when CH visits SK-->
     <value>Hogwarts se despertó esta mañana sólo para encontrar un cuerpo torturado y muerto en el lecho del lago negro. {0}, el Inquisidor, Remus Lupin, investigó al mago equivocado. Gellert Grindwald utilizó todos los hechizos de tortura que se pueden imaginar.</value>
-  </string><string key="CultConvertWolfPublic">
+  </string><string key="zoombiesConvertWolfPublic">
     <!--used when Zombies convert the wolves, only if wolves stayed home-->
     <value>Pésima elección de los dementores al visitar un Mortífago que decidió quedarse en su dormitorio durante la noche. {0} regresó a Azkaban. Los comensales parecen conocer una buena forma de apartar a los Dementores.</value>
-  </string><string key="CultConvertKillerPublic">
+  </string><string key="zoombiesConvertKillerPublic">
     <!--used when Zombies convert the SK-->
     <value>Por la mañana los magos se despiertan en medio de ruidos, todos van tras los sonidos y paran cerca del Sauce Boxeador. Ellos divisan a alguien apartar a un Dementor. Los dementores deben pensar bien en quién visitar, pues, Gellert Grindelwald no le importa la raza, ¡Todos son experimentos para él! Los dementores perdieron a {0}...</value>
   </string><string key="GAGuardedKiller">
@@ -837,7 +837,7 @@ Sin embargo, si intentas encantar a un Mortífago, o alguien que está siendo at
     <value>Ha salido de la lista de espera del grupo {0}.</value>
     <!-- {0} = list of people who have joined -->
     <value>{0} entró en la partida en los últimos 30 segundos.</value>
-  </string><string key="AllowCult">
+  </string><string key="Allowzoombies">
     <value>Permitir Dementores</value>
   </string><string key="AllowTanner">
     <value>Perimitir Snape</value>

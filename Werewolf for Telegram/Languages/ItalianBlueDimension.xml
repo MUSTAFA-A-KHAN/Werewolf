@@ -360,25 +360,25 @@ Odi aspettare e sapere di essere una semplice ruota di scorta ti manda su tutte 
   <string key="ZombieVotedConvert" >
     <value >{0} sceglie di provare a conversare e convincere {1}</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <value>{0} è stato inviato a fare il suo sporco lavoro, per conversare a {1}... ma, ahimè era Il purificatore! {0} è morto!</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <value>{0} ti ha fatto visita la scorsa notte, pronto a convincerti che i suoi ideali fossero validi...  Eppure la tua freddezza ha avuto la meglio, l'hai ucciso così, con un rapido fendente della tua spada. Un colonizzatore è morto... {1} rimanenti!</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>Hai avuto una bella conversazione con un uomo veramente brillante, sai cosa fare ora! Sei uno di “loro”. Ogni notte, avrai la possibilità di conversare con un altro umano per trasmettergli i suoi ideali.</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>Colonizzatori: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <value>{0} ha aderito alla squadra di colonizzazione!</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <value>{0} è stato inviato a fare il suo sporco lavoro, per far visita a {1}... ma nessuno era in casa!</value>
   </string>
-  <string key="CultWins" >
+  <string key="zoombiesWins" >
     <value >I demoni sono morti,voi colonizzatori vi fingete buoni e come accadde a Troia vi fate invitare al cospetto dei farfalloni per poi eliminarli e regnare su questa dimensione.I Colonizzatori dominano!</value>
   </string>
   <string key="HunterVisitDead">
@@ -475,21 +475,21 @@ Odi aspettare e sapere di essere una semplice ruota di scorta ti manda su tutte 
     <value>  Gli altri Rettiliani sono: {0}</value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <value>Il vostro membro più nuovo si reca nel rifugio di {0} per soggiogarlo, ma trova invece una grotta sotterranea malmessa, sangue  e piume nere sparse per tutto il corridoio...</value>
   </string>
   <string key="GuardBlockedWolf">
     <value>Ti introduci nel rifugio di {0} per mangiarlo, ma improvvisamente incontri un'alta oscura figura, armata fino ai denti. È l'eletto. Combattete a lungo ma sei costretto a tornare a casa sconfitto.</value>
   </string>
   <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <value>Spedite {0} per soggiogare {1}, ma la sua mente era fin troppo chiusa, non siete riusciti a convincerlo :(</value>
   </string>
   <!-- new string May 12 2016-->
   <string key="NameExists">
     <value>{1}, un giocatore con il nome di {0} e' gia' entrato. Per favore cambia il tuo nome per partecipare. </value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <value>Ti rechi nel rifugio di {0} per parlargli di amore... Il tuo interlocutore sembrava non poco interessato a quanto avevi da dirgli. Mentre conversi, ti accorgi di strane carte, fogli con mappe e quant'altro sparse per tutto il rifugio... Inoltre noti con molta sorpresa che l’individuo era un oratore niente male!...</value>
   </string>
   <!-- new string May 13 2016-->
@@ -564,7 +564,7 @@ Odi aspettare e sapere di essere una semplice ruota di scorta ti manda su tutte 
         <value>È scaduto il tempo!</value>
   </string>
   <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
     <value>Appena sbarcato in questa dimensione alquanto bizzarra ti avventuri in una grotta buia che intendi usare come rifugio, ad un certo punto si mostra ai tuoi occhi una farfalla gigante incatenata, questa ti dona dei poteri,  poteri che ti conferiscono il dono di unire due soggetti come fossero sigillati, come fossero un'unica entità in due corpi differenti. Li puoi unire a tal punto che se uno di loro morisse morirebbe pure l’altro. Sei ora l’Uomo Dei Sigilli.</value>
   </string>
   <string key="RoleInfoDoppelganger">
@@ -576,7 +576,7 @@ Odi aspettare e sapere di essere una semplice ruota di scorta ti manda su tutte 
   <string key="RoleInfoSerialKiller">
     <value>Sono millenni che ti trovi in queste terre, conosci il segreto dei farfalloni blu,sai che non sono quello che gli umani credono. Fuggito di recente dalle loro prigionie il tuo unico scopo è quello di far morire tutti e distruggere il portale una volta per tutte, le sorti della Terra sono nelle tue mani. Non puoi sbagliare un'altra volta… Sei l'umano errante.</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>Sei arrivato da pochissimo in questa terra, durante la tua prima nottata ti appare sogno una strana figura, presente ad intermittenza, come fosse oscurata. Questa si presenta a te come l’uomo dei sigilli spiegandoti cosa avverrà d’ora in poi... La tua espressione cambia, d’ora in poi avrai un amico che non potrà separarsi da te per nessun motivo al mondo :).  Il tuo obiettivo è rimanere entrambi vivi. Se uno di voi due muore, l'altro morirà come conseguenza del sigillo. Il tuo compagno di sigillo è {0}.</value>
     <value>Il sigillo ti ha colpito! La tua vita è ormai destinata a far sopravvivere te e quel parassita di {0}! Se muore, condividerai il suo destino. Se riuscite a sopravvivere fino alla fine, sarete entrambi vincitori come portatori di sigillo.</value>
  </string>
@@ -604,7 +604,7 @@ Odi aspettare e sapere di essere una semplice ruota di scorta ti manda su tutte 
   <string key="HunterKilledFinalShot">
     <value>In fin di vita, {0} cade... Ma non senza afferrare la Desert Eagle e sparare a {1}, che si becca il proiettile precisamente in mezzo alla fronte. {2}</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <value>{0} si intrufola in un rifugio. Era il rifugio di {1} ! Una volta entrato la prima cosa che nota è il silenzio, un silenzio tombale che viene interrotto dalle urla furiose dell'errante, il colonizzatore viene immediatamente ucciso da un singolo e letale colpo.</value>
     <value>I colonizzatori mandano {0} per convincere {1}, ma invece il cadavere di {0} esce volando giù da una montagna esplodendo in un mistico mix di colori sconosciuti. {0} è morto...</value>
  </string>
@@ -623,7 +623,7 @@ Odi aspettare e sapere di essere una semplice ruota di scorta ti manda su tutte 
   <string key="GuardBlockedKiller">
     <value>Hai provato ad eliminare {0} ma un giovane eroe ti sfida, ti sei scontrato con l'eletto a lungo, costui però ha i poteri dei farfalloni dalla sua.  Niente da fare stasera, nottataccia...</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <value>I coloni mandano {0} per soggiogare {1}, ma invece un colpo suona rumoroso e il corpo di {0} esce dalla finestra volando, tagliato in 6 parti! {0} è morto...</value>
   </string>
   <string key="GuardKiller">
@@ -642,10 +642,10 @@ Odi aspettare e sapere di essere una semplice ruota di scorta ti manda su tutte 
   <string key="DGTransformToMason">
     <value>{0} è finalmente morto, e tu ti trasformi in un Rettiliano. I tuoi compagni (se presenti) sono: {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <value>Il parassita {0} oltre ad essersi impossessato del suo corpo ha iniziato a condividere i suoi ideali divenendo un colonizzatore, esattamente come te!</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <value>{0} è morto, e tu assumi le sue sembianze. Inoltre senti lo strano bisogno di conquistare questa dimensione. I tuoi coetanei (se presenti) sono: {1}</value>
   </string>
   <string key="DGToWolf">
@@ -660,22 +660,22 @@ Odi aspettare e sapere di essere una semplice ruota di scorta ti manda su tutte 
   <string key="AskKill">
     <value>Chi vuoi uccidere stanotte?</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <value>Qualcosa si spezza, {0} è morto, {1} accorre per vedere il suo cadavere e inizia a sgretolarsi fino a divenire polvere. {2}</value>
   </string>
   <string key="AskDoppelganger">
     <value>Chi vuoi sfiancare fino alla morte?</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>Chi vuoi che siano i condannati al sigillo? Scegli il primo umano</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>Riguardo il sigillo, chi scegli come secondo condannato?  </value>
   </string>
   <string key="Hunter">
     <value>Il Burbero (e la sua Desert Eagle)🎯</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>L’uomo dei sigilli🏹</value>
   </string>
   <string key="SerialKiller">
@@ -690,10 +690,10 @@ Odi aspettare e sapere di essere una semplice ruota di scorta ti manda su tutte 
   <string key="HunterKilledVisiter">
     <value> Nella posta del farfallone messaggero c’era una foto rappresentante il corpo senza vita di {0},  sparato varie volte in tutto il corpo. Sembra che abbia provato a visitare il burbero! {1}</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>Una figura incappucciata ha provato a portarti con sé nella sua organizzazione. Non hai ceduto.</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
   <value>Il sigillo vi ha dato alla testa!? I due vincolati hanno messo la loro squadra sopra tutto il resto scegliendo di sopravvivere  soli soletti... </value>
   </string>
   <string key="SerialKillerWinsOverpower">
@@ -763,8 +763,8 @@ Odi aspettare e sapere di essere una semplice ruota di scorta ti manda su tutte 
   <string key="AboutFool">
     <value>un povero Folle che crede di essere il Veggente.... Quando sceglie di vedere il ruolo a qualcuno, gli verrà detto un ruolo casuale in partita. Nota: È più utile di quello che sembra, può sapere con esattezza i ruoli che ci sono in partita. Se vedete un ruolo, sarà in partita.</value>
   </string>
-  <string key="AboutCult">
-    <value>Come Satanista, il tuo obiettivo è convertire tutti gli altri giocatori (tranne i lupi) Al tuo culto. Se a fine partita, tutti i giocatori sono Satanisti, Vincono. \n Probabilità di convertire i seguenti ruoli: \n Sosia: 0% Finchè rimane sosia, è impossibile da convertire \n Veggente 40% Il veggente è il più difficile da convertire \n Angelo 60% Nota: Se protegge qualcuno, non lo troverai in casa \n Maledetto 60% \n Investigatore 70% \n Prostituta 70% Come l'angelo, se non è casa, non potrete convertirla \n Cacciatore 50% Avrai il 50% di convertire il cacciatore. Se fallite, C'è il 50% che vi spari.</value>
+  <string key="Aboutzoombies">
+    <value>Come Satanista, il tuo obiettivo è convertire tutti gli altri giocatori (tranne i lupi) Al tuo zoombieso. Se a fine partita, tutti i giocatori sono Satanisti, Vincono. \n Probabilità di convertire i seguenti ruoli: \n Sosia: 0% Finchè rimane sosia, è impossibile da convertire \n Veggente 40% Il veggente è il più difficile da convertire \n Angelo 60% Nota: Se protegge qualcuno, non lo troverai in casa \n Maledetto 60% \n Investigatore 70% \n Prostituta 70% Come l'angelo, se non è casa, non potrete convertirla \n Cacciatore 50% Avrai il 50% di convertire il cacciatore. Se fallite, C'è il 50% che vi spari.</value>
   </string>
   <string key="AboutCH">
     <value>Il tuo lavoro è estirpare i Satanisti. Se ti visitano, ucciderai il loro ultimo membro e saprai quanti satanisti sono rimasti. Ogni notte potrai visitare un giocatore: Se sono satanisti, li ucciderai. Sennò, tornerai a casa, come se nulla fosse successo.</value>
@@ -784,7 +784,7 @@ Odi aspettare e sapere di essere una semplice ruota di scorta ti manda su tutte 
   <string key="AboutDG">
     <value>Puoi scegliere un giocatore a inizio partita, erediti il suo ruolo \n Nota: Se il giocatore viene convertito ai satanisti, prenderai il suo ruolo originale. Tutte le altre regole normali si applicano: se erano bimbi ribelli e il loro modello è morto, diventerai un lupo. Sennò, erediterai il loro modello.\nI satanisti non possono convertire il Sosia (ma possono dopo che il sosia cambia ruolo) E - Il sosia NON può vincere a meno che si sono trasformati. Se a fine partita, il Sosia non si è trasformato, perde (eccezione: amante).</value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>A Inizio partita, sceglie due giocatori. Dopo diventa a tutti gli effetti un normale villico. Questi due diventeranno follemente innamorati e se uno dei due muore, l'altro morirà. Nota: gli amanti sanno chi è l'altro, ma non sanno il loro ruolo. Se gli amanti sono gli ultimi due vivi, loro vincono, indipendemente dal loro ruolo. Se gli amanti sono di due team diversi(esempio: lupo + villico), e un team vince (esempio: lupi), anche l'amante (esempio:villico) vince. \n TL;DR Se tutti e due gli amanti sono vivi a fine partita, e almeno uno dei due è nel team vincitore, vincono insieme</value>
   </string>
   <string key="AboutHunter">
@@ -955,10 +955,10 @@ Odi aspettare e sapere di essere una semplice ruota di scorta ti manda su tutte 
   <string key="AllowTannerA">
     <value>Conciatore come ruolo impostato a {0}</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>Ammettere i Satanisti in partita, come ruolo?\nAttualmente: {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>Satanista come ruolo impostato a {0}</value>
   </string>
   <string key="ThankYou">
@@ -1108,7 +1108,7 @@ Sei stato scelto! Invece di essere ucciso, sei stato infettato... e diverrai un 
   <string key="SerialKillerTeam">
     <value>Team Errante</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>Team Colonizzatori</value>
   </string>
   <string key="TannerTeam">
@@ -1126,13 +1126,13 @@ Sei stato scelto! Invece di essere ucciso, sei stato infettato... e diverrai un 
   <string key="SerialKillerTeamEnd">
     <value>Team Errante</value>
   </string>
-  <string key="CultTeamEnd">
+  <string key="zoombiesTeamEnd">
     <value>Team Colonizzatori </value>
   </string>
   <string key="TannerTeamEnd">
     <value>Suicide team</value>
   </string>
-  <string key="CultConvertWolf">
+  <string key="zoombiesConvertWolf">
     <value>I Colonizzatori hanno mandato {0} per provare a soggiogare {1}, ma all'improvviso si vede la testa di {0} volare fuori dalla finestra pieno di graffi insieme ai suoi piani di conquista.  I demoni non sopportano certa gente! {0} è morto...</value>
   </string>
   <string key="HarlotFuckedKilledPublic"> <!-- used when Harlot visit's SK's victim, and dies -->
@@ -1151,7 +1151,7 @@ Sei stato scelto! Invece di essere ucciso, sei stato infettato... e diverrai un 
   <string key="ZombieKilled">
     <value>{0} è stato trovato pugnalato a morte. A confermare il suo decesso di ha pensato l'affidabile farfallone messaggero. L’errante ha colpito ancora, indipendentemente da razza, lingua e religione! Lui deve portare a termine la sua missione. {0} era un Colonizzatore👤.</value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>Il mattino seguente, gli umani trovarono le foto in anticipo (da parte del farfallone messaggero) di {0}, cioè l’uomo dei sigilli , tagliato dalla testa ai piedi. Sulla schiena l’errante ha inciso “Fuggite ora” ...</value>
   </string>
   <string key="DrunkKilled">
@@ -1186,11 +1186,11 @@ Il Farfallone messaggero conferma il decesso di {0}.</value>
     <value>Gli umani si svegliano la mattina, solo per trovare le foto del corpo tagliato a pezzi di {0}, il Purificatore. Lezione imparata: non indagare mai l’errante!</value>
     <value>Il corpo di {0}, il Purificatore, è stato fotografato dal farfallone messaggero. Controllare l’errante non sembra stata una buona idea...</value>
   </string>
-  <string key="CultConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
+  <string key="zoombiesConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
     <value>Sembrava una notte tranquilla, visto che i demoni hanno deciso di prendersi una pausa, l'unico sfortunato è stato {0}, un Colonizzatore che ha provato a convertire un Demone. Dalla testa di {0} è stata esportata ed assorbita tutta la malvagità! Il Farfallone messaggero conferma il decesso.</value>
     <value>I Colonizzatori hanno incontrato un problema non previsto questa notte. Il loro membro più recente, mandato a fare proseliti, è stato divorato dal demone che ha visitato. Sfortunatamente per {0}, i demoni non amano conversare. Il Farfallone messaggero conferma il decesso.</value>
   </string>
-  <string key="CultConvertKillerPublic"> <!--used when Zombies convert the SK-->
+  <string key="zoombiesConvertKillerPublic"> <!--used when Zombies convert the SK-->
     <value>I colonizzatori pensavano di convertire un nuovo membro tra di loro, ma si sbagliavano! {0}, un colonizzatore è stato trovato tritato nella piazza centrale dal farfallone messaggero che lo fotografa bene!</value>
     <value>L'ultima notte, i colonizzatori  hanno provato a soggiogare una persona più pazza di loro. Il loro membro più recente ha provato a convertire l'errante e l’errante ha creato una nuova opera d’arte moderna marchiando il colonizzatore a fuoco. Il farfallone messaggero conferma l’avvenuto decesso di {0}.</value>
   </string>
@@ -1283,8 +1283,8 @@ Il Farfallone messaggero conferma il decesso di {0}.</value>
     <!-- {0} = list of people who have joined -->
     <value>{0} sono entrati in partita negli ultimi 30 secondi.</value>
   </string>
-  <string key="AllowCult">
-    <value>Allow Cult</value>
+  <string key="Allowzoombies">
+    <value>Allow zoombies</value>
   </string>
   <string key="AllowTanner">
     <value>Allow Tanner</value>

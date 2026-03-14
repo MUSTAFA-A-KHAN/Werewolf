@@ -24,7 +24,7 @@ namespace Database
         public Nullable<int> LynchTime { get; set; }
         public Nullable<bool> AllowFool { get; set; }
         public Nullable<bool> AllowTanner { get; set; }
-        public Nullable<bool> AllowCult { get; set; }
+        public Nullable<bool> Allowzoombies { get; set; }
         public string UserName { get; set; }
         public Nullable<bool> BotInGroup { get; set; }
         public Nullable<bool> DisableNotification { get; set; }

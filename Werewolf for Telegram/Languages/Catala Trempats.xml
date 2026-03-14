@@ -351,33 +351,33 @@
     <!-- 1 - target name -->
     <value>{0} ha votat convertir {1}.</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <!-- 0 - Yougest Zombie (killed)'s name' -->
     <!-- 1 - ZombieHunter's name -->
     <value>{0} havia de fer la feina bruta, i parlar amb {1}... però era el cap de troncs! Així que el cap de troncs l'ha posat a terces, {0} ha petat i s'ha hagut d'anar en ambulància. Una persona de kanalla queda out de tot el tram de diades!</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - Number of Zombies left -->
     <value>{0} ha vingut cap a tu aquesta diada, amb la intenció de que formis part del pom... però l'has obligat a anar al tronc del castell i ha petat. Una persona de kanalla ha quedat fora del tram de diades... restants: {1}!</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>T'han convertit a la secta kanalla! Ara ets kanalla. Cada diada, tindràs l'oportunitat de convertir un altre trempi.</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <!-- 0 - Number of Zombies -->
     <value>Kanalla: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <!-- 0 - new Zombie's name -->
     <value>{0} s'ha unit a la secta kanalla!</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <!-- 0 - Newest Zombie's name -->
     <!-- 1 - target name -->
     <value>{0} havia de fer la feina bruta, i convertir a {1}... però no ha vingut a la diada!</value>
   </string>
-  <string key="CultWins" isgif="true">
+  <string key="zoombiesWins" isgif="true">
     <value >Tots els veterans/es han quedat KO(ai l'edat...), i l'única gent que resta viva ha estat convertida en kanalla... Ha guanyat la kanalla!</value>
   </string>
   <string key="HunterVisitDead">
@@ -482,7 +482,7 @@
     <value>  Els cordons oberts són: {0}</value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <!-- 0 - Youngest Zombies name -->
     <value>El membre més recent de la kanalla mira de convertir {0} anant a parlar amb ell/a entre rondes, però es troba una autèntica ruïna, baba pertot arreu i pèls de veterà/na al costat de les aigües...</value>
   </string>
@@ -491,7 +491,7 @@
     <value>Tots els veterans i veteranes s'ha dirigit a la tarima, on estava {0}, per llepar-li la cara, però els rep una figura ben forta, fornida i leial. El/la contrafort es defensa i torneu derrotats i derrotades.</value>
   </string>
   <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <!-- 0 - newest  -->
     <!-- 1 - target's name -->
     <value>Envieu {0} per intentar convertir {1}, però el seu vertígen era massa greu i no heu pogut convertir-la ☹️</value>
@@ -502,7 +502,7 @@
     <!-- 1 - name -->
     <value>@{1}, un trempi amb el nom {0} ja s'ha unit al tram de diades. Canvia de nom per unir-t'hi.</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <!-- 0 - target's name -->
     <value>Durant l'animació t'has apropat a {0} per divertir-te una mica... però quan ja te n'anaves, t'adones que corre a fer un pom elevat...👤</value>
   </string>
@@ -546,7 +546,7 @@
     <value>S'ha acabat el temps!</value>
   </string>
   <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
     <value>Ets el Cap de Canalla 🏹. Amb tota la intel·ligència estratègica possible, has de triar qui seran els dosos perquè suïn junts i s'estimin tot el tram. Si un d'ells ja no pot continuar venint al tram, l'altre tampoc anirà per pena(O per què ja hauran quedat 😏).</value>
   </string>
   <string key="RoleInfoDoppelganger">
@@ -558,7 +558,7 @@
   <string key="RoleInfoSerialKiller">
     <value>Ets Folreti 🔪. T'acaben de dir que formes part del folre, el teu objectiu és destrossar la soca i resta de trempis per a que no continuïn el que queda de tram. Cada diada pots afegir el cos d'un trempi a la teva col·lecció.</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>Has estat escollit pel cap de canalla. Els moments de suor amb {0} mai no s'esborraran del teu cor. Si un dels dos no pot continuar anant a diades, l'altre tampoc hi anirà per pena. Si un dels dos guanya, tots dos guanyeu.</value>
     <value>L'elecció del cap de canalla és clara: ets un dels dos dossos del tram! T'has enamorat bojament de {0}! Si un dels dos no pot anar a diades, l'altre tampoc ho farà per pena. Si un dels dos guanya, tots dos guanyeu.</value>
   </string>
@@ -614,12 +614,12 @@
     <!-- 0 - target's name -->
     <value>Has intentat afegir el cos de {0} a la teva col·lecció, però el contrafort t'ho ha impedit! Aquesta nit no pots destrossar a ningú...</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
     <value>La Kanalla envia a {0} per intentar convertir {1}, però a través de la porta se senten glops de {0}. Per una escletxa, la Kanalla veu el cos de {0} KO als labavos! {0} ha quedat KO per la boirina...</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
     <value>La Kanalla envia {0} per intentar convertir {1}, de cop tothom comença a posar-se a la soca i obliguen a {0} a posar-s'hi també. Quan acaba la ronda la Kanalla es troba el cos de {0} magullat en un racó, QUE S'HA DE CUIDAR LA SOCA FOLRETIS! {0} es queda liciat pel que queda de tram de diades.</value>
@@ -644,11 +644,11 @@
     <!-- 1 - mason collegues's name -->
     <value>{0} no pot anar a diades, i tu ocupes la seva posició de cordó obert. Els teus companys que també fan de cordó obert (si n'hi ha) són: {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <!-- 0 - new Zombie's name -->
     <value>L'alumne de secundària {0} un dia fa un taller amb Trempats i entra a la colla. És molt àgil i ràpidament entra a la secta Kanalla, com tu!</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <!-- 0 - role's name -->
     <!-- 1 - teammates's name -->
     <value>{0} no pot anar a diades, i tu ocupes la seva posició de kanalla. Els teus companys de la secta Kanalla (si n'hi ha) són: {1}</value>
@@ -668,25 +668,25 @@
   <string key="AskKill">
     <value>A qui vols destrossar aquesta nit?</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <!-- 0 - dead's name -->
-    <!-- 1 - lover's name -->
+    <!-- 1 - crewmate's name -->
     <!-- 2 - roles -->
     <value>{0} truca a {1} el matí següent per explicar-li què ha passat. {1} no s'ho pot creure i plorant decideix que sense ell/a no anirà a diades. Ningú compenetra amb ell tant bé en tots sentits (GUIÑO, GUIÑO). {2}</value>
   </string>
   <string key="AskDoppelganger">
     <value>En qui et vols transformar si no pot continuar el tram de diades?</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>Qui vols que siguin dosos? Tria el primer trempi.</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>Qui vols que siguin dosos? Tria el segon trempi.</value>
   </string>
   <string key="Hunter">
     <value>Boirina 🍾</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>Cap de Canalla 🏹</value>
   </string>
   <string key="SerialKiller">
@@ -699,7 +699,7 @@
     <!-- 0 - target's name -->
     <value>T'has convertit en l'enxaneta. El teu padrí és {0}.</value>
   </string>
-  <string key="LoversWin" isgif="true">
+  <string key="crewmatesWin" isgif="true">
     <value>El veritable amor resisteix! Els dosos han guanyat💕!</value>
   </string>
   <string key="HunterKilledVisiter">
@@ -707,7 +707,7 @@
     <!-- 1 - role -->
     <value>Trobeu el cos de {0} a la zona de motxilles ben emborratxat. Sembla que ha vegut una mica de boirina! La ressaca li durarà tant que no pot tornar a venir a diades.  Bé, {1}.</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>Una figura encaputxada ha intentat convertir-te en Kanalla, però el teu vertigen és massa fort com per pujar allà dalt.</value>
   </string>
   <string key="AlreadyOnWaitList">
@@ -792,7 +792,7 @@
   <string key="AboutFool">
     <value>Agulla 💉\nA l'Agulla se li diu que és el Vent... quan tria un jugador durant diades, se li diu un rol aleatori.</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>Kanalla 👤\nCom a Kanalla, el teu objectiu és convertir tots els altres trempis (excepte els veterans i veteranes) a la secta. Si al final de la partida tots els trempis vius són Kanalla, la secta guanya.</value>
   </string>
   <string key="AboutCH">
@@ -813,7 +813,7 @@
   <string key="AboutDG">
     <value>Alumne de Secundària 🎭\nEncara estàs a la ESO i vols convertir-te en una cosa més guai. Tria un trempi, i quan aquesta persona no pugui continuar al tram, prendràs el seu rol.\nNota: si el jugador havia estat convertit a la secta kanalla, prendràs el seu rol original. La resta de regles s'apliquen: si era l'enxaneta i el seu padrí no pot anar més a diades, et convertiràs en veterà; si no, heretaràs el seu padrí.\nLa secta kanalla no pot convertir l'alumne de secundaria (però pot convertir-lo quan ja s'ha transformat). L'alumne de secundaria ha de transformar-se per poder guanyar (excepte si el cap de canalla el posa a dosos).</value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>Cap de Canalla 🏹\nL'amor i la compenetració està present a Trempats. Com a Cap de Canalla, triaràs dos trempis al començament del tram de diades, que hauran de treballar plegats durant tot el tram! La confianza y el roce hace el cariño així que si un d'ells no pot anar a diades, l'altre no hi anirà tampoc per pena 😢\nNota: els dosos saben qui és l'altre, però no saben el seu rol. Si els dosos són els últims dos trempis al tram, guanyen. Si els dosos eren a equips diferents (avellanes + veterans/es) i un equip guanya (veterans/es), l'altre dos (avellana) també guanya. En resum, si un dels dos dos és de l'equip guanyador, guanyen tots dos.</value>
   </string>
   <string key="AboutHunter">
@@ -979,10 +979,10 @@
   <string key="AllowTannerA">
     <value>Canguret com a rol definit a: {0}</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>Vols permetre ser Kanalla com a opció de rol?\nActual: {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>Kanalla com a rol definit a: {0}</value>
   </string>
   <string key="EnableSecretLynchQ">
@@ -1144,13 +1144,13 @@
   <string key="SerialKillerTeamEnd">
     <value>Equip del Folreti</value>
   </string>
-  <string key="CultTeamEnd">
+  <string key="zoombiesTeamEnd">
     <value>Equip de la secta Kanalla</value>
   </string>
   <string key="TannerTeamEnd">
     <value>Equip del Canguret</value>
   </string>
-  <string key="CultConvertWolf">
+  <string key="zoombiesConvertWolf">
     <value>La secta Kanalla envia a {0} per intentar convertir a {1}, però en lloc d'això, {0} torna amb tot de babes a la cara... Crec que ha anat a buscar a la persona equivocada... els veterans i veteranes se les saben totes!</value>
   </string>
 
@@ -1170,7 +1170,7 @@
   <string key="ZombieKilled">
     <value>Han trobat el cos de {0} rebentat al costat de la soca. El folreti ha tornat a fer mal a algú, {0} era kanalla pero el folreti li ha demanat si podia fer l'escaleta i... Adéu diades.</value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>L'endemà al matí, a les avellanes se'ls va partir el cor en trobar {0}, que també tenia el càrrec de cap de canalla, amb el cos magullat... Algú no sap cuidar la soca...</value>
   </string>
   <string key="DrunkKilled">
@@ -1204,12 +1204,12 @@
     <value>Les avellanes es desperten de bon matí, però troben un missatge al Telegram de {0}, el cap de troncs. Lliçó apresa: no intentis posar al tronc a un Folreti!</value>
     <value>El cos de {0}, el cap de troncs, ha estat destrossat durant la passada diada. No sembla bona idea comprovar si un folreti pot fer de terces...</value>
   </string>
-  <string key="CultConvertWolfPublic">
+  <string key="zoombiesConvertWolfPublic">
     <!--used when Zombies convert the wolves, only if wolves stayed home-->
     <value>Tot i que semblava que els vetarans/es havien decidit ser bons per una vegada, era difícil resistir-se a castigar {0}, un de kanalla que havia decidit cercar problemes amb els veterans i veteranes intnetant-los convertir a la secta.</value>
     <value>A aquesta diada, la kanalla s'ha trobat problemes inesperats. El seu membre més nou ha tingut la mala sort d'anar a buscar a un veterà/na durant l'única animació que els veterans i veteranes havien decidit no llepar a ningú.. Malauradament per a {0}, els veterans/es no tenen gens d'interès a unir-se a la kanalla.</value>
   </string>
-  <string key="CultConvertKillerPublic">
+  <string key="zoombiesConvertKillerPublic">
     <!--used when Zombies convert the SK-->
     <value>La kanalla pensava que tindria un nou membre entre les seves files, però s'equivocava! {0}, un sectari de kanalla, ha aparegut aquest matí destrossat a la guten! Sembla que als folretis no els hi agrada que els vulguin canviar de posició.</value>
     <value>A la passada animació, la kanalla ha intentat convertir l'única persona de la colla més boja que els seus membres. El seu membre més nou ha intentat convertir un folreti, i aquest ha fet una nova obra d'art amb l'esquena de {0}.</value>
@@ -1296,7 +1296,7 @@
     <!-- NOTE: No space between {0} and joined. It will be added in the code if necessary-->
     <value>S'han unit al tram en els darrers 30 segons: {0}</value>
   </string>
-  <string key="AllowCult">
+  <string key="Allowzoombies">
     <value>Permet la kanalla</value>
   </string>
   <string key="AllowTanner">
@@ -1530,7 +1530,7 @@
     <!-- 0 - mason collegues's name -->
     <value>Els teus companys (si n'hi ha) són: {0}</value>
   </string>
-  <string key="ThiefToCult">
+  <string key="ThiefTozoombies">
     <!-- 0 - old Zombie's name -->
     <!-- 1 - new Zombie's name -->
     <value>{0} ja no és el teu company, i {1} ara és kanalla, com tu!</value>
@@ -1883,16 +1883,16 @@
   <string key="HunterFell">
     <value>Una altra diada sense poder fer que algú begui de tu, et tenen por! Acabes a la basura perquè {0} no vol que deixis KO a més gent... En el moment ho saps: s'han acabat les diades per tu.</value>
   </string>
-  <!--{0}: cult hunter-->
+  <!--{0}: zoombies hunter-->
   <string key="HunterFellDigger">
     <value>Després d'una altra diada màgica, estàs anant a la discoteca quan veus una ampolla de boirina a terra. Ràpidament llences a {0} a la brossa, no vols més gent KO a diades.</value>
   </string>
   <!--{0}: Zombie-->
-  <string key="CultFell">
+  <string key="zoombiesFell">
     <value>Retornes d'una altra diada màgica, quan de sobte sents un crit des de la llunyania! T'afanyes a anar-hi, i hi trobes a {0} amb el turmell regirat. Però quina mena de secta kanalla intenta convertir na Comi Sanitat?</value>
   </string>
   <!--{0}: Zombie who fell, {1}: grave digger-->
-  <string key="CultConvertGraveDigger">
+  <string key="zoombiesConvertGraveDigger">
     <value>Buscant a {1}, {0} decideix de sobte que seria bona idea fer un salt mortal. Al fer-lo, caus malament i et regires el turmell! Tot i així, no acabes tenint res, ibuprofeno i al carrer. Podràs continuar fent castells.</value>
   </string>
   <!--{0}: grave digger-->

@@ -398,25 +398,25 @@
 	 <value>Шакал {0} находит {1} очень вкусным.</value>
 	 <value>Шакал {0} хочет зашакалить {1}.</value>
  </string>
- <string key="CultConvertZombieHunter">
+ <string key="zoombiesConvertZombieHunter">
 	 <value>О нет! {1} тоже был шакалом, и он успел обшакалить в ответ! И не просто обшакалить, а ещё и обкусать и сжать {0}!</value>
  </string>
- <string key="ZombieHunterKilledCultVisit">
+ <string key="ZombieHunterKilledzoombiesVisit">
  <value>{0} хотел тебя зашакалить, но быстро объяснил ему, кто тут альфа-шакал! Где-то поблизости бродят ещё {1} шакалов!</value>
  </string>
- <string key="CultConvertYou">
+ <string key="zoombiesConvertYou">
 	 <value>Поздравляю, ты теперь Шакал 🐺!</value>
  </string>
- <string key="CultTeam">
+ <string key="zoombiesTeam">
 	 <value>Некоторые другие шакалы: {0}</value>
  </string>
- <string key="CultJoin">
+ <string key="zoombiesJoin">
  <value>Ого, а {0} оказывается Шакал 🐺!</value>
  </string>
- <string key="CultVisitEmpty">
+ <string key="zoombiesVisitEmpty">
  <value>{0} успешно зашакалил {1}!</value>
  </string>
- <string key="CultWins">
+ <string key="zoombiesWins">
 	 <value>Шакалы вин!</value>
  </string>
  <string key="HunterVisitDead">
@@ -514,19 +514,19 @@
  <string key="MasonTeam">
  <value>Некоторые другие шакалы: {0}</value>
  </string>
- <string key="CultTargetDead">
+ <string key="zoombiesTargetDead">
 	 <value>Ты успешно зашакалил {0}!</value>
  </string>
  <string key="GuardBlockedWolf">
 	 <value>Ты успешно зашакалил {0}!</value>
  </string>
- <string key="CultUnableToConvert">
+ <string key="zoombiesUnableToConvert">
 	 <value>{0} успешно зашакалил {1}!</value>
  </string>
  <string key="NameExists">
  <value>@{1}, шакал с именем {0} уже присоединился. Пожалуйста, поменяй имя, чтобы присоединиться.</value>
  </string>
- <string key="HarlotDiscoverCult">
+ <string key="HarlotDiscoverzoombies">
 	 <value>Ты успешно зашакалил {0}!</value>
  </string>
  <string key="Was">
@@ -604,7 +604,7 @@
 <!-- new strings june 10 2016 -->
  <value>Время вышло!</value>
  </string>
- <string key="RoleInfoCupid">
+ <string key="RoleInfoRecruiter">
 	 <value>Ты - Шакал 🐺. А то ты не знаешь, что шакалы делают.</value>
 	 <value>Ты - Шакал 🐺. И помни, шакалы всегда вин!</value>
 	 <value>Ты - Шакал 🐺 - млекопитающее из семейства псовых. Небольшое животное, размером меньше средней дворняги. По общему облику он очень похож на сильно уменьшенного волка. Длина тела обыкновенного шакала без хвоста достигает 80 см, а высота в плечах не превышает 50 см, чаще 42—45. Весит он 7—10 кг, редко больше. Шакал стройнее и легче волка, ноги его относительно выше, а морда острее, хотя более тупая, чем у лисицы. Хвост мохнатый и кажется очень толстым; он всегда опущен вниз, как у волка. Шерсть на теле не длинная, жёсткая и густая. На передних лапах по 5 пальцев, на задних — по 4, когти тупые. Зубов 42, как у всех представителей рода Canis. Успешному распространению шакала способствует высокая миграционная активность зверя, а также способность использовать антропогенные ландшафты.</value>
@@ -624,7 +624,7 @@
 	 <value>Ты - Шакал 🐺. И помни, шакалы всегда вин!</value>
 	 <value>Ты - Шакал 🐺 - млекопитающее из семейства псовых. Небольшое животное, размером меньше средней дворняги. По общему облику он очень похож на сильно уменьшенного волка. Длина тела обыкновенного шакала без хвоста достигает 80 см, а высота в плечах не превышает 50 см, чаще 42—45. Весит он 7—10 кг, редко больше. Шакал стройнее и легче волка, ноги его относительно выше, а морда острее, хотя более тупая, чем у лисицы. Хвост мохнатый и кажется очень толстым; он всегда опущен вниз, как у волка. Шерсть на теле не длинная, жёсткая и густая. На передних лапах по 5 пальцев, на задних — по 4, когти тупые. Зубов 42, как у всех представителей рода Canis. Успешному распространению шакала способствует высокая миграционная активность зверя, а также способность использовать антропогенные ландшафты.</value>
  </string>
- <string key="CupidChosen">
+ <string key="RecruiterChosen">
 	 <value>Ого, а {0} оказывается Шакал 🐺!</value>
  </string>
  <string key="HunterLynchedChoice">
@@ -678,10 +678,10 @@
  <string key="GuardBlockedKiller">
 	 <value>Ты успешно зашакалил {0}!</value>
  </string>
- <string key="CultConvertHunter">
+ <string key="zoombiesConvertHunter">
 	 <value>О нет! {1} тоже был шакалом, и он успел обшакалить в ответ! И не просто обшакалить, а ещё и обкусать и сжать {0}!</value>
  </string>
- <string key="CultConvertSerialKiller">
+ <string key="zoombiesConvertSerialKiller">
 	 <value>О нет! {1} тоже был шакалом, и он успел обшакалить в ответ! И не просто обшакалить, а ещё и обкусать и сжать {0}!</value>
  </string>
  <string key="GuardKiller">
@@ -702,10 +702,10 @@
  <string key="DGTransformToMason">
  <value>{0} был(а) шакалом. А ведь ты тоже Шакал 🐺. Некоторые другие шакалы: {1}</value>
  </string>
- <string key="DGToCult">
+ <string key="DGTozoombies">
 	 <value>Ого! А {0} оказывается тоже Шакал 🐺!</value>
  </string>
- <string key="DGTransformToCult">
+ <string key="DGTransformTozoombies">
 	 <value>{0} был(а) шакалом. А ведь ты тоже Шакал 🐺. Некоторые другие шакалы: {1}</value>
  </string>
  <string key="DGToWolf">
@@ -720,22 +720,22 @@
  <string key="AskKill">
 	 <value>Кого ты хочешь зашакалить?</value>
  </string>
- <string key="LoverDied">
+ <string key="crewmateDied">
  <value>Только посмотрите! {1} сжался вслед за {0}! {2}</value>
  </string>
  <string key="AskDoppelganger">
 	 <value>Кого ты хочешь зашакалить?</value>
  </string>
- <string key="AskCupid1">
+ <string key="AskRecruiter1">
 	 <value>Кого ты хочешь зашакалить?</value>
  </string>
- <string key="AskCupid2">
+ <string key="AskRecruiter2">
 	 <value>Кого ты ещё хочешь зашакалить?</value>
  </string>
  <string key="Hunter">
 	 <value>Шакал 🐺</value>
  </string>
- <string key="Cupid">
+ <string key="Recruiter">
 	 <value>Шакал 🐺</value>
  </string>
  <string key="SerialKiller">
@@ -747,7 +747,7 @@
  <string key="NewWCRoleModel">
 	 <value>Поздравляю, ты теперь Шакал 🐺! Некоторые другие шакалы: {0}</value>
  </string>
- <string key="LoversWin">
+ <string key="crewmatesWin">
 <!-- new strings june 24 2016 -->
 <!-- new strings june 24 2016 -->
 	 <value>Шакалы вин!</value>
@@ -767,7 +767,7 @@
  <string key="SKHunterEnd">
 	 <value>Настаёт утро, и на главной площади деревни встречаются двое шакалов: {0} и {1}. Обнявшись, вместе уходят в закат!</value>
  </string>
- <string key="CultAttempt">
+ <string key="zoombiesAttempt">
 	 <value>Кто-то тебя зашакалил!</value>
  </string>
  <string key="HunterKilledVisiter">
@@ -835,7 +835,7 @@
  <string key="AboutFool">
  <value>Fool - Дурак (селянин, которому в начале игры говорят, что он Провидец, но вместо правильных ролей игроков такой селянин будет узнавать рандомные роли).</value>
  </string>
- <string key="AboutCult">
+ <string key="Aboutzoombies">
  <value>Zombie - Сектант (игрок, цель которого это завербовать всех селян и убить всех волков).</value>
  </string>
  <string key="AboutCH">
@@ -856,8 +856,8 @@
  <string key="AboutDG">
  <value>Doppelgänger - Двойник (селянин, который в начале игры выбирает игрока, чью роль возьмёт себе после его смерти;\nесли Двойник не выберет/не успеет выбрать игрока, роль которого Двойник возьмёт, игра сделает это сама, выбрав рандомного игрока;\nесли Двойник получит роль Дикого Ребёнка, «примером для подражания» первому станет игрок, которого выбрал второй;\nДвойника нельзя завербовать нетрансформированным, также Двойник не может выиграть, если он не трансформировался).</value>
  </string>
- <string key="AboutCupid">
- <value>Cupid - Купидон (селянин, который в начале игры соединяет сердца двух игроков;\nесли Купидон не выберет/не успеет выбрать будущих влюблённых, игра сама влюбит двух рандомных игроков;\nесли один из влюблённых выиграет, другой влюблённый тоже выиграет).</value>
+ <string key="AboutRecruiter">
+ <value>Recruiter - Купидон (селянин, который в начале игры соединяет сердца двух игроков;\nесли Купидон не выберет/не успеет выбрать будущих влюблённых, игра сама влюбит двух рандомных игроков;\nесли один из влюблённых выиграет, другой влюблённый тоже выиграет).</value>
  </string>
  <string key="AboutHunter">
  <value>Hunter - Ковбой (селянин, который может при нападении волка с 30% шансом убить волка;\nпри смерти, Ковбой может забрать жизнь любого игрока;\nесли на Ковбоя нападёт бóльшее, чем один, количество волков, за каждого волка к шансу убийства прибавляется по 20%, в этом случае Ковбой убьёт рандомного волка;\nесли секта попытается завербовать Ковбоя, есть 50% шанс, что секта не сможет завербовать Ковбоя, в этом случае у Ковбоя есть 50% шанс убить последнего завербованного Сектанта).</value>
@@ -1045,10 +1045,10 @@
  <string key="AllowTannerA">
  <value>Нынешний статус настройки: {0}.</value>
  </string>
- <string key="AllowCultQ">
+ <string key="AllowzoombiesQ">
  <value>Разрешить фракцию «Секта», а значит и роль «Сектант» в игре?\nСтатус настройки: {0}</value>
  </string>
- <string key="AllowCultA">
+ <string key="AllowzoombiesA">
  <value>Нынешний статус настройки: {0}.</value>
  </string>
  <string key="ThankYou">
@@ -1212,7 +1212,7 @@
  <string key="SerialKillerTeamEnd">
 	 <value>Шакалы</value>
  </string>
- <string key="CultTeamEnd">
+ <string key="zoombiesTeamEnd">
 	 <value>Шакалы</value>
  </string>
  <string key="TannerTeamEnd">
@@ -1230,7 +1230,7 @@
 	 <value>Кто-то сжал {0}!</value>
 	 <value>Другие шакалы почему-то решили, что {0} - джипег!</value>
  </string>
- <string key="CupidKilled">
+ <string key="RecruiterKilled">
 	 <value>Только посмотрите! Шакал {0} досжимался и сжал сам себя!</value>
 	 <value>Кто-то зашакалил {0}!</value>
 	 <value>Кто-то сжал {0}!</value>
@@ -1292,7 +1292,7 @@
 	 <value>Кто-то сжал {0}!</value>
 	 <value>Другие шакалы почему-то решили, что {0} - джипег!</value>
  </string>
- <string key="CultConvertWolfPublic">
+ <string key="zoombiesConvertWolfPublic">
 <!--used when Zombies convert the wolves, only if wolves stayed home-->
 <!--used when Zombies convert the wolves, only if wolves stayed home-->
 	 <value>Только посмотрите! Шакал {0} досжимался и сжал сам себя!</value>
@@ -1300,7 +1300,7 @@
 	 <value>Кто-то сжал {0}!</value>
 	 <value>Другие шакалы почему-то решили, что {0} - джипег!</value>
  </string>
- <string key="CultConvertKillerPublic">
+ <string key="zoombiesConvertKillerPublic">
 <!--used when Zombies convert the SK-->
 <!--used when Zombies convert the SK-->
 	 <value>Только посмотрите! Шакал {0} досжимался и сжал сам себя!</value>
@@ -1382,7 +1382,7 @@
 <!--{0} = Harlot name, {1} = SK's victim name-->
 	 <value>Только посмотрите! {0} сжался вслед за {1}!</value>
  </string>
- <string key="CultConvertWolf">
+ <string key="zoombiesConvertWolf">
 	 <value>О нет! {1} тоже был шакалом, и он успел обшакалить в ответ! И не просто обшакалить, а ещё и обкусать и сжать {0}!</value>
  </string>
  <string key="JoinButton">
@@ -1422,7 +1422,7 @@
  <value>{0} утверждают, что они настоящие шакалы!</value>
 	<value>Посмотрите на них: {0} Сейчас все джипеги сожмут без вас!</value>
  </string>
- <string key="AllowCult">
+ <string key="Allowzoombies">
  <value>Разрешить секту</value>
  </string>
  <string key="AllowTanner">
@@ -1676,7 +1676,7 @@
 -->
  <value>Некоторые другие шакалы: {0}</value>
  </string>
- <string key="ThiefToCult">
+ <string key="ThiefTozoombies">
  <!-- 0 - old Zombie's name -->
 -->
  <!-- 1 - new Zombie's name -->
@@ -1976,16 +1976,16 @@
 	<string key="HunterFell">
 		<value>О нет! {0} тоже был шакалом, и он успел обшакалить в ответ! И не просто обшакалить, а ещё и обкусать и сжать!</value>
 	</string>
-	<!--{0}: cult hunter-->
+	<!--{0}: zoombies hunter-->
 	<string key="HunterFellDigger">
 		<value>{0} хотел тебя зашакалить, но быстро объяснил ему, кто тут альфа-шакал!</value>
 	</string>
 	<!--{0}: Zombie-->
-	<string key="CultFell">
+	<string key="zoombiesFell">
 		<value>{0} хотел тебя зашакалить, но быстро объяснил ему, кто тут альфа-шакал!</value>
 	</string>
 	<!--{0}: Zombie who fell, {1}: grave digger-->
-	<string key="CultConvertGraveDigger">
+	<string key="zoombiesConvertGraveDigger">
 		<value>О нет! {0} тоже был шакалом, и он успел обшакалить в ответ! И не просто обшакалить, а ещё и обкусать и сжать {1}!</value>
 	</string>
 	<!--{0}: grave digger-->

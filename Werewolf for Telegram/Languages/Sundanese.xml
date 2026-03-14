@@ -506,7 +506,7 @@ Nu "handap" jadi baseuh, pek teh Ublag💋 keur beraksi ngajak maneh "cinta satu
 -->
     <value>{0} milih ngahasut {1}</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <!-- 0 - Yougest Zombie (killed)'s name' -->
 -->
     <!-- 1 - ZombieHunter's name -->
@@ -514,7 +514,7 @@ Nu "handap" jadi baseuh, pek teh Ublag💋 keur beraksi ngajak maneh "cinta satu
     <value>{0} dikirim ku sekte jang ngajak {1}... Pekteh, manehna Pemburu Kultus💂! {0} diruqiyah nepi modyar!
   </value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <!-- 0 - Youngest Zombie's name -->
 -->
     <!-- 1 - Number of Zombies left -->
@@ -522,12 +522,12 @@ Nu "handap" jadi baseuh, pek teh Ublag💋 keur beraksi ngajak maneh "cinta satu
     <value>{0} datang ka imah maneh niatna arek ngarekrut maneh, tapi maneh geus nyiapkeun jimat jang ngaruqiyah. Kultus👤 modyar diruqiyah...
 Sesa kultus nu hirup {1}!</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>Kultus👤 geus ngarekrut maneh jadi pengikut ajaran sesat! Ayeuna, maneh jadi anggota aliran sesat.
 Unggal peuting maneh bisa milih jang ngajakan batur abus milu ka sekte.&lt;/value&gt;
   </value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <!-- 0 - Number of Zombies -->
 -->
     <!-- 0 - Number of Zombies -->
@@ -594,12 +594,12 @@ Unggal peuting maneh bisa milih jang ngajakan batur abus milu ka sekte.&lt;/valu
 -->
     <value>Balad Kultus maneh: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <!-- 0 - new Zombie's name -->
 -->
     <value>{0} geus jadi anggota Kultus nu anyar</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <!-- 0 - Newest Zombie's name -->
 -->
     <!-- 1 - target name -->
@@ -607,7 +607,7 @@ Unggal peuting maneh bisa milih jang ngajakan batur abus milu ka sekte.&lt;/valu
     <value>{0} geus dikirim jang ngajak {1} gabung milu sekte👤... Tapi pas datang, euweuh jelema diimahna!
   </value>
   </string>
-  <string key="CultWins">
+  <string key="zoombiesWins">
     <value>Kabeh Ajag geus paeh, warga nu hirup keneh geus milu gabung di sekte Kultus...
  Game dimeunangkeun ku Kultus 👤!</value>
   </string>
@@ -729,7 +729,7 @@ Kubakat napsu maneh berubah jadi Ajag🐺! Balad maneh nu anyar nya eta: {1}
 -->
     <value>Balad Tukang Batu👷 maneh nyaeta: {0}</value>
   </string>
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <!-- 0 - Youngest Zombies name -->
 -->
     <value>Anggota anyar maneh nyobaan ngajak si {0}. Tapi si {0} geus paeh, ditinggali loba getih dimamana, jeung aya tapak koetan Ajag🐺</value>
@@ -741,7 +741,7 @@ Kubakat napsu maneh berubah jadi Ajag🐺! Balad maneh nu anyar nya eta: {1}
 -->
     <value>Kabeh Ajag arindit jang ngahakan si {0}, tapi Pasukan Ajag kalah panggih jeung wujud nu pikasieuneun. Ternyata eta Malaikat Pelindung👼, ajag lalumpatan ngabret balik ka imahna.</value>
   </string>
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <!-- 0 - newest  -->
 -->
     <!-- 1 - target's name -->
@@ -757,7 +757,7 @@ Kubakat napsu maneh berubah jadi Ajag🐺! Balad maneh nu anyar nya eta: {1}
 -->
     <value>@{1}, pemaen nu make ngaran {0} geus aya, cobaan ganti heula ngaran nu sejen.</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <!-- 0 - target's name -->
 -->
   <!-- new string May 13 2016-->
@@ -870,8 +870,8 @@ Kubakat napsu maneh berubah jadi Ajag🐺! Balad maneh nu anyar nya eta: {1}
 -->
     <value>Waktuna beak!</value>
   </string>
-  <string key="RoleInfoCupid">
-    <value>Maneh jadi Lebe 💘 (Cupid). 
+  <string key="RoleInfoRecruiter">
+    <value>Maneh jadi Lebe 💘 (Recruiter). 
 Tukang ngawinkeun batur di desa, pokona maneh bisa milih saha wae nu rek di jodokeun. Pilih 2 pemaen nu arek di kawinkeun terus nyieun maranehna setia nepi maot. Kusabab setia nepi maot, mun salah sahiji pasangan eta paeh, pasangana bakal milu maot.</value>
   </string>
   <string key="RoleInfoDoppelganger">
@@ -887,7 +887,7 @@ Mun maneh paeh dihakan ku Ajag, maneh boga kasempetan jang maehan Ajag eta, tapi
     <value>Maneh jadi Maniak🔪 (Serial Killer). Maneh boga karesep nu aneh, nyaeta ngoleksi organ awak jelema.
 Unggal peuting, maneh kaluar imah neangan mangsa berikut neangan organ awak jang dijadikeun pajangan.</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>Maneh geus gelo ku cinta. {0} nepel dina ingatan maneh. Mun diantara maneh aya nu paeh, nu huiji na pasti bakal paeh. Mun pasangan maneh menang, maneh miluan menang.</value>
     <value>Panah Lebe geus nancep dina hate maneh! Maneh jadi cinta ka {0}! Mun maneh na paeh, Maneh bakal paeh oge. Mun salah hiji ti maneh menang, maneh duaan bakal menang.</value>
   </string>
@@ -964,14 +964,14 @@ Warga geura-geura nyampeurkeun manehna, tapi geus telat ...
 -->
     <value>Maneh nyobaan neangan koleksi anyar, awakna {0} bakal jadi koleksi maneh, ngan dijalan maneh papanggih Malaikat Pelindung! Teu jadi weh ngumpulan koleksi teh.</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <!-- 0 - Youngest Zombie's name -->
 -->
     <!-- 1 - target's name -->
 -->
     <value>Ketua Kultus 👤 nitah si {0} jang ngarekrut {1}, tapi jol kadenge sora tembakan ti Paninggaran. {0} modyar dibedil ku Paninggaran! </value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <!-- 0 - Youngest Zombie's name -->
 -->
     <!-- 1 - target's name -->
@@ -1005,12 +1005,12 @@ Maneh numpakan manehna, bari rada "Uhh Ahh AHHHH!!" Lain "bijil"! Maneh ngagorow
 -->
     <value>{0} geus paeh, maneh berubah jadi Tukang Batu👷. Babaturan maneh (lamun aya) nyaeta: {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <!-- 0 - new Zombie's name -->
 -->
     <value>{0} si Tukang Maling🎭 ayeuna geus berubah jadi Kultus 👤, kutilan jiga maneh!</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <!-- 0 - role's name -->
 -->
     <!-- 1 - teammates's name -->
@@ -1036,10 +1036,10 @@ Maneh numpakan manehna, bari rada "Uhh Ahh AHHHH!!" Lain "bijil"! Maneh ngagorow
   <string key="AskKill">
     <value>Saha nu rek di paehan ku maneh?</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <!-- 0 - dead's name -->
 -->
-    <!-- 1 - lover's name -->
+    <!-- 1 - crewmate's name -->
 -->
     <!-- 2 - roles -->
 -->
@@ -1048,16 +1048,16 @@ Maneh numpakan manehna, bari rada "Uhh Ahh AHHHH!!" Lain "bijil"! Maneh ngagorow
   <string key="AskDoppelganger">
     <value>Saha nu rek ku maneh dipaling identitasna? Mun jelema nu ku maneh di pilih maot, maneh otomatis berubah.</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>Saha nu rek dikawinkeun ku maneh? Pilih jelema nu mimiti: </value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>Saha nu rek dikawinkeun ku maneh? Pilih jelema nu kadua:</value>
   </string>
   <string key="Hunter">
     <value>Paninggaran🎯</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>Lebe🏹</value>
   </string>
   <string key="SerialKiller">
@@ -1071,7 +1071,7 @@ Maneh numpakan manehna, bari rada "Uhh Ahh AHHHH!!" Lain "bijil"! Maneh ngagorow
 -->
     <value>Maneh ayeuna jadi Budak Labil👶. Panutan maneh nyaeta: {0}</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
     <value>Dua jelema anu nyesa nyaeta pasangan di desa ieu.
  Kabuktian, silih asah silih asih silih asuh bisa mawa kabagjaan.
 💏 Pasangan anu bogoh kacida meunang! 💗 #lovewins</value>
@@ -1083,7 +1083,7 @@ Maneh numpakan manehna, bari rada "Uhh Ahh AHHHH!!" Lain "bijil"! Maneh ngagorow
 -->
     <value>Di hareupeun imah salah sahiji warga, aya jasad si {0}. Sigana eta jelema asal abus ka imah Paninggaran , kusabab aya pelor anu nyangked dina huntuna! {1}</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>Kultus👤 nyobaan arek ngarekrut maneh, tapi manehna sholeh/sholehah teuing, manehna embungeun jadi pengikut ajaran Sesat!</value>
   </string>
   <string key="AlreadyOnWaitList">
@@ -1181,7 +1181,7 @@ Unggal peuting maneh bakal milih imah jalma nu bakal maneh ajakan Jaran Goyang. 
   <string key="AboutFool">
     <value>Dukun Lepus siga Dukun Sakti, tapi unggal ngacek pemaen sejen, Fool bakal dibere nyaho role acak. Teu pasti 100% bener!</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>Kultus👤, anggota sekte sesat. Ajak warga desa gabung unggal peuting, lamun kabeh Ajag paeh terus kabeh geus warga desa jadi anggota maneh, maneh meunang!</value>
   </string>
   <string key="AboutCH">
@@ -1202,7 +1202,7 @@ Unggal peuting maneh bakal milih imah jalma nu bakal maneh ajakan Jaran Goyang. 
   <string key="AboutDG">
     <value>Tukang maling 🎭. Poe mimiti, maneh kudu milih saha nu rek dipaling. Mun pemaen nu ku maneh di pilih geus paeh, maneh bakal otomatis berubah sarua jiga pemaen nu kumaneh dipilih.\nSalila maneh keneh jadi Tukang Maling, kultus moal pernah bisa ngarekrut maneh! Hiji deui, mun nepi game rengse maneh teu berubah jadi role lain maneh eleh.</value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>Lebe💘. Tukang ngawinkeun batur, pilih 2 (dua) pemaen nu arek di jodokeun. Sabab setia nepi maot, mun salah sahiji pasangan eta paeh, pasangana bakal milu maot</value>
   </string>
   <string key="AboutHunter">
@@ -1384,10 +1384,10 @@ Mun kultus nyobaan ngahasut maneh, manehna boga 50% bakal gagal. Mun maneh na ga
   <string key="AllowTannerA">
     <value>Tanner muncul jadi role disetting ka: {0}</value>
   </string>
-  <string key="AllowCultQ">
-    <value>Ijinkeun Cult muncul jadi role?\nNu dipilih: {0}</value>
+  <string key="AllowzoombiesQ">
+    <value>Ijinkeun zoombies muncul jadi role?\nNu dipilih: {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>Kultus muncul jadi role disetting ka: {0}</value>
   </string>
   <string key="EnableSecretLynchQ">
@@ -1548,7 +1548,7 @@ Mun kultus nyobaan ngahasut maneh, manehna boga 50% bakal gagal. Mun maneh na ga
   <string deprecated="true" key="SerialKillerTeam">
     <value>Tim SK</value>
   </string>
-  <string deprecated="true" key="CultTeam">
+  <string deprecated="true" key="zoombiesTeam">
     <!-- 0 - Number of Zombies -->
 -->
     <!-- 0 - Number of Zombies -->
@@ -1630,13 +1630,13 @@ Mun kultus nyobaan ngahasut maneh, manehna boga 50% bakal gagal. Mun maneh na ga
   <string key="SerialKillerTeamEnd">
     <value>Tim SK</value>
   </string>
-  <string key="CultTeamEnd">
+  <string key="zoombiesTeamEnd">
     <value>Tim Kultus</value>
   </string>
   <string key="TannerTeamEnd">
     <value>Tim Budak Gelo</value>
   </string>
-  <string key="CultConvertWolf">
+  <string key="zoombiesConvertWolf">
     <value>Pemimpin kultus nitah {0} ngahasut {1}, ngan {0} gogorowokan karak asup ka imah {0} geus paeh...</value>
   </string>
   <string key="HarlotFuckedKilledPublic">
@@ -1657,8 +1657,8 @@ Mun kultus nyobaan ngahasut maneh, manehna boga 50% bakal gagal. Mun maneh na ga
   <string key="ZombieKilled">
     <value>{0} geus paeh bari nyekeulan lilin, maneh na paeh ku Maniak! {0} nyaeta kultus.</value>
   </string>
-  <string key="CupidKilled">
-    <value>Dinten ieu warga desa ngarasa sedih sabab {0} a.k.a. Cupid paeh geus leungit hate na. Sigana dicandak ku Maniak</value>
+  <string key="RecruiterKilled">
+    <value>Dinten ieu warga desa ngarasa sedih sabab {0} a.k.a. Recruiter paeh geus leungit hate na. Sigana dicandak ku Maniak</value>
   </string>
   <string key="DrunkKilled">
     <value>Wargi desa geus ngantosan {0} jang ulin kaleci, ngan kalahka ningal imah na {0} geus pabalatak ku peso jeung hate. Pek teh Maniak geus motongan hate na.</value>
@@ -1692,12 +1692,12 @@ Mun kultus nyobaan ngahasut maneh, manehna boga 50% bakal gagal. Mun maneh na ga
     <value>Para wargImam isuk isuk, ngan rek ningali potongan lengeun jeung hulu{0}, Pemburu Kultus paeh ngan sesa lengeun na hungkul. Kudu diajar: Ulah ulin ka imah na Maniak!</value>
     <value>Awakna {0}, Pemburu Kultus, geus ngagoletak diharepeun balai kota. Ka imah na Maniak jang neagan kultus mah sarua weh bunuh diri.</value>
   </string>
-  <string key="CultConvertWolfPublic">
+  <string key="zoombiesConvertWolfPublic">
     <!--used when Zombies convert the wolves, only if wolves stayed home-->
 -->
     <value>Kultus lulumpatan tadi peuting. Mere nyaho aya Ajag keur cicing di imah na, pek teh si Ajag ningali si {0} ngeunah pisan. Ajag mah moal hayang atuh miluan aliran nu kitu mah.</value>
   </string>
-  <string key="CultConvertKillerPublic">
+  <string key="zoombiesConvertKillerPublic">
     <!--used when Zombies convert the SK-->
 -->
     <value>Peuting ieu, kultus nyobaan ngahasut jalma nu leuwih gelo katimbang maranehna. Nyobaan ngahasut Maniak jadi pengikut aliran sesat, nya moal daekkeun atuh. Jol weh {0} si kultus balik ngan nyesa usus jeung ampela na.</value>
@@ -1799,7 +1799,7 @@ Mun kultus nyobaan ngahasut maneh, manehna boga 50% bakal gagal. Mun maneh na ga
 -->
     <value>{0}gabung buruan sesa waktuna 30 menit deui.</value>
   </string>
-  <string key="AllowCult">
+  <string key="Allowzoombies">
     <value>Ijinkeun Kultus</value>
   </string>
   <string key="AllowTanner">

@@ -327,25 +327,25 @@
   <string key="ZombieVotedConvert" >
     <value >{0} vota per reclutare {1} nell'esercito di Kaido</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <value>{0} è stato inviato a fare il suo sporco lavoro, per reclutare {1} nell'esercito di Kaido... ma non poteva sapere di imbattersi nel futuro re dei pirati! {0} non darà più fastidio..</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <value>{0} ti ha fatto visita la scorsa notte, voleva reclutarti e farti lavorare per Kaido...  Naturalmente l'hai colpito con il tuo Elephant Gun... il resto è storia. {1} rimanenti!</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>Sei stato reclutato dagli uomini di Kaido! Ora sei uno di loro. Ogni notte, avrai la possibilità di reclutare un altro giocatore.</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>Sottoposti di Kaido: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <value>{0} si è unito a Kaido!</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <value>{0} è stato inviato per reclutare {1}... ma non era nella nave!</value>
   </string>
-  <string key="CultWins" >
+  <string key="zoombiesWins" >
     <value >Tutti i marines sono morti, ma tutti i sopravvissuti appartengono alle forza di Kaido... Kaido ha vinto!</value>
   </string>
   <string key="HunterVisitDead">
@@ -440,21 +440,21 @@
     <value>  Gli altri agenti Baroque Works sono: {0}</value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <value>Il vostro membro piu' nuovo si reca a casa di {0} per reclutarlo, ma trova invece una casa malmessa, segni di combattimento, sembra la Marina abbia fatto una visita...</value>
   </string>
   <string key="GuardBlockedWolf">
     <value>Ti introduci nella casa di {0} per catturarlo, ma improvvisamente incontri un'alta oscura figura, non sembra neanche umano. È Chopper. Combattete a lungo ma sei costretto a tornare a casa sconfitto.</value>
   </string>
   <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <value>Spedite {0} per reclutare {1}, ma crede troppo nei suoi ideali, non siete riusciti a fargli cambiare idea :(</value>
   </string>
   <!-- new string May 12 2016-->
   <string key="NameExists">
     <value>@{1}, un giocatore con il nome di {0} e' gia' entrato. Per favore cambia il tuo nome per partecipare. </value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <value>Ti rechi sulla nave di {0} per saccheggiarla un po'... Ma quando stai per uscire, ti accorgi di una lettera.. sembra contenere delle istruzioni da svolgere per l'imperatore Kaido...</value>
   </string>
   <!-- new string May 13 2016-->
@@ -528,7 +528,7 @@
 	<value>È scaduto il tempo!</value>
   </string>
   <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
 	<value>Sei uno della peggiore Generazione di Pirati, Trafalgar D. Water Law 💞. Usando il frutto Ope Ope no Mi, sei capace di usare la chirugia del trapianto di personalità (solo una volta) e scambiare i cuori di due giocatori. Se uno dei due muore, anche l'altro muore.</value>
   </string>
   <string key="RoleInfoDoppelganger">
@@ -540,7 +540,7 @@
   <string key="RoleInfoSerialKiller">
     <value>Sei Barbanera 🌑, Marshall D. Teach. Il tuo obbiettivo è diventare il pirata più forte e temuto di tutti e collezionare tutti i frutti del diavolo. Ogni notte, puoi aggiungere il corpo di un giocatore alla tua collezione, sperando possegga un frutto.</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>Law ha scambiato il tuo cuore con quello di {0}! Se muore, condividerai il suo destino. Se riuscite a sopravvivere fino alla fine, sarete entrambi vincitori.</value>
  </string>
   <string key="HunterLynchedChoice">
@@ -567,7 +567,7 @@
   <string key="HunterKilledFinalShot">
     <value>In fin di vita, {0} cade... Ma non senza afferrare la spada e colpire {1}, che cade a terra sanguinante. {2}</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <value>{0} si intrufola nella casa di {1} allo scopo di reclutarlo nelle forze di Kaido, apre la porta e viene immediatamente accolto da un Barbanera!!! {1} avvolge nell'oscurità {0} sghignazzando tutto il tempo! {0} è morto D:</value>
  </string>
   <string key="HunterShotWolfMulti">
@@ -585,7 +585,7 @@
   <string key="GuardBlockedKiller">
     <value>Hai provato ad aggiungere il corpo di {0} alla tua collezione, ma invece ti sei scontrato con Chopper! Niente da fare stasera, nottataccia...</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <value>Gli uomini di Kaido mandano {0} per reclutare {1}, ma invece il corpo di {0} esce dalla finestra volando ricoperto di colpi di spada e sangue! {0} è morto...</value>
   </string>
   <string key="GuardKiller">
@@ -603,10 +603,10 @@
   <string key="DGTransformToMason">
     <value>{0} è morto, e tu ti unisci alla Baroque Works. I tuoi compagni (se presenti) sono: {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <value>Bon Kurei {0} è ora un sottoposto di Kaido, esattamente come te!</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <value>{0} è morto, e tu diventi un sottoposto di Kaido. I tuoi compagni (se presenti) sono: {1}</value>
   </string>
   <string key="DGToWolf">
@@ -621,22 +621,22 @@
   <string key="AskKill">
     <value>Chi vuoi uccidere stanotte?</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <value>Con l'ultimo respiro di {0}, {1} incomincia a perdere i sensi, si accascia a terra e muore. {2}</value>
   </string>
   <string key="AskDoppelganger">
     <value>Di chi vuoi ereditare il ruolo alla sua morte?</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>A chi vuoi scambiare i cuori? Scegli il primo giocatore</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>A chi vuoi scambiare i cuori? Scegli il secondo giocatore</value>
   </string>
   <string key="Hunter">
     <value>Roronoa Zoro, il cacciatore di Pirati 🗡</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>Trafalgar D. Water Law 💞</value>
   </string>
   <string key="SerialKiller">
@@ -651,10 +651,10 @@
   <string key="HunterKilledVisiter">
     <value>Al centro della piazza centrale, viene ritrovato il corpo di {0}. Sembra che si sia scontrato con il cacciatore di Pirati! {1}</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>Una figura incappucciata ha provato a reclutarti nell'armata di Kaido, ma i tuoi ideali sono troppo forti.</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
   <value>Avete vinto! Finalmente riuscite a scambiarvi i cuori.</value>
   </string>
   <string key="SerialKillerWinsOverpower">
@@ -724,7 +724,7 @@
   <string key="AboutFool">
     <value>un povero Folle che crede di essere Robin.... Quando sceglie di vedere il ruolo a qualcuno, gli verrà detto un ruolo casuale in partita. Nota: È più utile di quello che sembra, può sapere con esattezza i ruoli che ci sono in partita. Se vedete un ruolo, sarà in partita.</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>Come sottoposto di Kaido, il tuo obiettivo è convertire tutti gli altri giocatori (tranne i marines) alla tua causa. Se a fine partita, tutti i giocatori sono sottoposti di Kaido, Vincono. \n Probabilità di convertire i seguenti ruoli: \n Mr.2: 0% Finchè rimane Bon Kurei, è impossibile da convertire \n Nico Robin 40% La piratessa è la più difficile da convertire \n Chopper 60% Nota: Se protegge qualcuno, non lo troverai in casa \n Jango 60% \n Franky 70% \n Nami 70% Come Chopper, se non è casa, non potrete convertirla \n Zoro 50% Avrai il 50% di convertire il cacciatore di pirati. Se fallite, C'è il 50% che vi uccida.</value>
   </string>
   <string key="AboutCH">
@@ -745,7 +745,7 @@
   <string key="AboutDG">
     <value>Puoi scegliere un giocatore a inizio partita, erediti il suo ruolo \n Nota: Se il giocatore si unisse a Kaido, prenderai il suo ruolo originale. Tutte le altre regole normali si applicano: se era Coby e il suo rapitore è morto, diventerai un marine. Sennò, erediterai il loro modello.\nI sottoposti di Kaido non possono convertire il Mr.2 (ma possono dopo che cambia ruolo) E - Il Mr.2 NON può vincere a meno che si sono trasformati. Se a fine partita, il Mr.2 non si è trasformato, perde (eccezione: scambio dei cuori).</value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>A Inizio partita, sceglie due giocatori. Dopo diventa a tutti gli effetti un normale pirata. Questi due diventeranno legati con lo scambio del cuore e se uno dei due muore, l'altro morirà. Nota: le vittime sanno chi è l'altro, ma non sanno il loro ruolo. Se sono gli ultimi due vivi, loro vincono, indipendemente dal loro ruolo. Se i due sono di due team diversi(esempio: marine + pirata), e un team vince (esempio: marines), anche l'altro  (esempio:pirata) vince. \n TL;DR Se tutti e due sono vivi a fine partita, e almeno uno dei due è nel team vincitore, vincono insieme</value>
   </string>
   <string key="AboutHunter">
@@ -916,10 +916,10 @@
   <string key="AllowTannerA">
     <value>Shirahoshi come ruolo impostato a {0}</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>Ammettere i sottoposti di Kaido in partita, come ruolo?\nAttualmente: {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>Sottoposto di Kaido come ruolo impostato a {0}</value>
   </string>
   <string key="ThankYou">
@@ -1064,7 +1064,7 @@
   <string key="SerialKillerTeam">
     <value>Team Barbanera</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>Team Kaido</value>
   </string>
   <string key="TannerTeam">
@@ -1082,13 +1082,13 @@
   <string key="SerialKillerTeamEnd">
     <value>Team Barbanera</value>
   </string>
-  <string key="CultTeamEnd">
+  <string key="zoombiesTeamEnd">
     <value>Team Kaido</value>
   </string>
   <string key="TannerTeamEnd">
     <value>Team Shirahoshi</value>
   </string>
-  <string key="CultConvertWolf">
+  <string key="zoombiesConvertWolf">
     <value>Un headliner di Kaido ha mandato {0} per provare a reclutare {1}, ma da quella nave non è più uscito! {0} è stato catturato dalla marina...</value>
   </string>
   <string key="HarlotFuckedKilledPublic">
@@ -1106,7 +1106,7 @@
   <string key="ZombieKilled">
     <value>{0} è stato trovato pugnalato a morte. Barbanera ha colpito ancora! {0} era un sottoposto di Kaido.</value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>Il mattino seguente, i pirati furono affranti a trovano {0}, cioè Law, morto per terra. Stranamente il cuore sembra mancare...</value>
   </string>
   <string key="DrunkKilled">
@@ -1136,10 +1136,10 @@
   <string key="SerialKillerKilledCH">
     <value>Il corpo di {0}, Monkey D. Luffy, è stato trovato nel centro della città, senza vita. Cercare sottoposti di Kaido e trovare Barbanera non era nei piani...</value>
   </string>
-  <string key="CultConvertWolfPublic">
+  <string key="zoombiesConvertWolfPublic">
     <value>Sembrava una notte tranquilla, visto che i marines hanno deciso di rimanere a casa, ma l'unico sfortunato è stato {0}, un sottoposto di Kaido che ha provato a reclutare un marine. {0} passerà molto tempo dietro le sbarre.. sempre che non venga giustiziato!</value>
   </string>
-  <string key="CultConvertKillerPublic">
+  <string key="zoombiesConvertKillerPublic">
     <value>I sottoposti di Kaido pensavano di reclutare un nuovo membro tra di loro, ma si sbagliavano! {0}, un sottoposto di Kaido è stato trovato tritato nella piazza centrale! Tutto fa pensare a Barbanera.</value>
   </string>
   <string key="GAGuardedKiller">
@@ -1216,7 +1216,7 @@
   <string key="HaveJoined">
     <value>{0} sono entrati in partita negli ultimi 30 secondi.</value>
   </string>
-  <string key="AllowCult">
+  <string key="Allowzoombies">
     <value>Ammetti Kaido</value>
   </string>
   <string key="AllowTanner">
@@ -1438,7 +1438,7 @@
     <!-- DISATTIVATO PER ORA -->
     <value>Your teammates (if any) are: {0}</value>
   </string>
-  <string key="ThiefToCult">
+  <string key="ThiefTozoombies">
     <!-- DISATTIVATO PER ORA -->
     <value>{0} is no longer your teammate and {1} has now become a Zombie, just like you!</value>
   </string>

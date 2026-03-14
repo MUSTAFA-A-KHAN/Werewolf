@@ -12,7 +12,7 @@
  * Updated for jQuery 4.4
  * Oleg Kiriljuk oleg.kiriljuk@ok-soft-gmbh.com
  * the format corresponds now the format from
- * https://github.com/jquery/globalize/blob/master/lib/cultures/globalize.culture.de.js
+ * https://github.com/jquery/globalize/blob/master/lib/Cultures/globalize.Culture.de.js
  *
  * Dual licensed under the MIT and GPL licenses:
  * http://www.opensource.org/licenses/mit-license.php

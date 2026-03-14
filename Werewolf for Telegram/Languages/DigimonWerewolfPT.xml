@@ -162,7 +162,7 @@
 		<value>Você é Teddymon 💋, o brinquedo incansável da vila. Você nunca descansa, só pensa em brincar. Durante a noite, você poderá escolher alguém para brincar, mas cuidado, poderá ser um digimau.  Se você decidir brincar com alguém e os Weregarurumons tentarem te devorar na sua casa, você irá sobreviver (já que você não estava lá).</value>
 	</string>
 	<string key="RoleInfoTraitor">
-		<value>Traíííííra!! Você é Ogremon, um digimau oculto da vila 🖕! Por enquanto você é do time da Vila, mas assim que todos os Weregarurumons morrerem, você vai secretamente digievoluir para Weregarurumon e continuar a caçada de dados.  Se Wisemon estudar você, você pode ou não ser identificado como um Weregarurumon.</value>
+		<value>Traíííííra!! Você é Ogremon, um digimau ozoombieso da vila 🖕! Por enquanto você é do time da Vila, mas assim que todos os Weregarurumons morrerem, você vai secretamente digievoluir para Weregarurumon e continuar a caçada de dados.  Se Wisemon estudar você, você pode ou não ser identificado como um Weregarurumon.</value>
 	</string>
 	<string key="RoleInfoWolf">
 		<value>VOCÊ É UM WEREGARURUMON 🐺! Seria algo bom, mas infelizmente as engrenagens negras estão a solta, e você está infectado. Você e seu bando deverá atacar alguém a noite e tomar seus dados.</value>
@@ -326,25 +326,25 @@
 	<string key="ZombieVotedConvert" >
 		<value >{0} votou para converter {1}</value>
 	</string>
-	<string key="CultConvertZombieHunter">
+	<string key="zoombiesConvertZombieHunter">
 		<value>{0} foi enviado para ativar a Semente das Trevas impregnada em você. {1}... Entretanto, ele era Knightmon! {0} foi purificado!</value>
 	</string>
-	<string key="ZombieHunterKilledCultVisit">
+	<string key="ZombieHunterKilledzoombiesVisit">
 		<value>{0} foi à sua casa na noite passada, pronto para ativar a Semente das Trevas impregnada em você...  Mas você é Knightmon, logo o purificou. Um Escravo voltou para a Cidade dos Princípios... {1} restante(s)!</value>
 	</string>
-	<string key="CultConvertYou">
+	<string key="zoombiesConvertYou">
 		<value>Você teve a sua Semente das Trevas ativada, e agora é um Escravo de Myotismon.  Durante a noite, você pode tentar ativar a Semente das Trevas de outros digimons.</value>
 	</string>
-	<string key="CultTeam">
+	<string key="zoombiesTeam">
 		<value>Escravos de Myotismon: {0}</value>
 	</string>
-	<string key="CultJoin">
+	<string key="zoombiesJoin">
 		<value>{0} se juntou à Escravidão!</value>
 	</string>
-	<string key="CultVisitEmpty">
+	<string key="zoombiesVisitEmpty">
 		<value>{0} foi enviado(a) para fazer o trabalho sujo e ativar a Semente das Trevas {1}... Mas ninguém estava em casa!</value>
 	</string>
-	<string key="CultWins" isgif="true">
+	<string key="zoombiesWins" isgif="true">
 		<value >A ESCRAVIDÃO VENCEU! Todos os Weregarurumons morreram e as únicas pessoas sobreviventes são Escravos de Myotismon. É uma pena...</value>
 	</string>
 	<string key="HunterVisitDead">
@@ -441,21 +441,21 @@
 		<value>Os piratas são: {0}</value>
 	</string>
 	<!-- new strings May 6 2016-->
-	<string key="CultTargetDead">
+	<string key="zoombiesTargetDead">
 		<value>O Escravo mais recente de Myotismon corre para a casa de {0} para ativar a sua Semente das Trevas, mas infelizmente a casa estava toda destruida... Seu alvo teve os seus dados capturados!</value>
 	</string>
 	<string key="GuardBlockedWolf">
 		<value>Os Weregarurumons se dirigem à casa de {0}, para capturar os seus digidados, mas lá, dá de cara com HolyAngemon, cercado por uma enorme luz, armado com uma espada. HolyAngemon sai em defesa do alvo e, após uma luta ao som dos mais variados hits gospel, Weregarurumon sai derrotado e foge para casa.</value>
 	</string>
 	<!-- new strings May 9 2016-->
-	<string key="CultUnableToConvert">
+	<string key="zoombiesUnableToConvert">
 		<value>{0} foi enviado por Myotismon para ativar a Semente das Trevas de {1}, mas infelizmente não houve sucesso.</value>
 	</string>
 	<!-- new string May 12 2016-->
 	<string key="NameExists">
 		<value>@{1}, um digiescolhido com nome {0} já se juntou à partida. Por favor mude o seu nome para poder entrar no jogo.</value>
 	</string>
-	<string key="HarlotDiscoverCult">
+	<string key="HarlotDiscoverzoombies">
 		<value>Você decidiu brincar na casa de {0} para se divertir um pouco, mas enquanto saia, você notou através de uma porta semiaberta, um estranho pôster de Myotismon dentro de um quarto...</value>
 	</string>
 	<!-- new string May 13 2016-->
@@ -532,7 +532,7 @@
 		<value>Tempo esgotado!</value>
 	</string>
 	<!-- new strings june 10 2016 -->
-	<string key="RoleInfoCupid">
+	<string key="RoleInfoRecruiter">
 		<value>Você é MarineAngemon 🏹. Você pode escolher dois digimons para se apaixonarem. Se um deles morrer, o outro morrerá de tristeza.</value>
 	</string>
 	<string key="RoleInfoDoppelganger">
@@ -544,7 +544,7 @@
 	<string key="RoleInfoSerialKiller">
 		<value>Você é Piedmon. Você é um egoísta, estranho, sangue frio e cruel psicopata. Toda noite você poderá escolher um digimon para matar e aumentar o seu número de mortos.</value>
 	</string>
-	<string key="CupidChosen">
+	<string key="RecruiterChosen">
 		<value>MarineAngemon atingiu você com Ocean Love. Você nunca mais esquecerá {0}. Agora o objetivo é que os dois sobrevivam. Se um de vocês morrer, o outro morrerá de tristeza.</value>
 	</string>
 	<string key="HunterLynchedChoice">
@@ -572,7 +572,7 @@
 	<string key="HunterKilledFinalShot">
 		<value>{0} é ferido gravemente. Mas antes de morrer, ele puxa suas Pistolas Gêmeas e vai atrás de {1}, e o mata. {2}</value>
 	</string>
-	<string key="CultConvertSerialKiller">
+	<string key="zoombiesConvertSerialKiller">
 		<value>{0} entra de fininho na casa sinistra de {1}, para ativar a sua Semente das Trevas. Assim que ele entra, ouve uma voz sinistra "Que os jogos começem"! {1} aparece de repente com sua espada, e começa a ferir gravemente {0}, enquanto ele soltava um riso maléfico e assustador. {0} está morto.</value>
 	</string>
 	<string key="HunterShotWolfMulti">
@@ -590,10 +590,10 @@
 	<string key="GuardBlockedKiller">
 		<value>Você foi se divertir com {0}. Mas chegando lá, HolyAngemon acabou com sua diversão! Sem brincadeiras essa noite...</value>
 	</string>
-	<string key="CultConvertHunter">
+	<string key="zoombiesConvertHunter">
 		<value>Os Escravos mandam {0} para ativar a Semente das Trevas {1}. Chegando lá {0} é recebido com duas Pistolas Gêmeas! {0} está morto...</value>
 	</string>
-	<string key="CultConvertSerialKiller">
+	<string key="zoombiesConvertSerialKiller">
 		<value>Os Escravos mandam {0} para ativar a semente das Trevas {1}. Chegando lá {0}, descobre que era melhor não ter escolhido aquela pessoa. Piedmon se divertiu essa noite. {0} está morto...</value>
 	</string>
 	<string key="GuardKiller">
@@ -611,10 +611,10 @@
 	<string key="DGTransformToMason">
 		<value>{0} morreu, e você agora é um pirata da Tripulação de Olegmon.  Seus companheiros piratas (se houver) são: {1}</value>
 	</string>
-	<string key="DGToCult">
+	<string key="DGTozoombies">
 		<value>Metamormon {0} tentou se transformar na pessoa errada. E não passou despercebido por Myotismon. Ele ativou a Semente das Trevas em você, e agora você é um Escravo dele!</value>
 	</string>
-	<string key="DGTransformToCult">
+	<string key="DGTransformTozoombies">
 		<value>{0} morreu, e agora é um Escravo da Seita. Seus novos companheiros Escravos (se houver) são: {1}</value>
 	</string>
 	<string key="DGToWolf">
@@ -629,22 +629,22 @@
 	<string key="AskKill">
 		<value>Quem você quer matar essa noite?</value>
 	</string>
-	<string key="LoverDied">
+	<string key="crewmateDied">
 		<value>{0} dá seu último suspiro olhando no fundo dos olhos de seu amado, {1}, que segura seu corpo de joelhos. {1} não aguenta a dor, e fica em depressão profunda, incapaz de fazer qualquer coisa no jogo... Eles ficarão juntos algum dia novamente, quem sabe...? {2}</value>
 	</string>
 	<string key="AskDoppelganger">
 		<value> Quem você escolherá para se transformar?</value>
 	</string>
-	<string key="AskCupid1">
+	<string key="AskRecruiter1">
 		<value>Quem será o casal? Escolha o primeiro amante.</value>
 	</string>
-	<string key="AskCupid2">
+	<string key="AskRecruiter2">
 		<value>Quem será o casal? Escolha o segundo amante.</value>
 	</string>
 	<string key="Hunter">
 		<value>Beelzebumon 🎯</value>
 	</string>
-	<string key="Cupid">
+	<string key="Recruiter">
 		<value>MarineAngemon 🏹</value>
 	</string>
 	<string key="SerialKiller">
@@ -653,19 +653,19 @@
 	<string key="Doppelgänger">
 		<value>Metamormon 🎭</value>
 	</string>
-	<string key="CupidChosen">
+	<string key="RecruiterChosen">
 		<value>MarineAngemon atingiu você com Ocean Love! Agora você está apaixonado por {0}!  Se ele morrer, você também morre. No final, se ambos estiverem vivos, vocês vencem.</value>
 	</string>
 	<string key="NewWCRoleModel">
 		<value>Você é Gabumon 👶.  O seu grande exemplo é {0}</value>
 	</string>
-	<string key="LoversWin">
+	<string key="crewmatesWin">
 		<value>Os amantes venceram! Queriam o que né? O Amor sempre vence!</value>
 	</string>
 	<string key="HunterKilledVisiter">
 		<value>Quando acordam, vocês não encontram {0}. Vocês decidem ir até a casa de Beelzebumon, e parece que alguém visitou o solitário demônio Beelzebumon, e se deu mal! {1}</value>
 	</string>
-	<string key="CultAttempt">
+	<string key="zoombiesAttempt">
 		<value>Alguém invadiu a sua casa a noite, e esperou calmamente você dormir. Quando você dormia, ele tentou ativar a sua Semente das Trevas. Mas não funcionou, já que você tem a benção dos deuses digimon. Infelizmente quando você percebe algo de errado, ele já tinha fugido, e não conseguiu identificar o digimau.</value>
 	</string>
 	<string key="AlreadyOnWaitList">
@@ -737,7 +737,7 @@
 	<string key="AboutFool">
 		<value>Vademon 🃏 se acha incrível! Tão incrível que ele se considera mais inteligente que Wisemon, e capaz de descobrir o papel da pessoa que ele escolher. Mas infelizmente, ele é apenas um trouxa, e descobrirá sempre o papel errado.</value>
 	</string>
-	<string key="AboutCult">
+	<string key="Aboutzoombies">
 		<value>Myotismon jogou a Semente das Trevas em todos os digimons. Quando ele ativa a Semente, o digimon se torna Escravo de Myotismon 👤.  Durante a noite, o Escravo poderá escolher algum digimon para ter a sua Semente ativada.   Se todos os digimons restantes ao final do jogo forem Escravos das Trevas, Myotismon triunfará!</value>
 	</string>
 	<string key="AboutCH">
@@ -758,7 +758,7 @@
 	<string key="AboutDG">
 		<value>Metamormon 🎭 pode assumir a forma de qualquer digimon no jogo! Escolha um digimon, quando ele morrer você assumirá o papel dele no jogo.</value>
 	</string>
-	<string key="AboutCupid">
+	<string key="AboutRecruiter">
 		<value>MarineAngemon 🏹 é capaz de escolher dois digimons para se apaixonarem. Se um deles morrer, o outro morrerá de tristeza.</value>
 	</string>
 	<string key="AboutHunter">
@@ -934,10 +934,10 @@
 	<string key="AllowTannerA">
 		<value>Existência de Leomon 👺 definida como: {0}</value>
 	</string>
-	<string key="AllowCultQ">
+	<string key="AllowzoombiesQ">
 		<value>Permitir Escravos de Myotismon 👤 como um papel possível?\nAtual: {0}</value>
 	</string>
-	<string key="AllowCultA">
+	<string key="AllowzoombiesA">
 		<value>Existência de Escravos de Myotismon 👤 definida como: {0}</value>
 	</string>
 	<string key="ThankYou">
@@ -1047,7 +1047,7 @@
 		<value>O sol se põe, e você, infectado pela Engrenagem Negra, digievolui para Weregarurumon!</value>
 	</string>
 	<string key="AboutMayor">
-		<value>Baromon 🎖 está oculto entre todos, até se revelar. Então poderá ter o seu voto contado duas vezes na hora de votar para reiniciar alguém (ou seja, o seu voto é duas vezes mais poderoso do que qualquer um). Use o seu poder sabiamente para ajudar o Time da Vila.</value>
+		<value>Baromon 🎖 está ozoombieso entre todos, até se revelar. Então poderá ter o seu voto contado duas vezes na hora de votar para reiniciar alguém (ou seja, o seu voto é duas vezes mais poderoso do que qualquer um). Use o seu poder sabiamente para ajudar o Time da Vila.</value>
 	</string>
 	<string key="AboutPrince">
 		<value>Princemamemon 👑 é uma parte importante do Time da Vila. Assim que tentam reiniciá-lo, o seu papel de príncipe é revelado, e ele irá sobreviver. Assim, só poderá ser morto durante a noite, ou por Beelzebumon.</value>
@@ -1091,7 +1091,7 @@
 - <string key="SerialKillerTeam">
   <value>Time Piedmon</value> 
   </string>
-- <string key="CultTeam">
+- <string key="zoombiesTeam">
   <value>Time Escravo</value> 
   </string>
 - <string key="TannerTeam">
@@ -1109,13 +1109,13 @@
 - <string key="SerialKillerTeamEnd">
   <value>Time Piedmon</value> 
   </string>
-- <string key="CultTeamEnd">
+- <string key="zoombiesTeamEnd">
   <value>Time Escravo</value> 
   </string>
 - <string key="TannerTeamEnd">
   <value>Time Leomon</value> 
   </string>
-  - <string key="CultConvertWolf">
+  - <string key="zoombiesConvertWolf">
   <value>Myotismon envia o Escravo {0} para ativar as sementes de {1}, mas ele foi devorado e teve os seus digidados roubados... {0} está morto...</value> 
   </string>
 <string key="HarlotFuckedKilledPublic">
@@ -1133,7 +1133,7 @@
   <string key="ZombieKilled">
     <value>{0} foi torturado por Piedmon. {0} era um Escravo de Myotismon.</value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>Amanheceu, e os digimons ficam de coração partido ao descobrir que {0} está morto. MarineAngemon morreu.</value>
   </string>
   <string key="DrunkKilled">
@@ -1163,10 +1163,10 @@
   <string key="SerialKillerKilledCH"> <!--used when CH visits SK-->
     <value>Knightmon {0} foi morto ao visitar Piedmon. Lissão aprendida: Não visitar Piedmon, o cruel psicopata...</value>
   </string>
-  <string key="CultConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
+  <string key="zoombiesConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
     <value>O Escravo de Myotismon foi devorado por um Weregarurumon infectado durante a noite. {0} está morto.</value>
   </string>
-  <string key="CultConvertKillerPublic"> <!--used when Zombies convert the SK-->
+  <string key="zoombiesConvertKillerPublic"> <!--used when Zombies convert the SK-->
     <value>O Escravo de Myotismon foi assassinado por Piedmon durante a noite. {0} está morto.</value>
   </string>
   <string key="GAGuardedKiller">

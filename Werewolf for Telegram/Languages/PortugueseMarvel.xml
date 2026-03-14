@@ -304,25 +304,25 @@
   <string key="ZombieVotedConvert" >
     <value >{0} deseja ter {1} na Hydra...</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <value>{0} foi enviado(a) para fazer o trabalho sujo e recrutar {1}... Entretanto, ele era o Capitão América, rapidamente ele lança seu escudo na direção de {0}, que agora está morto(a)! "Nunca desonrarei o nome da Vespa!"</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <value>{0} foi à sua casa na noite passada, preparado(a) para te recrutar... Mas você atento nota o símbolo da serpente de três cabeças e mata o membro da Hydra! {1} restante(s)!</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>Você foi recrutado(a) e agora é um membro da Hydra.  Durante a noite, você poderá tentar recrutar outros hérois.</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>Membros da Hydra: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <value>{0} se juntou à Hydra!</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <value>{0} foi enviado(a) para recrutar {1}... Mas ninguém estava em casa!</value>
   </string>
-  <string key="CultWins" isgif="true">
+  <string key="zoombiesWins" isgif="true">
     <value >Todos os Cavaleiros do Apocalipse morreram e as únicas pessoas sobreviventes pertencem à Hydra..  A Hydra dominará o mundo! HAIL HYDRA!</value>
   </string>
   <string key="HunterVisitDead">
@@ -419,21 +419,21 @@
     <value>  Os agentes da S.H.I.E.L.D: {0}</value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <value>O membro mais recente da Hydra corre para a casa de {0} para fazer o trabalho sujo e convertê-lo(a), mas encontra uma bagunça, muito sangue e pedacinhos... Seu alvo foi assassinado!</value>
   </string>
   <string key="GuardBlockedWolf">
     <value>Os Cavaleiros se dirigem à casa de {0}, para o ataque, mas se deparam com o cabeça de teia que estava na espreita. O Homem-Aranha sai em defesa do alvo e, após uma luta ao som dos seus lançadores de teia e socos os cavaleiros fogem da batalha diante do aracnídeo.</value>
   </string>
   <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <value>{0} foi enviado(a) para fazer o trabalho sujo, mas os ideais de {1} são inabaláveis. :(</value>
   </string>
   <!-- new string May 12 2016-->
   <string key="NameExists">
     <value>@{1}, um(a) jogador(a) com nome {0} já está na guerra. Por favor mude seu nome para poder entrar no jogo.</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <value>Você dormiu na casa de {0} para persuadí-lo e coletar informações, mas enquanto saía você notou através de uma porta semiaberta um estranho símbolo de uma caveira com tentáculos...</value>
   </string>
   <!-- new string May 13 2016-->
@@ -470,7 +470,7 @@
 	<value>Tempo esgotado!</value>
   </string>
   <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
     <value>Você é a Encantor. A Encantadora de mentes, você pode escolher dois jogadores que serão enfeitiçados para toda eternidade com a ilusão de que são dois amantes. Se um deles morrer, o outro morrerá de tristeza. Depois de escolher os enfeitiçados, você pode voltar ao seu papel como Herói.</value>
   </string>
   <string key="RoleInfoDoppelganger">
@@ -521,10 +521,10 @@
   <string key="GuardBlockedKiller">
     <value>Você foi jogar um joguinho com {0}. Mas chegando lá o Homem-Aranha acabou com sua diversão! Não será hoje que você estourará seus miolos...</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <value>A Hydra manda {0} para converter {1}. Chegando lá {0} é recebido com uma flecha no meio do peito! {0} tá morta...</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <value>A Hydra manda {0} para recrutar {1}. Chegando lá {0} descobre que era melhor ter ficado na base. Seu corpo é encontrado aberto na rua, mas com os orgãos revirados. {0} está morto(a)...</value>
     <value>{0} arromba a porta da casa de {1}. Assim que entra, ouve uma voz sinistra "Você será punido!". {1} aparece de repente com uma pistola que começa a atirar em {0} decorando sua sala com sangue. {0} está morto(a)</value>
   </string>
@@ -543,10 +543,10 @@
   <string key="DGTransformToMason">
     <value>{0} morreu, e você agora é um agente da S.H.I.E.L.D.  Os outros agentes (se houver) são: {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <value>A Mímica {0} se transformou em um membro da Hydra. Recebam de braços abertos seu novo recruta!</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <value>{0} morreu, aceita que você entrou para a Hydra. Seus novos companheiros (se houver) são: {1}</value>
   </string>
   <string key="DGToWolf">
@@ -561,22 +561,22 @@
   <string key="AskKill">
     <value>Quem você quer matar essa noite?</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <value>{0} dá seu último suspiro com o olhar fixo em {1}, que segura seu corpo de joelhos. {1} ainda sob os efeitos do feitiço da Encantor, com uma faca, perfura o próprio coração... Eles ficarão juntos, mesmo no mundo dos mortos. {2}</value>
   </string>
   <string key="AskDoppelganger">
     <value> Quem você escolherá para se transformar?</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>Quem serão os enfeitiçados? Escolha o primeiro a enfeitiçar.</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>Quem serão os enfeitiçados ? Escolha o segundo a enfeitiçar.</value>
   </string>
   <string key="Hunter">
     <value>o Gavião Arqueiro 🎯</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>Encantor 🏹</value>
   </string>
   <string key="SerialKiller">
@@ -585,21 +585,21 @@
   <string key="Doppelgänger">
     <value>a Mímica 🎭</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>Os feitiços de Encantor invadem sua mente! Você está apaixonado por {0}!  Se ele(a) morre, você morre também. No final, se ambos estiverem vivos, vocês vencem.</value>
     <value>Você foi enfeitiçado(a) pela Encantor. A memória de {0} nunca deixará seu coração. Seu objetivo é que os dois sobrevivam. Se um de vocês morrer o outro irá até o mundo dos mortos para que ambos continuem juntos.</value>
   </string>
   <string key="NewWCRoleModel">
     <value>Você se tornou o Bruce Banner. Seu modelo exemplar é {0}</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
     <value>Os amantes venceram! Queriam o que né? O Amor sempre vence!</value>
   </string>
   <string key="HunterKilledVisiter">
     <value>Quando acordam, vocês encontram {0} largado no meio da praça, parecendo uma peneira por causa das flechadas recebidas. Parece que alguém visitou o Gavião Arqueiro e se deu mal! {1}</value>
   </string>
 
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>Alguém bateu na sua porta a noite, "Nós somos a Hydra, nossa missão é buscar poder para conquistar todo o mundo" Você fecha a porta na cara deles, sua fé é mais forte, mas você se esqueceu de olhar o rosto dele!</value>
   </string>
   <string key="AlreadyOnWaitList">
@@ -673,7 +673,7 @@
   <string key="AboutFool">
     <value>he fool is told they are the seer.... when they choose to see someone's role at night, they are told a random role.</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>Você é um agente da Hydra.  Durante a noite, você poderá escolher alguém para recrutar à Hydra. Se todos os jogadores restantes ao final do jogo forem da Hydra, ela vence!</value>
   </string>
   <string key="AboutCH">
@@ -695,7 +695,7 @@
     <value>
      Você é a Vampira! Com sua Habilidade de absorção de memórias vocÊ pode copiar os poderes de qualquer um dos johadores apenas ao tocá-los. Escolha de qual personagem você deseja copiar os poderes. Você só poderá usá-los após a morte do personagem escolhido.</value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>
       Você é a Encantor, A Encantadora de mentes! Você pode escolher dois jogadores que serão enfeitiçados para toda eternidade com a ilusão de que são dois amantes. Se um deles morrer, o outro morrerá de tristeza. Depois de escolher os enfeitiçados, você pode voltar ao seu papel como Herói.
     </value>
@@ -869,10 +869,10 @@
   <string key="AllowTannerA">
     <value>Existência do Nitro definida como: {0}</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>Permitir a Hydra como um papel possível?\nAtual: {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>Existência da Hydra definida como: {0}</value>
   </string>
   <string key="ThankYou">
@@ -1026,7 +1026,7 @@
   <string key="SerialKillerTeam">
     <value>Time Justiceiro</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>Time da Hydra</value>
   </string>
   <string key="TannerTeam">
@@ -1044,13 +1044,13 @@
   <string key="SerialKillerTeamEnd">
   <value>Time Justiceiro.</value> 
   </string>
- <string key="CultTeamEnd">
+ <string key="zoombiesTeamEnd">
   <value>Time da Hydra.</value> 
   </string>
   <string key="TannerTeamEnd">
   <value>Time Nitro.</value> 
   </string>
-  <string key="CultConvertWolf">
+  <string key="zoombiesConvertWolf">
   <value>A Hydra envia {0} para tentar recrutar {1}, mas em vez disso, sua cabeça ensanguentada é violentamente atirada pela janela. {0} está morto...</value>
   </string>	  
   <string key="HarlotFuckedKilledPublic">
@@ -1066,7 +1066,7 @@
   <string key="ZombieKilled">
     <value>De manhã todos encontram {0} com uma caveira desenhada com sangue na testa. O Justiceiro apoia somente a sua causa, ninguém é impune para ele! A Hydra sentirá a falta de {0}...</value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>Os dias de encantamento de {0}, a Encantor chegam ao fim. Ela é encontrada morta, com a boca costurada, obviamente obra do Justiceiro.</value>
   </string>
  <string key="DrunkKilled">
@@ -1096,10 +1096,10 @@
   <string key="SerialKillerKilledCH"> <!--used when CH visits SK-->
     <value>A Cidade acordou essa manhã só para encontrar um corpo enrolado na bandeira americana no meio da cidade. {0}, o Capitão América, visitou a pessoa errada. O Justiceiro utilizou o escudo de vibranium para multilar seu corpo, assim dando fim ao herói patriota.</value>
   </string>
-  <string key="CultConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
+  <string key="zoombiesConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
     <value>Péssima escolha da Hydra ao visitar um Cavaleiro que descansava em seu lar após fazer algumas vítimas. {0} está morto, mais uma vítima dos Cavaleiros, que só se preocupam com a causa do Apocalipse.</value>
   </string>
-  <string key="CultConvertKillerPublic"> <!--used when Zombies convert the SK-->
+  <string key="zoombiesConvertKillerPublic"> <!--used when Zombies convert the SK-->
     <value>Ontem a noite a Hydra decidiu visitar o pior idealista, o Justiceiro, cansado de ouvir as palavras de {0}, o justiceiro resolve silenciá-lo(a) de uma vez por todas.</value>
   </string>
   <string key="GAGuardedKiller">

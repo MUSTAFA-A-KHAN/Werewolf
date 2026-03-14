@@ -301,25 +301,25 @@
   <string key="ZombieVotedConvert" >
     <value >{0} votou para converter {1} para a nova ordem.</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <value>{0} foi enviado para converter {1}... entretanto, ele era o Agente de Controle! {0} está morto!</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <value>{0} foi em seu dormitório na noite passada, pronto para te converter....  mas você atravessou-o com sua faca.  Um membro da Nova Ordem está morto... {1} restante(s)!</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>Você foi convertido e agora é um agente da Nova Ordem.  Durante a noite, você poderá tentar converter outros jogadores.</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>Agentes da Nova Ordem: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <value>{0} se juntou à Nova Ordem!</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <value>{0} foi enviado para converter {1}... mas ninguém estava no dormitório!</value>
   </string>
-  <string key="CultWins" isgif="true">
+  <string key="zoombiesWins" isgif="true">
     <value >Todos os terroristas morreram e as únicas pessoas sobreviventes pertencem à Nova Ordem...  A Nova Ordem venceu! Preparem-se para uma possível ditadura militar.</value>
   </string>
   <string key="HunterVisitDead">
@@ -416,21 +416,21 @@
     <value>  Os cabos são: {0}</value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <value>O membro mais recente da Nova ordem corre para o dormitório de {0} para fazer o trabalho sujo e convertê-lo , mas encontra uma bagunça e muito sangue espalhados pelo chão... o alvo morreu!</value>
   </string>
   <string key="GuardBlockedWolf">
     <value>Um dos terroristas se dirige ao dormitório de {0}, mas quando entra, encontra um homem alto e parrudo o encarando. Antes que pudesse revidar, o homem deu um soco tão forte que o terrorista caiu no chão, desmaiado. Então, o segurança o leva para fora do dormitório, sem saber que o terrorista é o alvo.</value>
   </string>
   <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <value>{0} foi enviado para fazer o trabalho sujo, mas as crenças de {1} eram fortes de mais para serem corrompidas. :(</value>
   </string>
   <!-- new string May 12 2016-->
   <string key="NameExists">
     <value>@{1}, um jogador com nome {0} já se juntou à partida.  Por favor mude seu nome para poder entrar no jogo.</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <value>Você estava seguindo {0}, quando viu que ele estava com um bando de pessoas desconhecidas, que pareciam ser da Nova Ordem...</value>
   </string>
   <!-- new string May 13 2016-->
@@ -506,7 +506,7 @@
 	<value>Tempo esgotado!</value>
   </string>
   <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
     <value>Você é o General. Você tem dois filhos na guerra, que se amam muito. Caso um deles morrer, o outro vai se matar em desespero. Mas você pode escolher quem serão seus filhos.</value>
   </string>
   <string key="RoleInfoDoppelganger">
@@ -542,7 +542,7 @@
   <string key="HunterKilledFinalShot">
     <value>{0} cai no chão, ferido mortalmente... Mas antes de morrer, ele puxa sua pistola e dá um tiro certeiro em {1}, que cai duro no chão, com um novo orifício na testa. {2}</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <value>{0} entra de fininho na casa de {1}. Assim que entra, ouve uma voz sinistra "Que os jogos começem"! {1} aparece de repente com uma faca e começa a cortar {0} criando um lindo retalho para sua coleção. Antes de morrer, {1} diz a {0} "Você ia morrer de qualquer jeito!". {0} está morto</value>
   </string>
   <string key="HunterShotWolfMulti">
@@ -560,7 +560,7 @@
   <string key="GuardBlockedKiller">
     <value>Você foi jogar um joguinho com {0}. Mas chegando lá o Segurança acabou com sua diversão! Sem brincadeiras essa noite...</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <value>A Nova Ordem manda {0} para converter {1}. Chegando lá {0} é recebido com uma bala bem no meio dos córneo! {0} tá morta...</value>
   </string>
   <string key="GuardKiller">
@@ -575,10 +575,10 @@
   <string key="DGTransformToMason">
     <value>{0} morreu, e você foi chamado para assumir o papel de {0} como cabo.  Seus companheiros (se houver) são: {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <value>O Substituto {0} se transformou em um membro da Nova Ordem.</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <value>{0} morreu, e você teve que substituir seu papel como um agente da Nova Ordem. Seus novos companheiros (se houver) são: {1}</value>
   </string>
   <string key="DGToWolf">
@@ -593,22 +593,22 @@
   <string key="AskKill">
     <value>Quem você quer matar essa noite?</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <value>{0} levou um tiro no peito durante a guerra e seu irmão {1}, foi correndo em sua direção. Chorando pela morte de seu irmão, que estava sob seus braços, {1} leva um tiro na testa e cai morto no chão. Os dois vão viver no mesmo mundo para sempre. {2}</value>
   </string>
   <string key="AskDoppelganger">
     <value> Quem você escolherá para substituir?</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>Quem será seus filhos? Escolha seu primeiro filho.</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>Agora, escolha seu segundo filho.</value>
   </string>
   <string key="Hunter">
     <value>o Mestre de Armas 🎯</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>o General 🏹</value>
   </string>
   <string key="SerialKiller">
@@ -617,20 +617,20 @@
   <string key="Doppelgänger">
     <value>o Substituto 🎭</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>Recentemente, você descobriu que {0} é seu irmão! Não é muita surpresa, já que vocês eram melhores amigos muito antes disso acontecer, mas isso só firmou ainda mais sua amizade. Caso seu irmão morra, você irá se matar para se juntar a ele no mundo dos mortos, e vice-versa. Se no final vocês forem os unicos vivos, vocês vencem.</value>
   </string>
   <string key="NewWCRoleModel">
     <value>Você se tornou a Amigo Leal. Seu melhor amigo é {0}</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
     <value>Os irmãos venceram. Agora, restou eles num lugar deserto.</value>
   </string>
   <string key="HunterKilledVisiter">
     <value>Quando acordam, vocês encontram {0} largado no meio da paraça, parecendo uma peneira por causa dos tiros. Parece que alguém visitou o caçador e se deu mal! {1}</value>
   </string>
 
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>Alguém bateu na sua porta a noite, "Olá, você tem um minuto para ouvir a palavra da Nova Ordem?" Você fecha a porta na cara deles, sua fé é mais forte!</value>
   </string>
   <string key="AlreadyOnWaitList">
@@ -705,7 +705,7 @@
   <string key="AboutFool">
     <value>Você é o Hacker! Logo após de ter descoberto uma brecha nos servidores do governo, todas as noites você pode o invadir para saber o papel de alguém, antes que o firewall te desconecte! Não se esqueça de se conectar a uma VPN antes.</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>Você é um agente da Nova Ordem. Vocês são um grupo de protestantes, que acham que deveriam assumir o poder... (de uma forma bruta). Durante a noite, você poderá escolher alguém para converter à Nova ordem. Se todos os jogadores restantes ao final do jogo forem da Nova Ordem, ela vence!</value>
   </string>
   <string key="AboutCH">
@@ -728,7 +728,7 @@
      Você é um Substituto. Você é uma pessoa que pode assumir o papel de qualquer um, caso essa pessoa morra.
     </value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>
       Você é o General. Você tem dois filhos na guerra, que se amam muito. Caso um deles morrer, o outro vai se matar em desespero. Mas você pode escolher quem serão seus filhos.
     </value>
@@ -912,10 +912,10 @@
   <string key="AllowTannerA">
     <value>Existência do Homem-bomba definida como: {0}</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>Permitir a Nova ordem como um papel possível?\nAtual: {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>Existência da Nova ordem definida como: {0}</value>
   </string>
   <string key="ThankYou">
@@ -1102,13 +1102,13 @@
 - <string key="SerialKillerTeamEnd">
   	<value>Time do Louco</value> 
   </string>
-- <string key="CultTeamEnd">
+- <string key="zoombiesTeamEnd">
   	<value>Time da Nova Ordem</value> 
   </string>
 - <string key="TannerTeamEnd">
   	<value>Time do Homem-Bomba</value> 
   </string>
-  <string key="CultConvertWolf">
+  <string key="zoombiesConvertWolf">
   	<value>{0} foi enviado para converter {1}... entretanto, ele era um Terrorista! {0} está morto!</value> 
   </string>
   <string key="HarlotFuckedKilledPublic">
@@ -1123,7 +1123,7 @@
   <string key="ZombieKilled">
     <value>Os soldados acordam marchando para o pátio central, e para a surpresa de todos, {0} não respondeu à chamada. Então, o Coronel pede para um dos soldados ir verificar no dormitório de {0}, e o soldado volta, cabisbaixo com a notícia de que ele havia morrido. Havia um corte em {0}, o que provavelmente era obra do louco. {0} era um Agente da Nova Ordem.</value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>Os soldados acordam marchando para o pátio central, e para a surpresa de todos, {0} não respondeu à chamada. Então, o Coronel pede para um dos soldados ir verificar no dormitório de {0}, e o soldado volta, cabisbaixo com a notícia de que ele havia morrido. O rosto do General havia sido retirado, o que provavelmente era obra do louco. {0} era o General.</value>
   </string>
   <string key="DrunkKilled">
@@ -1153,10 +1153,10 @@
   <string key="SerialKillerKilledCH"> <!--used when CH visits SK-->
     <value>Os soldados acordam marchando para o pátio central, e para a surpresa de todos, {0} não respondeu à chamada. Então, o Coronel pede para um dos soldados ir verificar no dormitório de {0}, e o soldado volta, cabisbaixo com a notícia de que ele havia morrido. A primeira suspeita foi sobre a Nova Ordem, mas depois perceberam que isso era obra do louco. {0} era o Agente de Controle.</value>
   </string>
-  <string key="CultConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
+  <string key="zoombiesConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
     <value>A Nova Ordem pensou que não era necessário usar força bruta para falar com terroristas que tinham os mesmos interesses: Eliminar o Exército. Que péssimo pensamento, pois no primeiro contato, {0} foi morto.</value>
   </string>
-  <string key="CultConvertKillerPublic"> <!--used when Zombies convert the SK-->
+  <string key="zoombiesConvertKillerPublic"> <!--used when Zombies convert the SK-->
     <value>A Nova Ordem foi no dormitório do Louco para tentar convencê-lo a se juntar a eles, mas na primeira conversa, o Louco atravessou uma faca pela barriga de {0}.</value>
   </string>
   <string key="GAGuardedKiller">
@@ -1227,7 +1227,7 @@
     <!-- {0} = list of people who have joined -->
     <value>{0} entrou na guerra nos últimos 30 segundos.</value>
   </string>
-  <string key="AllowCult">
+  <string key="Allowzoombies">
     <value>Permite Nova Ordem</value>
   </string>
   <string key="AllowTanner">

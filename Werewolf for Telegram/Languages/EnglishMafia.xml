@@ -187,7 +187,7 @@
     <value >Welcome to the Church of Happyology (Zombie) 👤! You only wants everyone, mafia or not, chill and worship your deity. Now go convert those poor sad people out there!</value>
   </string>
   <string key="RoleInfoZombieHunter" >
-    <value >You are the IRS Officer (Cult Hunter) 💂. You're informed that the Church of Happyology are embezzling tax from the City. Go arrest those creepy religious member!</value>
+    <value >You are the IRS Officer (zoombies Hunter) 💂. You're informed that the Church of Happyology are embezzling tax from the City. Go arrest those creepy religious member!</value>
   </string>
   <string key="LynchTime" >
     <value >
@@ -336,25 +336,25 @@
   <string key="ZombieVotedConvert" >
     <value >{0} has voted to convert {1} to the Church of Happyology.</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <value>{0} was sent to {1}'s house to convert and offer them "tax evasion" plan. However, they were IRS Agent! {0} was arrested for tax embezzlement.</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <value>{0} was arrested for trying to offer you a "tax evasion" plan. Your informant says that {1} church member remain.</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>Welcome to the Church of Happyology! Forget about the Mafia, this church will help you. Every night, you have the opportunity to offer the same fellowship to other players.</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>Fellow member of the Church: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <value>You welcome {0} to the Church!</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <value>{0} went to {1}'s house, but they weren't home!</value>
   </string>
-  <string key="CultWins" isgif="false">
+  <string key="zoombiesWins" isgif="false">
     <value >All the cops are gone, and Fairview is now a haven for the Church of Happyology!</value>
   </string>
   <string key="HunterVisitDead">
@@ -452,21 +452,21 @@
     <value>  The other Caporegimes at your meeting with the Godfather are {0}</value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <value>{0} is trying to convert a new prospective member, but they find a police raid was happening on their house... </value>
   </string>
   <string key="GuardBlockedWolf">
     <value>The polices are trying to raid {0}'s house, but find that the Bouncer and their arsenal are blocking the way. Didn't want to risk a full-blown firefight, the cops retreated.</value>
   </string>
   <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <value>{0} try to convert {1} to the Church, but they were dismissed as "child's play"!</value>
   </string>
   <!-- new string May 12 2016-->
   <string key="NameExists">
     <value>@{1}, a player with the name {0} has already joined.  Please change your name to join.</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <value>You deliver some documents to {0}'s house! Your curiosity wins out, and you peek into the envelope. There was a letter from the Head of the Church of Happyology!</value>
   </string>
   <!-- new string May 13 2016-->
@@ -545,8 +545,8 @@
 	<value>Time's up!</value>
   </string>
   <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
-    <value>You are a Pastor (Cupid) 🏹, the witness of an (un)holy matrimony and true love. As wedded spouse, the two before you will not leave one's side, in shame or in jail.</value>
+  <string key="RoleInfoRecruiter">
+    <value>You are a Pastor (Recruiter) 🏹, the witness of an (un)holy matrimony and true love. As wedded spouse, the two before you will not leave one's side, in shame or in jail.</value>
   </string>
   <string key="RoleInfoDoppelganger">
     <value>You are an ID Thief (Doppelgänger) 🎭. Starting as a simple pickpocket, you realize that you can easily fool the city into tricking that you are the person in any identity card you have. Of course, you can only use the identity when the original is not in town.</value>
@@ -557,7 +557,7 @@
   <string key="RoleInfoSerialKiller">
     <value>You are the Kidnapper (Serial Killer) 🔪. Kidnapping people without demanding any ransom, you do this every night just for giggles. Throw a people in your dungeon every night, and perhaps you can open your own museum later!</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>You wed {0} in the city's Church. You will not leave each other's side, in jail or in shame.</value>
   </string>
   <string key="HunterLynchedChoice">
@@ -584,7 +584,7 @@
   <string key="HunterKilledFinalShot">
     <value>{0} left the city in shame. In their way out of city, you saw them pushing a button, and then you heard an explosion! It seems that {1}'s house was reduced to rubble. {1} left the city. {2}</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <value>{0} went to try to convert {1}, but they haven't been heard since! It's like they are kidnapped and disappear from the face of the earth!</value>
   </string>
   <string key="HunterShotWolfMulti">
@@ -602,10 +602,10 @@
   <string key="GuardBlockedKiller">
     <value>You try to induct {0} to your collection, but on the way you see the Bouncer and his Mobile Arsenal. You hastily retreated for the night.</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <value>The Church of Happyology sent {0} to {1}'s house! Unfortunately, when the bell is rung, a trap door swallowed {0}! {0} is missing...</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <value>The Church of Happyology sent {0} to {1}'s house! {1} seemed nice enough until they shoved and locked {0} to the freezer room! {0} is missing...</value>
   </string>
   <string key="GuardKiller">
@@ -623,10 +623,10 @@
   <string key="DGTransformToMason">
     <value>{0} is not in the city anymore! You begin to modify the ID to be received as a Capo. Your fellow Capos (if any) are: {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <value>The ID theft shows up to the Church of Happyology meeting! {0} is now a member of the Church!</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <value>{0} is not in the city anymore! You begin to modify the ID to be received as a Church Member. Your fellow members (if any) are: {1}</value>
   </string>
   <string key="DGToWolf">
@@ -641,22 +641,22 @@
   <string key="AskKill">
     <value>Who do you want to add to your collection tonight?</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <value>With {0}'s disappearance, it seems that {1} their spouse follows suit. They go together, just like a good couple should be. {2}</value>
   </string>
   <string key="AskDoppelganger">
     <value>Whose identity do you want to pickpocket?</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>Who did swear eternal love in the Church of Fairview? Choose the first player!</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>Who did swear eternal love in the Church of Fairview? Choose the last player!</value>
   </string>
   <string key="Hunter">
     <value>the Construction Worker 🎯</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>Pastor 🏹</value>
   </string>
   <string key="SerialKiller">
@@ -665,19 +665,19 @@
   <string key="Doppelgänger">
     <value>the ID Thief 🎭</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>💞💞 You swore your eternal love to {0}, for better, for worse, in health and in sickness. If they have to leave the city, you will also follow. 💞💞</value>
   </string>
   <string key="NewWCRoleModel">
     <value>You take the identity of an Idealist 👶. Your parent is {0}.</value>
   </string>
-  <string key="LoversWin">
-    <value>True love endures! The lovers have won!</value>
+  <string key="crewmatesWin">
+    <value>True love endures! The crewmates have won!</value>
   </string>
   <string key="HunterKilledVisiter">
     <value>The Newspaper just come in! {0} is lost, their last message said that they were going to the Construction Worker's house! {1}</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>A member of the Church of Happyology tried to fold you to their midst, but you dismiss them as a silly group.</value>
   </string>
   <string key="AlreadyOnWaitList">
@@ -748,11 +748,11 @@
   <string key="AboutFool">
     <value>You know who's the real fool? *glares menacingly*\n \nNot you, but that gossiper! They think they are a great source of info, and goes around town gossiping about anybody. They even acts like our Technician. However, their sources can't really be trusted and they just accuse anybody randomly!</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>Ah, I know what you are thinking about... *smiles mischievously*\n \nAs for me, I'm thinking of those Church of Happyology (Zombie) 👤! They say they only want everyone, mafia or not, chill and worship their deity. I say they are embezzling our city's treasury and our Family's wealth.\n \nI actually see one of them visiting someone every other night, recruiting everybody they meet to their little club. The city will be surely gone if everybody follow their lead.</value>
   </string>
   <string key="AboutCH">
-    <value>That bloke huh? They are on our payroll, too... *squints unexpectedly*\n \nThe local IRS Officer (Cult Hunter) 💂 is tasked to battle tax embezzlement by the Feds. The godfather informed them that the Church of Happyology are embezzling tax from the City, so the Agent is in good standing with us... for now.</value>
+    <value>That bloke huh? They are on our payroll, too... *squints unexpectedly*\n \nThe local IRS Officer (zoombies Hunter) 💂 is tasked to battle tax embezzlement by the Feds. The godfather informed them that the Church of Happyology are embezzling tax from the City, so the Agent is in good standing with us... for now.</value>
   </string>
   <string key="AboutWC">
     <value>Aren't you THE wild one, asking all this questions? *hums a sweet tune*\n \nYou remind me of the Idealist (Wild Child) 👶. Always a do-gooder, that kid, never to lose hope on humanity. Even with a scum like me, he tried to make me "mend my ways." Got it from their parents, I suppose. I just hope nothing bad happens to their parent. It's the only thing preventing him to become a police officer, you see.</value>
@@ -767,11 +767,11 @@
     <value>Of course I know them. They are good guys. Great even. *grins*\n \nThey are the Caporegime (Mason) 👷, a Mafia Captain! They say they are the only ones at mafia meeting, so they know other Caporegime as well. They don't have their own assistants, though.</value>
   </string>
   <string key="AboutDG">
-    <value>That little thief. That's my third wallet this week. *growls angrily*\n \nI'm talking about the ID Thief (Doppelgänger) 🎭. Starting as a simple pickpocket, they realize that they can easily fool the city into tricking that they are the person in any identity card you have. Of course, they can only use the identity when the original is not in town.\nNote: If the original ID owner was converted to the Church of Happyology, they will take on their original role. All other normal rules apply: If they were the Idealist and their parents disappeared, the Thief will become a police. Otherwise, they will inherit their parents.\nThe Church of Happyology cannot convert the ID Thief (but can after the Thief switches roles). Also - the ID Thief can NOT win unless they have take over a role. If at the end of the game, the ID Thief is still the same, they lose (exception: lover).
+    <value>That little thief. That's my third wallet this week. *growls angrily*\n \nI'm talking about the ID Thief (Doppelgänger) 🎭. Starting as a simple pickpocket, they realize that they can easily fool the city into tricking that they are the person in any identity card you have. Of course, they can only use the identity when the original is not in town.\nNote: If the original ID owner was converted to the Church of Happyology, they will take on their original role. All other normal rules apply: If they were the Idealist and their parents disappeared, the Thief will become a police. Otherwise, they will inherit their parents.\nThe Church of Happyology cannot convert the ID Thief (but can after the Thief switches roles). Also - the ID Thief can NOT win unless they have take over a role. If at the end of the game, the ID Thief is still the same, they lose (exception: crewmate).
     </value>
   </string>
-  <string key="AboutCupid">
-    <value>Another do-gooder huh? At least they're on our side. *glances to the direction of the church*\n \nThe Pastor (Cupid) 🏹 is the witness of an (un)holy matrimony and true love. As wedded spouse, the two before them will not leave one's side, in shame or in jail.\n \nNote: Lovers will know who each other are, but not be told their roles. If the lovers are the last two alive, they win, regardless of teams. If the lovers are on different teams (Mafia + Police), and one team wins (Police), the lover (Mafia) wins as well. TL;DR if both lovers are alive at the end, and at least one of them was on the winning team, they both win together
+  <string key="AboutRecruiter">
+    <value>Another do-gooder huh? At least they're on our side. *glances to the direction of the church*\n \nThe Pastor (Recruiter) 🏹 is the witness of an (un)holy matrimony and true love. As wedded spouse, the two before them will not leave one's side, in shame or in jail.\n \nNote: crewmates will know who each other are, but not be told their roles. If the crewmates are the last two alive, they win, regardless of teams. If the crewmates are on different teams (Mafia + Police), and one team wins (Police), the crewmate (Mafia) wins as well. TL;DR if both crewmates are alive at the end, and at least one of them was on the winning team, they both win together
     </value>
   </string>
   <string key="AboutHunter">
@@ -779,7 +779,7 @@
     </value>
   </string>
   <string key="AboutSK">
-    <value>I thought they are only an urban legend... *hunchs instinctively*\n \nThe Kidnapper (Serial Killer) 🔪 is the nightmare of the city. Kidnapping people without demanding any ransom, they do this every night just for giggles. They throw a people in your dungeon every night, and they say perhaps they want to open their own museum later! \n \nThey can win only if they are the last player alive (exception: lovers). As the Kidnapper, they can kidnap ANYONE - Mafia, Police, Bouncer, Pastor, whatever. If the police raid your home, they will kidnap one of them instead (random), and live.</value>
+    <value>I thought they are only an urban legend... *hunchs instinctively*\n \nThe Kidnapper (Serial Killer) 🔪 is the nightmare of the city. Kidnapping people without demanding any ransom, they do this every night just for giggles. They throw a people in your dungeon every night, and they say perhaps they want to open their own museum later! \n \nThey can win only if they are the last player alive (exception: crewmates). As the Kidnapper, they can kidnap ANYONE - Mafia, Police, Bouncer, Pastor, whatever. If the police raid your home, they will kidnap one of them instead (random), and live.</value>
   </string>
   <string key="AboutPara">
     <value>Para is The Godfather, even above the Fairview's Godfather. It is rumored he collects thousands of fedoras and have worn every single one of them.</value>
@@ -947,10 +947,10 @@
   <string key="AllowTannerA">
     <value>Suicide Bomber as a role set to: {0}</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>Allow Church of Happyology as a role option?\nCurrent: {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>Church of Happyology as a role set to: {0}</value>
   </string>
   <string key="ThankYou">
@@ -1100,7 +1100,7 @@
   <string key="SerialKillerTeam">
     <value>Kidnapper Team</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>Church of Happyology</value>
   </string>
   <string key="TannerTeam">
@@ -1118,7 +1118,7 @@
   <string key="SerialKillerTeamEnd">
     <value>Kidnapper Team</value>
   </string>
-  <string key="CultTeamEnd">
+  <string key="zoombiesTeamEnd">
     <value>Church of Happyology</value>
   </string>
   <string key="TannerTeamEnd">

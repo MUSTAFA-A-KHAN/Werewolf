@@ -422,36 +422,36 @@ FIRE AND BLOOD❗️
 <!-- 1 - target name -->
     <value>{0} میخواد که {1} تبدیل بشه🙋</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
 <!-- 0 - Yougest Zombie (killed)'s name' -->
 <!-- 1 - ZombieHunter's name -->
     <value>{0} خواست تا بنجن استارک💂رو تبدیل کنه اما {1} اونو سوزوند و نابود شد.</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
 <!-- 0 - Youngest Zombie's name -->
 <!-- 1 - Number of Zombies left -->
     <value>دیروز میان طوفان{0}رو دیدی که میومد تا تبدیلت کنه اما تو اونو سوزوندی و اون از بین رفت🚫☠️
 {1}نفر باقی مونده</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>دیشب یکی از وایت واکر ها به خونه ی تو اومد و تورو کشت و بعد از اینکه تو رو کشت تو رو به یکی از خودشون تبدیل کرد❗️😀
 تو الان یه وایت واکر👤هستی</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
 <!-- 0 - Number of Zombies -->
 <!-- 0 - Number of Zombies -->
     <value>وایت وایکر های دیگه: {0} </value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
 <!-- 0 - new Zombie's name -->
     <value>{0} به وایت واکر تبدیل شد❗️</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
 <!-- 0 - Newest Zombie's name -->
 <!-- 1 - target name -->
     <value>{0} به خونه {1} رفت که اونو تبدیل کنه اما اون خونه نبود❗️</value>
   </string>
-  <string key="CultWins">
+  <string key="zoombiesWins">
     <value>همه ی لنیستر ها مردن و مردم هم به مردگان متحرک تبدیل شدن.
 وایت وایکر ها برنده شدن👤💀</value>
   </string>
@@ -559,7 +559,7 @@ HIS WATCH IS NOW END</value>
 <!-- new strings May 6 2016-->
     <value>همراهانت در دیوار عبارت اند از: {0} </value>
   </string>
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
 <!-- 0 - Youngest Zombies name -->
     <value>یکی از وایت واکر ها رفت خونه {0} که اونو هم تبدیل کنه ولی خونه ای تاریک و پر از خون دید و جسد {0}سوخته شده بود پس کاری از دستش بر نمیومد!</value>
   </string>
@@ -569,7 +569,7 @@ HIS WATCH IS NOW END</value>
     <value>دیشب لنیستر ها به {0} حمله کردن که بکشنش ولی هودور اونجا بود و نزاشت.
 HOLD THE DOOR!</value>
   </string>
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
 <!-- 0 - newest  -->
 <!-- 1 - target's name -->
 <!-- new string May 12 2016-->
@@ -580,7 +580,7 @@ HOLD THE DOOR!</value>
 <!-- 1 - name -->
     <value>@{1}, a player with the name {0} has already joined.  Please change your name to join.</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
 <!-- 0 - target's name -->
 <!-- new string May 13 2016-->
     <value>دیشب که رفتی خونه {0} و بعد مدتی خوشگذرونی...متوجه بدن سرد اون شدی!</value>
@@ -672,7 +672,7 @@ HOLD THE DOOR!</value>
 <!-- new strings june 10 2016 -->
     <value>وقت تمومه!</value>
   </string>
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
     <value>تو میلاسندرا(🏹)هستی.از جادوی خون استفاده کن و دو نفر رو عاشق هم کن که اگه یکیشون مرد اون یکی هم باش بمیره!</value>
   </string>
   <string key="RoleInfoDoppelganger">
@@ -685,7 +685,7 @@ HOLD THE DOOR!</value>
   <string key="RoleInfoSerialKiller">
     <value>تو رمزی بولتون(🔪)هستی و حتی به پدر و برادرت هم  رحم نکردی و کشتیشون.عادتت اینه قبل اینکه کسیو بکشی زنده زنده پوستشو بکنی!</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>میلاسندرا تو و {0} رو به کمک جادوی آتش عاشق کرده.اگه یکیتون بمیره خدای آتش جون اون یکی هم میگیره!</value>
     <value>میلاسندرا تو و {0} رو به کمک جادوی آتش عاشق کرده .اگه یکیتون بمیره خدای آتش جون اون یکی هم میگیره!</value>
   </string>
@@ -743,12 +743,12 @@ HOLD THE DOOR!</value>
     <value>تو میخواستی {0} رو تیکه تیکه کنی اما هودور اونجا بود و نزاشت!
 HOLD THE DOOR!</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
 <!-- 0 - Youngest Zombie's name -->
 <!-- 1 - target's name -->
     <value>وایت واکر ها میخواستن جان اسنو رو که {1} بود رو تبدیل کنن، واسه همین اونا {0} رو بیرای اینکار فرستادن اما جان اسنو شمشیرش رو که از جنس استیل والریانی بود در آوارد و {0} رو نابود کرد.</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
 <!-- 0 - Youngest Zombie's name -->
 <!-- 1 - target's name -->
     <value>یکی از وایت واکر ها که {0} بود از دیوار عبور کرد و وارد وینترفل شد تا رمزی بولتون که {1} رو تبدیل کنه اما رمزی اونجا براش یک آتیش آماده کرده بود و وایت واکر در آتیش پودر شد!</value>
@@ -773,11 +773,11 @@ HOLD THE DOOR!</value>
 <!-- 1 - mason collegues's name -->
     <value>{0} مرد و تو حالا چهره ی اون رو گرفتی و تبدیل به یک نایت واچ شدی!یارات عبارتند از{1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
 <!-- 0 - new Zombie's name -->
     <value>جاکان هگار {0} مثل تو الان یک وایت واکر هست!</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
 <!-- 0 - role's name -->
 <!-- 1 - teammates's name -->
     <value>{0}سوخته شد و تو حالا یک وایت واکر هستی یارانت عبارتند از: {1}</value>
@@ -798,9 +798,9 @@ HOLD THE DOOR!</value>
   <string key="AskKill">
     <value>امشب میخوای پوست کیو بکنی و گوشتشو غذای سگات کنی؟</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
 <!-- 0 - dead's name -->
-<!-- 1 - lover's name -->
+<!-- 1 - crewmate's name -->
 <!-- 2 - roles -->
     <value>{1} بالای سر جنازه {0} میره و خودشو میکشه به خاطر اینکه {1} میدونه زندگی بدون {0} محاله محاله محالههه...راهی براش نمونده...دنیا براش تباهه...داد میزنه الهی...
 نقش {1} {2}بود❗️</value>
@@ -808,16 +808,16 @@ HOLD THE DOOR!</value>
   <string key="AskDoppelganger">
     <value>میخوای به کی تبدیل بشی وقتی اون مرد؟</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>میخوای کیا رو عاشق کنی؟نفر اولو انتخاب کن...</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>میخوای کیا رو عاشق کنی؟نفر دومو انتخاب کن...</value>
   </string>
   <string key="Hunter">
     <value>جان اسنو 🎯</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>میلاسندرا 🏹</value>
   </string>
   <string key="SerialKiller">
@@ -830,7 +830,7 @@ HOLD THE DOOR!</value>
 <!-- 0 - target's name -->
     <value>تو به جیمی لنیستر(👶) تبدیل شدی...{0} دشمنته که اگه بمیره تو لنیستری میشی!</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
     <value>فقط عاشقا باقی موندن و با هم روی تخت پاشاهی میشینن👑🏹</value>
   </string>
   <string key="HunterKilledVisiter">
@@ -838,7 +838,7 @@ HOLD THE DOOR!</value>
 <!-- 1 - role -->
     <value>دیشب وایت واکر(👤) ها قصد تبدیل کردن جان اسنو(🎯)رو داشتن اما جان اسنو با شمشیر والریا {0} رو نابود میکنه❗️پس {1}</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>دیشب یه وایت واکر میخواست تبدیلت کنه ولی فرار کردی❗️🚶</value>
   </string>
   <string key="AlreadyOnWaitList">
@@ -923,7 +923,7 @@ HOLD THE DOOR!</value>
   <string key="AboutFool">
     <value>کلاغ دروغین همون کلاغ سه چشم هست اما اشتباه نقشارو میگه!🃏</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>تو شاه شب وایت واکر ها(👤) ها هستی در گذشته تو قبلا کشته شدی و حالا به زندگی برگشتی که همه ی افراد رو مثل خودت وایت واکر کنی.تنها راه برد تو اینه که همه ی افراد مثل تو وایت واکر بشن!</value>
   </string>
   <string key="AboutCH">
@@ -947,7 +947,7 @@ HOLD THE DOOR!</value>
 نکته: تا وقتی که تبدیل نشده باشی برنده نمیشی مگه اینکه عاشق باشی
     </value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>
   تو عاشق هستی و در صورت برد تیم عشقت تو هم میبری و اگه در پایان فقط تو و عشقت زنده باشین فقط شما دو تا میبرین!
     </value>
@@ -1122,10 +1122,10 @@ HOLD THE DOOR!</value>
   <string key="AllowTannerA">
     <value>نقش دنریس تارگرین👺: {0}</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>نقش وایت واکر👤 فعال باشه؟\n حالت فعلی: {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>نقش وایت واکر👤: {0}</value>
   </string>
   <string key="EnableSecretLynchQ">
@@ -1297,13 +1297,13 @@ HOLD THE DOOR!</value>
   <string key="SerialKillerTeamEnd">
     <value>گروه رمزی بولتون🔪</value>
   </string>
-  <string key="CultTeamEnd">
+  <string key="zoombiesTeamEnd">
     <value>گروه وایت واکر👤</value>
   </string>
   <string key="TannerTeamEnd">
     <value>گروه دنریس تارگرین👺</value>
   </string>
-  <string key="CultConvertWolf">
+  <string key="zoombiesConvertWolf">
     <value>وایت واکر ها {0} رو فرستادن که {1} رو تبدیل کنه اما چون {1} لنیستری🐺 بود و داخل خونه مونده بود {0} رو کشت❗️</value>
   </string>
   <string key="HarlotFuckedKilledPublic">
@@ -1321,7 +1321,7 @@ HOLD THE DOOR!</value>
   <string key="ZombieKilled">
     <value>رمزی بولتون به {0} یکی از وایت واکر(👤) ها بود حمله کرد و اون رو کشت!</value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>میلاسندرا(🏹) {0} به خدای آتیش پیوست...
 
 دیگه خبری از جادو نیست❗️</value>
@@ -1358,11 +1358,11 @@ THE NORTH REMEMBERS!</value>
     <value>رمزی بولتون(🔪) به وایت واکر(👤)ها یه کمک بزرگ کرده چون {0} رو کشتن و {0} بنجن استارک(💂)بود.
 </value>
   </string>
-  <string key="CultConvertWolfPublic">
+  <string key="zoombiesConvertWolfPublic">
     <value>وایت واکر(👤) ها خواستن که یکی از لنیستر(🐺)ها رو به وایت واکر تبدیل کنن.برای اینکار {0} رو فرستادن اما {0} دیگه هیچوقت برنگشت!!</value>
     <value>وایت واکر(👤) ها خواستن که یکی از لنیستر(🐺)ها رو به وایت واکر تبدیل کنن.برای اینکار {0} رو فرستادن اما {0} دیگه هیچوقت برنگشت!! </value>
   </string>
-  <string key="CultConvertKillerPublic">
+  <string key="zoombiesConvertKillerPublic">
     <value>رمزی بولتون(🔪) از مردن متنفره واسه همین وقتی {0} اومد تا به وایت واکر(👤) تبدیلش کنه.اونو کشت❗️</value>
     <value>رمزی بولتون(🔪) از مردن متنفره واسه همین وقتی {0} اومد تا به وایت واکر(👤) تبدیلش کنه.اونو کشت❗️</value>
   </string>
@@ -1445,7 +1445,7 @@ THE NORTH REMEMBERS!</value>
 <!-- NOTE: No space between {0} and joined. It will be added in the code if necessary-->
     <value>{0} به بازی اومد</value>
   </string>
-  <string key="AllowCult">
+  <string key="Allowzoombies">
     <value>بودن وایت واکر👤</value>
   </string>
   <string key="AllowTanner">

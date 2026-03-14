@@ -327,25 +327,25 @@
   <string key="ZombieVotedConvert">
     <value>{0} vota per prendere il controllo di {1} </value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <value>{0} è stato inviato a fare il suo lavoro, per attaccare l'aggeggio alla testa di {1}... ma era Mew! {0} è stato liberato dal controllo mentale!</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <value>{0} ti ha fatto visita la scorsa notte, pronto a prendere il controllo della tua mente...  ma l'hai liberato dal controllo mentale, utilizzando i tuoi poteri. Un Pokémon non è più soggiogato... {1} rimanenti!</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>Ti sei trovato di fronte uno strano Pokémon con lo sguardo assente, hai immediatamente perso i sensi. Prima di perdere conoscenza, vedi che il Pokémon applica uno strano aggeggio sulla testa del tuo Pokémon. Adesso anche lui è un Pokémon controllato da Mewtwo.</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>Pokémon controllati da Mewtwo: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <value>{0} è stato soggiogato!</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <value>{0} è stato inviato da Mewtwo a reclutare il Pokémon di {1}... ma nessuno era in casa!</value>
   </string>
-  <string key="CultWins">
+  <string key="zoombiesWins">
     <value>Tutti i membri del Team Rocket sono stati sconfitti, ma tutti i sopravvissuti sono Pokémon controllati da Mewtwo... Mewtwo ha vinto!</value>
   </string>
   <string key="HunterVisitDead">
@@ -442,21 +442,21 @@
 <!-- new strings May 6 2016 -->
     <value>  Gli altri allenatori di Kangaskhan sono: {0}</value>
   </string>
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <value>Il vostro ultimo adepto si reca a casa di {0} per far si che Mewtwo possa soggiogare la sua mente, ma trova invece una casa malmessa, l'allenatore privo di sensi e nessuna traccia del suo Pokémon...</value>
   </string>
   <string key="GuardBlockedWolf">
 <!-- new strings May 9 2016 -->
     <value>Ti introduci nella casa di {0} per rubare il suo Pokémon, ma ti imbatti in Chansey e nel suo allenatore. Non ti aspettavi un avversario del genere, sei costretto a ritirarti.</value>
   </string>
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
 <!-- new string May 12 2016 -->
     <value>Mandate {0} a casa di {1}, per far si che Mewtwo ne prenda il controllo ma la sua mente non è così debole come pensavate, non si unirà a voi.</value>
   </string>
   <string key="NameExists">
     <value>@{1}, un allenatore con il nome {0} e' gia' entrato. Per favore cambia il tuo nome per partecipare. </value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
   <!-- new string May 13 2016 -->
     <value>Stanotte Rattata si è introdotto in casa di {0} per il suo spuntino di mezzanotte... Uscendo da quella casa, ha notato un allenatore riverso sul pavimento privo di sensi ed il suo Pokémon aveva uno strano aggegio sulla testa...</value>
   </string>
@@ -502,7 +502,7 @@
 <!-- new strings june 10 2016 -->
     <value>Troppo tardi!</value>
   </string>
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
     <value>Sei l'agente Jenny, devi tenere d'occhio più persone, quale modo migliore se non ammanettarne un paio o ammanettarti a qualcuno? Dovrai usare l'istinto e ammanettare te ad un altro allenatore o due allenatori diversi. In seguito potrai valutare se sono innocui oppure no. Gli ammanettati, diventeranno un vero e proprio team e se uno dovesse essere sconfitto, lo stesso toccherà anche al secondo.</value>
   </string>
   <string key="RoleInfoDoppelganger">
@@ -514,7 +514,7 @@
   <string key="RoleInfoSerialKiller">
     <value>Sei Gyarados. Un Pokémon sfuggito al controllo del proprio allenatore e che si vendica dei soprusi subiti attaccando casualmente allenatori e Pokémon senza alcuna distinzione.</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>Il tuo polso è stato ammanettato a quello di {0}. Il vostro obiettivo è di cavarvela insieme. Se uno di voi due dovesse essere sconfitto, anche l'altro dovrà ritirarsi.</value>
     <value>L'agente Jenny ti ha scelto! il tuo polso è stato ammanettato a quello di {0}! Se sarà sconfitto, condividerai il suo destino. Se riuscite a sopravvivere fino alla fine, sarete entrambi vincitori.</value>
   </string>
@@ -542,7 +542,7 @@
   <string key="HunterKilledFinalShot">
     <value>Esausto, lo Scyther di {0} cade... Ma non senza lanciare un ultimo attacco e colpire il Pokémon di {1}, che si becca un potente Iper Raggio in pieno stomaco. {2}</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <value>{0} cerca di soggiogare {1}, ma non sa che si tratta di Gyarados il Pokémon impazzito!!! {1} Affaonda i suo denti nel petto di {0} e poi lo schiaccia con la sua possente coda, prima di andare via soddisfatto! {0} è in fin di vita.</value>
   </string>
   <string key="HunterShotWolfMulti">
@@ -560,7 +560,7 @@
   <string key="GuardBlockedKiller">
     <value>Hai provato ad aggredire {0}, ma ti sei imbattuto in Chansey e nel suo allenatore! Niente da fare stasera.</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <value>I Pokémon controllati da Mewtwo mandano {0} per soggiogare la mente del Pokémon di {1}, ma un tonfo rumoroso, rompe il silenzio della notte, è {0} che vola dalla finestra seguito dal potente Iper Raggio di Scyther. {0} è fuori gioco...</value>
   </string>
   <string key="GuardKiller">
@@ -579,10 +579,10 @@
   <string key="DGTransformToMason">
     <value>{0} è fuori gioco, e il tuo Ditto ora prende l'aspetto di un Kangaskhan. I tuoi compagni (se presenti) sono: {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <value>Il Ditto di {0} è ora diventato Pokémon controllato da Mewtwo, esattamente come te!</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <value>{0} è fuori gioco, e il tuo Ditto oltre a prendere l'aspetto del nuovo Pokémon applica anche il dispositivo che lo rende un Pokémon controllato da Mewtwo. I tuoi compagni (se presenti) sono: {1}</value>
   </string>
   <string key="DGToWolf">
@@ -597,22 +597,22 @@
   <string key="AskKill">
     <value>Chi vuoi aggredire stanotte?</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <value>Lo scontro è terminato con la sconfittta di {0}, {1} non può fare altro che caricarselo in spalla e dirigersi verso il più vicino centro Pokémon.{2}</value>
   </string>
   <string key="AskDoppelganger">
     <value>Di chi vuoi prendere il posto?</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>Chi vuoi ammanettare? Scegli il primo nome:</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>Chi vuoi ammanettare? Scegli il secondo nome:</value>
   </string>
   <string key="Hunter">
     <value>l'allenatore di Scyther ⚔️ (🎯)</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>l'agente Jenny 👮🏻‍♀️ (🏹)</value>
   </string>
   <string key="SerialKiller">
@@ -627,10 +627,10 @@
   <string key="HunterKilledVisiter">
     <value>Al centro della piazza centrale, viene ritrovato il Pokémon di {0}, privo di sensi. Sembra che stanotte si sia battuto con Scyther! {1}</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>Uno strano ed inqietante Pokémon ha provato a controllare la mente del tuo! Appena ha capito non ci fosse nulla da fare, è scappato via.</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
     <value>Gli ammanettati hanno vinto!</value>
   </string>
   <string key="SerialKillerWinsOverpower">
@@ -700,7 +700,7 @@
   <string key="AboutFool">
     <value>Sei l'allenatore di Psyduck, credi di avere un potente Pokémon psichico a di sposizione, ma sei solo l'allenatore di uno psyduck con l'emicrania... Le informazioni riguardo agli altri potrebbero essere piuttosto confuse, sai che la persona individuata è lì da qualche parte ma non sei sicuro di chi sia. Nota: È più utile di quello che sembra, può sapere con esattezza chi è presente in battaglia.</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>Come Pokémon controllato da Mewtwo, il tuo obiettivo è ampliare il tuo esercito, chiunque può farne parte, tranne il TR, Gyarados, e Muk. Se alla fine dello scontro tutti i sopravvissuti saranno Pokémon controllati da Mewtwo, vincerete. \n Probabilità di successo per i seguenti individui: \n Ditto: 0% Finchè rimane Ditto, è impossibile da soggiogare \n Alakazam 40% Non è facile da soggiogare ha una mente molto potente \n Chansey 60% Nota: Se protegge qualcuno, non lo troverai in casa \n Victreebel 60% \n Hunter 70% \n Rattata 70% Come con Chansey, se non è casa, non potrete soggiogarlo \n Scyther 50% Avrai il 50% di soggiogarlo. Se fallite, C'è il 50% che vi metta fuori gioco.</value>
   </string>
   <string key="AboutCH">
@@ -721,7 +721,7 @@
   <string key="AboutDG">
     <value>Prima che lo scontro abbia inizio, potrai scegliere un obiettivo da sostituire. I pscm di Mewtwo non possono soggiogarti perchè Ditto non ha un cervello. Nota: non potrai unirti al vero scontro, finchè non avrai portato a termine la tua missione principale. Se alla fine dello scontro, sarai ancora un l'allenatore di Ditto e il tuo obiettivo non sarà stato messo fuori gioco, non vincerai.</value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>Prima della battaglia, sceglie due individui e ammanetta i loro polsi. Le due persone che hai legato, dovranno fare di tutto per collaborare e sopravvivere, perchè la Sconfitta di uno significa la sconfitta di entrambi. Nota: gli ammanettati sanno chi è l'altro, ma non sanno cos'è l'altro o quello che è capace di fare. Se gli ammanettati sono gli ultimi due in piedi, loro vincono, indipendemente da chi fossero. Se gli ammanettati fanno parte di due team diversi(esempio: TR + allenatore), e un team vince (esempio: TR), anche l'altro (esempio: allenatore) vince. \nTL;DR Se tutti e due gli ammanettati sono in piedi a fine scontro, e almeno uno dei due è nel team vincitore, vincono insieme</value>
   </string>
   <string key="AboutHunter">
@@ -892,10 +892,10 @@
   <string key="AllowTannerA">
     <value>Conciatore come ruolo impostato a {0}</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>Ammettere i Satanisti in partita, come ruolo?\nAttualmente: {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>Satanista come ruolo impostato a {0}</value>
   </string>
   <string key="ThankYou">
@@ -1056,13 +1056,13 @@
   <string key="SerialKillerTeamEnd">
     <value>Team Gyarados</value>
   </string>
-  <string key="CultTeamEnd">
+  <string key="zoombiesTeamEnd">
     <value>Team Pokémon controllati da Mewtwo</value>
   </string>
   <string key="TannerTeamEnd">
     <value>Team Voltorb</value>
   </string>
-  <string key="CultConvertWolf">
+  <string key="zoombiesConvertWolf">
     <value>I Pokémon controllati da Mewtwo hanno mandato {0} per provare a soggiogare il Pokémon di {1}, ma {0} viene messo fuori gioco senza problemi e catturato... Al Team Rocket non piace chi intralcia i suoi piani! {0} è fuori gioco...</value>
   </string>
   <string key="HarlotFuckedKilledPublic">
@@ -1080,7 +1080,7 @@
   <string key="ZombieKilled">
     <value>{0} è stato trovato sulla riva del fiume gravemente ferito. Gyarados ha colpito ancora, indipendentemente da razza, lingua o capacità di intendere e di volere! {0} era un Pokémon controllato da Mewtwo 💆‍♂️.</value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>Il mattino seguente, gli allenatori furono sorpresi nel vedere che persino {0}, cioè l'agente Jenny, fosse stata ridotta in quel modo. Stranamente, stava indagando sugli incidenti avvenuti al porto...</value>
   </string>
   <string key="DrunkKilled">
@@ -1114,12 +1114,12 @@
     <value>Gli allenatori si svegliano la mattina e trovano {0} gravemnte ferito. Mew non potrà più liberare i Pokémon soggiogati da Mewtwo, ma cosa più importante, non avrebbe dovuto sospettare di Gyarados... </value>
     <value>Gravi ferite su tutto il corpo di {0}, Mew è stato trovato sul bordo della fontana. Controllare Gyarados non sembra mai una buona idea..</value>
   </string>
-  <string key="CultConvertWolfPublic">
+  <string key="zoombiesConvertWolfPublic">
 <!--used when Zombies convert the wolves, only if wolves stayed home-->
     <value>Sembrava una notte tranquilla, visto che il Team Rocket non ha rubato Pokémon, l'unico sfortunato è stato {0}, un Pokémon sotto il controllo di Mewtwo che ha provato a soggiogare un Pokémon. {0} non ha avuto una buona idea, provando a soggiogare un membro del Team Rocket!</value>
     <value>I Pokémon sotto il controllo di Mewtwo hanno incontrato un problema non previsto questa notte. Il loro ultimo adepto, ha provato a soggiogare un membro del Team Rocket. Sfortunatamente {0} non era all'altezza dello scontro.</value>
   </string>
-  <string key="CultConvertKillerPublic">
+  <string key="zoombiesConvertKillerPublic">
 <!--used when Zombies convert the SK-->
     <value>I Pokémon sotto il controllo di Mewtwo pensavano di aver trovato un candidato ideale, ma si sbagliavano! {0}, un Pokémon sotto il controllo di Mewtwo è stato trovato gravemente ferito, nei pressi della piscina pubblica.</value>
     <value>L'ultima notte, i Pokémon sotto il controllo di Mewtwo hanno provato a convincere Gyarados ad unirsi a loro, ora {0} è fuori gioco.</value>
@@ -1208,8 +1208,8 @@
 <!-- {0} = list of people who have joined -->
     <value>{0} sono entrati in partita negli ultimi 30 secondi.</value>
   </string>
-  <string key="AllowCult">
-    <value>Allow Cult</value>
+  <string key="Allowzoombies">
+    <value>Allow zoombies</value>
   </string>
   <string key="AllowTanner">
     <value>Allow Tanner</value>
@@ -1432,7 +1432,7 @@
 <!-- 0 - mason collegues's name -->
     <value>I tuoi compagni (se presenti) sono: {0}</value>
   </string>
-  <string key="ThiefToCult">
+  <string key="ThiefTozoombies">
 <!-- 0 - old Zombie's name -->
 <!-- 1 - new Zombie's name -->
     <value>{0} non è più un Pokémon controllato da Mewtwo e {1} è ora un Pokémon controllato da Mewtwo, esattamente come te!</value>
@@ -1782,16 +1782,16 @@
   <string key="HunterFell">
 	<value>Decidi di controllare che Dragonite faccia ancora parte dei buoni, tuttavia appena svolazzi nella sua proprieta vieni colpito da un Iper Raggio vagante che ti mette K.O.! Il Dragonite di {0} dovrebbe stare più attento a dove dirige i suoi attacchi.</value>
   </string>
-  <!--{0}: cult hunter-->
+  <!--{0}: zoombies hunter-->
   <string key="HunterFellDigger">
 	<value>Come al solito, dopo l'allenamento, controlli di non aver fatto troppi danni. Noti che in un'angolo del giardino c'è un pintino rosa. Hai messo fuori gioco Mew. {0} non potrà più essere d'aiuto.</value>
   </string>
   <!--{0}: Zombie-->
-  <string key="CultFell">
+  <string key="zoombiesFell">
 	<value>Come al solito, durante il controllo mattutino, vedi un Pokémon spaesato! Si tratta di {0} era un Pokémon sotto il controllo di Mewtwo.</value>
   </string>
   <!--{0}: Zombie who fell, {1}: grave digger-->
-  <string key="CultConvertGraveDigger">
+  <string key="zoombiesConvertGraveDigger">
 	<value>Mentre vai a casa di {1}, {0} suggerisce che sarebbe divertente provare controllare la mente di uno dei Pokémon più potenti presenti in città. Purtoppo, finiscono colpiti dal suo Lanciafiamme. Qualcuno è appena finito K.O., gli altri scappano via spaventati.</value>
   </string>
   <!--{0}: grave digger-->

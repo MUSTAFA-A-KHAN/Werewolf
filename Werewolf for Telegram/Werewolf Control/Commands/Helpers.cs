@@ -219,7 +219,7 @@ namespace Werewolf_Control
                 NightTime = Settings.TimeNight,
                 AllowFool = true,
                 AllowTanner = true,
-                AllowCult = true,
+                Allowzoombies = true,
                 DisableFlee = false,
                 MaxPlayers = 35,
                 CreatedBy = createdBy,

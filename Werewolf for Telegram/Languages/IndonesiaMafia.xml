@@ -244,7 +244,7 @@
 	<value>Fairview MataAngin! Telah terjadi penangkapan semalam pada kediaman {0}. Menurut saksi mata, penangkapan tersebut didasarkan atas hilangnya ribuan fedora di Fairview! {1}</value>
   </string>
   <string key="HunterKilledZombie">
-    <value>Warta Utama! Anggota dari Persekutuan Hedon (Cult), {0}, telah ditangkap! Berdasarkan laporan dari Petugas Pajak, anggota tersebut kedapatan terlalu banyak bersenang-senang dengan uang pajak yang belum dibayar!</value>
+    <value>Warta Utama! Anggota dari Persekutuan Hedon (zoombies), {0}, telah ditangkap! Berdasarkan laporan dari Petugas Pajak, anggota tersebut kedapatan terlalu banyak bersenang-senang dengan uang pajak yang belum dibayar!</value>
 	<value>Menit Fairview! {0} telah ditangkap semalam oleh Petugas Pajak! Ditemukan rambut palsu, jaket dan kacamata hitam, paspor palsu, serta tiket pertandingan Tennis di Bali. </value>
   </string>
   <string key="NoAttack" >
@@ -339,25 +339,25 @@
   <string key="ZombieVotedConvert" >
     <value >{0} memilih untuk mengundang {1} ke dalam Persekutuan Hedon.</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <value>{0} telah pergi ke rumah {1} untuk mengajaknya hedon. Ternyata, eh ternyata dia adalah seorang Petugas Pajak. {0} diseret kekantor dirjen pajak untuk membuat NPWP.</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <value>{0} diseret ke kantor pajak karena hedonisme. Menurut informasi yang kamu terima, anggota Persekutuan Hedon tersisa: {1} orang </value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>Selamat datang di Persekutuan Senang - Senang! Bertindaklah sesuka hati loncat kesana-kesini! Hiraukan semua masalah di muka bumi ini! Setiap malam kamu dapat mengajak warga lainnya ke dalam persekutuanmu!</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>Para anggota Persekutuan Hedon: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <value>Kamu menyambut {0} ke dalam hedonisme</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <value>{0} pergi kerumah {1} tapi tampaknya rumah itu kosong</value>
   </string>
-  <string key="CultWins" isgif="false">
+  <string key="zoombiesWins" isgif="false">
     <value >Berbahagialah! Karena kini Fairview sudah terbebas dari Mafia dan Polisi! Kini Fairview sudah tidak seperti penjara dalam gua! Kini kita semua berbuat sesuka hati kita!</value>
   </string>
   <string key="HunterVisitDead">
@@ -455,21 +455,21 @@
     <value>Para Caporegime yang ikut berkumpul bersamamu adalah {0}</value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <value>{0} sedang berkelana untuk mencari teman hedon, tapi rumah yang kamu datangi sudah berantakan dari sergapan para polisi.</value>
   </string>
   <string key="GuardBlockedWolf">
     <value>Para Polisi berencana untuk melakukan penyerbuan terhadap rumah {0}, tetapi tidak diperbolehkan masuk oleh sang Penjaga Gerbang. Karena tidak membawa surat geledah, para polisi kemudian menyerah dan pulang ke kandang mereka.</value>
   </string>
   <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <value>{0} mencoba mengajak {1} untuk hedon, tetapi malah dibalas, "Ngga punya duit!"</value>
   </string>
   <!-- new string May 12 2016-->
   <string key="NameExists">
     <value>@{1}, pemain dengan nama {0} sudah bergabung dengan keluarga mafia ini. Mohon ganti namamu agar dapat bergabung.</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <value>Kamu baru saja mengantarkan setumpuk dokumen ke rumah {0}! Kamu menyadari dari nota pembelian di dokumen itu, kalau kamu sedang mengantarkan sebuah buku berjudul, "Langkah - Langkah Menjadi Hedonis oleh Persekutuan Hedonis."</value>
   </string>
   <!-- new string May 13 2016-->
@@ -548,8 +548,8 @@
 	<value>Waktu Habis!</value>
   </string>
   <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
-    <value>Kamu adalah seorang Petugas Catatan Sipil (Cupid) 🏹, penghulu atas persatuan dua manusia dan saksi atas cinta sejati. Dua sejoli yang kamu saksikan akan selalu bersama hingga ujung waktu, meskipun dalam malu ataupun dalam penjara.</value>
+  <string key="RoleInfoRecruiter">
+    <value>Kamu adalah seorang Petugas Catatan Sipil (Recruiter) 🏹, penghulu atas persatuan dua manusia dan saksi atas cinta sejati. Dua sejoli yang kamu saksikan akan selalu bersama hingga ujung waktu, meskipun dalam malu ataupun dalam penjara.</value>
   </string>
   <string key="RoleInfoDoppelganger">
     <value>Kamu adalah Calo KTP (Doppelgänger) 🎭. Dimulai dengan membuatkan KTP bagi warga Fairview, kamu menyadari kalau kamu dapat menggunakan identitas mereka ketika mereka tidak berada di kota ini.</value>
@@ -600,10 +600,10 @@
   <string key="GuardBlockedKiller">
     <value>Kamu mencoba menyiduk {0} dari kota ini. Di depan rumah orang itu kamu melihat gerbangnya sedang dijaga. Berhubung kamu hanya membawa satu gayung untuk menciduk, kamu pulang kerumah mengurungkan niatmu.</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <value>Persekutuan Hedon mengirim {0} ke rumah si {1}! Sayangnya, ketika bel rumah berbunyi, sebuah ambal menjatuhi kepala {0}! {0} diopname dirumah sakit...</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <value>Persekutuan Hedon mengirim {0} ke rumah si {1}! {1} menyambut {0} dengan baik, namun semua berubah ketika sebuah ciduk menyerang! Kini {0} menghilang dari muka bumi!</value>
   </string>
   <string key="GuardKiller">
@@ -621,11 +621,11 @@
   <string key="DGTransformToMason">
     <value>{0} sudah tidak berada di kota lagi! Kamu kemudian menggunakan KTP yang kamu buat untuknya sebagai KTPmu, dan mulai saat ini kamu akan dianggap sebagai seorang Capo (Mason). \nAnggota Capo lainnya (jika ada) adalah: {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <value>Karena telah menunjukan kartu KTP anggota sebelumnya, Si Calo KTP kini ikut bergabung dengan Persekutuan Hedon! {0} sekarang merupakan anggota persekutan!</value>
   </string>
-  <string key="DGTransformToCult">
-    <value>{0} sudah tidak berada di kota lagi! Kamu menggunakan KTP miliknya, ditambah fotomu agar kamu dianggap sebagai anggota Persekutuan Hedon (Cult).\nAnggota persekutan lainnya, (jika ada) adalah: {1}</value>
+  <string key="DGTransformTozoombies">
+    <value>{0} sudah tidak berada di kota lagi! Kamu menggunakan KTP miliknya, ditambah fotomu agar kamu dianggap sebagai anggota Persekutuan Hedon (zoombies).\nAnggota persekutan lainnya, (jika ada) adalah: {1}</value>
   </string>
   <string key="DGToWolf">
     <value>Kamu melihat {0} ikut dalam apel pagi, memakai seragam dan kartu KTP seorang Polisi. Tampaknya {0} adalah anggota polisi!</value>
@@ -639,23 +639,23 @@
   <string key="AskKill">
     <value>Siapa yang mau kamu ciduk dari muka bumi ini?</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <value>Dengan hilangnya {0}, {1} beranjak serta dari kota ini. Bagaikan pinang yang belum terbelah, dua sejoli itu tidak dapat dipisahkan. {2}</value>
   </string>
   <string key="AskDoppelganger">
     <value>KTP siapa yang mau kamu duplikat?</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>Siapa yang telah menyatakan cinta sejatinya? Pilih salah satu pemain yang pertama!</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>Siapa yang telah menyatakan cinta sejatinya? Pilih salah satu pemain yang terakhir!</value>
   </string>
   <string key="Hunter">
     <value>si Kontraktor (Hunter) 🎯</value>
   </string>
-  <string key="Cupid">
-    <value>Penghulu (Cupid) 🏹</value>
+  <string key="Recruiter">
+    <value>Penghulu (Recruiter) 🏹</value>
   </string>
   <string key="SerialKiller">
     <value>si Tukang Ciduk (Serial Killer) 🔪</value>
@@ -663,20 +663,20 @@
   <string key="Doppelgänger">
     <value>Calo KTP (Doppelgänger) 🎭</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>💞💞 Kamu menyatakan cinta sejatimu kepada {0}, dalam suka atau dalam duka. Kalau dia pergi dari kota, kamu akan mengikutinya, karena kamu telah berjainji, meskipun terinjak-injak bagaikan butiran debu atau tenggelam dalam lautan samudra kalian akan tetap bersama💞💞</value>
   </string>
   <string key="NewWCRoleModel">
     <value>Kamu menggunakan KTP "seorang" Idealis (Wild Child) 👶. Pengasuhmu adalah {0}.</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
     <value>Cinta sejati tak lekang oleh waktu! Dua sejoli telah menang!</value>
   </string>
   <string key="HunterKilledVisiter">
     <value>Menit Fairview! {0} sudah tidak aktif lagi! Kunjungan terakhirnya menuju rumah si Kontraktor (Hunter) membuatnya berurusan dengan peralatan ACNE {1}</value>
   </string>
-  <string key="CultAttempt">
-    <value>Seorang anggota Persekutuan Hedon (Cult) mencoba mengajakmu bergabung, tetapi kamu menolak mereka karena tidak punya uang.</value>
+  <string key="zoombiesAttempt">
+    <value>Seorang anggota Persekutuan Hedon (zoombies) mencoba mengajakmu bergabung, tetapi kamu menolak mereka karena tidak punya uang.</value>
   </string>
   <string key="AlreadyOnWaitList">
     <value>Kamu sudah berada di daftar tunggu {0}</value>
@@ -746,7 +746,7 @@
   <string key="AboutFool">
     <value>Dasar tukang gosip! Kamu kira kamu adalah fakta?! Padahal kamu hanya gosip sana gosip sini. Hanya saja, sumber info A1 milik mu tidak dapat di percaya sepenuhnya!</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>Selamat datang di Persekutuan Hedon (Zombie) 👤! Kamu ingin semua orang bersenang-senang, tidak peduli mereka adalah mafia atau bukan, semua harus bersenang-senang. Pergilah dan jadikanlah semua orang senang!</value>
   </string>
   <string key="AboutCH">
@@ -766,12 +766,12 @@
   </string>
   <string key="AboutDG">
     <value>
-      Kamu adalah Calo KTP (Doppelgänger) 🎭. Dimulai dengan membuatkan KTP bagi warga Fairview, kamu menyadari kalau kamu dapat menggunakan identitas mereka ketika mereka tidak berada di kota ini. \nIngat: Jikalau pemain tersebut bergabung dengan Persekutuan Hedon (Cult), kamu akan mengambil peran awal mereka. Aturan biasa lainnya berlaku: Jika mereka merupakan "seorang" Idealis (Wild Child) dan pengasuh mereka menghilang, kamu akan bergabung dengan anggota Polisi. Selain itu, kamu akan mewarisi pengasuh mereka. \nPersekutuan Hedon tidak dapat mengajak Calo KTP kedalam persekutuan mereka (kecuali Calo KTP sudah berganti peran). Selain itu, Calo KTP tidak dapat menang kecuali sudah berganti peran. Jika pada akhir permainan, masih tetap berupa Calo KTP, maka Calo KTP itu akan kalah (dengan perkecualian: dua sejoli (lover))
+      Kamu adalah Calo KTP (Doppelgänger) 🎭. Dimulai dengan membuatkan KTP bagi warga Fairview, kamu menyadari kalau kamu dapat menggunakan identitas mereka ketika mereka tidak berada di kota ini. \nIngat: Jikalau pemain tersebut bergabung dengan Persekutuan Hedon (zoombies), kamu akan mengambil peran awal mereka. Aturan biasa lainnya berlaku: Jika mereka merupakan "seorang" Idealis (Wild Child) dan pengasuh mereka menghilang, kamu akan bergabung dengan anggota Polisi. Selain itu, kamu akan mewarisi pengasuh mereka. \nPersekutuan Hedon tidak dapat mengajak Calo KTP kedalam persekutuan mereka (kecuali Calo KTP sudah berganti peran). Selain itu, Calo KTP tidak dapat menang kecuali sudah berganti peran. Jika pada akhir permainan, masih tetap berupa Calo KTP, maka Calo KTP itu akan kalah (dengan perkecualian: dua sejoli (crewmate))
     </value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>
-      Kamu adalah seorang Petugas Catatan Sipil (Cupid) 🏹, penghulu atas persatuan dua manusia dan saksi atas cinta sejati. Dua sejoli yang kamu saksikan akan selalu bersama hingga ujung waktu, meskipun dalam malu ataupun penjara.\nIngat: Dua Sejoli (Lovers) akan mengetahui pasangannya, tetapi bukan peran pasangan mereka. Jika Dua Sejoli (lovers) tersebut adalah yang tersisa di akhir permainan, mereka akan menang, tidak peduli tim mereka. Jika Dua Sejoli (lovers) berada di dua tim yang berbeda (Mafia + Polisi), dan satu tim menang (Police), pasangannya (Mafia) akan ikut menang. TP;TB (Terlalu Panjang; Tidak Baca) jika kedua pasangan tersebut selamat pada akhir permainan, dan setidaknya satu dari mereka berada pada tim yang menang, mereka menang bersama
+      Kamu adalah seorang Petugas Catatan Sipil (Recruiter) 🏹, penghulu atas persatuan dua manusia dan saksi atas cinta sejati. Dua sejoli yang kamu saksikan akan selalu bersama hingga ujung waktu, meskipun dalam malu ataupun penjara.\nIngat: Dua Sejoli (crewmates) akan mengetahui pasangannya, tetapi bukan peran pasangan mereka. Jika Dua Sejoli (crewmates) tersebut adalah yang tersisa di akhir permainan, mereka akan menang, tidak peduli tim mereka. Jika Dua Sejoli (crewmates) berada di dua tim yang berbeda (Mafia + Polisi), dan satu tim menang (Police), pasangannya (Mafia) akan ikut menang. TP;TB (Terlalu Panjang; Tidak Baca) jika kedua pasangan tersebut selamat pada akhir permainan, dan setidaknya satu dari mereka berada pada tim yang menang, mereka menang bersama
     </value>
   </string>
   <string key="AboutHunter">
@@ -780,7 +780,7 @@
     </value>
   </string>
   <string key="AboutSK">
-    <value>Kamu adalah si Tukang Ciduk (Serial Killer) 🔪. Kamu merasa kota ini harus dibersihkan dari segala pengotor, baik itu mafia, polisi atau persekutuan yang ga jelas. Setiap malam kamu menciduk orang dari rumahnya, menghilangkan kabar mereka dari kota ini! Kamu hanya bisa menang kalau kamu adalah orang terakhir yang berada di kota (perkecualian: Dua Sejoli (Lovers)). Sebagai si Tukang Ciduk (Serial Killer), kamu dapat menyiduk SIAPA SAJA - Mafia (Villager), Polisi (Werewolf) , Penjaga Gerbang (GuardianAngel), Penghulu (Cupid), apapun siapapun. Jika polisi menyergap rumahmu, kamu akan menyiduk salah satu dari mereka (acak), sementara kamu aman dirumah.</value>
+    <value>Kamu adalah si Tukang Ciduk (Serial Killer) 🔪. Kamu merasa kota ini harus dibersihkan dari segala pengotor, baik itu mafia, polisi atau persekutuan yang ga jelas. Setiap malam kamu menciduk orang dari rumahnya, menghilangkan kabar mereka dari kota ini! Kamu hanya bisa menang kalau kamu adalah orang terakhir yang berada di kota (perkecualian: Dua Sejoli (crewmates)). Sebagai si Tukang Ciduk (Serial Killer), kamu dapat menyiduk SIAPA SAJA - Mafia (Villager), Polisi (Werewolf) , Penjaga Gerbang (GuardianAngel), Penghulu (Recruiter), apapun siapapun. Jika polisi menyergap rumahmu, kamu akan menyiduk salah satu dari mereka (acak), sementara kamu aman dirumah.</value>
   </string>
   <string key="AboutPara">
     <value>Ada yg bilang, dia yang pertama kali mengenakan fedora. Yang lain bilang, dia punya koleksi tommy gun berwarna pelangi. Yang kita tahu, dia adalah sang Godfather di atas para Godfather: Para!</value>
@@ -949,10 +949,10 @@
   <string key="AllowTannerA">
     <value>Pilihan Tuan J (Tanner) dalam peran: {0}</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>Apakah kamu ingin Persekutuan Hedon dalam pilihan peran?\nPengaturan saat ini: {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>Pilihan Persekutuan Hedon dalam peran: {0}</value>
   </string>
   <string key="ThankYou">
@@ -1105,13 +1105,13 @@
   <string key="SerialKillerTeamEnd">
     <value>Koperasi Ciduk</value>
   </string>
-  <string key="CultTeamEnd">
+  <string key="zoombiesTeamEnd">
     <value>Persekutuan Hedon</value>
   </string>
   <string key="TannerTeamEnd">
     <value>Skuad Nekad</value>
   </string>
-   <string key="CultConvertWolf">
+   <string key="zoombiesConvertWolf">
     <value>Persekutuan Hedon mengirim {0} untuk mengajak {1} bergabung. Namun bukannya menambah anggota baru, {0} ditangkap oleh Polisi (Werewolf)!</value>
   </string>
   <string key="HarlotFuckedKilledPublic"> <!-- used when Harlot visit's SK's victim, and dies -->
@@ -1130,8 +1130,8 @@
   <string key="ZombieKilled">
 	<value>Apa Berita Fairview! {0}, seorang anggota Persekutuan Hedon (Zombie) telah dinyatakan hilang secara misterius. Semalam terdengar sebuah keributan dari kediaman milik {0}, dan setelah dilakukan penyelidikan, ditemukan sebuah gayung bekas serta surat hutang piutang milik {0}.</value>
   </string>
-  <string key="CupidKilled">
-	<value>Berita Utama! Sebuah gayung misterius ditemukan di rumah seorang Petugas Catatan Sipil (Cupid). Anehnya sang pemilik rumah, {0}, tidak ditemukan dimanapun.</value>
+  <string key="RecruiterKilled">
+	<value>Berita Utama! Sebuah gayung misterius ditemukan di rumah seorang Petugas Catatan Sipil (Recruiter). Anehnya sang pemilik rumah, {0}, tidak ditemukan dimanapun.</value>
   </string>
   <string key="DrunkKilled">
 	<value>Politik Satu! {0}, seorang Koruptor (Drunk) telah menghilang dari Fairview. Para warga bersukacita berusaha mencari tahu siapa pelakunya. Hanya sebuah gayung misterius yang tertinggal di kediaman sang Koruptor (Drunk).</value>
@@ -1160,10 +1160,10 @@
   <string key="SerialKillerKilledCH"> <!--used when CH visits SK-->
 	<value>Koran Tunai! Penyelidikan seorang Petugas Pajak (Zombie Hunter), tentang isu adanya penimbunan suplai gayung misterius, berujung naas. {0} kini tidak lagi diketahui kabarnya dan ditemukan menghilang dari Fairview.</value>
   </string>
-  <string key="CultConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
+  <string key="zoombiesConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
 	<value>Fairview Pos! Seorang anggota Persekutuan Hedon (Zombie) bernama {0} dikabarkan menghampiri seorang seorang polisi untuk diajak berfoya-foya. Namun karena {0} masih memiliki hutang, maka dia ditahan untuk pembayaran lebih lanjut.</value>
   </string>
-  <string key="CultConvertKillerPublic"> <!--used when Zombies convert the SK-->
+  <string key="zoombiesConvertKillerPublic"> <!--used when Zombies convert the SK-->
 	<value>Suara Faiview! Seorang anggota Persekutuan Hedon (Zombie) bernama {0} dinyatakan menghilang dari Fairview setelah menghampiri seorang kolektor gayung untuk mengajak berhura-hura.</value>
   </string>
   <string key="GAGuardedKiller"> <!-- used when GA guards SK -->

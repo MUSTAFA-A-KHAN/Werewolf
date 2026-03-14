@@ -108,7 +108,7 @@ sum(count(x.Gameid)) over (partition by players) as Games
             //chart.DataSource = dataSet.Tables[0];
             var legend = new Legend();
             //create serie...
-            foreach (var team in new[] { "Wolf", "Village", "Tanner", "Cult", "SerialKiller", "Arsonist", "Lovers" })
+            foreach (var team in new[] { "Wolf", "Village", "Tanner", "zoombies", "SerialKiller", "Arsonist", "crewmates" })
             {
                 Series serie1 = new Series
                 {
@@ -127,7 +127,7 @@ sum(count(x.Gameid)) over (partition by players) as Games
                     case "Tanner":
                         serie1.Color = Color.Red;
                         break;
-                    case "Cult":
+                    case "zoombies":
                         serie1.Color = Color.Blue;
                         break;
                     case "SerialKiller":
@@ -136,7 +136,7 @@ sum(count(x.Gameid)) over (partition by players) as Games
                     case "Arsonist":
                         serie1.Color = Color.Orange;
                         break;
-                    case "Lovers":
+                    case "crewmates":
                         serie1.Color = Color.Pink;
                         break;
                 }

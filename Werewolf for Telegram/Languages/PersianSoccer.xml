@@ -374,35 +374,35 @@
 <!-- 1 - target name -->
     <value>نظر {0} اینه که {1} رو گول بزنید.</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
 <!-- 0 - Yougest Zombie (killed)'s name' -->
 <!-- 1 - ZombieHunter's name -->
     <value>وای وای! {0} میخواست {1} که یه پلیسه رو گول بزنه اما {1} اون رو از ورزشگاه اخراج کرد.</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
 <!-- 0 - Youngest Zombie's name -->
 <!-- 1 - Number of Zombies left -->
     <value>تو بازی قبل {0} میخواست تو رو گول بزنه اما تو گولشو نخوردی و از ورزشگاه اخراجش کردی، الان {1} تا از این طرفدارها توی ورزشگاه هست</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>شما را متقاعد کردند که فوتبال بازی کردن بیهودست. از حالا تنها یک تماشاچی هستید.</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
 <!-- 0 - Number of Zombies -->
 <!-- 0 - Number of Zombies -->
     <value>تعداد تماشاگران: {0}</value>
     <value>{0} بازیکن تصمیم گرفتند که فقط تماشاچی باشند.</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
 <!-- 0 - new Zombie's name -->
     <value>الان {0} فقط یه تماشاگره!</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
 <!-- 0 - Newest Zombie's name -->
 <!-- 1 - target name -->
     <value>تو بازی قبل {0} میخواست {1} رو گول بزنه اما نتونست اون رو توی زمین پیدا کنه</value>
   </string>
-  <string key="CultWins">
+  <string key="zoombiesWins">
     <value>دیگه بازیکنی توی زمین نیست و تماشاگرها بردند!</value>
   </string>
   <string key="HunterVisitDead">
@@ -507,7 +507,7 @@
 <!-- new strings May 6 2016-->
     <value>  مدافعان عبارتند از: {0}</value>
   </string>
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
 <!-- 0 - Youngest Zombies name -->
     <value>شما میخواستید {0} رو گول بزنید اما {0} از بازی خارج شده بود.</value>
   </string>
@@ -516,7 +516,7 @@
 <!-- new strings May 9 2016-->
     <value>شما میخواستید روی {0} خطا کنید اما دروازه بان از اون پشتیبانی میکنه.</value>
   </string>
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
 <!-- 0 - newest  -->
 <!-- 1 - target's name -->
 <!-- new string May 12 2016-->
@@ -527,7 +527,7 @@
 <!-- 1 - name -->
     <value>جناب {0} @{1} یه بازیکن هم اسم تو توی بازیه، اسمتو عوض کن تا بتونی وارد بازی بشی</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
 <!-- 0 - target's name -->
 <!-- new string May 13 2016-->
     <value>تو میخواستی از {0} حمایت کنی اما اون رو درحال خریدن وسایل هواداری دیدی</value>
@@ -622,7 +622,7 @@
 <!-- new strings june 10 2016 -->
     <value>وقت تموم شد!</value>
   </string>
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
     <value>تو نظریه پردازی (🏹). تو به دلایل مختلف میتونی دو تا بازیکن رو با هم ربط بدی.</value>
   </string>
   <string key="RoleInfoDoppelganger">
@@ -634,7 +634,7 @@
   <string key="RoleInfoSerialKiller">
     <value>تو یه وحشی هستی (🔪). تیم مورد علاقه تو با بی عدالتی نتونست وارد مسابقات بشه پس تو با خشم هرکسی که میبینی رو تیکه تیکه میکنی.</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>نظریه پرداز تصمیم گرفته رابطه شما و {0} رو توی رسانه ها پررنگ کنه، حالا اگه اتفاقی برای {0} بیوفته تو هم دچارش میشی.</value>
   </string>
   <string key="HunterLynchedChoice">
@@ -689,12 +689,12 @@
 <!-- 0 - target's name -->
     <value>تو به {0} حمله کردی اما گنده تیم یعنی دروازه بان جلوی تو رو گرفت.</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
 <!-- 0 - Youngest Zombie's name -->
 <!-- 1 - target's name -->
     <value>  یه تماشاگر مزاحم {1} شد اما اون وقت این حرفا رو نداشت و زد {0} رو پرپر کرد.</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
 <!-- 0 - Youngest Zombie's name -->
 <!-- 1 - target's name -->
     <value>شما {0} رو فرستادید تا {1} رو گول بزنید اما {1} وحشی تر از این بود که با شما هم صحبت بشه پس {0} رو بشدت مجروح کرد</value>
@@ -718,11 +718,11 @@
 <!-- 1 - mason collegues's name -->
     <value>{0} که یک مدافعا بود بازی رو ترک کرد و پستش به شما رسید، بقیه مدافعان عبارتند از: {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
 <!-- 0 - new Zombie's name -->
     <value>ولگرد یعنی {0} حوصلش سر رفته برای همین به شما پیوست.</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
 <!-- 0 - role's name -->
 <!-- 1 - teammates's name -->
     <value>چون {0} از بازی رفته الان تو بجای اون یکی از هوادارهای افراطی هستی. بقیه تماشگرها عبارتند از: {1}</value>
@@ -742,25 +742,25 @@
   <string key="AskKill">
     <value>میخوای رو کی خطا کنی؟</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
 <!-- 0 - dead's name -->
-<!-- 1 - lover's name -->
+<!-- 1 - crewmate's name -->
 <!-- 2 - roles -->
     <value>وقتی که {0} ورزشگاه رو ترک کرد {1} تصمیم گرفت باهاش از اینجا بره، {2} دیگه کمکی به ما نمیکنه</value>
   </string>
   <string key="AskDoppelganger">
     <value>دوس داری پست کی بهت برسه؟</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>بنظرت کدوم دو نفر بیشتر به همدیگه میان؟</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>انتخاب خوبیه! نفر دوم کیه؟</value>
   </string>
   <string key="Hunter">
     <value>مهاجم ⚽️ (🎯)</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>نظریه پرداز 🛌 (🏹)</value>
   </string>
   <string key="SerialKiller">
@@ -773,7 +773,7 @@
 <!-- 0 - target's name -->
     <value>تو دوستی با وفا هستی و {0} دوستته.</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
     <value>بخاطر هماهنگی خوبشون فقط این دو نفر برنده شدن!</value>
   </string>
   <string key="HunterKilledVisiter">
@@ -781,7 +781,7 @@
 <!-- 1 - role -->
     <value>بعد از ترک کردن ورزشگاه {0} رفت تو کارهای محاجم فوضولی کنه {1}.</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>دیشب یکی اومد تو رو گول بزنه اما تو زرنگ تر از این حرفا بودی که گولشو بخوری</value>
   </string>
   <string key="AlreadyOnWaitList">
@@ -863,7 +863,7 @@
   <string key="AboutFool">
     <value>تو خبرنگار تازه کار هستی (🃏) تو فکر میکنی خبر هات خیلی درست و دقیقن اما اصلا اینطور نیست(</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>تو یه تماشاگر افراطی هستی (👤) دوس داری جو بازی بهم بریزه و هیچکس آرامش نداشته باشه</value>
   </string>
   <string key="AboutCH">
@@ -884,7 +884,7 @@
   <string key="AboutDG">
     <value>تو یه ولگرد هستی (🎭) اطراف ورزشگاه میگردی تا بتونی یه کار برای خودت جور کنی، اول بازی یه نفر رو انتخاب میکنی تا اگه اون کارش رو ول کرد تو جایگزینش بشی.</value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>>تو نطریه پرداز مسابقات هستی (🏹) تو دو نفر که به نظرت مناسبن رو انتخاب میکنی تا تمام کارهاشون بهمدیگه پیوند بخوره</value>
   </string>
   <string key="AboutHunter">
@@ -1055,10 +1055,10 @@
   <string key="AllowTannerA">
     <value>Injured player as a role set to: {0}</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>Allow hooligans as a role option?\nCurrent: {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>Hooligans as a role set to: {0}</value>
   </string>
   <string key="EnableSecretLynchQ">
@@ -1230,13 +1230,13 @@
   <string key="SerialKillerTeamEnd">
     <value>گروه وحشی</value>
   </string>
-  <string key="CultTeamEnd">
+  <string key="zoombiesTeamEnd">
     <value>گروه تماشاگران افراطی</value>
   </string>
   <string key="TannerTeamEnd">
     <value>گروه مصدوم</value>
   </string>
-  <string key="CultConvertWolf">
+  <string key="zoombiesConvertWolf">
     <value>شما {0} رو فرستادید تا {1} رو گول بزنه اما اون با یه ضربه محکم {0} رو از پا درآورد.</value>
   </string>
   <string key="HarlotFuckedKilledPublic">
@@ -1254,7 +1254,7 @@
   <string key="ZombieKilled">
     <value>{0} میخواست وحشی رو گول بزنه اما وحشی با یه لبخند اون رو راهی بیمارستان کرد.</value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>وحشی دیشب سراغ یه نظریه پرداز رفته و اون رو توی پارکینک ورزشگاه ول کرده درسته اون {0} بود.</value>
   </string>
   <string key="DrunkKilled">
@@ -1285,11 +1285,11 @@
 <!--used when CH visits SK-->
 	<value>پلیس {0} وقتی که میخواست جلوی یه تماشاگر افراطی رو بگیره با اون درگیر شد و مجروح شده، مثه اینکه اون هوادار خلی وحشی بود!</value>
   </string>
-  <string key="CultConvertWolfPublic">
+  <string key="zoombiesConvertWolfPublic">
 <!--used when Zombies convert the wolves, only if wolves stayed home-->
 	<value>توی بازی قبل {0} میخواست یه خاطی رو گول بزنه اما سر از بیمارستان درآورد.</value>
   </string>
-  <string key="CultConvertKillerPublic">
+  <string key="zoombiesConvertKillerPublic">
 <!--used when Zombies convert the SK-->
 	<value>مثه اینکه {0} میخواست وحشی رو گول بزنه اما سر از بیمارستان درآورد</value>
   </string>
@@ -1374,7 +1374,7 @@
 <!-- NOTE: No space between {0} and joined. It will be added in the code if necessary-->
     <value>{0} در 30 ثانیه اخر بازی جوین شدند</value>
   </string>
-  <string key="AllowCult">
+  <string key="Allowzoombies">
     <value>طرفدار افراطی</value>
   </string>
   <string key="AllowTanner">

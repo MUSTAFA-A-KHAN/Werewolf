@@ -175,10 +175,10 @@
     <value >You are the apprentice seer. If the (real) seer dies, you will take their place as the seer.</value>
   </string>
   <string key="RoleInfoZombie" >
-    <value >You are a Zombie. Every night, you may choose a player to convert to your cult. If all remaining living players at the end are Zombies, they win.</value>
+    <value >You are a Zombie. Every night, you may choose a player to convert to your zoombies. If all remaining living players at the end are Zombies, they win.</value>
   </string>
   <string key="RoleInfoZombieHunter" >
-    <value >There is a Zombie in the town, trying to convert everyone! Each night, you can choose a player. If they are a Zombie, they die. If the cult tries to convert you, the newest member dies.</value>
+    <value >There is a Zombie in the town, trying to convert everyone! Each night, you can choose a player. If they are a Zombie, they die. If the zoombies tries to convert you, the newest member dies.</value>
   </string>
   <string key="LynchTime" >
     <value>
@@ -309,26 +309,26 @@
   <string key="ZombieVotedConvert" >
     <value >{0} has voted to convert {1}</value>
   </string>
-  <string key="CultConvertZombieHunter">
-    <value>{0} was sent to do your dirty work, and convert {1}... however, they were the cult hunter! {0} is dead!</value>
+  <string key="zoombiesConvertZombieHunter">
+    <value>{0} was sent to do your dirty work, and convert {1}... however, they were the zoombies hunter! {0} is dead!</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <value>{0} came to your house last night, ready to convert you... but you shoved your sword right through the evil Zombie. A Zombie is dead... {1} remain!</value>
   </string>
-  <string key="CultConvertYou">
-    <value>The cult has converted you to their order! You are now a Zombie. Every other night, you will have a chance to convert another player.</value>
+  <string key="zoombiesConvertYou">
+    <value>The zoombies has converted you to their order! You are now a Zombie. Every other night, you will have a chance to convert another player.</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>Zombies: {0}</value>
   </string>
-  <string key="CultJoin">
-    <value>{0} has joined the cult!</value>
+  <string key="zoombiesJoin">
+    <value>{0} has joined the zoombies!</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <value>{0} was sent to do your dirty work, and convert {1}... but no one was home!</value>
   </string>
-  <string key="CultWins" >
-    <value >All the wolves have died, and the only people left standing have all been converted to Zombies.. The cult has won!</value>
+  <string key="zoombiesWins" >
+    <value >All the wolves have died, and the only people left standing have all been converted to Zombies.. The zoombies has won!</value>
   </string>
   <string key="HunterVisitDead">
     <value>You went to hunt {0}, but they are already dead!</value>
@@ -424,7 +424,7 @@
     <value> The masons are: {0}</value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <value>Your newest member heads over to {0}'s house to convert them, but instead finds the house a complete wreck, blood everywhere, and bits of wolf fur snagged on the doorway...</value>
   </string>
   <string key="GuardBlockedWolf">

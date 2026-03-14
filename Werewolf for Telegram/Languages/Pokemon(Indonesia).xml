@@ -393,33 +393,33 @@
     <!-- 1 - target name -->
     <value >{0} memilih mengajak {1}</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <!-- 0 - Yougest Zombie (killed)'s name' -->
     <!-- 1 - ZombieHunter's name -->
     <value>Mewtwo {0} dikirim untuk mengajak {1} ke dalam tim... Akan tetapi, dia adalah pemilik Mew! {0} kehilangan Mewtwonya!</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - Number of Zombies left -->
     <value>{0} datang menemuimu untuk mengajak Pokémonmu menjadi Mewtwo. Mew melepaskan Mewtwo dari {0}!! {1} anggota mewtwo tersisa!</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>Anggota Mewtwo telah datang menemuimu dan mengajak Pokémonmu menjadi Mewtwo. Kamu melepaskan Pokémonmu dan memilih Mewtwo. Ini pekerjaan barumu untuk mengajak trainer ke dalam tim.</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <!-- 0 - Number of Zombies -->
     <value>Anggota Mewtwo: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <!-- 0 - new Zombie's name -->
     <value>{0} telah bergabung ke dalam tim!</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <!-- 0 - Newest Zombie's name -->
     <!-- 1 - target name -->
     <value>{0} dan Mewtwo telah mencoba mengajak {1}... tapi tidak ada orang di rumah!</value>
   </string>
-  <string key="CultWins" isgif="true">
+  <string key="zoombiesWins" isgif="true">
     <value >Team Rocket telah mati tapi semua trainer sudah menjadi Mewtwo! Mewtwo menang!!!</value>
   </string>
   <string key="HunterVisitDead">
@@ -523,7 +523,7 @@
     <value>  Anggota klub Pikachu: {0}</value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <!-- 0 - Youngest Zombies name -->
     <value>Anggota barumu pergi menemui {0} dan mencoba mengajak dia masuk ke tim dengan Mewtwo. Tetapi kamu menemukan Pokémonnnya dalam keadaan pingsan dan kamu kehilangan semua motivasi untuk mempunya Pokémon lain.</value>
   </string>
@@ -532,7 +532,7 @@
     <value>Anggota barumu pergi menemui {0} dan menantang untuk battle Pokémon. Mr. Mime keluar entah dari mana dan melindunginya, Kamu tidak dapat melawan mereka dan kembali ke rumah..</value>
   </string>
   <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <!-- 0 - newest  -->
     <!-- 1 - target's name -->
     <value>Kamu mengirim {0} dan Mewtwonya untuk mengajak {1}, akan tetapi Pokémon mereka terlalu kuat, dan dia tidak mau masuk ke timmu. :(</value>
@@ -543,7 +543,7 @@
     <!-- 1 - name -->
     <value> @{1}, Pemain dengan nama {0} sudah ada yang ikut main. Ganti nama kamu ya.</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <!-- 0 - target's name -->
     <value>Jigglypuff pergi untuk menemui {0} dan mencoba berkenalan dengan Pokémonnya dan mengetahui dia adalah Mewtwo! Jigglypuff bergegas pulang dengan syok.</value>
   </string>
@@ -636,7 +636,7 @@
     <value>Waktu habis!</value>
   </string>
   <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
     <value>Kamu adalah pemilik Haunter 🏹. Kamu bisa memilih 2 trainer dan menakdirkan Pokémon mereka bersama. Ketika salah satu Pokémon pingsan, yang lainnya mengikuti.</value>
   </string>
   <string key="RoleInfoDoppelganger">
@@ -648,7 +648,7 @@
   <string key="RoleInfoSerialKiller">
     <value>Kamu adalah Pokémon Master yang memiliki Dragonite 🔪. Tujuanmu adalah untuk memenangkan semua battle Pokémon dan menjadi yang terbaik yang pernah ada.</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>Takdir telah memilih Pokémonmu! Jika Pokémon {0} kalah dalam battle Pokémon dan pingsan, Pokémonmu akan pingsan juga!</value>
   </string>
   <string key="HunterLynchedChoice">
@@ -683,7 +683,7 @@
     <!-- 2 - target's role -->
     <value>{0} memerintahkan Gengar untuk menggunakan Curse! Ketika Gengar pingsan, {1} sedih karena Pokémonnya pingsan. {2}.</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <value>{0} mengirim Mewtwo untuk menyerang {1}! Akan tetapi, tidak mengetahui trainer lain lebih kuat. Dragonite muncul! Dragonite menggunakan Outrage! Mewtwo pingsan.</value>
   </string>
   <string key="HunterShotWolfMulti">
@@ -706,12 +706,12 @@
     <!-- 0 - target's name -->
     <value>Kamu dan Dragonite pergi menemui {0} dan menantang dia untuk battle Pokémon. Mr. Mime keluar entah darimana dan melindunginya, mereka hilang.. Kamu tidak mendapatkan battlemu.</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
     <value>Team Rocket mengirim {0} untuk mengajak {1} ke dalam tim, tetapi {1} marah dan menyuruh Gengar untuk memulai battle Pokémon! {0} kalah bersama dengan Mewtwonya yang sudah pingsan.</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
     <value>Team Rocket mengirim {0} untuk mengajak {1} ke dalam tim, tetapi {1} marah dan menyuruh Dragonite untuk memulai battle Pokémon! {0} kalah bersama dengan Mewtwonya yang sudah pingsan.</value>
@@ -735,11 +735,11 @@
     <!-- 1 - mason collegues's name -->
     <value>Pikachu {0} telah pingsan, dan Ditto berubah menjadi Pikachu.  Anggota klub Pikachu: {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <!-- 0 - new Zombie's name -->
     <value>Ditto {0} baru saja berubah menjadi Mewtwo dan bergabung ke dalam tim!</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <!-- 0 - role's name -->
     <!-- 1 - teammates's name -->
     <value>Metwonya {0} telah pingsan, dan Ditto berubah menjadi Mewtwo.  Anggota Mewtwo: {1}</value>
@@ -759,25 +759,25 @@
   <string key="AskKill">
     <value>Siapa yang ingin kamu ajak battle malam ini?</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <!-- 0 - dead's name -->
-    <!-- 1 - lover's name -->
+    <!-- 1 - crewmate's name -->
     <!-- 2 - roles -->
     <value>Dengan Pokémonnya {0} pingsan, {1} syok karena Pokémonnya juga pingsan, Pokémon mereka ternyata sudah ditakdirkan. {2}.</value>
   </string>
   <string key="AskDoppelganger">
     <value>Siapa trainer Pokémon yang ingin Ditto berubah saat Pokémonnya trainer yang kamu pilih pingsan?</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>Pokémon siapa yang ingin Haunter takdirkan? Pilih trainer pertama.</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>Pokémon siapa yang ingin Haunter takdirkan? Pilih trainer kedua.</value>
   </string>
   <string key="Hunter">
     <value>Gengar 🎯</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>Haunter 🏹</value>
   </string>
   <string key="SerialKiller">
@@ -786,15 +786,15 @@
   <string key="Doppelgänger">
     <value>Ditto 🎭</value>
   </string>
-  <string key="CupidChosen">
-    <!-- 0 - lover's name -->
+  <string key="RecruiterChosen">
+    <!-- 0 - crewmate's name -->
     <value>Pokémonmu ditakdirkan dengan Pokémon {0} oleh Haunter. Jika Pokémonnya pingsan, punyamu juga!</value>
   </string>
   <string key="NewWCRoleModel">
     <!-- 0 - target's name -->
     <value>Dittomu berubah menjadi Meowth 👶.  Senpaimu adalah {0}</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
     <value>Erm, saya tidak berpikir tentang ini sama sekali.!</value>
   </string>
   <string key="HunterKilledVisiter">
@@ -802,7 +802,7 @@
     <!-- 1 - role -->
     <value>Gengar menemukan Pokémon dan Gengar menggunakan Shadow Punch! {1} pingsan. Trainernya adalah {0}</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>Kamu telah diajak masuk tim Mewtwo, tetapi Pokémonmu lebih kuat.</value>
   </string>
   <string key="AlreadyOnWaitList">
@@ -882,7 +882,7 @@
   <string key="AboutFool">
     <value>Psyduck 🃏 Alakazam palsu yang sesat. Setiap malam Psyduck bisa memilih trainer untuk diterawang Pokémonnya, tetapi mereka akan diberi tahu Pokémon acak.</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>Mewtwo 👤 Bisa memilih trainer dan mencoba untuk mengajaknya untuk menjadi Mewtwo. Jika semua Pokémon adalah Mewtwo. Mewtwo menang.</value>
   </string>
   <string key="AboutCH">
@@ -903,7 +903,7 @@
   <string key="AboutDG">
     <value>Ditto 🎭 Pilih salah satu trainer. Ketika Pokémonnya pingsan, Ditto akan berubah menjadi Pokémon yang dipilih trainernya dan bergabung ke tim mereka jika mereka punya.</value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>Haunter 🏹 Bisa memilih 2 trainer dan menakdirkan Pokémon mereka bersama. Ketika salah satu Pokémon pingsan, yang lainnya mengikuti.</value>
   </string>
   <string key="AboutHunter">
@@ -1081,10 +1081,10 @@
   <string key="AllowTannerA">
     <value>Pilihan Tauros dalam Peran: {0}</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>Apakah kamu ingin Mewtwo dalam pilihan peran?\nPengaturan saat ini: {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>Pilihan Mewtwo dalam Peran: {0}</value>
   </string>
   <string key="ThankYou">
@@ -1235,7 +1235,7 @@
   <string key="SerialKillerTeam">
     <value>(Pokémon Master Team)</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>(Mewtwo Team)</value>
   </string>
   <string key="TannerTeam">
@@ -1254,7 +1254,7 @@
   <string key="SerialKillerTeamEnd">
     <value>(Pokémon Master Team)</value>
   </string>
-  <string key="CultTeamEnd">
+  <string key="zoombiesTeamEnd">
     <value>(Mewtwo Team)</value>
   </string>
   <string key="TannerTeamEnd">

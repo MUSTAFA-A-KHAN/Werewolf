@@ -319,25 +319,25 @@ Tsunade Bêbada da Aldeia: Parabéns, você é a Tsunade Bêbada da Aldeia! Voc�
  <string key="ZombieVotedConvert" >
     <value >{0} votou para converter a Seita Jashin {1}</value>
   </string>
- <string key="CultConvertZombieHunter">
+ <string key="zoombiesConvertZombieHunter">
     <value>{0} foi enviado(a) para fazer o trabalho sujo e converter o {1} para a Seita Jashin... Entretanto, ele era o Ibiki, e tinha uma câmara de tortura especial pra menbros da Seita Jashin! {0} está morto(a)!</value>
   </string>
- <string key="ZombieHunterKilledCultVisit">
+ <string key="ZombieHunterKilledzoombiesVisit">
     <value>{0} foi à sua casa na noite passada, pronto(a) para te converter para a Seita Jashin....  Mas você tinha uma câmara de tortura só pra esse tipo de gente. Um membro da Seita Jashin está morto... {1} restante(s)!</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>Você foi convertido(a) e agora é um membro da Seita Jashin.  Durante a noite, você poderá tentar converter outros jogadores.</value>
   </string>
- <string key="CultTeam">
+ <string key="zoombiesTeam">
     <value>Membros da Seita Jashin: {0}</value>
   </string>
- <string key="CultJoin">
+ <string key="zoombiesJoin">
     <value>{0} se juntou à Seita Jashin!</value>
   </string>
- <string key="CultVisitEmpty">
+ <string key="zoombiesVisitEmpty">
     <value>{0} foi enviado(a) para fazer o trabalho sujo e converter {1}... Mas o candidato não estava em no local!</value>
   </string>
- <string key="CultWins" isgif="true">
+ <string key="zoombiesWins" isgif="true">
     <value >Todos os Akatsuki morreram e as únicas pessoas sobreviventes pertencem à Seita Jashin..  A Seita venceu! A SEITA QUE DÓI MENOS!</value>
   </string>
  <string key="HunterVisitDead">
@@ -430,20 +430,20 @@ Tsunade Bêbada da Aldeia: Parabéns, você é a Tsunade Bêbada da Aldeia! Voc�
  <string key="MasonTeam">
     <value>  Os Anbu são: {0}</value>
   </string>
- <string key="CultTargetDead">
+ <string key="zoombiesTargetDead">
     <value>O membro mais recente da Seita Jashin vai a procura de {0} para fazer o trabalho sujo e convertê-lo(a), mas encontra uma bagunça, muito sangue... Seu alvo foi morto pelos Akatsuki!</value>
   </string>
  <string key="GuardBlockedWolf">
     <value>Os Akatsuki parti para matar {0}, ao chega ao encontro com seu alvo. A Hinata sai em defesa do alvo com imensa coragem e determinação, após uma luta  dos mais variados hits hyuuga, a Akatsuki recua e foge.</value>
   </string>
- <string key="CultUnableToConvert">
+ <string key="zoombiesUnableToConvert">
     <value>{0} foi enviado(a) para fazer o trabalho sujo, mas as crenças de {1} eram fortes de mais para serem corrompidas. :(</value>
   </string>
  <string key="NameExists">
     <value>@{1}, um(a) jogador(a) com nome {0} já se juntou à partida. Por favor mude seu nome para poder entrar no jogo.</value>
   </string>
- <string key="HarlotDiscoverCult">
-    <value>Você  foi investigar o(a) {0}para saber mas obter mais informações, mas enquanto saia você notou através de uma porta semiaberta um estranho culto dentro de um quarto....</value>
+ <string key="HarlotDiscoverzoombies">
+    <value>Você  foi investigar o(a) {0}para saber mas obter mais informações, mas enquanto saia você notou através de uma porta semiaberta um estranho zoombieso dentro de um quarto....</value>
   </string>
  <string key="Was">
     <value>era</value>
@@ -530,7 +530,7 @@ Tsunade Bêbada da Aldeia: Parabéns, você é a Tsunade Bêbada da Aldeia! Voc�
 	<value>Tempo esgotado!</value>
   </string>
 
- <string key="RoleInfoCupid">
+ <string key="RoleInfoRecruiter">
     <value>Sakura: Você é a Sakura. Enviado por Tsunade para uma missão, com um arco e duas flechas, você pode escolher dois jogadores que irão se amar para toda eternidade. Se um deles morrer, o outro morrerá de tristeza. Depois de unir dois amantes, você pode voltar ao seu papel como Ninja.</value>
   </string>
  <string key="RoleInfoDoppelganger">
@@ -542,7 +542,7 @@ Tsunade Bêbada da Aldeia: Parabéns, você é a Tsunade Bêbada da Aldeia! Voc�
  <string key="RoleInfoSerialKiller">
     <value>Você é o criminoso Obito. Seu time é você mesmo e os outros jogadores não são mais que pedras inconvenientes no seu caminho. Toda noite você pode escolher um jogador para eliminar e diminuir o número de vermes rastejando neste mundo.</value>
   </string>
-<string key="CupidChosen">
+<string key="RecruiterChosen">
     <value>Você foi atingido(a) pela flecha do amor. A memória de {0} nunca deixará seu coração. Seu objetivo é que os dois sobrevivam. Se um de vocês morrer o outro irá até o mundo dos mortos para que ambos continuem juntos.</value>
   </string>
 
@@ -570,7 +570,7 @@ Tsunade Bêbada da Aldeia: Parabéns, você é a Tsunade Bêbada da Aldeia! Voc�
  <string key="HunterKilledFinalShot">
     <value>{0} cai no chão, ferido mortalmente... Mas antes de morrer, ele usa seu Rasegan e acerta em cheio {1}, que cai ao chão sem vida. {2}</value>
   </string>
- <string key="CultConvertSerialKiller">
+ <string key="zoombiesConvertSerialKiller">
     <value>{0} pelas sombras, chega por traz de {1}, diante usa seu Izanagi para poder controla os pensamentos de {1} logo depois enfia sua espada, e começa a ferir gravemente {0}, enquanto ele soltava um riso maléfico e assustador. {0} está morto. D:</value>
   </string>
  <string key="HunterShotWolfMulti">
@@ -588,10 +588,10 @@ Tsunade Bêbada da Aldeia: Parabéns, você é a Tsunade Bêbada da Aldeia! Voc�
  <string key="GuardBlockedKiller">
     <value>Você foi matar {0}. Mas chegando lá a Hinata protegeu ele com unhas e dentes ! você não foi capaz, e teve de fugir...</value>
   </string>
- <string key="CultConvertHunter">
+ <string key="zoombiesConvertHunter">
     <value>A Seita Jashin manda {0} para converter {1}. Chegando lá {0} é recebido com um Rasengan! {0} tá morta...</value>
   </string>
- <string key="CultConvertSerialKiller">
+ <string key="zoombiesConvertSerialKiller">
     <value>A Seita Jashin manda {0} para converter {1}. Chegando lá {0} descobre ele não era a malhor pessoa a ser escolhida. Seu corpo é encontrado aberto na aldeia, mas com os orgãos revirados. {0} está morta...</value>
   </string>
  <string key="GuardKiller">
@@ -606,10 +606,10 @@ Tsunade Bêbada da Aldeia: Parabéns, você é a Tsunade Bêbada da Aldeia! Voc�
  <string key="DGTransformToMason">
     <value>{0} morreu, e você agora é um Anbu.  Seus companheiros (se houver) são: {1}</value>
   </string>
- <string key="DGToCult">
+ <string key="DGTozoombies">
     <value>O Orochimaru {0} se transformou em um membro da Seita Jashin. A Seita Jashin ele!</value>
   </string>
- <string key="DGTransformToCult">
+ <string key="DGTransformTozoombies">
     <value>{0} morreu, aceita que você entrou para a Seita Jashin. Seus novos companheiros (se houver) são: {1}</value>
   </string>
  <string key="DGToWolf">
@@ -625,7 +625,7 @@ Tsunade Bêbada da Aldeia: Parabéns, você é a Tsunade Bêbada da Aldeia! Voc�
     <value>Quem você quer matar essa noite?</value>
   </string>
 
-<string key="LoverDied">
+<string key="crewmateDied">
     <value>{0} dá seu último suspiro olhando no fundo dos olhos de seu amado(a), {1}, que segura seu corpo de joelhos. {1} não aguenta a dor, e, com uma faca, perfura o próprio coração... Eles ficarão juntos, mesmo no mundo dos mortos. {2}</value>
   </string>
 
@@ -633,18 +633,18 @@ Tsunade Bêbada da Aldeia: Parabéns, você é a Tsunade Bêbada da Aldeia! Voc�
     <value> Quem você escolherá para se transformar?</value>
   </string>
 
-<string key="AskCupid1">
+<string key="AskRecruiter1">
     <value>Quem será o casal? Escolha o primeiro amante.</value>
   </string>
 
-<string key="AskCupid2">
+<string key="AskRecruiter2">
     <value>Quem será o casal? Escolha o segundo amante.</value>
   </string>
 
  <string key="Hunter">
     <value>o Minato ??</value>
   </string>
- <string key="Cupid">
+ <string key="Recruiter">
     <value>Sakura ??</value>
   </string>
  <string key="SerialKiller">
@@ -653,20 +653,20 @@ Tsunade Bêbada da Aldeia: Parabéns, você é a Tsunade Bêbada da Aldeia! Voc�
  <string key="Doppelgänger">
     <value>a Orochimaru ??</value>
   </string>
- <string key="CupidChosen">
+ <string key="RecruiterChosen">
     <value>A flecha da Sakura acertou seu coração! Você está apaixonado por {0}!  Se ele(a) morre, você morre também. No final, se ambos estiverem vivos, vocês vencem.</value>
   </string>
  <string key="NewWCRoleModel">
     <value>Você se tornou o Sasuke.  Seu modelo exemplar é {0}</value>
   </string>
-<string key="LoversWin">
+<string key="crewmatesWin">
     <value>Os amantes venceram! Queriam o que né? O Amor sempre vence!</value>
   </string>
 
  <string key="HunterKilledVisiter">
     <value>vocês encontram o corpo de {0} jogado ao chão, Omesmo levou um Rasengam bem em cheio. Parece que alguém foi matar o Minato e se deu mal! {1}</value>
   </string>
- <string key="CultAttempt">
+ <string key="zoombiesAttempt">
     <value>Alguém bateu na sua porta a noite, "Olá, você tem um minuto para ouvir a palavra da Seita Jashin?" Você fecha a porta na cara deles, sua fé é mais forte, mas você se esqueceu de olhar o rosto dele!</value>
   </string>
 <string key="AlreadyOnWaitList">
@@ -744,7 +744,7 @@ Tsunade Bêbada da Aldeia: Parabéns, você é a Tsunade Bêbada da Aldeia! Voc�
  <string key="AboutFool">
     <value>Trouxa é dito que eles são Hokages.... quando eles escolhem para ver o papel, eles são informados um aleatório role.</value>
   </string>
- <string key="AboutCult">
+ <string key="Aboutzoombies">
     <value>Membro da Seita Jashin: Você é um Membro da Seita Jashin. Durante sua jornada, você poderá escolher alguém para se juntar a Seita Jashin. Se todos os jogadores restantes ao final do jogo forem da Seita, ela vence!</value>
   </string>
  <string key="AboutCH">
@@ -767,7 +767,7 @@ Tsunade Bêbada da Aldeia: Parabéns, você é a Tsunade Bêbada da Aldeia! Voc�
      Você é o Orochimaru. Tem o poder de assumir qualquer forma que quiser! Escolha um jogador, quando ele morrer você assumirá o papel dele no jogo.
     </value>
   </string>
- <string key="AboutCupid">
+ <string key="AboutRecruiter">
     <value>
       Você é a Sakura. Enviado por Tsunade para uma missão, com um arco e duas flechas, você pode escolher dois jogadores que irão se amar para toda eternidade. Se um deles morrer, o outro morrerá de tristeza. Depois de unir dois amantes, você pode voltar ao seu papel como Ninja.
     </value>
@@ -984,10 +984,10 @@ Tsunade Bêbada da Aldeia: Parabéns, você é a Tsunade Bêbada da Aldeia! Voc�
  <string key="AllowTannerA">
     <value>Existência do Hidan definida como: {0}</value>
   </string>
- <string key="AllowCultQ">
+ <string key="AllowzoombiesQ">
     <value>Permitir a Seita Jashin como um papel possível?\nAtual: {0}</value>
   </string>
- <string key="AllowCultA">
+ <string key="AllowzoombiesA">
     <value>Existência da Seita Jashin definida como: {0}</value>
   </string>
 <string key="ThankYou">
@@ -1148,7 +1148,7 @@ Tsunade Bêbada da Aldeia: Parabéns, você é a Tsunade Bêbada da Aldeia! Voc�
   <string key="SerialKillerTeam">
     <value>Time SK</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>Time Seita</value>
   </string>
   <string key="TannerTeam">

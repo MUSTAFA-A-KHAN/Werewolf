@@ -392,26 +392,26 @@
   <string key="ZombieVotedConvert">
     <value > {0} mamiliah maasuang {1}.</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <value>{0} disuruah untuak maasuang {1}.. dek polos, inyo baru sadar kironyo paja ko pamburu aliran sasek. 💂
   	{0} dibunuah, martabak nyo diambiak, disumbekkan ka muncuang {0} saparo sampai mati!</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <value>Tadi malam {0} ka rumah sanak mambaok martabak coklat kacang.. Galak saketek, kironyo martabak tu basianida.  Mati Urang Bunian surang.. {1} tasiso!</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>👤 Urang Bunian sukses maajak sanak bagabuang! WUIWUIU!! WUIWUIU!! 🐚 Ulululululu !!!. Satiok malam, Sanak barusaho mangajak yang lain untuak bagabuang. WUIWUIU!! WUIWUIU!!</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>👤 Zombie Urang Bunian: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <value>{0} alah bagabuang ka rombongan Urang Bunian! 👤 WUIWUIU!! WUIWUIU!! </value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <value>{0} mambaok martabak coklat kacang ka rumah {1}. Lah ditokok pintu rumahnyo 3 kali, ndak ado yang kalua. Sanak mamiliah untuak maninggaan martabak tu di muko pintu.</value>
   </string>
-  <string key="CultWins">
+  <string key="zoombiesWins">
     <value >WUIWUIWUIWUIU!! 👤
   	Sado serigala alah mati, masyarakaik nan tasiso alah manjadi rombongan Urang Bunian!
   	URANG BUNIAN MANANG!
@@ -511,7 +511,7 @@
   <string key="MasonTeam">
     <value>  Kelompok mason : {0}</value>
   </string>
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <value>Anggota baru sanak pai ka rumah {0} mambaok martabak untuak maumbuak,
         Tapi rumahnyo cayia, darah baserak, dindiangnyo banyak bakeh gauwik. Bantuaknyo {0} alah dimakan Srigala.</value>
   </string>
@@ -520,14 +520,14 @@
   	  Si Guardian Angel mambuek kalian baliak pulang takengkiang ngarajoan skripsi.</value>
     <value>Sanak nio mamakan {0}, didakek rumah {0} jaleh sarang pareman disinan. Sanak jo kawan-kawan sanak babaliak mancaliak badan-badan badagok pareman tu.</value>
   </string>
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <value>Sanak manyuruah {0} untuak maumbuak {1} bagabuang, tapi inyo dak nio martabak do inyo nio tahu bulek kecek e.</value>
     <value>Sanak manyuruah {0} untuak maumbuak {1} bagabuang, tapi nyo manulak, nyo usia sanak, sanak paso jo nyo bagabuang, nyo lantiang sanak jo perabot rumah e, Sanak punguik tu saketek.</value>
   </string>
   <string key="NameExists">
     <value>{1}, pamain nan mamakai namo {0} alah ado nan ikuik main.  Ganti namo Sanak yo.</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <value>Sanak mancigok ke rumah {0} untuak andehoi lamak 👄. Katiko nio pulang, tacaliak dek Sanak urang bunian bacahayo di salah satu biliak. BIDIP! WUIWUIU!! 🐚</value>
   </string>
   <string key="Was">
@@ -605,8 +605,8 @@
     <value>Jawaban sanak talambek!</value>
   </string>
   <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
-    <value>Sanak tu Cupid 💘. Malakaik aluih dari sarugo nan pakai sempak jo panah bantuak sedot WC, jo anak panah tu Sanak bisa menembak duo urang untuak dijadian sapasang pole nan ndk bisa dipisahan dek apopun, bantuak Om Romeo jo Ante Juliaik. Mati surang mati kaduoe.</value>
+  <string key="RoleInfoRecruiter">
+    <value>Sanak tu Recruiter 💘. Malakaik aluih dari sarugo nan pakai sempak jo panah bantuak sedot WC, jo anak panah tu Sanak bisa menembak duo urang untuak dijadian sapasang pole nan ndk bisa dipisahan dek apopun, bantuak Om Romeo jo Ante Juliaik. Mati surang mati kaduoe.</value>
   </string>
   <string key="RoleInfoDoppelganger">
     <value>Sanak tu Doppelgänger 🎭, tukang tiru. Bak kecek-kecek urang saisuak Sanak bisa manjadi urang nan Sanak tantuan persis jo kekuatannyo bagai kalau urang tu alah almarhum.</value>
@@ -693,10 +693,10 @@
   <string key="GuardBlockedKiller">
     <value>Sanak pai ka rumah {0}, tapi sanak di ambek dek preman sinan. Dek premannyo banyak bana, sanak mamiliah untuak pulang.</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <value>Aliran sasek urang bunian {0} ka rumah {1} mambaok martabak untuak maumbuak, tapi tadanga suaro badia, {0} tapalantiang kalua tingkok! {0} alah mati....</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <value>Aliran sasek urang bunian {0} ka rumah {1} mambaok sate untuak maumbuak, tapi tadanga suaro {0} mamakiak, sudah tu aniang se lai! GILOOOO !! tusuak sate panuah di badan {0}, darahnyo mailia bantuak kuah sate. {0} alah mati....</value>
     <value>{0} mambaok martabak baliak ka rumah {1}, {1} senyum ramah manyambuik martabak yang dibaok {0}. Sacangkia kopi tasadio dan tibo-tibo {1} menghunus pisau bakali-kali ka dado jo paruik {0} sampai akhirnyo dikuliti iduik-iduik.
   	{0} alah mati.. </value>
@@ -713,10 +713,10 @@
   <string key="DGTransformToMason">
     <value>{0} alah mati, Sanak kini jadi mason 👷. Tim Mason sanak : {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <value>Si {0} (Doppelganger) kini lah jadi Zombie samo jo sanak!</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <value>{0} alah mati, Sanak kini jadi Zombie 👤. Sanak mamuja urang bunian basamo jo {1}</value>
   </string>
   <string key="DGToWolf">
@@ -732,7 +732,7 @@
   <string key="AskKill">
     <value>Siapo nan nio Sanak bantai malam ko?</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <value>{0} mati letoy di bahu {1}. Dak tahanyo manjomblo lai, nyo minum baygon raso tiga roda untuak bunuauh diri..💔  Cinto suci hanyo mimpi ♫♫  {2}</value>
     <value>{0} mati dipangkuan {1}. Aia manitiak di pipinyo, hari ujan ditembak dek patuih.💔 Katiko cinto musti mangalah ♫♫ {2}</value>
     <value>{0} mati takulai di paho {1}. Karena keceknya dia tidak bisa hidup tanpa dia doh .💔 Ituu booohooong.. itu palsu ♫♫ {2}</value>
@@ -740,17 +740,17 @@
   <string key="AskDoppelganger">
     <value>Kok inyo mati, Sanak barubah jadi inyo , Sia nan ka sanak piliah?</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>Siapo nan nio Sanak jadian pasangan saiduik samati? piliah jomblo partamo, caliak tampang nan kusuik lusuah ndak taurus, kok pandai nikuang buliah piliah nan indak jomblo</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>Siapo nan nio Sanak jadian pasangan saiduik samati? piliah jomblo kaduo</value>
   </string>
   <string key="Hunter">
     <value>Hunter 🎯</value>
   </string>
-  <string key="Cupid">
-    <value>Cupid 💘</value>
+  <string key="Recruiter">
+    <value>Recruiter 💘</value>
   </string>
   <string key="SerialKiller">
     <value>Serial Killer 🔪</value>
@@ -758,7 +758,7 @@
   <string key="Doppelgänger">
     <value>Doppelgänger 🎭</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>Ku kijok dirimu, dikau namuah saja~ ❤♫♫
     Dado sanak baguncang tiok mancaliak {0} di jalan, malam langang inyo se nan takana. Pas makan tabayang mungkonyo dipiriang, sadang macik sabun pas mandi inyo juo nan takana . Bajuanglah basamo sampai akhir! Kok Sanak mati, {0} frustasi. Nyo ndk talok iduik kalau ndk ado sanak do, nyo minum la baygon untuk basobok Sanak di alam salanjuiknyo. Bantuak itu lo kalau inyo mati.</value>
     <value>Kumbang indak saikuah, bungo indak satangkai~ ♫♫ ❤️❤️
@@ -768,7 +768,7 @@
   <string key="NewWCRoleModel">
     <value>Sanak alah manjadi Wild Child 👶.  role model sanak tu {0}</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
     <value>🎉 Cinto Sajati batahan toruh!
   	Sapasang pole alah Manang! #CintoSuci Samoga awet yoo</value>
   </string>
@@ -777,7 +777,7 @@
     <value>Masyarakaik bakumpua di muko balai nagari mancaliak {0} kanai luko tembak tapek di kapalo!
   	"Den ingekkan, bantuak iko kalau manggaduah den lalok ---Hunter---!" {1}</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>Sanak mancaliak martabak jo Sate lah bacampua di muko pintu rumah Sanak, tapi ndak ado urang surang alah e do.</value>
   </string>
   <string key="AlreadyOnWaitList">
@@ -853,7 +853,7 @@
   <string key="AboutFool">
     <value>Urang gilo nan dak sadar bahwasanyo inyo gilo. Inyo manyangko dirinyo Seer (Panarawang) kironyo... yo gitulah urang gilo lah namo e. </value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>Zombie tibo nyo sampah masyarakai nan meresahkan. Panyebar aliran sasek. Inyo manang kalau berhasil maajak sado warga untuak sasek. </value>
   </string>
   <string key="AboutCH">
@@ -875,9 +875,9 @@
     <value> Doppelganger ko inyo mamiliah urang nan akan digantian role nyo kalau urangnyo alah mati.
     </value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>
-      Cupid ko tukang jodoh, inyo bisa manjodohan 2 urang nan dikironyo cocok.
+      Recruiter ko tukang jodoh, inyo bisa manjodohan 2 urang nan dikironyo cocok.
     </value>
   </string>
   <string key="AboutHunter">
@@ -1046,10 +1046,10 @@
   <string key="AllowTannerA">
     <value>Piliahan Tanner dalam Peran: {0}</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>Apakah sanak nio Zombie dalam piliahan peran?\nPengaturan saat iko: {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>Piliahan Zombie dalam Peran: {0}</value>
   </string>
   <string key="ThankYou">
@@ -1198,7 +1198,7 @@
   <string key="SerialKillerTeam">
     <value>Tim SK</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>Tim Urang Bunian</value>
   </string>
   <string key="TannerTeam">
@@ -1216,7 +1216,7 @@
   <string key="SerialKillerTeamEnd">
     <value>Tim SK</value>
   </string>
-  <string key="CultTeamEnd">
+  <string key="zoombiesTeamEnd">
     <value>Tim Urang Bunian</value>
   </string>
   <string key="TannerTeamEnd">
@@ -1225,7 +1225,7 @@
   <string key="HarlotFuckKillerPublic">
     <value>{0} masuak ka rumah 🔪Serial Killer. Setelah manikmati tubuh {0}, {0} pun dimutilasi.</value>
   </string>
-  <string key="CultConvertWolf">
+  <string key="zoombiesConvertWolf">
     <value>Geromboloan urang bunian mautus {0} untuak mambaok martabak ka rumah {1}, alah lamo manunggu {0} indak babaliak pulang. Apo lah gerangan nan tajadi?</value>
   </string>
   <string key="ApprenticeSeerEaten">
@@ -1241,10 +1241,10 @@
     <value>Serial Killer ko yo dak pandang bulu kalau mambunuah urang do! si Urang Bunian {0} basobok tewas dirumahnyo pagi ko.</value>
     <value>🔪 {0} si Urang Bunian mancubo kabur dari Serial Killer. {0} pun mati ditampek!</value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>Tukang comblang nan alah samo-samo kito tahu, malang indak dapek diilakan {0} basobok indak banyao!</value>
-    <value>{0} si Cupid tewas, Kiro-kiro sia pelaku e ko?</value>
-    <value>🔪 {0} si Cupid mancubo kabur dari Serial Killer. {0} pun mati ditampek!</value>
+    <value>{0} si Recruiter tewas, Kiro-kiro sia pelaku e ko?</value>
+    <value>🔪 {0} si Recruiter mancubo kabur dari Serial Killer. {0} pun mati ditampek!</value>
   </string>
   <string key="DrunkKilled">
     <value>Tukang mabuak memang tabu di nagari kito, tapi nan paliang marisaukan adolah si main hakim surang mode Serial Killer ko ha! {0} indak sempat tobat sabalun inyo mati.</value>
@@ -1282,11 +1282,11 @@
     <value>si Pamburu Urang Bunian bantuaknyo salah masuak rumah tadi malam, inyo masuak ka rumah Serial Killer. Dek Serial Killer dak nio {0} bukak muluik langsuang sajo dibunuahnyo. {0} tewas.</value>
     <value>🔪 {0} si Pamburu Urang Bunian mancubo kabur dari Serial Killer, tapi malang, tataruang polisi lalok. {0} pun mati ditampek!</value>
   </string>
-  <string key="CultConvertWolfPublic">    <!--used when Zombies convert the wolves, only if wolves stayed home-->
+  <string key="zoombiesConvertWolfPublic">    <!--used when Zombies convert the wolves, only if wolves stayed home-->
     <value>{0} maantaan martabak ka rumah serigala nan indak pai mancari makan tadi malam. "Den dak nio martabak do, den nio makan urang!" itulah kiro-kiro keceknyo. Akhirnyo {0} pun tewas dimakan. </value>
     <value>Serigala sedang dak lamak badan, jadinyo indak cari makan malam tadi. Pucuk dicinta, martabak pun tiba. Tapi serigala dak nio martabak, {0} pun tewas jadi makanan serigala.</value>
   </string>
-  <string key="CultConvertKillerPublic">    <!--used when Zombies convert the SK-->
+  <string key="zoombiesConvertKillerPublic">    <!--used when Zombies convert the SK-->
     <value>{0} baniaik maantaan martabak, kiro e inyo maantaan martabak karumah Serial Killer! Yo tewas lah.</value>
     <value>Indak maantaan martabak, {0} pai maantaan nayo nan lai. Ado-ado se, baantaan pulo martabak ka rumah serial killer.</value>
   </string>
@@ -1373,7 +1373,7 @@
     <value>{0} alah bagabuang dalam 30 datiak terakhir.</value>
   </string>
 
-  <string key="AllowCult">
+  <string key="Allowzoombies">
     <value>Buliahan urang bunian</value>
   </string>
   <string key="AllowTanner">
@@ -1412,7 +1412,7 @@
     <value>Sadonyo</value>
   </string>
   <string key="RandomModeQ">
-    <value>Buliahan random mode?\nWhen random mode is enabled, Chaos, Secret Lynch, Show Roles on Death, and Allow Cult / Fool / Tanner will be randomly determined everytime someone starts a game.\nCurrent:{0}</value>
+    <value>Buliahan random mode?\nWhen random mode is enabled, Chaos, Secret Lynch, Show Roles on Death, and Allow zoombies / Fool / Tanner will be randomly determined everytime someone starts a game.\nCurrent:{0}</value>
   </string>
   <string key="RandomModeA">
     <value>Enabling of random mode set to: {0}</value>
@@ -1607,7 +1607,7 @@
     <!-- 0 - mason collegues's name -->
     <value>Kawan-kawan sanaka (kok lai ado) adolah: {0}</value>
   </string>
-  <string key="ThiefToCult">
+  <string key="ThiefTozoombies">
     <!-- 0 - old Zombie's name -->
     <!-- 1 - new Zombie's name -->
     <value>{0} indak kawan sanak lai, dan {1} alah jadi kawan Urang Bunian baru sanak!</value>
@@ -1776,7 +1776,7 @@
     <value>{0} wasn't home! You drag your suitcase back home, cursing your bad luck.</value>
   </string>
   <string key="ZombiesList">
-    <value>The cult members are currently: {0}</value>
+    <value>The zoombies members are currently: {0}</value>
   </string>
   <string key="SnowWolf">
     <value>the Snow Wolf 🐺☃️</value>
@@ -1827,7 +1827,7 @@
     <value>As you stirred in your sleep, preparing to wake up to get your potions, a strong gust of wind blew in from the windows, causing you to freeze 🐺☃️. From the corner of your eyes, you saw the bottles of your potions frosted over. Looks like they didn't escape the brunt of the freezing spell either. You mentally sighed, wishing the sun came up sooner... Good thing you're thawed now, though</value>
   </string>
   <string key="ZombieFrozen">
-    <value>As you donned your cloak and prepared to leave your house, a gust of wind blew in from the doorway, causing you to freeze 🐺☃️. Your fellow Zombies dropped by soon after to bring you along to cult people, but they ended up laughing at your demise. Leaving you by the doorway, they promised that they'll make good work of tonight. Now that you're unfrozen, you leave the house, cringing in embarrassment. </value>
+    <value>As you donned your cloak and prepared to leave your house, a gust of wind blew in from the doorway, causing you to freeze 🐺☃️. Your fellow Zombies dropped by soon after to bring you along to zoombies people, but they ended up laughing at your demise. Leaving you by the doorway, they promised that they'll make good work of tonight. Now that you're unfrozen, you leave the house, cringing in embarrassment. </value>
   </string>
   <string key="CHFrozen">
     <value>As you grabbed your sword, a gust of wind blew in from the window, causing you to freeze, back still arched 🐺☃️. You mentally groaned, your limbs aching from being in this position until now... </value>
@@ -1917,7 +1917,7 @@
     <value>Player list will be shuffled every time: {0}</value>
   </string>
   <string key="AboutGraveDigger">
-    <value>You are the Grave Digger ☠️. Every night, you dig the graves for all the people who died since the last time you did (yes, even werewolves deserve a proper burial). Since you are out all night, wolves and the cult can't find you, unless you actually have nothing to do (i.e. no one died), in that case you'll just stay home. Everyone who visits you has a chance of falling into your newly dug graves, depending on how many graves you dug. Also, the chance is halved for everyone who is on the village team with you. But since you are out at night, the wolves or the serial killer might spot and kill you, and the more graves you have to dig, the more likely it is. Also, apparently the serial killer can find you whether you're at home or not, but they might at least stumble in one of your graves and hurt their leg, causing them to maybe lose control over who is their victim the next night...</value>
+    <value>You are the Grave Digger ☠️. Every night, you dig the graves for all the people who died since the last time you did (yes, even werewolves deserve a proper burial). Since you are out all night, wolves and the zoombies can't find you, unless you actually have nothing to do (i.e. no one died), in that case you'll just stay home. Everyone who visits you has a chance of falling into your newly dug graves, depending on how many graves you dug. Also, the chance is halved for everyone who is on the village team with you. But since you are out at night, the wolves or the serial killer might spot and kill you, and the more graves you have to dig, the more likely it is. Also, apparently the serial killer can find you whether you're at home or not, but they might at least stumble in one of your graves and hurt their leg, causing them to maybe lose control over who is their victim the next night...</value>
   </string>
   <string key="RoleInfoGraveDigger">
     <value>You are the Grave Digger ☠️. It is your responsibility to get rid of the villages' dead bodies. You dig a grave for everyone who was killed since last night. However, you usually get too tired to finish the grave, so it remains uncovered. Some visitors might fall in and die... At least, the wolves can't eat you since you are out all night.</value>
@@ -1963,16 +1963,16 @@
   <string key="HunterFell">
     <value>Another night without being able to slay one of those bloody Zombies! Frustrated, you walk over the graveyard, without noticing the bear trap until it closes around your ankle. You scream and struggle, but it's too late. You fall backwards into a grave that {0} left open and the sound of your neck breaking is the last thing you hear before everything goes black.</value>
   </string>
-  <!--{0}: cult hunter-->
+  <!--{0}: zoombies hunter-->
   <string key="HunterFellDigger">
     <value>After another tiring night, you walk back to your home with the sun already rising. Just before you arrive, you notice a sword lying on the ground next to an unfinished grave. Inside that grave you see the dead body of {0}. The Zombie hunter should not have suspected you...</value>
   </string>
   <!--{0}: Zombie-->
-  <string key="CultFell">
-    <value>You return from another tiring night, when suddenly you hear a scream from one of your unfinished graves! You hurry there, just to find {0} lying dead in an unfinished grave. What kind of cult tries to convert a grave digger, anyway?</value>
+  <string key="zoombiesFell">
+    <value>You return from another tiring night, when suddenly you hear a scream from one of your unfinished graves! You hurry there, just to find {0} lying dead in an unfinished grave. What kind of zoombies tries to convert a grave digger, anyway?</value>
   </string>
   <!--{0}: Zombie who fell, {1}: grave digger-->
-  <string key="CultConvertGraveDigger">
+  <string key="zoombiesConvertGraveDigger">
     <value>On your way to {1}'s house, {0} suddenly decides that it would be a good idea to burn down the church as well. They lead you through the graveyard when suddenly a bear trap snaps around their ankle! All you can hear is their scream before they fall into a grave and you run for your lives.</value>
   </string>
   <!--{0}: grave digger-->
@@ -2029,7 +2029,7 @@
   </string>
   <!--{0}: Zombie who died-->
   <string key="ZombieFellPublic">
-    <value>The cults tried to burn the church, but as {0} led the group through the graveyard, a bear trap snapped around their ankle! They screamed when they fell into an open grave and the other Zombies fled in terror...</value>
+    <value>The zoombiess tried to burn the church, but as {0} led the group through the graveyard, a bear trap snapped around their ankle! They screamed when they fell into an open grave and the other Zombies fled in terror...</value>
   </string>
   <!--{0}: thief-->
   <string key="ThiefFellPublic">

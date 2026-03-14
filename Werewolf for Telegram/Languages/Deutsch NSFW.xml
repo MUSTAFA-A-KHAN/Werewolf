@@ -449,25 +449,25 @@
   <string key="ZombieVotedConvert">
     <value>{0} hat gewählt {1} zu bekehren.</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <value>{0} wurde ausgesandt, um {1} zu bekehren ... dieser war jedoch der Kultjäger 💂! {0} ist tot!</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <value>{0} kam in dein Haus, um dich zu bekehren ... Aber du hast dein Schwert direkt durch ihn hindurchgestoßen. Ein Kultist 👤 ist tot ... {1} leben noch!</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>Ein Kult hat dich zu seinem Glauben bekehrt! Jetzt bist du ein Kultist 👤. Ab jetzt wirst du jede Nacht die Chance haben, einen anderen Spieler zu bekehren.</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>Kult-Anhänger: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <value>{0} trat dem Kult bei!</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <value>{0} wurde gesendet, um {1} zu bekehren ... aber keiner war zu Hause!</value>
   </string>
-  <string key="CultWins" isgif="true">
+  <string key="zoombiesWins" isgif="true">
     <value>Alle Wölfe starben, alle anderen lebenden Dorfbewohner wurden zu Kultisten 👥 bekehrt ... Der Kult hat gewonnen!</value>
   </string>
   <string key="HunterVisitDead">
@@ -562,19 +562,19 @@
   <string key="MasonTeam">
     <value> Mitglieder im Club der Freimaurer: {0}</value>
   </string>
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <value>Euer neuestes Mitglied lief zu {0}s Haus, um ihn zu bekehren, aber das Haus war vollkommen zerstört, überall Blut, und Spuren eines Wolfsfells 🐺 vor der Tür ...</value>
   </string>
   <string key="GuardBlockedWolf">
     <value>Das Rudel lief zu {0}s Haus, um ihn zu essen, aber ihr bemerktet eine große dunkle Gestalt, bis zu den Zähnen bewaffnet. Der Schutzengel 👼 wehrte euch alle ab und ihr kehrt besiegt zurück.</value>
   </string>
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <value>{0} wurde losgeschickt, um {1} zu unserem Glauben zu bekehren. Leider war {1} zu stark und konnte konnte deshalb nicht überzeugt werden. :(</value>
   </string>
   <string key="NameExists">
     <value>{1}, ein Spieler mit dem Namen {0} ist bereits beigetreten. Bitte ändere deinen Namen, um beitreten zu können.</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <value>Du schlüpftest in {0}s Haus, um ein bisschen durchgenommen zu werden ... als du gerade gehen wolltest, konntest du einen kurzen Blick in einen Nebenraum erhaschen und erkanntest im Dunkeln einen merkwürdig leuchtenden Altar 👤 ...</value>
   </string>
   <string key="Was">
@@ -647,7 +647,7 @@
   <string key="TimesUp">
     <value>Die Zeit ist um!</value>
   </string>
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
     <value>Du bist Amor 🏹. In Windeln und mit Pfeil und Bogen bewaffnet fliegst du auf die Erde nieder. Wähle zwei Spieler aus, die sich dann unsterblich ineinander verlieben. Falls einer der Verliebten stirbt, begeht der andere aus Liebeskummer Selbstmord ❤️.</value>
   </string>
   <string key="RoleInfoDoppelganger">
@@ -659,7 +659,7 @@
   <string key="RoleInfoSerialKiller">
     <value>Du bist der Serienmörder 🔪. Nachdem du vor kurzem aus dem Irrenhaus entflohen bist, willst du jetzt so viele Personen wie möglich umbringen. Jede Nacht kannst du den Körper eines Spielers zu deiner Sammlung hinzufügen.</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>Du wurdest von der Liebe ❤️ getroffen.  Die Erinnerungen an {0} werden nie in deinem Herzen verblassen.  Euer Ziel ist, dass ihr beide überlebt. Falls einer von euch stirbt, wird der andere aus Kummer ebenfalls umkommen.</value>
     <value>Du hast dich unsterblich in {0} verliebt ❤️.  Nichts und niemand kann euch trennen.  Falls einer von euch stirbt, wird der Andere aus Liebeskummer Selbstmord begehen.</value>
     <value>Amors Pfeil trifft dich! Du bist wahnsinning in {0} verliebt ❤️!  Falls diese Person stirbt, stirbst du ebenfalls.  Falls ihr es beide bis zum Ende schafft, werdet ihr beide gewinnen.</value>
@@ -703,10 +703,10 @@
   <string key="GuardBlockedKiller">
     <value>Du hast versucht {0}'s Körper in deine Sammlung aufzunehmen, wurdest aber vom Schutzengel 👼 abgewehrt! Keine Tötung für dich diese Nacht....</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <value>Der Kult 👤 sendet {0} um {1} zu konvertieren, doch stattdessen hört man einen Schuss 🎯 als {0}'s Körper aus dem Fenster geflogen kommt! {0} ist tot....</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <value>Der Kult 👤 sendet {0} aus um {1} zu konvertieren, doch stattdessen fliegt {0}s Körper aus dem Fenster, mit Messern 🔪 in jedem Teil seines Körpers! WAS FÜR EIN PSYCHO! {0} ist tot....</value>
     <value>{0} 👤 schleicht zu {1}s Haus, platzt herein, und wird direkt von einem Wahnsinnigen mit einem Messer 🔪 begrüßt!!! {1} taucht das Messer mit hörbarem Gackern tief in alphabetischer Reihenfolge in {0}s Organe ein! {0} ist tot D:</value>
   </string>
@@ -725,10 +725,10 @@
   <string key="DGTransformToMason">
     <value>{0} ist gestorben, und du verwandelst dich in einen Freimaurer 👷.\nDeine Kameraden sind (falls überhaupt): {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <value>Der Doppelgänger 🎭 {0} ist zum Kultisten 👤 geworden, genau wie du!</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <value>{0} ist gestorben, und du verwandelst dich in einen Kultisten 👤.\nDeine Brüder und Schwestern sind (falls überhaupt): {1}</value>
   </string>
   <string key="DGToWolf">
@@ -747,22 +747,22 @@
     <value>Wen bringst du heute Nacht um die Ecke?</value>
     <value>Wen willst du heute aufschlitzen?</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <value>Mit {0}s letztem Atemzug eilt {1} herbei und stürzt weinend zu Boden. Der Tod der Geliebten ❤️ ist unerträglich, {1} erschießt sich mit der nächsten Waffe, die zu finden ist. {2}</value>
   </string>
   <string key="AskDoppelganger">
     <value>Wessen Doppelgänger möchtest Du werden, wenn die Person stirbt?</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>Wer sollen die Liebenden ❤️ sein? Wähle den ersten Spieler.</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>Wer sollen die Liebenden ❤️ sein? Wähle den zweiten Spieler.</value>
   </string>
   <string key="Hunter">
     <value>der Jäger 🎯</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>Amor 🏹</value>
   </string>
   <string key="SerialKiller">
@@ -777,10 +777,10 @@
   <string key="HunterKilledVisiter">
     <value>Komplett mit Blei durchbohrt erkennt man fast nicht, wessen verunstaltetes Gesicht das ist. Sieht so aus, als hätte {0} versucht, sich an den Jäger 🎯 anzuschleichen! {1}</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>Eine verschleierte Figur versuchte, dich zu seinem Kult 👤 zu konvertieren, doch dein Geist war zu stark.</value>
   </string>
-  <string key="LoversWin" isgif="true">
+  <string key="crewmatesWin" isgif="true">
     <value>Wahre Liebe hält am längsten! Die Liebenden haben gewonnen! ❤️</value>
   </string>
   <string key="AlreadyOnWaitList">
@@ -849,7 +849,7 @@
   <string key="AboutFool">
     <value>Dem Narren 🃏 wird gesagt, dass er der Seher ist... Wenn er sich die Rolle eines Spielers zeigen lässt, wird ihnen eine zufällige Rolle gesagt.</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>Als Kultist 👤 ist es dein Ziel, alle anderen Spieler (ausgenommen Wölfe) zu deinem Kult zu konvertieren. Wenn am Ende des Spiels jeder Kultist ist, gewinnt der Kult.</value>
   </string>
   <string key="AboutCH">
@@ -874,7 +874,7 @@
       Der Kult kann den Doppelgänger nicht konvertieren, außer er hat schon die Rolle gewechselt. Noch was - der Doppelgänger kann NICHT gewinnen ohne sich verwandelt zu haben. Falls er am Ende des Spiels immer noch Doppelgänger ist, verliert er (Ausnahme: Liebender)
     </value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>
       Love is in the air. Als Amor suchst du dir am Anfang des Spiels zwei Spieler aus. Diese beiden Spieler werden wahnsinnig verliebt sein! Falls einer von ihnen stirbt, stirbt der andere aus Trauer :(
       Hinweis: Die Liebenden wissen, wer der jeweils andere ist, kennen aber nicht die Rollen des anderen. Falls die Liebenden als einzige überleben, gewinnen sie, egal welches Team. Falls die Liebenden in verschiedenen Teams sind (Dorfbewohner + Werwolf), und ein Team gewinnt (Werwolf), gewinnt der Liebende (Dorfbewohner) ebenfalls. TL;DR falls beide Liebende am Ende leben und mindestens einer von ihnen im Gewinnerteam ist, gewinnen beide.
@@ -1049,10 +1049,10 @@
   <string key="AllowTannerA">
     <value>Gerber als Rolle gesetzt auf: {0}</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>Kult als Rollenoption erlauben?\nMomentan: {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>Kult als Rolle gesetzt auf: {0}</value>
   </string>
   <string key="ThankYou">
@@ -1199,13 +1199,13 @@
   <string key="SerialKillerTeamEnd">
     <value>Team Serienmörder</value>
   </string>
-  <string key="CultTeamEnd">
+  <string key="zoombiesTeamEnd">
     <value>Team Kult</value>
   </string>
   <string key="TannerTeamEnd">
     <value>Team Gerber</value>
   </string>
-  <string key="CultConvertWolf">
+  <string key="zoombiesConvertWolf">
     <value>Der Kult 👤 lässt {0} aussenden, um {1} zu konvertieren, aber stattdessen kommt {0}s Kopf aus dem Fenster zurückgeflogen... Die Wölfe 🐺 dachten wohl der Kopf sei aufgrund seines Wissens ungenießbar! {0} ist diese Nacht gestorben..</value>
   </string>
   <string key="HarlotFuckedKilledPublic">
@@ -1220,7 +1220,7 @@
   <string key="ZombieKilled">
     <value>{0} wurde vor seinem mit Kerzen erhellen Altar erstochen aufgefunden. Der Serienmörder 🔪 hat wieder zugeschlagen, unabhängig von Rasse, Sprache oder Religion! {0} war ein Kultist 👤</value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>Am nächsten Morgen finden die Dorfbewohner {0}, auch bekannt als Amor 🏹, aufgeteilt von Kopf bis Fuß vor. Seltsamerweise fehlt ihm sein Herz, da hat der Serienmörder 🔪 wohl ein weiteres Objekt seiner Sammlung hinzugefügt...</value>
   </string>
   <string key="DrunkKilled">
@@ -1253,11 +1253,11 @@
     <value>Die Dorfbewohner wachten am Morgen auf, nur um diverse Körperteile von {0}, dem Kultjäger 💂, außerhalb des Rathauses verstreut vorzufinden. Lektion gelernt: Besuche niemals den Serienmörder! 🔪</value>
     <value>Der Körper von {0}, dem Kultjäger 💂, wurde in der Mitte des Dorfes gefunden, chirurgisch präzise in viele Stücke geschnitten. Zu überprüfen ob der Serienmörder 🔪 ein Kultist ist, war wohl keine so gute Idee gewesen...</value>
   </string>
-  <string key="CultConvertWolfPublic">
+  <string key="zoombiesConvertWolfPublic">
     <value>Während es so schien, als ob die Wölfe 🐺 beschlossen hätten, heute einmal nicht {0} zu fressen, entschied sich der dumme Kultist 👤 dazu sich mit den Wölfen anzulegen. Er musste schnell feststellen, dass er keine Chance hatte, einen Wolf zu konvertieren.</value>
     <value>Der Kult 👤 lief letzte Nacht in unerwartete Schwierigkeiten. Ihr neuestes Mitglied hatte das Glück, einen Wolf 🐺 zu besuchen, gerade in der Nacht, in der die Wölfe beschlossen hatten, zu Hause zu bleiben und niemanden zu fressen. Zum Pech von {0} hatten die Wölfe kein Interesse einer religiösen Bewegung beizutreten.</value>
   </string>
-  <string key="CultConvertKillerPublic">
+  <string key="zoombiesConvertKillerPublic">
     <value>Der Kult 👤 dachte wohl, er könnte ein neues Mitglied aufnehmen, aber da lag der Kult falsch! {0}, ein Kultist, wurde in Stücke gehackt am nächsten Morgen auf dem Stadtplatz aufgehängt vorgefunden! Seltsam, das "heilige" Buch des Kultes wurde mit einem Messer 🔪 aufgespießt vorgefunden, wohl als ein Statement wessen religiöse Ansichten wirklich triumphierend sind. </value>
     <value>Letzte Nacht versuchte der Kult 👤 die einzige Person aufzunehmen, welche noch verrückter war, als der Kult selbst. Ihr neuestes Mitglied versuchte den Serienmörder 🔪 zu konvertieren, gut für den Serienmörder, er konnte ein neues Kunstwerk von {0}'s inneren Organen auf dem Stadtplatz präsentieren.</value>
   </string>
@@ -1325,7 +1325,7 @@
     <!-- {0} = list of people who have joined -->
     <value>In den letzten 30 Sekunden beigetreten: {0}</value>
   </string>
-  <string key="AllowCult">
+  <string key="Allowzoombies">
     <value>Kult</value>
   </string>
   <string key="AllowTanner">
@@ -1568,7 +1568,7 @@
     <!-- 0 - Name Freimaurerkollege -->
     <value>Deine Teamkollegen, sofern vorhanden, sind: {0}</value>
   </string>
-  <string key="ThiefToCult">
+  <string key="ThiefTozoombies">
     <!-- 0 - Name alter Kultist -->
     <!-- 1 - Name neuer Kultist -->
     <value>{0} hat euren Kult verlassen und wurde durch {1} ersetzt!</value>
@@ -1940,16 +1940,16 @@
   <string key="HunterFell">
 	<value>Es war eine erfolglose Nacht für dich, du konntest keinen der Kulstisten zur Strecke bringen. Frustriert und in Gedanken verloren machst du dich auf dein Heimweg. Dass du gerade über den Friedhof gehst bemerkst du erst durch den plötzlichen Schmerz, als sich eine Bärenfalle in deine Wade beißt. Zu spät - du stürzt in ein leeres Grab, das {0} ☠️ schon mal auf Vorrat gebuddelt hat, und brichst dir das Genick. Wirklich eine außerordentlich erfolglose Nacht für dich.</value>
   </string>
-  <!--{0}: cult hunter-->
+  <!--{0}: zoombies hunter-->
   <string key="HunterFellDigger">
 	<value>Eine anstrengende Nacht liegt hinter dir, als du dich bei Sonnenaufgang auf den Heimweg machst. Neben einem deiner Gräber bemerkst du ein silbernes Schwert, dass dir unbekannt vorkommt. Du schaust nach und findest {0} 💂 tot im Grab liegen - dich zu verdächtigen war wirklich eine dumme Idee.</value>
   </string>
   <!--{0}: Zombie-->
-  <string key="CultFell">
+  <string key="zoombiesFell">
 	<value>Auf dem Heimweg nach einer weiteren anstrengenden Nacht vernimmst du Schreie aus einem offenen Grab. Du siehst nach und findest {0} 👤 sterbend in der Grube liegen. Gut so.</value>
   </string>
   <!--{0}: Zombie who fell, {1}: grave digger-->
-  <string key="CultConvertGraveDigger">
+  <string key="zoombiesConvertGraveDigger">
 	<value>Auf dem Weg zu {1} entscheidet ihr spontan, die Kirche niederzubrennen. {0} führt euch über den stockfinsteren Friedhof, als ihr plötzlich Schreie in der Nähe hört. Voller Panik rennt ihr in alle Richtungen davon und bemerkt erst, als ihr euch nach und nach wieder trefft, dass {0} fehlt. Ihr sucht zuhause, in eurem Versammlungsraum und an allen möglichen anderen Orten, bevor ihr euch bei Sonnenaufgang wieder auf den Friedhof traut. Dort stellt ihr fest, dass die Schreie wohl {0} bei Sturz in ein offenes Grab ausgestoßen hat ...</value>
   </string>
   <!--{0}: grave digger-->

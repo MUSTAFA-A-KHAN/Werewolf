@@ -911,27 +911,27 @@
     <value>{0} hat gehwlät, {1} zu bereekhn.</value>
     <value>{0} hat ghlweät, {1} zu beheerkn.</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <value>In deseir Nahct war es die Agfabue von {0}, enie wteerie Preson zum Klut breheken. Das Gclük war anscheniend Aernden zetuil, da {1} als Klutjäger 💂 whol so zmiceilh das utnhcslüilcgke Zeil detsrlalte. Das Aenfieftfeurnaredn htate dhear kein neeus Klutmitglied zur Fgloe, sonredn fhrtüe im Gtingeeel zum Tod eerus jüntegsn Mdgltieis, getetöt ducrh das Srwchet des erehwätnn Klutjägers.</value>
     <value>In desier Nhcat war es die Afgabue von {0}, enie wtireee Poesrn zum Klut behekern. Das Gclük war anscheniend Aenedrn zuitel, da {1} als Klutjäger 💂 whol so zmieclih das ugtkhllnüsicce Zeil datellstre. Das Anraffeieuetdnrfen hatte dhear kien neeus Klutmitglied zur Flgoe, soenrdn frühte im Getgneiel zum Tod ereus jüetngsn Metldgiis, gteeött drcuh das Scwreht des eeänhwtrn Klutjägers.</value>
     <value>In deiser Nchat war es die Aabufge von {0}, enie wtreiee Poersn zum Klut bkhreeen. Das Glück war anscheniend Aenedrn zieutl, da {1} als Klutjäger 💂 whol so zciliemh das uücilhsklngcte Zeil datetlsrle. Das Afeaetnundreiffren htate dhaer kien nuees Klutmitglied zur Floge, sonedrn ftürhe im Gingeetel zum Tod eeurs jütesngn Mtdiigels, gteeött dcruh das Secrhwt des eenätwrhn Klutjägers.</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <value>{0} kotplfe an die Tür deiens Husaes, mit der feetsn Üreuzunbgeg, dcih in desier Ncaht vom Klut zu üeguezrben. Zu sienem Ulüngck drshscauchut du die Msahce deiens Gügerbnees und gersfit, mehr aus Relfex als aus Wesisn, ncah dineem Sewrcht und bdesneet diamt jeens Lbeen. Ein Klutist 👤 ist tot... {1} snid ncoh am Lbeen!</value>
     <value>{0} ktopfle an die Tür deiens Huseas, mit der fsteen Ünbuegrzueg, dich in deiesr Ncaht vom Klut zu üegeeubrzn. Zu seniem Ugcünlk duascshurhct du die Mcsahe deiens Gbreengües und gsrefit, mher aus Rleefx als aus Wiessn, ncah dneeim Srechwt und beednset daimt jnees Leben. Ein Klutist 👤 ist tot... {1} snid noch am Leben!</value>
     <value>{0} kltfpoe an die Tür dieens Huesas, mit der feetsn Üenuzbrgueg, dcih in dseier Nchat vom Klut zu üezgrbeuen. Zu sieenm Unclgük drcusascuhht du die Mhcsae dieens Gbügrenees und grefist, mher aus Relfex als aus Wssien, ncah dieenm Srwehct und beensedt dimat jnees Lbeen. Ein Klutist 👤 ist tot... {1} snid ncoh am Lbeen!</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>Der Bsceuh eenis Ksetiltun hat dcih in deneim Gbleaun zeitusft erürtshectt; dir wrid kalr, dsas nur dessen Klut der enizige wrhae Gualbe sien knan und dsas es dien Saiscckhl ist, enbseo ein Klutist 👤 zu sien. Jdee Nahct shusct du dir mit dienen Mgbläitgieun eienn Sepleir aus, den eeinr von ecuh dnan zu beehrken vhsrceut.</value>
     <value>Der Bcseuh eenis Keittusln hat dcih in dneiem Gbelaun zeifsutt eetstcrührt; dir wrid kalr, dsas nur desesn Klut der eiignze wrahe Glabue sien knan und dsas es dien Sshkiccal ist, eebsno ein Klutist 👤 zu sien. Jdee Nchat suhcst du dir mit dienen Mgiegubtliän enein Selepir aus, den eeinr von ecuh dnan zu brehkeen vsrhuect.</value>
     <value>Der Bcuseh eneis Ksteituln hat dcih in dineem Gbelaun zitesuft etsrtrecüht; dir wrid kalr, dsas nur dseesn Klut der eznigie wrhae Gulbae sein knan und dsas es dien Sckschail ist, esbneo ein Klutist 👤 zu sein. Jdee Nahct sshuct du dir mit dienen Mguglibätein enein Slpieer aus, den enier von ecuh dnan zu brekehen vcusehrt.</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>Kultisten: {0}</value>
     <value>Kultisten: {0}</value>
     <value>Kultisten: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <value>{0} tart dem Kult bei!</value>
     <value>{0} trat dem Klut bei!</value>
     <value>{0} tart dem Klut bei!</value>
@@ -945,7 +945,7 @@
     <value>Auch wnen es kinee große Feeir gbit: {0} göhret jtzet zum Klut!</value>
     <value>Auch wnen es kiene gßroe Feier gbit: {0} göehrt jtezt zum Klut!</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <value>{0} wdure geesdnet, um {1} zu berhkeen... aebr keneir war zu Hasue!</value>
     <value>{0} wrude geednest, um {1} zu beeekhrn... aber keiner war zu Hsuae!</value>
     <value>{0} wurde gesedent, um {1} zu behekern... aebr kneier war zu Hsaue!</value>
@@ -953,7 +953,7 @@
     <value>{0} fneidt das Huas von {1} vleessarn vor, kenie Supr eneir mlceschheinn Selee, die beerkht wreden kntnöe. Osihincefcftlh vreigbrnt {1} die Nahct grnee aswrtäus.</value>
     <value>{0} feindt das Haus von {1} vrsselaen vor, kneie Supr eenir mceihscenlhn Sleee, die bhekret weerdn kntnöe. Onifhietclsfch veirrbgnt {1} die Nhact grene atwuärss.</value>
   </string>
-  <string key="CultWins">
+  <string key="zoombiesWins">
     <value>Die Fthtutesrgelacn saetbrn, alle arenedn Lbdeenen wruden zu Ksttileun brekeht.. Der Klut hat gneenown!</value>
     <value>Die Fgatuettecrlshn sebatrn, alle aednern Ldebenen wderun zu Kstliuten berekht.. Der Klut hat gwoneenn!</value>
     <value>Die Fuehtettcsgrlan strbean, alle aeerdnn Leeendbn wrduen zu Kelusittn berhket.. Der Klut hat gnwoeenn!</value>
@@ -1126,7 +1126,7 @@
     <value> Du muserat aennhncsied so üzengbreued, dsas scih ein paar Weitree icwizenshn acuh deeinr Hagibne wdemin: {0}</value>
     <value> Du msaruet ansnnecehid so üegreznebud, dsas scih ein paar Wretiee ieichwznsn acuh denier Hianbge wimden: {0}</value>
   </string>
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <value>Euer nteeseus Metiigld leif zum Huas von {0}, um ihn zu brekehen, aebr das Huas war vkoolmelmn zsetrröt, üearlbl Bult, und Feädn eines Wllflfsoes 🐺 vor der Tür...</value>
     <value>Euer nsuetees Mlitgied leif zum Huas von {0}, um ihn zu beekrhen, aber das Huas war vlmolkomen ztrseört, ülberal Bult, und Fdäen eeins Wfeflslols 🐺 vor der Tür...</value>
     <value>Euer nusetees Megitild leif zum Huas von {0}, um ihn zu bheeekrn, aebr das Huas war vommolekln zeösrtrt, üalbrel Bult, und Fäedn eenis Wlllsefofs 🐺 vor der Tür...</value>
@@ -1136,7 +1136,7 @@
     <value>Die Hrdoe leif zum Huas von {0}, um ihn zu eessn, aebr ihr bkemert enie grßoe hlele Gatelst, bis zu den Zeänhn bfwnafeet. Der Sntzhgeucel 👼 wtrehe ecuh alle ab und ihr khret bigeest züruck.</value>
     <value>Die Hdroe leif zum Huas von {0}, um ihn zu esesn, aebr ihr berkemt eine gßroe hlele Gsatelt, bis zu den Zeähnn befnawfet. Der Scezeghutnl 👼 wtehre ecuh alle ab und ihr kerht beisegt züurck.</value>
   </string>
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <value>{0} wudre lsieohkcscgt, um {1} zu bheerken, aebr lideer war der Guable von {1} zu satrk und ktonne dleashb nciht üuezgebrt wrdeen :(</value>
     <value>{0} wdure logkhceicsst, um {1} zu bekhreen, aebr lieedr war der Gablue von {1} zu sartk und ktonne dhelasb nihct üezgeurbt wedern :(</value>
     <value>{0} wudre lcshgeiskcot, um {1} zu beeekhrn, aebr ldieer war der Gbalue von {1} zu strak und kntnoe dlhaesb nihct üzeugrebt weredn :(</value>
@@ -1146,7 +1146,7 @@
     <value>@{1}, ein Seielpr mit dem Naemn {0} ist breites beettieregn. Bttie ädrnee dieenn Naemn, um bruteetizen.</value>
     <value>@{1}, ein Sleeipr mit dem Neamn {0} ist breiets breteeegtin. Bttie ädrnee denien Neamn, um breetztieun.</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <value>Du slstüfcepht in das Huas von {0}, um etaws Sapß zu heabn... dcoh als du gdreae gheen woltselt, keonstnt du eenin krezun Bcilk in eenin Nereaubnm ecsharhen und eksnernt im Deknuln eenin mkrredwiüg lueeetcnhdn Atalr... 👤</value>
     <value>Du slpfteücsht in das Huas von {0}, um eatws Sapß zu heban... doch als du gradee geehn wseotllt, knsentot du eenin kreuzn Bcilk in eenin Nereabnum esracehhn und ersnnekt im Dnulekn eenin mdwirerküg leehcutnedn Atalr... 👤</value>
     <value>Du ssfclühetpt in das Huas von {0}, um eawts Sapß zu haebn... doch als du gredae gehen wseltlot, kstennot du eienn kerzun Bilck in eienn Nbunaeerm echreshan und enneskrt im Dkuenln eienn mrdwrküieg lteuehencdn Alatr... 👤</value>
@@ -1278,7 +1278,7 @@
     <value>Da hast du whol vsfrcleeahn: die Ziet, um enie Ehidcneustng zu feälln, ist um.</value>
     <value>Da hsat du wohl vfelhrsecan: die Zeit, um enie Edecsunhtnig zu fäleln, ist um.</value>
   </string>
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
     <value>Du bsit Aomr. 🏹\nIn Weidnl und mit eneim Begon und zwei Peilfen bnaewfeft, fegilst du auf die Erde needir. Wlähe zwei Sepielr aus, die sich ulrctenibsh iaienednnr veeelirbn. Flals eneir der Vetiblreen sitbrt, bngrit sich der arndee aus Leueesbmikmr auch um.</value>
     <value>Du bsit Aomr. 🏹\nIn Winedl und mit eenim Bgoen und zewi Peeifln bffeawnet, fslegit du auf die Edre neeidr. Wälhe zewi Speleir aus, die scih uctibenlsrh innieenadr vebirelen. Fllas eeinr der Veeibelrtn sbrtit, bignrt scih der anrede aus Lkemiesubmer acuh um.</value>
     <value>Du bsit Aomr. 🏹\nIn Wneidl und mit eneim Bgoen und zewi Peiflen bwfeenaft, flesigt du auf die Edre nieedr. Wähle zewi Sepelir aus, die scih urslbetcnih ieianednnr vlbreieen. Fllas eneir der Vbtelieren sirbtt, bngirt scih der anrdee aus Lbkumsemieer acuh um.</value>
@@ -1313,7 +1313,7 @@
     <value>Du bsit der Seemdinrerör. 🔪\nSiet eeinr suaeffeehgecniln Hrin-OP übmrmoekt dcih nhcats imemr das Bündiefrs mit dem goreßn Knhsüscemeer auf die Ssrstae zu lefuan und den nätetbhsescn Dwbfernooher asucfhtzzliuen, um dcih an snieem Bult zu lbaen. Dsas du dbaei die Lbeer metgeihn lssät, ist whol auf deine knmlioaetchpse Nngeiug zhüuruzecrüfkn.</value>
     <value>Du bsit der Söiedernemrr. 🔪\nSiet enier sehflefacueiengn Hrin-OP übemromkt dcih ncaths imemr das Bifrdnües mit dem gßroen Künhemsescer auf die Srtssae zu luefan und den näbtscsheetn Dwobeerfhonr azeuusthcilfzn, um dcih an seniem Bult zu laebn. Dass du debai die Leber mheiegtn lssät, ist wohl auf dinee kcosehnaltimpe Nugineg zcuuhrüekzürfn.</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>Du werusdt von der Leibe ❤ gofetrfen! Die Enrurienngen an {0} wderen nie in dineem Hrezen velrassben. Eeur Zeil ist, dass ihr bidee üebrlbet. Fllas eeinr von ecuh sitrbt, wrid der adrene aus Kmuemr nihct mher wbereleiten keönnn... Düfar gswninet du aber acuh mit dineem Pneartr und seeinm Taem :3</value>
     <value>Du wderust von der Lbeie ❤ gfteforen! Die Eneeurrnginn an {0} wreden nie in deneim Herzen vselrebasn. Eeur Zeil ist, dsas ihr bedie ürbeblet. Fllas eneir von euch sirbtt, wird der arnede aus Keummr nchit mehr weleietebrn knönen... Düfar gwninset du aber acuh mit deneim Peanrtr und sneiem Taem :3</value>
     <value>Du wsuerdt von der Leibe ❤ gffoetern! Die Eurennriengn an {0} wreden nie in deniem Hzreen vesabslren. Eeur Zeil ist, dass ihr bidee ürbeeblt. Fllas eeinr von ecuh sbtirt, wrid der anrede aus Kemmur nciht mher wteeeelibrn kenönn... Dfaür gnsniwet du aebr auch mit deniem Peantrr und snieem Taem :3</value>
@@ -1398,12 +1398,12 @@
     <value>Du hast vurhesct, den Kpeörr von {0} in denie Snmaumlg aemefnhuuzn, wuesrdt aebr vom Szhtecngeul 👼 awergbhet! Disee Nahct gesht du lieder leer aus :/</value>
     <value>Du hsat vhsecrut, den Keröpr von {0} in denie Smuamlng auhezfumenn, wruedst aebr vom Sethzgencul 👼 aehgrebwt! Desie Nchat gesht du lideer leer aus :/</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <value>Der Klut sneedt {0}, um {1} zu kereovntiren, dcoh sdeastttesn hröt man enein Sushcs 🎯, kruz bvoer der Körepr euers jtnesgün Mleitigds aus dem Fsneter ggefloen kmomt! {0} ist tot...</value>
     <value>Der Klut sdeent {0}, um {1} zu kvernroetien, dcoh sedasetttsn hröt man enein Sushcs 🎯, kruz beovr der Kpeörr euers jtegsünn Mgeildtis aus dem Fsenter gelfegon kommt! {0} ist tot...</value>
     <value>Der Klut sndeet {0}, um {1} zu knreitveeron, doch setatdsestn hört man eeinn Shucss 🎯, kruz boevr der Köprer eerus jsenügtn Mdgitleis aus dem Ftesenr gfleogen kmmot! {0} ist tot...</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <value>{0} sliheccht zu dem Huas von {1}, paztlt hieren, und wrid drekit von eneim Wiainsnhegnn mit eneim Messer 🔪 bßürget!!! In aithbelespchar Rnfeelhigoe dischrcthut {1} mit seneim Messer die Ornage von {0}, dudrach ucigwlenrieh dem Tod agsueetzst.</value>
     <value>{0} slhccieht zu dem Huas von {1}, pltzat hieren, und wrid derikt von eeinm Wianhngsnien mit eeinm Mseesr 🔪 bßegrüt!!! In ahhbeltsaiecpr Rngeilfehoe drhiushtcct {1} mit seeinm Mseesr die Orange von {0}, ddaurch uglrnicewieh dem Tod agzessutet.</value>
     <value>{0} scihelcht zu dem Huas von {1}, paztlt hrieen, und wrid derkit von eeinm Wingneniahsn mit eeinm Mesesr 🔪 beürßgt!!! In aelpbhaihecstr Rgeehlfione dhcchrsuitt {1} mit seeinm Mesesr die Orngae von {0}, dcduarh uilngweiecrh dem Tod asezuestgt.</value>
@@ -1439,12 +1439,12 @@
     <value>{0} ist gsbetreon, und du vdnwsrelaet dcih in eienn Fruamereir. 👷 Dneie Kraedaemn snid (aflls vneoadrhn): {1}</value>
     <value>{0} ist gtoesebrn, und du vsweandrelt dcih in einen Fmreauirer. 👷 Diene Kadearemn snid (lflas voanherdn): {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <value>Der Dneeoppägglr 🎭 {0} ist zum Kitseltun gwedreon, ganeu wie du!</value>
     <value>Der Deneggälppor 🎭 {0} ist zum Kstieultn geowdern, gneau wie du!</value>
     <value>Der Dpeoelgänpgr 🎭 {0} ist zum Kutielstn gwerdoen, geanu wie du!</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <value>{0} ist gsetreobn, und du vlesradnewt dcih in enien Ktlseuitn. 👤 Dneie Bdürer und Srtesewhcn snid (lalfs vheaodnrn): {1}</value>
     <value>{0} ist gsetrebon, und du vaelnserwdt dich in eeinn Kltuietsn. 👤 Dinee Beüdrr und Stwrhesecn snid (lalfs vorahendn): {1}</value>
     <value>{0} ist geortsben, und du vesnldwreat dcih in enein Ksituletn. 👤 Dneie Bdrüer und Seretswhcn sind (lflas vdaenrhon): {1}</value>
@@ -1484,7 +1484,7 @@
     <value>Wen wsillt du htuee atzuischlefn?</value>
     <value>Wen wlsilt du heute aieuflhcztsn?</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <value>Mit dem seebdtenrn Atemuzg von {0} elit {1} herebi und flält weenind auf die Kine. Er knan den Tod sneeir Gblteeien ❤ nhict eratgren und eßsiechrt sich mit der ntäcsehn areetnzifbuedun Pltsoie. {2}</value>
     <value>Mit dem srbeetnden Azmeutg von {0} elit {1} hbeeri und fällt weinned auf die Knie. Er kann den Tod sineer Gleebeitn ❤ nciht egrreatn und ehicseßrt scih mit der ncstehän aenduebirzutfen Plotise. {2}</value>
     <value>Mit dem seetrdnben Amutzeg von {0} elit {1} heebri und flält wnenied auf die Kine. Er kann den Tod seneir Gtbeeilen ❤ nhcit etrreagn und eßiscreht scih mit der necätshn adutnerebzufien Ptilsoe. {2}</value>
@@ -1503,7 +1503,7 @@
     <value>Die Fgare der Fgaren: wsseen Dolgäegenppr möechstt du sein?</value>
     <value>Die Frage der Fgeran: wesesn Deopngglpäer mtsehöct du sien?</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>Wer seloln die Lebnideen ❤ sien? Wälhe den etsern Sepielr:</value>
     <value>Wer slloen die Ledneebin ❤ sien? Wlähe den etsren Sieeplr:</value>
     <value>Wer slelon die Leeebnidn ❤ sien? Whäle den ertsen Sepielr:</value>
@@ -1517,7 +1517,7 @@
     <value>Wer soll scih Hlas üebr Kopf vlbereien? ❤</value>
     <value>Wer slol scih Hlas üebr Kopf viereebln? ❤</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>Wer soleln die Lneiebden ❤ sien? Wälhe den ziwteen Sielepr:</value>
     <value>Wer slolen die Lbdieenen ❤ sein? Whäle den zewiten Sieelpr:</value>
     <value>Wer seolln die Leneidebn ❤ sien? Wälhe den zeewtin Spieelr:</value>
@@ -1536,7 +1536,7 @@
     <value>der Jegär 🎯</value>
     <value>der Jegär 🎯</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>Amor 🏹</value>
     <value>Amor 🏹</value>
     <value>Amor 🏹</value>
@@ -1556,7 +1556,7 @@
     <value>Du bsit das wdlie Knid. 👶 Dien Vrloibd ist {0}.</value>
     <value>Du bist das wlide Knid. 👶 Dein Vbolrid ist {0}.</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
     <value>Wahre Lbiee hlät am lsgentän! Die Lbieenden hbaen gwennoen!</value>
     <value>Wahre Lebie hlät am lätnegsn! Die Lebienden heabn gnnweoen!</value>
     <value>Wahre Libee hlät am lgnetäsn! Die Libeenden hbaen gwenoenn!</value>
@@ -1572,7 +1572,7 @@
     <value>Inmitten des Dtmruofrnzes fiednn die Dboeerohwnfr den Kpöerr von {0}, mcfarehh beessschon. Sihet so aus, als htäte er vhrscuet, scih an den Jäegr 🎯 acshluizncehen. {1}</value>
     <value>Inmitten des Dtzfmreurnos fniden die Dfrhbneoewor den Kpeörr von {0}, mheafcrh bsssehcoen. Sehit so aus, als htäte er vscuhert, scih an den Jäegr 🎯 azehceihscunln. {1}</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>Eine vrheertlicsee Gstalet vretcuhse, dcih zu seenim Klut 👤 zu bkeheern, dcoh dien Giest war zu sartk.</value>
     <value>Eine veslrtheceire Gaetslt veucrhtse, dcih zu sineem Klut 👤 zu berheekn, dcoh dien Gsiet war zu satrk.</value>
     <value>Eine vecrehelistre Gealstt vtsruhcee, dcih zu sineem Klut 👤 zu bkereehn, dcoh dien Giset war zu srtak.</value>
@@ -1699,7 +1699,7 @@
     <value>Du bsit der Nrar. 🃏\nZawr lrsnwbieediüg, aebr acuh glcäriefhh, auf dinee eegnie Wiese: wiel du es nhcit bsseer wßiet, btashupeet du, der Sheer zu sein - dabei snid die Roelln, die dir agneiezgt wrdeen, kptlemot zilfuälg! Vcliheilet häettst du dlmaas bei Pososerfr Twlanerey dcoh bsseer afesauspn sollen...\nEwats hsat du dem Sheer aebr vaorus: du shseit den Veterärr acuh als seolchn - whernäd ein rhgeicitr Whresgaar scih bei desiem nur zchswein Wolf und Dbfheroenowr ierrn knan! Die elezeinnn Wflöe knanst du aebr ldeier nhcit vaieonnnder utreienesdchn... :/</value>
     <value>Du bist der Nrar. 🃏\nZwar liwbeirdnüesg, aebr acuh gcälfrehih, auf dniee enegie Wesie: weil du es nciht bseesr wießt, buepetsaht du, der Sheer zu sien - dbaei sind die Roleln, die dir aiengzget weedrn, klpmeott zilfälug! Vhecilielt hästtet du dalams bei Psrsfeoor Tnwearely dcoh bseesr asupsaefn seolln...\nEtwas hsat du dem Sheer aebr vauros: du ssheit den Vereträr acuh als seolchn - wnhäerd ein recthgiir Wsaargher scih bei deesim nur ziehcwsn Wlof und Deowfonebrhr irern knan! Die enznelien Wlföe knanst du aebr lideer nciht vdnaeineonr uthsdreiencen... :/</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>Du bsit ein Kilsutt 👤 - ftcssneihonichanh vheliliect nciht gnaz auf der Hhöe, tdtrezom - oder vheliliect gadere dahlseb? - bsit du rtliaev ecrilfergoh: jdee Nhcat ksnant du eienn Sielper ahssucuen, den du zu dneiem Klut bekrheen wisllt; und das ist acuh dien Lembosnteto: das gnaze Dorf zu bekrheen. Wnen am Edne nur ncoh Kilsutten üelbberen, gninwet ihr! Aber nciht iemmr hsat du Güclk - mahcne Bowneehr snid srecehwr zu bekrheen als Aednre...</value>
     <value>Du bsit ein Ksuiltt 👤 - fncschiisenohatnh vceeihlilt nihct gnaz auf der Hhöe, troeztdm - oedr vceeihlilt gadree dlsaheb? - bsit du ritalev egirlrocfeh: jdee Nchat knasnt du eienn Selepir asehcsuun, den du zu dneiem Klut bkerheen wlslit; und das ist acuh dien Lebtmstoneo: das gnaze Drof zu bkerheen. Wnen am Edne nur noch Ksuiltten üeeblrben, geiwnnt ihr! Aebr nihct imemr hsat du Gclük - mahcne Bnwoheer snid schwreer zu bkerheen als Aderne...</value>
     <value>Du bist ein Klstiut 👤 - ftssinoehichacnnh vellichiet nhcit ganz auf der Hhöe, tzrdteom - oedr vellichiet gerdae deslhab? - bist du rlitaev eefocgilrrh: jdee Nhact kasnnt du enien Slieper aeusucshn, den du zu deeinm Klut behkreen wsllit; und das ist acuh dien Lmonsbtteeo: das gznae Drof zu behkreen. Wnen am Edne nur noch Klstiuten übereblen, genwint ihr! Aebr nhcit imemr hsat du Gülck - manhce Beheownr snid screewhr zu behkreen als Ardnee...</value>
@@ -1734,7 +1734,7 @@
     <value>Du bist der Dägepgeolnpr 🎭 - sochn dinee Aehnn vdnrseaten sich gut drain, in die Rellon aredenr zu sheflcpün: sie weran bühetmre Slepuhicaser, Gehtgieneeman und Idiehtänctäsefltsr. In so eneim kneeiln Drof ist es natricülh siherceigwr, nchit afleuulafzn - dhsealb nmmsit du die Iädtetnit dsesen, den du bei dineem Eiznug ins Drof wshlät, acuh esrt ncah dsesen Tod an. Du scfhüslpt vsiltnloädg in die Rlloe dsesen, den du kopiesrt: hsat die gecilehn Fäetigihekn, msust aledngrils acuh mit den Ehgsnuinedcten dsesen leebn: kopiesrt du das wdlie Knid, übernmmsit du dsesen Vlboird - und wnen dseeis sochn tot ist, wrist du dierkt zum Wlof.\n\nSlltoen Klieutstn im Drof vrekrehen, haben sie kenie Mgilhicköet, den Dägepgeolnpr zu berkheen, boevr er sich nchit vledawrnet hat. Aeurdeßm vlerreit der Kult ein Meliitgd, slolte der vom Dägepgeolnpr Keiorpte Ksilutt geseewn sien: der Dägepgeolnpr nmimt dnan die uclgühirprne Rlloe des Teton ein.\n\nAls Dägepgeolnpr ist es dir gnaz wtchiig, dsas das Drof enkrnet, wie gut du dinee Piseroosfn beshhrecrt: snogale du dcih nchit vledawrnet hsat, knnsat du das Sepil acuh nchit gineenwn! Wnen das Sepil vbroei ist, und du ncoh du bist... verliesrt du.</value>
     <value>Du bist der Dgpolgpeäenr 🎭 - schon deine Aenhn vsreendtan scih gut drain, in die Roelln arenedr zu sfelüphcn: sie weran bümerhte Scaueehplsir, Gmgaheneteien und Ieseldhtctstäniäfr. In so eenim kielenn Drof ist es niülracth swiegcrhier, nhict azeaulfufln - dshelab nmmsit du die Itidteänt dsesen, den du bei deenim Einuzg ins Drof whslät, acuh esrt ncah dsesen Tod an. Du sslüfphct vsdllätniog in die Rlole dsesen, den du kopiesrt: hsat die ghcelien Fhiketeiägn, msust aergldlnis acuh mit den Eecshtugnndein dsesen lbeen: kopiesrt du das wdile Knid, übernmmsit du dsesen Vboilrd - und wnen deeiss schon tot ist, wirst du drekit zum Wlof.\n\nSoletln Keuiltstn im Drof vrrhkeeen, hbean sie kiene Möilkigchet, den Dgpolgpeäenr zu brekehen, beovr er scih nhict vardeelwnt hat. Ardeßeum virerelt der Klut ein Mitgield, slolte der vom Dgpolgpeäenr Kpetiroe Klutist gesewen sien: der Dgpolgpeäenr nmimt dann die urniücprglhe Rlole des Teotn ein.\n\nAls Dgpolgpeäenr ist es dir gnaz whciitg, dsas das Drof eknnert, wie gut du deine Psoforisen breecrhhst: sanloge du dcih nhict vardeelwnt hsat, knnsat du das Sepil acuh nhict gweeinnn! Wenn das Sepil vrobei ist, und du noch du bist... verliesrt du.</value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>Es ksintert, aebr gitalweg! Dbeai hast du deeinn Job als Ekielrketr doch ectngliieh an den Ngeal geenaghn - denie neue Bnlfrsediukeug ist zawr eatws staslem, aebr wer mctöhe nchit gren von Lfut und Libee lbeen? Aslo: denie Bneruufg als Amor 🏹 ist es, zwei Peflie aezhbesußcin: die bideen Bheeonwr, die von ihenn goefrfetn weredn, weredn scih ueirlsncbth ieendannir velebiren, unfhäig, onhe den jelewis areednn zu überlbeen: soltle eneir von bideen stberen, wrid scih der Anedre aus Kummer das Leben nhmeen... Je neahcdm, wie gkcshciet dien Hädcnehn ist, kann daaurs ein goerßs Heefihostzcst oder ein Kcirlrhälpeen etetnhsen!\n\nWciithg: die Libeenden wsisen zawr vednanneior, bmkeeomn die Rlolen des jelewis Anedren jodceh nchit mitlitgeet. Sie gniweenn, wnen mnienetdss eneir von ihenn im gniweennden Taem ist - soltlen die Bideen es safhcefn, als die lzteten Bideen am Leben zu sien, gniweenn sie als Paar (rHechezn-joEmi heir etvl?)</value>
     <value>Es ktrniest, aebr gtielwag! Debai hast du dieenn Job als Eeiltekkrr dcoh eegilictnh an den Negal gnahegen - dneie nuee Biflruekeudsng ist zawr ewtas sltasem, aebr wer mtöche nciht gren von Lfut und Lbiee leben? Aslo: dneie Bfueurng als Aomr 🏹 ist es, zewi Pilefe aeesßizbhcun: die bdeien Bwheenor, die von iehnn gtrfeoefn wedern, wedern scih urnsteilcbh ineandnier vireeelbn, uähifng, ohne den jeilews aedrnen zu übeeelrbn: sllote enier von bdeien seetbrn, wrid scih der Aednre aus Kmemur das Lbeen nhemen... Je ndhceam, wie gsckhceit dien Heähndcn ist, knan duaras ein grßoes Hhfezoiesctst oder ein Krläperleihcn etsnteehn!\n\nWtiihcg: die Lbieenden wiessn zawr vaenndenior, bekmeomn die Rlolen des jeilews Aednren jedcoh nciht mlgetteiit. Sie gnewenin, wnen mesdnients enier von iehnn im gneweninden Team ist - slloten die Bdieen es schfafen, als die leztten Bdieen am Lbeen zu sien, gnewenin sie als Paar (hcreezHn-Eomji heir evtl?)</value>
     <value>Es ktnesirt, aebr glewtiag! Deabi hast du deenin Job als Eeikketrlr dcoh engielitch an den Neagl gehnaegn - dinee nuee Bkuulniefsedrg ist zawr ewats sletsam, aebr wer mtcöhe nchit gren von Lfut und Lbeie lbeen? Aslo: dinee Bfeunrug als Aomr 🏹 ist es, zewi Peifle acßbsuzeeihn: die bdieen Bnoewher, die von inhen grtfofeen wdreen, wdreen scih urbitnscelh inednanier veireblen, ufäinhg, ohne den jlieews aedenrn zu überlbeen: stlole einer von bdieen strbeen, wird scih der Ardnee aus Kuemmr das Leebn nemhen... Je neachdm, wie gksecicht dien Hdnehcän ist, knan duaras ein geßros Hfzctesisheot oedr ein Kercräilehpln enhsetten!\n\nWhticig: die Lbeienden wsiesn zawr vennoadiner, bkmoemen die Roleln des jlieews Ardneen jedcoh nchit mltgiietet. Sie gniweenn, wnen mdesiennts einer von inhen im gniweennden Taem ist - stlolen die Bdeein es sfahcfen, als die lztteen Bdeein am Leebn zu sien, gniweenn sie als Paar (zreHehcn-ojmEi hier etvl?)</value>
@@ -2020,12 +2020,12 @@
     <value>Neue Eulntenlsig für den Gerebr: {0}</value>
     <value>Neue Eenlntlsuig für den Greber: {0}</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>Willst du den Klut zslesaun?\nAkltuel: {0}</value>
     <value>Willst du den Kult zlsueasn?\nAelutkl: {0}</value>
     <value>Willst du den Klut zsaselun?\nAutklel: {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>Neue Eenlnstilug für den Klut: {0}</value>
     <value>Neue Etisnulenlg für den Klut: {0}</value>
     <value>Neue Entunsilelg für den Klut: {0}</value>
@@ -2287,7 +2287,7 @@
     <value>Team Froever anloe</value>
     <value>Team Fvreoer anloe</value>
   </string>
-  <string key="CultTeamEnd">
+  <string key="zoombiesTeamEnd">
     <value>Team Foistnvaiichm</value>
     <value>Team Fvoihctiniasm</value>
     <value>Team Foivanithcsim</value>
@@ -2297,7 +2297,7 @@
     <value>Team Geebrra</value>
     <value>Team Geerrba</value>
   </string>
-  <string key="CultConvertWolf">
+  <string key="zoombiesConvertWolf">
     <value>Ihr etsdneent in dseier Nhcat {0}, um {1} für eeurn Guaelbn zu genienwn, in der Hfnufnog, dsas deis enie efinchae Auagfbe ist, der slebst eeur neteseus Mitgiled gwecehasn ist, dcoh sdststaeetn mssüt ihr am ntscäehn Meogrn mit asnehen, wie das Drof die Lchiee von {0} edctnket, die so zelifhresct in eniem Gcüsbeh liget, dsas für ecuh soroft kalr ist, was peiassrt sien msus. Ihr soletlt ecuh in Zkunuft whol bseesr von den Wlfeön 🐺 ftrhenealn...</value>
     <value>Ihr enensdett in deiesr Nhcat {0}, um {1} für eruen Galeubn zu gieewnnn, in der Hnounffg, dsas deis enie enaihcfe Afbgaue ist, der sselbt euer nteeseus Miigtled gseechawn ist, doch sdattsetesn müsst ihr am ncästhen Mrogen mit ansheen, wie das Drof die Lchiee von {0} ecenkdtt, die so ziecesrhflt in eniem Gecsbüh lgeit, dsas für ecuh srofot kalr ist, was pesarist sien msus. Ihr soeltlt ecuh in Zkunuft whol bseesr von den Wflöen 🐺 fhnleeartn...</value>
     <value>Ihr edsenntet in desier Nchat {0}, um {1} für ereun Geaulbn zu gneniewn, in der Hffuonng, dsas deis enie enfhaice Afbauge ist, der sesblt eeur nueestes Meitlgid gwscaeehn ist, dcoh sttdtesaesn msüst ihr am nhäctsen Mrgoen mit aheesnn, wie das Dorf die Lihece von {0} eetckdnt, die so zeeihlrfsct in eniem Gcsüebh legit, dsas für ecuh soofrt kalr ist, was pesrasit sien msus. Ihr solltet ecuh in Zfnkuut whol bsseer von den Weflön 🐺 frnteaheln...</value>
@@ -2325,7 +2325,7 @@
     <value>Ihr fdient {0}, der mit eenim Kczlutheneerer senies egeinen Atarls 👤 ectrhoesn wudre (ien wahrhaft kielguts Vrreebehcn). Dsas der Seeönmerrdir 🔪 scih wdeer um Hunfkret, Buenurfg ncoh Rlioigen sineer Opefr kerümmt, war ecuh biretes bennkat, aebr waurm er dsiee Ncaht kien Mesesr debai htate, ist doch ärseßut rtslfahäet...</value>
     <value>Ihr fenidt {0}, der mit eeinm Kecleretehznur seiens eegnein Atrals 👤 eercsthon wudre (ien wraahhft kgluteis Vhbeeerrcn). Dsas der Sörmdireeenr 🔪 scih weedr um Hfnurket, Beufurng ncoh Rgioeiln senier Oepfr kmermüt, war ecuh brtiees bannket, aebr wuram er dsiee Nahct kien Meessr dbeai httae, ist dcoh äesrußt rfähstelat...</value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>Die Lbeie ist tot... Oedr zdsuemint ihr Sevtrerteltelr auf Eedrn 🏹: owhbol {0} seenin Bgoen ncoh in der Hnad hlät, knotne er diamt nhitcs geegn den ühärmcegbtein Sönirmreeder 🔪 asturiechn. Serwesatslmiee wudre das Hrez seabur hruagenseertnt... Ist es etwa das, was dsieem Vcrükeretn all die Jrahe glheeft hat?!</value>
     <value>Die Lbeie ist tot... Oedr zmidenust ihr Sttrtlevlreeer auf Erden 🏹: owobhl {0} senien Begon ncoh in der Hand hlät, ktonne er daimt ntihcs geegn den ügämhitbreecn Seöerimdnerr 🔪 aesturcihn. Sewraesseitlme wrdue das Herz sbaeur hnenutresgraet... Ist es ewta das, was diseem Vcüreertkn all die Jahre gfehelt hat?!</value>
     <value>Die Libee ist tot... Oder zmidneust ihr Stvrelttereler auf Eedrn 🏹: obohwl {0} seeinn Begon ncoh in der Hnad hlät, kntone er dmiat nthics geegn den üchigretbäemn Seediömnrerr 🔪 aihesrcutn. Sseselamretiwe wdrue das Herz seaubr hnneegsurartet... Ist es etwa das, was deesim Vtkreecürn all die Jrhae glfehet hat?!</value>
@@ -2393,7 +2393,7 @@
     <value>Der Kpröer von {0}, dem Ktluäegjr 💂 wudre bis zur Uhinceetknlnkit vtrsmleümet auf dem Alatr der Kcihre gedfeunn. Den Srdrenieöemr 🔪 für enein Kustetiln zu heltan war etendiuig sien ltzeter Fheler...</value>
     <value>Der Köeprr von {0}, dem Käelugjtr 💂 wdrue bis zur Unkneitehciklnt vlmüemrestt auf dem Atlar der Khicre gudfeenn. Den Sneirmreöder 🔪 für enien Ktltseuin zu hltean war eetdiuing sien lttezer Fheelr...</value>
   </string>
-  <string key="CultConvertWolfPublic">
+  <string key="zoombiesConvertWolfPublic">
     <value>Eigentlich wtlolen die Wlöfe 🐺 ltztee Ncaht ja ftesan (wie vlriildbcoh!) - aebr wer kann shcon der Vusehcnurg enies knelein Mctntthiserancak auf zewi Bnieen weeesthirdn?! Rhiictg: naneimd. Das mutsse {0} am eneiegn Lieb eaferrhn, acuh sien Gublae knonte den Kutiltesn 👤 nciht vor den scefrhan Zehänn der Wlöfe bethüzsecn...</value>
     <value>Eigentlich woelltn die Wflöe 🐺 ltetze Nhcat ja fesatn (iwe vldiblrcoih!) - aebr wer knan scohn der Vreuhsuncg eneis keneiln Mahttcirnsatecnk auf zewi Benein weihdestren?! Rtchiig: nmniaed. Das mtsuse {0} am eengien Lieb efharren, acuh sien Gulabe knntoe den Ksitluetn 👤 nihct vor den sreafhcn Zenhän der Wflöe bsecthzeün...</value>
     <value>Eigentlich wolteln die Wföle 🐺 ltetze Nhact ja fatesn (iwe vcibrdliloh!) - aebr wer knan sohcn der Vsreuunhcg eeins klnieen Mntnhaicscertatk auf zewi Beinen wtrdieehesn?! Rciihtg: nneiamd. Das mtsuse {0} am eeingen Lieb efrarehn, acuh sien Galbue ktonne den Ktluseitn 👤 nhict vor den scarfehn Zenhän der Wföle behscütezn...</value>
@@ -2401,7 +2401,7 @@
     <value>Das Lbeen als Ktulist 👤 ist nhcit liecht. Nciht nur msus man scih dvaon elreohn, biehsr ein Lbeen lang an das Fsalhce gagulbet zu heabn, nien, es sehetn acuh noch iemmr deise Naranchugdeewtnn auf dem Prmaorgm. {0} vrteirre scih daebi ltteze Ncaht in das Haus eenis rnuehedn Wfewolrs 🐺, war aebr sbslet eaefllbns zu mdüe, um wnezuneergn - am Merogn knan er es nhcit mehr, nur noch die Khencon snid von sneien Bineen ürbig gleebeibn. So wie es ahessiut, heabn Wfwelröe kien Ienstrese draan, scih neuen ketgluin Kriseen aehnizßscleun....</value>
     <value>Das Lbeen als Kstliut 👤 ist nihct lhicet. Nihct nur msus man scih dvoan eerohln, bsehir ein Lbeen lnag an das Fcaslhe gagubelt zu heabn, nien, es sehetn acuh ncoh iemmr disee Ngwcutharnnedean auf dem Progamrm. {0} vreirrte scih debai leztte Nhact in das Huas eiens rndeuehn Wewrflos 🐺, war aebr sbeslt ebfnelals zu mdüe, um wueegznnren - am Mrgeon knan er es nihct mher, nur ncoh die Kncohen snid von sneein Bneein üribg gbeeeblin. So wie es aussihet, heabn Wfröelwe kein Iesetrnse daarn, scih nueen kielutgn Kseiern asuzihcßnelen....</value>
   </string>
-  <string key="CultConvertKillerPublic">
+  <string key="zoombiesConvertKillerPublic">
     <value>Was für ein Flheer... Die Kstitluen 👤 hbean lzttee Nhcat die enizgie Peorsn im Drof bhuscet, die ncoh vrretkceür ist als sie sbelst. Dfüar kenönn alle Bonwheer huete ein arktsbetas Krwsentuk, bhetensed aus den zskeeetürltcn Ornagen des vrseoenbtern {0}, vor dem Rhutaas baeetsunn. Vhlceiilet nhict jmndnraees Ghamcesck... aebr der Sednrieerömr 🔪 hat sienen gnaz eneegin Snin für Äietthsk.</value>
     <value>Was für ein Fheler... Die Kslteuitn 👤 hbean ltteze Nahct die ezignie Porsen im Dorf bushect, die noch vkcerrüter ist als sie seslbt. Düfar kneönn alle Bheeonwr hteue ein abtskraets Knurtewsk, bhntseeed aus den zelectrektsün Ogenran des vbereorsetnn {0}, vor dem Rhtauas basuneetn. Vhceiilelt nhict jmeednrnas Gcmchaesk... aebr der Sremröiedenr 🔪 hat snieen gnaz eengein Snin für Äsethtik.</value>
     <value>Was für ein Fleehr... Die Klteustin 👤 haebn ltzete Nhcat die egziine Prsoen im Drof bsuehct, die ncoh vütrrceekr ist als sie sseblt. Daüfr könenn alle Bwnoheer hetue ein atsrkeatbs Kwsrteunk, betnseehd aus den zskecleetrütn Oarngen des vbtseeeonrrn {0}, vor dem Raauhts beutaesnn. Veciihellt nhcit jarendnmes Gascmchek... aebr der Sdöreermeinr 🔪 hat snieen gnaz enigeen Snin für Äsetihtk.</value>
@@ -2535,7 +2535,7 @@
     <value>Neu auf der Sriaspeekte für ecuh: {0}</value>
     <value>Neu auf der Sieetksprae für ecuh: {0}</value>
   </string>
-  <string key="AllowCult">
+  <string key="Allowzoombies">
     <value>Kult elarebun</value>
     <value>Kult euebarln</value>
     <value>Kult erlebuan</value>
@@ -2933,7 +2933,7 @@
     <value>Du bsit jeztt auch Firaeurmer! Heir dniee nueen Kolgeeln (nwen es dnen whelce gcfsfehat haebn): {0}</value>
     <value>Du bsit jtzet acuh Femrauirer! Heir diene nueen Keleglon (enwn es dnen whecle gshceffat haebn): {0}</value>
   </string>
-  <string key="ThiefToCult">
+  <string key="ThiefTozoombies">
     <value>{0} hat den Kult vsreslaen. Wcleh ein Väerretr! Nur gut, dsas sien Paltz nihct lnage klat bbliet: {1} ist eeur netseues Mleigtid, aebr er wkirt slsaetm vatrreut mit euern Aäubfeln. Ceerpy...</value>
     <value>{0} hat den Klut varelsesn. Wlech ein Väreterr! Nur gut, dsas sien Patlz nhcit lnage klat beilbt: {1} ist eeur neeetsus Mgliited, aber er wkirt stelsam vrtueart mit eeurn Auäbfeln. Ceerpy...</value>
     <value>{0} hat den Klut vaseersln. Wcleh ein Veerätrr! Nur gut, dsas sien Ptlaz nciht lgnae klat belbit: {1} ist eeur neteuses Migiteld, aber er wikrt sstalem vuerrtat mit euren Aäfubeln. Cpreey...</value>
@@ -3534,12 +3534,12 @@
     <value>Nach eneir wertieen edmüdrneen Nhcat lsfuät du ncah Hasue, als die Snnoe sohcn üebr dem Dorf ahgufet. Gradee wilslt du dien Huas beetretn, da bmekerst du plltizöch ein Srcwhet 💂‍♀️ auf dem Boedn neben eenim oeffenn Garb, in wehclem der tote Kerpör von {0} liget. Der Kjtäluegr httäe dcih wohl beessr nihct vteäcrihdgen slleon...</value>
     <value>Nach eeinr wireeetn eüednerdmn Ncaht lfäsut du nach Husae, als die Snnoe sochn üebr dem Drof aehguft. Gerdae wsllit du dien Huas beettren, da beskemrt du plitzclöh ein Shcrewt 💂‍♀️ auf dem Bdeon neebn eneim oneffen Garb, in wheeclm der tote Köperr von {0} lgeit. Der Ktueljgär httäe dich whol beessr nciht vädhteeigrcn sellon...</value>
   </string>
-  <string key="CultFell">
+  <string key="zoombiesFell">
     <value>Du khrset ncah eneir eenedrümdn Nhcat ncah Huase zuürck, als du plltzöcih enein Sherci aus der Rhtniucg eenis deneir Gbräer hrsöt. Du eilst dhotrin und fiedsnt {0} tot in der onfefen Gbrue... Wlehcer Kluistt 👤 wüdre dnen auch enein Tergbneätor kneevortiren wellon?</value>
     <value>Du ksreht ncah eeinr edmeeündrn Nchat ncah Hsuae zuürck, als du ptlcölizh eienn Scrhei aus der Rhcniutg eneis deeinr Greäbr hröst. Du eislt dhtrion und fenisdt {0} tot in der ofefenn Gbure... Wlehecr Ksutlit 👤 wrüde dnen acuh eienn Tonäbgrteer kerotrvienen wlleon?</value>
     <value>Du krhset ncah eeinr endeüdmren Nchat ncah Huase zücruk, als du pitcöllzh enein Shceri aus der Rhiuntcg eenis deeinr Gebrär hsröt. Du eslit dotrihn und fnesidt {0} tot in der oenffen Gbure... Weehlcr Klsitut 👤 wrüde dnen auch enein Tgänetboerr kreierotnevn wleoln?</value>
   </string>
-  <string key="CultConvertGraveDigger">
+  <string key="zoombiesConvertGraveDigger">
     <value>Auf dem Weg zu {1}s Huas edcetnesiht {0} ptöillczh, die Kihcre abbreennn zu woleln. {0} frhüt ecuh also über den Fdeiorhf ☠️, doch ptöillczh shcnppat enie Baleäfrnle um {0}s Fuß zu! Ihr hröt nur ncoh den enstetzetn Scrhei, bveor ihr ecuh uhrmedt und sehlcnl das Wtiee sucht.</value>
     <value>Auf dem Weg zu {1}s Huas ehtedsnecit {0} pclltzöih, die Kcrihe abebrnnen zu weolln. {0} führt euch also üebr den Ferhdoif ☠️, dcoh pclltzöih spanhpct enie Bäearflnle um {0}s Fuß zu! Ihr hröt nur ncoh den eeeztsttnn Shcrei, bveor ihr euch uehdmrt und senlhcl das Wtiee scuht.</value>
     <value>Auf dem Weg zu {1}s Haus eecesnhdtit {0} plöcztilh, die Krihce anenebrbn zu wlleon. {0} fhürt ecuh aslo üebr den Fheoirdf ☠️, dcoh plöcztilh saphpnct enie Bealänflre um {0}s Fuß zu! Ihr hört nur ncoh den etntetszen Shceri, boevr ihr ecuh uhdmret und secnlhl das Witee shcut.</value>

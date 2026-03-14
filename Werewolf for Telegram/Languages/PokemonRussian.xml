@@ -394,33 +394,33 @@
 <!-- 1 - target name -->
     <value>{0} предлагает нанять {1}</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
 <!-- 0 - Yougest Zombie (killed)'s name' -->
 <!-- 1 - ZombieHunter's name -->
     <value>Мьюту тренера {0} отправился заманить {1} в вашу команду... Тем не менее, у него/ее есть Мью! {0} потерял своего Мьюту и был уволен!</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
 <!-- 0 - Youngest Zombie's name -->
 <!-- 1 - Number of Zombies left -->
     <value>{0} пришел к тебе с клонированным Мьюту пытаясь нанять тебя на их злобную фабрику клонирования. Мью освободил Мьюту от {0}!! {1} работников фабрики осталось!</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>Работник фабрики клонирования пришел к тебе и уговорил тебя присоединиться к их команде с клонированным Мьюту. Ты бросил своего Покéмоны и выбрал Мьюту. Теперь твоя работа заманить больше тренеров в команду.</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
 <!-- 0 - Number of Zombies -->
     <value>Работники фабрики клонирования: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
 <!-- 0 - new Zombie's name -->
     <value>{0} присоединился к команде!</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
 <!-- 0 - Newest Zombie's name -->
 <!-- 1 - target name -->
     <value>{0} и Мьюту отправились заманить {1}... но никого не было дома!</value>
   </string>
-  <string key="CultWins" isgif="true">
+  <string key="zoombiesWins" isgif="true">
     <value>Команда Ракета потерпела поражение, но оставшиеся тренеры все работники фабрики клонирования! Фабрика Клонов Мьюту победила!!!</value>
   </string>
   <string key="HunterVisitDead">
@@ -523,7 +523,7 @@
 <!-- new strings May 6 2016-->
     <value>  Члены клуба Пикачу: {0}</value>
   </string>
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
 <!-- 0 - Youngest Zombies name -->
     <value>Ваш самый новый член направился к {0} и попытался заманить его в команду с помощью Мьюту. Но вы нашли его Покéмона только что выбитым и тренера, потерявшего всякую надежду найти нового Покéмона.</value>
   </string>
@@ -532,7 +532,7 @@
 <!-- new strings May 9 2016-->
     <value>Команда Ракета направилась к {0} и вызвала его на Битву Покéмонов. Мистер Мим появился из ниоткуда и применил Барьер. Вы неспособны сражаться с ним и отступаете...</value>
   </string>
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
 <!-- 0 - newest  -->
 <!-- 1 - target's name -->
 <!-- new string May 12 2016-->
@@ -553,7 +553,7 @@
 <!-- 1 - name -->
     <value>@{1}, игрок с именем {0} уже присоединился. Пожалуйста, поменяй имя, чтобы присоединиться.</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
 <!-- 0 - target's name -->
 <!-- new string May 13 2016-->
     <value>Джиглипафф направилась к {0} и попыталась подружиться с его/ее Покéмоном, но поняла что это клонированный Мьюту! Джиглипафф в шоке побежала домой.</value>
@@ -645,7 +645,7 @@
 <!-- new strings june 10 2016 -->
     <value>Время вышло!</value>
   </string>
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
     <value>Ты получил Хаунтера 🏹. Ты можешь выбрать двух тренеров и использовать Узы Судьбы на их Покéмонах. Когда один Покéмон будет выбит, другой последует за ним.</value>
   </string>
   <string key="RoleInfoDoppelganger">
@@ -657,8 +657,8 @@
   <string key="RoleInfoSerialKiller">
     <value>Ты Мастер Покéмонов, который владеет Драгонайтом 🔪. Твоя цель - выиграть все Битвы Покéмонов и стать лучшим!</value>
   </string>
-  <string key="CupidChosen">
-<!-- 0 - lover's name -->
+  <string key="RecruiterChosen">
+<!-- 0 - crewmate's name -->
     <value>Узы Судьбы применены на твоего Покéмона! Если Покéмон тренера {0} проиграет битву и будет повержен - твой Покéмон будет тоже выбит!</value>
     <value>Твой Покéмон был связан Узами Судьбы с Покéмоном тренера {0}. Если его/ее Покéмон падет - твой пойдет за ним!</value>
   </string>
@@ -694,7 +694,7 @@
 <!-- 2 - target's role -->
     <value>{0} приказал Генгару использовать Проклятье! {0} и {1} были выбиты. {2}</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
 <!-- 0 - Youngest Zombie's name -->
 <!-- 1 - target's name -->
     <value>{0} приказал Мьюту атаковать {1} не зная его могущества и силы его Покéмона! Драгонайт появился. Драгонайт использовал Ярость! Мьюту повержен!</value>
@@ -720,7 +720,7 @@
 <!-- 0 - target's name -->
     <value>Ты и твой Драгонайт направились к {0} и вызвали его на битву Покéмонов. Мистер Мим появился из ниоткуда, применил Барьер и они исчезли. Сегодня без битвы.</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
 <!-- 0 - Youngest Zombie's name -->
 <!-- 1 - target's name -->
     <value>Фабрика клонирования посылает {0} чтобы заманить {1} в команду, но вместо этого {1} разозлился и приказал Генгару начать битву Покéмонов! {0} и его/ее Мьюту повержены.</value>
@@ -744,11 +744,11 @@
 <!-- 1 - mason collegues's name -->
     <value>Пикачу тренера {0} был повержен, и Дитто трансформировался в Пикачу. Твоя команда (если есть): {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
 <!-- 0 - new Zombie's name -->
     <value>Дитто тренера {0} трансформировался в Мьюту и присоединился к команде!</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
 <!-- 0 - role's name -->
 <!-- 1 - teammates's name -->
     <value>{0} и его Мьюту были повержены и дитто трансформировался в Мьюту. Твоя команда (если есть): {1}</value>
@@ -770,25 +770,25 @@
     <value>Кого ты вызовешь на поединок?</value>
     <value>Кто сегодня будет твоим соперником?</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
 <!-- 0 - dead's name -->
-<!-- 1 - lover's name -->
+<!-- 1 - crewmate's name -->
 <!-- 2 - roles -->
     <value>Как только Покéмон {0} выбыл, {1} ушёл из Лиги Покéмонов следом из-за действия Уз Судьбы. {2} </value>
   </string>
   <string key="AskDoppelganger">
     <value>В чьего Покéмона Дитто должен превратиться после его поражения?</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>На кого Хаунтер должен применить Узы Судьбы? Выбери первого тренера.</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>На кого Хаунтер должен применить Узы Судьбы? Выбери второго тренера.</value>
   </string>
   <string key="Hunter">
     <value>Генгар 🎯</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>Хаунтер 🏹</value>
   </string>
   <string key="SerialKiller">
@@ -801,7 +801,7 @@
 <!-- 0 - target's name -->
     <value>Твой Дитто трансформировался в Мяута 👶. Твой семпай - {0}</value>
   </string>
-  <string key="LoversWin" isgif="true">
+  <string key="crewmatesWin" isgif="true">
     <value>Узы судьбы оказались сильнее всех невзгод. Пара победила!</value>
   </string>
   <string key="HunterKilledVisiter">
@@ -809,7 +809,7 @@
 <!-- 1 - role -->
     <value>Генгар нашел Покéмона и он использовал Теневой Удар! {1} выбит. Его тренер - {0}</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>Работник фабрики клонов попытался заманить тебя с помощью Мьюту, но твоя связь с Покéмоном слишком сильна!</value>
   </string>
   <string key="AlreadyOnWaitList">
@@ -889,7 +889,7 @@
   <string key="AboutFool">
     <value>Твой Покéмон - Псайдак. Он использует свои способности на тебе, и ты видишь его как Алаказама! (тренер, которому в начале игры говорят, что у него Алаказам, но вместо правильных Покéмонов такой тренер будет узнавать рандомные). (Дурак)</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>Ты - работник Фабрики Клонирования, и твой Покéмон - клонированный Мьюту. Твоя задача - завербовать остальных тренеров к вам на Фабрику и победить Команду Ракета.</value>
   </string>
   <string key="AboutCH">
@@ -910,7 +910,7 @@
   <string key="AboutDG">
     <value>Твой Покéмон - Дитто. В начале игры выбери тренера, и после его поражения Дитто трансформируется в его Покéмона (Двойник)(\nесли Двойник не выберет/не успеет выбрать игрока, роль которого Двойник возьмёт, игра сделает это сама, выбрав рандомного игрока;\nесли Двойник получит роль Дикого Ребёнка, «примером для подражания» первому станет игрок, которого выбрал второй;\nДвойника нельзя завербовать нетрансформированным, также Двойник не может выиграть, если он не трансформировался).</value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>Твой Покéмон - Хаунтер! Его способность - Узы Судьбы связывает двух тренеров и их Покéмонов. Если один из них будет повержен или победит - второй разделит его учесть. (Купидон) \nесли Купидон не выберет/не успеет выбрать будущих влюблённых, игра сама влюбит двух рандомных игроков;\nесли один из влюблённых выиграет, другой влюблённый тоже выиграет).</value>
   </string>
   <string key="AboutHunter">
@@ -1083,10 +1083,10 @@
   <string key="AllowTannerA">
     <value>Нынешний статус настройки: {0}.</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>Разрешить фракцию «Фабрика Мьюту»(Секта), а значит и покемона «Мьюту» в игре?\nСтатус настройки: {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>Нынешний статус настройки: {0}.</value>
   </string>
   <string key="ThankYou">
@@ -1165,7 +1165,7 @@
   <string key="SerialKillerTeamEnd">
     <value>Владельцы Драгонайта</value>
   </string>
-  <string key="CultTeamEnd">
+  <string key="zoombiesTeamEnd">
     <value>Команда Фабрики Клонирования</value>
   </string>
   <string key="TannerTeamEnd">
@@ -1295,7 +1295,7 @@
   <string key="ZombieKilled">
     <value>Клонированные Мьюту пусть и сильны, но мощь Драгонайта в разы сильнее. Работник фабрики клонирования {0} узнал это на собственной шкуре.</value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>Наутро тренеры с ужасом обнаружили {0}, плачущим над его поверженным Хаунтером. Невероятные способности его Покéмона оказались бесполезны перед силой Драгонайта.</value>
   </string>
   <string key="DrunkKilled">
@@ -1328,12 +1328,12 @@
 <!--used when CH visits SK-->
     <value>Проснувшись утром тренеры заметили нехватку одного тренера. {0}, владелец могущественного Мью, проиграл битву Драгонайту! А вместе с этим село лишилось единственного борца с Фабрикой Клонирования...</value>
   </string>
-  <string key="CultConvertWolfPublic">
+  <string key="zoombiesConvertWolfPublic">
 <!--used when Zombies convert the wolves, only if wolves stayed home-->
     <value>{0}, работник фабрики клонирования, решил пойти на риск: наведаться в штаб-квартиру Команды Ракета! Игра не стоила свеч, а Команда Р заимела интересный трофей. {0} повержен!</value>
     <value>Первое правило работников фабрики клонирования - НЕ СОВАТЬСЯ К КОМАНДЕ РАКЕТА!!! Стажер {0} не очень любил читать правила, за что и поплатился.</value>
   </string>
-  <string key="CultConvertKillerPublic">
+  <string key="zoombiesConvertKillerPublic">
 <!--used when Zombies convert the SK-->
     <value>Стажер фабрики клонирования {0} перепутал список домов для вербовки с черным списком домов. Первым оказался адрес тренера Драгонайта, что быстро прервало рабочий день {0}. {0} и его Мьюту выбиты.</value>
     <value>"Не ходите дети, в этот дом гулять, там живет ужасный Драгонайт!". Не послушав предупреждения {0} решил пригласить пополнить ряды тренера Драгонайта. За свою дерзость он поплатился Покéмоном. {0} и его Мьюту выбиты.</value>
@@ -1421,7 +1421,7 @@
 <!-- NOTE: No space between {0} and joined. It will be added in the code if necessary-->
     <value>{0} вступил в игру во время последних 30 секунд.</value>
   </string>
-  <string key="AllowCult">
+  <string key="Allowzoombies">
     <value>Разрешить Фабрику Клонов?</value>
   </string>
   <string key="AllowTanner">
@@ -1436,7 +1436,7 @@
   <string key="RandomMode">
     <value>Включить Случайный режим</value>
   </string>
-  <string key="CultConvertWolf">
+  <string key="zoombiesConvertWolf">
 <!-- New Roles, April 2018 -->
     <value>Фабрика Клонирования отправила стажёра {0} вербовать {1}, однако тот, как член Команды Ракета принял это как вызов. {0} повержен.</value>
   </string>
@@ -1597,7 +1597,7 @@
 <!-- 0 - mason collegues's name -->
     <value>Ваши товарищи по клубу (если есть): {0}</value>
   </string>
-  <string key="ThiefToCult">
+  <string key="ThiefTozoombies">
 <!-- 0 - old Zombie's name -->
 <!-- 1 - new Zombie's name -->
     <value>{0} лишился своего Мьюту, а {1} теперь стал новым обладателем Мьюту, как и вы!</value>
@@ -1948,16 +1948,16 @@
   <string key="HunterFell">
 	<value>Ещё одна ночь потрачена впустую! Расстроившись из-за неудачи, ты не смотришь под ноги и проваливаешься в свежевыкопанную яму. Опять этот {0} не следит за своим Диглеттом ☠️!</value>
   </string>
-  <!--{0}: cult hunter-->
+  <!--{0}: zoombies hunter-->
   <string key="HunterFellDigger">
 	<value>Возвращаясь домой, ты замечаешь, что с одной из ям, выкопанных твоим Диглеттом ☠️, что-то не то. Приблизившись, ты видишь в ней Мью тренера {0}. Не стоило ему тебя подозревать...</value>
   </string>
   <!--{0}: Zombie-->
-  <string key="CultFell">
+  <string key="zoombiesFell">
 	<value>Возвращаясь домой, ты замечаешь, что в одной из ям, выкопанных твоим Диглеттом ☠️, находится Мьюту. Работник Фабрики {0} пытался нанять тебя. Как это глупо! В этом городе ещё так много другой работы для тебя!</value>
   </string>
   <!--{0}: Zombie who fell, {1}: grave digger-->
-  <string key="CultConvertGraveDigger">
+  <string key="zoombiesConvertGraveDigger">
 	<value>По дороге к дому {1}, {0} внезапно решает осмотреться на месте. Но ему стоило смотреть под ноги, чтобы не провалиться в одну из ям, выкопанных Диглеттом! Вы быстро убегаете подальше от этого дома.</value>
   </string>
   <!--{0}: grave digger-->

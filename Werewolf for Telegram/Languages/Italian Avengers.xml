@@ -352,25 +352,25 @@
   <string key="ZombieVotedConvert">
     <value>{0} vota per regalare il poster di Batman a {1} </value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <value>{0} è stato inviato a fare il suo lavoro, per consegnare il poster a {1}... ma era Stan Lee! {0} è stato rispedito nel suo universo!</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <value>{0} ti ha fatto visita la scorsa notte, pronto a consegnarti il poster di Batman...  ma l'hai rispedito nel suo universo, utilizzando la tua matita per aprire un portale. Un fan della DC è scomparso... {1} rimanenti!</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>Quando hai visto il poster di Batman, non hai potuto fare altro che diventare un fan della DC! Ora sei uno di loro. Ogni notte, avrai la possibilità di portare qualcun altro nel fanclub.</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>Fan DC: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <value>{0} ha aderito al fanclub!</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <value>{0} è stato inviato a fare il suo lavoro, per consegnare il poster a {1}... ma nessuno era in casa!</value>
   </string>
-  <string key="CultWins">
+  <string key="zoombiesWins">
     <value>Tutti gli alieni sono stati sconfitti, ma tutti i sopravvissuti sono diventati fan della DC... La DC ha vinto!</value>
   </string>
   <string key="HunterVisitDead">
@@ -467,21 +467,21 @@
 <!-- new strings May 6 2016-->
     <value>  Gli altri Mercenari sono: {0}</value>
   </string>
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <value>Il vostro nuovo membro si reca a casa di {0} per consegnargli il poster, ma trova invece una casa malmessa, sangue ovunque e fori di pistole laser su tutto il mobilio...</value>
   </string>
   <string key="GuardBlockedWolf">
 <!-- new strings May 9 2016-->
     <value>Ti introduci nella casa di {0} per ucciderlo, ma improvvisamente incontri una figura oscura, armata fino ai denti. È Black Panther. Non ti aspettavi un avversario del genere, sei costretto a ritirarti.</value>
   </string>
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
 <!-- new string May 12 2016-->
     <value>Spedite {0} per consegnare il poster a  {1}, ma non crede nell'Uomo Pipistrello, non si unirà a voi.</value>
   </string>
   <string key="NameExists">
     <value>@{1}, un guerriero con il nome di {0} e' gia' entrato. Per favore cambia il tuo nome per partecipare. </value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
 <!-- new string May 13 2016-->
     <value>Ti rechi a casa di {0} per controllare che non sia un invasore... Ma quando stai per uscire, ti accorgi di uno strano poster appeso alla parete... Raffigura un uomo vestito da pipistrello...</value>
   </string>
@@ -557,7 +557,7 @@
 <!-- new strings june 10 2016 -->
     <value>Troppo tardi!</value>
   </string>
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
     <value>Sei Dio o un entità aliena, chissà! Hai il potere di legare la tua vita a quella di un altro o di unire le vite di due individui, questi non seguiranno più il destino della loro stirpe, ma dovranno sopravvivere pensando solo a se stessi. Se uno dei due muore, l'altro si ucciderà a causa dell'incantesimo.</value>
   </string>
   <string key="RoleInfoDoppelganger">
@@ -569,9 +569,9 @@
   <string key="RoleInfoSerialKiller">
     <value>Sei Ultron. Un'inteliggenza artificiale sfuggita al controllo degli umani, che sei intenzionato a far sparire dalla faccia della terra.</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>La tua vita è stata legata a quella di {0}. Il vostro obiettivo è restare entrambi vivi. Se uno di voi due muore, l'altro morirà di conseguenza.</value>
-    <value>La freccia di Cupido ti ha colpito! Ti sei innamorato perdutamente con {0}! Se muore, condividerai il suo destino. Se riuscite a sopravvivere fino alla fine, sarete entrambi vincitori.</value>
+    <value>La freccia di Recruitero ti ha colpito! Ti sei innamorato perdutamente con {0}! Se muore, condividerai il suo destino. Se riuscite a sopravvivere fino alla fine, sarete entrambi vincitori.</value>
   </string>
   <string key="HunterLynchedChoice">
     <value>i terrestri hanno deciso di scacciarti dalla Terra! Questa è la tua ultima possibilità, scegli qualcuno da uccidere, prima di andare!</value>
@@ -597,7 +597,7 @@
   <string key="HunterKilledFinalShot">
     <value>Esausto, {0} cade... Ma non senza afferrare il partello e colpire a {1}, che si becca una martellata in pieno stomaco. {2}</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <value>{0} si intrufola nella casa di {1}, apre la porta per appiccicarci il poster, ma viene sorpreso da Ultron che gli spezza il collo!!! {1} infila la mano nel petto di {0} e poi lo schiaccia, tingendo le pareti di rosso! {0} è morto. </value>
     <value>I fan della DC mandano {0} per consegnare il poster a {1}, ma invece il corpo di {0} esce volando dalla finestra con il cuore strappato per sicurezza, come se dieci piani non bastassero! {0} è morto...</value>
   </string>
@@ -616,7 +616,7 @@
   <string key="GuardBlockedKiller">
     <value>Hai provato ad aggiungere il cuore di {0} alla tua collezione, ma invece ti sei scontrato con Black Panther! Niente da fare stasera.</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <value>I fan della DC mandano {0} per consegnare il poster a {1}, ma invece un tonfo rumoroso, rompe il silenzio della notte, è il corpo di {0} che vola dalla finestra col pesante martello di Thor, addosso. {0} è morto...</value>
   </string>
   <string key="GuardKiller">
@@ -635,10 +635,10 @@
   <string key="DGTransformToMason">
     <value>{0} è morto, e tu ora prendi il posto di un Mercenario. I tuoi compagni (se presenti) sono: {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <value>Il replicante {0} è ora diventato un Fan della DC, esattamente come te!</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <value>{0} è morto, e tu ti trasformi in un Fan della DC, I tuoi compagni (se presenti) sono: {1}</value>
   </string>
   <string key="DGToWolf">
@@ -653,22 +653,22 @@
   <string key="AskKill">
     <value>Chi vuoi uccidere stanotte?</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <value>Con l'ultimo respiro di {0}, {1} accorre per vedere il suo cadavere. Come narrava la profezia, cerca l'arma più vicina e si toglie la vita. {2}</value>
   </string>
   <string key="AskDoppelganger">
     <value>Di chi vuoi prendere il posto?</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>La vita di chi vuoi legare? Scegli il primo nome:</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>La vita di chi vuoi legare? Scegli il secondo nome:</value>
   </string>
   <string key="Hunter">
     <value>Thor 🔨 (🎯)</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>Entità soprannaturale 🧞‍♂️ (🏹)</value>
   </string>
   <string key="SerialKiller">
@@ -683,10 +683,10 @@
   <string key="HunterKilledVisiter">
     <value>Al centro della piazza centrale, viene ritrovato il corpo di {0}, fulminato. Sembra che lui abbia provato a visitare Thor! {1}</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>Uno strano individuo ha provato a rifilarti un poster di Batman, ma tu non credi agli universi alternativi.</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
     <value>La coppia ha vinto!</value>
   </string>
   <string key="SerialKillerWinsOverpower">
@@ -756,7 +756,7 @@
   <string key="AboutFool">
     <value>Sei Jeffrey Mace cred di essere il Direttore dello S.H.I.E.L.D., ma sei solo quello di facciata... Quando provi a raccogliere informazioni su qualcuno, le notizie potrebbero non essere attendibili al 100%, sai che la persona individuata è lì da qualche parte ma non sei sicuro di chi sia. Nota: È più utile di quello che sembra, può sapere con esattezza chi è presente allo scontro. </value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>Come Fan della DC, il tuo obiettivo è ampliare il tuo fanclub chiunque può farne parte, tranne gli invasori, Ultron, e l' A.I.M. Se alla fine dello scontro tutti i sopravvissuti saranno Fan della DC, vincerete. \n Probabilità di successo per i seguenti individui: \n Replicante: 0% Finchè rimane replicante, è impossibile da convincere \n Diretttore dello S.H.I.E.L.D. 40% Fury non è facile da convincere, nonostante ne abbia viste tante \n Black Panther 60% Nota: Se protegge qualcuno, non lo troverai in casa \n Norman Osborn 60% \n Ant-Man 70% \n Quicksilver 70% Come con Black Panther, se non è casa, non potrete convincerlo \n Thor 50% Avrai il 50% di convincerlo. Se fallite, C'è il 50% che vi uccida.</value>
   </string>
   <string key="AboutCH">
@@ -777,7 +777,7 @@
   <string key="AboutDG">
     <value>Prima che lo scontro abbia inizio, potrai scegliere un obiettivo da sostituire. I fan della DC non possono convincerti ad unirti a loro finchè sei ancora un Replicante. Nota: non potrai unirti al vero scontro, finchè non avrai portato a termine la tua missione principale. Se alla fine dello scontro, sarai ancora un replicante e il tuo obiettivo non sarà morto, la tua missione sarà considerata fallita.</value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>Prima della battaglia, sceglie due individui e lega le loro esistenze. Dopodichè vivrai sulla terra e proverai la vita senza poteri. Le due persone che hai legato, dovranno fare di tutto per collaborare e sopravvivere, perchè la morte di uno significa la morte di entrambi. Nota: i legati sanno chi è l'altro, ma non sanno cos'è l'altro o quello che è capace di fare. Se i legati sono gli ultimi due vivi, loro vincono, indipendemente da chi fossero. Se i legati sono di due team diversi(esempio: invasore + terrestre), e un team vince (esempio: invasori), anche l'altro (esempio: terrestre) vince. \nTL;DR Se tutti e due legati sono vivi a fine scontro, e almeno uno dei due è nel team vincitore, vincono insieme</value>
   </string>
   <string key="AboutHunter">
@@ -948,10 +948,10 @@
   <string key="AllowTannerA">
     <value>Conciatore come ruolo impostato a {0}</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>Ammettere i Satanisti in partita, come ruolo?\nAttualmente: {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>Satanista come ruolo impostato a {0}</value>
   </string>
   <string key="ThankYou">
@@ -1112,13 +1112,13 @@
   <string key="SerialKillerTeamEnd">
     <value>Team Ultron</value>
   </string>
-  <string key="CultTeamEnd">
+  <string key="zoombiesTeamEnd">
     <value>Team Fan DC</value>
   </string>
   <string key="TannerTeamEnd">
     <value>Team Thanos</value>
   </string>
-  <string key="CultConvertWolf">
+  <string key="zoombiesConvertWolf">
     <value>I fan della DC hanno mandato {0} per provare a far iscrivere {1}, ma all'improvviso si vede la testa di {0} volare fuori dalla finestra... Agli invasori non piace la DC! {0} è morto...</value>
   </string>
   <string key="HarlotFuckedKilledPublic">
@@ -1136,7 +1136,7 @@
   <string key="ZombieKilled">
     <value>{0} è stato trovato sul ciglio della sdrada senza il cuore, il poster macchiato di sangue, in terra. Ultron ha colpito ancora, indipendentemente da razza, lingua o universo! {0} era un Fan della DC 🦇.</value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>Il mattino seguente, terrestri furono sorpresi nel vedere che persino {0}, cioè l'entità soprannaturale, fosse morta. Stranamente il cuore non era presente...</value>
   </string>
   <string key="DrunkKilled">
@@ -1170,12 +1170,12 @@
     <value>I cittadini si svegliano la mattina e trovano {0} fulminato e con la matita spezzata. Stan Lee non potrà più rispedire i fan della DC nel proprio universo ma cosa più importante, non avrebbe dovuto sospettare di Ultron... </value>
     <value>Il corpo di {0}, Stan Lee, è stato trovato nel giardino di casa sua. La matita polverizzata. Controllare Ultron non sembra mai una buona idea..</value>
   </string>
-  <string key="CultConvertWolfPublic">
+  <string key="zoombiesConvertWolfPublic">
 <!--used when Zombies convert the wolves, only if wolves stayed home-->
     <value>Sembrava una notte tranquilla, visto che gli invasori hanno deciso di non attacare, l'unico sfortunato è stato {0}, un fan della DC che ha provato ad ampliare il fanclub. Le sue ceneri sono state rinvenute nella fontana del parco. {0} non ha avuto una buona idea, provando a convincere un invasore!</value>
     <value>I fan della DC hanno incontrato un problema non previsto questa notte. Il loro ultimo iscritto, mandato porta a porta, si è imbattuto in un alieno invasore. Sfortunatamente per {0}, non c'è stato nulla da fare.</value>
   </string>
-  <string key="CultConvertKillerPublic">
+  <string key="zoombiesConvertKillerPublic">
 <!--used when Zombies convert the SK-->
     <value>I fan della DC pensavano di aver trovato un candidato ideale, ma si sbagliavano! {0}, un fan della DC è stato trovato appeso a testa in giù come un pipistrello, ma privo di vita e del cuore. </value>
     <value>L'ultima notte, i fan della DC hanno provato a convincere Ultron ad unirsi al fanclub, il loro ultimo acquisto ha avuto una breve conversazione con lui, conclusasi con la morte del giovane {0}.</value>
@@ -1264,8 +1264,8 @@
 <!-- {0} = list of people who have joined -->
     <value>{0} sono entrati in partita negli ultimi 30 secondi.</value>
   </string>
-  <string key="AllowCult">
-    <value>Allow Cult</value>
+  <string key="Allowzoombies">
+    <value>Allow zoombies</value>
   </string>
   <string key="AllowTanner">
     <value>Allow Tanner</value>
@@ -1487,7 +1487,7 @@ L'ex mago, non può rivelare l'identità del nuovo mago.</value>
 <!-- 0 - mason collegues's name -->
     <value>I tuoi compagni (se presenti) sono: {0}</value>
   </string>
-  <string key="ThiefToCult">
+  <string key="ThiefTozoombies">
 <!-- 0 - old Zombie's name -->
 <!-- 1 - new Zombie's name -->
     <value>{0} non è più un tuo compagno e {1} è ora divenuto un Fan della DC, esattamente come te!</value>
@@ -1837,16 +1837,16 @@ L'ex mago, non può rivelare l'identità del nuovo mago.</value>
   <string key="HunterFell">
 	<value>Trovare i Fan della DC è più difficile del previsto ma hai avuto un'idea, nella fortezza di Iron Man ci sarà qualcosa per trovare quei maledetti! Forse hai trovato qualcosa ma per sbaglio la attivi e ti ritrovi catapultato nella loro dimesnione, ora ce ne sono così tanti ma tu qui non hai poteri, Ben fatto, Stan! {0} dovrebbe tenere sotto chiave certe invenzioni.</value>
   </string>
-  <!--{0}: cult hunter-->
+  <!--{0}: zoombies hunter-->
   <string key="HunterFellDigger">
 	<value>Come al solito, dopo la notte di lavoro, fai il solito giro di perlustrazione. Noti una matita sul pavimento, sì, senza dubbio è quella di Stan Lee. Manca il prototipo che può far viaggiare nel multiverso, deve essersi teletrasportato altrove. {0} non potrà più essere d'aiuto. Magari la prossima volta una telefonata prima di passare, non guasterebbe...</value>
   </string>
   <!--{0}: Zombie-->
-  <string key="CultFell">
+  <string key="zoombiesFell">
 	<value>Solito giro di controllo e controllo videosorveglianza, anche se stavolta non ce n'è bisogno, l'odore di sangue è ben chiaro! Si vede una persona, un certo {0} morto trafitto du una rudimentale freccia e morto dissanguato. Il sistema deve averlo scambiato per un alieno, e visto come è conciato, non gli si può dare torto.</value>
   </string>
   <!--{0}: Zombie who fell, {1}: grave digger-->
-  <string key="CultConvertGraveDigger">
+  <string key="zoombiesConvertGraveDigger">
 	<value>Mentre vai a casa di {1}, {0} suggerisce che sarebbe divertente affiggere i poster di Batman a casa di Iron Man. Purtoppo, finiscono per attivare una delle sue trappole. Qualcuno ci ha appena rimesso le penne, gli altri scappano via spaventati.</value>
   </string>
   <!--{0}: grave digger-->

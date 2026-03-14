@@ -381,33 +381,33 @@
     <!-- 1 - target name -->
     <value >نظر {0} اینه که {1} رو تبدیل کنید</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <!-- 0 - Yougest Zombie (killed)'s name' -->
     <!-- 1 - ZombieHunter's name -->
     <value>خب {0} رفت که {1} رو اموزش بده تا به گروه دون اداین ها بپیونده ولی {1} ترول  بود و کشتش!</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - Number of Zombies left -->
     <value>دیشب {0} اومد آموزشت بده ولی تو زدی کشتیش! {1} باقی مونده</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>تو الان به دون اداین پیوستی و هر شب با بقیه یارانت باید یه نفرو آموزش بدین</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <!-- 0 - Number of Zombies -->
     <value>دون اداین ها: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <!-- 0 - new Zombie's name -->
     <value>الان {0} به دون اداین ها ملحق شد</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <!-- 0 - Newest Zombie's name -->
     <!-- 1 - target name -->
     <value>خب  {0} رفت {1} رو آموزش بده تا به دون اداین ها بپیونده ولی اونجا نبود</value>
   </string>
-  <string key="CultWins" isgif="true">
+  <string key="zoombiesWins" isgif="true">
     <value >همه ارکا مردن وفقط دون اداین ها پیروز شدن امراش بر تمامی شایر حکم فرماست</value>
   </string>
   <string key="HunterVisitDead">
@@ -512,7 +512,7 @@
     <value>  نوه مه نوری های دیگه عبارت اند از: {0}</value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <!-- 0 - Youngest Zombies name -->
     <value>عضو جدید دون ادین ها رفت خونه {0} تا آموزشش بده ولی دید کشته شده</value>
   </string>
@@ -521,7 +521,7 @@
     <value>دیشب ارکا به {0} حمله کردن که بکشنش ولی گلادریل اونجا بود و جلوشون رو گرفت</value>
   </string>
   <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <!-- 0 - newest  -->
     <!-- 1 - target's name -->
     <value>دیشب {0} رو فرستادین که {1} بهس آموزش بده ولی اون خیلی خنگ بود حتی شمشیر رو نمیتونست تو دستاش بگیره</value>
@@ -532,7 +532,7 @@
     <!-- 1 - name -->
     <value>جناب {0} @{1} یه بازیکن هم اسم تو توی بازیه، اسمتو عوض کن تا بتونی وارد بازی بشی</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <!-- 0 - target's name -->
     <value>دیشب که رفتی خونه {0} دیدی که داره تمریادوک برندی باکن نظامی میکنه!</value>
   </string>
@@ -626,7 +626,7 @@
   <value>وقت تموم شد!</value>
   </string>
   <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
     <value>تو آرون هستی از عشقت با آراگورن برای دو نفر بگو تا اونا هم عاشق هم بشن! اگه یکی بمیره اون یکی هم از عشق یارش میمیره</value>
   </string>
   <string key="RoleInfoDoppelganger">
@@ -638,7 +638,7 @@
   <string key="RoleInfoSerialKiller">
     <value>تو ویچ کینگ هستی از جادوی سیاهت استفاده کن تا هرشب یه نفر بمیره وظیفته تو اینه که شایربه سرزمین ارواح تبدیل بشه!</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>تو عاشق {0} شدی. اگه یکیتون بمیره اون یکی هم از غمش میمیره</value>
 	<value>آرون داستان عشقش رو برای تو و {0} گفت حالا عاشق هم شدین اگه اون بمیره تو هم از غمش میمیری</value>
   </string>
@@ -674,7 +674,7 @@
     <!-- 2 - target's role -->
     <value>لگولاس {0} آخرین لحظه تیر کمانش روبرداشت و {1} رو کشت. {2}</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <value>دون اداین  عزیز یعنی {0} رفت به میناس مورگول تا {1} رو هم به گروه خودش دعوت کنه ولی {1} کشتش</value>
 	<value>فرقه گرای عزیز یعنی {0} رفت ویچ کینگ یعنی {1} رو به دینش دعوت کنه ولی کشته شد</value>
   </string>
@@ -699,7 +699,7 @@
     <!-- 0 - target's name -->
     <value>رفتی {0} با جادوی سیاهت بکشی ولی گلادریل شکستت داد </value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
     <value>دون اداین عزیز یعنی {0} رفت که {1} رو به دینش دعوت کنه ولی {1} لگولاس بود و با تیر و کمانش زد {0} رو کشت</value>
@@ -723,11 +723,11 @@
     <!-- 1 - mason collegues's name -->
     <value>خب چون تو {0}  به عنوان همزاد انتخاب کردی الان مرده مثل اون نومه نوری میشی اینم بقیه نومه نوری ها: {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <!-- 0 - new Zombie's name -->
     <value>فردو بگینز  یعنی {0} هم مثل خودت دون اداین شد</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <!-- 0 - role's name -->
     <!-- 1 - teammates's name -->
     <value>الگوت یعنی {0} مرد و چون دون اداین بود تو هم دون اداین شدی. بقیه دون اداین عبارت اند از: {1}</value>
@@ -747,25 +747,25 @@
   <string key="AskKill">
     <value>از جادوی سیاهت علیه کی میخوای استفاده کنی؟</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <!-- 0 - dead's name -->
-    <!-- 1 - lover's name -->
+    <!-- 1 - crewmate's name -->
     <!-- 2 - roles -->
     <value>با مرگ {0} عشق ابدیش یعنی {1} هم خودشو انداخت روی جنازش و انقدر گریه کرد تا مرد. {2}</value>
   </string>
   <string key="AskDoppelganger">
     <value>میخوای الگوت کی بشه؟ اگه بمیره تو نقششو بر عهده میگیری</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>با کی میخوای درباره عشقت با آراگورن بگی؟ نفر اول رو انتخاب کن</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>به کی میخوای بگی چطور از زندگی جاویدان بخاطر آراگورن دست کشیدی؟ نفر دوم رو انتخاب کن</value>
   </string>
   <string key="Hunter">
     <value>لگولاس🏹</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>آرون💘</value>
   </string>
   <string key="SerialKiller">
@@ -779,7 +779,7 @@
     <!-- 0 - target's name -->
     <value>تو دهان سائرونی و الگوت کسی نیست جز {0}</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
     <value>عاشقا برنده شدن</value>
   </string>
   <string key="HunterKilledVisiter">
@@ -787,7 +787,7 @@
     <!-- 1 - role -->
     <value>خب دیشب {0} رف خونه لگولاس فضولی کنه. گولاس هم یه تیر نشوند وسط سینش. {1}</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>یه دون اداین تو رو آموزش بده ولی تو گیج تر از این حرفا بودی چیزی یاد نگرفتی حتی شمشیر بلد نبودی تو دستت بگیری خنگ</value>
   </string>
   <string key="AlreadyOnWaitList">
@@ -871,7 +871,7 @@
   <string key="AboutFool">
     <value>به پره گرین توک گفته میشه که پیشگوئه اما وقتی سعی میکنه نقش یه نفر رو بفهمه یه نقش به صورت تصادفی بهش گفته میشه</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>به عنوان ایزیلدور هدف شما آینه که همه ی بازیکن(بجز ارکا ها)  پیرو تو بشند وقتی برنده میشی که همه ی هابیت ها های زنده دون اداین بشن </value>
   </string>
   <string key="AboutCH">
@@ -896,7 +896,7 @@
 فردو بگینز  تا قبل از اینکه جای کسی رو بگیره نمیتونه برنده بازی باشه!مگر اینکه عاشق باشه
     </value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>
       عشق در زندگی جریان داره! به عنوان ائوون باید از عشق اتشینی که بین تو ارون گذشته بگی تا ددو نفر عاشق هم بشن اگه یکی شون بمیره اون یکی هم میمیره  اگه تو آخر بازی یکی از عاشقا برنده بشه آون یکی هم به طور اتوماتیک برنده حساب میشه حتی اگه توی تیم مخالف باشه!(مثال:هایبیت و ارک)
     </value>
@@ -1076,10 +1076,10 @@
   <string key="AllowTannerA">
     <value>نقش بیلبو بگینز: {0}</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>نقش دون  اداین فعال باشه؟\n حالت فعلی: {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>نقش دون اداین: {0}</value>
   </string>
   <string key="ThankYou">
@@ -1231,7 +1231,7 @@
   <string key="SerialKillerTeam">
     <value>گروه ویچ کینگ</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>گروه دون اداین</value>
   </string>
   <string key="TannerTeam">
@@ -1249,13 +1249,13 @@
   <string key="SerialKillerTeamEnd">
     <value>گروه ویچ کینگ</value>
   </string>
-  <string key="CultTeamEnd">
+  <string key="zoombiesTeamEnd">
     <value>گروه دون اداین</value>
   </string>
   <string key="TannerTeamEnd">
     <value>گروه بیلبو بگینز</value>
   </string>
-    <string key="CultConvertWolf">
+    <string key="zoombiesConvertWolf">
     <value>دیشب دون ادین ها{0} رو فرستادن تا {1} آموزش بده اما دیدن  {0} رو دیدن که از پنجره خونه  {1} به بیرون پرتاب شده و چن تا تیر هو تو سینه اش نشسته! {0} مرده!</value>
   </string>
   <string key="HarlotFuckedKilledPublic"> <!-- used when Harlot visit's SK's victim, and dies -->
@@ -1276,7 +1276,7 @@
   <string key="ZombieKilled">
     <value>دیشب ویچ کینگ  به دون اداین ها حمله کرد و {0} رو به قتل رسوند!</value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>صبح روز بعد روستایی ها جنازه {0} رو پیدا کردن! دیگه توی روستا خبری از عشق  آتشین آراگورن آرون نخواهد بود! آرون مرده مرده!</value>
   </string>
   <string key="DrunkKilled">
@@ -1306,10 +1306,10 @@
   <string key="SerialKillerKilledCH"> <!--used when CH visits SK-->
     <value>ترول{0} مشغول پیداکردن دون اداین ها بود زمانی که داشت توی جنگل دنبال ردی از ایزیلدور میگشت ویچ کینگ بهش حمله میکنه و میکشتش!</value>
   </string>
-  <string key="CultConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
+  <string key="zoombiesConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
     <value>دیشب {0} رفت که ارکا رو دعوت کنه تا با دون اداین ها صلح کنن  ولی ارکا بهش حمله کردن و جنازه تکه تکه شدشو توی نقاط مختلف روستا ول کردن!</value>
   </string>
-  <string key="CultConvertKillerPublic"> <!--used when Zombies convert the SK-->
+  <string key="zoombiesConvertKillerPublic"> <!--used when Zombies convert the SK-->
     <value>شب قبل دون اداین ها میخواستن یک نفر جدید رو اموزش بدن، {0} مامور شد که یکی آموزش بده، اما دیگه خبری از {0} نشد! صبح روز بعد دون اداین ها جنازه {0} رو توی ارنور جلوی تخت ایزیلدور پیدا میکنن! ویچ کینگ {0} رو کشته!</value>
   </string>
   <string key="GAGuardedKiller"> <!-- used when GA guards SK -->
@@ -1399,8 +1399,8 @@
     <!-- {0} = list of people who have joined -->
     <value>{0} در 30 ثانیه اخر بازی جوین شدند </value>
   </string>
-  <string key="AllowCult">
-    <value>Allow Cult</value>
+  <string key="Allowzoombies">
+    <value>Allow zoombies</value>
   </string>
   <string key="AllowTanner">
     <value>Allow Tanner</value>

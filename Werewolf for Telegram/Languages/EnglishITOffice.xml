@@ -96,7 +96,7 @@
 		<value>{0} didn't give his opinions twice in a row. I guess he's no different from a dead person.\n{1}</value>
 	</string>
 	<string key="TraitorTurnWolf">
-		<value>As a Popcorn Lover, you really hate the boredom here as all the Seniors died. So you ask youself: Why not become one if you do want to watch the world burns? You are a Senior Asshole now!</value>
+		<value>As a Popcorn crewmate, you really hate the boredom here as all the Seniors died. So you ask youself: Why not become one if you do want to watch the world burns? You are a Senior Asshole now!</value>
 	</string>
 	<string key="ChoiceAccepted">
 		<value>Gotcha!</value>
@@ -168,7 +168,7 @@
 		<value>You disgusting Stalker 💋. You stalk and you know things. You work on notebook and you record your stalking experience with it. Careful: Don't stalk the wrong people, or you are doomed.</value>
 	</string>
 	<string key="RoleInfoTraitor">
-		<value>As a Popcorn Lover 🖕, you enjoy drama, and dramatic life attracts you even more. When all the seniors are gone and the world is filled with peace? That's definitely a hell made of boredom. So you decided to lit the world and watch it burns.</value>
+		<value>As a Popcorn crewmate 🖕, you enjoy drama, and dramatic life attracts you even more. When all the seniors are gone and the world is filled with peace? That's definitely a hell made of boredom. So you decided to lit the world and watch it burns.</value>
 	</string>
 	<string key="RoleInfoWolf">
 		<value>Congrats, you are the Senior Asshole 🐺 that everyone hates. Working hard maybe good for the company, but who cares about the company anyway? You are the Senior, do whatever you want and blame the shits on the others, as written in the book "How To Be Truly Sucessful Volume 2".</value>
@@ -326,25 +326,25 @@
 	<string key="ZombieVotedConvert">
 		<value>{0} wants to share the joy of JAVA with {1}.</value>
 	</string>
-	<string key="CultConvertZombieHunter">
+	<string key="zoombiesConvertZombieHunter">
 		<value>{0} was promoting JAVA to {1}, which is a JAVA hater! He was reported and fired!</value>
 	</string>
-	<string key="ZombieHunterKilledCultVisit">
+	<string key="ZombieHunterKilledzoombiesVisit">
 		<value>{0} wanted you to use JAVA, ridiculous! You reported him for justice! You senses there are {1} more people using JAVA.</value>
 	</string>
-	<string key="CultConvertYou">
+	<string key="zoombiesConvertYou">
 		<value>You have finally discovered the joy of using JAVA! You can't wait to share it with others every lunch!</value>
 	</string>
-	<string key="CultTeam">
+	<string key="zoombiesTeam">
 		<value>These are your JAVA friends: {0}</value>
 	</string>
-	<string key="CultJoin">
+	<string key="zoombiesJoin">
 		<value>{0} have decided to use JAVA in the rest of his life.</value>
 	</string>
-	<string key="CultVisitEmpty">
+	<string key="zoombiesVisitEmpty">
 		<value>{0} tried to find {1}, but he could not locate {1}.</value>
 	</string>
-	<string key="CultWins" isgif="true">
+	<string key="zoombiesWins" isgif="true">
 		<value>Although the Seniors are gone, everyone in the company is using JAVA now. I guess the company is stuggling even more than before...</value>
 	</string>
 	<string key="HunterVisitDead">
@@ -376,7 +376,7 @@
 		<value>Department Manager 👳</value>
 	</string>
 	<string key="Traitor">
-		<value>Popcorn Lover 🖕</value>
+		<value>Popcorn crewmate 🖕</value>
 	</string>
 	<string key="GuardianAngel">
 		<value>Security Supervisor 👼</value>
@@ -441,21 +441,21 @@
 		<value>Your Pizza Brothers: {0}</value>
 	</string>
 	<!-- new strings May 6 2016-->
-	<string key="CultTargetDead">
+	<string key="zoombiesTargetDead">
 		<value>{0} will be fired. It will be meaningless to promote JAVA to him.</value>
 	</string>
 	<string key="GuardBlockedWolf">
 		<value>You tried to access {0}'s files, but the Security Superviosr was maintaining his computer. The computer was disconnected from the network and you just wasted a lunch.</value>
 	</string>
 	<!-- new strings May 9 2016-->
-	<string key="CultUnableToConvert">
+	<string key="zoombiesUnableToConvert">
 		<value>{0} tried hard in persuading {1} for JAVA, but {1} is not clever enough to understand the joy of using JAVA.</value>
 	</string>
 	<!-- new string May 12 2016-->
 	<string key="NameExists">
 		<value>@{1}, your name was used by {0}. Please change your name before entering the company.</value>
 	</string>
-	<string key="HarlotDiscoverCult">
+	<string key="HarlotDiscoverzoombies">
 		<value>You sneaked in {0}'s room and discover he was using JAVA. He is a JAVA Enthusiast!</value>
 	</string>
 	<!-- new string May 13 2016-->
@@ -540,7 +540,7 @@
 		<value>Time's up</value>
 	</string>
 	<!-- new strings june 10 2016 -->
-	<string key="RoleInfoCupid">
+	<string key="RoleInfoRecruiter">
 		<value>You are the Project Manager 🏹. For some reasons, you believe 1+1 is greater than 2. You made 2 programmers a permanent team, they shall take care of each other, and share the consequences together.</value>
 	</string>
 	<string key="RoleInfoDoppelganger">
@@ -552,7 +552,7 @@
 	<string key="RoleInfoSerialKiller">
 		<value>You are the Virus Spreader 🔪. Spread some seeds and let it grow. You knock someone's computer down and they are doomed.</value>
 	</string>
-	<string key="CupidChosen">
+	<string key="RecruiterChosen">
 		<value>The Project Manager thinks working with {0} will be good for you!</value>
 	</string>
 	<string key="HunterLynchedChoice">
@@ -579,7 +579,7 @@
 	<string key="HunterKilledFinalShot">
 		<value>{0} revealed the darkest secrets of {1} before leaving. Turns out {1} was a Justin Bieber fanboy. Yuck, disgusting!\n【{2}】</value>
 	</string>
-	<string key="CultConvertSerialKiller">
+	<string key="zoombiesConvertSerialKiller">
 		<value>{0} was sharing his JAVA works to {1} via his computer, then {0}'s computer was infected by virus! All his files are either missing or returning error! He is doomed.</value>
 	</string>
 	<string key="HunterShotWolfMulti">
@@ -597,7 +597,7 @@
 	<string key="GuardBlockedKiller">
 		<value>You was trying to infect {0}'s computer with your new invented virus DragonSlayerV2, but you noticed the Security Superviosr was blocking the gateway. You just wasted your valuable lunch time trying to hack a disconnected computer.</value>
 	</string>
-	<string key="CultConvertHunter">
+	<string key="zoombiesConvertHunter">
 		<value>{0} annoyed {1} when he talked too much about JAVA. {1} reported his darkest secrets to the board and make him disappear from the company.</value>
 	</string>
 	<string key="GuardKiller">
@@ -615,10 +615,10 @@
 	<string key="DGTransformToMason">
 		<value>{0} leaved the company and now you take his seat in Dominic's, these are your friends: {1}</value>
 	</string>
-	<string key="DGToCult">
+	<string key="DGTozoombies">
 		<value>{0} become a JAVA Enthusiast!</value>
 	</string>
-	<string key="DGTransformToCult">
+	<string key="DGTransformTozoombies">
 		<value>{0} leaved the company and now you would promote JAVA for him, these are your frineds: {1}</value>
 	</string>
 	<string key="DGToWolf">
@@ -633,22 +633,22 @@
 	<string key="AskKill">
 		<value>You want to spread virus on whose computer?</value>
 	</string>
-	<string key="LoverDied">
+	<string key="crewmateDied">
 		<value>{0}'s actions has brought him the consequences, and {1} has his fault too because he didn't stop {0} from doing bad. {1} needed to take the consequences as well.\n【{2}】</value>
 	</string>
 	<string key="AskDoppelganger">
 		<value>Whose workload you would like to share?</value>
 	</string>
-	<string key="AskCupid1">
+	<string key="AskRecruiter1">
 		<value>Who should work in a team rather than alone in your opinion?</value>
 	</string>
-	<string key="AskCupid2">
+	<string key="AskRecruiter2">
 		<value>Who should he work with?</value>
 	</string>
 	<string key="Hunter">
 		<value>Blackmail Master 🎯</value>
 	</string>
-	<string key="Cupid">
+	<string key="Recruiter">
 		<value>Project Manager 🏹</value>
 	</string>
 	<string key="SerialKiller">
@@ -660,13 +660,13 @@
 	<string key="NewWCRoleModel">
 		<value>You have been upgraded as an intership, and {0} is your dedicated tutor.</value>
 	</string>
-	<string key="LoversWin">
+	<string key="crewmatesWin">
 		<value>A team that trust is a team that triumphs! Teamwork is always the key to sucess.</value>
 	</string>
 	<string key="HunterKilledVisiter">
 		<value>The board ordered to fire {0} because of his unacceptable habits.\n【{1}】</value>
 	</string>
-	<string key="CultAttempt">
+	<string key="zoombiesAttempt">
 		<value>Some one was trying to introduce his favourtie JAVA to you, but you have refused to believe him.</value>
 	</string>
 	<string key="AlreadyOnWaitList">
@@ -726,7 +726,7 @@
 		<value>You are the Bootlicker and you always monitor and protect your computer from any threats. Even at lunch, you will check the status of your computer with youe mobile. When anyone is doing anything to your computer, you will notice at the very second and take your action! If the Seniors really is planting things to you computer, you will lick the boot of the Seniors hard, until they allow you to join their plan.</value>
 	</string>
 	<string key="AboutTraitor">
-		<value>You are the Popcorn Lover. You enjoy drama, and dramatic life attracts you even more. When all the seniors are gone and the world is filled with peace? That's definitely a hell made of boredom. So you decided to lit the world and watch it burns.</value>
+		<value>You are the Popcorn crewmate. You enjoy drama, and dramatic life attracts you even more. When all the seniors are gone and the world is filled with peace? That's definitely a hell made of boredom. So you decided to lit the world and watch it burns.</value>
 	</string>
 	<string key="AboutGA">
 		<value>You are the Security Supervisor. You can access other's computer at lunch, to maintain their computer and probrably do some upgrades too. When you are maintaining the computer, no others could do evil things on it.</value>
@@ -743,7 +743,7 @@
 	<string key="AboutFool">
 		<value>You are the HR Bitch, but you preceive yourself as the Department Manager. You want make the company great again, keeping the good worker and fire the bad one. Good news is that, you can access the appraisal of everyone else, and you can check one at lunch. Warning: You are not so good at reading hand-writing.</value>
 	</string>
-	<string key="AboutCult">
+	<string key="Aboutzoombies">
 		<value>You are the JAVA Enthusiast. JAVA is the best, so lets the world know. Warning: Haters gonna hate.</value>
 	</string>
 	<string key="AboutCH">
@@ -759,14 +759,14 @@
 		<value>You are the Secretary. You take minutes and send emails, so you know who is the real Department Manager.</value>
 	</string>
 	<string key="AboutMason">
-		<value>Yay, pizza lover! You are one of the Pizza Brothers. You will always go to Dominic's for lunch, with all the pizza lovers in your company.</value>
+		<value>Yay, pizza crewmate! You are one of the Pizza Brothers. You will always go to Dominic's for lunch, with all the pizza crewmates in your company.</value>
 	</string>
 	<string key="AboutDG">
 		<value>
 			You are the Freelancer. You can share the workload of someone, learn his way of doing things, and inherit his position if when he is gone.
 		</value>
 	</string>
-	<string key="AboutCupid">
+	<string key="AboutRecruiter">
 		<value>
 			You are the Project Manager. For some reasons, you believe 1+1 is greater than 2. You made 2 programmers a permanent team, they shall take care of each other, and share the consequences together.
 		</value>
@@ -945,11 +945,11 @@
 	<string key="AllowTannerA">
 		<value>Tanner as a role set to: {0}</value>
 	</string>
-	<string key="AllowCultQ">
-		<value>Allow cult as a role option?\nCurrent: {0}</value>
+	<string key="AllowzoombiesQ">
+		<value>Allow zoombies as a role option?\nCurrent: {0}</value>
 	</string>
-	<string key="AllowCultA">
-		<value>Cult as a role set to: {0}</value>
+	<string key="AllowzoombiesA">
+		<value>zoombies as a role set to: {0}</value>
 	</string>
 	<string key="ThankYou">
 		<value>Thank you, have a good day :)</value>
@@ -1105,7 +1105,7 @@
 	<string key="SerialKillerTeam" deprecated="true">
 		<value>Team Virus</value>
 	</string>
-	<string key="CultTeam" deprecated="true">
+	<string key="zoombiesTeam" deprecated="true">
 		<value>Team JAVA</value>
 	</string>
 	<string key="TannerTeam" deprecated="true">
@@ -1123,13 +1123,13 @@
 	<string key="SerialKillerTeamEnd">
 		<value>Team Virus</value>
 	</string>
-	<string key="CultTeamEnd">
+	<string key="zoombiesTeamEnd">
 		<value>Team JAVA</value>
 	</string>
 	<string key="TannerTeamEnd">
 		<value>Team BOSS</value>
 	</string>
-	<string key="CultConvertWolf">
+	<string key="zoombiesConvertWolf">
 		<value>{0} went to introduce JAVA to {1}, but {1} was one of the Seniors and planted him instead!</value>
 	</string>
 	<string key="HarlotFuckedKilledPublic">
@@ -1146,7 +1146,7 @@
 	<string key="ZombieKilled">
 		<value>{0}'s computer was infected by virus. What a careless workers! Of course he is going to be fired by the board.\nThe JAVA Enthusiast 👤 is fired.</value>
 	</string>
-	<string key="CupidKilled">
+	<string key="RecruiterKilled">
 		<value>{0}'s computer was infected by virus. What a careless workers! Of course he is going to be fired by the board.\nThe Projoect Manager 🏹 is fired.</value>
 	</string>
 	<string key="DrunkKilled">
@@ -1176,10 +1176,10 @@
 	<string key="SerialKillerKilledCH"> <!--used when CH visits SK-->
 		<value>{0}'s computer was infected by virus. What a careless workers! Of course he is going to be fired by the board.\nThe JAVA Destoryer 💂 is fired.</value>
 	</string>
-	<string key="CultConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
+	<string key="zoombiesConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
 		<value>{0} was sharing the joy of JAVA to a Senior, but the Seniors took him as a volunteer to be planted...\nThe JAVA Enthusiast 👤 is fired.</value>
 	</string>
-	<string key="CultConvertKillerPublic"> <!--used when Zombies convert the SK-->
+	<string key="zoombiesConvertKillerPublic"> <!--used when Zombies convert the SK-->
 		<value>{0} was sharing the joy of JAVA to someone, and then his computer was infected by several virus, deleting all his works from the world.\nThe JAVA Enthusiast 👤 is fired.</value>
 	</string>
 	<string key="GAGuardedKiller"> <!-- used when GA guards SK -->
@@ -1269,7 +1269,7 @@
 		<!-- {0} = list of people who have joined -->
 		<value>{0} joined the game in the last 30 seconds.</value>
 	</string>
-	<string key="AllowCult">
+	<string key="Allowzoombies">
 		<value>Allow JAVA Enthusiast 👤</value>
 	</string>
 	<string key="AllowTanner">

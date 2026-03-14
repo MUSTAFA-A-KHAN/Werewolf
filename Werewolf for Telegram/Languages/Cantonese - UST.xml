@@ -555,25 +555,25 @@
   <string key="ZombieVotedConvert">
     <value>【{0}】想【{1}】陪佢發癲。</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <value>【{0}】去咗拉【{1}】發癲......但係佢係輔導員！你送羊入虎口，搞到【{0}】Quit咗U啦！</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <value>【{0}】琴晚去咗你間hall叫你一齊發癲，你當然唔會放過佢，嚴刑逼供加上猩猩椰樹con侍候，一個MECH痴線佬就咁比你搞到Quit咗U……\n科大目前仲有【{1}】個MECH痴線佬！</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>「MECH好L chur啊！」恭喜你讀MECH3030讀到發癲，變成新MECH痴線佬！！</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>MECH痴線佬名單：【{0}】</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <value>【{0}】讀MECH3030讀到發癲，成爲你哋嘅一份子喇！</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <value>【{0}】比你叫咗去搵【{1}】入教，但係 【{1}】間房冇人！</value>
   </string>
-  <string key="CultWins">
+  <string key="zoombiesWins">
     <value>「MECH好L chur啊！」「若要生活好，咪L做機佬！」「樹大有枯枝，科大MAE！」......行過concourse，MECH痴線佬叫聲此起彼落，皆因科大變成MECH痴線佬嘅天下。\nMECH痴線佬 勝出！</value>
  <value>「我愛VF！」「VF唔好唔要我啊！」「我要同VF瘋狂讀MECH3030！」......行過concourse，MECH痴線佬叫聲此起彼落，皆因科大變成MECH痴線佬嘅天下。\nMECH痴線佬 勝出！</value>
   </string>
@@ -673,14 +673,14 @@
     <value>同你同床搞基嘅有：【{0}】</value>
   </string>
   <!-- new strings 06/05/2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <value>你地去【{0}】間房想拉佢入教時，發現嗰度一啲嘢都冇，好乾淨。唯獨檯面有封信，上面寫住自己A足咁耐，想過烏克蘭過下新生活……</value>
   </string>
   <string key="GuardBlockedWolf">
     <value>當你地想去【{0}】間房擾佢敵嘅時候，發現佢食Petergao d past paper食到津津樂道，你地心知點擾敵都係嘥氣，好失望咁返歸啦……</value>
   </string>
   <!-- new strings 09/05/2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <value>你派出【{0}】去搵【{1}】陪佢發癲，但係【{1}】死要面，唔想同你地一齊癲而拒絕咗！</value>
     <value>你派出【{0}】去搵【{1}】陪佢發癲，但係【{1}】話：「我同我roommate都好幸福喎！」所以佢最後冇陪你癲。</value>
 	<value>你派出【{0}】去搵【{1}】陪佢發癲，但係【{1}】話：「我都唔係讀MECH嘅。」所以佢最後冇陪你癲。</value>
@@ -692,7 +692,7 @@
   <string key="NameExists">
     <value>@{1} ，科大入面已經有人叫 {0} ，唔該你去入境處改個同激烈的海胆一樣咁爆嘅名先好加入！</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <value>你今晚去咗【{0}】間房，你地啪得好開心。當你地Say Goodbye嗰陣，你發現佢度牆有幅VF畫像……</value>
     <value>你今晚去咗【{0}】間房，你地做Study partner做得好開心。當你意猶未盡但要走嗰陣，你發現佢間房枱頭有一堆MECH書……</value>
     <value>你今晚去咗【{0}】間房，你地啪得好開心。當你地着返啲衫嗰陣，驀然回首，你覺得佢個樣好面善……</value>
@@ -752,7 +752,7 @@
     <value>Time's up! Pens down!</value>
   </string>
   <!-- New strings 10/06/2016 -->
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
     <value>你係花生友 🥜。\n你好想食出Pool飯。一開始你會揀一對男同學出Pool。\n如果佢地入面其中一個Quit U，另一個都會You jump I jump咁Quit U。\n備註：情侶會互相知道另一半係邊個，但唔會知道對方身分。如果情侶係最後兩個順利Grad到就贏。\n你自己係屬於學渣陣營。</value>
   </string>
   <string key="RoleInfoDoppelganger">
@@ -764,7 +764,7 @@
   <string key="RoleInfoSerialKiller">
     <value>你係Killer 🔪。\n你可以將任何人嘅功課都定為爛Grade而令佢Quit U。如果學霸嚟搵你嘅話，你有 20% 機會俾佢地令你Quit U，另外 80% 機會掉返轉令佢地其中一位Quit U。</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>喺花生友嘅慫恿下，你同【{0}】一齊行過偷情小徑，立下海誓山盟：「不求同年同月同日生，但求同年同月同日Grad。」如果你地有一個人Quit U，另一個人都會跟住Quit。</value>
     <value>花生友撮合咗你同【{0}】！你地兩個一係就一齊Grad，一係就一齊Quit。</value>
   </string>
@@ -792,7 +792,7 @@
   <string key="HunterKilledFinalShot">
     <value>【{0}】快如閃電咁改完佢手上嘅試卷交畀教授，而【{1}】份卷係肥咗，【{1}】最終要跟【{0}】一齊Quit U。\n【{2}】</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <value>你派出【{0}】去地基搵Killer【{1}】陪佢癲。Killer對你地搵佢入教覺得莫名其妙，覺得你地痴線痴得幾勻循，所以就留低咗【{0}】喺佢嘅蝙蝠洞做研究對象，一去冇回頭……</value>
   </string>
   <string key="HunterShotWolfMulti">
@@ -812,7 +812,7 @@
   <string key="GuardBlockedKiller">
     <value>你肥晒【{0}】啲功課，以為佢考試一定肥埋，點知佢Pass咗Exam！原來佢食Petergao嘅pastpaper，令你呢個Sem白白嘥晒啲腦汁……</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <value>Pro P嗰陣MECH痴線佬派【{0}】去某班洗堂，衝入去發現【{1}】帶緊Tutorial，【{0}】急急腳著草，點知撞跌晒啲儀器……最後因為破壞公物，俾人踢出校！【{0}】已被Quit U！</value>
   </string>
   <string key="GuardKiller">
@@ -832,10 +832,10 @@
   <string key="DGTransformToMason">
     <value>【{0}】已Quit U，你攞咗佢張Student ID做Roommate。同你一齊住同一間房嘅係（如有）：【{1}】</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <value>孖生兄弟【{0}】攞咗佢兄弟張Student ID，佢依家係MECH痴線佬，就好似你咁！</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <value>【{0}】已 Quit U，你攞咗佢張Student ID做MECH痴線佬，你班隊友係（如有）：【{1}】</value>
   </string>
   <string key="DGToWolf">
@@ -850,23 +850,23 @@
   <string key="AskKill">
     <value>你想肥邊個，令佢Quit U？</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <value>【{0}】同【{1}】講佢要Quit U，【{1}】覺得留喺大學空虛寂寞冷、生無可戀，佢大嗌：「等埋我呀！」就Quit埋U。\n【{2}】</value>
     <value>花生友帶佢哋踩過嘅其實係智慧石。相傳踩過智慧石嘅人都會quit U，估唔到今日【{0}】同【{1}】都成為烈士了。大家為佢地默哀一秒鐘……\n【{2}】</value>
   </string>
   <string key="AskDoppelganger">
     <value>你希望做邊個嘅孖生兄弟，將來繼承佢張Student ID呢？</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>你想邊個做攻？依家揀啦。</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>你想邊個做受？依家揀啦。</value>
   </string>
   <string key="Hunter">
     <value>TA 👨‍🎓</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>花生友 🥜</value>
   </string>
   <string key="SerialKiller">
@@ -878,7 +878,7 @@
   <string key="NewWCRoleModel">
     <value>你係純情小毒L 2.0！你兄弟成部電話Album裡面都係你最愛嘅「女神BB豬」【{0}】啲相。</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
     <value>能成為密友，大概總帶著愛。但做到好兄弟又如此相愛，旁人要說應該！！\n#HomoPride</value>
 	<value>科大FFF團首席團長表示：願有情人終成兄妹！</value>
 <value>牛郎同織女星相遇了。熾熱嘅光茫映照成個清水灣！</value>
@@ -886,7 +886,7 @@
   <string key="HunterKilledVisiter">
     <value>喺某個Lab內嘅儀器散落一地，之後Department牆上貼咗張新Notice話【{0}】 蓄意破壞大量公物，踢佢出校。\n【{1}】</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>一位MECH痴線佬試圖說服你去發癲，但係你拒絕咗佢地。</value>
     <value>一位MECH痴線佬試圖說服你去發癲，但係你話：「我都唔係讀MECH嘅。」所以佢地最後冇感染你。</value>
     <value>一位MECH痴線佬試圖說服你去發癲，但係你話：「叫春好嘈，不了。」，拒絕咗佢地。</value>
@@ -973,7 +973,7 @@
   <string key="AboutFool">
     <value>【邊緣人 👤】學渣陣營\n逢考試週：可以打聽一個人嘅身份。\n注意：\n1）系統會同你講你係chief組爸；\n2）你打聽到嘅多數都係流料。</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>【MECH痴線佬 🕺】MECH陣營\n逢考試週：成班MECH痴線佬可以拉一個人去發癲（除咗學霸、Killer、孖生兄弟、M嘢王同FFF），但係啲人如果唔喺hall就唔會俾你搵到。變咗MECH痴線佬嘅人會失去原來嘅身份。輔導員／Killer會令你Quit U。\n一定會變MECH痴線佬：Roommate、學渣、宿舍酒鬼、跟組exco、組爸媽、邊緣人、花生友、Freerider、學生會會長、Sources王、舍監、二五仔、純情小毒L、Asshole、偽．學．霸、五毛、CHEM LAB導師\n其他人發癲機率︰\n30% ：校長、煙鏟\n40% ：chief組爸、名校仔、宿舍導師\n50% ：TA、社交大亨\n60% ：大西北難民、Petergao、學務長\n70% ：house exco、Hell雞\n75% ：USTSpace\n80% ：佛系青年\n如果你拉唔到TA發癲，佢有 50% 機會會令你Quit U。最後如果冇晒學霸同Killer，而且全科大都變晒MECH痴線佬，咁你就贏啦。</value>
   </string>
   <string key="AboutCH">
@@ -994,7 +994,7 @@
   <string key="AboutDG">
     <value>【孖生兄弟 👬】未入任何陣營\n只限首個考試週：可以揀一位兄弟，若然佢Quit U，你就會執佢張Student ID繼續大學生活。如果孖生兄弟喺遊戲結束嗰陣仲未有Student ID，就會輸（除非你嘅另一半贏咗）。</value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>【花生友 🥜】學渣陣營\n只限首個考試週：揀一對男同學出Pool。如果佢地入面其中一個Quit U，另一個都會跟住Quit U。情侶會互相知道另一半係邊個，但唔會知道對方身分。如果情侶係最後兩個順利Grad到，或其中一個所屬陣營Grad到就會贏。\n注意：你自己係屬於學渣陣營。</value>
   </string>
   <string key="AboutHunter">
@@ -1163,10 +1163,10 @@
   <string key="AllowTannerA">
     <value>已 {0} 玩家抽中Asshole。</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>准許玩家抽中MECH痴線佬？\n（只限遊戲人數 11 人或以上）\n當前設定︰{0} 。</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>已 {0} 玩家抽中MECH痴線佬。（只限遊戲人數 11 人或以上）</value>
   </string>
   <string key="ThankYou">
@@ -1349,7 +1349,7 @@
   <string key="SerialKillerTeam">
     <value>Killer</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>MECH陣營</value>
   </string>
   <string key="TannerTeam">
@@ -1368,13 +1368,13 @@
   <string key="SerialKillerTeamEnd">
     <value>Killer</value>
   </string>
-  <string key="CultTeamEnd">
+  <string key="zoombiesTeamEnd">
     <value>MECH陣營</value>
   </string>
   <string key="TannerTeamEnd">
     <value>Asshole</value>
   </string>
-  <string key="CultConvertWolf">
+  <string key="zoombiesConvertWolf">
     <value>MECH痴線佬派出【{0}】去【{1}】到拉佢發癲，點知半個鐘後見到個麻包袋喺走廊躝下躝下咁，打開一睇，原來係傷痕累累嘅【{0}】！【{0}】因為無法考試而要Quit U……</value>
   </string>
   <string key="HarlotFuckedKilledPublic">
@@ -1391,7 +1391,7 @@
   <string key="ZombieKilled">
     <value>教授喺Atrium見到MECH痴線佬【{0}】Dem cheers特別出力，覺得佢應該係表演藝術人才，留喺科大係大材小用，所以就畀咗張Quit U Form同TVB藝員訓練班單張佢。\n【MECH痴線佬 🕺】已被Quit U。</value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>Killer明一如以往咁改卷，發現有份卷鶴立雞群！平時啲人識就答，唔識就交白卷。但【{0}】似乎食花生食上腦，竟然喺份卷上面寫滿Killer明「百人斬」嘅事跡！Killer明惱羞成怒之下心諗：你就做第一百零一個啦！於是【{0}】嗰科就F咗。\n【花生友 🥜】已被Quit U。</value>
   </string>
   <string key="DrunkKilled">
@@ -1424,10 +1424,10 @@
   <string key="SerialKillerKilledCH"> <!--used when CH visits SK-->
     <value>輔導員【{0}】明明諗住去感化人，點知誤闖Killer個Lab同倒瀉咗啲實驗品，仲要唔小心炸埋個Lab。最後【{0}】因為擅闖禁地同危險行為俾人踢咗出校。\n【輔導員 🤗】已被Quit U。</value>
   </string>
-  <string key="CultConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
+  <string key="zoombiesConvertWolfPublic"> <!--used when Zombies convert the wolves, only if wolves stayed home-->
     <value>當學霸專心摺hall溫書之際，MECH痴線佬【{0}】上門去叫一位學霸發癲！學霸見到佢自動送上門，於是同校方報串，屈【{0}】破壞社會安寧，增加同學自殺風險，因此【{0}】畀校方Quit咗U。\n【MECH痴線佬 🕺】已被Quit U。</value>
   </string>
-  <string key="CultConvertKillerPublic"> <!--used when Zombies convert the SK-->
+  <string key="zoombiesConvertKillerPublic"> <!--used when Zombies convert the SK-->
     <value>MECH痴線佬尋晚興致勃勃咁去拉人發癲，點知撞親咁啱心情唔靚嘅Killer，仲要令佢跌落蚊池。個Killer喺中大爬返出嚟嗰陣迷迷糊糊，剩係記得其中一件蛋散個名，唔好彩嘅【{0}】因此被踢出校。\n【MECH痴線佬 🕺】已被Quit U。</value>
     </string>
   <string key="GAGuardedKiller">
@@ -1532,7 +1532,7 @@
     <!-- {0} = list of people who have joined -->
     <value>{0} 喺過去 30 秒內入咗科大。</value>
   </string>
-  <string key="AllowCult">
+  <string key="Allowzoombies">
     <value>角色／MECH痴線佬</value>
   </string>
   <string key="AllowTanner">
@@ -1763,7 +1763,7 @@
     <!-- 0 - mason collegues's name -->
     <value>同你同床搞基嘅有：【{0}】</value>
   </string>
-  <string key="ThiefToCult">
+  <string key="ThiefTozoombies">
     <!-- 0 - old Zombie's name -->
     <!-- 1 - new Zombie's name -->
     <value>M嘢王【{1}】M咗【{0}】個張Student ID！佢依家係MECH痴線佬，就好似你咁！</value>
@@ -2130,16 +2130,16 @@
   <string key="HunterFell">
 	<value>你去到見到【{0}】間房中門大開，煙霧彌漫。你好不幸咁畀煙濁親，頓時全身抽搐，七孔流血，與世長辭！</value>
   </string>
-  <!--{0}: cult hunter-->
+  <!--{0}: zoombies hunter-->
   <string key="HunterFellDigger">
 	<value>當你返到宿舍時，發現有條屍口吐白沫。原來佢係輔導員【{0}】！</value>
   </string>
   <!--{0}: Zombie-->
-  <string key="CultFell">
+  <string key="zoombiesFell">
 	<value>當你返到宿舍時，發現有條屍口吐白沫。原來佢係MECH痴線佬【{0}】！</value>
   </string>
   <!--{0}: Zombie who fell, {1}: grave digger-->
-  <string key="CultConvertGraveDigger">
+  <string key="zoombiesConvertGraveDigger">
 	<value>你去到見到【{1}】間房中門大開，煙霧彌漫。MECH痴線佬【{0}】好不幸咁畀煙濁親，頓時全身抽搐，七孔流血，與世長辭！</value>
   </string>
   <!--{0}: grave digger-->

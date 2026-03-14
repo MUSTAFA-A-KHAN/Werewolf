@@ -379,33 +379,33 @@
     <!-- 1 - target name -->
     <value >{0} ha votado convertir a {1} a la Iglesia de la Contentología.</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <!-- 0 - Yougest Zombie (killed)'s name' -->
     <!-- 1 - ZombieHunter's name -->
     <value>{0} ha sido enviado a casa de {1} para convertirlo ofreciéndole un plan de "evasión de impuestos". Pero, ¡resulta que era el inspector de hacienda! {0} ha sido arrestado por fraude.</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - Number of Zombies left -->
     <value>{0} ha sido arrestado por ofrecerte un plan de "evasión de impuestos". Tu soplón te informa de que quedan {1} miembros. </value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>¡Te damos la bienvenida a la Iglesia de la Contentología! Olvídate de mafias, esta iglesia te ayudará. Cada noche, tendrás la oportunidad de ofrecer membresía a otros jugadores.</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <!-- 0 - Number of Zombies -->
     <value>Compañeros de la Iglesia: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <!-- 0 - new Zombie's name -->
     <value>¡Das la bienvenida a {0} a la Iglesia!</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <!-- 0 - Newest Zombie's name -->
     <!-- 1 - target name -->
     <value>{0} fue a casa de {1}, ¡pero no había nadie!</value>
   </string>
-  <string key="CultWins" isgif="false">
+  <string key="zoombiesWins" isgif="false">
     <value >Todos los agentes se han ido, ¡y Fairview es ahora un paraíso para la Iglesia de la Contentología!</value>
   </string>
   <string key="HunterVisitDead">
@@ -509,7 +509,7 @@
     <value>  Los otros Capos en la reunión con el Padrino son: {0}</value>
   </string>
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <!-- 0 - Youngest Zombies name -->
     <value>{0} quiere convertir a un nuevo miembro, pero se encuentra con una redada de policía en su casa... </value>
   </string>
@@ -518,7 +518,7 @@
     <value>La policía intenta hacer una redada en casa de {0}, pero se encuentran con el Gorila y su arsenal bloqueando el camino. No querían arriesgarse a un fuego cruzado, la policía se retira.</value>
   </string>
   <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <!-- 0 - newest  -->
     <!-- 1 - target's name -->
     <value>{0} intentó convertir a {1} a la Contentología, ¡pero deshacerse de él fue "un juego de niños"!</value>
@@ -529,7 +529,7 @@
     <!-- 1 - name -->
     <value>@{1}, un jugador con el nombre {0} ya se unió a la partida. Por favor cambia tu nombre para unirte.</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <!-- 0 - target's name -->
     <value>¡Entregas unos documentos en casa de {0}! Tu curiosidad gana, y cotilleas dentro del sobre. Es una carta del Líder de la Iglesia de la Contentología.</value>
   </string>
@@ -624,8 +624,8 @@
 	<value>¡Se acabó el tiempo!</value>
   </string>
   <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
-    <value>Eres un Pastor ( Cupido ) 🏹 , el testigo de un (im) puro matrimonio y el amor verdadero . Como cónyuges​​, no se apartarán el uno del otro, ni en la vergüenza ni en la cárcel.</value>
+  <string key="RoleInfoRecruiter">
+    <value>Eres un Pastor ( Recruitero ) 🏹 , el testigo de un (im) puro matrimonio y el amor verdadero . Como cónyuges​​, no se apartarán el uno del otro, ni en la vergüenza ni en la cárcel.</value>
   </string>
   <string key="RoleInfoDoppelganger">
     <value>Eres un Impostor (Doppelgänger) 🎭. Empezaste como carterista, te diste cuenta de que puedes convencer a la ciudad de que eres la persona que aparece en cualquiera de los DNI que tienes. Por supuesto, solo podrás usar el DNI cuando el dueño no esté en la ciudad.</value>
@@ -636,7 +636,7 @@
   <string key="RoleInfoSerialKiller">
     <value>Eres el Secuestrador (Asesino en serie) 🔪. Secuestras gente sin pedir rescate, haces esto todas las noches sólo para echarte unas risillas. Los arrojas a tu mazmorra cada noche, ¡y es posible que puedas abrir tu propio museo algún día!</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>Te has casado con {0} en la iglesia de la ciudad. No abandonarás a tu pareja, "para lo bueno y para lo malo" dijo el pastor, en la cárcel o en la vergüenza.</value>
   </string>
   <string key="HunterLynchedChoice">
@@ -671,7 +671,7 @@
     <!-- 2 - target's role -->
     <value>{0} dejó la ciudad por la vergüenza. Mientras se va, lo véis apretando un botón, y ¡entonces oís una explosión! Parece que la casa de {1} se ha reducido a escombros. {1} deja la ciudad. {2}</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <value>{0} intentó convertir a {1}, ¡pero no ha sido visto desde entonces! ¡Parece como si hubiera sido secuestrado y hubiese desaparecido de la faz de la tierra!</value>
   </string>
   <string key="HunterShotWolfMulti">
@@ -694,12 +694,12 @@
     <!-- 0 - target's name -->
     <value>Trataste de añadir a {0} a tu colección, pero por el camino ves al Gorila y su arsenal móvil. Apresuradamente te retiras por hoy.</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
     <value>¡La Iglesia de la Contentología envió a {0} a casa de {1}! Desafortunadamente, cuando sonó el timbre, ¡una trampa se tragó a {0}! {0} ha desaparecido...</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
     <value>¡La Iglesia de la Contentología envió a {0} a la casa de {1}! {1} parecía buena gente ¡hasta que empujó a {0} a la cámara frigorífica! {0} ha desaparecido...</value>
@@ -723,11 +723,11 @@
     <!-- 1 - mason collegues's name -->
     <value>¡{0} no se encuentra en la ciudad! Comienzas a falsificar el DNI para que te reconozcan como Capo. Tus amigos Capos (si los hay) son: {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <!-- 0 - new Zombie's name -->
     <value>¡El Impostor se presenta en una reunión con la Iglesia de la Contentología! ¡{0} es un miembro de la Iglesia!</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <!-- 0 - role's name -->
     <!-- 1 - teammates's name -->
     <value>¡{0} no se encuentra en la ciudad! Comienzas a falsificar el DNI para que te reconozcan como un miembro de la Iglesia. Tus compañeros (si los hay) son: {1}</value>
@@ -747,25 +747,25 @@
   <string key="AskKill">
     <value>¿A quién quieres añadir a la colección esta noche?</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <!-- 0 - dead's name -->
-    <!-- 1 - lover's name -->
+    <!-- 1 - crewmate's name -->
     <!-- 2 - roles -->
     <value>Con la desaparición de {0}, parece que {1}, su pareja, le sigue. Se van juntos, como debería ser una buena pareja. {2}</value>
   </string>
   <string key="AskDoppelganger">
     <value>¿A quién le quieres robar su DNI?</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>¿Quién jurará amor eterno en la Iglesia de Fairview? ¡Elige al primer jugador!</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>¿Quién jurará amor eterno en la Iglesia de Fairview? ¡Elige al siguiente jugador!</value>
   </string>
   <string key="Hunter">
     <value>El Obrero de la Construcción 🎯</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>El Pastor 🏹</value>
   </string>
   <string key="SerialKiller">
@@ -774,15 +774,15 @@
   <string key="Doppelgänger">
     <value>El Impostor 🎭</value>
   </string>
-  <string key="CupidChosen">
-    <!-- 0 - lover's name -->
+  <string key="RecruiterChosen">
+    <!-- 0 - crewmate's name -->
     <value>Juraste amor eterno a {0}, para lo bueno y para lo malo, en la salud y en la enfermedad. Si tiene que dejar la ciudad, también le seguirás.</value>
   </string>
   <string key="NewWCRoleModel">
     <!-- 0 - target's name -->
     <value>Tomaste la identidad del Idealista 👶. Tu progenitor es {0}.</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
     <value>¡El amor verdadero vence! ¡Los amantes han ganado!</value>
   </string>
   <string key="HunterKilledVisiter">
@@ -790,7 +790,7 @@
     <!-- 1 - role -->
     <value>¡Extra, extra! {0} ha desaparecido, ¡en su último mensaje decía que iba a casa del Obrero de la Construcción! {1}</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>Un miembro de la Iglesia de la Contentología intentó unirte a su grupo, pero los despides como un grupo tonto.</value>
   </string>
   <string key="AlreadyOnWaitList">
@@ -873,7 +873,7 @@
   <string key="AboutFool">
     <value>¡Cotilla! Crees que eres una fuente invaluable de información, y vas por la ciudad cotilleando sobre todos. Sin embargo, tus fuentes no son de confianza ¡y acusas a cualquiera aleatoriamente!</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>¡Bienvenido a la Iglesia de la Contentología (Zombiea) 👤! Sólo deseas que todo el mundo, mafiosos o no, se calmen y adoren a tu deidad. ¡Ahora ve a convertir a esa pobre y triste gente!</value>
   </string>
   <string key="AboutCH">
@@ -898,9 +898,9 @@
     La Iglesia no puede convertir al Impostor (pero podrá cuando cambie de rol). Además - El Impostor no puede ganar si no cambió de rol. Si al final del juego no cambió de rol, pierde (excepción: Cónyuge).
     </value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>
-    Eres un Pastor ( Cupido ) 🏹 , el testigo de un (im) puro matrimonio y el amor verdadero . Como cónyuges​​, no se apartarán el uno del otro, ni en la vergüenza ni en la cárcel.
+    Eres un Pastor ( Recruitero ) 🏹 , el testigo de un (im) puro matrimonio y el amor verdadero . Como cónyuges​​, no se apartarán el uno del otro, ni en la vergüenza ni en la cárcel.
     Nota: Los cónyuges saben quienes son, pero no se les dirá sus roles. Si los esposos son los últimos que quedan, ganan sin importar su equipo. Si los esposos están en distintos equipos (Mafia + Policía), y un equipo gana (Policía), su cónyuge (Mafia) ganará también.
     </value>
   </string>
@@ -1082,11 +1082,11 @@
   <string key="AllowTannerA">
     <value>Permitir veterano establecido en: {0}</value>
   </string>
-  <string key="AllowCultQ">
-    <value>¿Permitir culto?\nActualmente: {0}</value>
+  <string key="AllowzoombiesQ">
+    <value>¿Permitir zoombieso?\nActualmente: {0}</value>
   </string>
-  <string key="AllowCultA">
-    <value>Permitir culto establecido en: {0}</value>
+  <string key="AllowzoombiesA">
+    <value>Permitir zoombieso establecido en: {0}</value>
   </string>
   <string key="ThankYou">
     <value>Gracias, que tengas un buen día :)</value>

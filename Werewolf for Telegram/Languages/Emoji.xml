@@ -311,25 +311,25 @@
   <string key="ZombieVotedConvert">
     <value>{0} 🖐💱 {1}</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <value>{0} 💱 {1} 💂❗️ {0} 💀❗️</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <value>{0} 👉💱👇➡️👇🗡👤❗️ {1} 👤👤👤❗️</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>👤💱👇❗️👇👤❗️🌙👇💱👤❗️</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <value>👤👤👤 {0}❗️</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <value>{0} ➡️👤❗️</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <value>{0} 👉💱 {1} 🏚❗️❌💱❗️</value>
   </string>
-  <string key="CultWins">
+  <string key="zoombiesWins">
     <value>🐺💀 👪👪👪➡️👤👤👤❗️👤🏆❗️</value>
   </string>
   <string key="HunterVisitDead">
@@ -426,21 +426,21 @@
 <!-- new strings May 6 2016-->
     <value>  👷👷👷 {0}</value>
   </string>
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <value>👤👉 {0} 🏚☠❗️</value>
   </string>
   <string key="GuardBlockedWolf">
 <!-- new strings May 9 2016-->
     <value>🐺👉 {0} 🏠🛡❗️👼🛡❗️</value>
   </string>
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
 <!-- new string May 12 2016-->
     <value>{0} 👉💱 {1} 🙏💪❗️💱❌❗️</value>
   </string>
   <string key="NameExists">
     <value>@{1}, a player with the name {0} has already joined.  Please change your name to join.</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
 <!-- new string May 13 2016-->
     <value>👇💋 {0}❗️👇👀👤❗️</value>
   </string>
@@ -517,7 +517,7 @@
 <!-- new strings june 10 2016 -->
     <value>⌛️⏰❗️</value>
   </string>
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
     <value>👇🏹❗️😀💘😀❗️😀💀➡️💀💀❗️</value>
   </string>
   <string key="RoleInfoDoppelganger">
@@ -529,7 +529,7 @@
   <string key="RoleInfoSerialKiller">
     <value>👇🔪❗️🌙😀🔪❗️</value>
   </string>
-  <string key="CupidChosen">
+  <string key="RecruiterChosen">
     <value>💘❗️👇❤️ {0}❗️😀💀➡️💀💀❗️</value>
     <value>💘❗️👇❤️ {0}❗️😀💀➡️💀💀❗️ 😀😀➡️🏆❗️</value>
   </string>
@@ -557,7 +557,7 @@
   <string key="HunterKilledFinalShot">
     <value>{0} 💀👉 {1} 🎯➡️💀❗️ {2}</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <value>{0} 💱 {1} 🔪‼️ {0} 💀❗️</value>
   </string>
   <string key="HunterShotWolfMulti">
@@ -575,7 +575,7 @@
   <string key="GuardBlockedKiller">
     <value>{0} 🛡👼❗️</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <value>{0} 💱 {1} 🎯❗️ {0} 💀❗️</value>
   </string>
   <string key="GuardKiller">
@@ -593,10 +593,10 @@
   <string key="DGTransformToMason">
     <value>{0} 💀❗️ 👇➡️👷❗️ 👷👷👷 {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <value>🎭 {0} ➡️👤❗️</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <value>{0} 💀❗️ 👇➡️👤❗️ 👤👤👤 {1}</value>
   </string>
   <string key="DGToWolf">
@@ -611,22 +611,22 @@
   <string key="AskKill">
     <value>🔪😀❓</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <value>{0} 💀➡️ {1} 💔💀❗️ {2}</value>
   </string>
   <string key="AskDoppelganger">
     <value>🎭😀❓</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>💘😀❓1️⃣</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>💘😀❓2️⃣</value>
   </string>
   <string key="Hunter">
     <value>🎯</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>🏹</value>
   </string>
   <string key="SerialKiller">
@@ -638,13 +638,13 @@
   <string key="NewWCRoleModel">
     <value>👇➡️👶❗️ 👨 {0}❗️</value>
   </string>
-  <string key="LoversWin">
+  <string key="crewmatesWin">
     <value>❤️🏆❗️</value>
   </string>
   <string key="HunterKilledVisiter">
     <value>{0} 👉🎯🏠 💀❗️ {1}</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>👤💱👇❌❗️👇🙏💪❗️</value>
   </string>
   <string key="AlreadyOnWaitList">
@@ -720,11 +720,11 @@
   <string key="AboutFool">
     <value>he fool is told they are the seer.... when they choose to see someone's role at night, they are told a random role.</value>
   </string>
-  <string key="AboutCult">
-    <value>As a Zombie, it is your goal to convert all other players (except wolves) to your cult. If at the end of the game, all living players are Zombie - the cult wins</value>
+  <string key="Aboutzoombies">
+    <value>As a Zombie, it is your goal to convert all other players (except wolves) to your zoombies. If at the end of the game, all living players are Zombie - the zoombies wins</value>
   </string>
   <string key="AboutCH">
-    <value>Your job is to hunt the Cult. If the cult attacks you, their newest member will die. Each night you may pick a player to 'hunt' - if they are a Zombie, they will die.</value>
+    <value>Your job is to hunt the zoombies. If the zoombies attacks you, their newest member will die. Each night you may pick a player to 'hunt' - if they are a Zombie, they will die.</value>
   </string>
   <string key="AboutWC">
     <value>At the beginning of the game, you will choose someone to be your 'role model'. If they die, you become a werewolf.</value>
@@ -741,25 +741,25 @@
   <string key="AboutDG">
     <value>
       Your ancestors had the ability to metamorph into others... while you don't have their full abilities, you can pick a player at the start of the game. If that player dies, you will become what they were.
-      Note: If the player was converted to cult, you will take on their original role. All other normal rules apply: If they were Wild Child and their role model died, you will become a wolf. Otherwise, you will inherit their role model.
-      The cult cannot convert the Doppelgänger (but can after the doppelganger switches roles). Also - the Doppelgänger can NOT win unless they have transformed. If at the end of the game, the Doppelgänger is still the same, they lose (exception: lover)
+      Note: If the player was converted to zoombies, you will take on their original role. All other normal rules apply: If they were Wild Child and their role model died, you will become a wolf. Otherwise, you will inherit their role model.
+      The zoombies cannot convert the Doppelgänger (but can after the doppelganger switches roles). Also - the Doppelgänger can NOT win unless they have transformed. If at the end of the game, the Doppelgänger is still the same, they lose (exception: crewmate)
     </value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>
-      Love is in the air. As Cupid, you will choose two players at the start of the game. These two players will become madly in love! If one of them dies, the other will die of sorrow :(
-      Note: Lovers will know who each other are, but not be told their roles. If the lovers are the last two alive, they win, regardless of teams. If the lovers are on different teams (villager + wolf), and one team wins (wolf), the lover (villager) wins as well. TL;DR if at least one of the lovers was on the winning team, they both win together.
+      Love is in the air. As Recruiter, you will choose two players at the start of the game. These two players will become madly in love! If one of them dies, the other will die of sorrow :(
+      Note: crewmates will know who each other are, but not be told their roles. If the crewmates are the last two alive, they win, regardless of teams. If the crewmates are on different teams (villager + wolf), and one team wins (wolf), the crewmate (villager) wins as well. TL;DR if at least one of the crewmates was on the winning team, they both win together.
     </value>
   </string>
   <string key="AboutHunter">
     <value>
       A trigger happy, vindictive player. As the hunter, you try to keep to yourself. However, when others come to visit you, they may find themselves dead, as your paranoia takes hold and you shoot. If the wolves attack you, you have a chance to take one of them with you. Otherwise, if you die, you will get a chance to shoot someone as you die.
       Note: For wolf attacks, the chance starts at 30%. If there is one wolf, the hunter has a 30% chance to kill the wolf (and survive). For each additional wolf, add 20% (2 wolves = 50%, 3 = 70%, etc). However - if there are multiple wolves, while you may kill one of them, you will still be outnumbered and killed.
-      If the cult tries to convert you, they have a 50% chance to fail. If they fail, you have a 50% chance to kill one of them!
+      If the zoombies tries to convert you, they have a 50% chance to fail. If they fail, you have a 50% chance to kill one of them!
     </value>
   </string>
   <string key="AboutSK">
-    <value>That asylum was silly anyways. What a joke. You are free now however, back to business as usual - killing! The serial killer is a lone player, on their own team. They can win only if they are the last player alive (exception: lovers). As the serial killer, you can kill ANYONE - wolves, hunters, gunners, guardian angels, whatever. If the wolves try to attack you, you will kill one of them (random), and live.</value>
+    <value>That asylum was silly anyways. What a joke. You are free now however, back to business as usual - killing! The serial killer is a lone player, on their own team. They can win only if they are the last player alive (exception: crewmates). As the serial killer, you can kill ANYONE - wolves, hunters, gunners, guardian angels, whatever. If the wolves try to attack you, you will kill one of them (random), and live.</value>
   </string>
   <string key="AboutPara">
     <value>Para is a silly developer that likes to bark at people.  Maybe he's been messing with werewolves too long....Messing with werewolves is a very bad idea.</value>
@@ -924,11 +924,11 @@
   <string key="AllowTannerA">
     <value>Tanner as a role set to: {0}</value>
   </string>
-  <string key="AllowCultQ">
-    <value>Allow cult as a role option?\nCurrent: {0}</value>
+  <string key="AllowzoombiesQ">
+    <value>Allow zoombies as a role option?\nCurrent: {0}</value>
   </string>
-  <string key="AllowCultA">
-    <value>Cult as a role set to: {0}</value>
+  <string key="AllowzoombiesA">
+    <value>zoombies as a role set to: {0}</value>
   </string>
   <string key="ThankYou">
     <value>Thank you, have a good day :)</value>
@@ -1081,13 +1081,13 @@
   <string key="SerialKillerTeamEnd">
     <value>🔪👪</value>
   </string>
-  <string key="CultTeamEnd">
+  <string key="zoombiesTeamEnd">
     <value>👤👪</value>
   </string>
   <string key="TannerTeamEnd">
     <value>👺👪</value>
   </string>
-  <string key="CultConvertWolf">
+  <string key="zoombiesConvertWolf">
     <value>👤🚶 {0} ➡ {1}🔜👤,  ⚠ {0} ☠⬅🐺. {0} 💀</value>
   </string>
   <string key="HarlotFuckedKilledPublic">
@@ -1103,7 +1103,7 @@
   <string key="ZombieKilled">
     <value>{0} 🔎☠🔪. {0} 👉👤.</value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>🌄, 👱👱👱💔👉 {0} 👈🏹🔪. ⚠❤🚫...</value>
   </string>
   <string key="DrunkKilled">
@@ -1134,11 +1134,11 @@
 <!--used when CH visits SK-->
     <value>👱👱👱🔎 {0}, 💂👈🔪. ⚠, ⛔🚶👨🔪❕</value>
   </string>
-  <string key="CultConvertWolfPublic">
+  <string key="zoombiesConvertWolfPublic">
 <!--used when Zombies convert the wolves, only if wolves stayed home-->
     <value>🐺🐺🚫☠➡👨, {0}, 👈👤, 🚶➡🐺, 🐺☠👉👤. 👤💀.</value>
   </string>
-  <string key="CultConvertKillerPublic">
+  <string key="zoombiesConvertKillerPublic">
 <!--used when Zombies convert the SK-->
     <value>👤👤💭👈👨🔜👤, ⚠🚫❕ {0}, 👈👤, 👈🔪. 😇📕👈🔪...</value>
   </string>
@@ -1221,7 +1221,7 @@
 <!-- {0} = list of people who have joined -->
     <value>{0} 🚶🎮⬅3⃣0⃣⏱.</value>
   </string>
-  <string key="AllowCult">
+  <string key="Allowzoombies">
     <value>👤❓</value>
   </string>
   <string key="AllowTanner">

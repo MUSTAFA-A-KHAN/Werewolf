@@ -513,38 +513,38 @@
     <!-- 1 - target name -->
     <value>{0} hat gewählt, {1} zu bekehren.</value>
   </string>
-  <string key="CultConvertZombieHunter">
+  <string key="zoombiesConvertZombieHunter">
     <!-- 0 - Yougest Zombie (killed)'s name -->
     <!-- 1 - ZombieHunter's name -->
     <value>In dieser Nacht war es die Aufgabe von {0}, eine weitere Person zum Kult bekehren. Das Glück war anscheinend Anderen zuteil, da {1} als Kultjäger 💂 wohl so ziemlich das unglücklichste Ziel darstellte. Das Aufeinandertreffen hatte daher kein neues Kultmitglied zur Folge, sondern führte im Gegenteil zum Tod eures jüngsten Mitglieds, getötet durch das Schwert des erwähnten Kultjägers.</value>
   </string>
-  <string key="ZombieHunterKilledCultVisit">
+  <string key="ZombieHunterKilledzoombiesVisit">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - Number of Zombies left -->
     <value>{0} klopfte an die Tür deines Hauses, mit der festen Überzeugung, dich in dieser Nacht vom Kult zu überzeugen. Zu seinem Unglück durchschaust du die Masche deines Gegenübers und greifst, mehr aus Reflex als aus Wissen, nach deinem Schwert und beendest damit jenes Leben. Ein Kultist 👤 ist tot... {1} sind noch am Leben!</value>
   </string>
-  <string key="CultConvertYou">
+  <string key="zoombiesConvertYou">
     <value>Der Besuch eines Kultisten hat dich in deinem Glauben zutiefst erschüttert; dir wird klar, dass nur dessen Kult der einzige wahre Glaube sein kann und dass es dein Schicksal ist, ebenso ein Kultist 👤 zu sein. Jede Nacht suchst du dir mit deinen Mitgläubigen einen Spieler aus, den einer von euch dann zu bekehren versucht.</value>
   </string>
-  <string key="CultTeam">
+  <string key="zoombiesTeam">
     <!-- ??? -->
     <!-- 0 - Number of Zombies -->
     <value>Kultisten: {0}</value>
   </string>
-  <string key="CultJoin">
+  <string key="zoombiesJoin">
     <!-- 0 - new Zombie's name -->
     <value>{0} trat dem Kult bei!</value>
     <value>{0} folgt ab jetzt auch dem Kult!</value>
     <value>Ihr könnt euch über ein neues Mitglied im Kult in Form von {0} freuen.</value>
     <value>Auch wenn es keine große Feier gibt: {0} gehört jetzt zum Kult!</value>
   </string>
-  <string key="CultVisitEmpty">
+  <string key="zoombiesVisitEmpty">
     <!-- 0 - Newest Zombie's name -->
     <!-- 1 - target name -->
     <value>{0} wurde gesendet, um {1} zu bekehren... aber keiner war zu Hause!</value>
     <value>{0} findet das Haus von {1} verlassen vor, keine Spur einer menschlichen Seele, die bekehrt werden könnte. Offensichtlich verbringt {1} die Nacht gerne auswärts.</value>
   </string>
-  <string key="CultWins" isgif="true">
+  <string key="zoombiesWins" isgif="true">
     <value>Die Furchtgestalten starben, alle anderen Lebenden wurden zu Kultisten bekehrt.. Der Kult hat gewonnen!</value>
   </string>
   <string key="HunterVisitDead">
@@ -659,7 +659,7 @@
   </string>
   
   <!-- new strings May 6 2016-->
-  <string key="CultTargetDead">
+  <string key="zoombiesTargetDead">
     <!-- 0 - Youngest Zombies name -->
     <value>Euer neuestes Mitglied lief zum Haus von {0}, um ihn zu bekehren, aber das Haus war vollkommen zerstört, überall Blut, und Fäden eines Wolfsfells 🐺 vor der Tür...</value>
   </string>
@@ -669,7 +669,7 @@
   </string>
   
   <!-- new strings May 9 2016-->
-  <string key="CultUnableToConvert">
+  <string key="zoombiesUnableToConvert">
     <!-- 0 - newest -->
     <!-- 1 - target's name -->
     <value>{0} wurde losgeschickt, um {1} zu bekehren, aber leider war der Glaube von {1} zu stark und konnte deshalb nicht überzeugt werden :(</value>
@@ -681,7 +681,7 @@
     <!-- 1 - name -->
     <value>@{1}, ein Spieler mit dem Namen {0} ist bereits beigetreten. Bitte ändere deinen Namen, um beizutreten.</value>
   </string>
-  <string key="HarlotDiscoverCult">
+  <string key="HarlotDiscoverzoombies">
     <!-- 0 - target's name -->
     <value>Du schlüpftest in das Haus von {0}, um etwas Spaß zu haben... doch als du gerade gehen wolltest, konntest du einen kurzen Blick in einen Nebenraum erhaschen und erkennst im Dunkeln einen merkwürdig leuchtenden Altar... 👤</value>
   </string>
@@ -782,7 +782,7 @@
   </string>
   
   <!-- new strings june 10 2016 -->
-  <string key="RoleInfoCupid">
+  <string key="RoleInfoRecruiter">
     <value>Du bist Amor. 🏹\nIn Windel und mit einem Bogen und zwei Pfeilen bewaffnet, fliegst du auf die Erde nieder. Wähle zwei Spieler aus, die sich unsterblich ineinander verlieben. Falls einer der Verliebten stirbt, bringt sich der andere aus Liebeskummer auch um.</value>
     <value>Du bist Amor. 🏹\nMit deinen stylischen Flügelschuhen düst du durch den Himmel und feuerst Pfeile auf unschuldige Passanten, welche sich Hals über Kopf ineinander verlieben und auf offener Straße übereinander herfallen. Insbesondere hast du ein ausgeprägtes Talent dafür, problematische Beziehungskonstellationen herbeizuführen.</value>
     <value>Manche mögen deine Waffenwahl ein wenig komisch finden, die Waffennarren im Ort spötteln sogar immer wieder - du machst ihnen jedoch unermüdlich klar, dass du als Amor 🏹 keinen Schaden mit deiner Waffe anrichtest, sondern eigentlich darauf bedacht bist, das Leben der Menschen zu verschönern. Dass dabei auch mal Missgeschicke passieren... nunja. Du versteckst deine Schadenfreude hinter einem Schulterzucken und murmelst etwas über Trefferquote.\nAlso, worauf wartest du? Schnapp dir Pfeil und Bogen und verbreite ein bisschen Liebe!</value>
@@ -799,8 +799,8 @@
     <value>Du bist der Serienmörder. 🔪\nAls du ein Kind warst, hast du im Garten tote Tiere gesammelt. Heute sammelst du Lebern, legst sie ein und stellst sie in deinem Regal aus. Andere Leute mögen das eklig finden, aber dir gefällts.</value>
     <value>Du bist der Serienmörder. 🔪\nSeit einer schiefgelaufenen Hirn-OP überkommt dich nachts immer das Bedürfnis mit dem großen Küchenmesser auf die Strasse zu laufen und den nächstbesten Dorfbewohner aufzuschlitzen, um dich an seinem Blut zu laben. Dass du dabei die Leber mitgehen lässt, ist wohl auf deine kleptomanische Neigung zurückzuführen.</value>
   </string>
-  <string key="CupidChosen">
-    <!-- 0 - lover's name -->
+  <string key="RecruiterChosen">
+    <!-- 0 - crewmate's name -->
     <value>Du wurdest von der Liebe ❤ getroffen! Die Erinnerungen an {0} werden nie in deinem Herzen verblassen. Euer Ziel ist, dass ihr beide überlebt. Falls einer von euch stirbt, wird der andere aus Kummer nicht mehr weiterleben können... Dafür gewinnst du aber auch mit deinem Partner und seinem Team :3</value>
     <value>Du hast dich unsterblich in {0} verliebt. ❤ Nichts und niemand kann euch trennen! Falls einer von euch stirbt, wird der andere aus Liebeskummer Selbstmord begehen. Aber, keine Sorge, das Leben hat auch positivere Seiten zu bieten: egal ob am Leben oder nicht, du gewinnst mit deinem eigenen Team oder dem deines Partners :3</value>
     <value>Amors Pfeil trifft dich! Du bist wahnsinning in {0} verliebt ❤\nFalls diese Person stirbt, stirbst du ebenfalls. Falls ihr es beide bis zum Ende schafft, werdet ihr beide gewinnen - oder auch weiterhin als Mitglied eures jeweiligen Teams.</value>
@@ -865,12 +865,12 @@
     <!-- 0 - target's name -->
     <value>Du hast versucht, den Körper von {0} in deine Sammlung aufzunehmen, wurdest aber vom Schutzengel 👼 abgewehrt! Diese Nacht gehst du leider leer aus :/</value>
   </string>
-  <string key="CultConvertHunter">
+  <string key="zoombiesConvertHunter">
     <!-- 0 - Youngest Zombie's name -->
     <!-- 1 - target's name -->
     <value>Der Kult sendet {0}, um {1} zu konvertieren, doch stattdessen hört man einen Schuss 🎯, kurz bevor der Körper eures jüngsten Mitglieds aus dem Fenster geflogen kommt! {0} ist tot...</value>
   </string>
-  <string key="CultConvertSerialKiller">
+  <string key="zoombiesConvertSerialKiller">
     <value>{0} schleicht zu dem Haus von {1}, platzt herein, und wird direkt von einem Wahnsinnigen mit einem Messer 🔪 begrüßt!!! In alphabetischer Reihenfolge durchsticht {1} mit seinem Messer die Organe von {0}, dadurch unweigerlich dem Tod ausgesetzt.</value>
     <value>Der Kult sendet {0} aus, um {1} zu konvertieren, doch stattdessen fliegt der Körper von {0} aus dem Fenster, mit Messern 🔪 in jedem Teil seines Körpers! WAS FÜR EIN PSYCHO! {0} ist tot...</value>
   </string>
@@ -895,11 +895,11 @@
     <!-- 1 - mason collegues's name -->
     <value>{0} ist gestorben, und du verwandelst dich in einen Freimaurer. 👷 Deine Kameraden sind (falls vorhanden): {1}</value>
   </string>
-  <string key="DGToCult">
+  <string key="DGTozoombies">
     <!-- 0 - new Zombie's name -->
     <value>Der Doppelgänger 🎭 {0} ist zum Kultisten geworden, genau wie du!</value>
   </string>
-  <string key="DGTransformToCult">
+  <string key="DGTransformTozoombies">
     <!-- 0 - role's name -->
     
     <!-- 1 - teammates's name -->
@@ -925,10 +925,10 @@
     <value>Wen bringst du heute Nacht um die Ecke?</value>
     <value>Wen willst du heute aufschlitzen?</value>
   </string>
-  <string key="LoverDied">
+  <string key="crewmateDied">
     <!-- 0 - dead's name -->
-    <!-- 1 - lover's name -->
-    <!-- 2 - lover's role -->
+    <!-- 1 - crewmate's name -->
+    <!-- 2 - crewmate's role -->
     <!-- X ist tot, solche Neuigkeiten verbreiten sich in einem kleinen Dorf wie diesem schnell. -->
     <value>Mit dem sterbenden Atemzug von {0} eilt {1} herbei und fällt weinend auf die Knie. Er kann den Tod seiner Geliebten ❤ nicht ertragen und erschießt sich mit der nächsten aufzutreibenden Pistole. {2}</value>
     <value>Als die Lebensgeister aus {0} weichen, ertönt ein spitzer Schrei und {1} stolpert mit tränenüberströmtem Gesicht durch die Masse der Leute. Er wirft einen anklagenden Blick in die Menge, bevor er sich über den leblosen Körper beugt und mit einer liebevollen Geste ❤ dessen Anblick zum letzten Mal ehrt.\nOhne mit der Wimper zu zucken, zieht er ein kleines Fläschchen aus der Tasche, nimmt einen kräftigen Schluck und sackt kurz darauf zusammen - das ganze Dorf hat währenddessen den Atem angehalten und auch jetzt ist noch kein Mucks zu hören, so fassungslos ist die Menge. {2}</value>
@@ -938,13 +938,13 @@
     <value>Wer möchtest du werden, wenn diejenige Person stirbt?</value>
     <value>Die Frage der Fragen: wessen Doppelgänger möchtest du sein?</value>
   </string>
-  <string key="AskCupid1">
+  <string key="AskRecruiter1">
     <value>Wer sollen die Liebenden ❤ sein? Wähle den ersten Spieler:</value>
     <value>Wen möchtest du verlieben? ❤ Wähle den ersten Spieler:</value>
     <value>Wen soll dein erster Pfeil treffen? ❤</value>
     <value>Wer soll sich Hals über Kopf verlieben? ❤</value>
   </string>
-  <string key="AskCupid2">
+  <string key="AskRecruiter2">
     <value>Wer sollen die Liebenden ❤ sein? Wähle den zweiten Spieler:</value>
     <value>Wen möchtest du verlieben? ❤ Wähle den zweiten Spieler:</value>
     <value>Und an wen richtet sich dein zweiter Pfeil? ❤</value>
@@ -953,7 +953,7 @@
   <string key="Hunter">
     <value>der Jäger 🎯</value>
   </string>
-  <string key="Cupid">
+  <string key="Recruiter">
     <value>Amor 🏹</value>
   </string>
   <string key="SerialKiller">
@@ -966,7 +966,7 @@
     <!-- 0 - target's name -->
     <value>Du bist das wilde Kind. 👶 Dein Vorbild ist {0}.</value>
   </string>
-  <string key="LoversWin" isgif="true">
+  <string key="crewmatesWin" isgif="true">
     <value>Wahre Liebe hält am längsten! Die Liebenden haben gewonnen!</value>
     <value>Die letzten beiden Überlebenden sind die Liebenden. Sie fallen sich erleichtert in die Arme und genießen für einen Moment nur die Stille, bevor sie durch das verlassene Dorf nach Hause schlendern.</value>
     <value>Die Liebe hat gewonnen! Es muss schön sein, endlich nicht mehr in Schrecken zu leben – sich auf offener Straße zu küssen, eine gemeinsame Zukunft planen zu können, aber vor allem: am Leben zu sein.</value>
@@ -976,7 +976,7 @@
     <!-- 1 - role -->
     <value>Inmitten des Dorfzentrums finden die Dorfbewohner den Körper von {0}, mehrfach beschossen. Sieht so aus, als hätte er versucht, sich an den Jäger 🎯 anzuschleichen. {1}</value>
   </string>
-  <string key="CultAttempt">
+  <string key="zoombiesAttempt">
     <value>Eine verschleierte Gestalt versuchte, dich zu seinem Kult 👤 zu bekehren, doch dein Geist war zu stark.</value>
   </string>
   <string key="AlreadyOnWaitList">
@@ -1067,7 +1067,7 @@
   <string key="AboutFool">
     <value>Du bist der Narr. 🃏\nZwar liebenswürdig, aber auch gefährlich, auf deine eigene Weise: weil du es nicht besser weißt, behauptest du, der Seher zu sein - dabei sind die Rollen, die dir angezeigt werden, komplett zufällig! Vielleicht hättest du damals bei Professor Trelawney doch besser aufpassen sollen...\nEtwas hast du dem Seher aber voraus: du siehst den Verräter auch als solchen - während ein richtiger Wahrsager sich bei diesem nur zwischen Wolf und Dorfbewohner irren kann! Die einzelnen Wölfe kannst du aber leider nicht voneinander unterscheiden... :/</value>
   </string>
-  <string key="AboutCult">
+  <string key="Aboutzoombies">
     <value>Du bist ein Kultist 👤 - fashiontechninsch vielleicht nicht ganz auf der Höhe, trotzdem - oder vielleicht gerade deshalb? - bist du relativ erfolgreich: jede Nacht kannst du einen Spieler aussuchen, den du zu deinem Kult bekehren willst; und das ist auch dein Lebensmotto: das ganze Dorf zu bekehren. Wenn am Ende nur noch Kultisten überleben, gewinnt ihr! Aber nicht immer hast du Glück - manche Bewohner sind schwerer zu bekehren als Andere...</value>
   </string>
   <string key="AboutCH">
@@ -1088,7 +1088,7 @@
   <string key="AboutDG">
     <value>Du bist der Doppelgänger 🎭 - schon deine Ahnen verstanden sich gut darin, in die Rollen anderer zu schlüpfen: sie waren berühmte Schauspieler, Geheimagenten und Identitätsfälscher. In so einem kleinen Dorf ist es natürlich schwieriger, nicht aufzufallen - deshalb nimmst du die Identität dessen, den du bei deinem Einzug ins Dorf wählst, auch erst nach dessen Tod an. Du schlüpfst vollständig in die Rolle dessen, den du kopierst: hast die gleichen Fähigkeiten, musst allerdings auch mit den Entscheidungen dessen leben: kopierst du das wilde Kind, übernimmst du dessen Vorbild - und wenn dieses schon tot ist, wirst du direkt zum Wolf.\n\nSollten Kultisten im Dorf verkehren, haben sie keine Möglichkeit, den Doppelgänger zu bekehren, bevor er sich nicht verwandelt hat. Außerdem verliert der Kult ein Mitglied, sollte der vom Doppelgänger Kopierte Kultist gewesen sein: der Doppelgänger nimmt dann die urprüngliche Rolle des Toten ein.\n\nAls Doppelgänger ist es dir ganz wichtig, dass das Dorf erkennt, wie gut du deine Profession beherrscht: solange du dich nicht verwandelt hast, kannst du das Spiel auch nicht gewinnen! Wenn das Spiel vorbei ist, und du noch du bist... verlierst du.</value>
   </string>
-  <string key="AboutCupid">
+  <string key="AboutRecruiter">
     <value>Es knistert, aber gewaltig! Dabei hast du deinen Job als Elektriker doch eigentlich an den Nagel gehangen - deine neue Berufskleidung ist zwar etwas seltsam, aber wer möchte nicht gern von Luft und Liebe leben? Also: deine Berufung als Amor 🏹 ist es, zwei Pfeile abzuschießen: die beiden Bewohner, die von ihnen getroffen werden, werden sich unsterblich ineinander verlieben, unfähig, ohne den jeweils anderen zu überleben: sollte einer von beiden sterben, wird sich der Andere aus Kummer das Leben nehmen... Je nachdem, wie geschickt dein Händchen ist, kann daraus ein großes Hochzeitsfest oder ein Killerpärchen entstehen!\n\nWichtig: die Liebenden wissen zwar voneinander, bekommen die Rollen des jeweils Anderen jedoch nicht mitgeteilt. Sie gewinnen, wenn mindestens einer von ihnen im gewinnenden Team ist - sollten die Beiden es schaffen, als die letzten Beiden am Leben zu sein, gewinnen sie als Paar (Herzchen-Emoji hier evtl?)</value>
   </string>
   <string key="AboutHunter">
@@ -1267,10 +1267,10 @@
   <string key="AllowTannerA">
     <value>Neue Einstellung für den Gerber: {0}</value>
   </string>
-  <string key="AllowCultQ">
+  <string key="AllowzoombiesQ">
     <value>Willst du den Kult zulassen?\nAktuell: {0}</value>
   </string>
-  <string key="AllowCultA">
+  <string key="AllowzoombiesA">
     <value>Neue Einstellung für den Kult: {0}</value>
   </string>
   <string key="EnableSecretLynchQ">
@@ -1436,13 +1436,13 @@
   <string key="SerialKillerTeamEnd">
     <value>Team Forever alone</value>
   </string>
-  <string key="CultTeamEnd">
+  <string key="zoombiesTeamEnd">
     <value>Team Fashionvictim</value>
   </string>
   <string key="TannerTeamEnd">
     <value>Team Gerbera</value>
   </string>
-  <string key="CultConvertWolf">
+  <string key="zoombiesConvertWolf">
     <value>Ihr entsendet in dieser Nacht {0}, um {1} für euren Glauben zu gewinnen, in der Hoffnung, dass dies eine einfache Aufgabe ist, der selbst euer neuestes Mitglied gewachsen ist, doch stattdessen müsst ihr am nächsten Morgen mit ansehen, wie das Dorf die Leiche von {0} entdeckt, die so zerfleischt in einem Gebüsch liegt, dass für euch sofort klar ist, was passiert sein muss. Ihr solltet euch in Zukunft wohl besser von den Wölfen 🐺 fernhalten...</value>
   </string>
   <string key="HarlotFuckedKilledPublic">
@@ -1460,7 +1460,7 @@
   <string key="ZombieKilled">
     <value>Ihr findet {0}, der mit einem Kerzenleuchter seines eigenen Altars 👤 erstochen wurde (ein wahrhaft kultiges Verbrechen). Dass der Serienmörder 🔪 sich weder um Herkunft, Berufung noch Religion seiner Opfer kümmert, war euch bereits bekannt, aber warum er diese Nacht kein Messer dabei hatte, ist doch äußerst rätselhaft...</value>
   </string>
-  <string key="CupidKilled">
+  <string key="RecruiterKilled">
     <value>Die Liebe ist tot... Oder zumindest ihr Stellvertreter auf Erden 🏹: obwohl {0} seinen Bogen noch in der Hand hält, konnte er damit nichts gegen den übermächtigen Serienmörder 🔪 ausrichten. Seltsamerweise wurde das Herz sauber herausgetrennt... Ist es etwa das, was diesem Verrückten all die Jahre gefehlt hat?!</value>
     <value>Schon als sie aufwachen, fühlen sich alle Dorfbewohner irgendwie lieblos. Zuerst hält man es für Einbildung, doch dann findet man Amor 🏹, von Kopf bis Fuß aufgeschlitzt, vor der Kirche... Aus irgendeinem Grund fehlt {0} auch das Herz. 🔪</value>
   </string>
@@ -1497,12 +1497,12 @@
     <value>Als das Dorf erwacht, findet man {0}, den Kultjäger 💂 zerstückelt in einer Kiste vor dem Rathaus. Es scheint keine besonders gute Idee, nachts den Serienmörder 🔪 zu besuchen und ihn über seine Spiritualität auszufragen...</value>
     <value>Der Körper von {0}, dem Kultjäger 💂 wurde bis zur Unkenntlichkeit verstümmelt auf dem Altar der Kirche gefunden. Den Serienmörder 🔪 für einen Kultisten zu halten war eindeutig sein letzter Fehler...</value>
   </string>
-  <string key="CultConvertWolfPublic">
+  <string key="zoombiesConvertWolfPublic">
     <!-- used when Zombies convert the wolves, only if wolves stayed home -->
     <value>Eigentlich wollten die Wölfe 🐺 letzte Nacht ja fasten (wie vorbildlich!) - aber wer kann schon der Versuchung eines kleinen Mitternachtsnack auf zwei Beinen widerstehen?! Richtig: niemand. Das musste {0} am eigenen Leib erfahren, auch sein Glaube konnte den Kultisten 👤 nicht vor den scharfen Zähnen der Wölfe beschützen...</value>
     <value>Das Leben als Kultist 👤 ist nicht leicht. Nicht nur muss man sich davon erholen, bisher ein Leben lang an das Falsche geglaubt zu haben, nein, es stehen auch noch immer diese Nachtwanderungen auf dem Programm. {0} verirrte sich dabei letzte Nacht in das Haus eines ruhenden Werwolfs 🐺, war aber selbst ebenfalls zu müde, um wegzurennen - am Morgen kann er es nicht mehr, nur noch die Knochen sind von seinen Beinen übrig geblieben. So wie es aussieht, haben Werwölfe kein Interesse daran, sich neuen kultigen Kreisen anzuschließen....</value>
   </string>
-  <string key="CultConvertKillerPublic">
+  <string key="zoombiesConvertKillerPublic">
     <!-- used when Zombies convert the SK -->
     <!-- Strangely their "holy" book was found stabbed with a knife, as if a statement to show whose religion was triumphant.</val> -->
     <value>Was für ein Fehler... Die Kultisten 👤 haben letzte Nacht die einzige Person im Dorf besucht, die noch verrückter ist als sie selbst. Dafür können alle Bewohner heute ein abstraktes Kunstwerk, bestehend aus den zerstückelten Organen des verstorbenen {0}, vor dem Rathaus bestaunen. Vielleicht nicht jedermanns Geschmack... aber der Serienmörder 🔪 hat seinen ganz eigenen Sinn für Ästhetik.</value>
@@ -1594,7 +1594,7 @@
     <!-- {0} = list of people who have joined -->
     <value>Neu auf der Speisekarte für euch: {0}</value>
   </string>
-  <string key="AllowCult">
+  <string key="Allowzoombies">
     <value>Kult erlauben</value>
   </string>
   <string key="AllowTanner">
@@ -1863,7 +1863,7 @@
     <value>Deine Maurerkollegen (falls sie nicht das Handtuch geschmissen haben) sind: {0}</value>
     <value>Du bist jetzt auch Freimaurer! Hier deine neuen Kollegen (wenn es denn welche geschafft haben): {0}</value>
   </string>
-  <string key="ThiefToCult">
+  <string key="ThiefTozoombies">
   <!-- 0 - Name alter Kultist -->
   <!-- 1 - Name neuer Kultist -->
     <value>{0} hat den Kult verlassen. Welch ein Verräter! Nur gut, dass sein Platz nicht lange kalt bleibt: {1} ist euer neuestes Mitglied, aber er wirkt seltsam vertraut mit euren Abläufen. Creepy...</value>
@@ -2129,7 +2129,7 @@
   </string>
   <string key="ZombieFrozen">
     <value>Gerade als du das Haus verlässt, um zum Gemeindehaus zu gehen, merkst du wie die Beine immer schwerer werden. Auch sonst ist dir kalt. Nach kurzer Zeit erstarrst du völlig 🐺❄️ und kannst den Kult nicht unterstützen. Nur gut, dass du noch vor dem Morgengrauen wieder auftaust und dich niemand in der Kluft gesehen hat!</value>
-    <!--<value>As you donned your cloak and prepared to leave your house, a gust of wind blew in from the doorway, causing you to freeze 🐺☃️. Your fellow Zombies dropped by soon after to bring you along to cult people, but they ended up laughing at your demise. Leaving you by the doorway, they promised that they'll make good work of tonight. Now that you're unfrozen, you leave the house, cringing in embarrassment. </value>-->
+    <!--<value>As you donned your cloak and prepared to leave your house, a gust of wind blew in from the doorway, causing you to freeze 🐺☃️. Your fellow Zombies dropped by soon after to bring you along to zoombies people, but they ended up laughing at your demise. Leaving you by the doorway, they promised that they'll make good work of tonight. Now that you're unfrozen, you leave the house, cringing in embarrassment. </value>-->
   </string>
   <string key="CHFrozen">
     <value>Hast du alles? Die Liste mit dem bekannten Kult, die Liste möglicher Kultisten, deinen blauen Helm, dein Schwert, deinen Eiswürf... Moment! Was? Du willst dich umgucken, bist aber wie erstarrt. Es scheint, als würde dieser Nacht der Eiswolf 🐺❄️ seine schützende Hand über die Kultisten breiten. Wie merkwürdig...</value>
@@ -2274,10 +2274,10 @@
   <string key="HunterFellDigger">
     <value>Nach einer weiteren ermüdenden Nacht läufst du nach Hause, als die Sonne schon über dem Dorf aufgeht. Gerade willst du dein Haus betreten, da bemerkst du plötzlich ein Schwert 💂‍♀️ auf dem Boden neben einem offenen Grab, in welchem der tote Körper von {0} liegt. Der Kultjäger hätte dich wohl besser nicht verdächtigen sollen...</value>
   </string>
-  <string key="CultFell">
+  <string key="zoombiesFell">
     <value>Du kehrst nach einer ermüdenden Nacht nach Hause zurück, als du plötzlich einen Schrei aus der Richtung eines deiner Gräber hörst. Du eilst dorthin und findest {0} tot in der offenen Grube... Welcher Kultist 👤 würde denn auch einen Totengräber konvertieren wollen?</value>
   </string>
-  <string key="CultConvertGraveDigger">
+  <string key="zoombiesConvertGraveDigger">
     <value>Auf dem Weg zu {1}s Haus entscheidet {0} plötzlich, die Kirche abbrennen zu wollen. {0} führt euch also über den Friedhof ☠️, doch plötzlich schnappt eine Bärenfalle um {0}s Fuß zu! Ihr hört nur noch den entsetzten Schrei, bevor ihr euch umdreht und schnell das Weite sucht.</value>
   </string>
   <string key="ChemistFell">
