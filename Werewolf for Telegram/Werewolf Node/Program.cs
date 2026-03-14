@@ -86,13 +86,13 @@ namespace Werewolf_Node
 
             //get api token from registry
 #if DEBUG
-            APIToken = Database.RegHelper.GetRegValue("DebugAPI");
+            APIToken = global::Database.RegHelper.GetRegValue("DebugAPI");
 #elif RELEASE
-            APIToken = Database.RegHelper.GetRegValue("ProductionAPI");
+            APIToken = global::Database.RegHelper.GetRegValue("ProductionAPI");
 #elif RELEASE2
-            APIToken = Database.RegHelper.GetRegValue("ProductionAPI2");
+            APIToken = global::Database.RegHelper.GetRegValue("ProductionAPI2");
 #elif BETA
-            APIToken = Database.RegHelper.GetRegValue("BetaAPI");
+            APIToken = global::Database.RegHelper.GetRegValue("BetaAPI");
 #endif
             Bot = new TelegramBotClient(APIToken);
             

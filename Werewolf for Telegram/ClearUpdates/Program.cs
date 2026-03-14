@@ -43,17 +43,17 @@ namespace ClearUpdates
             };
 
 #if DEBUG
-            TelegramAPIKey = Database.RegHelper.GetRegValue("DebugAPI");
+            TelegramAPIKey = global::Database.RegHelper.GetRegValue("DebugAPI");
 #elif RELEASE
-            TelegramAPIKey = Database.RegHelper.GetRegValue("ProductionAPI");
+            TelegramAPIKey = global::Database.RegHelper.GetRegValue("ProductionAPI");
 #elif RELEASE2
-            TelegramAPIKey = Database.RegHelper.GetRegValue("ProductionAPI2");
+            TelegramAPIKey = global::Database.RegHelper.GetRegValue("ProductionAPI2");
 #elif BETA
-            TelegramAPIKey = Database.RegHelper.GetRegValue("BetaAPI");
+            TelegramAPIKey = global::Database.RegHelper.GetRegValue("BetaAPI");
 #endif
             WWAPI = new TelegramBotClient(TelegramAPIKey);
             WWAPI.OnUpdate += WWAPI_OnUpdate;
-            var apikey = Database.RegHelper.GetRegValue("QueueAPI");
+            var apikey = global::Database.RegHelper.GetRegValue("QueueAPI");
             Api = new TelegramBotClient(apikey);
             Api.OnMessage += Api_OnMessage;
             Api.OnUpdate += ApiOnOnUpdate;

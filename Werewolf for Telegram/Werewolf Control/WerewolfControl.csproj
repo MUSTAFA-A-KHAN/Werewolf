@@ -34,7 +34,7 @@
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>x64</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
-    <DebugType>full</DebugType>
+    <DebugType>pdbonly</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
@@ -64,7 +64,7 @@
     <DebugSymbols>true</DebugSymbols>
     <OutputPath>bin\Beta\</OutputPath>
     <DefineConstants>TRACE;BETA</DefineConstants>
-    <DebugType>full</DebugType>
+    <DebugType>pdbonly</DebugType>
     <PlatformTarget>AnyCPU</PlatformTarget>
     <ErrorReport>prompt</ErrorReport>
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
@@ -188,11 +188,7 @@
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
-    <Reference Include="System.IO.Compression, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.IO.Compression.4.3.0\lib\net46\System.IO.Compression.dll</HintPath>
-      <Private>True</Private>
-      <Private>True</Private>
-    </Reference>
+    <Reference Include="System.IO.Compression" />
     <Reference Include="System.IO.Compression.FileSystem" />
     <Reference Include="System.IO.Compression.ZipFile, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\System.IO.Compression.ZipFile.4.3.0\lib\net46\System.IO.Compression.ZipFile.dll</HintPath>
@@ -388,6 +384,11 @@
       <Project>{acb86d9a-837c-4bb6-83fa-99fe4dc7d3e4}</Project>
       <Name>TcpFramework</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Updater\Updater.csproj">
+      <Project>{D6EDCF71-9D15-4C6F-A731-D5C11A53917E}</Project>
+      <Name>Updater</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
@@ -409,13 +410,15 @@
   </ItemGroup>
   <Import Project="..\Languages\Languages.projitems" Label="Shared" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <PropertyGroup>
-    <PreBuildEvent>"$(DevEnvDir)devenv" "$(SolutionDir)WerewolfForTelegram.sln" /Build $(configuration) /project "$(SolutionDir)Updater\Updater.csproj"</PreBuildEvent>
-  </PropertyGroup>
-  <PropertyGroup>
-    <PostBuildEvent>xcopy "$(SolutionDir)Languages\*.xml" "$(ProjectDir)bin\Languages\" /i /y
-xcopy "$(SolutionDir)Updater\bin\$(configuration)\Update.exe" "$(ProjectDir)Resources\" /i /y</PostBuildEvent>
-  </PropertyGroup>
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <ItemGroup>
+      <LanguageFiles Include="$(SolutionDir)Languages\*.xml" />
+      <UpdaterFiles Include="$(SolutionDir)Updater\bin\$(Configuration)\Update.exe" />
+    </ItemGroup>
+    <MakeDir Directories="$(ProjectDir)bin\Languages\" Condition="!Exists('$(ProjectDir)bin\Languages\')" />
+    <Copy SourceFiles="@(LanguageFiles)" DestinationFolder="$(ProjectDir)bin\Languages\" />
+    <Copy SourceFiles="@(UpdaterFiles)" DestinationFolder="$(ProjectDir)Resources\" />
+  </Target>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

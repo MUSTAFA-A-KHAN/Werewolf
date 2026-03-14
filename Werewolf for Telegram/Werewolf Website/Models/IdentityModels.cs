@@ -22,7 +22,7 @@ namespace Werewolf_Website.Models
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         public ApplicationDbContext()
-            : base(Database.RegHelper.GetRegValue("DBConnectionString"), throwIfV1Schema: false)
+            : base(global::Database.RegHelper.GetRegValue("DBConnectionString"), throwIfV1Schema: false)
         {
         }
 

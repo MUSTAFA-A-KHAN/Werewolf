@@ -1,0 +1,20 @@
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+packages
+TestResults
+*.log
+[Dd]ebug/
+[Rr]elease/
+obj/
+[Bb]in/
+# except for the final executables
+!Werewolf Control/bin/Release/Werewolf Control.exe
+!Werewolf Node/bin/Release/Werewolf Node.exe
+
+[Tt]est[Rr]esult*
+[Bb]uild[Ll]og.*
+*.[Cc]ache
+*.[Pp]ublish.xml
+*.publishproj
