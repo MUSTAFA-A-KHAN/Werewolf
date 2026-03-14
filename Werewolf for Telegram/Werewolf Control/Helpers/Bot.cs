@@ -64,17 +64,14 @@ namespace Werewolf_Control.Helpers
         {
 
             //get api token from registry
-            var key =
-                    RegistryKey.OpenBaseKey(RegistryHive.LocalMachine, RegistryView.Registry64)
-                        .OpenSubKey("SOFTWARE\\Werewolf");
 #if DEBUG
-            TelegramAPIKey = key.GetValue("DebugAPI").ToString();
+            TelegramAPIKey = RegHelper.GetRegValue("DebugAPI");
 #elif RELEASE
-            TelegramAPIKey = key.GetValue("ProductionAPI").ToString();
+            TelegramAPIKey = RegHelper.GetRegValue("ProductionAPI");
 #elif RELEASE2
-            TelegramAPIKey = key.GetValue("ProductionAPI2").ToString();
+            TelegramAPIKey = RegHelper.GetRegValue("ProductionAPI2");
 #elif BETA
-            TelegramAPIKey = key.GetValue("BetaAPI").ToString();
+            TelegramAPIKey = RegHelper.GetRegValue("BetaAPI");
 #endif
             Api = new TelegramBotClient(TelegramAPIKey);
             //#if !BETA

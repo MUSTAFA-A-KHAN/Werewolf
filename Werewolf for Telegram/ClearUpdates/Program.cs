@@ -42,22 +42,18 @@ namespace ClearUpdates
                 Console.WriteLine("==" + exc.Message + "==\n" + exc.StackTrace);
             };
 
-            var key =
-                    RegistryKey.OpenBaseKey(RegistryHive.LocalMachine, RegistryView.Registry64)
-                        .OpenSubKey("SOFTWARE\\Werewolf");
-            
 #if DEBUG
-            TelegramAPIKey = key.GetValue("DebugAPI").ToString();
+            TelegramAPIKey = Database.RegHelper.GetRegValue("DebugAPI");
 #elif RELEASE
-            TelegramAPIKey = key.GetValue("ProductionAPI").ToString();
+            TelegramAPIKey = Database.RegHelper.GetRegValue("ProductionAPI");
 #elif RELEASE2
-            TelegramAPIKey = key.GetValue("ProductionAPI2").ToString();
+            TelegramAPIKey = Database.RegHelper.GetRegValue("ProductionAPI2");
 #elif BETA
-            TelegramAPIKey = key.GetValue("BetaAPI").ToString();
+            TelegramAPIKey = Database.RegHelper.GetRegValue("BetaAPI");
 #endif
             WWAPI = new TelegramBotClient(TelegramAPIKey);
             WWAPI.OnUpdate += WWAPI_OnUpdate;
-            var apikey = key.GetValue("QueueAPI").ToString();
+            var apikey = Database.RegHelper.GetRegValue("QueueAPI");
             Api = new TelegramBotClient(apikey);
             Api.OnMessage += Api_OnMessage;
             Api.OnUpdate += ApiOnOnUpdate;
