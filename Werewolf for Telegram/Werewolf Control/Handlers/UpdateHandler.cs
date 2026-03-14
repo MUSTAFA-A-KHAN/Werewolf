@@ -369,7 +369,7 @@ namespace Werewolf_Control.Handler
                                 var command = Bot.Commands.FirstOrDefault(
                                     x =>
                                         String.Equals(x.Trigger, args[0],
-                                            StringComparison.InvariantzoombiesureIgnoreCase));
+                                            StringComparison.InvariantCultureIgnoreCase));
                                 if (command != null)
                                 {
                                     Bot.MessagesProcessed++;
@@ -1454,7 +1454,7 @@ namespace Werewolf_Control.Handler
                                     .Any(
                                         x =>
                                             String.Equals(Path.GetFileNameWithoutExtension(x), slang.FileName,
-                                                StringComparison.InvariantzoombiesureIgnoreCase)))
+                                                StringComparison.InvariantCultureIgnoreCase)))
                             {
                                 //now get the group
                                 if (grp != null)

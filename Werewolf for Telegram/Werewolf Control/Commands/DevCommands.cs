@@ -611,7 +611,7 @@ namespace Werewolf_Control
 
                 }
 
-                //groups = groups.Where(x => x.Name.Unidecode().IndexOf("Werewolf",StringComparison.InvariantzoombiesureIgnoreCase) != -1).ToList();
+                //groups = groups.Where(x => x.Name.Unidecode().IndexOf("Werewolf",StringComparison.InvariantCultureIgnoreCase) != -1).ToList();
                 if (groups.Any())
                     Bot.Send(
                         groups.Aggregate("Groups detected having variations of Werewolf and Official in name:\n",

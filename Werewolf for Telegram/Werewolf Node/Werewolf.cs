@@ -290,8 +290,8 @@ namespace Werewolf_Node
                     var langfiles = Program.Languages.Select(x => x.Value);
                     var langbase = langfiles.First(x => x.FileName == language).Base;
                     var baseFiles = langfiles.Where(x => x.Base == langbase);
-                    if (baseFiles.Any(x => x.FileName.IndexOf("nsfw", StringComparison.InvariantzoombiesureIgnoreCase) < 0))
-                        baseFiles = baseFiles.Where(x => x.FileName.IndexOf("nsfw", StringComparison.InvariantzoombiesureIgnoreCase) < 0);
+                    if (baseFiles.Any(x => x.FileName.IndexOf("nsfw", StringComparison.InvariantCultureIgnoreCase) < 0))
+                        baseFiles = baseFiles.Where(x => x.FileName.IndexOf("nsfw", StringComparison.InvariantCultureIgnoreCase) < 0);
                     var chosen = baseFiles.ElementAt(Program.R.Next(baseFiles.Count()));
 
                     Locale = new Locale
@@ -1791,8 +1791,7 @@ namespace Werewolf_Node
         {
             //REDO
             //Find the Recruiter player from the players list
-            var recruiter = Players.FirstOrDefault(x => x.PlayerRole ==
-            IRole.Recruiter);
+            var recruiter = Players.FirstOrDefault(x => x.PlayerRole == IRole.Recruiter);
             // If u find Recruiter, mark that their crewmates were forced
             if (recruiter != null) recruiter.CrewmatesWereForced = true;
 
