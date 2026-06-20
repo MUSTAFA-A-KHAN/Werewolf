@@ -22,8 +22,25 @@ namespace Werewolf_Website.Models
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         public ApplicationDbContext()
-            : base(RegistryKey.OpenBaseKey(RegistryHive.LocalMachine, RegistryView.Registry64).OpenSubKey("SOFTWARE\\Werewolf").GetValue("DBConnectionString").ToString(), throwIfV1Schema: false)
+            : base(Environment.GetEnvironmentVariable("DBConnectionString") ?? GetRegistryConnectionString(), throwIfV1Schema: false)
         {
+        }
+
+        private static string GetRegistryConnectionString()
+        {
+            try
+            {
+                var regKey = RegistryKey.OpenBaseKey(RegistryHive.LocalMachine, RegistryView.Registry64).OpenSubKey("SOFTWARE\\Werewolf");
+                if (regKey != null)
+                {
+                    return regKey.GetValue("DBConnectionString", "").ToString();
+                }
+            }
+            catch (Exception)
+            {
+                // Ignore on non-Windows platforms
+            }
+            return "";
         }
 
         public static ApplicationDbContext Create()

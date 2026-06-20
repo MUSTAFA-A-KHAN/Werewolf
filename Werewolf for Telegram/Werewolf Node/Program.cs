@@ -102,19 +102,35 @@ namespace Werewolf_Node
             SetTimer();
 
 
-            //get api token from registry
-            var key =
-                    RegistryKey.OpenBaseKey(RegistryHive.LocalMachine, RegistryView.Registry64)
-                        .OpenSubKey("SOFTWARE\\Werewolf");
+            //get api token from environment or registry
+            string GetApiToken(string configKey)
+            {
+                var envVar = Environment.GetEnvironmentVariable(configKey);
+                if (!string.IsNullOrEmpty(envVar))
+                    return envVar;
+
+                try
+                {
+                    var key = RegistryKey.OpenBaseKey(RegistryHive.LocalMachine, RegistryView.Registry64)
+                                    .OpenSubKey("SOFTWARE\\Werewolf");
+                    if (key != null)
+                        return key.GetValue(configKey, "").ToString();
+                }
+                catch (Exception)
+                {
+                    // Ignore on non-Windows platforms
+                }
+                return "";
+            }
 
 #if DEBUG
-            APIToken = key.GetValue("DebugAPI").ToString();
+            APIToken = GetApiToken("DebugAPI");
 #elif RELEASE
-            APIToken = key.GetValue("ProductionAPI").ToString();
+            APIToken = GetApiToken("ProductionAPI");
 #elif RELEASE2
-            APIToken = key.GetValue("ProductionAPI2").ToString();
+            APIToken = GetApiToken("ProductionAPI2");
 #elif BETA
-            APIToken = key.GetValue("BetaAPI").ToString();
+            APIToken = GetApiToken("BetaAPI");
 #endif
             Bot = new TelegramBotClient(APIToken);
             

@@ -70,18 +70,35 @@ namespace Werewolf_Control.Helpers
         public static void Initialize(string updateid = null)
         {
 
-            //get api token from registry
-            var key =
-                    RegistryKey.OpenBaseKey(RegistryHive.LocalMachine, RegistryView.Registry64)
-                        .OpenSubKey("SOFTWARE\\Werewolf");
+            //get api token from environment or registry
+            string GetApiToken(string configKey)
+            {
+                var envVar = Environment.GetEnvironmentVariable(configKey);
+                if (!string.IsNullOrEmpty(envVar))
+                    return envVar;
+
+                try
+                {
+                    var key = RegistryKey.OpenBaseKey(RegistryHive.LocalMachine, RegistryView.Registry64)
+                                    .OpenSubKey("SOFTWARE\\Werewolf");
+                    if (key != null)
+                        return key.GetValue(configKey, "").ToString();
+                }
+                catch (Exception)
+                {
+                    // Ignore on non-Windows platforms
+                }
+                return "";
+            }
+
 #if DEBUG
-            TelegramAPIKey = key.GetValue("DebugAPI").ToString();
+            TelegramAPIKey = GetApiToken("DebugAPI");
 #elif RELEASE
-            TelegramAPIKey = key.GetValue("ProductionAPI").ToString();
+            TelegramAPIKey = GetApiToken("ProductionAPI");
 #elif RELEASE2
-            TelegramAPIKey = key.GetValue("ProductionAPI2").ToString();
+            TelegramAPIKey = GetApiToken("ProductionAPI2");
 #elif BETA
-            TelegramAPIKey = key.GetValue("BetaAPI").ToString();
+            TelegramAPIKey = GetApiToken("BetaAPI");
 #endif
             Api = new TelegramBotClient(TelegramAPIKey);
             //#if !BETA

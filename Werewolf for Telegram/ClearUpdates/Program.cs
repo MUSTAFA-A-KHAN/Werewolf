@@ -42,22 +42,38 @@ namespace ClearUpdates
                 Console.WriteLine("==" + exc.Message + "==\n" + exc.StackTrace);
             };
 
-            var key =
-                    RegistryKey.OpenBaseKey(RegistryHive.LocalMachine, RegistryView.Registry64)
-                        .OpenSubKey("SOFTWARE\\Werewolf");
-            
+            string GetApiToken(string configKey)
+            {
+                var envVar = Environment.GetEnvironmentVariable(configKey);
+                if (!string.IsNullOrEmpty(envVar))
+                    return envVar;
+
+                try
+                {
+                    var regKey = RegistryKey.OpenBaseKey(RegistryHive.LocalMachine, RegistryView.Registry64)
+                                    .OpenSubKey("SOFTWARE\\Werewolf");
+                    if (regKey != null)
+                        return regKey.GetValue(configKey, "").ToString();
+                }
+                catch (Exception)
+                {
+                    // Ignore on non-Windows platforms
+                }
+                return "";
+            }
+
 #if DEBUG
-            TelegramAPIKey = key.GetValue("DebugAPI").ToString();
+            TelegramAPIKey = GetApiToken("DebugAPI");
 #elif RELEASE
-            TelegramAPIKey = key.GetValue("ProductionAPI").ToString();
+            TelegramAPIKey = GetApiToken("ProductionAPI");
 #elif RELEASE2
-            TelegramAPIKey = key.GetValue("ProductionAPI2").ToString();
+            TelegramAPIKey = GetApiToken("ProductionAPI2");
 #elif BETA
-            TelegramAPIKey = key.GetValue("BetaAPI").ToString();
+            TelegramAPIKey = GetApiToken("BetaAPI");
 #endif
             WWAPI = new TelegramBotClient(TelegramAPIKey);
             WWAPI.OnUpdate += WWAPI_OnUpdate;
-            var apikey = key.GetValue("QueueAPI").ToString();
+            var apikey = GetApiToken("QueueAPI");
             Api = new TelegramBotClient(apikey);
             Api.OnMessage += Api_OnMessage;
             Api.OnUpdate += ApiOnOnUpdate;

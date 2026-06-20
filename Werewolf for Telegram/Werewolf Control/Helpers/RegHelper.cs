@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,10 +9,26 @@ namespace Werewolf_Control.Helpers
 {
     public static class RegHelper
     {
-        private static RegistryKey _key = RegistryKey.OpenBaseKey(RegistryHive.LocalMachine, RegistryView.Registry64).OpenSubKey("SOFTWARE\\Werewolf");
         public static string GetRegValue(string key)
         {
-            return _key.GetValue(key, "").ToString();
+            var envValue = Environment.GetEnvironmentVariable(key);
+            if (!string.IsNullOrEmpty(envValue))
+                return envValue;
+
+            try
+            {
+                var regKey = RegistryKey.OpenBaseKey(RegistryHive.LocalMachine, RegistryView.Registry64).OpenSubKey("SOFTWARE\\Werewolf");
+                if (regKey != null)
+                {
+                    return regKey.GetValue(key, "").ToString();
+                }
+            }
+            catch (Exception)
+            {
+                // Ignore exception on non-Windows platforms
+            }
+
+            return "";
         }
     }
 }

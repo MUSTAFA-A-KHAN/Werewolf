@@ -18,13 +18,30 @@ namespace Database
     public partial class WWContext : DbContext
     {
         public WWContext()
-            : base(RegistryKey.OpenBaseKey(RegistryHive.LocalMachine, RegistryView.Registry64).OpenSubKey("SOFTWARE\\Werewolf").GetValue("BotConnectionString").ToString())
+            : base(Environment.GetEnvironmentVariable("BotConnectionString") ?? GetRegistryConnectionString())
         {
         }
     
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             throw new UnintentionalCodeFirstException();
+        }
+
+        private static string GetRegistryConnectionString()
+        {
+            try
+            {
+                var regKey = RegistryKey.OpenBaseKey(RegistryHive.LocalMachine, RegistryView.Registry64).OpenSubKey("SOFTWARE\\Werewolf");
+                if (regKey != null)
+                {
+                    return regKey.GetValue("BotConnectionString", "").ToString();
+                }
+            }
+            catch (Exception)
+            {
+                // Ignore on non-Windows platforms
+            }
+            return "";
         }
     
         public virtual DbSet<Admin> Admins { get; set; }
