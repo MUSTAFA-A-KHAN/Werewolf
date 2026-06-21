@@ -9,7 +9,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Xml.Linq;
 using Database;
-using Microsoft.Win32;
+using System;
 using Telegram.Bot;
 using Telegram.Bot.Args;
 using Telegram.Bot.Types;
@@ -71,17 +71,18 @@ namespace Werewolf_Control.Helpers
         {
 
             //get api token from registry
-            var key =
-                    RegistryKey.OpenBaseKey(RegistryHive.LocalMachine, RegistryView.Registry64)
-                        .OpenSubKey("SOFTWARE\\Werewolf");
+
+
+
+            //get api token from registry (migrated to env vars)
 #if DEBUG
-            TelegramAPIKey = key.GetValue("DebugAPI").ToString();
+            TelegramAPIKey = Environment.GetEnvironmentVariable("WEREWOLF_DEBUG_API") ?? "";
 #elif RELEASE
-            TelegramAPIKey = key.GetValue("ProductionAPI").ToString();
+            TelegramAPIKey = Environment.GetEnvironmentVariable("WEREWOLF_PRODUCTION_API") ?? "";
 #elif RELEASE2
-            TelegramAPIKey = key.GetValue("ProductionAPI2").ToString();
+            TelegramAPIKey = Environment.GetEnvironmentVariable("WEREWOLF_PRODUCTION_API2") ?? "";
 #elif BETA
-            TelegramAPIKey = key.GetValue("BetaAPI").ToString();
+            TelegramAPIKey = Environment.GetEnvironmentVariable("WEREWOLF_BETA_API") ?? "";
 #endif
             Api = new TelegramBotClient(TelegramAPIKey);
             //#if !BETA

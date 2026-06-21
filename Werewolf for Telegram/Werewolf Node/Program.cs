@@ -9,7 +9,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Timers;
 using System.Xml.Linq;
-using Microsoft.Win32;
+using System;
 using Newtonsoft.Json;
 using TcpFramework;
 using Telegram.Bot;
@@ -103,18 +103,16 @@ namespace Werewolf_Node
 
 
             //get api token from registry
-            var key =
-                    RegistryKey.OpenBaseKey(RegistryHive.LocalMachine, RegistryView.Registry64)
-                        .OpenSubKey("SOFTWARE\\Werewolf");
 
+            //get api token from registry (migrated to env vars)
 #if DEBUG
-            APIToken = key.GetValue("DebugAPI").ToString();
+            APIToken = Environment.GetEnvironmentVariable("WEREWOLF_DEBUG_API") ?? "";
 #elif RELEASE
-            APIToken = key.GetValue("ProductionAPI").ToString();
+            APIToken = Environment.GetEnvironmentVariable("WEREWOLF_PRODUCTION_API") ?? "";
 #elif RELEASE2
-            APIToken = key.GetValue("ProductionAPI2").ToString();
+            APIToken = Environment.GetEnvironmentVariable("WEREWOLF_PRODUCTION_API2") ?? "";
 #elif BETA
-            APIToken = key.GetValue("BetaAPI").ToString();
+            APIToken = Environment.GetEnvironmentVariable("WEREWOLF_BETA_API") ?? "";
 #endif
             Bot = new TelegramBotClient(APIToken);
             

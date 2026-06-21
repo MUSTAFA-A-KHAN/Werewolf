@@ -42,7 +42,7 @@ namespace Werewolf_Control.Helpers
             LangCode = Doc.Descendants("language").First().Attribute("code")?.Value;
             FilePath = path;
             FileName = Path.GetFileNameWithoutExtension(path);
-            LatestUpdate = File.GetLastWriteTimeUtc(path);
+            LatestUpdate = System.IO.File.GetLastWriteTimeUtc(path);
         }
     }
     public static class LanguageHelper
@@ -329,7 +329,7 @@ namespace Werewolf_Control.Helpers
             try
             {
                 var gitPath = Path.Combine(@"C:\Werewolf Source\Werewolf\Werewolf for Telegram\Languages", Path.GetFileName(copyToPath));
-                File.Copy(newFilePath, gitPath, true);
+                System.IO.File.Copy(newFilePath, gitPath, true);
                 System.IO.File.Delete(newFilePath);
                 msg += $"File copied to git directory\n";
                 if (Path.GetFileName(newFilePath) == Program.MasterLanguage)
@@ -434,9 +434,9 @@ namespace Werewolf_Control.Helpers
 
             //need to zip up all the files
             var path = Path.Combine(Bot.RootDirectory, "languages.zip");
-            if (File.Exists(path))
+            if (System.IO.File.Exists(path))
             {
-                File.Delete(path);
+                System.IO.File.Delete(path);
             }
 
             //create our zip file
@@ -476,8 +476,8 @@ namespace Werewolf_Control.Helpers
                 var dir = Path.Combine(Bot.LanguageDirectory, "BaseZips\\");
                 if (!Directory.Exists(dir))
                     Directory.CreateDirectory(dir);
-                if (File.Exists(path))
-                    File.Delete(path);
+                if (System.IO.File.Exists(path))
+                    System.IO.File.Delete(path);
 
                 //create our zip file
                 using (var zip = ZipFile.Open(path, ZipArchiveMode.Create))

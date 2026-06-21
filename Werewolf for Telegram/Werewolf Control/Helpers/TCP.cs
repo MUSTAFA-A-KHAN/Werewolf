@@ -122,7 +122,7 @@ namespace Werewolf_Control.Helpers
                                     return;
                                 }
                                 var response = JsonConvert.SerializeObject(game);
-                                using (var sw = new StreamWriter(Path.Combine(Bot.RootDirectory, "..\\tcpadmin.log"), true))
+                                using (var sw = new StreamWriter(Path.Combine(Bot.RootDirectory, "..", "tcpadmin.log"), true))
                                 {
                                     sw.WriteLine("Control Replying to GetGameInfo with:\n" + response + "\n\n");
                                 }
@@ -147,7 +147,7 @@ namespace Werewolf_Control.Helpers
                 while (e.InnerException != null)
                     e = e.InnerException;
                 //Console.WriteLine(e.Message);
-                using (var sw = new StreamWriter(Path.Combine(Bot.RootDirectory, "..\\Logs\\tcperror.log"), true))
+                using (var sw = new StreamWriter(Path.Combine(Bot.RootDirectory, "..", "Logs", "tcperror.log"), true))
                     sw.WriteLine(e.Message + "\n" + e.StackTrace + "\n");
             }
             finally
