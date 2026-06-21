@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Timers;
-using System.Windows.Forms;
+
 using Database;
 using Werewolf_Control.Handler;
 using Werewolf_Control.Helpers;
@@ -110,7 +110,7 @@ namespace Werewolf_Control
             }
 
 #if BETA
-            BetaUnlocked = File.Exists(Path.Combine(Bot.RootDirectory, ".betaunlocked"));
+            BetaUnlocked = System.IO.File.Exists(Path.Combine(Bot.RootDirectory, ".betaunlocked"));
 #endif
 
             //start up the bot

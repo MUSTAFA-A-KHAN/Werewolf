@@ -10,6 +10,7 @@
 #Internal settings (passwords, api keys, etc)
 Interal.settings
 
+
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
@@ -138,6 +139,7 @@ DocProject/Help/html
 
 # Click-Once directory
 publish/
+Languages/
 
 # Publish Web Output
 *.[Pp]ublish.xml

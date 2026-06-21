@@ -1,19 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Microsoft.Win32;
+using System;
 
 namespace Database
 {
     public static class RegHelper
     {
-        private static RegistryKey _key = RegistryKey.OpenBaseKey(RegistryHive.LocalMachine, RegistryView.Registry64).OpenSubKey("SOFTWARE\\Werewolf");
         public static string GetRegValue(string key)
         {
-            return _key.GetValue(key, "").ToString();
+            return Environment.GetEnvironmentVariable(key) ?? "";
         }
-        public static string DBConnString => GetRegValue("DBConnectionString");
+        public static string DBConnString => GetRegValue("WEREWOLF_DB_CONNECTION_STRING");
     }
 }

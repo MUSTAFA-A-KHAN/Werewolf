@@ -10,7 +10,7 @@ using System.Linq;
 using System.Text.RegularExpressions;
 using System.Threading;
 using System.Threading.Tasks;
-using System.Windows.Forms.DataVisualization.Charting;
+
 using System.Xml.Linq;
 using Database;
 using Newtonsoft.Json;
@@ -26,7 +26,7 @@ using File = System.IO.File;
 using Group = Database.Group;
 using RegHelper = Werewolf_Control.Helpers.RegHelper;
 using System.Collections;
-using System.Drawing;
+
 using Telegram.Bot;
 
 #pragma warning disable CS4014 // Because this call is not awaited, execution of the current method continues before the call is completed
@@ -606,61 +606,7 @@ namespace Werewolf_Control
         //}
 
         [Attributes.Command(Trigger = "test", DevOnly = true)]
-        public static void Test(Update update, string[] args)
-        {
-            Bot.Send("Please hold, creating chart...", update.Message.Chat.Id);
-
-            using (var chart = new Chart())
-            {
-                //var gameSeries = chart.Series.Add("Games");
-                var playerSeries = chart.Series.Add("Players");
-                var title = chart.Titles.Add("Usage per month over time");
-                var chartArea = chart.ChartAreas.Add("Area");
-                var legend = chart.Legends.Add("Legend");
-
-                chart.Width = 5000;
-                chart.Height = 2000;
-
-                //gameSeries.ChartType = SeriesChartType.Spline;
-                //gameSeries.BorderWidth = 30;
-                //gameSeries.IsVisibleInLegend = true;
-
-                playerSeries.ChartType = SeriesChartType.Spline;
-                playerSeries.BorderWidth = 30;
-                playerSeries.IsVisibleInLegend = true;
-
-                title.Font = new Font(FontFamily.GenericSansSerif, 100);
-
-                chartArea.AxisX.LabelStyle.Font = new Font(FontFamily.GenericSansSerif, 80);
-                chartArea.AxisY.LabelStyle.Font = new Font(FontFamily.GenericSansSerif, 80);
-
-                legend.Font = new Font(FontFamily.GenericSansSerif, 80);
-                legend.Enabled = true;
-
-                using (var db = new WWContext())
-                {
-                    for (DateTime month = new DateTime(2016, 04, 01); month < DateTime.UtcNow.Date; month = month.AddMonths(1))
-                    {
-                        var next = month.AddMonths(1);
-
-                        var monthName = month.ToString("M/y");
-                        var games = db.Games.Where(x => x.TimeStarted >= month && x.TimeStarted < next);
-
-                        //gameSeries.Points.AddXY(monthName, games.Count());
-                        playerSeries.Points.AddXY(monthName, games.Sum(x => x.GamePlayers.Count));
-                    }
-                }
-
-                using (var fs = new FileStream("Test.jpg", FileMode.Create))
-                {
-                    chart.SaveImage(fs, ChartImageFormat.Jpeg);
-                }
-
-                using (var fs = new FileStream("Test.jpg", FileMode.Open))
-                {
-                    Bot.Api.SendPhotoAsync(chatId: update.Message.Chat.Id, photo: new InputFile(fs, "Chart.jpg"), messageThreadId: update.Message.MessageThreadId).Wait();
-                }
-            }
+        public static void Test(Update update, string[] args) {
         }
 
         /// <summary>
@@ -672,24 +618,14 @@ namespace Werewolf_Control
         public static void Usage(Update update, string[] args)
         {
             var msgId = Bot.Send("Please hold, reading values", update.Message.Chat.Id).Result.MessageId;
-            var cpuCount = new PerformanceCounter
-            {
-                CategoryName = "Processor",
-                CounterName = "% Processor Time",
-                InstanceName = "_Total"
-            };
-            var cpu = cpuCount.NextValue() + "%";
+            var cpu = "N/A";
             var cpuTimes = new List<int>();
 
-            for (var i = 0; i < 10; i++)
-            {
-                Thread.Sleep(500);
-                cpuTimes.Add((int)cpuCount.NextValue());
-            }
+            cpuTimes.Add(0);
 
             var cpuAvg = (int)cpuTimes.Average();
 
-            var ram = new PerformanceCounter("Memory", "Available MBytes").NextValue() + "MB";
+            var ram = "N/A MB";
 
             Bot.Edit(update.Message.Chat.Id, msgId, $"CPU Usage: {cpuAvg}%\r\nRAM available: {ram}");
         }
@@ -1488,7 +1424,7 @@ namespace Werewolf_Control
         [Attributes.Command(Trigger = "clearlogs", DevOnly = true)]
         public static void ClearLogs(Update u, string[] args)
         {
-            var LogPath = Path.Combine(Bot.RootDirectory, "..\\Logs\\");
+            var LogPath = Path.Combine(Bot.RootDirectory, "..", "Logs") + Path.DirectorySeparatorChar;
             var files = new[] { "NodeFatalError.log", "error.log", "tcperror.log", "apireceiveerror.log", "getUpdates.log" };
             foreach (var file in files)
             {
@@ -1516,12 +1452,12 @@ namespace Werewolf_Control
         {
             try
             {
-                var LogPath = Path.Combine(Bot.RootDirectory, "..\\Logs\\");
+                var LogPath = Path.Combine(Bot.RootDirectory, "..", "Logs") + Path.DirectorySeparatorChar;
 
                 var path = LogPath + "errors.zip";
-                if (File.Exists(path))
+                if (System.IO.File.Exists(path))
                 {
-                    File.Delete(path);
+                    System.IO.File.Delete(path);
                 }
                 var someFileExists = false;
                 using (var zip = ZipFile.Open(path, ZipArchiveMode.Create))
@@ -1531,7 +1467,7 @@ namespace Werewolf_Control
                     foreach (var file in files)
                     {
                         var fp = LogPath + file;
-                        if (!File.Exists(fp)) continue;
+                        if (!System.IO.File.Exists(fp)) continue;
                         someFileExists = true;
                         zip.CreateEntryFromFile(fp, file, CompressionLevel.Optimal);
                     }
@@ -1744,7 +1680,7 @@ namespace Werewolf_Control
 #if BETA
             if (Program.BetaUnlocked)
             {
-                File.Delete(Path.Combine(Bot.RootDirectory, ".betaunlocked"));
+                System.IO.File.Delete(Path.Combine(Bot.RootDirectory, ".betaunlocked"));
                 Program.BetaUnlocked = false;
                 foreach (var id in new[] { u.Message.Chat.Id, -1001094155678 }.Distinct())
                     Bot.Send($"<b>Beta has been locked for non-betagroups by {u.Message.From.FirstName.FormatHTML()}!</b>", id);

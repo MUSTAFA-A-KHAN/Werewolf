@@ -1,4 +1,4 @@
-﻿using Microsoft.Win32;
+﻿using System;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -42,22 +42,22 @@ namespace ClearUpdates
                 Console.WriteLine("==" + exc.Message + "==\n" + exc.StackTrace);
             };
 
-            var key =
-                    RegistryKey.OpenBaseKey(RegistryHive.LocalMachine, RegistryView.Registry64)
-                        .OpenSubKey("SOFTWARE\\Werewolf");
             
+
+
+            //get api token from registry (migrated to env vars)
 #if DEBUG
-            TelegramAPIKey = key.GetValue("DebugAPI").ToString();
+            TelegramAPIKey = Environment.GetEnvironmentVariable("WEREWOLF_DEBUG_API") ?? "";
 #elif RELEASE
-            TelegramAPIKey = key.GetValue("ProductionAPI").ToString();
+            TelegramAPIKey = Environment.GetEnvironmentVariable("WEREWOLF_PRODUCTION_API") ?? "";
 #elif RELEASE2
-            TelegramAPIKey = key.GetValue("ProductionAPI2").ToString();
+            TelegramAPIKey = Environment.GetEnvironmentVariable("WEREWOLF_PRODUCTION_API2") ?? "";
 #elif BETA
-            TelegramAPIKey = key.GetValue("BetaAPI").ToString();
+            TelegramAPIKey = Environment.GetEnvironmentVariable("WEREWOLF_BETA_API") ?? "";
 #endif
             WWAPI = new TelegramBotClient(TelegramAPIKey);
             WWAPI.OnUpdate += WWAPI_OnUpdate;
-            var apikey = key.GetValue("QueueAPI").ToString();
+            var apikey = Environment.GetEnvironmentVariable("WEREWOLF_QUEUE_API") ?? "";
             Api = new TelegramBotClient(apikey);
             Api.OnMessage += Api_OnMessage;
             Api.OnUpdate += ApiOnOnUpdate;

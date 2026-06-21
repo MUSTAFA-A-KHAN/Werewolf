@@ -9,7 +9,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Timers;
 using System.Xml.Linq;
-using Microsoft.Win32;
+using System;
 using Newtonsoft.Json;
 using TcpFramework;
 using Telegram.Bot;
@@ -51,15 +51,15 @@ namespace Werewolf_Node
         {
             get
             {
-                var dir1 = Path.GetFullPath(Path.Combine(RootDirectory, @"..\..\..\Languages"));
+                var dir1 = Path.GetFullPath(Path.Combine(RootDirectory, "..", "..", "..", "Languages"));
                 if (Directory.Exists(dir1)) return dir1;
-                var dir2 = Path.GetFullPath(Path.Combine(RootDirectory, @"..\Languages"));
+                var dir2 = Path.GetFullPath(Path.Combine(RootDirectory, "..", "Languages"));
                 if (Directory.Exists(dir2)) return dir2;
-                return Path.GetFullPath(Path.Combine(RootDirectory, @"..\..\Languages"));
+                return Path.GetFullPath(Path.Combine(RootDirectory, "..", "..", "Languages"));
             }
         }
 
-        internal static string TempLanguageDirectory => Path.GetFullPath(Path.Combine(RootDirectory, @"..\..\TempLanguageFiles"));
+        internal static string TempLanguageDirectory => Path.GetFullPath(Path.Combine(RootDirectory, "..", "..", "TempLanguageFiles"));
         internal static Dictionary<string, LangFile> Languages { get; } = new Dictionary<string, LangFile>();
         internal static XDocument English;
         internal const string MasterLanguage = "English.xml";
@@ -72,7 +72,7 @@ namespace Werewolf_Node
             AppDomain.CurrentDomain.UnhandledException += (sender, eventArgs) =>
             {
                 var ex = eventArgs.ExceptionObject as Exception;
-                using (var sw = new StreamWriter(Path.Combine(RootDirectory, "..\\Logs\\NodeFatalError.log"), true))
+                using (var sw = new StreamWriter(Path.Combine(RootDirectory, "..", "Logs", "NodeFatalError.log"), true))
                 {
 
                     sw.WriteLine($"{DateTime.Now} - {Version} - {ex.Message}");
@@ -103,18 +103,16 @@ namespace Werewolf_Node
 
 
             //get api token from registry
-            var key =
-                    RegistryKey.OpenBaseKey(RegistryHive.LocalMachine, RegistryView.Registry64)
-                        .OpenSubKey("SOFTWARE\\Werewolf");
 
+            //get api token from registry (migrated to env vars)
 #if DEBUG
-            APIToken = key.GetValue("DebugAPI").ToString();
+            APIToken = Environment.GetEnvironmentVariable("WEREWOLF_DEBUG_API") ?? "";
 #elif RELEASE
-            APIToken = key.GetValue("ProductionAPI").ToString();
+            APIToken = Environment.GetEnvironmentVariable("WEREWOLF_PRODUCTION_API") ?? "";
 #elif RELEASE2
-            APIToken = key.GetValue("ProductionAPI2").ToString();
+            APIToken = Environment.GetEnvironmentVariable("WEREWOLF_PRODUCTION_API2") ?? "";
 #elif BETA
-            APIToken = key.GetValue("BetaAPI").ToString();
+            APIToken = Environment.GetEnvironmentVariable("WEREWOLF_BETA_API") ?? "";
 #endif
             Bot = new TelegramBotClient(APIToken);
             

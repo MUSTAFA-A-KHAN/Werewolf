@@ -2,7 +2,7 @@ using System;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
-using Microsoft.Win32;
+using System;
 using Newtonsoft.Json;
 using System.Collections.Generic;
 
@@ -19,9 +19,8 @@ namespace Werewolf_Node.Services
             // Load API key from registry, similar to other API keys in the application
             try
             {
-                var key = RegistryKey.OpenBaseKey(RegistryHive.LocalMachine, RegistryView.Registry64)
-                    .OpenSubKey("SOFTWARE\\Werewolf");
-                _apiKey = key?.GetValue("OpenAIAPIKey")?.ToString();
+
+                _apiKey = Environment.GetEnvironmentVariable("WEREWOLF_OPENAI_API_KEY");
             }
             catch (Exception ex)
             {

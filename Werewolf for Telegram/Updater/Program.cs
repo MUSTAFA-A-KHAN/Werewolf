@@ -55,8 +55,8 @@ namespace Updater
                 foreach (var file in Directory.GetFiles(Path.Combine(mainPath, "update")))
                 {
                     Console.WriteLine(file);
-                    File.Copy(file, file.Replace("\\update", ""), true);
-                    File.Delete(file);
+                    System.IO.File.Copy(file, file.Replace(Path.DirectorySeparatorChar + "update", ""), true);
+                    System.IO.File.Delete(file);
                 }
                 Console.WriteLine("Starting bot....");
                 //now start it back up

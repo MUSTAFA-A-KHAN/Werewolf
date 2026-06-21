@@ -9,7 +9,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Xml.Linq;
 using Database;
-using Microsoft.Win32;
+using System;
 using Telegram.Bot;
 using Telegram.Bot.Args;
 using Telegram.Bot.Types;
@@ -51,37 +51,38 @@ namespace Werewolf_Control.Helpers
                 return Path.GetDirectoryName(path);
             }
         }
-        internal static string LogDirectory = Path.Combine(RootDirectory, "..\\Logs\\");
+        internal static string LogDirectory =  Path.Combine(RootDirectory, "..", "Logs");
         internal delegate void ChatCommandMethod(Update u, string[] args);
         internal static List<Command> Commands = new List<Command>();
         internal static string LanguageDirectory
         {
             get
             {
-                var dir1 = Path.GetFullPath(Path.Combine(RootDirectory, @"..\..\..\Languages"));
+                var dir1 = Path.GetFullPath(Path.Combine(RootDirectory, "..", "..", "..", "Languages"));
                 if (Directory.Exists(dir1)) return dir1;
-                var dir2 = Path.GetFullPath(Path.Combine(RootDirectory, @"..\Languages"));
+                 var dir2 = Path.GetFullPath(Path.Combine(RootDirectory, "..", "Languages"));
                 if (Directory.Exists(dir2)) return dir2;
-                return Path.GetFullPath(Path.Combine(RootDirectory, @"..\..\Languages"));
+                 return Path.GetFullPath(Path.Combine(RootDirectory, "..", "..", "Languages"));
             }
         }
 
-        internal static string TempLanguageDirectory => Path.GetFullPath(Path.Combine(RootDirectory, @"..\..\TempLanguageFiles"));
+        internal static string TempLanguageDirectory => Path.GetFullPath(Path.Combine(RootDirectory, "..", "..", "TempLanguageFiles"));
         public static void Initialize(string updateid = null)
         {
 
             //get api token from registry
-            var key =
-                    RegistryKey.OpenBaseKey(RegistryHive.LocalMachine, RegistryView.Registry64)
-                        .OpenSubKey("SOFTWARE\\Werewolf");
+
+
+
+            //get api token from registry (migrated to env vars)
 #if DEBUG
-            TelegramAPIKey = key.GetValue("DebugAPI").ToString();
+            TelegramAPIKey = Environment.GetEnvironmentVariable("WEREWOLF_DEBUG_API") ?? "";
 #elif RELEASE
-            TelegramAPIKey = key.GetValue("ProductionAPI").ToString();
+            TelegramAPIKey = Environment.GetEnvironmentVariable("WEREWOLF_PRODUCTION_API") ?? "";
 #elif RELEASE2
-            TelegramAPIKey = key.GetValue("ProductionAPI2").ToString();
+            TelegramAPIKey = Environment.GetEnvironmentVariable("WEREWOLF_PRODUCTION_API2") ?? "";
 #elif BETA
-            TelegramAPIKey = key.GetValue("BetaAPI").ToString();
+            TelegramAPIKey = Environment.GetEnvironmentVariable("WEREWOLF_BETA_API") ?? "";
 #endif
             Api = new TelegramBotClient(TelegramAPIKey);
             //#if !BETA
@@ -131,7 +132,10 @@ namespace Werewolf_Control.Helpers
 
             Me = Api.GetMeAsync().Result;
             //Api.OnMessage += ApiOnOnMessage;
-            Console.Title += " " + Me.Username;
+           if (OperatingSystem.IsWindows())
+{
+    Console.Title = "Werewolf Control " + Me.Username;
+}
             if (!String.IsNullOrEmpty(updateid))
                 Api.SendTextMessageAsync(chatId: updateid, text: "Control updated\n" + Program.GetVersion());
             StartTime = DateTime.UtcNow;
