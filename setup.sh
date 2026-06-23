@@ -28,68 +28,14 @@ fi
 
 read -p "OpenAI API Key (optional): " OPENAI_TOKEN
 
-echo ""
-echo "Starting MSSQL..."
+read -p "MongoDB Atlas Connection String: " MONGO_CONN_STR
 
-sudo docker run \
-    -e "ACCEPT_EULA=Y" \
-    -e "MSSQL_SA_PASSWORD=Werewolf@12345" \
-    -p 1433:1433 \
-    --name werewolf-sql \
-    -d mcr.microsoft.com/mssql/server:2022-latest \
-    >/dev/null 2>&1 || sudo docker start werewolf-sql
-
-echo "Waiting for SQL Server..."
-
-until sudo docker exec werewolf-sql \
-    /opt/mssql-tools18/bin/sqlcmd \
-    -C \
-    -S localhost \
-    -U SA \
-    -P "Werewolf@12345" \
-    -Q "SELECT 1" >/dev/null 2>&1
-do
-    sleep 5
-done
-
-echo "SQL Server is ready."
-
-echo ""
-echo "Checking database..."
-
-DB_EXISTS=$(sudo docker exec werewolf-sql \
-    /opt/mssql-tools18/bin/sqlcmd \
-    -C \
-    -S localhost \
-    -U SA \
-    -P "Werewolf@12345" \
-    -h -1 \
-    -Q "SET NOCOUNT ON; SELECT COUNT(*) FROM sys.databases WHERE name='werewolf'" \
-    | tr -d '[:space:]')
-
-if [ "$DB_EXISTS" != "1" ]; then
-    echo "Creating database..."
-
-    cp werewolf.sql /tmp/werewolf_docker.sql
-
-    sed -i \
-      's|C:\\Program Files\\Microsoft SQL Server\\MSSQL12.SQLEXPRESS\\MSSQL\\DATA\\|/var/opt/mssql/data/|g' \
-      /tmp/werewolf_docker.sql
-
-    sudo docker cp \
-      /tmp/werewolf_docker.sql \
-      werewolf-sql:/var/opt/mssql/data/werewolf_docker.sql
-
-    sudo docker exec -i werewolf-sql \
-      /opt/mssql-tools18/bin/sqlcmd \
-      -C \
-      -S localhost \
-      -U SA \
-      -P "Werewolf@12345" \
-      -i /var/opt/mssql/data/werewolf_docker.sql
-else
-    echo "Database already exists. Skipping import."
+if [ -z "$MONGO_CONN_STR" ]; then
+    echo "MongoDB Atlas connection string is required."
+    return 1 2>/dev/null || exit 1
 fi
+
+echo ""
 
 echo ""
 echo "Writing .env..."
@@ -98,7 +44,8 @@ cat > .env <<EOF
 $API_VAR=$API_TOKEN
 WEREWOLF_BOT_API_TOKEN=$API_TOKEN
 WEREWOLF_OPENAI_API_KEY=$OPENAI_TOKEN
-WEREWOLF_DB_CONNECTION_STRING='metadata=res://*/Database.WerewolfModel.csdl|res://*/Database.WerewolfModel.ssdl|res://*/Database.WerewolfModel.msl;provider=System.Data.SqlClient;provider connection string="data source=localhost,1433;initial catalog=werewolf;user id=SA;password=Werewolf@12345;Encrypt=False;TrustServerCertificate=True;MultipleActiveResultSets=True;App=EntityFramework"'
+WEREWOLF_DB_CONNECTION_STRING="$MONGO_CONN_STR"
+WEREWOLF_MONGO_CONNECTION_STRING="$MONGO_CONN_STR"
 EOF
 
 echo ""
