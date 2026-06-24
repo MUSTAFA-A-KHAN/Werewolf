@@ -11,6 +11,8 @@ namespace Database
 {
     using System;
     using System.Collections.Generic;
+    using MongoDB.Bson;
+    using MongoDB.Bson.Serialization.Attributes;
     
     public partial class Game
     {
@@ -20,7 +22,8 @@ namespace Database
             this.GameKills = new HashSet<GameKill>();
             this.GamePlayers = new HashSet<GamePlayer>();
         }
-    
+        [BsonId]
+        public ObjectId MongoId { get; set; }
         public int Id { get; set; }
         public string GroupName { get; set; }
         public long GroupId { get; set; }

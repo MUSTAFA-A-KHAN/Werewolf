@@ -11,9 +11,12 @@ namespace Database
 {
     using System;
     using System.Collections.Generic;
+    using MongoDB.Bson;
+    using MongoDB.Bson.Serialization.Attributes;
     
     public partial class GroupRanking
-    {
+    {   [BsonId]
+        public ObjectId MongoId { get; set; }
         public int GroupId { get; set; }
         public string Language { get; set; }
         public int PlayersCount { get; set; }
