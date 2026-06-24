@@ -75,30 +75,30 @@ set +a
 #   --self-contained true \
 #   --no-restore
 
-echo ""
-echo "Preparing deployment..."
+# echo ""
+# echo "Preparing deployment..."
 
-ROOT_DIR="$(pwd)/Server"
+# ROOT_DIR="$(pwd)/Server"
 
-mkdir -p "$ROOT_DIR/Control"
-mkdir -p "$ROOT_DIR/Node 1"
-mkdir -p "$ROOT_DIR/Logs"
-mkdir -p "$ROOT_DIR/Languages"
+# mkdir -p "$ROOT_DIR/Control"
+# mkdir -p "$ROOT_DIR/Node 1"
+# mkdir -p "$ROOT_DIR/Logs"
+# mkdir -p "$ROOT_DIR/Languages"
 
-rm -rf "$ROOT_DIR/Control"/*
-rm -rf "$ROOT_DIR/Node 1"/*
+# rm -rf "$ROOT_DIR/Control"/*
+# rm -rf "$ROOT_DIR/Node 1"/*
 
-cp -r \
-  "Werewolf for Telegram/Werewolf Control/bin/$BUILD_CONFIG/net8.0/linux-x64/publish/." \
-  "$ROOT_DIR/Control/"
+# cp -r \
+#   "Werewolf for Telegram/Werewolf Control/bin/$BUILD_CONFIG/net8.0/linux-x64/publish/." \
+#   "$ROOT_DIR/Control/"
 
-cp -r \
-  "Werewolf for Telegram/Werewolf Node/bin/$BUILD_CONFIG/net8.0/linux-x64/publish/." \
-  "$ROOT_DIR/Node 1/"
+# cp -r \
+#   "Werewolf for Telegram/Werewolf Node/bin/$BUILD_CONFIG/net8.0/linux-x64/publish/." \
+#   "$ROOT_DIR/Node 1/"
 
-cp -r \
-  "Werewolf for Telegram/Languages/"* \
-  "$ROOT_DIR/Languages/"
+# cp -r \
+#   "Werewolf for Telegram/Languages/"* \
+#   "$ROOT_DIR/Languages/"
 
 echo ""
 echo "Starting Control..."
