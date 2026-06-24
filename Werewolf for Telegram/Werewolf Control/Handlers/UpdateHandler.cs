@@ -110,7 +110,7 @@ namespace Werewolf_Control.Handler
                         db.SaveChanges();
 
                         //now refresh the list
-                        var list = db.GlobalBans.ToList();
+                        var list = db.GlobalBans.ToList().ToList();
 #if RELEASE
                         for (var i = list.Count - 1; i >= 0; i--)
                         {
@@ -684,7 +684,7 @@ namespace Werewolf_Control.Handler
 
                 if (level > 10)
                 {
-                    var packs = db.Players.Count(x => x.GifPurchased == true);
+                    var packs = db.Players.AsQueryable().Count(x => x.GifPurchased == true);
                     if (packs >= 100)
                     {
                         //do nothing, they didn't unlock it.
@@ -1054,10 +1054,10 @@ namespace Werewolf_Control.Handler
                                     var para = db.Players.FirstOrDefault(x => x.Id == userid).Id;
 
                                     //get all the players Para has played with
-                                    var ohaiplayers = (from g in db.Games
-                                                       join gp in db.GamePlayers on g.Id equals gp.GameId
-                                                       join gp2 in db.GamePlayers on g.Id equals gp2.GameId
-                                                       join pl in db.Players on gp2.PlayerId equals pl.Id
+                                    var ohaiplayers = (from g in db.Games.AsQueryable()
+                                                       join gp in db.GamePlayers.AsQueryable() on g.Id equals gp.GameId
+                                                       join gp2 in db.GamePlayers.AsQueryable() on g.Id equals gp2.GameId
+                                                       join pl in db.Players.AsQueryable() on gp2.PlayerId equals pl.Id
                                                        where gp.PlayerId == para
                                                        select pl).Distinct().Select(x => new { x.Id, x.NewAchievements }).ToList();
 

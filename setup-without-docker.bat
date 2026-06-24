@@ -70,87 +70,18 @@ set /p OPENAI_TOKEN="Enter OpenAI API Token (optional, press Enter to skip): "
 echo.
 
 REM ==================================================
-REM VERIFY SQL EXPRESS
+REM MONGODB CONNECTION STRING
 REM ==================================================
-echo Checking SQL Express...
+set /p MONGO_CONN_STR="Please enter your MongoDB Atlas Connection String: "
 
-sqlcmd -S localhost\SQLEXPRESS -Q "SELECT @@VERSION" >nul 2>&1
-
-if %errorlevel% neq 0 (
-    echo.
-    echo ERROR: Cannot connect to localhost\SQLEXPRESS
-    echo Ensure SQL Server Express is installed and running.
+if "%MONGO_CONN_STR%"=="" (
+    echo Error: MongoDB Atlas Connection String cannot be empty.
     pause
     exit /b 1
 )
-
-echo SQL connection successful.
 echo.
 
-REM ==================================================
-REM DATABASE SETUP
-REM ==================================================
-echo Checking database...
 
-sqlcmd -S localhost\SQLEXPRESS -Q "IF DB_ID('werewolf') IS NULL CREATE DATABASE werewolf"
-
-if %errorlevel% neq 0 (
-    echo Failed to create/check database.
-    pause
-    exit /b 1
-)
-
-echo Database exists.
-echo.
-
-REM ==================================================
-REM IMPORT SQL ONLY IF TABLES MISSING
-REM ==================================================
-echo Checking database schema...
-
-sqlcmd -S localhost\SQLEXPRESS -d werewolf -Q "IF OBJECT_ID('dbo.Player', 'U') IS NULL BEGIN PRINT 'IMPORT_REQUIRED' END" > temp_db_check.txt
-
-findstr /C:"IMPORT_REQUIRED" temp_db_check.txt >nul
-
-if %errorlevel%==0 (
-
-    echo Empty database detected.
-
-    if exist "C:\Users\MustafaKhan\repos\Werewolf\werewolf-backup.sql" (
-
-        echo Found backup SQL.
-        echo Importing backup database...
-
-        sqlcmd -S localhost\SQLEXPRESS -E -i "C:\Users\MustafaKhan\repos\Werewolf\werewolf-backup.sql"
-
-    ) else (
-
-        echo Backup not found.
-        echo Importing default werewolf.sql...
-
-        sqlcmd -S localhost\SQLEXPRESS -d werewolf -i werewolf.sql
-
-    )
-
-    if %errorlevel% neq 0 (
-        echo Database initialization failed.
-        del temp_db_check.txt >nul 2>&1
-        pause
-        exit /b 1
-    )
-
-    echo Database initialized successfully.
-
-) else (
-
-    echo Existing database detected.
-    echo Skipping SQL import to preserve data.
-
-)
-
-del temp_db_check.txt >nul 2>&1
-
-echo.
 
 REM ==================================================
 REM REGISTRY SETUP
@@ -181,12 +112,24 @@ if not "%OPENAI_TOKEN%"=="" (
 )
 
 REM ==================================================
-REM ENTITY FRAMEWORK CONNECTION STRING
+REM DATABASE CONNECTION STRING
 REM ==================================================
 reg add "HKLM\SOFTWARE\Werewolf" ^
 /v BotConnectionString ^
 /t REG_SZ ^
-/d "metadata=res://*/WerewolfModel.csdl|res://*/WerewolfModel.ssdl|res://*/WerewolfModel.msl;provider=System.Data.SqlClient;provider connection string=\"Data Source=localhost\SQLEXPRESS;Initial Catalog=werewolf;Integrated Security=True;MultipleActiveResultSets=True;App=EntityFramework;TrustServerCertificate=True\"" ^
+/d "%MONGO_CONN_STR%" ^
+/f
+
+reg add "HKLM\SOFTWARE\Werewolf" ^
+/v WEREWOLF_DB_CONNECTION_STRING ^
+/t REG_SZ ^
+/d "%MONGO_CONN_STR%" ^
+/f
+
+reg add "HKLM\SOFTWARE\Werewolf" ^
+/v WEREWOLF_MONGO_CONNECTION_STRING ^
+/t REG_SZ ^
+/d "%MONGO_CONN_STR%" ^
 /f
 
 echo.

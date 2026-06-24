@@ -25,5 +25,7 @@ namespace Database
         public Nullable<bool> Show { get; set; }
     
         public virtual Group Group { get; set; }
+        public string Name => Group?.Name;
+        public string GroupLink => Group?.GroupLink;
     }
 }

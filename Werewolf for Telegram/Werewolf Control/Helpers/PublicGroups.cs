@@ -56,23 +56,23 @@ namespace Werewolf_Control.Helpers
         //    }
         //}
         
-        private static List<v_GroupRanking> _list;
+        private static List<GroupRanking> _list;
         private static List<string> _langs;
         private static DateTime _lastGetAll = DateTime.MinValue, _lastGetBase = DateTime.MinValue;
 
         private static Dictionary<string,List<string>> _variants = new Dictionary<string, List<string>>();
         private static Dictionary<string, DateTime> _lastGetVariant = new Dictionary<string, DateTime>();
-        internal static List<v_GroupRanking> GetAll()
+        internal static List<GroupRanking> GetAll()
         {
             if (_lastGetAll < DateTime.UtcNow.AddMinutes(-20) || _list == null)
             {
                 //only refresh the list cache once every 20 minutes
                 using (var db = new WWContext())
                 {
-                    var lastUpdate = db.v_GroupRanking.Max(x => x.LastRefresh);
+                    var lastUpdate = db.GroupRanking.AsQueryable().Max(x => x.LastRefresh);
                     try
                     {
-                        _list = db.v_GroupRanking/*.GroupBy(x => new { x.TelegramId, x.Name, x.Language, x.Ranking, x.LastRefresh })
+                        _list = db.GroupRanking.AsQueryable()/*.GroupBy(x => new { x.TelegramId, x.Name, x.Language, x.Ranking, x.LastRefresh })
                             .SelectMany(x => x)*/.ToList();
                     }
                     catch (Exception e)
@@ -125,7 +125,7 @@ namespace Werewolf_Control.Helpers
             return _variants[baseLang];
         }
         
-        internal static IEnumerable<v_GroupRanking> ForLanguage(string baseLang, string variant)
+        internal static IEnumerable<GroupRanking> ForLanguage(string baseLang, string variant)
         {
             string lang = variant == "all"
                 ? $"{baseLang}BaseAllVariants"

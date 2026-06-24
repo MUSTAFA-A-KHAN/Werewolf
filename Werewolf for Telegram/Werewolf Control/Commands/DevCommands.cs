@@ -134,17 +134,8 @@ namespace Werewolf_Control
                     return;
                 }
 
-                var ach = ((OldAchievements)p.Achievements.Value).GetUniqueFlags();
-                var newach = p.NewAchievements == null ? new BitArray(200) : new BitArray(p.NewAchievements);
-                foreach (var a in ach)
-                {
-                    if (Enum.TryParse(a.ToString(), out AchievementsReworked newa))
-                    {
-                        newach[(int)newa] = true;
-                    }
-                }
-
-                p.NewAchievements = newach.ToByteArray();
+                Bot.Send("Legacy achievements have already been completely removed in the new MongoDB architecture. Cannot convert.", update.Message.Chat.Id);
+                return;
                 db.SaveChanges();
             }
             Bot.Send("Successfully moved achievements for player " + userid, update.Message.Chat.Id);
@@ -705,46 +696,7 @@ namespace Werewolf_Control
         [Attributes.Command(Trigger = "sql", DevOnly = true)]
         public static void Sql(Update u, string[] args)
         {
-            if (args.Length == 1)
-            {
-                Send("You must enter a sql command...", u.Message.Chat.Id);
-                return;
-            }
-            using (var db = new WWContext())
-            {
-                var conn = db.Database.Connection;
-                if (conn.State != ConnectionState.Open)
-                    conn.Open();
-                string raw = "";
-
-                var queries = args[1].Split(';');
-                foreach (var sql in queries)
-                {
-                    using (var comm = conn.CreateCommand())
-                    {
-                        comm.CommandText = sql;
-                        var reader = comm.ExecuteReader();
-                        var result = "";
-                        if (reader.HasRows)
-                        {
-                            for (int i = 0; i < reader.FieldCount; i++)
-                                raw += reader.GetName(i) + (i == reader.FieldCount - 1 ? "" : " - ");
-                            result += raw + Environment.NewLine;
-                            raw = "";
-                            while (reader.Read())
-                            {
-                                for (int i = 0; i < reader.FieldCount; i++)
-                                    raw += (reader.IsDBNull(i) ? "<i>NULL</i>" : reader[i]) + (i == reader.FieldCount - 1 ? "" : " - ");
-                                result += raw + Environment.NewLine;
-                                raw = "";
-                            }
-                        }
-                        result += reader.RecordsAffected == -1 ? "" : (reader.RecordsAffected + " records affected");
-                        result = !String.IsNullOrEmpty(result) ? result : (sql.ToLower().StartsWith("select") ? "Nothing found" : "Done.");
-                        Send(result, u.Message.Chat.Id);
-                    }
-                }
-            }
+            Send("SQL commands are disabled because the database has been migrated to MongoDB.", u.Message.Chat.Id);
         }
 
         [Attributes.Command(Trigger = "reloadenglish", DevOnly = true)]

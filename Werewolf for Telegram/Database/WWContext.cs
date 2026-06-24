@@ -13,7 +13,12 @@ namespace Database
         {
             var connectionString = Environment.GetEnvironmentVariable("WEREWOLF_MONGO_CONNECTION_STRING")
                 ?? Environment.GetEnvironmentVariable("WEREWOLF_DB_CONNECTION_STRING")
-                ?? "mongodb://localhost:27017/werewolf";
+                ?? RegHelper.DBConnString;
+
+            if (string.IsNullOrWhiteSpace(connectionString))
+            {
+                connectionString = "mongodb://localhost:27017/werewolf";
+            }
             var client = new MongoClient(connectionString);
             _database = client.GetDatabase("werewolf");
         }

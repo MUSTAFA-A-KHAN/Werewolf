@@ -256,8 +256,8 @@ namespace Werewolf_Control.Models
                     
                     Description = $"Get the types of death that {p.Name} most had";
 
-                    var deaths = (from gk in db.GameKills
-                                  join pla in db.Players on gk.VictimId equals pla.Id
+                    var deaths = (from gk in db.GameKills.AsQueryable()
+                                  join pla in db.Players.AsQueryable() on gk.VictimId equals pla.Id
                                   where pla.TelegramId == p.TelegramId
                                   where gk.KillMethodId != 0
                                   group gk by new { kid = gk.KillMethodId, gid = gk.GameId, day = gk.Day });

@@ -406,7 +406,11 @@ namespace Werewolf_Control.Helpers
 
                 // search for language file entry and update it or add it if it's not present yet
                 Language language = db.Language.FirstOrDefault(x => x.FileName == newFile.FileName);
-                if (language == null) language = db.Language.Add(new Language { FileName = newFile.FileName });
+                if (language == null)
+                {
+                    language = new Language { FileName = newFile.FileName };
+                    db.Language.Add(language);
+                }
                 language.Base = newFile.Base;
                 language.IsDefault = newFile.IsDefault;
                 language.LangCode = newFile.LangCode;

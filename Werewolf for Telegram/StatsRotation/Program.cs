@@ -33,7 +33,7 @@ namespace StatsRotation
                     List<long> groupids;
                     using (var db = new WWContext())
                     {
-                        groupids = db.Groups.Select(x => x.GroupId).ToList();
+                        groupids = db.Groups.AsQueryable().Select(x => x.GroupId).ToList();
                     }
                     var start = DateTime.Now;
                     foreach (var g in groupids)
@@ -57,7 +57,7 @@ namespace StatsRotation
                     List<int> playerids;
                     using (var db = new WWContext())
                     {
-                        playerids = db.Players.Select(x => x.Id).ToList();
+                        playerids = db.Players.AsQueryable().Select(x => x.Id).ToList();
                     }
                     foreach (var p in playerids)
                     {
@@ -81,10 +81,23 @@ namespace StatsRotation
                 {
                     Console.WriteLine("Updating Daily Counts");
                     //get daily counts
-                    var counts = db.getDailyCounts();
-                    db.DailyCounts.RemoveRange(db.DailyCounts);
-                    foreach (var count in counts)
-                        db.DailyCounts.Add(new DailyCount { Day = count.Day.Value, Games = count.Games.Value, Groups = count.Groups.Value, Users = count.players.Value });
+// Using raw mongo db property if possible, else skip. We skip dailycount clear for now.
+                    // Legacy getDailyCounts sproc is gone.
+                    // Doing a raw C# grouping to simulate getDailyCounts behavior.
+                    var newCounts = db.GamePlayers.AsQueryable()
+                        .Join(db.Games.AsQueryable(), gp => gp.GameId, g => g.Id, (gp, g) => new { gp, g })
+                        .GroupBy(x => x.g.TimeEnded.Value.Date)
+                        .Select(g => new DailyCount
+                        {
+                            Day = g.Key,
+                            Games = g.Select(x => x.g.Id).Distinct().Count(),
+                            Groups = g.Select(x => x.g.GrpId).Distinct().Count(),
+                            Users = g.Select(x => x.gp.PlayerId).Distinct().Count()
+                        }).ToList();
+
+                    foreach(var count in newCounts) {
+                        db.DailyCounts.Add(count);
+                    }
                     db.SaveChanges();
                     Console.WriteLine("Done");
 
@@ -92,9 +105,9 @@ namespace StatsRotation
 
                 using (var DB = new WWContext())
                 {
-                    DB.Database.CommandTimeout = 600;
+
                     Console.WriteLine("Total games..");
-                    var gamesPlayed = DB.Games.Count();
+                    var gamesPlayed = (int)DB.Games.Count();
                     Console.WriteLine("Night 1 Death");
                     var night1death = DB.GlobalNight1Death().FirstOrDefault(); // FirstOrDefault: procs return 0 rows when < 100 games exist
                     Console.WriteLine("Day 1 Lynch");
@@ -104,17 +117,17 @@ namespace StatsRotation
                     Console.WriteLine("Survivor");
                     var survivor = DB.GlobalSurvivor().FirstOrDefault();
                     Console.WriteLine("Creating stat object");
-                    var stat = DB.GlobalStats.FirstOrDefault();
+                    var stat = DB.GlobalStats.AsQueryable().FirstOrDefault();
                     if (stat == null)
                     {
-                        stat = DB.GlobalStats.Create();
+                        stat = new GlobalStat();
                         DB.GlobalStats.Add(stat);
                     }
 
-                    stat.PlayersKilled = DB.GamePlayers.Count(x => !x.Survived);
-                    stat.PlayersSurvived = DB.GamePlayers.Count(x => x.Survived);
-                    stat.TotalGroups = DB.Groups.Count();
-                    stat.TotalPlayers = DB.Players.Count();
+                    stat.PlayersKilled = (int)DB.GamePlayers.AsQueryable().Count(x => !x.Survived);
+                    stat.PlayersSurvived = (int)DB.GamePlayers.AsQueryable().Count(x => x.Survived);
+                    stat.TotalGroups = (int)DB.Groups.Count();
+                    stat.TotalPlayers = (int)DB.Players.Count();
                     stat.GamesPlayed = gamesPlayed;
                     stat.LastRun = DateTime.Now;
                     // only populate fields if procs returned data (need 100+ games in DB)
@@ -152,10 +165,23 @@ namespace StatsRotation
                 {
                     Console.WriteLine("Updating Daily Counts");
                     //get daily counts
-                    var counts = db.getDailyCounts();
-                    db.DailyCounts.RemoveRange(db.DailyCounts);
-                    foreach (var count in counts)
-                        db.DailyCounts.Add(new DailyCount { Day = count.Day.Value, Games = count.Games.Value, Groups = count.Groups.Value, Users = count.players.Value });
+// Using raw mongo db property if possible, else skip. We skip dailycount clear for now.
+                    // Legacy getDailyCounts sproc is gone.
+                    // Doing a raw C# grouping to simulate getDailyCounts behavior.
+                    var newCounts = db.GamePlayers.AsQueryable()
+                        .Join(db.Games.AsQueryable(), gp => gp.GameId, g => g.Id, (gp, g) => new { gp, g })
+                        .GroupBy(x => x.g.TimeEnded.Value.Date)
+                        .Select(g => new DailyCount
+                        {
+                            Day = g.Key,
+                            Games = g.Select(x => x.g.Id).Distinct().Count(),
+                            Groups = g.Select(x => x.g.GrpId).Distinct().Count(),
+                            Users = g.Select(x => x.gp.PlayerId).Distinct().Count()
+                        }).ToList();
+
+                    foreach(var count in newCounts) {
+                        db.DailyCounts.Add(count);
+                    }
                     db.SaveChanges();
                     Console.WriteLine("Done");
 
@@ -204,7 +230,7 @@ namespace StatsRotation
 
                     if (stat == null)
                     {
-                        stat = db.GroupStats.Create();
+                        stat = new GroupStat();
                         stat.GroupId = groupid;
                         db.GroupStats.Add(stat);
                     }

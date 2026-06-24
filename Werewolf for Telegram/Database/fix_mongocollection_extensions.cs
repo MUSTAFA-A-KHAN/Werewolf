@@ -52,6 +52,11 @@ namespace Database
             return collection.Find(x => true).ToEnumerable();
         }
 
+        public static IQueryable<T> AsQueryable<T>(this IMongoCollection<T> collection)
+        {
+            return MongoDB.Driver.IMongoCollectionExtensions.AsQueryable(collection);
+        }
+
         public static long Count<T>(this IMongoCollection<T> collection)
         {
             return collection.CountDocuments(x => true);

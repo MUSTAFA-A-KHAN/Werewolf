@@ -535,15 +535,15 @@ namespace Werewolf_Control
                     result += "Account games overlap - old account has played a game since new account started\n";
                 }
                 //TODO Check groups played on old account vs new account
-                var oldGrp = (from grp in db.Groups
-                              join g in db.Games on grp.Id equals g.GrpId
-                              join gp in db.GamePlayers on g.Id equals gp.GameId
+                var oldGrp = (from grp in db.Groups.AsQueryable()
+                              join g in db.Games.AsQueryable() on grp.Id equals g.GrpId
+                              join gp in db.GamePlayers.AsQueryable() on g.Id equals gp.GameId
                               where gp.PlayerId == oldP.Id
                               select grp).Distinct();
 
-                var newGrp = (from grp in db.Groups
-                              join g in db.Games on grp.Id equals g.GrpId
-                              join gp in db.GamePlayers on g.Id equals gp.GameId
+                var newGrp = (from grp in db.Groups.AsQueryable()
+                              join g in db.Games.AsQueryable() on grp.Id equals g.GrpId
+                              join gp in db.GamePlayers.AsQueryable() on g.Id equals gp.GameId
                               where gp.PlayerId == newP.Id
                               select grp).Distinct();
 

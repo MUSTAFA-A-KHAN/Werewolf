@@ -46,28 +46,19 @@ if not "%OPENAI_TOKEN%"=="" (
     echo Skipping OpenAI API Token configuration.
 )
 echo.
-echo Starting MSSQL Docker container...
-docker run -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=Werewolf@12345" -p 1433:1433 --name werewolf-sql -d mcr.microsoft.com/mssql/server:2022-latest
-if %errorLevel% neq 0 (
-    echo Docker container might already be running or failed to start.
-    docker start werewolf-sql
+if not "%OPENAI_TOKEN%"=="" (
+    echo OpenAI API Token will be configured.
+) else (
+    echo Skipping OpenAI API Token configuration.
 )
 
-:: Wait for SQL Server to boot
-echo Waiting for SQL Server to initialize (30 seconds)...
-timeout /t 30 /nobreak >nul
-
-:: 4. Initialize Database
 echo.
-echo Creating Database...
-:: Convert Windows paths to Linux paths for Docker SQL Server
-powershell -Command "(Get-Content 'werewolf.sql') -replace 'C:\\Program Files\\Microsoft SQL Server\\MSSQL12.SQLEXPRESS\\MSSQL\\DATA\\', '/var/opt/mssql/data/' | Set-Content '%TEMP%\werewolf_docker.sql'"
-
-:: Copy and execute the modified script inside the container
-docker cp "%TEMP%\werewolf_docker.sql" werewolf-sql:/var/opt/mssql/data/werewolf_docker.sql
-:: Wait a bit more to be sure the DB is ready for queries
-timeout /t 10 /nobreak >nul
-docker exec -i werewolf-sql /opt/mssql-tools18/bin/sqlcmd -C -S localhost -U SA -P "Werewolf@12345" -i /var/opt/mssql/data/werewolf_docker.sql
+set /p MONGO_CONN_STR="Please enter your MongoDB Atlas Connection String: "
+if "%MONGO_CONN_STR%"=="" (
+    echo Error: MongoDB Atlas Connection String cannot be empty.
+    pause
+    exit /b
+)
 
 :: 5. Set Registry Keys
 echo.
@@ -77,8 +68,10 @@ if not "%OPENAI_TOKEN%"=="" (
     reg add "HKLM\SOFTWARE\Werewolf" /v OpenAIAPIKey /t REG_SZ /d "%OPENAI_TOKEN%" /f
     echo OpenAI API Key configured.
 )
-set DB_CONN="metadata=res://*/WerewolfModel.csdl|res://*/WerewolfModel.ssdl|res://*/WerewolfModel.msl;provider=System.Data.SqlClient;provider connection string=\"data source=localhost,1433;initial catalog=werewolf;user id=SA;password=Werewolf@12345;MultipleActiveResultSets=True;App=EntityFramework;TrustServerCertificate=True\""
-reg add "HKLM\SOFTWARE\Werewolf" /v BotConnectionString /t REG_SZ /d %DB_CONN% /f
+set DB_CONN="%MONGO_CONN_STR%"
+reg add "HKLM\SOFTWARE\Werewolf" /v BotConnectionString /t REG_SZ /d "%MONGO_CONN_STR%" /f
+reg add "HKLM\SOFTWARE\Werewolf" /v WEREWOLF_DB_CONNECTION_STRING /t REG_SZ /d "%MONGO_CONN_STR%" /f
+reg add "HKLM\SOFTWARE\Werewolf" /v WEREWOLF_MONGO_CONNECTION_STRING /t REG_SZ /d "%MONGO_CONN_STR%" /f
 
 :: 6. Build the Solution
 echo.

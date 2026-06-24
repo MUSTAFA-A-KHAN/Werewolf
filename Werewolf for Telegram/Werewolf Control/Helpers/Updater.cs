@@ -302,9 +302,9 @@ namespace Werewolf_Control.Helpers
 #endif
 
 #if !DEBUG
-                            var status = await db.BotStatus.FindAsync(bot);
+                            var status = db.BotStatus.AsQueryable().FirstOrDefault(x => x.Id == bot);
                             status.BotStatus = "Updating";
-                            await db.SaveChangesAsync();
+                            db.SaveChanges();
 #endif
                         }
                         Environment.Exit(1);

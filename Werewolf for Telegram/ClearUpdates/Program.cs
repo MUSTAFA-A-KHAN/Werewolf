@@ -146,7 +146,7 @@ namespace ClearUpdates
             {
                 using (var DB = new WWContext())
                 {
-                    var status = DB.BotStatus.First(x => x.Id == 1);
+                    var status = DB.BotStatus.AsQueryable().FirstOrDefault(x => x.Id == 1);
                     if (status.BotStatus != "Normal")
                     {
                         if (!dead)
