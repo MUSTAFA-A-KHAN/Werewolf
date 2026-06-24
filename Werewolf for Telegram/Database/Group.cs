@@ -11,7 +11,8 @@ namespace Database
 {
     using System;
     using System.Collections.Generic;
-    
+    using MongoDB.Bson;
+    using MongoDB.Bson.Serialization.Attributes;
     public partial class Group
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
@@ -21,7 +22,8 @@ namespace Database
             this.Players = new HashSet<Player>();
             this.GroupRanking = new HashSet<GroupRanking>();
         }
-    
+        [BsonId]
+        public ObjectId MongoId { get; set; }
         public int Id { get; set; }
         public string Name { get; set; }
         public long GroupId { get; set; }
