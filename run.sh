@@ -75,10 +75,10 @@ set +a
 #   --self-contained true \
 #   --no-restore
 
-# echo ""
-# echo "Preparing deployment..."
+echo ""
+echo "Preparing deployment..."
 
-# ROOT_DIR="$(pwd)/Server"
+ROOT_DIR="$(pwd)/Server"
 
 # mkdir -p "$ROOT_DIR/Control"
 # mkdir -p "$ROOT_DIR/Node 1"
