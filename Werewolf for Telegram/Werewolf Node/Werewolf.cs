@@ -3,6 +3,7 @@ using Newtonsoft.Json;
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using MongoDB.Driver;
 using System.Linq;
 using System.Text;
 using System.Threading;
@@ -652,7 +653,7 @@ namespace Werewolf_Node
 
                     GameId = game.Id; // fix: use the id of the game we just created, not a re-query that risks grabbing the wrong game
 
-                    db.Database.ExecuteSqlCommand($"DELETE FROM NotifyGame WHERE GroupId = {ChatId}");
+                     //db.Database.ExecuteSqlCommand($"DELETE FROM NotifyGame WHERE GroupId = {ChatId}");
                 }
                 IsInitializing = false;
 
@@ -681,28 +682,8 @@ namespace Werewolf_Node
                     CheckRoleChanges();
                     CheckLongHaul();
                     LynchCycle();
+}
                 }
-            }
-            catch (System.Data.Entity.Validation.DbEntityValidationException ex)
-            {
-                var msg = "";
-                if (ex.InnerException != null)
-                    msg += ex.InnerException.Message;
-                foreach (var ves in ex.EntityValidationErrors)
-                {
-                    foreach (var ve in ves.ValidationErrors)
-                    {
-                        msg += $"{ves.Entry.Entity}:{ve.ErrorMessage}\n";
-                    }
-                }
-
-
-                Send("Something just went terribly wrong, I had to cancel the game....");
-                Send(
-                    Program.Version.FileVersion +
-                    $"\nGroup: {ChatId} ({ChatGroup})\nLanguage: {DbGroup?.Language ?? "null"}\n{Program.ClientId}\n{ex.Message}\n{msg}\n{ex.StackTrace}",
-                    Program.ErrorGroup);
-            }
             catch (Exception ex)
             {
                 LogAllExceptions(ex);
@@ -6450,7 +6431,7 @@ namespace Werewolf_Node
         {
             using (var db = new WWContext())
             {
-                var refresh = db.RefreshDate.FirstOrDefault();
+                var refresh = db.RefreshDate.Find(x => true).FirstOrDefault();
 
                 if (refresh == null)
                     {
@@ -6467,7 +6448,7 @@ var refreshdate = refresh.Date;
                 if (DateTime.Now.Date - refreshdate >= TimeSpan.FromDays(7))
                 {
                     refreshdate = DateTime.Now.Date;
-                    db.RefreshDate.FirstOrDefault().Date = refreshdate;
+                    db.RefreshDate.Find(x => true).FirstOrDefault().Date = refreshdate;
                     db.SaveChanges();
                 }
 

@@ -7,8 +7,6 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using Database;
-using MongoDB.Driver;
-using MongoDB.Driver.Linq;
 
 namespace StatsRotation
 {
@@ -35,7 +33,7 @@ namespace StatsRotation
                     List<long> groupids;
                     using (var db = new WWContext())
                     {
-                        groupids = db.Groups.AsQueryable().Select(x => x.GroupId).ToList();
+                        groupids = db.Groups.Select(x => x.GroupId).ToList();
                     }
                     var start = DateTime.Now;
                     foreach (var g in groupids)
@@ -59,7 +57,7 @@ namespace StatsRotation
                     List<int> playerids;
                     using (var db = new WWContext())
                     {
-                        playerids = db.Players.AsQueryable().Select(x => x.Id).ToList();
+                        playerids = db.Players.Select(x => x.Id).ToList();
                     }
                     foreach (var p in playerids)
                     {
@@ -84,15 +82,17 @@ namespace StatsRotation
                     Console.WriteLine("Updating Daily Counts");
                     //get daily counts
                     var counts = db.getDailyCounts();
-                    db.DailyCounts.DeleteMany(Builders<DailyCount>.Filter.Empty);
+                    db.DailyCounts.RemoveRange(db.DailyCounts);
                     foreach (var count in counts)
-                        db.DailyCounts.InsertOne(new DailyCount { Day = count.Date.Value, Games = count.Count.Value, Groups = count.Count.Value, Users = count.Count.Value });
+                        db.DailyCounts.Add(new DailyCount { Day = count.Day.Value, Games = count.Games.Value, Groups = count.Groups.Value, Users = count.players.Value });
+                    db.SaveChanges();
                     Console.WriteLine("Done");
 
                 }
 
                 using (var DB = new WWContext())
                 {
+                    DB.Database.CommandTimeout = 600;
                     Console.WriteLine("Total games..");
                     var gamesPlayed = DB.Games.Count();
                     Console.WriteLine("Night 1 Death");
@@ -104,17 +104,18 @@ namespace StatsRotation
                     Console.WriteLine("Survivor");
                     var survivor = DB.GlobalSurvivor().FirstOrDefault();
                     Console.WriteLine("Creating stat object");
-                    var stat = DB.GlobalStats.FirstOrDefault(x => true);
+                    var stat = DB.GlobalStats.FirstOrDefault();
                     if (stat == null)
                     {
-                        stat = new GlobalStat();
+                        stat = DB.GlobalStats.Create();
+                        DB.GlobalStats.Add(stat);
                     }
 
-                    stat.PlayersKilled = (int)DB.GamePlayers.AsQueryable().Count(x => !x.Survived);
-                    stat.PlayersSurvived = (int)DB.GamePlayers.AsQueryable().Count(x => x.Survived);
-                    stat.TotalGroups = (int)DB.Groups.CountDocuments(x => true);
-                    stat.TotalPlayers = (int)DB.Players.CountDocuments(x => true);
-                    stat.GamesPlayed = (int)gamesPlayed;
+                    stat.PlayersKilled = DB.GamePlayers.Count(x => !x.Survived);
+                    stat.PlayersSurvived = DB.GamePlayers.Count(x => x.Survived);
+                    stat.TotalGroups = DB.Groups.Count();
+                    stat.TotalPlayers = DB.Players.Count();
+                    stat.GamesPlayed = gamesPlayed;
                     stat.LastRun = DateTime.Now;
                     // only populate fields if procs returned data (need 100+ games in DB)
                     if (survivor != null)
@@ -152,9 +153,10 @@ namespace StatsRotation
                     Console.WriteLine("Updating Daily Counts");
                     //get daily counts
                     var counts = db.getDailyCounts();
-                    db.DailyCounts.DeleteMany(Builders<DailyCount>.Filter.Empty);
+                    db.DailyCounts.RemoveRange(db.DailyCounts);
                     foreach (var count in counts)
-                        db.DailyCounts.InsertOne(new DailyCount { Day = count.Date.Value, Games = count.Count.Value, Groups = count.Count.Value, Users = count.Count.Value });
+                        db.DailyCounts.Add(new DailyCount { Day = count.Day.Value, Games = count.Games.Value, Groups = count.Groups.Value, Users = count.players.Value });
+                    db.SaveChanges();
                     Console.WriteLine("Done");
 
                 }
@@ -202,8 +204,9 @@ namespace StatsRotation
 
                     if (stat == null)
                     {
-                        stat = new GroupStat();
+                        stat = db.GroupStats.Create();
                         stat.GroupId = groupid;
+                        db.GroupStats.Add(stat);
                     }
 
                     stat.GroupName = grp.Name;

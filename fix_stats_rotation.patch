@@ -1,0 +1,140 @@
+--- "Werewolf for Telegram/StatsRotation/Program.cs"
++++ "Werewolf for Telegram/StatsRotation/Program.cs"
+@@ -7,6 +7,8 @@
+ using System.Threading;
+ using System.Threading.Tasks;
+ using Database;
++using MongoDB.Driver;
++using MongoDB.Driver.Linq;
+
+ namespace StatsRotation
+ {
+@@ -35,7 +37,7 @@
+                     List<long> groupids;
+                     using (var db = new WWContext())
+                     {
+-                        groupids = db.Groups.Select(x => x.GroupId).ToList();
++                        groupids = db.Groups.AsQueryable().Select(x => x.GroupId).ToList();
+                     }
+                     var start = DateTime.Now;
+                     foreach (var g in groupids)
+@@ -59,7 +61,7 @@
+                     List<int> playerids;
+                     using (var db = new WWContext())
+                     {
+-                        playerids = db.Players.Select(x => x.Id).ToList();
++                        playerids = db.Players.AsQueryable().Select(x => x.Id).ToList();
+                     }
+                     foreach (var p in playerids)
+                     {
+@@ -84,17 +86,15 @@
+                     Console.WriteLine("Updating Daily Counts");
+                     //get daily counts
+                     var counts = db.getDailyCounts();
+-                    db.DailyCounts.RemoveRange(db.DailyCounts);
++                    db.DailyCounts.DeleteMany(Builders<DailyCount>.Filter.Empty);
+                     foreach (var count in counts)
+-                        db.DailyCounts.Add(new DailyCount { Day = count.Day.Value, Games = count.Games.Value, Groups = count.Groups.Value, Users = count.players.Value });
+-                    db.SaveChanges();
++                        db.DailyCounts.InsertOne(new DailyCount { Day = count.Date.Value, Games = count.Count.Value, Groups = count.Count.Value, Users = count.Count.Value });
+                     Console.WriteLine("Done");
+
+                 }
+
+                 using (var DB = new WWContext())
+                 {
+-                    DB.Database.CommandTimeout = 600;
+                     Console.WriteLine("Total games..");
+                     var gamesPlayed = DB.Games.CountDocuments(x => true);
+                     Console.WriteLine("Night 1 Death");
+@@ -106,18 +106,17 @@
+                     Console.WriteLine("Survivor");
+                     var survivor = DB.GlobalSurvivor().FirstOrDefault();
+                     Console.WriteLine("Creating stat object");
+-                    var stat = DB.GlobalStats.FirstOrDefault();
++                    var stat = DB.GlobalStats.FirstOrDefault(x => true);
+                     if (stat == null)
+                     {
+-                        stat = DB.GlobalStats.Create();
+-                        DB.GlobalStats.Add(stat);
++                        stat = new GlobalStat();
+                     }
+
+-                    stat.PlayersKilled = DB.GamePlayers.Count(x => !x.Survived);
+-                    stat.PlayersSurvived = DB.GamePlayers.Count(x => x.Survived);
+-                    stat.TotalGroups = DB.Groups.Count();
+-                    stat.TotalPlayers = DB.Players.Count();
+-                    stat.GamesPlayed = gamesPlayed;
++                    stat.PlayersKilled = (int)DB.GamePlayers.AsQueryable().Count(x => !x.Survived);
++                    stat.PlayersSurvived = (int)DB.GamePlayers.AsQueryable().Count(x => x.Survived);
++                    stat.TotalGroups = (int)DB.Groups.CountDocuments(x => true);
++                    stat.TotalPlayers = (int)DB.Players.CountDocuments(x => true);
++                    stat.GamesPlayed = (int)gamesPlayed;
+                     stat.LastRun = DateTime.Now;
+                     // only populate fields if procs returned data (need 100+ games in DB)
+                     if (survivor != null)
+@@ -140,8 +139,13 @@
+                         stat.MostLynchedFirstPercent = day1lynch.pct;
+                         stat.MostLynchedFirstDayId = day1lynch.TelegramId;
+                     }
+                     Console.WriteLine("Saving to database");
+-                    DB.SaveChanges();
++                    var filter = Builders<GlobalStat>.Filter.Eq(x => x.Id, stat.Id);
++                    if (DB.GlobalStats.Find(filter).FirstOrDefault() == null) {
++                        DB.GlobalStats.InsertOne(stat);
++                    } else {
++                        DB.GlobalStats.ReplaceOne(filter, stat);
++                    }
+                     Console.WriteLine("Done");
+                 }
+
+@@ -155,10 +159,9 @@
+                     Console.WriteLine("Updating Daily Counts");
+                     //get daily counts
+                     var counts = db.getDailyCounts();
+-                    db.DailyCounts.RemoveRange(db.DailyCounts);
++                    db.DailyCounts.DeleteMany(Builders<DailyCount>.Filter.Empty);
+                     foreach (var count in counts)
+-                        db.DailyCounts.Add(new DailyCount { Day = count.Day.Value, Games = count.Games.Value, Groups = count.Groups.Value, Users = count.players.Value });
+-                    db.SaveChanges();
++                        db.DailyCounts.InsertOne(new DailyCount { Day = count.Date.Value, Games = count.Count.Value, Groups = count.Count.Value, Users = count.Count.Value });
+                     Console.WriteLine("Done");
+
+                 }
+@@ -204,9 +207,8 @@
+
+                     if (stat == null)
+                     {
+-                        stat = db.GroupStats.Create();
++                        stat = new GroupStat();
+                         stat.GroupId = groupid;
+-                        db.GroupStats.Add(stat);
+                     }
+
+                     stat.GroupName = grp.Name;
+@@ -213,8 +215,8 @@
+                     //TODO add this metric later
+-                    //stat.PlayersKilled = db.GamePlayers.Count(x => !x.Survived);
+-                    //stat.PlayersSurvived = db.GamePlayers.Count(x => x.Survived);
++                    stat.PlayersKilled = (int)db.GamePlayers.AsQueryable().Count(x => x.Game.GrpId == groupid && !x.Survived);
++                    stat.PlayersSurvived = (int)db.GamePlayers.AsQueryable().Count(x => x.Game.GrpId == groupid && x.Survived);
+
+-                    stat.GamesPlayed = gamesPlayed;
++                    stat.GamesPlayed = (int)gamesPlayed;
+                     stat.LastRun = DateTime.Now;
+                     if (survivor != null)
+                     {
+@@ -232,7 +234,12 @@
+                         stat.MostLynchedFirstNight = day1lynch.Name;
+                         stat.MostLynchFirstPercent = day1lynch.pct;
+                     }
+-                    db.SaveChanges();
++                    var filter = Builders<GroupStat>.Filter.Eq(x => x.GroupId, groupid);
++                    if (db.GroupStats.Find(filter).FirstOrDefault() == null) {
++                        db.GroupStats.InsertOne(stat);
++                    } else {
++                        db.GroupStats.ReplaceOne(filter, stat);
++                    }
+
+                 }
+             }
