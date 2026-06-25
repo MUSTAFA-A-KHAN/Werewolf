@@ -2,11 +2,14 @@ module github.com/werewolf-go/werewolf
 
 go 1.22.0
 
-require go.mongodb.org/mongo-driver v1.17.9
+require (
+	github.com/joho/godotenv v1.5.1
+	go.mongodb.org/mongo-driver v1.17.9
+	gopkg.in/telebot.v3 v3.3.8
+)
 
 require (
 	github.com/golang/snappy v0.0.4 // indirect
-	github.com/joho/godotenv v1.5.1 // indirect
 	github.com/klauspost/compress v1.16.7 // indirect
 	github.com/montanaflynn/stats v0.7.1 // indirect
 	github.com/xdg-go/pbkdf2 v1.0.0 // indirect
@@ -16,5 +19,4 @@ require (
 	golang.org/x/crypto v0.26.0 // indirect
 	golang.org/x/sync v0.8.0 // indirect
 	golang.org/x/text v0.17.0 // indirect
-	gopkg.in/telebot.v3 v3.3.8 // indirect
 )

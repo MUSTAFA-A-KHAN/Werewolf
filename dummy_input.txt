@@ -1,0 +1,3 @@
+12345
+mongodb+srv://dummy
+dummy_openai
