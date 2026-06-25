@@ -1,6 +1,6 @@
 module github.com/werewolf-go/werewolf
 
-go 1.24.3
+go 1.22.0
 
 require go.mongodb.org/mongo-driver v1.17.9
 
