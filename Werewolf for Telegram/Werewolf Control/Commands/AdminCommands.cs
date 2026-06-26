@@ -397,7 +397,11 @@ namespace Werewolf_Control
                             }
                             ach = ach.Set(a);
                             p.NewAchievements = ach.ToByteArray();
-                            db.SaveChanges();
+
+                            var filter = MongoDB.Driver.Builders<Player>.Filter.Eq(x => x.TelegramId, p.TelegramId);
+                            var update = MongoDB.Driver.Builders<Player>.Update.Set(x => x.NewAchievements, p.NewAchievements);
+                            db.Players.UpdateOne(filter, update);
+
                             Send($"Achievement Unlocked!\n{a.GetName().ToBold()}\n{a.GetDescription()}", p.TelegramId);
                             Send($"Achievement {a} unlocked for {p.Name.ToBold()}", u.Message.Chat.Id);
                         }
@@ -483,7 +487,10 @@ namespace Werewolf_Control
                             }
                             ach = ach.Unset(a);
                             p.NewAchievements = ach.ToByteArray();
-                            db.SaveChanges();
+
+                            var filter = MongoDB.Driver.Builders<Player>.Filter.Eq(x => x.TelegramId, p.TelegramId);
+                            var update = MongoDB.Driver.Builders<Player>.Update.Set(x => x.NewAchievements, p.NewAchievements);
+                            db.Players.UpdateOne(filter, update);
 
                             Send($"Achievement {a} removed from {p.Name.ToBold()}", u.Message.Chat.Id);
                         }

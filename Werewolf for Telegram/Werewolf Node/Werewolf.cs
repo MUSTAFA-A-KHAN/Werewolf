@@ -6414,7 +6414,10 @@ namespace Werewolf_Node
 
                         //now save
                         p.NewAchievements = ach2.Or(newAch2).ToByteArray();
-                        db.SaveChanges();
+
+                        var filter = Builders<Database.Player>.Filter.Eq(x => x.TelegramId, p.TelegramId);
+                        var update = Builders<Database.Player>.Update.Set(x => x.NewAchievements, p.NewAchievements);
+                        db.Players.UpdateOne(filter, update);
 
                         //notify
                         var newFlags2 = newAch2.GetUniqueFlags().ToList();
@@ -6566,7 +6569,10 @@ var refreshdate = refresh.Date;
                     if (ach.HasFlag(a)) return; //no point making another db call if they already have it
                     ach = ach.Set(a);
                     p.NewAchievements = ach.ToByteArray();
-                    db.SaveChanges();
+
+                    var filter = Builders<Database.Player>.Filter.Eq(x => x.TelegramId, p.TelegramId);
+                    var update = Builders<Database.Player>.Update.Set(x => x.NewAchievements, p.NewAchievements);
+                    db.Players.UpdateOne(filter, update);
 
                     Send($"Achievement Unlocked!\n{a.GetName().ToBold()}\n{a.GetDescription()}", player.Id);
                 }
