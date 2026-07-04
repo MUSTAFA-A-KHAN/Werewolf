@@ -1121,7 +1121,10 @@ namespace Werewolf_Control.Handler
                                         newach[i] = newach[i] | oldach[i];
                                     }
                                     newPlayer.NewAchievements = newach.ToByteArray();
-                                    db.SaveChanges();
+
+                                    var filter = MongoDB.Driver.Builders<Player>.Filter.Eq(x => x.TelegramId, newPlayer.TelegramId);
+                                    var update = MongoDB.Driver.Builders<Player>.Update.Set(x => x.NewAchievements, newPlayer.NewAchievements);
+                                    db.Players.UpdateOne(filter, update);
                                 }
                             }
                             var oldname = DB.Players.FirstOrDefault(x => x.TelegramId == oldid)?.Name;
@@ -1978,7 +1981,10 @@ namespace Werewolf_Control.Handler
                 if (ach.HasFlag(a)) return false; //no point making another db call if they already have it
                 ach = ach.Set(a);
                 p.NewAchievements = ach.ToByteArray();
-                db.SaveChanges();
+
+                var filter = MongoDB.Driver.Builders<Player>.Filter.Eq(x => x.TelegramId, p.TelegramId);
+                var update = MongoDB.Driver.Builders<Player>.Update.Set(x => x.NewAchievements, p.NewAchievements);
+                db.Players.UpdateOne(filter, update);
 
                 Send($"Achievement Unlocked!\n{a.GetName().ToBold()}\n{a.GetDescription()}", p.TelegramId);
                 return true;

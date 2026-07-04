@@ -148,7 +148,9 @@ namespace Werewolf_Node
                         var memberCount = Program.Bot.GetChatMemberCountAsync(chatId: chatid).Result;
                         DbGroup.MemberCount = memberCount;
 
-                        db.SaveChanges();
+                        var gFilter = Builders<Database.Group>.Filter.Eq(x => x.Id, DbGroup.Id);
+                        var gUpdate = Builders<Database.Group>.Update.Set(x => x.MemberCount, memberCount);
+                        db.Groups.UpdateOne(gFilter, gUpdate);
                     }
                     catch
                     {
@@ -184,7 +186,9 @@ namespace Werewolf_Node
                     ShowIDs = DbGroup.HasFlag(GroupConfig.ShowIDs);
                     ShufflePlayerList = DbGroup.HasFlag(GroupConfig.ShufflePlayerList);
                     RandomMode = DbGroup.HasFlag(GroupConfig.RandomMode);
-                    db.SaveChanges();
+
+                    var gf = Builders<Database.Group>.Filter.Eq(x => x.Id, DbGroup.Id);
+                    db.Groups.ReplaceOne(gf, DbGroup);
 
                     var modes = Enum.GetValues(typeof(GameMode)).Cast<GameMode>();
                     if (RandomMode)
@@ -617,9 +621,7 @@ namespace Werewolf_Node
 #endif
                     };
 
-                    db.SaveChanges();
                     db.Games.Add(game);
-                    db.SaveChanges();
 
                     foreach (var p in Players)
                     {
@@ -638,15 +640,18 @@ namespace Werewolf_Node
 
                         p.Language = dbp.Language;
 
-                        db.SaveChanges();
+                        var pf = Builders<Database.Player>.Filter.Eq(x => x.Id, dbp.Id);
+                        db.Players.ReplaceOne(pf, dbp);
+
                         var gamePlayer = new GamePlayer
                         {
+                            PlayerId = dbp.Id,
                             GameId = game.Id,
                             Survived = true,
                             Role = p.PlayerRole.ToString()
                         };
                         dbp.GamePlayers.Add(gamePlayer);
-                        db.SaveChanges();
+                        db.GamePlayers.Add(gamePlayer);
 
                         //new Task(() => { ImageHelper.GetUserImage(p.TeleUser.Id); }).Start();
                     }
@@ -815,7 +820,8 @@ namespace Werewolf_Node
                         }
                         */
 
-                        db.SaveChanges();
+                        var upf = Builders<Database.Player>.Filter.Eq(x => x.Id, user.Id);
+                        db.Players.ReplaceOne(upf, user);
 
                         var botname = "@" + Program.Me.Username;
                     }
@@ -5199,7 +5205,10 @@ namespace Werewolf_Node
                         SendWithQueue(msg, GetRandomImage(VillagersWin));
                         break;
                 }
-                db.SaveChanges();
+
+                var gmf = Builders<Database.Game>.Filter.Eq(x => x.Id, game.Id);
+                db.Games.ReplaceOne(gmf, game);
+
                 switch (DbGroup.ShowRolesEnd)
                 {
                     case "None":
@@ -5247,7 +5256,11 @@ namespace Werewolf_Node
 
             var dbGamePlayer = GetDBGamePlayer(player, db);
             if (dbGamePlayer != null)
+            {
                 dbGamePlayer.Won = true;
+                var gpf = Builders<Database.GamePlayer>.Filter.Eq(x => x.Id, dbGamePlayer.Id);
+                db.GamePlayers.ReplaceOne(gpf, dbGamePlayer);
+            }
         }
 
 
@@ -6154,7 +6167,10 @@ namespace Werewolf_Node
                     }
                     var dbgp = dbpVictim == null ? GetDBGamePlayer(victim, db) : GetDBGamePlayer(dbpVictim);
                     dbgp.Survived = false;
-                    db.SaveChanges();
+
+                    var gpf = Builders<Database.GamePlayer>.Filter.Eq(x => x.Id, dbgp.Id);
+                    db.GamePlayers.ReplaceOne(gpf, dbgp);
+
                     var gk = new GameKill
                     {
                         Day = GameDay,
@@ -6165,8 +6181,6 @@ namespace Werewolf_Node
                         VictimId = victimid
                     };
                     db.GameKills.Add(gk);
-
-                    db.SaveChanges();
                 }
                 catch (Exception)
                 {
@@ -6414,7 +6428,10 @@ namespace Werewolf_Node
 
                         //now save
                         p.NewAchievements = ach2.Or(newAch2).ToByteArray();
-                        db.SaveChanges();
+
+                        var filter = Builders<Database.Player>.Filter.Eq(x => x.TelegramId, p.TelegramId);
+                        var update = Builders<Database.Player>.Update.Set(x => x.NewAchievements, p.NewAchievements);
+                        db.Players.UpdateOne(filter, update);
 
                         //notify
                         var newFlags2 = newAch2.GetUniqueFlags().ToList();
@@ -6510,6 +6527,9 @@ var refreshdate = refresh.Date;
                     grpranking.MinutesPlayed = 0;
                     grpranking.GamesPlayed = 0;
                     grpranking.LastRefresh = refreshdate;
+
+                    var gf = Builders<Database.GroupRanking>.Filter.Eq(x => x.Id, grpranking.Id);
+                    db.GroupRanking.ReplaceOne(gf, grpranking);
                 }
 
                 if (_timePlayed.HasValue)
@@ -6523,10 +6543,14 @@ var refreshdate = refresh.Date;
                         allVarRanking.GamesPlayed++;
                         allVarRanking.PlayersCount += Players.Count();
                         allVarRanking.MinutesPlayed += Math.Round((decimal)_timePlayed.Value.TotalMinutes, 10);
-                    }
-                }
 
-                db.SaveChanges();
+                        var arf = Builders<Database.GroupRanking>.Filter.Eq(x => x.Id, allVarRanking.Id);
+                        db.GroupRanking.ReplaceOne(arf, allVarRanking);
+                    }
+
+                    var crf = Builders<Database.GroupRanking>.Filter.Eq(x => x.Id, curRanking.Id);
+                    db.GroupRanking.ReplaceOne(crf, curRanking);
+                }
             }
         }
 
@@ -6566,7 +6590,10 @@ var refreshdate = refresh.Date;
                     if (ach.HasFlag(a)) return; //no point making another db call if they already have it
                     ach = ach.Set(a);
                     p.NewAchievements = ach.ToByteArray();
-                    db.SaveChanges();
+
+                    var filter = Builders<Database.Player>.Filter.Eq(x => x.TelegramId, p.TelegramId);
+                    var update = Builders<Database.Player>.Update.Set(x => x.NewAchievements, p.NewAchievements);
+                    db.Players.UpdateOne(filter, update);
 
                     Send($"Achievement Unlocked!\n{a.GetName().ToBold()}\n{a.GetDescription()}", player.Id);
                 }
